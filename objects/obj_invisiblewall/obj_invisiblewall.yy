@@ -47,6 +47,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_car_s","path":"objects/obj_woi_invisible_car_s/obj_woi_invisible_car_s.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_car_w","path":"objects/obj_woi_invisible_car_w/obj_woi_invisible_car_w.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_motorcycle","path":"objects/obj_woi_invisible_motorcycle/obj_woi_invisible_motorcycle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_column_inside","path":"objects/obj_column_inside/obj_column_inside.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

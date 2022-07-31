@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_woi_invisible_wall",
+    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -38,7 +41,7 @@
     "path": "folders/Objects/Center/Culture Inside.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_center_right69",
+  "name": "obj_door_culture_inside",
   "tags": [],
   "resourceType": "GMObject",
 }

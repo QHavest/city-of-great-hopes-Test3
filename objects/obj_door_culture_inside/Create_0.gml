@@ -2,8 +2,8 @@
 newroom = rm_culture_inside
 oldroom = rm_center_right
 ///координаты в первое комнате
-new_x = 25
-new_y = 275
+new_x = 395
+new_y = 110
 ///координаты в второй комнате
 old_x = 420
 old_y = 235
