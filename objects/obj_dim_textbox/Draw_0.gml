@@ -45,30 +45,33 @@ if draw_char < text_length[0] {
 	
 }
 	
-// вивід варіантів відповідей
-if draw_char==text_length[page] && page=page_number-1
-	{
-	var _op_border =5;
-	for(var op=0; op<option_number; op++)
-		{
-		// поле для тексту відповіді
-		var _o_w = string_length(option[op])+_op_border*2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,14,0,c_black,1);
-		
-		// текст варіанту відповіді
-			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
-		
-		}
 
-	}
-	
-	
 	
 // малюваня контурів тексту
 txtb_img+=txtb_img_spd;
 txt_spr_w = sprite_get_width(txtb_sprite);
 txt_spr_h = sprite_get_height(txtb_sprite);
 draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
+
+// вивід варіантів відповідей
+if draw_char==text_length[page] && page=page_number-1
+	{
+	var _op_border =5;
+	//координати відповідей
+	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+280; X_op[3]=camera_get_view_x(view_camera[0])+280; Y_op[0]=camera_get_view_y(view_camera[0])+240; Y_op[1]=camera_get_view_y(view_camera[0])+270; Y_op[2]=camera_get_view_y(view_camera[0])+240; Y_op[3]=camera_get_view_y(view_camera[0])+270;
+	for(var op=0; op<option_number; op++)
+		{
+		// поле для тексту відповіді
+		var _o_w = string_width(option[op])+_op_border*2;
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,25/txt_spr_h,0,c_black,1);
+		
+		// текст варіанту відповіді
+			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
+		}
+
+	}
+	
+
 // вивід тксту
 var _drawtext = string_copy(text[page], 1, draw_char)
 draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border,_drawtext, line_sep,line_widt,)

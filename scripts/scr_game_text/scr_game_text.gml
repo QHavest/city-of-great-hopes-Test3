@@ -19,8 +19,8 @@ case "3":
 	scr_text("whant you to play?");
 		scr_option("yes");
 		scr_option("no");
-		scr_option("I am thinking about it");
-		scr_option("No, but if you ask...");
+	//	scr_option("I am thinking about it");
+	//	scr_option("No, but if you ask...");
 	break
 	
 case "4":
