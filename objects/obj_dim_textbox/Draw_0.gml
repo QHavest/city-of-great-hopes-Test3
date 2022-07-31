@@ -3,14 +3,16 @@ accept_key=keyboard_check_pressed(ord("Z"));
 //textbox_y = camera_get_view_y(view_camera[0])+100;
 textbox_x = obj_dim_player.x-120;
 textbox_y = obj_dim_player.y-100;
+
 //setup
 if setup == false {
 	setup = true;
 	draw_set_font(Font1);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
+
 	// цикл для "листання" сторінок
-	page_number = array_length(text);
+	//page_number = array_length(text);
 	for(var p=0; p<page_number; p++){
 		//визначення кількості символів на сторіні
 		text_length[p] = string_length(text[p]);
@@ -42,6 +44,26 @@ if draw_char < text_length[0] {
 		}
 	
 }
+	
+// вивід варіантів відповідей
+if draw_char==text_length[page] && page=page_number-1
+	{
+	var _op_border =5;
+	for(var op=0; op<option_number; op++)
+		{
+		// поле для тексту відповіді
+		var _o_w = string_length(option[op])+_op_border*2;
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,14,0,c_black,1);
+		
+		// текст варіанту відповіді
+			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
+		
+		}
+
+	}
+	
+	
+	
 // малюваня контурів тексту
 txtb_img+=txtb_img_spd;
 txt_spr_w = sprite_get_width(txtb_sprite);

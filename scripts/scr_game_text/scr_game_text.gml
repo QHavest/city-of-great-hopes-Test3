@@ -2,6 +2,9 @@
 function scr_game_text(_text_id){
 	switch (_text_id)
 	{
+		
+		
+		
 case "1":
 	scr_text("Go out from Ukrain Moscal");
 	scr_text("Get'! Get'! Get!");
@@ -13,7 +16,11 @@ case "2":
 	
 case "3":
 	scr_text("text");
-	scr_text("text2");
+	scr_text("whant you to play?");
+		scr_option("yes");
+		scr_option("no");
+		scr_option("I am thinking about it");
+		scr_option("No, but if you ask...");
 	break
 	
 case "4":
