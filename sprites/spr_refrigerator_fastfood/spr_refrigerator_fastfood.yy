@@ -8,8 +8,8 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 86,
-  "bbox_top": 74,
+  "bbox_right": 83,
+  "bbox_top": 3,
   "bbox_bottom": 78,
   "HTile": false,
   "VTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"872403ab-4e03-4b64-8c1f-26091637bc69","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"872403ab-4e03-4b64-8c1f-26091637bc69","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"LayerId":{"name":"c342d366-0160-4ba0-beb0-4990f109eb59","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_refrigerator_fastfood","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","name":"872403ab-4e03-4b64-8c1f-26091637bc69","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ca6a084f-73a9-43fb-8977-0bdc2bfc31c5","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ca6a084f-73a9-43fb-8977-0bdc2bfc31c5","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"LayerId":{"name":"570dca8e-1324-406d-bc0c-39fb68f2ccfd","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_refrigerator_fastfood","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","name":"ca6a084f-73a9-43fb-8977-0bdc2bfc31c5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_refrigerator_fastfood","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f9703c10-1e52-4f53-a881-362f2a92a38e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"872403ab-4e03-4b64-8c1f-26091637bc69","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"c4fa8a5c-1ae9-4437-b9c9-d6313e6ff65f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca6a084f-73a9-43fb-8977-0bdc2bfc31c5","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c342d366-0160-4ba0-beb0-4990f109eb59","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"570dca8e-1324-406d-bc0c-39fb68f2ccfd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
