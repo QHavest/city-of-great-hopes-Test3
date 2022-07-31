@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Culture Inside",
-    "path": "folders/Objects/Center/Culture Inside.yy",
+    "path": "folders/Objects/Center/Right/Culture Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_column_inside",

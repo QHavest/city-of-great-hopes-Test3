@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
+    "name": "Portal",
+    "path": "sprites/Portal/Portal.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +25,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":32.0,"y":0.0,},
-    {"x":32.0,"y":32.0,},
-    {"x":0.0,"y":32.0,},
+    {"x":100.0,"y":0.0,},
+    {"x":100.0,"y":100.0,},
+    {"x":0.0,"y":100.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -38,7 +38,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Culture Inside",
-    "path": "folders/Objects/Center/Culture Inside.yy",
+    "path": "folders/Objects/Center/Right/Culture Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_door_culture_inside",
