@@ -86,8 +86,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Center",
-    "path": "folders/Rooms/Center.yy",
+    "name": "Right",
+    "path": "folders/Rooms/Center/Right.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_fasfood",

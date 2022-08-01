@@ -56,7 +56,7 @@
   },
   "parent": {
     "name": "Culture Inside",
-    "path": "folders/Rooms/Center/Culture Inside.yy",
+    "path": "folders/Rooms/Center/Right/Culture Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_culture_hall_r",

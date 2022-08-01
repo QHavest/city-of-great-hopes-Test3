@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_culture_hall_l","path":"objects/obj_door_culture_hall_l/obj_door_culture_hall_l.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5300001,"scaleY":0.30999997,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":298.5,"y":238.5,"resourceVersion":"1.0","name":"inst_3D1A1442","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_culture_hall_l","path":"objects/obj_door_culture_hall_l/obj_door_culture_hall_l.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.54,"scaleY":0.33,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":299.0,"y":238.5,"resourceVersion":"1.0","name":"inst_7E2B7D44","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.5,"scaleY":0.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":298.0,"y":217.0,"resourceVersion":"1.0","name":"inst_14A0D406_1","tags":[],"resourceType":"GMRInstance",},
@@ -32,7 +32,7 @@
     {"name":"inst_6E5AFE47_1","path":"rooms/rm_culture_hall_l/rm_culture_hall_l.yy",},
     {"name":"inst_48B89300_1","path":"rooms/rm_culture_hall_l/rm_culture_hall_l.yy",},
     {"name":"inst_38CF6279_1","path":"rooms/rm_culture_hall_l/rm_culture_hall_l.yy",},
-    {"name":"inst_3D1A1442","path":"rooms/rm_culture_hall_l/rm_culture_hall_l.yy",},
+    {"name":"inst_7E2B7D44","path":"rooms/rm_culture_hall_l/rm_culture_hall_l.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -57,7 +57,7 @@
   },
   "parent": {
     "name": "Culture Inside",
-    "path": "folders/Rooms/Center/Culture Inside.yy",
+    "path": "folders/Rooms/Center/Right/Culture Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_culture_hall_l",
