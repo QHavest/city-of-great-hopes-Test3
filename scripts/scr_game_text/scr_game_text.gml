@@ -17,11 +17,17 @@ case "2":
 case "3":
 	scr_text("text");
 	scr_text("whant you to play?");
-		scr_option("yes");
-		scr_option("no");
-	//	scr_option("I am thinking about it");
-	//	scr_option("No, but if you ask...");
+		scr_option("yes", "npc1-yes");
+		scr_option("no", "npc1-no");
+		scr_option("I am thinking about it", "npc1-think");
+		scr_option("No, but if you ask...", "npc1-change");
 	break
+		case "npc1-yes":
+		scr_text("YES bitch you are good boi");
+		break
+		case "npc1-no":
+		scr_text("Why are you gay?");
+		break	
 	
 case "4":
 	
