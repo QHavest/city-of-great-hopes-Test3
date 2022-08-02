@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_menu_batton",
-    "path": "sprites/spr_menu_batton/spr_menu_batton.yy",
+    "name": "spr_menu_batton_3",
+    "path": "sprites/spr_menu_batton_3/spr_menu_batton_3.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

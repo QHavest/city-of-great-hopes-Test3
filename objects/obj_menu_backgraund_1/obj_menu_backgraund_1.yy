@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_menu_backgraund",
-    "path": "sprites/spr_menu_backgraund/spr_menu_backgraund.yy",
+    "name": "spr_menu_backgraund_2",
+    "path": "sprites/spr_menu_backgraund_2/spr_menu_backgraund_2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
