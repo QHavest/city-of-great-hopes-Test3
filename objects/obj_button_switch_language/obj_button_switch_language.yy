@@ -1,11 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_menu_backgraund",
-    "path": "sprites/spr_menu_backgraund/spr_menu_backgraund.yy",
+    "name": "spr_ukr_or_eng",
+    "path": "sprites/spr_ukr_or_eng/spr_ukr_or_eng.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects/menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu_backgraund",
+  "name": "obj_button_switch_language",
   "tags": [],
   "resourceType": "GMObject",
 }
