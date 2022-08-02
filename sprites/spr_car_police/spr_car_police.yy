@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 198,
-  "bbox_top": 0,
-  "bbox_bottom": 112,
+  "bbox_left": 33,
+  "bbox_right": 185,
+  "bbox_top": 116,
+  "bbox_bottom": 125,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 199,
-  "height": 113,
+  "width": 244,
+  "height": 161,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34380043-a502-4788-9a65-03b77386d4d4","path":"sprites/spr_car_police/spr_car_police.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34380043-a502-4788-9a65-03b77386d4d4","path":"sprites/spr_car_police/spr_car_police.yy",},"LayerId":{"name":"08ed9f05-8f31-44f6-b4e3-8a1e1dd5796a","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_car_police","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","name":"34380043-a502-4788-9a65-03b77386d4d4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3980c3d8-70a2-4158-844d-637971494b03","path":"sprites/spr_car_police/spr_car_police.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3980c3d8-70a2-4158-844d-637971494b03","path":"sprites/spr_car_police/spr_car_police.yy",},"LayerId":{"name":"f0cbc723-5ef9-4b04-9900-b179bd85c1ec","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_car_police","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","name":"3980c3d8-70a2-4158-844d-637971494b03","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_car_police","path":"sprites/spr_car_police/spr_car_police.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"85cd6b09-d50c-4b87-a071-c457470375a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34380043-a502-4788-9a65-03b77386d4d4","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"7b662d56-4ac4-4f53-97dc-866e9a49c2b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3980c3d8-70a2-4158-844d-637971494b03","path":"sprites/spr_car_police/spr_car_police.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 99,
-    "yorigin": 56,
+    "xorigin": 122,
+    "yorigin": 80,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_car_police","path":"sprites/spr_car_police/spr_car_police.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"08ed9f05-8f31-44f6-b4e3-8a1e1dd5796a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f0cbc723-5ef9-4b04-9900-b179bd85c1ec","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
