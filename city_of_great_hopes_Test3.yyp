@@ -143,6 +143,7 @@
     {"id":{"name":"spr_settings_eng","path":"sprites/spr_settings_eng/spr_settings_eng.yy",},"order":8,},
     {"id":{"name":"rm_cinema_l","path":"rooms/rm_cinema_l/rm_cinema_l.yy",},"order":1,},
     {"id":{"name":"obj_woi_invisible_shaurma","path":"objects/obj_woi_invisible_shaurma/obj_woi_invisible_shaurma.yy",},"order":3,},
+    {"id":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"order":3,},
     {"id":{"name":"spr_bench_p_inside","path":"sprites/spr_bench_p_inside/spr_bench_p_inside.yy",},"order":10,},
     {"id":{"name":"obj_table_room22","path":"objects/obj_table_room22/obj_table_room22.yy",},"order":7,},
     {"id":{"name":"obj_woi_invisible_bench_p_inside47","path":"objects/obj_woi_invisible_bench_p_inside47/obj_woi_invisible_bench_p_inside47.yy",},"order":11,},
