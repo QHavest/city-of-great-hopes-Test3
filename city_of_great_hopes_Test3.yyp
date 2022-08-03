@@ -266,6 +266,7 @@
     {"id":{"name":"spr_right_bench","path":"sprites/spr_right_bench/spr_right_bench.yy",},"order":8,},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},"order":5,},
     {"id":{"name":"spr_bench_centre","path":"sprites/spr_bench_centre/spr_bench_centre.yy",},"order":17,},
+    {"id":{"name":"obj_door_police2","path":"objects/obj_door_police2/obj_door_police2.yy",},"order":13,},
     {"id":{"name":"spr_magazine_cinema","path":"sprites/spr_magazine_cinema/spr_magazine_cinema.yy",},"order":3,},
     {"id":{"name":"spr_meriia_back","path":"sprites/spr_meriia_back/spr_meriia_back.yy",},"order":1,},
     {"id":{"name":"ob_doc_player","path":"objects/ob_doc_player/ob_doc_player.yy",},"order":1,},
