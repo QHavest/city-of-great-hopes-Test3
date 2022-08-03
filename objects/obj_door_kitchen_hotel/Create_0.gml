@@ -2,11 +2,11 @@
 newroom = rm_kitchen
 oldroom = rm_restraunt
 ///координаты в первое комнате
-new_x = 37
-new_y = 110
+new_x = 50
+new_y = 111
 ///координаты в второй комнате
-old_x = 175
-old_y = 243
+old_x = 860
+old_y = 90
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help
