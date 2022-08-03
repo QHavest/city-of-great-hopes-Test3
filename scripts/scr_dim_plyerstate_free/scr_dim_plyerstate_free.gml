@@ -40,8 +40,8 @@ if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + s
 //if (y!=yprevious && lastmove==5 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_run_right");
 // зміна анімації руху по горизонталі
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
- lastmove = 1;} else
- if (x>+xprevious) sprite_index = spr_dim_Ytopurok_run_right;
+ lastmove = 1;}
+if (x>runspd) {sprite_index = spr_dim_Ytopurok_run_right;}
  
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
 lastmove = 0;}
