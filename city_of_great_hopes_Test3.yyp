@@ -117,6 +117,7 @@
     {"id":{"name":"obj_door_culture_hall","path":"objects/obj_door_culture_hall/obj_door_culture_hall.yy",},"order":4,},
     {"id":{"name":"spr_bench","path":"sprites/spr_bench/spr_bench.yy",},"order":6,},
     {"id":{"name":"sp_doc_playerd","path":"sprites/sp_doc_playerd/sp_doc_playerd.yy",},"order":4,},
+    {"id":{"name":"spr_dim_Ytopurok_run_left","path":"sprites/spr_dim_Ytopurok_run_left/spr_dim_Ytopurok_run_left.yy",},"order":7,},
     {"id":{"name":"obj_invisiblewall","path":"objects/obj_invisiblewall/obj_invisiblewall.yy",},"order":21,},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},"order":18,},
     {"id":{"name":"snd_main_menu","path":"sounds/snd_main_menu/snd_main_menu.yy",},"order":0,},
