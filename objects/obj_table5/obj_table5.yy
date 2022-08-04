@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_table_2",
-    "path": "sprites/spr_table_2/spr_table_2.yy",
+    "name": "spr_table_5",
+    "path": "sprites/spr_table_5/spr_table_5.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,7 +20,12 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":4.0,"y":44.0,},
+    {"x":96.0,"y":44.0,},
+    {"x":96.0,"y":78.0,},
+    {"x":4.0,"y":78.0,},
+  ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
