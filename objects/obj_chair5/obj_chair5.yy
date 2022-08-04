@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_column_1",
-    "path": "sprites/spr_column_1/spr_column_1.yy",
+    "name": "spr_chair1",
+    "path": "sprites/spr_chair1/spr_chair1.yy",
   },
   "solid": true,
   "visible": true,
@@ -21,15 +21,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Right",
-    "path": "folders/Objects/Center/Right.yy",
+    "name": "FastFood",
+    "path": "folders/Objects/Center/Right/FastFood.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_culture_column_1",
+  "name": "obj_chair5",
   "tags": [],
   "resourceType": "GMObject",
 }

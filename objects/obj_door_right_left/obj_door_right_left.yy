@@ -34,11 +34,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Culture Inside",
-    "path": "folders/Objects/Center/Right/Culture Inside.yy",
+    "name": "Left",
+    "path": "folders/Objects/Center/Left.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_fast_food_inside",
+  "name": "obj_door_right_left",
   "tags": [],
   "resourceType": "GMObject",
 }
