@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkspd = 10;
+walkspd = 7;
 runspd  = 0;
 lastmove = 0;
 playernum = 0;

@@ -41,10 +41,10 @@ if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + s
 // зміна анімації руху по горизонталі
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
  lastmove = 1;}
-if (keyboard_check(vk_space) and keyr) {x+=5;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =15;}
+if (keyboard_check(vk_space) and keyr) {x+=0;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =15;}
  
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-if (keyboard_check(vk_space) and keyl) {x-=5;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 15;}	
+if (keyboard_check(vk_space) and keyl) {x-=0;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 15;}	
 lastmove = 0;}
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
