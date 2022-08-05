@@ -34,3 +34,9 @@ Y_op[0]=camera_get_view_y(view_camera[0])+240;
 Y_op[1]=camera_get_view_y(view_camera[0])+270;
 Y_op[2]=camera_get_view_y(view_camera[0])+240;
 Y_op[3]=camera_get_view_y(view_camera[0])+270;
+
+// вибір персонажа який говоритть
+  char[0,0] ="";
+char_x[0,0] =0;
+char_y[0,0] =0;
+line_break_offset[0]=0;

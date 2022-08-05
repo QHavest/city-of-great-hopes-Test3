@@ -4,6 +4,7 @@ accept_key=keyboard_check_pressed(ord("Z"));
 textbox_x = obj_dim_player.x-120;
 textbox_y = obj_dim_player.y-100;
 
+
 //setup
 if setup == false {
 	setup = true;
@@ -16,7 +17,36 @@ if setup == false {
 	for(var p=0; p<page_number; p++){
 		//визначення кількості символів на сторіні
 		text_length[p] = string_length(text[p]);
+		
+	//	визначення х текста		
 		text_x_offset[p] = 44;
+		
+		for(var c=0; c<text_length[p]; c++)
+			{
+			var _char_pos=c+1;
+			//збереження відповідності репліки до персонажа в масиві
+			char[c,p] = string_char_at(text[p],_char_pos) ;
+			//визначення ширини лінії тесту
+			var txt_up_to_char = string_copy(text[p],1,_char_pos);
+			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
+			// розриви рядків
+			if _current_txt_w - line_break_offset[p] > line_widt
+				{
+				line_break_pos[ line_break_num[p], p] = last_free_space;
+				line_break_num[p]++;
+				var _txt_up_to_last_space = string_copy( text[p], 1, last_free_space);
+				var _last_free_space_string = string_char_at(text[p],last_free_space);
+				line_break_offset[p] = string_width(_txt_up_to_last_space) - string_width(_last_free_space_string);
+				}
+		
+		
+		
+			}
+		
+		
+		
+		
+		
 		}	
 }
 	 
