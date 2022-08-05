@@ -3,8 +3,6 @@ function scr_game_text(_text_id){
 	switch (_text_id)
 	{
 		
-		
-		
 case "1":
 	scr_text("Go out from Ukrain Moscal");
 	scr_text("Get'! Get'! Get!");
@@ -25,6 +23,7 @@ case "3":
 		case "npc1-yes":
 		scr_text("YES bitch you are good boi");
 		break
+		
 		case "npc1-no":
 		scr_text("Why are you gay?");
 		break	
