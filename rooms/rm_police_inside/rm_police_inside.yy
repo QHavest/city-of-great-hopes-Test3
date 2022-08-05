@@ -68,8 +68,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Center",
-    "path": "folders/Rooms/Center.yy",
+    "name": "Police",
+    "path": "folders/Rooms/Center/Police.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_police_inside",

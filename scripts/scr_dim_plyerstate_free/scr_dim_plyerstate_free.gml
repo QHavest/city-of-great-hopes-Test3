@@ -8,15 +8,19 @@ else spd = runspd;
 
 directx = keyr - keyl; 
 directy = keyup - keydown;
-
+//directxy -= directxy - directx ;
 // змешення швидкості ходьби по діагоналі
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
 hsp = directx*spd;
-vsp = directy*spd*0.5; 
-
+vsp = directy*spd*0.5;
+///hsr = directxy;
+//hvsp = runspd;
 x += hsp
 y -= vsp
+//x = hsr
+//phy_position_x += hvsp
+//y = hvsp
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 
@@ -30,13 +34,17 @@ if (playernum == 0) sprit="Ytopurok";
 if (playernum == 1) sprit="Krus";
 
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
+
 if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
 if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
-
+//if (y!=yprevious && lastmove==5 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_run_right");
 // зміна анімації руху по горизонталі
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
  lastmove = 1;}
+if (keyboard_check(vk_space) and keyr) {x+=20;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");}
+ 
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
+if (keyboard_check(vk_space) and keyl) {x-=20;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");}	
 lastmove = 0;}
 if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
 
