@@ -199,6 +199,7 @@
     {"id":{"name":"spr_flowerbed_l","path":"sprites/spr_flowerbed_l/spr_flowerbed_l.yy",},"order":0,},
     {"id":{"name":"spr_curb_cinema","path":"sprites/spr_curb_cinema/spr_curb_cinema.yy",},"order":5,},
     {"id":{"name":"obj_table3","path":"objects/obj_table3/obj_table3.yy",},"order":3,},
+    {"id":{"name":"obj_depth","path":"objects/obj_depth/obj_depth.yy",},"order":23,},
     {"id":{"name":"obj_table2","path":"objects/obj_table2/obj_table2.yy",},"order":2,},
     {"id":{"name":"spr_rival_station","path":"sprites/spr_rival_station/spr_rival_station.yy",},"order":1,},
     {"id":{"name":"spr_poster_centre","path":"sprites/spr_poster_centre/spr_poster_centre.yy",},"order":3,},
