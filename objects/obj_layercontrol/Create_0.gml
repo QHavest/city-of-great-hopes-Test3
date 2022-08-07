@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.CELL = 4;
+global.CELL = 10;
 
 global.GRID_H = room_height div global.CELL;
 

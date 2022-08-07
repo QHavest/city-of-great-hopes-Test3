@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_depth_system",
+    "path": "objects/obj_depth_system/obj_depth_system.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+//versautilsdepthsort(layer_get_depth(CEILING_LAYER_NAME),layer_get_depth(FLOOR_LAYER_NAME));
+//versautilsdepthsort(layer_get_depth(CEILING_LAYER_NAME),layer_get_depth(FLOOR_LAYER_NAME));
+//versautilsdepthsort(0,500);
+event_inherited();
 move     =  keyboard_check(vk_space);
 keyr     =  keyboard_check(ord("D"));
 keyl     =  keyboard_check(ord("A"));
@@ -19,4 +22,4 @@ key_room_go = keyboard_check(ord("E"))
  case	PLAYERSTATE.BLOCK     : scr_dim_playerstate_block();   break;
  } 
 //depth = -x;
-depth = -y;
+//depth = -y;
