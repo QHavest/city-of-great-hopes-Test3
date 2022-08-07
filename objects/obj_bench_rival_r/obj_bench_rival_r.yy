@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_depth_system",
-    "path": "objects/obj_depth_system/obj_depth_system.yy",
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
