@@ -57,29 +57,29 @@ lastmove = 0;}
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 // відповідність глибини до вертикальної кординати
-depth = -y;
+//depth = -y;
 
-/*горизонтальна колізія
+//горизонтальна колізія
 if(place_meeting(x + hsp, y, obj_woi_invisible_wall)){
 	while(!place_meeting(x+sign(hsp), y, obj_woi_invisible_wall))
 		x += sign(hsp);
 	hsp = 0;
 }
 
-вертикальна колізія
+//вертикальна колізія
 if(place_meeting(x, y + vsp, obj_woi_invisible_wall)){
 	while(!place_meeting(x, y + sign(vsp) , obj_woi_invisible_wall))
 		y += sign(vsp);
 	vsp = 0;
-}*/
+}
 
-if(place_meeting(x + hsp, y + vsp, obj_woi_invisible_wall)){
+/*if(place_meeting(x + hsp, y + vsp, obj_woi_invisible_wall)){
 	while(!place_meeting(x+sign(hsp), y + sign(vsp) , obj_woi_invisible_wall))
 		x += sign(hsp);
 		y += sign(vsp);
 	hsp = 0;
 	vsp = 0;
-}
+}*/
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1
