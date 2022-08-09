@@ -18,3 +18,5 @@ help_y = -80
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false
 new_side = false
+
+depth = -1000

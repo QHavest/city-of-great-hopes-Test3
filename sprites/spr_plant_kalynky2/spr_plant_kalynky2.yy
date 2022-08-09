@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 9,
-  "bbox_right": 321,
-  "bbox_top": 85,
-  "bbox_bottom": 165,
+  "bbox_right": 30,
+  "bbox_top": 51,
+  "bbox_bottom": 67,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 321,
-  "height": 168,
+  "width": 51,
+  "height": 69,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34a84c79-0f70-431f-a924-595e7837e4b8","path":"sprites/spr_station_bus/spr_station_bus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34a84c79-0f70-431f-a924-595e7837e4b8","path":"sprites/spr_station_bus/spr_station_bus.yy",},"LayerId":{"name":"69b36936-d098-4f63-bf14-b1bafca24502","path":"sprites/spr_station_bus/spr_station_bus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_station_bus","path":"sprites/spr_station_bus/spr_station_bus.yy",},"resourceVersion":"1.0","name":"34a84c79-0f70-431f-a924-595e7837e4b8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"33d31e80-7f0c-470f-a4aa-53082c78e766","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"33d31e80-7f0c-470f-a4aa-53082c78e766","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},"LayerId":{"name":"9a5f4cc6-5308-4097-a40f-cf922de87768","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_plant_kalynky2","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},"resourceVersion":"1.0","name":"33d31e80-7f0c-470f-a4aa-53082c78e766","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_station_bus","path":"sprites/spr_station_bus/spr_station_bus.yy",},
+    "spriteId": {"name":"spr_plant_kalynky2","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"90ec973b-fab2-4280-bc1c-22c70ddaf7ed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34a84c79-0f70-431f-a924-595e7837e4b8","path":"sprites/spr_station_bus/spr_station_bus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f66b9aec-4bc1-4ef3-a5ea-aeffdb870f56","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33d31e80-7f0c-470f-a4aa-53082c78e766","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 160,
-    "yorigin": 84,
+    "xorigin": 25,
+    "yorigin": 34,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_station_bus","path":"sprites/spr_station_bus/spr_station_bus.yy",},
+    "parent": {"name":"spr_plant_kalynky2","path":"sprites/spr_plant_kalynky2/spr_plant_kalynky2.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_station_bus",
+    "name": "spr_plant_kalynky2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69b36936-d098-4f63-bf14-b1bafca24502","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a5f4cc6-5308-4097-a40f-cf922de87768","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Rival Station/Second Side.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_station_bus",
+  "name": "spr_plant_kalynky2",
   "tags": [],
   "resourceType": "GMSprite",
 }
