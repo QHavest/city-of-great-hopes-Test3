@@ -2,10 +2,10 @@
 newroom = rm_indoor_rival_station
 oldroom = rm_street_first_side
 ///координаты в первое комнате
-new_x = 655
-new_y = 135
+new_x = 650
+new_y = 170
 ///координаты в второй комнате
-old_x = 1930
+old_x = 1960
 old_y = 245
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help

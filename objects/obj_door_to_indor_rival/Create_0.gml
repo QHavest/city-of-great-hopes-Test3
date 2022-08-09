@@ -2,8 +2,8 @@
 newroom = rm_indoor_rival_station
 oldroom = rm_street_second_side
 ///координаты в первое комнате
-new_x = 655
-new_y = 100
+new_x = 650
+new_y = 115
 ///координаты в второй комнате
 old_x = 1800
 old_y = 235
