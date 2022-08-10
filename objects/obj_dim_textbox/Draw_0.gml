@@ -86,6 +86,7 @@ if draw_char < text_length[page] {
 	
 // малюваня контурів тексту
 txtb_img+=txtb_img_spd;
+textbox_width =  string_width(text[page])+border*2;
 txt_spr_w = sprite_get_width(txtb_sprite);
 txt_spr_h = sprite_get_height(txtb_sprite);
 draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
