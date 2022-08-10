@@ -24,11 +24,17 @@ if setup == false {
 		for(var c=0; c<text_length[p]; c++)
 			{
 			var _char_pos=c+1;
-			//збереження відповідності репліки до персонажа в масиві
+			
+			//збереження кожної букви в індивідуальному масиві "char"
 			char[c,p] = string_char_at(text[p],_char_pos) ;
+			
 			//визначення ширини лінії тесту
 			var txt_up_to_char = string_copy(text[p],1,_char_pos);
 			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
+			
+			// визначення залишеного вільного місця
+			if char [c,p] ==" " {last_free_space=_char_pos+1;}
+								
 			// розриви рядків
 			if _current_txt_w - line_break_offset[p] > line_widt
 				{
@@ -37,12 +43,35 @@ if setup == false {
 				var _txt_up_to_last_space = string_copy( text[p], 1, last_free_space);
 				var _last_free_space_string = string_char_at(text[p],last_free_space);
 				line_break_offset[p] = string_width(_txt_up_to_last_space) - string_width(_last_free_space_string);
-				}
-		
-		
-		
+				}		
 			}
-		
+		// визначення координат кожного символу
+		 for (var c=0; c<text_length[p]; c++)
+			{
+			var _char_pos = c+1;
+			var txt_x = textbox_x + text_x_offset[p] + border;
+			var txt_y = textbox_y+border;
+			//визначення ширини лінії тесту
+			var txt_up_to_char = string_copy(text[p],1,_char_pos);
+			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
+			var _txt_line = 0;
+			// якась там компенсація стрінгів
+				for (var lb; lb<line_break_num[p]; lb++)
+				{
+				if _char_pos >=line_break_pos[lb, p]
+					{
+					var _str_copy = string_copy(text[p], line_break_pos[lb,p], _char_pos-line_break_pos[lb,p]);
+					_current_txt_w = string_width(_str_copy);
+					
+					_txt_line = lb + 1;
+					}
+				}
+			// додамо координати
+			char_x [c, p] = txt_x + _current_txt_w;
+			char_y [c, p] = txt_y + _txt_line*line_sep;
+			
+			
+			}
 		
 		
 		
@@ -86,7 +115,7 @@ if draw_char < text_length[page] {
 	
 // малюваня контурів тексту
 txtb_img+=txtb_img_spd;
-textbox_width =  string_width(text[page])+border*2;
+//textbox_width =  string_width(text[page])+border*2;
 txt_spr_w = sprite_get_width(txtb_sprite);
 txt_spr_h = sprite_get_height(txtb_sprite);
 draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
@@ -116,6 +145,10 @@ if draw_char==text_length[page] && page=page_number-1
 	
 
 // вивід тксту
-var _drawtext = string_copy(text[page], 1, draw_char)
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border,_drawtext, line_sep,line_widt,)
-
+//var _drawtext = string_copy(text[page], 1, draw_char)
+//draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border, _drawtext, line_sep,line_widt,)
+for (var c=0; c<draw_char; c++)
+{
+	
+	
+}
