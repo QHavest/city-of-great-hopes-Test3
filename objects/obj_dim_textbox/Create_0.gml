@@ -19,6 +19,7 @@ draw_char = 0;
 text_spd  = 1;
 setup = false;
 
+
  //  вибір реплік
  
  option[0]="";
@@ -38,7 +39,8 @@ Y_op[3]=camera_get_view_y(view_camera[0])+270;
   char[0,0] ="";
 char_x[0,0] =0;
 char_y[0,0] =0;
-
+txtb_wid [0,0] =0;
+maxi_x = 0;
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;

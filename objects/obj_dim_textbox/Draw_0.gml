@@ -12,7 +12,7 @@ if setup == false {
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 
-	// цикл для "листання" сторінок
+	// цикл для "листання" сторінок, розрахунку положеня та інш
 	//page_number = array_length(text);
 	for(var p=0; p<page_number; p++){
 		//визначення кількості символів на сторіні
@@ -56,7 +56,7 @@ if setup == false {
 			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
 			var _txt_line = 0;
 			// якась там компенсація стрінгів
-				for (var lb; lb<line_break_num[p]; lb++)
+				for (var lb=0; lb<line_break_num[p]; lb++)
 				{
 				if _char_pos >=line_break_pos[lb, p]
 					{
@@ -69,7 +69,8 @@ if setup == false {
 			// додамо координати
 			char_x [c, p] = txt_x + _current_txt_w;
 			char_y [c, p] = txt_y + _txt_line*line_sep;
-			
+			txtb_wid [c, p] = _current_txt_w;
+			if maxi_x<txtb_wid[c,p] maxi_x=txtb_wid[c,p]
 			
 			}
 		
@@ -118,10 +119,10 @@ txtb_img+=txtb_img_spd;
 //textbox_width =  string_width(text[page])+border*2;
 txt_spr_w = sprite_get_width(txtb_sprite);
 txt_spr_h = sprite_get_height(txtb_sprite);
-draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
+//draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
 
 // вивід варіантів відповідей
-if draw_char==text_length[page] && page=page_number-1
+if draw_char==text_length[page] && page==page_number-1
 	{
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_down)-keyboard_check_pressed(vk_up);
@@ -131,6 +132,7 @@ if draw_char==text_length[page] && page=page_number-1
 	var _op_border =5;
 	//координати відповідей
 	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+280; X_op[3]=camera_get_view_x(view_camera[0])+280; Y_op[0]=camera_get_view_y(view_camera[0])+240; Y_op[1]=camera_get_view_y(view_camera[0])+270; Y_op[2]=camera_get_view_y(view_camera[0])+240; Y_op[3]=camera_get_view_y(view_camera[0])+270;
+	
 	for(var op=0; op<option_number; op++)
 		{
 		// поле для тексту відповіді
@@ -143,12 +145,13 @@ if draw_char==text_length[page] && page=page_number-1
 
 	}
 	
-
+	for (var c=0; c<draw_char; c++){
+	var _w=string_width(char[c, page]);
+	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  (_w+border)/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1);
+	
+	}
 // вивід тксту
 //var _drawtext = string_copy(text[page], 1, draw_char)
 //draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border, _drawtext, line_sep,line_widt,)
 for (var c=0; c<draw_char; c++)
-{
-	
-	
-}
+{ 	draw_text(char_x[c, page], char_y[c, page], char[c, page]);	}
