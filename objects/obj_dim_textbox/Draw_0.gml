@@ -50,7 +50,7 @@ if setup == false {
 			{
 			var _char_pos = c+1;
 			var txt_x = textbox_x + text_x_offset[p] + border;
-			var txt_y = textbox_y+border;
+			 txt_y = textbox_y+border;
 			//визначення ширини лінії тесту
 			var txt_up_to_char = string_copy(text[p],1,_char_pos);
 			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
@@ -62,21 +62,16 @@ if setup == false {
 					{
 					var _str_copy = string_copy(text[p], line_break_pos[lb,p], _char_pos-line_break_pos[lb,p]);
 					_current_txt_w = string_width(_str_copy);
-					
+					line_y[_txt_line][p]=txt_y + _txt_line*line_sep;
 					_txt_line = lb + 1;
+					
 					}
 				}
 			// додамо координати
 			char_x [c, p] = txt_x + _current_txt_w;
 			char_y [c, p] = txt_y + _txt_line*line_sep;
-			txtb_wid [c, p] = _current_txt_w;
-			if maxi_x<txtb_wid[c,p] maxi_x=txtb_wid[c,p]
-			
 			}
-		
-		
-		
-		
+	
 		}	
 }
 	 
@@ -101,34 +96,27 @@ if draw_char < text_length[page] {
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
 			}
-			
-			
 			instance_destroy();}
 		}	
 	else {
 		draw_char = text_length[page];
-		
 		}
-	
 }
 	
-
-	
 // малюваня контурів тексту
-txtb_img+=txtb_img_spd;
+	txtb_img+=txtb_img_spd;
 //textbox_width =  string_width(text[page])+border*2;
-txt_spr_w = sprite_get_width(txtb_sprite);
-txt_spr_h = sprite_get_height(txtb_sprite);
+	txt_spr_w = sprite_get_width(txtb_sprite);
+	txt_spr_h = sprite_get_height(txtb_sprite);
 //draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
 
 // вивід варіантів відповідей
-if draw_char==text_length[page] && page==page_number-1
+	if draw_char==text_length[page] && page==page_number-1
 	{
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_down)-keyboard_check_pressed(vk_up);
 		option_pos = clamp(option_pos, 0, option_number-1);
-		
-		
+
 	var _op_border =5;
 	//координати відповідей
 	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+280; X_op[3]=camera_get_view_x(view_camera[0])+280; Y_op[0]=camera_get_view_y(view_camera[0])+240; Y_op[1]=camera_get_view_y(view_camera[0])+270; Y_op[2]=camera_get_view_y(view_camera[0])+240; Y_op[3]=camera_get_view_y(view_camera[0])+270;
@@ -142,15 +130,25 @@ if draw_char==text_length[page] && page==page_number-1
 		// текст варіанту відповіді
 			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
 		}
-
 	}
-	
+// вивід рамки тексту
 	for (var c=0; c<draw_char; c++){
 	var _w=string_width(char[c, page]);
-	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  (_w+border)/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1);
+	var active_line = (char_y[c, page] - txt_y)/line_sep;
+	if maxi_x[page]<char_x[c, page] && active_line == 1 maxi_x[page]=char_x[c, page];
+	
+	if char_y[c, page] > char_y[0, page] && char_x[c, page] > maxi_x[page]
+		{ 	maxi_x[page]=char_x[c, page];
+			for (var i=0; i<active_line; i++)
+				{
+				
+				}
+		draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[0, page],  (_w+border)/txt_spr_w, 25/txt_spr_h, 0, c_black, 1);
+		}
+	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  (_w+border)/txt_spr_w, 25/txt_spr_h, 0, c_black, 1);
 	
 	}
-// вивід тксту
+// вивід тексту
 //var _drawtext = string_copy(text[page], 1, draw_char)
 //draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border, _drawtext, line_sep,line_widt,)
 for (var c=0; c<draw_char; c++)
