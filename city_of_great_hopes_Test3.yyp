@@ -442,6 +442,7 @@
     {"id":{"name":"spr_woi_rival_station_outside","path":"sprites/spr_woi_rival_station_outside/spr_woi_rival_station_outside.yy",},"order":2,},
     {"id":{"name":"spr_menu_backgraund_2","path":"sprites/spr_menu_backgraund_2/spr_menu_backgraund_2.yy",},"order":13,},
     {"id":{"name":"obj_rival_station_first","path":"objects/obj_rival_station_first/obj_rival_station_first.yy",},"order":12,},
+    {"id":{"name":"obj_door_to_tech_okor","path":"objects/obj_door_to_tech_okor/obj_door_to_tech_okor.yy",},"order":7,},
     {"id":{"name":"obj_plant_kalynky2","path":"objects/obj_plant_kalynky2/obj_plant_kalynky2.yy",},"order":26,},
     {"id":{"name":"spr_bench_indoor3","path":"sprites/spr_bench_indoor3/spr_bench_indoor3.yy",},"order":9,},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":11,},
