@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_tech","path":"objects/obj_door_to_tech/obj_door_to_tech.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.62,"scaleY":0.19999999,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1597.0,"y":266.0,"resourceVersion":"1.0","name":"inst_6EAD7766","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_storage","path":"objects/obj_door_to_storage/obj_door_to_storage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.62999994,"scaleY":0.20000002,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1367.5,"y":266.0,"resourceVersion":"1.0","name":"inst_41B05D7E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_okorochok","path":"objects/obj_door_to_okorochok/obj_door_to_okorochok.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.89,"scaleY":0.24,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":433.5,"y":265.0,"resourceVersion":"1.0","name":"inst_141B2383","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":5.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11.0,"y":244.0,"resourceVersion":"1.0","name":"inst_3C618504","tags":[],"resourceType":"GMRInstance",},
@@ -63,6 +64,7 @@
     {"name":"inst_4AFCF159","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},
     {"name":"inst_6EAD7766","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},
     {"name":"inst_41B05D7E","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},
+    {"name":"inst_141B2383","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
