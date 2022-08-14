@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Inside",
-    "path": "folders/Sprites/Bazar/Storage and Tech/Inside.yy",
+    "path": "folders/Sprites/Bazar/Day/Storage and Tech/Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mebli",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Indoor",
-    "path": "folders/Sprites/Bazar/FIsh and Bazar/Indoor.yy",
+    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/Indoor.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fishing_mag",

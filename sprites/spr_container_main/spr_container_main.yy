@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Container",
-    "path": "folders/Sprites/Bazar/Container.yy",
+    "path": "folders/Sprites/Bazar/Day/Container.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_container_main",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "FIsh and Bazar",
-    "path": "folders/Sprites/Bazar/FIsh and Bazar.yy",
+    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_box_fish",
