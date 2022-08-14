@@ -14,7 +14,7 @@ case "2":
 	
 case "3":
 	scr_text("text");
-	scr_text("whant you to play?");
+	scr_text("whant you to play? and I wont that you realy thinking!!!");
 		scr_option("yes", "npc1-yes");
 		scr_option("no", "npc1-no");
 		scr_option("I am thinking about it", "npc1-think");

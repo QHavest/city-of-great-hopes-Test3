@@ -4,7 +4,6 @@ accept_key=keyboard_check_pressed(ord("Z"));
 textbox_x = obj_dim_player.x-120;
 textbox_y = obj_dim_player.y-100;
 
-
 //setup
 if setup == false {
 	setup = true;
@@ -89,6 +88,7 @@ if draw_char < text_length[page] {
 		if page < page_number-1
 			{
 			page++;
+			maxi_x[page]=0;
 			draw_char = 0;
 			}
 		else{
@@ -132,15 +132,18 @@ if draw_char < text_length[page] {
 		}
 	}
 // вивід рамки тексту
-	for (var c=0; c<draw_char; c++){
-	var _w=string_width(char[c, page])+border;
+
+for (var c=0; c<draw_char; c++){
+	if char[c,page]!=" "{
+	var _w=string_width(char[c, page])+border*2;
 	var active_line = (char_y[c, page] - txt_y)/line_sep;
 //	draw_text(char_x[c, page], char_y[c, page]-100,active_line);
 	
-	if maxi_x[page]<char_x[c, page] {maxi_x[page]=char_x[c, page];}
+	if maxi_x[page]<char_x[c, page] {
+		maxi_x[page]=char_x[c, page];
+		later_width[page]=string_width(char[c,page]);}
+		
 	// дозаповнення фону попередніх рядків до максимальної довжини якщо вони коротші максимально виведеного
-	if active_line > 0 
-		{
 			if char_x[c, page] > line_break_pos[ 0, page]
 			{
 				for (var i=0; i<active_line; i++)
@@ -148,23 +151,25 @@ if draw_char < text_length[page] {
 				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  line_y[i,page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 				}
 			}
+			
 		/* доповнення фону рядка при переході на наступний
 			if char_y[c, page] > char_y[c-1, page] &&  char_x[c-1, page]<maxi_x[page]
 				{var last_wi = string_width(char[c-1, page])+(maxi_x[page]-char_x[c-1, page]);
 				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c-1, page], line_y[active_line-1,page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 				}*/
 		// заповнення рядка фоном при його початку
+		if active_line > 0 
+		{
 		if char_y[c, page] > char_y[c-1, page]
-			{var last_wi =maxi_x[page]-char_x[c, page]+border+string_width(char[0, page]);
-				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
-				
+			{
+				var last_wi = maxi_x[page]-char_x[c, page]+later_width[page]+border*2;
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);	
 			}
-			
 		}
 		
 	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
-	
 	}
+}
 // вивід тексту
 //var _drawtext = string_copy(text[page], 1, draw_char)
 //draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border, _drawtext, line_sep,line_widt,)

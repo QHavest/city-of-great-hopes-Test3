@@ -42,7 +42,7 @@ char_y[0,0] =0;
 txtb_wid [0,0] =0;
 maxi_x[0] = 0;
 line_y[0][0]=0;
-
+later_width[0]=0;
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;
