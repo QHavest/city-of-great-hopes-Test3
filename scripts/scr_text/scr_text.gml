@@ -2,13 +2,30 @@ function scr_set_defaults_for_text(){
 line_break_pos[0, page_number]=999;
 line_break_num[page_number]   =0;
 line_break_offset[page_number]=0;
+speaker[page_number]=1;
 }
 
 
 ///@param text
+///@param [speaker]
 function scr_text(_text){
 scr_set_defaults_for_text()
 text[page_number]=_text;
+
+if argument_count >1
+	{
+		switch (argument[1])
+		{
+		case "player":
+		 speaker[page_number] =1;
+		 break;
+		 case "Rusty":
+		 speaker[page_number] =-1;
+		break;
+		}
+	}
+
+
 
 page_number++;
 }

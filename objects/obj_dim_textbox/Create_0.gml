@@ -1,5 +1,6 @@
 depth=-99999;
-
+//textbox_x = obj_dim_player.x-100;
+textbox_y = obj_dim_player.y-150;
 // параметри вікна з текстом
 textbox_width = 200;
 textbox_hight = 64;

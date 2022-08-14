@@ -1,8 +1,7 @@
 accept_key=keyboard_check_pressed(ord("Z"));
 //textbox_x = camera_get_view_x(view_camera[0])
 //textbox_y = camera_get_view_y(view_camera[0])+100;
-textbox_x = obj_dim_player.x-120;
-textbox_y = obj_dim_player.y-100;
+
 
 //setup
 if setup == false {
@@ -17,9 +16,22 @@ if setup == false {
 		//визначення кількості символів на сторіні
 		text_length[p] = string_length(text[p]);
 		
-	//	визначення х текста		
-		text_x_offset[p] = 44;
 		
+	//	визначення зміщення х текста		
+		text_x_offset[p] = 44;
+		if speaker[p] == 1
+	{
+	textbox_x[p] = obj_dim_player.x-100;
+	//textbox_y[p] = obj_dim_player.y-150;
+	text_x_offset[p] = 100;
+	}
+	if speaker[p] == -1
+	{
+	textbox_x[p] = obj_dialog_start.x-120;
+//	textbox_y[p] = obj_dialog_start.y-100;
+	text_x_offset[p] = -50;
+	}
+	
 		for(var c=0; c<text_length[p]; c++)
 			{
 			var _char_pos=c+1;
@@ -48,7 +60,7 @@ if setup == false {
 		 for (var c=0; c<text_length[p]; c++)
 			{
 			var _char_pos = c+1;
-			var txt_x = textbox_x + text_x_offset[p] + border;
+			var txt_x = textbox_x[p] + text_x_offset[p] + border;
 			 txt_y = textbox_y+border;
 			//визначення ширини лінії тесту
 			var txt_up_to_char = string_copy(text[p],1,_char_pos);
@@ -166,7 +178,6 @@ for (var c=0; c<draw_char; c++){
 				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);	
 			}
 		}
-		
 	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 	}
 }
