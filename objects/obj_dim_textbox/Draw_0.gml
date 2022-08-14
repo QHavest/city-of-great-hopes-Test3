@@ -133,19 +133,36 @@ if draw_char < text_length[page] {
 	}
 // вивід рамки тексту
 	for (var c=0; c<draw_char; c++){
-	var _w=string_width(char[c, page]);
+	var _w=string_width(char[c, page])+border;
 	var active_line = (char_y[c, page] - txt_y)/line_sep;
-	if maxi_x[page]<char_x[c, page] && active_line == 1 maxi_x[page]=char_x[c, page];
+//	draw_text(char_x[c, page], char_y[c, page]-100,active_line);
 	
-	if char_y[c, page] > char_y[0, page] && char_x[c, page] > maxi_x[page]
-		{ 	maxi_x[page]=char_x[c, page];
-			for (var i=0; i<active_line; i++)
+	if maxi_x[page]<char_x[c, page] {maxi_x[page]=char_x[c, page];}
+	// дозаповнення фону попередніх рядків до максимальної довжини якщо вони коротші максимально виведеного
+	if active_line > 0 
+		{
+			if char_x[c, page] > line_break_pos[ 0, page]
+			{
+				for (var i=0; i<active_line; i++)
 				{
-				
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  line_y[i,page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 				}
-		draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[0, page],  (_w+border)/txt_spr_w, 25/txt_spr_h, 0, c_black, 1);
+			}
+		/* доповнення фону рядка при переході на наступний
+			if char_y[c, page] > char_y[c-1, page] &&  char_x[c-1, page]<maxi_x[page]
+				{var last_wi = string_width(char[c-1, page])+(maxi_x[page]-char_x[c-1, page]);
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c-1, page], line_y[active_line-1,page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
+				}*/
+		// заповнення рядка фоном при його початку
+		if char_y[c, page] > char_y[c-1, page]
+			{var last_wi =maxi_x[page]-char_x[c, page]+border+string_width(char[0, page]);
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
+				
+			}
+			
 		}
-	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  (_w+border)/txt_spr_w, 25/txt_spr_h, 0, c_black, 1);
+		
+	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 	
 	}
 // вивід тексту

@@ -16,7 +16,7 @@ page_number = 0;
 text[0] = "";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
-text_spd  = 1;
+text_spd  = 0.8;
 setup = false;
 
 
@@ -35,13 +35,14 @@ Y_op[1]=camera_get_view_y(view_camera[0])+270;
 Y_op[2]=camera_get_view_y(view_camera[0])+240;
 Y_op[3]=camera_get_view_y(view_camera[0])+270;
 
-// вибір персонажа який говоритть
+// змінні для координат букв
   char[0,0] ="";
 char_x[0,0] =0;
 char_y[0,0] =0;
 txtb_wid [0,0] =0;
 maxi_x[0] = 0;
 line_y[0][0]=0;
+
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;
