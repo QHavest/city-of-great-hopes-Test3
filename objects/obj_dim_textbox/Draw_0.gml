@@ -117,10 +117,8 @@ if draw_char < text_length[page] {
 	
 // малюваня контурів тексту
 	txtb_img+=txtb_img_spd;
-//textbox_width =  string_width(text[page])+border*2;
 	txt_spr_w = sprite_get_width(txtb_sprite);
 	txt_spr_h = sprite_get_height(txtb_sprite);
-//draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
 
 // вивід варіантів відповідей
 	if draw_char==text_length[page] && page==page_number-1
@@ -182,7 +180,6 @@ for (var c=0; c<draw_char; c++){
 	}
 }
 // вивід тексту
-//var _drawtext = string_copy(text[page], 1, draw_char)
-//draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border, _drawtext, line_sep,line_widt,)
+
 for (var c=0; c<draw_char; c++)
 { 	draw_text(char_x[c, page], char_y[c, page], char[c, page]);	}
