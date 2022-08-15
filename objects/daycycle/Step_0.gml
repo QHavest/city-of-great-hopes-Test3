@@ -63,7 +63,7 @@ if (draw_daylight){
 		pend = phase.sunrise;
 		
 		//object_set_visible(obj_container, false);
-		layer_set_visible("Instances_obj", false);
+		//layer_set_visible("Instances_obj", false);
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
 		image_index += 1;
