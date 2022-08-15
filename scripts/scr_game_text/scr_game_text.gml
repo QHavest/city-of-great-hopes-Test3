@@ -13,20 +13,39 @@ case "2":
 	break
 	
 case "3":
-	scr_text("text");
-	scr_text("whant you to play?");
-		scr_option("yes", "npc1-yes");
-		scr_option("no", "npc1-no");
-		scr_option("I am thinking about it", "npc1-think");
-		scr_option("No, but if you ask...", "npc1-change");
+	scr_text("The gorgeous weather!","Rusty");
+	scr_text("Sure. Indian summer... Even in the morning, it's good.", "player");
+	scr_text("Shall we look for your chum?", "player");
+	scr_text("Why not?","Rusty");
+	scr_text("And where he lives?", "player");
+	scr_text("Damn knows? He eats tangerines, a lot…","Rusty");
+	scr_text("All year long?", "player");
+		scr_option("you lie to me?", "npc1-yes");
+		scr_option("I dont belive you", "npc1-no");
+		scr_option("Hmm...", "npc1-think");
+		scr_option("So he received on merit", "npc1-change");
 	break
 		case "npc1-yes":
-		scr_text("YES bitch you are good boi");
+		scr_text("Ahh... Ow... Well, that ram is whistling...too","Rusty");
+		scr_text("Amazing! It will definitely help. Let’s ask locals.", "player");
+		
+		
+		
+		
 		break
 		
 		case "npc1-no":
-		scr_text("Why are you gay?");
+		scr_text("Mey be we are not a friend?");
 		break	
+	
+	case "npc1-think":
+		scr_text("It's OK, don't worry");
+		break	
+		
+		case "npc1-change":
+		scr_text("You realy thinking so?");
+		break	
+	
 	
 case "4":
 	
