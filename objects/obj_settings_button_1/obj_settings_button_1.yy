@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_menu_batton_2",
-    "path": "sprites/spr_menu_batton_2/spr_menu_batton_2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -30,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menu",
-    "path": "folders/Objects/menu.yy",
+    "name": "Obj Menu",
+    "path": "folders/Main Menu/Obj Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_settings_button_1",
