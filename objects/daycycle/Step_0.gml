@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(ord("T"))){time_pause = !time_pause;}
+//if(keyboard_check_pressed(ord("T"))){time_pause = !time_pause;}
 event_inherited()
 if(time_pause) exit;
 //збільошуємо час за секунду
