@@ -10,6 +10,7 @@ line_widt = textbox_width-border*2;
 txtb_sprite = sp_doc_wall;
 txtb_img = 0;
 txtb_img_spd = 6/30;
+color=c_black;
 
 // змінні для виводу тексту
 page = 0;

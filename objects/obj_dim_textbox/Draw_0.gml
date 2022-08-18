@@ -104,7 +104,8 @@ if draw_char < text_length[page] {
 			draw_char = 0;
 			}
 		else{
-			//переключення діалогу після вибору репліки
+		
+		//переключення діалогу після вибору репліки
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
 			}
@@ -133,16 +134,18 @@ if draw_char < text_length[page] {
 	
 	for(var op=0; op<option_number; op++)
 		{
+		// виділення вибраного варіанту
+		if option[op]== option[option_pos] color=c_gray;
 		// поле для тексту відповіді
 		var _o_w = string_width(option[op])+_op_border*2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,25/txt_spr_h,0,c_black,1);
-		
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,25/txt_spr_h,0,color,1);
+		color=c_black;
 		// текст варіанту відповіді
 			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
 		}
 	}
-// вивід рамки тексту
 
+// вивід рамки тексту
 for (var c=0; c<draw_char; c++){
 	if char[c,page]!=" "{
 	var _w=string_width(char[c, page])+border*2;
@@ -179,7 +182,7 @@ for (var c=0; c<draw_char; c++){
 	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
 	}
 }
-// вивід тексту
 
+// вивід тексту
 for (var c=0; c<draw_char; c++)
 { 	draw_text(char_x[c, page], char_y[c, page], char[c, page]);	}
