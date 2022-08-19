@@ -1,20 +1,25 @@
-if(!global.pause) exit;
+
+//if(!global.pause) exit;
+esc_pau = keyboard_check_pressed(vk_escape);
+
+if (global.pause){
 var gwidth = global.view_width, gheight = global.view_height;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 32, x_buffer = 16;
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
+draw_sprite(spr_pause, 0, gwidth-1000, gheight-500);
 var c = c_black;
-draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
+//draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer, lty, xo; 
+var ltx = start_x - x_buffer-150, lty, xo; //Розташування на екрані
 
 var yy = 0; repeat (ds_height){
-	lty = start_y + (yy*y_buffer);
+	lty = start_y + (yy*y_buffer+5);
 	c = c_white;
 	xo = 0;
 	
@@ -27,12 +32,12 @@ var yy = 0; repeat (ds_height){
 }
 
 //малювання вертикальної лінії
-draw_line(start_x, start_y-y_buffer, start_x, lty+y_buffer);
+draw_line(start_x-150, start_y-y_buffer, start_x-150, lty+y_buffer); //Розташування на екрані
 
 //малювання елементів справа екрану
 draw_set_halign(fa_left);
 
-var rtx = start_x + x_buffer, rty;
+var rtx = start_x + x_buffer-150, rty; //Розташування на екрані
 
 yy = 0; repeat(ds_height){
 	rty = start_y + (yy*y_buffer);
@@ -89,3 +94,19 @@ yy = 0; repeat(ds_height){
 }
 
 draw_set_valign(fa_top);
+if (esc_pau)
+	{
+		global.pause = !global.pause;
+ 
+		// Снова включаем все объекты
+		instance_activate_all();
+	}
+} else{
+if (esc_pau)
+	{
+		global.pause = !global.pause;
+ 
+		// Снова включаем все объекты
+		instance_deactivate_all(true);
+	}
+}
