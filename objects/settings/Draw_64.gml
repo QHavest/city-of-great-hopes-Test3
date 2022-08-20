@@ -6,41 +6,46 @@ if (global.pause){
 var gwidth = global.view_width, gheight = global.view_height;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
-var y_buffer = 32, x_buffer = 16;
+var y_buffer = 50, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite(spr_pause, 0, gwidth-1000, gheight-500);
+draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,10,30,0,c_black,0.5);
+draw_sprite(spr_pause, 0, gwidth+500, gheight+250);
+
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer-150, lty, xo; //Розташування на екрані
+var ltx = start_x - x_buffer, lty, xo; //Розташування на екрані
 
 var yy = 0; repeat (ds_height){
 	lty = start_y + (yy*y_buffer+5);
 	c = c_white;
+	draw_sprite_ext(spr_pause_menu,0,ltx+530/*-90*/, lty+400,0.85,1,0,c_white,1);
 	xo = 0;
 	
 	if( yy = menu_option[page]){
 		c = c_orange;
 		xo = -(x_buffer/2);
+		
 	}
-	draw_text_color(ltx+xo, lty, ds_grid[# 0, yy], c, c, c, c, 1);
+	draw_text_color(ltx+xo+600, lty+400, ds_grid[# 0, yy], c, c, c, c, 1);
+	
 	yy++;
 }
 
 //малювання вертикальної лінії
-draw_line(start_x-150, start_y-y_buffer, start_x-150, lty+y_buffer); //Розташування на екрані
+draw_line(start_x+650, start_y-y_buffer+400, start_x+650, lty+y_buffer+400); //Розташування на екрані
 
 //малювання елементів справа екрану
 draw_set_halign(fa_left);
 
-var rtx = start_x + x_buffer-150, rty; //Розташування на екрані
+var rtx = start_x + x_buffer+650, rty; //Розташування на екрані
 
 yy = 0; repeat(ds_height){
-	rty = start_y + (yy*y_buffer);
+	rty = start_y + (yy*y_buffer+400);
 	
 	switch(ds_grid[# 1, yy]){
 	case menu_element_type.shift:
