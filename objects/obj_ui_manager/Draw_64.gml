@@ -9,7 +9,9 @@ if (game_paused)
 	// Выравниваем текст посередине и выводим надпись Game Paused
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(global.screen_width / 2, global.screen_height / 2, "Game Paused");
+	//draw_text(global.screen_width/ 2, global.screen_height /2, "Game Paused");
+	draw_sprite(spr_pause, 0, global.screen_width-1000, global.screen_height-500)
+	//draw_text_transformed(global.screen_width/ 2, global.screen_height /2, "Game Paused",4,4,image_angle);
  
 	// Возвращаем стандартные настройки выравнивания
 	draw_set_halign(fa_left);
@@ -26,7 +28,6 @@ if (game_paused)
 }
 else
 {
- 
 	// Код отрисовки интерфейса
  
 	// Ставим игру на паузу

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Storage and Tech",
-    "path": "folders/Sprites/Bazar/Storage and Tech.yy",
+    "path": "folders/Sprites/Bazar/Day/Storage and Tech.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_magazine_okorochok",

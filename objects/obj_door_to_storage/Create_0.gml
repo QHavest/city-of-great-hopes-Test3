@@ -1,12 +1,12 @@
 ///ссылки на комнаты
-newroom = rm_bakery
-oldroom = rm_street_first_side
+newroom = rm_storage
+oldroom = rm_street_magazine_tech_storage
 ///координаты в первое комнате
-new_x = 105
-new_y = 75
+new_x = 25
+new_y = 170
 ///координаты в второй комнате
-old_x = 1150
-old_y = 260
+old_x = 1365
+old_y = 270
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help
