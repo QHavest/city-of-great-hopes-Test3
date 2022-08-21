@@ -20,3 +20,6 @@ key_room_go = keyboard_check(ord("E"))
  } 
 //depth = -x;
 depth = -y;
+
+// sound
+scr_play_fon_music(room);
