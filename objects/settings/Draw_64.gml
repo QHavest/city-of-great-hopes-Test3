@@ -9,7 +9,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 50, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,10,30,0,c_black,0.5);
+draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,100,300,0,c_black,0.5);
 draw_sprite(spr_pause, 0, gwidth+500, gheight+250);
 
 var c = c_black;
@@ -23,7 +23,7 @@ var ltx = start_x - x_buffer, lty, xo; //Розташування на екра�
 var yy = 0; repeat (ds_height){
 	lty = start_y + (yy*y_buffer+5);
 	c = c_white;
-	draw_sprite_ext(spr_pause_menu,0,ltx+530/*-90*/, lty+400,0.85,1,0,c_white,1);
+	draw_sprite_ext(spr_pause_menu,0,ltx+530/*-90*/, lty+400,1,1,0,c_white,1);
 	xo = 0;
 	
 	if( yy = menu_option[page]){
