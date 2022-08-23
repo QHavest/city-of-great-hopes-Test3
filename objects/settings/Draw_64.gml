@@ -9,7 +9,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 50, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,100,300,0,c_black,0.5);
+draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,start_x+x_buffer+300,300,0,c_black,0.5);
 draw_sprite(spr_pause, 0, gwidth+500, gheight+250);
 
 var c = c_black;
@@ -18,12 +18,12 @@ var c = c_black;
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer, lty, xo; //Розташування на екрані
+var ltx = start_x - x_buffer+50, lty, xo; //Розташування на екрані
 
 var yy = 0; repeat (ds_height){
-	lty = start_y + (yy*y_buffer+5);
+	lty = start_y + (yy*y_buffer);
 	c = c_white;
-	draw_sprite_ext(spr_pause_menu,0,ltx+530/*-90*/, lty+400,1,1,0,c_white,1);
+	draw_sprite_ext(spr_pause_menu,0,ltx+400/*-90*/, lty+400,0.9,1,0,c_white,1);
 	xo = 0;
 	
 	if( yy = menu_option[page]){
@@ -82,8 +82,8 @@ yy = 0; repeat(ds_height){
 	if(inputting and yy == menu_option[page]){ c = c_yellow; }
 	if(current_val == 0) { c1 = c; c2 = c_dkgray; }
 	else				 { c1 = c_dkgray; c2 = c; }
-		draw_text_color(rtx,rty, "On", c1,c1,c1,c1, 1);
-		draw_text_color(rtx + 32,rty, "Off", c2,c2,c2,c2, 1);
+		draw_text_color(rtx,rty, "On ", c1,c1,c1,c1, 1);
+		draw_text_color(rtx + 32,rty, " Off", c2,c2,c2,c2, 1);
 	break;
 	
 	/*case menu_element_type.input:
@@ -102,7 +102,7 @@ draw_set_valign(fa_top);
 if (esc_pau)
 	{
 		global.pause = !global.pause;
- 
+		
 		// Снова включаем все объекты
 		instance_activate_all();
 	}
@@ -110,7 +110,7 @@ if (esc_pau)
 if (esc_pau)
 	{
 		global.pause = !global.pause;
- 
+		//if(!global.pause) exit;
 		// Снова включаем все объекты
 		instance_deactivate_all(true);
 	}
