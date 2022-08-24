@@ -35,6 +35,7 @@ var sz=draw_set_font(menu_font)
 ds_menu_main = create_menu_page(
  ["Resume", menu_element_type.script_runner, resume_game],
  ["Settings", menu_element_type.page_transfer, menu_page.settings],
+ ["Main menu", menu_element_type.script_runner, back_menu],
  ["Exit", menu_element_type.script_runner, exit_game]
 );
 

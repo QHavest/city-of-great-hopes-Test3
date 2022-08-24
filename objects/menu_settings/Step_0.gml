@@ -1,4 +1,4 @@
-//if(!global.pause) exit;
+//if(!global.pauses) exit;
 
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
@@ -8,7 +8,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
 if(inputting){
 switch(ds_grid[# 1, menu_option[page]]){
-		case menu_element_type.shift:
+		case menu_element_types.shift:
 			var hinput = keyboard_check_pressed(global.key_right) -  keyboard_check_pressed(global.key_left);
 			if(hinput != 0){
 				
@@ -16,7 +16,7 @@ switch(ds_grid[# 1, menu_option[page]]){
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, array_length_1d(ds_grid[# 4, menu_option[page]])-1);
 			}
 		break;
-		case menu_element_type.slider:
+		case menu_element_types.slider:
 			switch(menu_option[page]){
 				case 0: if(!audio_is_playing(snd_main_menu)) {audio_play_sound(snd_main_menu,1, false);} break;
 				case 1:
@@ -31,7 +31,7 @@ switch(ds_grid[# 1, menu_option[page]]){
 				script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);
 			}
 			break;
-		case menu_element_type.toggle:
+		case menu_element_types.toggle:
 			var hinput = keyboard_check_pressed(global.key_right) -  keyboard_check_pressed(global.key_left);
 			if(hinput != 0){
 				
@@ -39,7 +39,7 @@ switch(ds_grid[# 1, menu_option[page]]){
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, 1);
 			}
 		break;
-		case menu_element_type.input:
+		case menu_element_types.input:
 			break;
 }
 } else {
@@ -51,13 +51,14 @@ switch(ds_grid[# 1, menu_option[page]]){
 	}
 }
 if(input_enter_p){
+	
 	switch(ds_grid[# 1, menu_option[page]]){
-		case menu_element_type.script_runner: script_execute(ds_grid[# 2,menu_option[page]]);persistent=false; break;
-		case menu_element_type.page_transfer: page = ds_grid[# 2, menu_option[page]]; break;
-		case menu_element_type.shift:
-		case menu_element_type.slider:
-		case menu_element_type.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
-		case menu_element_type.input:
+		case menu_element_types.script_runner: script_execute(ds_grid[# 2,menu_option[page]]); break;
+		case menu_element_types.page_transfer: page = ds_grid[# 2, menu_option[page]]; break;
+		case menu_element_types.shift:
+		case menu_element_types.slider:
+		case menu_element_types.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
+		case menu_element_types.input:
 			inputting = !inputting;
 			break;
 	}
