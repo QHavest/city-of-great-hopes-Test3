@@ -4,7 +4,7 @@
     "path": "sprites/spr_dumb_big_h/spr_dumb_big_h.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
