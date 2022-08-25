@@ -10,8 +10,11 @@ var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху �
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
 draw_sprite_ext(spr_fon_settings,0,gwidth-1000, gheight-530,/*start_x+x_buffer*/7,7,0,c_white,1);
+
 //draw_sprite(spr_pause_h, 0, 0, 0);
 var c = c_black;
+//draw_set_font(menu_main_font2);
+draw_text_color(gwidth-1160, gheight-800,"Settings", c, c, c, c, 1);
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_middle);
