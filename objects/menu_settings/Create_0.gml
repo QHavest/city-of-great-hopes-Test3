@@ -31,7 +31,7 @@ enum menu_element_types {
 
 //створення сторінок меню
 var fnt = draw_get_font()
-var sz=draw_set_font(menu_font)
+var sz=draw_set_font(menu_main_font)
 ds_menu_main = create_menu_page(
 // ["Resume", menu_element_types.script_runner, resume_game],
  //["Settings", menu_element_types.page_transfer, menu_page.settings],

@@ -1,6 +1,6 @@
 
 //if(!global.pauses) exit;
-esc_pau = keyboard_check_pressed(vk_escape);
+//esc_paus = keyboard_check_pressed(vk_escape);
  go = true;
 if (go){
 var gwidth = global.view_width, gheight = global.view_height;
@@ -9,7 +9,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_fon_settings,0,gwidth-1000, gheight-530,/*start_x+x_buffer*/10,10,0,c_white,1);
+draw_sprite_ext(spr_fon_settings,0,gwidth-1000, gheight-530,/*start_x+x_buffer*/7,7,0,c_white,1);
 //draw_sprite(spr_pause_h, 0, 0, 0);
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
@@ -31,7 +31,7 @@ var yy = 0; repeat (ds_height){
 		//draw_sprite_ext(spr_pause_menu,0,ltx+200/*-90*/, lty+450,1.3,1.1,0,c_white,1);
 	}
 	//draw_sprite_ext(spr_pause_menu,0,ltx-200, lty,1.3,1.1,0,c_white,1); //кнопки
-	draw_text_color(ltx+xo-440, lty, ds_grid[# 0, yy], c, c, c, c, 1);
+	draw_text_color(ltx+xo-140, lty, ds_grid[# 0, yy], c, c, c, c, 1);
 	yy++;
 }
 
@@ -41,7 +41,7 @@ var yy = 0; repeat (ds_height){
 //малювання елементів справа екрану
 draw_set_halign(fa_left);
 
-var rtx = start_x + x_buffer-350, rty; //Розташування на екрані
+var rtx = start_x + x_buffer-50, rty; //Розташування на екрані
 
 yy = 0; repeat(ds_height){
 	rty = start_y + (yy*y_buffer);
@@ -81,8 +81,8 @@ yy = 0; repeat(ds_height){
 	if(inputting and yy == menu_option[page]){ c = c_yellow; }
 	if(current_val == 0) { c1 = c; c2 = c_dkgray; }
 	else				 { c1 = c_dkgray; c2 = c; }
-		draw_text_color(rtx,rty, "On ", c1,c1,c1,c1, 1);
-		draw_text_color(rtx + 32,rty, " Off", c2,c2,c2,c2, 1);
+		draw_text_color(rtx,rty, "On  ", c1,c1,c1,c1, 1);
+		draw_text_color(rtx + 32,rty, "  Off", c2,c2,c2,c2, 1);
 	break;
 	
 	/*case menu_element_type.input:
@@ -98,21 +98,21 @@ yy = 0; repeat(ds_height){
 }
 
 draw_set_valign(fa_top);
-/*if (room_goto(rm_settings))
+if (esc_paus)
 	{
-		global.pauses =  true;
-		//inputting = true;
+		//global.pauses =  true;
+		inputting = false;
 		//page = 0;
 		// Снова включаем все объекты
 		//instance_activate_all();
 	}
 } else{
-if (room_goto(rm_main_menu))
+if (esc_paus)
 	{
-		global.pauses = !global.pauses;
-		//inputting = false;
+		//global.pauses = !global.pauses;
+		inputting = true;
 		//if(!global.pause) exit;
 		// Снова включаем все объекты
 		//instance_deactivate_all(true);
-	}*/
+	}
 }// else if (room_goto(rm_main_menu)) {go=false;}

@@ -3,7 +3,7 @@
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
 input_enter_p = keyboard_check_pressed(global.key_enter);
-
+esc_paus = keyboard_check_pressed(vk_escape);
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
 if(inputting){
@@ -60,6 +60,7 @@ if(input_enter_p){
 		case menu_element_types.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
 		case menu_element_types.input:
 			inputting = !inputting;
+			
 			break;
 	}
 	//audio
