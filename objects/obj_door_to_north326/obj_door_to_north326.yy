@@ -38,7 +38,7 @@
     "path": "folders/Objects/Tykhlianka.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_school",
+  "name": "obj_door_to_north326",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -30,9 +30,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_sign_stop_sch","path":"objects/obj_sign_stop_sch/obj_sign_stop_sch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1749.0,"y":228.0,"resourceVersion":"1.0","name":"inst_4EC0203B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_turniki_small","path":"objects/obj_turniki_small/obj_turniki_small.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":236.0,"resourceVersion":"1.0","name":"inst_1A1E7D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_obj","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_school","path":"objects/obj_door_to_school/obj_door_to_school.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.9,"scaleY":0.21,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":97.0,"y":259.5,"resourceVersion":"1.0","name":"inst_7B63BDB0","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_school","path":"sprites/spr_school/spr_school.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
@@ -49,7 +47,6 @@
     {"name":"inst_4BD0283A","path":"rooms/rm_school/rm_school.yy",},
     {"name":"inst_4EC0203B","path":"rooms/rm_school/rm_school.yy",},
     {"name":"inst_1A1E7D","path":"rooms/rm_school/rm_school.yy",},
-    {"name":"inst_7B63BDB0","path":"rooms/rm_school/rm_school.yy",},
     {"name":"inst_4CB5A146","path":"rooms/rm_school/rm_school.yy",},
     {"name":"inst_3458EF95","path":"rooms/rm_school/rm_school.yy",},
     {"name":"inst_10B96537","path":"rooms/rm_school/rm_school.yy",},

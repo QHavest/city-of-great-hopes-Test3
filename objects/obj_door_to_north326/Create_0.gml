@@ -1,12 +1,12 @@
 ///ссылки на комнаты
-newroom = rm_school
-oldroom = rm_street_container
+newroom = rm_north
+oldroom = rm_street_first_side
 ///координаты в первое комнате
-new_x = 95
-new_y = 260
+new_x = 1045
+new_y = 295
 ///координаты в второй комнате
-old_x = 883
-old_y = 260
+old_x = 1250
+old_y = 280
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help
@@ -18,7 +18,5 @@ help_y = -80
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false
 new_side = false
-
-depth = -1000
 
 
