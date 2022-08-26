@@ -1,11 +1,11 @@
 ///ссылки на комнаты
-newroom = rm_center
+newroom = rm_home_gg
 oldroom = rm_street_magazine_tech_storage
 ///координаты в первое комнате
-new_x = 725
-new_y = 290
+new_x = 75
+new_y = 260
 ///координаты в второй комнате
-old_x = 900
+old_x = 45
 old_y = 275
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help

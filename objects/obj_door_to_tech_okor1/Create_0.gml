@@ -1,12 +1,12 @@
 ///ссылки на комнаты
-newroom = rm_center
-oldroom = rm_street_magazine_tech_storage
+newroom = rm_street_magazine_tech_storage
+oldroom = rm_fish_and_bazaar
 ///координаты в первое комнате
-new_x = 725
-new_y = 290
+new_x = 1955
+new_y = 245
 ///координаты в второй комнате
-old_x = 900
-old_y = 275
+old_x = 60
+old_y = 290
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help
@@ -14,9 +14,9 @@ new_help_sprite = spr_help
 drowing = false
 ///координаты на которых от игрока находится подсказка
 help_x = -10
-help_y = -80
+help_y = -70
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false
 new_side = false
 
-
+depth = -1000

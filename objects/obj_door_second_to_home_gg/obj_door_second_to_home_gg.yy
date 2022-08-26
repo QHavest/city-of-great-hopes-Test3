@@ -34,11 +34,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Home",
-    "path": "folders/Objects/Tykhlianka/Home.yy",
+    "name": "Tykhlianka",
+    "path": "folders/Objects/Tykhlianka.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_home_gg",
+  "name": "obj_door_second_to_home_gg",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,11 +2,11 @@
 newroom = rm_sport_centre
 oldroom = rm_north
 ///координаты в первое комнате
-new_x = 60
-new_y = 262
+new_x = 890
+new_y = 260
 ///координаты в второй комнате
-old_x = 2075
-old_y = 265
+old_x = 15
+old_y = 275
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help

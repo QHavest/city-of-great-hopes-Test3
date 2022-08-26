@@ -1,12 +1,12 @@
 ///ссылки на комнаты
 newroom = rm_north
-oldroom = rm_street_container
+oldroom = rm_police
 ///координаты в первое комнате
-new_x = 1045
+new_x = 1050
 new_y = 295
 ///координаты в второй комнате
-old_x = 1250
-old_y = 280
+old_x = 420
+old_y = 287
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help

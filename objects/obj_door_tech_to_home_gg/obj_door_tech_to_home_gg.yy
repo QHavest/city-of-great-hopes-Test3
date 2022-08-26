@@ -6,10 +6,7 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": true,
@@ -37,11 +34,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "door_rival_station",
-    "path": "folders/Objects/door_rival_station.yy",
+    "name": "Tykhlianka",
+    "path": "folders/Objects/Tykhlianka.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_center",
+  "name": "obj_door_tech_to_home_gg",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -3,7 +3,7 @@ newroom = rm_fish_and_bazaar
 oldroom = rm_street_container
 ///координаты в первое комнате
 new_x = 85
-new_y = 245
+new_y = 240
 ///координаты в второй комнате
 old_x = 2150
 old_y = 240
