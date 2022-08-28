@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dim_Ytopurok_stay",
-    "path": "sprites/spr_dim_Ytopurok_stay/spr_dim_Ytopurok_stay.yy",
+    "name": "spr_dim_Ytopurok_stay_r",
+    "path": "sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",
   },
   "solid": false,
   "visible": true,
@@ -49,6 +49,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_car_r","path":"objects/obj_woi_invisible_car_r/obj_woi_invisible_car_r.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_bench_p_inside47","path":"objects/obj_woi_invisible_bench_p_inside47/obj_woi_invisible_bench_p_inside47.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_dumb_p_inside","path":"objects/obj_woi_invisible_dumb_p_inside/obj_woi_invisible_dumb_p_inside.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_wall159","path":"objects/obj_woi_invisible_wall159/obj_woi_invisible_wall159.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

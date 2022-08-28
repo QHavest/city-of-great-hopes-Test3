@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menu",
-    "path": "folders/Objects/menu.yy",
+    "name": "Obj Menu",
+    "path": "folders/Main Menu/Obj Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menu_backgraund_1",

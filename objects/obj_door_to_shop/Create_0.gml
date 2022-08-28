@@ -2,8 +2,8 @@
 newroom = rm_food_shop
 oldroom = rm_street_second_side
 ///координаты в первое комнате
-new_x = 310
-new_y = 119
+new_x = 225
+new_y = 112
 ///координаты в второй комнате
 old_x = 2890
 old_y = 250
@@ -18,3 +18,5 @@ help_y = -80
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false
 new_side = false
+
+depth = -1000

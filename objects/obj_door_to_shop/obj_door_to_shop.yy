@@ -1,12 +1,12 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Portal",
+    "path": "sprites/Portal/Portal.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

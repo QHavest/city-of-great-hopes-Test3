@@ -16,9 +16,9 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_police","path":"objects/obj_door_police/obj_door_police.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":10.0,"y":220.0,"resourceVersion":"1.0","name":"inst_1582EF4B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_center","path":"objects/obj_door_to_center/obj_door_to_center.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.3000002,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":718.0,"y":288.0,"resourceVersion":"1.0","name":"inst_48C8D451","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_center_right","path":"objects/obj_door_center_right/obj_door_center_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.38250032,"scaleY":0.58999985,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1480.0,"y":271.0,"resourceVersion":"1.0","name":"inst_521520A0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_centre_left","path":"objects/obj_door_centre_left/obj_door_centre_left.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.52,"scaleY":0.41999996,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":22.0,"y":281.0,"resourceVersion":"1.0","name":"inst_4FF09F71","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_police2","path":"objects/obj_door_police2/obj_door_police2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.85999995,"scaleY":0.24,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1145.0,"y":251.0,"resourceVersion":"1.0","name":"inst_68460FE8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_center_right","path":"objects/obj_door_center_right/obj_door_center_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.41,"scaleY":0.61,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1480.5,"y":271.5,"resourceVersion":"1.0","name":"inst_7DD76BC4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":95.70001,"scaleY":1.1,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":756.0,"y":310.0,"resourceVersion":"1.0","name":"inst_4587945E","tags":[],"resourceType":"GMRInstance",},
@@ -75,7 +75,6 @@
     {"name":"inst_3FB3EA4F","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_75D8F102","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_45B47179","path":"rooms/rm_center/rm_center.yy",},
-    {"name":"inst_521520A0","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_4FF09F71","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_736A72B1","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_1E60495B","path":"rooms/rm_center/rm_center.yy",},
@@ -85,6 +84,7 @@
     {"name":"inst_6025055A","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_64BD99E0","path":"rooms/rm_center/rm_center.yy",},
     {"name":"inst_68460FE8","path":"rooms/rm_center/rm_center.yy",},
+    {"name":"inst_7DD76BC4","path":"rooms/rm_center/rm_center.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

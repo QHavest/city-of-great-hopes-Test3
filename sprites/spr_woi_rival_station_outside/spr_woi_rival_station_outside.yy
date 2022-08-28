@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "rival_station",
-    "path": "folders/Sprites/rival_station.yy",
+    "name": "Rival Station",
+    "path": "folders/Sprites/Rival Station.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_woi_rival_station_outside",

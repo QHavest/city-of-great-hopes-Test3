@@ -10,17 +10,26 @@ directx = keyr - keyl;
 directy = keyup - keydown;
 //directxy -= directxy - directx ;
 // змешення швидкості ходьби по діагоналі
+/*if (keyr && place_free(x+ collisionSpeed,y)){
+	
+}
+if (keyl && place_free(x- collisionSpeed,y)){
+	
+}
+if (keyup && place_free(x,y + collisionSpeed)){
+	
+}
+if (keydown && place_free(x,y- collisionSpeed)){
+	
+}*/
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
 hsp = directx*spd;
 vsp = directy*spd*0.5;
-///hsr = directxy;
-//hvsp = runspd;
+
 x += hsp
 y -= vsp
-//x = hsr
-//phy_position_x += hvsp
-//y = hvsp
+
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 
@@ -37,19 +46,40 @@ if (playernum == 1) sprit="Krus";
 
 if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
 if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
-//if (y!=yprevious && lastmove==5 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_run_right");
-// зміна анімації руху по горизонталі
+
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
  lastmove = 1;}
-if (keyboard_check(vk_space) and keyr) {x+=20;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");}
+if (keyboard_check(vk_space) and keyr) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =15;}
  
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-if (keyboard_check(vk_space) and keyl) {x-=20;sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");}	
+if (keyboard_check(vk_space) and keyl) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 15;}	
 lastmove = 0;}
-if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
-
+if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 // відповідність глибини до вертикальної кординати
-depth = -y;
+//depth = -y;
+
+//горизонтальна колізія
+if(place_meeting(x + hsp, y, obj_woi_invisible_wall)){
+	while(!place_meeting(x+sign(hsp), y, obj_woi_invisible_wall))
+		x += sign(hsp);
+	hsp = 0;
+}
+
+//вертикальна колізія
+if(place_meeting(x, y + vsp, obj_woi_invisible_wall)){
+	while(!place_meeting(x, y + sign(vsp) , obj_woi_invisible_wall))
+		y += sign(vsp);
+	vsp = 0;
+}
+
+/*if(place_meeting(x + hsp, y + vsp, obj_woi_invisible_wall)){
+	while(!place_meeting(x+sign(hsp), y + sign(vsp) , obj_woi_invisible_wall))
+		x += sign(hsp);
+		y += sign(vsp);
+	hsp = 0;
+	vsp = 0;
+}*/
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

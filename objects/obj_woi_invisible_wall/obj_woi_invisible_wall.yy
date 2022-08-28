@@ -11,7 +11,10 @@
     "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
   },
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
