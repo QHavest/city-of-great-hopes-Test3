@@ -22,13 +22,11 @@ if setup == false {
 		if speaker[p] == 1
 	{
 	textbox_x[p] = obj_dim_player.x-100;
-	//textbox_y[p] = obj_dim_player.y-150;
 	text_x_offset[p] = 100;
 	}
 	if speaker[p] == -1
 	{
-	textbox_x[p] = obj_dialog_start.x-120;
-//	textbox_y[p] = obj_dialog_start.y-100;
+	textbox_x[p] = obj_dialog_start.x-170;
 	text_x_offset[p] = -50;
 	}
 	
@@ -138,7 +136,7 @@ if draw_char < text_length[page] {
 		if option[op]== option[option_pos] color=c_gray;
 		// поле для тексту відповіді
 		var _o_w = string_width(option[op])+_op_border*2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,25/txt_spr_h,0,color,1);
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,line_hight/txt_spr_h,0,color,1);
 		color=c_black;
 		// текст варіанту відповіді
 			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
@@ -148,41 +146,34 @@ if draw_char < text_length[page] {
 // вивід рамки тексту
 for (var c=0; c<draw_char; c++){
 	if char[c,page]!=" "{
-	var _w=string_width(char[c, page])+border*2;
+		
+		var txt_up_to_char = string_copy(text[page],1,c+1);
+		var _w = string_width(txt_up_to_char) + border*2;
+		
+	//var _w=string_width(text[page],1,c+1)+border*2;
 	var active_line = (char_y[c, page] - txt_y)/line_sep;
-//	draw_text(char_x[c, page], char_y[c, page]-100,active_line);
+	var hi_txtb = line_sep*(active_line+1)+border+4;
 	
+	//  визначення максимальної координати Х букви на сторінці та ширини тієї букви
 	if maxi_x[page]<char_x[c, page] {
 		maxi_x[page]=char_x[c, page];
 		later_width[page]=string_width(char[c,page]);}
 		
-	// дозаповнення фону попередніх рядків до максимальної довжини якщо вони коротші максимально виведеного
-			if char_x[c, page] > line_break_pos[ 0, page]
-			{
-				for (var i=0; i<active_line; i++)
-				{
-				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  line_y[i,page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
-				}
-			}
-			
-		/* доповнення фону рядка при переході на наступний
-			if char_y[c, page] > char_y[c-1, page] &&  char_x[c-1, page]<maxi_x[page]
-				{var last_wi = string_width(char[c-1, page])+(maxi_x[page]-char_x[c-1, page]);
-				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c-1, page], line_y[active_line-1,page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
-				}*/
 		// заповнення рядка фоном при його початку
 		if active_line > 0 
 		{
 		if char_y[c, page] > char_y[c-1, page]
 			{
+				
 				var last_wi = maxi_x[page]-char_x[c, page]+later_width[page]+border*2;
-				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  last_wi/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);	
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] - border,  char_y[0, page]-border/2+2,  last_wi/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);	
 			}
 		}
-	draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] -border,  char_y[c, page],  _w/txt_spr_w, 20/txt_spr_h, 0, c_black, 1);
+		if active_line == 0
+	draw_sprite_ext(txtb_sprite, txtb_img, char_x[0, page] -border,  char_y[0, page]-border/2+2,  _w/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 	}
 }
 
 // вивід тексту
 for (var c=0; c<draw_char; c++)
-{ 	draw_text(char_x[c, page], char_y[c, page], char[c, page]);	}
+{ 	draw_text_color(char_x[c, page], char_y[c, page], char[c, page], c_black,0,0,0,c_white);	}
