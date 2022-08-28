@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_play_fon_music(r){
+	
+// муз фон залізничної станції
 if r==rm_indoor_rival_station or r==rm_indoor_rival_station or r==rm_street_first_side or r==rm_street_second_side 
 {
 if sound!= snd_rivalstation {
@@ -8,6 +10,8 @@ if sound!= snd_rivalstation {
 	sound = snd_rivalstation;
 	audio_play_sound(sound,1,1);}
 }
+// музфон центру
+
 if r==rm_center or r==rm_center_left or r=rm_center_right
 {
 	if sound!= snd_center {
@@ -15,8 +19,12 @@ if r==rm_center or r==rm_center_left or r=rm_center_right
 	sound = snd_center;
 	audio_play_sound(sound,1,1);}
 }
-
-
-
-
+// музфон базару
+if r==rm_fish_and_bazaar or r==rm_street_container or r=rm_street_magazine_tech_storage
+{
+	if sound!= snd_Bazar {
+	audio_stop_sound(sound);
+	sound = snd_Bazar;
+	audio_play_sound(sound,1,1);}
+}
 }

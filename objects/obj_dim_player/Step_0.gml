@@ -24,5 +24,6 @@ y+=vSpeed;*/
  case	PLAYERSTATE.ATTACK2   : scr_dim_playerstate_rangeat(); break;
  case	PLAYERSTATE.BLOCK     : scr_dim_playerstate_block();   break;
  } 
-//depth = -x;
-//depth = -y;
+
+// sound
+scr_play_fon_music(room);

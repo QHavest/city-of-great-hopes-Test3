@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_center.wav",
-  "duration": 126.31578,
+  "soundFile": "snd_center.mp3",
+  "duration": 126.35429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

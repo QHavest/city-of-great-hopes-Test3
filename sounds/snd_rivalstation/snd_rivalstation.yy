@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_rivalstation.wav",
-  "duration": 165.97415,
+  "soundFile": "snd_rivalstation.mp3",
+  "duration": 166.00816,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
