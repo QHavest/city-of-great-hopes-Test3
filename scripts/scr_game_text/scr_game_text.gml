@@ -29,9 +29,6 @@ case "3":
 		scr_text("Ahh... Ow... Well, that ram is whistling...too","Rusty");
 		scr_text("Amazing! It will definitely help. Let’s ask locals.", "player");
 		
-		
-		
-		
 		break
 		
 		case "npc1-no":

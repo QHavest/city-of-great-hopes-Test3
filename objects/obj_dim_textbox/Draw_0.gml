@@ -126,20 +126,20 @@ if draw_char < text_length[page] {
 		option_pos += keyboard_check_pressed(vk_down)-keyboard_check_pressed(vk_up);
 		option_pos = clamp(option_pos, 0, option_number-1);
 
-	var _op_border =5;
+	//var _op_border =5;
 	//координати відповідей
-	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+280; X_op[3]=camera_get_view_x(view_camera[0])+280; Y_op[0]=camera_get_view_y(view_camera[0])+240; Y_op[1]=camera_get_view_y(view_camera[0])+270; Y_op[2]=camera_get_view_y(view_camera[0])+240; Y_op[3]=camera_get_view_y(view_camera[0])+270;
+	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+270; X_op[3]=camera_get_view_x(view_camera[0])+270; Y_op[0]=camera_get_view_y(view_camera[0])+175; Y_op[1]=camera_get_view_y(view_camera[0])+205; Y_op[2]=camera_get_view_y(view_camera[0])+175; Y_op[3]=camera_get_view_y(view_camera[0])+205;
 	
 	for(var op=0; op<option_number; op++)
 		{
 		// виділення вибраного варіанту
 		if option[op]== option[option_pos] color=c_gray;
 		// поле для тексту відповіді
-		var _o_w = string_width(option[op])+_op_border*2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op],_o_w/txt_spr_w,line_hight/txt_spr_h,0,color,1);
-		color=c_black;
+		var _o_w = string_width(option[op])+border*2;
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_sep+border)/txt_spr_h,0,color,1);
+		color=c_white;
 		// текст варіанту відповіді
-			draw_text(X_op[op]+_op_border, Y_op[op] + 2, option[op]);
+			draw_text_color(X_op[op]+border, Y_op[op] + 2, option[op],c_black,0,0,0,c_white);
 		}
 	}
 
