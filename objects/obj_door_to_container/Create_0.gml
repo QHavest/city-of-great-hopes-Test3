@@ -2,10 +2,10 @@
 newroom = rm_street_container
 oldroom = rm_street_second_side
 ///координаты в первое комнате
-new_x = 75
+new_x = 1260
 new_y = 275
 ///координаты в второй комнате
-old_x = 1795
+old_x = 1715
 old_y = 295
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help

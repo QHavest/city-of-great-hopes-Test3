@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Portal",
+    "path": "sprites/Portal/Portal.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

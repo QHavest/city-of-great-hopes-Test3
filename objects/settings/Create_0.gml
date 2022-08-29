@@ -35,12 +35,16 @@ var sz=draw_set_font(menu_font)
 ds_menu_main = create_menu_page(
  ["Resume", menu_element_type.script_runner, resume_game],
  ["Settings", menu_element_type.page_transfer, menu_page.settings],
+ ["Main menu", menu_element_type.script_runner, back_menu],
  ["Exit", menu_element_type.script_runner, exit_game]
 );
 
 ds_settings = create_menu_page(
- ["Audio", menu_element_type.page_transfer, menu_page.audio],
- ["Graphics", menu_element_type.page_transfer, menu_page.graphics],
+ ["Audio"/*, menu_element_type.page_transfer, menu_page.audio*/],
+ ["Master", menu_element_type.slider, change_volume, 0.5, [0,1]],
+ ["Graphics"/*, menu_element_type.page_transfer, menu_page.graphics*/],
+ ["Resolution", menu_element_type.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
+ ["Window mode", menu_element_type.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
  ["Back", menu_element_type.page_transfer, menu_page.main],
 );
 
