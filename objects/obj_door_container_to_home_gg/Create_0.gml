@@ -2,8 +2,8 @@
 newroom = rm_home_gg
 oldroom = rm_street_container
 ///координаты в первое комнате
-new_x = 2300
-new_y = 255
+new_x = 2320
+new_y = 285
 ///координаты в второй комнате
 old_x = 2175
 old_y = 275

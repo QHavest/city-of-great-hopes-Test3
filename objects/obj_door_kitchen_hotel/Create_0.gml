@@ -2,8 +2,8 @@
 newroom = rm_kitchen
 oldroom = rm_restraunt
 ///координаты в первое комнате
-new_x = 505
-new_y = 110
+new_x = 526
+new_y = 100
 ///координаты в второй комнате
 old_x = 860
 old_y = 90

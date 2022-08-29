@@ -5,7 +5,7 @@ oldroom = rm_hotel_inside
 new_x = 790
 new_y = 80
 ///координаты в второй комнате
-old_x = 40
+old_x = 25
 old_y = 110
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
