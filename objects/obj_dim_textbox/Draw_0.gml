@@ -26,8 +26,8 @@ if setup == false {
 	}
 	if speaker[p] == -1
 	{
-	textbox_x[p] = obj_dialog_start.x-170;
-	text_x_offset[p] = -50;
+	textbox_x[p] = obj_dialog_start.x-100;
+	text_x_offset[p] = -150;
 	}
 	
 		for(var c=0; c<text_length[p]; c++)
@@ -128,7 +128,11 @@ if draw_char < text_length[page] {
 
 	//var _op_border =5;
 	//координати відповідей
-	X_op[0]=camera_get_view_x(view_camera[0])+8; X_op[1]=camera_get_view_x(view_camera[0])+8; X_op[2]=camera_get_view_x(view_camera[0])+270; X_op[3]=camera_get_view_x(view_camera[0])+270; Y_op[0]=camera_get_view_y(view_camera[0])+175; Y_op[1]=camera_get_view_y(view_camera[0])+205; Y_op[2]=camera_get_view_y(view_camera[0])+175; Y_op[3]=camera_get_view_y(view_camera[0])+205;
+	firstY  = room_height - line_hight - border - line_sep ;
+	secondY = room_height - border - line_sep;
+	firstX  = camera_get_view_x(view_camera[0])+8;
+	secondX = camera_get_view_x(view_camera[0])+8 + camera_get_view_width(view_camera[0])/2 + border ;
+	X_op[0]=firstX; X_op[1]=firstX; X_op[2]=secondX; X_op[3]=secondX; Y_op[0]=firstY; Y_op[1]=secondY; Y_op[2]=firstY; Y_op[3]=secondY;
 	
 	for(var op=0; op<option_number; op++)
 		{
