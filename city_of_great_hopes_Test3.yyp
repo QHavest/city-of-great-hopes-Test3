@@ -249,6 +249,7 @@
     {"id":{"name":"obj_lamp_centre2","path":"objects/obj_lamp_centre2/obj_lamp_centre2.yy",},"order":5,},
     {"id":{"name":"obj_container","path":"objects/obj_container/obj_container.yy",},"order":2,},
     {"id":{"name":"spr_lamp_sport_r","path":"sprites/spr_lamp_sport_r/spr_lamp_sport_r.yy",},"order":8,},
+    {"id":{"name":"snd_rivalstation","path":"sounds/snd_rivalstation/snd_rivalstation.yy",},"order":3,},
     {"id":{"name":"obj_truck1","path":"objects/obj_truck1/obj_truck1.yy",},"order":12,},
     {"id":{"name":"spr_dim_Ytopurok_run_left345","path":"sprites/spr_dim_Ytopurok_run_left345/spr_dim_Ytopurok_run_left345.yy",},"order":12,},
     {"id":{"name":"spr_reception","path":"sprites/spr_reception/spr_reception.yy",},"order":0,},
