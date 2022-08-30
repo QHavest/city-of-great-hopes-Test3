@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_south_entrance","path":"objects/obj_door_to_south_entrance/obj_door_to_south_entrance.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.42,"scaleY":0.13,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":134.0,"y":114.5,"resourceVersion":"1.0","name":"inst_634E2E02","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_manda","path":"objects/obj_door_to_manda/obj_door_to_manda.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-0.10087056,"scaleX":0.23,"scaleY":0.28,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13.436684,"y":107.93217,"resourceVersion":"1.0","name":"inst_29BE04F6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":37.324177,"scaleX":0.125,"scaleY":2.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":238.51146,"y":104.86695,"resourceVersion":"1.0","name":"inst_78AA2586","tags":[],"resourceType":"GMRInstance",},
@@ -33,6 +34,7 @@
     {"name":"inst_20D551BB","path":"rooms/rm_home_entrance/rm_home_entrance.yy",},
     {"name":"inst_6D652341","path":"rooms/rm_home_entrance/rm_home_entrance.yy",},
     {"name":"inst_634E2E02","path":"rooms/rm_home_entrance/rm_home_entrance.yy",},
+    {"name":"inst_29BE04F6","path":"rooms/rm_home_entrance/rm_home_entrance.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
