@@ -6,7 +6,30 @@ accept_key=keyboard_check_pressed(ord("Z"));
 //setup
 if setup == false {
 	setup = true;
-	draw_set_font(Font1);
+	
+	// розмір шрифту під кімнату and зміна параметрів виведення
+	if room_height >=300 
+	{
+		offsett_kof = 1;
+		draw_set_font(for_large);
+	}
+	if room_height <300 && room_height>=150
+	{
+		textbox_width = 120;
+		line_hight = 25;
+		border    = 10;
+		line_sep  = 14;
+		offsett_kof = 0.4;
+		draw_set_font(for_normal);
+		
+	}
+	if room_height <150
+	{
+		
+		draw_set_font(for_small);
+	}
+	 
+	
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 
@@ -21,13 +44,13 @@ if setup == false {
 		text_x_offset[p] = 44;
 		if speaker[p] == 1
 	{
-	textbox_x[p] = obj_dim_player.x-100;
-	text_x_offset[p] = 100;
+	textbox_x[p] = obj_dim_player.x-textbox_width/2;
+	text_x_offset[p] = 100*offsett_kof;
 	}
 	if speaker[p] == -1
 	{
-	textbox_x[p] = obj_dialog_start.x-100;
-	text_x_offset[p] = -150;
+	textbox_x[p] = obj_dialog_start.x-textbox_width/2;
+	text_x_offset[p] = -100*offsett_kof;
 	}
 	
 		for(var c=0; c<text_length[p]; c++)
