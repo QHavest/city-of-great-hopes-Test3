@@ -8,8 +8,6 @@ hours = minutes/60;
 
 //darkness = hours/24;
 
-
-
 if (draw_daylight){
 	#region Фази дня
 	var darks, colours, pstart, pend;
@@ -24,12 +22,11 @@ if (draw_daylight){
 		pstart = phase.sunrise;
 		pend = phase.daytime;
 		
-		object_set_visible(obj_container, true);
-		object_set_visible(obj_container_night, false);
-		instance_activate_object(obj_container);
-		instance_deactivate_object(obj_container_night)
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
+		
+		activate_obj_day();
+		deactivate_obj_night();
 		image_index += 1;
 		
 		
@@ -39,25 +36,23 @@ if (draw_daylight){
 		pstart = phase.daytime;
 		pend = phase.sunset;
 		
-		object_set_visible(obj_container, true);
-		object_set_visible(obj_container_night, false);
-		instance_activate_object(obj_container);
-		instance_deactivate_object(obj_container_night)
+		
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
+			
+		activate_obj_day();
+		deactivate_obj_night();
 		image_index += 1;
 	}else if (hours > phase.sunset and hours <= phase.nighttime /*and visability = true*/){//захід
 		darks = [0.2, max_darkness]; 
 		colours = [c_orange, c_navy, merge_color(c_black,c_navy, 0.3)];
 		pstart = phase.sunset;
 		pend = phase.nighttime;
-		
-		object_set_visible(obj_container, true);
-		object_set_visible(obj_container_night, false);
-		instance_activate_object(obj_container);
-		instance_deactivate_object(obj_container_night)
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
+		
+		activate_obj_day();
+		deactivate_obj_night();
 		image_index += 1;
 		
 	} else {
@@ -67,13 +62,13 @@ if (draw_daylight){
 		colours = [merge_color(c_black,c_navy, 0.3)];
 		pstart = phase.nighttime;
 		pend = phase.sunrise;
-		object_set_visible(obj_container, false);
-		object_set_visible(obj_container_night, true);
-		instance_activate_object(obj_container_night);
-		instance_deactivate_object(obj_container)
-		//layer_set_visible("Instances_obj", false);
+
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
+		
+		activate_obj_night();
+		deactivate_obj_day()
+		
 		image_index += 1;
 	
 	}

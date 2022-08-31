@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
+  "bbox_left": 0,
   "bbox_right": 42,
-  "bbox_top": 33,
-  "bbox_bottom": 39,
+  "bbox_top": 34,
+  "bbox_bottom": 38,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container/spr_box_container.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container/spr_box_container.yy",},"LayerId":{"name":"acda3d98-ed70-46ac-8e29-1fbf82c89b09","path":"sprites/spr_box_container/spr_box_container.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_box_container","path":"sprites/spr_box_container/spr_box_container.yy",},"resourceVersion":"1.0","name":"1f7686af-601a-4f80-b250-aab1cb2b7213","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"LayerId":{"name":"acda3d98-ed70-46ac-8e29-1fbf82c89b09","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_box_container_night","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"resourceVersion":"1.0","name":"1f7686af-601a-4f80-b250-aab1cb2b7213","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_box_container","path":"sprites/spr_box_container/spr_box_container.yy",},
+    "spriteId": {"name":"spr_box_container_night","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"76ff403b-07e6-4dc0-aa5d-08c858920e71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container/spr_box_container.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"14404231-78ce-47e7-a09e-eefb0792de99","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f7686af-601a-4f80-b250-aab1cb2b7213","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 21,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_box_container","path":"sprites/spr_box_container/spr_box_container.yy",},
+    "parent": {"name":"spr_box_container_night","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_box_container",
+    "name": "spr_box_container_night",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -70,10 +70,10 @@
   "nineSlice": null,
   "parent": {
     "name": "Container",
-    "path": "folders/Sprites/Bazar/Day/Container.yy",
+    "path": "folders/Sprites/Bazar/Night/Container.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_box_container",
+  "name": "spr_box_container_night",
   "tags": [],
   "resourceType": "GMSprite",
 }
