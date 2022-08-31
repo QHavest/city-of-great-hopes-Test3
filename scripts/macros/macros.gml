@@ -3,5 +3,5 @@
 //function Script13(){
 
 //}
-#macro FLOOR_LAYER_NAME "Tiles_1"
-#macro CEILING_LAYER_NAME "Tiles_2"
+#macro FLOOR_LAYER_NAME "Tiles_2";
+#macro CEILING_LAYER_NAME "Tiles_1";

@@ -17,8 +17,8 @@ draw_daylight = false;
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 
-text_id = layer_get_id("Background")
-visability = layer_get_visible(text_id)
+//text_id = layer_get_id("Background")
+//visability = layer_get_visible(text_id)
 
 //obj1 = object_get_visible(obj_container);
 //text_id2 = layer_get_id("Instances_obj")

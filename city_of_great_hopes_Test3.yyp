@@ -850,6 +850,7 @@
     {"id":{"name":"spr_dumb_indoor3","path":"sprites/spr_dumb_indoor3/spr_dumb_indoor3.yy",},"order":3,},
     {"id":{"name":"spr_lamp_rival_side2","path":"sprites/spr_lamp_rival_side2/spr_lamp_rival_side2.yy",},"order":9,},
     {"id":{"name":"spr_swing_south6","path":"sprites/spr_swing_south6/spr_swing_south6.yy",},"order":25,},
+    {"id":{"name":"rm_street_container_night","path":"rooms/rm_street_container_night/rm_street_container_night.yy",},"order":6,},
     {"id":{"name":"spr_closed_containers","path":"sprites/spr_closed_containers/spr_closed_containers.yy",},"order":6,},
     {"id":{"name":"spr_box_piv2","path":"sprites/spr_box_piv2/spr_box_piv2.yy",},"order":15,},
     {"id":{"name":"obj_dumb_rival","path":"objects/obj_dumb_rival/obj_dumb_rival.yy",},"order":10,},
@@ -1038,6 +1039,7 @@
     {"roomId":{"name":"rm_home_manda","path":"rooms/rm_home_manda/rm_home_manda.yy",},},
     {"roomId":{"name":"rm_box_inside","path":"rooms/rm_box_inside/rm_box_inside.yy",},},
     {"roomId":{"name":"rm_sport_inside","path":"rooms/rm_sport_inside/rm_sport_inside.yy",},},
+    {"roomId":{"name":"rm_street_container_night","path":"rooms/rm_street_container_night/rm_street_container_night.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":17,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
