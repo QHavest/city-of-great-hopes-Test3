@@ -1,13 +1,14 @@
 depth=-99999;
 //textbox_x = obj_dim_player.x-100;
-textbox_y = room_height/4;
-
+textbox_y = room_height - camera_get_view_height(view_camera[0]) + 20;
+cam_w = camera_get_view_width(view_camera[0]) ;
+cam_x = camera_get_view_x(view_camera[0]);
 //textbox_y = obj_dim_player.y-150;
 // параметри вікна з текстом
 textbox_width = 200;
 line_hight = 35;
 border    = 10;
-line_sep  = 22;
+line_sep  = 21;
 line_widt = textbox_width-border*2;
 txtb_sprite = spr_textbox;
 txtb_img = 0;

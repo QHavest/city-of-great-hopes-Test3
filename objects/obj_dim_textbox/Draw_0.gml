@@ -6,6 +6,7 @@ accept_key=keyboard_check_pressed(ord("Z"));
 //setup
 if setup == false {
 	setup = true;
+	textbox_width = cam_w/2 - border*5;
 	
 	// розмір шрифту під кімнату and зміна параметрів виведення
 	if room_height >=300 
@@ -15,9 +16,7 @@ if setup == false {
 	}
 	if room_height <300 && room_height>=150
 	{
-		textbox_width = 120;
-		line_hight = 25;
-		border    = 10;
+	//	border    = 10;
 		line_sep  = 14;
 		offsett_kof = 0.4;
 		draw_set_font(for_normal);
@@ -29,7 +28,6 @@ if setup == false {
 		draw_set_font(for_small);
 	}
 	 
-	
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 
@@ -40,17 +38,19 @@ if setup == false {
 		text_length[p] = string_length(text[p]);
 		
 		
-	//	визначення зміщення х текста		
-		text_x_offset[p] = 44;
-		if speaker[p] == 1
+	//	визначення зміщення х текста
+		textbox_x[page] = cam_w/2 - textbox_width/2 - border + cam_x;
+		text_x_offset[p] = 0;
+	
+	if speaker[p] == 1
 	{
-	textbox_x[p] = obj_dim_player.x-textbox_width/2;
-	text_x_offset[p] = 100*offsett_kof;
+	textbox_x[p] = (cam_w*global.p_p)/2 + border + cam_x;
+	//text_x_offset[p] = textbox_width*player_pos/2 ;
 	}
 	if speaker[p] == -1
 	{
-	textbox_x[p] = obj_dialog_start.x-textbox_width/2;
-	text_x_offset[p] = -100*offsett_kof;
+	textbox_x[p] = (cam_w*(1-global.p_p)/2) + border + cam_x;
+	//text_x_offset[p] = -100*offsett_kof;
 	}
 	
 		for(var c=0; c<text_length[p]; c++)
@@ -68,7 +68,7 @@ if setup == false {
 			if char [c,p] ==" " {last_free_space=_char_pos+1;}
 								
 			// розриви рядків
-			if _current_txt_w - line_break_offset[p] > line_widt
+			if _current_txt_w - line_break_offset[p] > textbox_width
 				{
 				line_break_pos[ line_break_num[p], p] = last_free_space;
 				line_break_num[p]++;
@@ -151,8 +151,8 @@ if draw_char < text_length[page] {
 
 	//var _op_border =5;
 	//координати відповідей
-	firstY  = room_height - line_hight - border - line_sep ;
-	secondY = room_height - border - line_sep;
+	firstY  = room_height - border*4 - line_sep*2 ;
+	secondY = room_height - border*2 - line_sep;
 	firstX  = camera_get_view_x(view_camera[0])+8;
 	secondX = camera_get_view_x(view_camera[0])+8 + camera_get_view_width(view_camera[0])/2 + border ;
 	X_op[0]=firstX; X_op[1]=firstX; X_op[2]=secondX; X_op[3]=secondX; Y_op[0]=firstY; Y_op[1]=secondY; Y_op[2]=firstY; Y_op[3]=secondY;
@@ -166,7 +166,7 @@ if draw_char < text_length[page] {
 		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_sep+border)/txt_spr_h,0,color,1);
 		color=c_white;
 		// текст варіанту відповіді
-			draw_text_color(X_op[op]+border, Y_op[op] + 2, option[op],c_black,0,0,0,c_white);
+			draw_text_color(X_op[op]+border, Y_op[op] + border/4, option[op],c_black,0,0,0,c_white);
 		}
 	}
 
@@ -179,7 +179,7 @@ for (var c=0; c<draw_char; c++){
 		
 	//var _w=string_width(text[page],1,c+1)+border*2;
 	var active_line = (char_y[c, page] - txt_y)/line_sep;
-	var hi_txtb = line_sep*(active_line+1)+border+4;
+	var hi_txtb = line_sep*(active_line+1)+border;
 	
 	//  визначення максимальної координати Х букви на сторінці та ширини тієї букви
 	if maxi_x[page]<char_x[c, page] {
@@ -193,11 +193,11 @@ for (var c=0; c<draw_char; c++){
 			{
 				
 				var last_wi = maxi_x[page]-char_x[c, page]+later_width[page]+border*2;
-				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] - border,  char_y[0, page]-border/2+2,  last_wi/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);	
+				draw_sprite_ext(txtb_sprite, txtb_img, char_x[c, page] - border,  char_y[0, page]-border/4,  last_wi/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);	
 			}
 		}
 		if active_line == 0
-	draw_sprite_ext(txtb_sprite, txtb_img, char_x[0, page] -border,  char_y[0, page]-border/2+2,  _w/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+	draw_sprite_ext(txtb_sprite, txtb_img, char_x[0, page] -border,  char_y[0, page]-border/4,  _w/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 	}
 }
 
