@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
-  "compression": 3,
-  "volume": 1.0,
+  "compression": 0,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bazar.wav",
-  "duration": 144.0,
+  "soundFile": "snd_bazar.mp3",
+  "duration": 144.03918,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
