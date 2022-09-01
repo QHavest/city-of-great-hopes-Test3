@@ -11,7 +11,7 @@ hours = minutes/60;
 if (draw_daylight){
 	#region Фази дня
 	var darks, colours, pstart, pend;
-	
+	//lighting_surface = surface_create(guiWidth, guiHeight);
 	//var lay_id = layer_get_id("Instances_obj");
 	//var visib = layer_get_visible(lay_id);
 	
@@ -51,6 +51,8 @@ if (draw_daylight){
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
+		
+		
 		activate_obj_day();
 		deactivate_obj_night();
 		image_index += 1;
@@ -68,6 +70,16 @@ if (draw_daylight){
 		
 		activate_obj_night();
 		deactivate_obj_day()
+		
+		/*surface_set_target(lighting_surface);
+		draw_clear_alpha(c_black,0.1);
+		with(obj_lamp_night_container){
+			gpu_set_blendmode(bm_subtract)
+			draw_sprite_ext(sprite_index, image_index, x,y, image_xscale, image_yscale, 0, c_white,1)
+			gpu_set_blendmode(bm_normal);
+		}
+		surface_reset_target();
+		draw_surface(lighting_surface, 0,0);*/
 		
 		image_index += 1;
 	
