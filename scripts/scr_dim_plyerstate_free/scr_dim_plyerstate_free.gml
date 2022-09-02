@@ -33,8 +33,15 @@ y -= vsp
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 
+if instance_exists(obj_pauser){
+	hsp = 0;
+	vsp = 0;
+}
 
-
+if  hsp==0 && vsp ==0
+{
+image_index = 0;
+}
 
 sprit="Ytopurok";
  
@@ -60,15 +67,15 @@ if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index
 //depth = -y;
 
 //горизонтальна колізія
-if(place_meeting(x + hsp, y, obj_woi_invisible_wall)){
-	while(!place_meeting(x+sign(hsp), y, obj_woi_invisible_wall))
+if(place_meeting(x + hsp, y, obj_invisiblewall)){
+	while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
 		x += sign(hsp);
 	hsp = 0;
 }
 
 //вертикальна колізія
-if(place_meeting(x, y + vsp, obj_woi_invisible_wall)){
-	while(!place_meeting(x, y + sign(vsp) , obj_woi_invisible_wall))
+if(place_meeting(x, y + vsp, obj_invisiblewall)){
+	while(!place_meeting(x, y + sign(vsp) , obj_invisiblewall))
 		y += sign(vsp);
 	vsp = 0;
 }

@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "spr_suvenir",
-    "path": "sprites/spr_suvenir/spr_suvenir.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,11 +22,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Second Side",
-    "path": "folders/Objects/Rival Station/Second Side.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_suvenir",
+  "name": "obj_pauser",
   "tags": [],
   "resourceType": "GMObject",
 }
