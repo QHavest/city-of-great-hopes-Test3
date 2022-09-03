@@ -26,22 +26,21 @@ if( directy !=0 && directx !=0 ) spd=spd*0.8;
 
 hsp = directx*spd;
 vsp = directy*spd*0.5;
-
+if instance_exists(obj_pauser){
+	hsp = 0;
+	vsp = 0;
+}
 x += hsp
 y -= vsp
 
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 
-if instance_exists(obj_pauser){
-	hsp = 0;
-	vsp = 0;
-}
 
-if  hsp==0 && vsp ==0
+/*if  hsp==0 && vsp ==0
 {
 image_index = 0;
-}
+}*/
 
 sprit="Ytopurok";
  

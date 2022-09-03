@@ -27,6 +27,7 @@ if (draw_daylight){
 		
 		activate_obj_day();
 		deactivate_obj_night();
+		global.darknes = 0;
 		image_index += 1;
 		
 		
@@ -42,6 +43,8 @@ if (draw_daylight){
 			
 		activate_obj_day();
 		deactivate_obj_night();
+		global.darknes = 0;
+		
 		image_index += 1;
 	}else if (hours > phase.sunset and hours <= phase.nighttime /*and visability = true*/){//захід
 		darks = [0.2, max_darkness]; 
@@ -51,17 +54,16 @@ if (draw_daylight){
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
-		
-		
 		activate_obj_day();
 		deactivate_obj_night();
+		global.darknes = 0;
 		image_index += 1;
 		
 	} else {
 		//visability = true
 		//obj1 = true
 		darks = [max_darkness];
-		colours = [merge_color(c_black,c_navy, 0.3)];
+		colours = [merge_color(c_black,c_navy, 0)];
 		pstart = phase.nighttime;
 		pend = phase.sunrise;
 
@@ -70,7 +72,7 @@ if (draw_daylight){
 		
 		activate_obj_night();
 		deactivate_obj_day()
-		
+		global.darknes = .5
 		/*surface_set_target(lighting_surface);
 		draw_clear_alpha(c_black,0.1);
 		with(obj_lamp_night_container){

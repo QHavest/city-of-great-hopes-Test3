@@ -2,6 +2,7 @@
 //if(!global.pause) exit;
 esc_pau = keyboard_check_pressed(vk_escape);
 
+
 if (global.pause){
 var gwidth = global.view_width, gheight = global.view_height;
 

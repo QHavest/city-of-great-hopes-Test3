@@ -7,6 +7,7 @@ input_enter_p = keyboard_check_pressed(global.key_enter);
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
 if(inputting){
+
 switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_type.shift:
 			var hinput = keyboard_check_pressed(global.key_right) -  keyboard_check_pressed(global.key_left);

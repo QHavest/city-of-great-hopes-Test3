@@ -1,6 +1,8 @@
 
 //if(!global.pauses) exit;
 //esc_paus = keyboard_check_pressed(vk_escape);
+	var fnt = draw_get_font()
+var sz=draw_set_font(menu_main_font)
  go = true;
 if (go){
 var gwidth = global.view_width, gheight = global.view_height;

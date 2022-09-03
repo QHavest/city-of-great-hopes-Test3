@@ -24,7 +24,7 @@ if (surface_exists(light_surf)) {
 	
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();
-	draw_surface_ext(light_surf, 0, 0, 1, 1,0, c_white, darknes);
+	draw_surface_ext(light_surf, 0, 0, 1, 1,0, c_white, global.darknes);
 } else {
       light_surf = surface_create(room_width, room_height);
 }

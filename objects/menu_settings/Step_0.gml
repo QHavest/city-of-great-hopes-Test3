@@ -1,5 +1,6 @@
 //if(!global.pauses) exit;
-
+var fnt = draw_get_font()
+var sz=draw_set_font(menu_main_font)
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
 input_enter_p = keyboard_check_pressed(global.key_enter);
@@ -7,6 +8,7 @@ esc_paus = keyboard_check_pressed(vk_escape);
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
 if(inputting){
+
 switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_types.shift:
 			var hinput = keyboard_check_pressed(global.key_right) -  keyboard_check_pressed(global.key_left);
