@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function versautilsdepthsort(lowerDepthBound, upperDepthBound){
+	
 	var perceivedDepth = -bbox_bottom;
 
 	if((!variable_global_exists("_entityDepthMin"))

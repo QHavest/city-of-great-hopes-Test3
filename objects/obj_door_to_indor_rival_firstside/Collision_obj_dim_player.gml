@@ -12,3 +12,4 @@ if room = newroom{
 drowing = true
 }
 
+image_index = 0;

@@ -11,6 +11,8 @@ if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 key_room_go = keyboard_check(ord("E"))
 
+
+
 /*inputDirection = point_direction(0,0,keyr-keyl,keydown-keyup);
 inputMagnitude = (keyr - keyl != 0) || (keydown - keyup != 0);
 
