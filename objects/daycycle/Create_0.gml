@@ -17,7 +17,7 @@ year = 1;
 time_increment = 100; //секунди за крок
 time_pause = true;
 
-max_darkness = 0.1;
+max_darkness = 0.2;
 darkness = 0;
 light_colour = c_black;
 draw_daylight = false;

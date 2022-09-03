@@ -16,10 +16,10 @@ if (surface_exists(light_surf)) {
 	draw_clear(c_black);
 	with(obj_lamp_night_container){
 		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(spr_lamp_night_container, 0, x,y, 1, 1, 0, c_white,.5);
+		draw_sprite_ext(spr_lamp_night, 0, x,y, 1, 1, 0, c_white,1);
 		
 	gpu_set_blendmode(bm_normal);
-	draw_sprite_ext(spr_lamp_night_container, 0, x,y, 1, 1, 0, c_white,.7);
+	draw_sprite_ext(spr_lamp_night, 0, x,y, 1, 1, 0, c_white,0.3);
 	}
 	
 	gpu_set_blendmode(bm_normal);
