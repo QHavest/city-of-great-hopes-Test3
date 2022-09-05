@@ -3,28 +3,35 @@
 function scr_play_fon_music(r){
 	
 // муз фон залізничної станції
-if r==rm_indoor_rival_station or r==rm_indoor_rival_station or r==rm_street_first_side or r==rm_street_second_side 
+if r=rm_indoor_rival_station or r=rm_indoor_rival_station or r=rm_street_first_side or r=rm_street_second_side 
 {
-if sound!= snd_rivalstation {
-	audio_stop_sound(sound);
-	sound = snd_rivalstation;
-	audio_play_sound(sound,1,1);}
+if global.sound!= snd_rivalstation {
+	audio_stop_sound(global.sound);
+	global.sound = snd_rivalstation;
+	audio_play_sound(global.sound,1,1);}
 }
 // музфон центру
 
-if r==rm_center or r==rm_center_left or r=rm_center_right
+if r=rm_center or r=rm_center_left or r=rm_center_right
 {
-	if sound!= snd_center {
-	audio_stop_sound(sound);
-	sound = snd_center;
-	audio_play_sound(sound,1,1);}
+	if global.sound!= snd_center {
+	audio_stop_sound(global.sound);
+	global.sound = snd_center;
+	audio_play_sound(global.sound,1,1);}
 }
 // музфон базару
-if r==rm_fish_and_bazaar or r==rm_street_container or r=rm_street_magazine_tech_storage
+if r=rm_fish_and_bazaar or r=rm_street_container or r=rm_street_magazine_tech_storage
 {
-	if sound!= snd_Bazar {
-	audio_stop_sound(sound);
-	sound = snd_Bazar;
-	audio_play_sound(sound,1,1);}
-}
+	if global.sound!= snd_Bazar {
+	audio_stop_sound(global.sound);
+	global.sound = snd_Bazar;
+	audio_play_sound(global.sound,1,1);}
+} /*else
+if (r== rm_settings or r == rm_main_menu)
+{
+
+		audio_stop_sound(sound);
+		
+}*/
+
 }

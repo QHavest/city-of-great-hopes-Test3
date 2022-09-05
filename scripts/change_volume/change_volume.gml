@@ -5,7 +5,7 @@ var type = menu_option[page];
 
 switch(type){
 	case 0: audio_master_gain(argument0); break;
-	case 1:
+	case 1: 
 	case 2:
 }
 }

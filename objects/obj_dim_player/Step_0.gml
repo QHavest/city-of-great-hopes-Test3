@@ -28,4 +28,4 @@ y+=vSpeed;*/
  } 
 
 // sound
-scr_play_fon_music(room);
+//scr_play_fon_music(room);

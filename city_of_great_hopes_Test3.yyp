@@ -317,6 +317,7 @@
     {"id":{"name":"obj_culture_column_1","path":"objects/obj_culture_column_1/obj_culture_column_1.yy",},"order":6,},
     {"id":{"name":"ob_doc_blik1","path":"objects/ob_doc_blik1/ob_doc_blik1.yy",},"order":5,},
     {"id":{"name":"obj_lamp_sport_r","path":"objects/obj_lamp_sport_r/obj_lamp_sport_r.yy",},"order":8,},
+    {"id":{"name":"music_room","path":"objects/music_room/music_room.yy",},"order":8,},
     {"id":{"name":"spr_dim_Ytopurok_stay_l","path":"sprites/spr_dim_Ytopurok_stay_l/spr_dim_Ytopurok_stay_l.yy",},"order":9,},
     {"id":{"name":"spr_box_magazine","path":"sprites/spr_box_magazine/spr_box_magazine.yy",},"order":0,},
     {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},"order":1,},
