@@ -14,10 +14,10 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_indoor_kalinky","path":"objects/obj_door_to_indoor_kalinky/obj_door_to_indoor_kalinky.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.70000005,"scaleY":0.17999999,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":71.0,"y":100.0,"resourceVersion":"1.0","name":"inst_45348F_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-33.640236,"scaleX":0.25,"scaleY":2.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7.0,"y":102.5,"resourceVersion":"1.0","name":"inst_3A9E8056_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":35.910442,"scaleX":0.25,"scaleY":1.9375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":326.38885,"y":103.536514,"resourceVersion":"1.0","name":"inst_72555DE5_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_to_indoor_kalinky_boss","path":"objects/obj_door_to_indoor_kalinky_boss/obj_door_to_indoor_kalinky_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.29999998,"scaleY":0.29,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":106.5,"resourceVersion":"1.0","name":"inst_7AD450C9","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":35.910442,"scaleX":0.25,"scaleY":2.5625002,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.56192,"y":107.156395,"resourceVersion":"1.0","name":"inst_72555DE5_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.68,"scaleY":0.12,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":70.0,"y":98.0,"resourceVersion":"1.0","name":"inst_50319050","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.24999999,"scaleY":0.17,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":315.5,"y":112.5,"resourceVersion":"1.0","name":"inst_2CA37EEF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_plant_kalynky","path":"objects/obj_plant_kalynky/obj_plant_kalynky.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":130.0,"y":58.0,"resourceVersion":"1.0","name":"inst_6A8373FF_1","tags":[],"resourceType":"GMRInstance",},
@@ -34,7 +34,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_45348F_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_FD7F816_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_6A8373FF_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_EDA0756_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
@@ -44,7 +43,8 @@
     {"name":"inst_1659A1A3_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_3A9E8056_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_72555DE5_1","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
-    {"name":"inst_7AD450C9","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
+    {"name":"inst_50319050","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
+    {"name":"inst_2CA37EEF","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

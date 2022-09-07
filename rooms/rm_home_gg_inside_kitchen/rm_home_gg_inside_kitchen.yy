@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_home_gg_kitchen","path":"objects/obj_door_home_gg_kitchen/obj_door_home_gg_kitchen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.34,"scaleY":0.12,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":149.0,"y":115.0,"resourceVersion":"1.0","name":"inst_3F7D8927","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.31,"scaleY":0.089999996,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":152.5,"y":116.5,"resourceVersion":"1.0","name":"inst_497F8F28","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-24.464224,"scaleX":0.25,"scaleY":2.3125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8.348312,"y":102.44269,"resourceVersion":"1.0","name":"inst_5FB384D6","tags":[],"resourceType":"GMRInstance",},
@@ -46,7 +46,7 @@
     {"name":"inst_240F9B86","path":"rooms/rm_home_gg_inside_kitchen/rm_home_gg_inside_kitchen.yy",},
     {"name":"inst_79DB8A75","path":"rooms/rm_home_gg_inside_kitchen/rm_home_gg_inside_kitchen.yy",},
     {"name":"inst_325C426C","path":"rooms/rm_home_gg_inside_kitchen/rm_home_gg_inside_kitchen.yy",},
-    {"name":"inst_3F7D8927","path":"rooms/rm_home_gg_inside_kitchen/rm_home_gg_inside_kitchen.yy",},
+    {"name":"inst_497F8F28","path":"rooms/rm_home_gg_inside_kitchen/rm_home_gg_inside_kitchen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
