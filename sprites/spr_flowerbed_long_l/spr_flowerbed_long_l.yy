@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_flowerbed_long_l",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"005f8084-2768-4e09-97e1-7baf277e29e1","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"005f8084-2768-4e09-97e1-7baf277e29e1","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"LayerId":{"name":"1d886c51-6111-4cf2-8ee2-e33a2f0eef80","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flowerbed_long_l","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"resourceVersion":"1.0","name":"005f8084-2768-4e09-97e1-7baf277e29e1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"005f8084-2768-4e09-97e1-7baf277e29e1",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_flowerbed_long_l","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_flowerbed_long_l",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7ad9f78a-d64c-49c3-ae5f-fc3a39b072e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"005f8084-2768-4e09-97e1-7baf277e29e1","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"7ad9f78a-d64c-49c3-ae5f-fc3a39b072e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"005f8084-2768-4e09-97e1-7baf277e29e1","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_flowerbed_long_l","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_flowerbed_long_l",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1d886c51-6111-4cf2-8ee2-e33a2f0eef80","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1d886c51-6111-4cf2-8ee2-e33a2f0eef80","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Second Side",
     "path": "folders/Sprites/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_flowerbed_long_l",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

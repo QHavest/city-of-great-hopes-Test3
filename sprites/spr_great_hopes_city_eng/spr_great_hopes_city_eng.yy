@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_great_hopes_city_eng",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"LayerId":{"name":"9e6abe19-303f-4145-ad00-76fbe9deacd4","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_great_hopes_city_eng","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"resourceVersion":"1.0","name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_great_hopes_city_eng","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_great_hopes_city_eng",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0a2143cf-4b88-4fb2-857d-0798430db7e8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"0a2143cf-4b88-4fb2-857d-0798430db7e8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,14 +61,9 @@
     "yorigin": 43,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_great_hopes_city_eng","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_great_hopes_city_eng",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e6abe19-303f-4145-ad00-76fbe9deacd4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9e6abe19-303f-4145-ad00-76fbe9deacd4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 0,
@@ -96,8 +94,4 @@
     "name": "Main Menu",
     "path": "folders/Main Menu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_great_hopes_city_eng",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_truck_closeds_night2",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"LayerId":{"name":"f598893d-c6c6-47e2-baab-09c8759d4f5c","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_truck_closeds_night2","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"resourceVersion":"1.0","name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_truck_closeds_night2","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_truck_closeds_night2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2acda120-3a3b-4075-8f08-5b7c2713acf5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"2acda120-3a3b-4075-8f08-5b7c2713acf5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7b50cb6-7034-4782-88c4-82cfe5b9f496","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 51,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_truck_closeds_night2","path":"sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_truck_closeds_night2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f598893d-c6c6-47e2-baab-09c8759d4f5c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f598893d-c6c6-47e2-baab-09c8759d4f5c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Container",
     "path": "folders/Sprites/Bazar/Night/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_truck_closeds_night2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

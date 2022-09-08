@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_magazine_ok_tech",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"LayerId":{"name":"9be6c93d-8583-4fe0-8407-bea56c3e24fe","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_magazine_ok_tech","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"resourceVersion":"1.0","name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_magazine_ok_tech","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_magazine_ok_tech",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"43b33336-fc7e-499e-8b01-99532a6d364d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"43b33336-fc7e-499e-8b01-99532a6d364d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a8d4c7a-50c3-44db-bd7c-ea14076ee3b8","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 150,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_magazine_ok_tech","path":"sprites/spr_magazine_ok_tech/spr_magazine_ok_tech.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_magazine_ok_tech",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9be6c93d-8583-4fe0-8407-bea56c3e24fe","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9be6c93d-8583-4fe0-8407-bea56c3e24fe","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Storage and Tech",
     "path": "folders/Sprites/Bazar/Day/Storage and Tech.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_magazine_ok_tech",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

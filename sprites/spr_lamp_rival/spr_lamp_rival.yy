@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_lamp_rival",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d131d8cf-66eb-41cc-8864-8dbd939911a8","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d131d8cf-66eb-41cc-8864-8dbd939911a8","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"LayerId":{"name":"3d8a00c1-ed10-484b-bd55-ec61de8854c6","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lamp_rival","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"resourceVersion":"1.0","name":"d131d8cf-66eb-41cc-8864-8dbd939911a8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d131d8cf-66eb-41cc-8864-8dbd939911a8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_lamp_rival","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_lamp_rival",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6c50026a-0807-4bb7-8096-e14a38cbd02a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d131d8cf-66eb-41cc-8864-8dbd939911a8","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"6c50026a-0807-4bb7-8096-e14a38cbd02a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d131d8cf-66eb-41cc-8864-8dbd939911a8","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 73,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_lamp_rival","path":"sprites/spr_lamp_rival/spr_lamp_rival.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_lamp_rival",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d8a00c1-ed10-484b-bd55-ec61de8854c6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d8a00c1-ed10-484b-bd55-ec61de8854c6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "First Side",
     "path": "folders/Sprites/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_lamp_rival",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_indoor_tri_kalynky",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"037ac930-7e62-4a9d-9947-af0dc804253f","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"037ac930-7e62-4a9d-9947-af0dc804253f","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"LayerId":{"name":"dd25abdb-3e5b-4e0c-a10a-a3bb600282d4","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_indoor_tri_kalynky","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"resourceVersion":"1.0","name":"037ac930-7e62-4a9d-9947-af0dc804253f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"037ac930-7e62-4a9d-9947-af0dc804253f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_indoor_tri_kalynky","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_indoor_tri_kalynky",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"61cfdcfd-81af-4702-a94f-64dd894807fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"037ac930-7e62-4a9d-9947-af0dc804253f","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"61cfdcfd-81af-4702-a94f-64dd894807fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"037ac930-7e62-4a9d-9947-af0dc804253f","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 60,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_indoor_tri_kalynky","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_indoor_tri_kalynky",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dd25abdb-3e5b-4e0c-a10a-a3bb600282d4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd25abdb-3e5b-4e0c-a10a-a3bb600282d4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Second Side",
     "path": "folders/Sprites/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_indoor_tri_kalynky",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

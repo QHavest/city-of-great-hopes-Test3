@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sport_centre",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -8,7 +11,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 747,
+  "bbox_right": 748,
   "bbox_top": 0,
   "bbox_bottom": 205,
   "HTile": false,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"LayerId":{"name":"6c02d241-c51f-453b-9f7c-50dcd19f5048","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sport_centre","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"resourceVersion":"1.0","name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sport_centre","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sport_centre",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"87e8cc86-8c77-4e09-8ea2-20b10c8b23dd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"87e8cc86-8c77-4e09-8ea2-20b10c8b23dd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d2d08c2-5a89-4ccd-82f6-c1fc2ee6aa2f","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 105,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sport_centre","path":"sprites/spr_sport_centre/spr_sport_centre.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_sport_centre",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6c02d241-c51f-453b-9f7c-50dcd19f5048","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6c02d241-c51f-453b-9f7c-50dcd19f5048","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sport Centre",
     "path": "folders/Sprites/Tukhlianka/Sport Centre.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sport_centre",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

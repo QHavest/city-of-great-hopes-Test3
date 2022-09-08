@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_kitchen_hotel",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a983cf01-c54f-4f44-9391-bfec1d9138a9","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a983cf01-c54f-4f44-9391-bfec1d9138a9","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"LayerId":{"name":"0efd9c41-4a31-4f35-b26a-d4e3cd5e06e1","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_kitchen_hotel","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"resourceVersion":"1.0","name":"a983cf01-c54f-4f44-9391-bfec1d9138a9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a983cf01-c54f-4f44-9391-bfec1d9138a9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_kitchen_hotel","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_kitchen_hotel",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2b0334b9-7545-44fa-be52-7a2fe5421772","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a983cf01-c54f-4f44-9391-bfec1d9138a9","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"2b0334b9-7545-44fa-be52-7a2fe5421772","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a983cf01-c54f-4f44-9391-bfec1d9138a9","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 60,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_kitchen_hotel","path":"sprites/spr_kitchen_hotel/spr_kitchen_hotel.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_kitchen_hotel",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0efd9c41-4a31-4f35-b26a-d4e3cd5e06e1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0efd9c41-4a31-4f35-b26a-d4e3cd5e06e1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hotel",
     "path": "folders/Sprites/Center/Left/Hotel.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_kitchen_hotel",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_magazine_sigarette",
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"LayerId":{"name":"6074f5f6-444f-4bac-b1ae-1fe179e9684d","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_magazine_sigarette","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"resourceVersion":"1.0","name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_magazine_sigarette","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_magazine_sigarette",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"79cc8b31-a9a9-47a6-9e85-46468b6e9b42","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"79cc8b31-a9a9-47a6-9e85-46468b6e9b42","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c47a2aaf-fbd2-4086-b3fb-33d8f218ef63","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 43,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_magazine_sigarette","path":"sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_magazine_sigarette",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6074f5f6-444f-4bac-b1ae-1fe179e9684d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6074f5f6-444f-4bac-b1ae-1fe179e9684d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "First Side",
     "path": "folders/Sprites/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_magazine_sigarette",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,9 +1,12 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_stairs_sport",
   "spriteId": {
     "name": "spr_stairs_sport",
     "path": "sprites/spr_stairs_sport/spr_stairs_sport.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -31,8 +34,4 @@
     "name": "Sport centre",
     "path": "folders/Objects/Tykhlianka/Sport centre.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_stairs_sport",
-  "tags": [],
-  "resourceType": "GMObject",
 }
