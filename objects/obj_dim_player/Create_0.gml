@@ -7,7 +7,7 @@ playernum = 0;
 collisionSpeed = 4;
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
-
+mask_index = sprite_index;
 
 state=PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();

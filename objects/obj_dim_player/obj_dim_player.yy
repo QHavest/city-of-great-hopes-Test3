@@ -53,6 +53,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_bench_p_inside47","path":"objects/obj_woi_invisible_bench_p_inside47/obj_woi_invisible_bench_p_inside47.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_dumb_p_inside","path":"objects/obj_woi_invisible_dumb_p_inside/obj_woi_invisible_dumb_p_inside.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_woi_invisible_wall159","path":"objects/obj_woi_invisible_wall159/obj_woi_invisible_wall159.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
