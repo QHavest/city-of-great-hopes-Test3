@@ -4,6 +4,7 @@ function activate_obj_day(){
 instance_activate_object(obj_container);
 instance_activate_object(obj_trucks_open);
 instance_activate_object(obj_orange);
+instance_activate_object(obj_orange2);
 instance_activate_object(obj_banana);
 instance_activate_object(obj_mishky);
 instance_activate_object(obj_watermelon);

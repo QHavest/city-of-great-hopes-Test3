@@ -1,9 +1,12 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_koliia",
   "spriteId": {
     "name": "spr_koliia",
     "path": "sprites/spr_koliia/spr_koliia.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": false,
   "managed": true,
   "spriteMaskId": null,
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_koliia",
-  "tags": [],
-  "resourceType": "GMObject",
 }

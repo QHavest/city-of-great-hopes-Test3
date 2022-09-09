@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_sign_school_baby",
   "spriteId": {
     "name": "spr_sign_school_baby",
     "path": "sprites/spr_sign_school_baby/spr_sign_school_baby.yy",
@@ -31,8 +34,4 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_sign_school_baby",
-  "tags": [],
-  "resourceType": "GMObject",
 }

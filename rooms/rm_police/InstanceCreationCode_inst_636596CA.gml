@@ -1,3 +1,3 @@
-target_x = 1445;
+target_x = 1418;
 target_y = 247;
 target_rm=rm_center;
