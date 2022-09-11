@@ -245,6 +245,7 @@
     {"id":{"name":"obj_bush3","path":"objects/obj_bush3/obj_bush3.yy",},"order":2,},
     {"id":{"name":"obj_bench_rival_r","path":"objects/obj_bench_rival_r/obj_bench_rival_r.yy",},"order":1,},
     {"id":{"name":"spr_garage_gg","path":"sprites/spr_garage_gg/spr_garage_gg.yy",},"order":5,},
+    {"id":{"name":"spr_romb472","path":"sprites/spr_romb472/spr_romb472.yy",},"order":10,},
     {"id":{"name":"obj_door_to_shop","path":"objects/obj_door_to_shop/obj_door_to_shop.yy",},"order":4,},
     {"id":{"name":"rm_okorochok_indoor","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},"order":3,},
     {"id":{"name":"spr_trucks_open","path":"sprites/spr_trucks_open/spr_trucks_open.yy",},"order":4,},
