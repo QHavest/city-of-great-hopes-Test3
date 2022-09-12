@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dim_textbox",
-  "spriteId": null,
+  "name": "obj_contyr",
+  "spriteId": {
+    "name": "spr_contyr_1",
+    "path": "sprites/spr_contyr_1/spr_contyr_1.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -23,13 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Dialogs.yy",
+    "name": "Mapa",
+    "path": "folders/Mapa.yy",
   },
 }
