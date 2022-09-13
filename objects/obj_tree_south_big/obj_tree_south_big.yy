@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_tree_south_big",
   "spriteId": {
     "name": "spr_tree_south_big",
     "path": "sprites/spr_tree_south_big/spr_tree_south_big.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_tree_south_big",
-  "tags": [],
-  "resourceType": "GMObject",
 }

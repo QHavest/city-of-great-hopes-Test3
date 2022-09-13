@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_car_south_l",
   "spriteId": {
     "name": "spr_car_south_l",
     "path": "sprites/spr_car_south_l/spr_car_south_l.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_car_south_l",
-  "tags": [],
-  "resourceType": "GMObject",
 }

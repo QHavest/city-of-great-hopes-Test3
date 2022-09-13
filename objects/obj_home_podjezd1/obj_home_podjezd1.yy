@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_home_podjezd1",
   "spriteId": {
     "name": "spr_home_podjezd1",
     "path": "sprites/spr_home_podjezd1/spr_home_podjezd1.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_home_podjezd1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

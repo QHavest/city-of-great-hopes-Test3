@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_flowerbed3",
   "spriteId": {
     "name": "spr_flowerbed3",
     "path": "sprites/spr_flowerbed3/spr_flowerbed3.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_flowerbed3",
-  "tags": [],
-  "resourceType": "GMObject",
 }

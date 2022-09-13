@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_entrance_south1",
   "spriteId": {
     "name": "spr_entrance_south1",
     "path": "sprites/spr_entrance_south1/spr_entrance_south1.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_entrance_south1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

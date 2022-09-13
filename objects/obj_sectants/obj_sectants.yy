@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_sectants",
   "spriteId": {
     "name": "spr_sectants",
     "path": "sprites/spr_sectants/spr_sectants.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_sectants",
-  "tags": [],
-  "resourceType": "GMObject",
 }

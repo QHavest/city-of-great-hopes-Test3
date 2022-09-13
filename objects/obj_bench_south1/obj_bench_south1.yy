@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bench_south1",
   "spriteId": {
     "name": "spr_bench_south1",
     "path": "sprites/spr_bench_south1/spr_bench_south1.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bench_south1",
-  "tags": [],
-  "resourceType": "GMObject",
 }
