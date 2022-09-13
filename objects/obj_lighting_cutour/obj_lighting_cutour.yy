@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Lighting_Cutour",
   "spriteId": {
     "name": "sp_doc_blik",
     "path": "sprites/sp_doc_blik/sp_doc_blik.yy",
@@ -26,10 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lighting",
-    "path": "folders/Objects/Day_Night/Lighting.yy",
+    "path": "folders/Day_Night/Lighting.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Lighting_Cutour",
-  "tags": [],
-  "resourceType": "GMObject",
 }

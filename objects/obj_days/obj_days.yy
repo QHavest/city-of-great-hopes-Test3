@@ -1,12 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_armchair",
-  "spriteId": {
-    "name": "spr_armchear",
-    "path": "sprites/spr_armchear/spr_armchear.yy",
-  },
-  "solid": true,
+  "name": "obj_days",
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Objects/Center/Left/Hotel/Rooms.yy",
+    "name": "Day_Night",
+    "path": "folders/Day_Night.yy",
   },
 }

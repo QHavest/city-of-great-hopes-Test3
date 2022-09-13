@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_culture_column_1",
   "spriteId": {
     "name": "spr_column_1",
     "path": "sprites/spr_column_1/spr_column_1.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,8 +34,4 @@
     "name": "Right",
     "path": "folders/Objects/Center/Right.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_culture_column_1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

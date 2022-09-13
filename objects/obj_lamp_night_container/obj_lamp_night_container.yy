@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_night_container",
   "spriteId": {
     "name": "spr_lamp_night",
     "path": "sprites/spr_lamp_night/spr_lamp_night.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Night",
     "path": "folders/Objects/Bazar/Container/Night.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_night_container",
-  "tags": [],
-  "resourceType": "GMObject",
 }

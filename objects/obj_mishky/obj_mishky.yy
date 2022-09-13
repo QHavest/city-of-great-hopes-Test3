@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_mishky",
   "spriteId": {
     "name": "spr_mishky",
     "path": "sprites/spr_mishky/spr_mishky.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_mishky",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bucket",
   "spriteId": {
     "name": "spr_bucket",
     "path": "sprites/spr_bucket/spr_bucket.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,8 +34,4 @@
     "name": "FastFood",
     "path": "folders/Objects/Center/Right/FastFood.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bucket",
-  "tags": [],
-  "resourceType": "GMObject",
 }

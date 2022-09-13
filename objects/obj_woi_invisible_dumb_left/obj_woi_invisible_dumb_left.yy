@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_dumb_left",
   "spriteId": {
     "name": "spr_dumb",
     "path": "sprites/spr_dumb/spr_dumb.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,8 +39,4 @@
     "name": "Left",
     "path": "folders/Objects/Center/Left.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_dumb_left",
-  "tags": [],
-  "resourceType": "GMObject",
 }

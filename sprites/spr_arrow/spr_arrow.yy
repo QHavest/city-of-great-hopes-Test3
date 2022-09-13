@@ -70,6 +70,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Day_Night",
-    "path": "folders/Objects/Day_Night.yy",
+    "path": "folders/Day_Night.yy",
   },
 }

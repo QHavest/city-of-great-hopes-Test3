@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_container_night",
   "spriteId": {
     "name": "spr_container_night",
     "path": "sprites/spr_container_night/spr_container_night.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_container_night",
-  "tags": [],
-  "resourceType": "GMObject",
 }
