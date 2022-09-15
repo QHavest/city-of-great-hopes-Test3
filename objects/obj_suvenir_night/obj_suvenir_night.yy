@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_suvenir",
+  "name": "obj_suvenir_night",
   "spriteId": {
-    "name": "spr_suvenir",
-    "path": "sprites/spr_suvenir/spr_suvenir.yy",
+    "name": "spr_suvenir_night",
+    "path": "sprites/spr_suvenir_night/spr_suvenir_night.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Second Side",
-    "path": "folders/Objects/Rival Station/Second Side.yy",
+    "name": "Night",
+    "path": "folders/Objects/Rival Station/Second Side/Night.yy",
   },
 }

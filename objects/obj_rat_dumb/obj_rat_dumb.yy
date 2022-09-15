@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_suvenir",
+  "name": "obj_rat_dumb",
   "spriteId": {
-    "name": "spr_suvenir",
-    "path": "sprites/spr_suvenir/spr_suvenir.yy",
+    "name": "spr_rat_dumb",
+    "path": "sprites/spr_rat_dumb/spr_rat_dumb.yy",
   },
   "solid": true,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
