@@ -15,8 +15,21 @@ if (draw_daylight){
 	//var lay_id = layer_get_id("Instances_obj");
 	//var visib = layer_get_visible(lay_id);
 	
-	
-	if (hours > phase.sunrise and hours <= phase.daytime /*and visability = true*/){//Схід
+	 if (hours > phase.nighttime1 and hours <= phase.sunrise /*and visability = true*/){//Схід
+		darks = [max_darkness, 1];
+		colours = [merge_color(c_black,c_black, 1)];
+		pstart = phase.nighttime1;
+		pend = phase.sunrise;
+		/*
+		layer_set_visible("Background", true);
+		layer_set_visible("Backgrounds_night", false);
+		
+		activate_obj_day();
+		deactivate_obj_night();
+		global.darknes = 1;
+		image_index += 1;/*/
+	 }
+	else if (hours > phase.sunrise and hours <= phase.daytime /*and visability = true*/){//Схід
 		darks = [max_darkness, 0.2];
 		colours = [merge_color(c_black,c_navy, 0.3), c_orange];
 		pstart = phase.sunrise;
@@ -46,11 +59,12 @@ if (draw_daylight){
 		global.darknes = 0;
 		
 		image_index += 1;
-	}else if (hours > phase.sunset and hours <= phase.nighttime /*and visability = true*/){//захід
+		
+	}else if (hours > phase.sunset and hours <= phase.sunset1 /*and visability = true*/){//захід
 		darks = [0.2, max_darkness]; 
 		colours = [c_orange, c_navy, merge_color(c_black,c_navy, 0.3)];
 		pstart = phase.sunset;
-		pend = phase.nighttime;
+		pend = phase.sunset1;
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
@@ -59,13 +73,26 @@ if (draw_daylight){
 		global.darknes = 0;
 		image_index += 1;
 		
+	}else if (hours > phase.sunset1 and hours <= phase.nighttime /*and visability = true*/){//захід
+		darks = [max_darkness, 1];
+		colours = [merge_color(c_black,c_black, 1)];
+		pstart = phase.sunset1;
+		pend = phase.nighttime;
+		/*layer_set_visible("Background", true);
+		layer_set_visible("Backgrounds_night", false);
+		
+		activate_obj_day();
+		deactivate_obj_night();
+		global.darknes = 0;
+		image_index += 1;
+		*/
 	} else {
 		//visability = true
 		//obj1 = true
 		darks = [max_darkness];
 		colours = [merge_color(c_black,c_navy, 0)];
 		pstart = phase.nighttime;
-		pend = phase.sunrise;
+		pend = phase.nighttime2;
 
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);

@@ -6,7 +6,7 @@
     "name": "spr_suvenir_night",
     "path": "sprites/spr_suvenir_night/spr_suvenir_night.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

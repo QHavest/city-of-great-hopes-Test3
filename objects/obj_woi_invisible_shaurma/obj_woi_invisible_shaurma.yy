@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_shaurma",
   "spriteId": {
     "name": "spr_shaurma",
     "path": "sprites/spr_shaurma/spr_shaurma.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,7 +33,7 @@
     {"x":7.0,"y":132.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +41,4 @@
     "name": "Police",
     "path": "folders/Objects/Center/Police.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_shaurma",
-  "tags": [],
-  "resourceType": "GMObject",
 }

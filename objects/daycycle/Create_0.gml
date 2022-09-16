@@ -37,5 +37,8 @@ enum phase {
 	sunrise = 6,
 	daytime = 12,
 	sunset = 20,
+	sunset1 = 23,
 	nighttime = 24,
+	nighttime1 = 5.9,
+	nighttime2 = 5,
 }

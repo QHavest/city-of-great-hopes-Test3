@@ -8,6 +8,10 @@ switch(room){
 	case rm_south: draw_daylight = true; break;
 	case rm_sport_centre: draw_daylight = true; break;
 	case rm_school: draw_daylight = true; break;
+	case rm_police: draw_daylight = true; break;
+	case rm_center: draw_daylight = true; break;
+	case rm_center_left: draw_daylight = true; break;
+	case rm_center_right: draw_daylight = true; break;
 	
 	default: draw_daylight = false; break;
 }
