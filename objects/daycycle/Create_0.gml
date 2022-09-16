@@ -14,7 +14,7 @@ day = 1;
 season = 1;
 year = 1;
 
-time_increment = 100; //секунди за крок
+time_increment = 50; //секунди за крок
 time_pause = true;
 
 max_darkness = 0.2;
