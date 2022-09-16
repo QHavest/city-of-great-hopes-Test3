@@ -93,6 +93,7 @@
     {"id":{"name":"obj_woi_invisible_bench","path":"objects/obj_woi_invisible_bench/obj_woi_invisible_bench.yy",},"order":20,},
     {"id":{"name":"obj_sausage","path":"objects/obj_sausage/obj_sausage.yy",},"order":5,},
     {"id":{"name":"obj_bench_south1","path":"objects/obj_bench_south1/obj_bench_south1.yy",},"order":0,},
+    {"id":{"name":"Object424","path":"objects/Object424/Object424.yy",},"order":20,},
     {"id":{"name":"rm_school","path":"rooms/rm_school/rm_school.yy",},"order":3,},
     {"id":{"name":"spr_sectants","path":"sprites/spr_sectants/spr_sectants.yy",},"order":5,},
     {"id":{"name":"spr_dumb_smallfish","path":"sprites/spr_dumb_smallfish/spr_dumb_smallfish.yy",},"order":17,},
