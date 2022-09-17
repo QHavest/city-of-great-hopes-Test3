@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_dim_playerstate1_rangeat",
+  "name": "scr_dim_followerstate_free",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
