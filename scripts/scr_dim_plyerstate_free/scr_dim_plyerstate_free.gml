@@ -45,8 +45,8 @@ image_index = 0;
 sprit="Ytopurok";
  
 // зміна анімації
-if (playernum == 0) sprit="Ytopurok";
 if (playernum == 1) sprit="Krus";
+if (playernum == 0) sprit="Ytopurok";
 
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
 
@@ -88,6 +88,6 @@ if(place_meeting(x, y + vsp, obj_invisiblewall)){
 }*/
 
 // перевірка стану
-if (keyattack) state = PLAYERSTATE.ATTACK1
+if (keyattack) state = PLAYERSTATE1.ATTACK1
 
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_wall3",
   "spriteId": {
     "name": "spr_meriia",
     "path": "sprites/spr_meriia/spr_meriia.yy",
@@ -36,8 +39,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_wall3",
-  "tags": [],
-  "resourceType": "GMObject",
 }
