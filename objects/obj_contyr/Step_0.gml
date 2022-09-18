@@ -18,4 +18,3 @@ if keyboard_check_pressed(ord("Y"))
 		global.map=false;
 		room_goto(room_pos[pos]);
 }
-
