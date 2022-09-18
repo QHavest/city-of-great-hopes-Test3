@@ -1,6 +1,6 @@
 /// @desc UI
 key_pause = keyboard_check_pressed(vk_escape)
-
+map_key = keyboard_check(ord("M"))
 if (game_paused)
 {
 	// Выводим на экран наш скриншот
@@ -43,3 +43,26 @@ else
 		instance_deactivate_all(true);
 	}
 }
+
+// код для відкривання мапи
+if (map_open)
+{
+	room_goto(rm_mapa);
+	
+	if (map_key)
+	{
+		map_open = !map_open;
+		// Снова включаем все объекты
+		instance_activate_all();
+	}
+}
+else
+{	
+	if (map_key)
+	{
+		map_open = !map_open;
+		instance_deactivate_all(true);
+		
+	}
+}
+

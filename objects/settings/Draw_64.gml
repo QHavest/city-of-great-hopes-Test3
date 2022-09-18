@@ -1,7 +1,7 @@
 
 //if(!global.pause) exit;
 esc_pau = keyboard_check_pressed(vk_escape);
-
+but_map = keyboard_check_pressed(ord("M"));
 
 if (global.pause){
 var gwidth = global.view_width, gheight = global.view_height;
@@ -108,12 +108,39 @@ if (esc_pau)
 		// Снова включаем все объекты
 		instance_activate_all();
 	}
-} else{
+} 
+else{
 if (esc_pau)
 	{
 		global.pause = !global.pause;
 		inputting = false;
 		//if(!global.pause) exit;
+		// Снова включаем все объекты
+		instance_deactivate_all(true);
+	}
+}
+
+if (global.map)
+{
+	if (room != rm_mapa)	room_goto(rm_mapa);
+	else 
+	{
+		//скрипт виділення району (першим виділяється той, в якому ти зараз знаходишся)	
+	}
+	
+	if (but_map)
+	{	
+		global.map = !global.map;
+		room_goto (old_room);
+		// Снова включаем все объекты
+		instance_activate_all();
+	}
+}
+else
+{
+	if (but_map)
+	{	old_room = room;
+		global.map = !global.map;
 		// Снова включаем все объекты
 		instance_deactivate_all(true);
 	}
