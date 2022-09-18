@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_center_enter",
   "spriteId": {
     "name": "spr_center_enter",
     "path": "sprites/spr_center_enter/spr_center_enter.yy",
@@ -33,8 +36,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_center_enter",
-  "tags": [],
-  "resourceType": "GMObject",
 }

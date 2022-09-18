@@ -8,8 +8,8 @@ with obj_room_manager {
 	}
 	if room = roomgo{
 		
-		obj_dim_player.x = playerx
-		obj_dim_player.y = playery
+		obj_dim_player1.x = playerx
+		obj_dim_player1.y = playery
 	
 	}
 }
