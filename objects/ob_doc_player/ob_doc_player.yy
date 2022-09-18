@@ -23,9 +23,16 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":18.0,"y":22.0,},
+    {"x":26.0,"y":22.0,},
+    {"x":26.0,"y":32.0,},
+    {"x":18.0,"y":32.0,},
+  ],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_doc_blik1","path":"objects/ob_doc_blik1/ob_doc_blik1.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
