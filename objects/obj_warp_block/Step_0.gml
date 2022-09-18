@@ -1,4 +1,4 @@
-if obj_dim_player.key_room_go = true and place_meeting(x, y, obj_dim_player) && !instance_exists(obj_warp)
+if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) && !instance_exists(obj_warp)
 	{
 		
 	var insts =	instance_create_depth(0,0,-9999, obj_warp);
@@ -12,3 +12,8 @@ if obj_dim_player.key_room_go = true and place_meeting(x, y, obj_dim_player) && 
 	}
 	//if drowing = true and room =  target_rm and old_side = false{
 	//}
+	
+	
+	
+	
+	

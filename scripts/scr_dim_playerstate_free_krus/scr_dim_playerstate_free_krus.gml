@@ -1,27 +1,12 @@
-// Script assets have changed for v2.3.0 see
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_dim_followerstate_free(){
+	function scr_dim_playerstate_free_krus(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
 if (move == 0 ) spd = walkspd;
 else spd = runspd;
 
 directx = keyr - keyl; 
 directy = keyup - keydown;
-
+//directxy -= directxy - directx ;
 // змешення швидкості ходьби по діагоналі
-/*if (keyr && place_free(x+ collisionSpeed,y)){
-	
-}
-if (keyl && place_free(x- collisionSpeed,y)){
-	
-}
-if (keyup && place_free(x,y + collisionSpeed)){
-	
-}
-if (keydown && place_free(x,y- collisionSpeed)){
-	
-}*/
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
 hsp = directx*spd;
@@ -33,35 +18,29 @@ if instance_exists(obj_pauser){
 x += hsp
 y -= vsp
 
-if (keyboard_check(ord("1"))) playernum = 1;
-if (keyboard_check(ord("2"))) playernum = 2;
-
 
 /*if  hsp==0 && vsp ==0
 {
 image_index = 0;
 }*/
 
-sprit="Ytopurok";
- 
-// зміна анімації
-if (playernum == 0) sprit="Ytopurok";
-if (playernum == 1) sprit="Krus";
+sprit="Krus";
+
 
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
 
-if (y!=yprevious && obj_dim_player.lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
-if (y!=yprevious && obj_dim_player.lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
+if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
+if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
 
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
- obj_dim_player.lastmove = 1;}
-if (keyboard_check(vk_space) and keyr) {sprite_index = asset_get_index ("spr_dim_" + sprit +"_run_right");runspd = 8;}
+ lastmove = 0;}
+if (keyboard_check(vk_space) and keyr) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
  
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
 if (keyboard_check(vk_space) and keyl) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
-obj_dim_player.lastmove = 0;}
-if (x==xprevious && y==yprevious && obj_dim_player.lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-if (x==xprevious && y==yprevious && obj_dim_player.lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+lastmove = 1;}
+if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 // відповідність глибини до вертикальної кординати
 //depth = -y;
 
@@ -88,6 +67,6 @@ if(place_meeting(x, y + vsp, obj_invisiblewall)){
 }*/
 
 // перевірка стану
-//if (keyattack) state = PLAYERSTATE1.ATTACK1
+if (keyattack) state = PLAYERSTATE1.ATTACK1
 
 }

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_follower",
+  "name": "obj_dim_player1",
   "spriteId": {
-    "name": "spr_dim_Krus_stay_l",
-    "path": "sprites/spr_dim_Krus_stay_l/spr_dim_Krus_stay_l.yy",
+    "name": "spr_dim_Ytopurok_stay_l",
+    "path": "sprites/spr_dim_Ytopurok_stay_l/spr_dim_Ytopurok_stay_l.yy",
   },
   "solid": false,
   "visible": true,
@@ -36,6 +36,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":17,"eventType":9,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
