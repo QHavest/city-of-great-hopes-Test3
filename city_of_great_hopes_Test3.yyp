@@ -179,7 +179,6 @@
     {"id":{"name":"spr_plant_indoor2","path":"sprites/spr_plant_indoor2/spr_plant_indoor2.yy",},"order":5,},
     {"id":{"name":"obj_woi_invisible_curb_left_cinema","path":"objects/obj_woi_invisible_curb_left_cinema/obj_woi_invisible_curb_left_cinema.yy",},"order":0,},
     {"id":{"name":"spr_container_main_night","path":"sprites/spr_container_main_night/spr_container_main_night.yy",},"order":0,},
-    {"id":{"name":"ob_doc_nub","path":"objects/ob_doc_nub/ob_doc_nub.yy",},"order":2,},
     {"id":{"name":"rm_mp_Bazar","path":"rooms/rm_mp_Bazar/rm_mp_Bazar.yy",},"order":1,},
     {"id":{"name":"spr_dumb_black","path":"sprites/spr_dumb_black/spr_dumb_black.yy",},"order":1,},
     {"id":{"name":"spr_container_night","path":"sprites/spr_container_night/spr_container_night.yy",},"order":1,},
