@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Mapa",
-    "path": "folders/Mapa.yy",
+    "name": "rooms",
+    "path": "folders/Mapa/rooms.yy",
   },
 }
