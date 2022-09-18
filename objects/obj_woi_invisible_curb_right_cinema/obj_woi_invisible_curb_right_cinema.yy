@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_curb_right_cinema",
   "spriteId": {
     "name": "spr_curb_cinema_r",
     "path": "sprites/spr_curb_cinema_r/spr_curb_cinema_r.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,8 +39,4 @@
     "name": "Cinema",
     "path": "folders/Objects/Center/Left/Cinema.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_curb_right_cinema",
-  "tags": [],
-  "resourceType": "GMObject",
 }

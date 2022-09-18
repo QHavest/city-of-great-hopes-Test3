@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_plant",
   "spriteId": {
     "name": "spr_plant",
     "path": "sprites/spr_plant/spr_plant.yy",
@@ -8,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,8 +34,4 @@
     "name": "Rooms",
     "path": "folders/Objects/Center/Left/Hotel/Rooms.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_plant",
-  "tags": [],
-  "resourceType": "GMObject",
 }

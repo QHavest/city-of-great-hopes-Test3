@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_truck_closeds_night2",
   "spriteId": {
     "name": "spr_truck_closeds_night2",
     "path": "sprites/spr_truck_closeds_night2/spr_truck_closeds_night2.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "Night",
     "path": "folders/Objects/Bazar/Container/Night.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_truck_closeds_night2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

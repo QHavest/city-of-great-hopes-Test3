@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_wall2",
   "spriteId": {
     "name": "spr_zabor",
     "path": "sprites/spr_zabor/spr_zabor.yy",
@@ -11,7 +14,10 @@
     "path": "sprites/spr_zabor/spr_zabor.yy",
   },
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -36,8 +42,4 @@
     "name": "Center",
     "path": "folders/Objects/Center.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_wall2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

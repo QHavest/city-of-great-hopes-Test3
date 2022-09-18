@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_swing_south9",
   "spriteId": {
     "name": "spr_swing_south9",
     "path": "sprites/spr_swing_south9/spr_swing_south9.yy",
@@ -31,8 +34,4 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_swing_south9",
-  "tags": [],
-  "resourceType": "GMObject",
 }

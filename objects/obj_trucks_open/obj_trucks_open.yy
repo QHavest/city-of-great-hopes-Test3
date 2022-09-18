@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_trucks_open",
   "spriteId": {
     "name": "spr_trucks_open",
     "path": "sprites/spr_trucks_open/spr_trucks_open.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_trucks_open",
-  "tags": [],
-  "resourceType": "GMObject",
 }
