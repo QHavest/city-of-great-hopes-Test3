@@ -57,8 +57,8 @@ spot_x[0][1] = 420*kof_b + bord_x_b ;
 spot_y[0][1] = 642*kof_b + bord_y_b ;
 spot_x[1][1] = 738*kof_b + bord_x_b ;
 spot_y[1][1] = 592*kof_b + bord_y_b ;
-spot_x[2][1] = 422*kof_b + bord_x_b ;
-spot_y[2][1] = 481*kof_b + bord_y_b ;
+spot_x[2][1] = 420*kof_b + bord_x_b ;
+spot_y[2][1] = 280*kof_b + bord_y_b ;
 
 
 // координати покажчиків телепортації для Центру
@@ -85,8 +85,21 @@ spot_y[3][3] = 450*kof_t + bord_y_t ;
 
 
 // кімнати для переміщень
-room_pos[0] = rm_mp_Rival_station;
-room_pos[1] = rm_mp_Bazar;
-room_pos[2] = rm_mp_Center;
-room_pos[3] = rm_mp_Tukhlianka;
+room_pos[0][0] = rm_street_first_side;
+room_pos[1][0] = rm_street_second_side;
+
+room_pos[0][1] = rm_fish_and_bazaar;
+room_pos[1][1] = rm_home_gg;
+room_pos[2][1] = rm_street_magazine_tech_storage;
+
+room_pos[0][2] = rm_center_left;
+room_pos[1][2] = rm_center;
+room_pos[2][2] = rm_center_right;
+room_pos[3][2] = rm_police;
+
+
+room_pos[0][3] = rm_south;
+room_pos[1][3] = rm_school;
+room_pos[2][3] = rm_sport_centre;
+room_pos[3][3] = rm_north;
 

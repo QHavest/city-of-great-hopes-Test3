@@ -123,12 +123,7 @@ if (esc_pau)
 if (global.map)
 {
 	if (room != rm_mapa)	room_goto(rm_mapa);
-	else 
-	{
-		//скрипт виділення району (першим виділяється той, в якому ти зараз знаходишся)	
-	}
-	
-	if (but_map)
+		if (but_map)
 	{	
 		global.map = !global.map;
 		room_goto (old_room);

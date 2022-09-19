@@ -6,6 +6,8 @@ if acepted_key {
 		spot = clamp(spot,0,1);
 		draw_sprite(spr_choice_circle,0,spot_x[spot][0],spot_y[spot][0])
 		//телепортація
+		//if keyboard_check()
+			
 		break;
 		case 1 : draw_sprite_stretched(spr_mp_Bazar,0,bord_x_b,bord_y_b,b_w*kof_b,b_h*kof_b) 
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
