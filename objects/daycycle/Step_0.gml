@@ -34,7 +34,7 @@ if (draw_daylight){
 		colours = [merge_color(c_black,c_navy, 0.3), c_orange];
 		pstart = phase.sunrise;
 		pend = phase.daytime;
-		
+
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
@@ -50,7 +50,7 @@ if (draw_daylight){
 		pstart = phase.daytime;
 		pend = phase.sunset;
 		
-		
+	
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 			
@@ -97,6 +97,7 @@ if (draw_daylight){
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
 		
+
 		activate_obj_night();
 		deactivate_obj_day()
 		global.darknes = .5
