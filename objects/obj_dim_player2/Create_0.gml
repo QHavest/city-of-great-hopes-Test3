@@ -10,15 +10,9 @@ status = STATUS.PASSIVE
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
 
-state=PLAYERRSTATE.FREE;
+state=PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
-enum PLAYERRSTATE{
-FREE,
-ATTACK1,
-ATTACK2,
-ATTACK3,
-BLOCK,
-}
+
 
 //Частина 1 системи слідкування за героєм
 array_size = 15;

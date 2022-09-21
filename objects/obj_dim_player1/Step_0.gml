@@ -8,22 +8,12 @@ switch(status){
 	case STATUS.PASSIVE: scr_passive_player(); break;
 }
 
-/*inputDirection = point_direction(0,0,keyr-keyl,keydown-keyup);
-inputMagnitude = (keyr - keyl != 0) || (keydown - keyup != 0);
 
-hSpeed = lengthdir_x(inputMagnitude * walkspd, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * walkspd, inputDirection);
-x+=hSpeed;
-y+=vSpeed;*/
  switch(state){
  case	PLAYERSTATE.FREE	 : scr_dim_playerstate_free_ytopurok();    break;
- //case	PLAYERSTATE.ATTACK1  : scr_dim_playerstate_meelat();  break;
- //case	PLAYERSTATE.ATTACK2  : scr_dim_playerstate_rangeat(); break;
- //case	PLAYERSTATE.BLOCK    : scr_dim_playerstate_block();   break;
  } 
 
-// sound
-//scr_play_fon_music(room);
+
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){
 		posX[i] = posX[i-1];

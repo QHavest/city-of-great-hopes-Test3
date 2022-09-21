@@ -8,18 +8,20 @@ keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 keyattack=  keyboard_check_pressed(ord("F"));
 key_room_go = keyboard_check(ord("E"));
 
+if (playernum = 1)
+{
+var cam = view_get_camera(0);
+var cw = camera_get_view_width(cam);
+var ch = camera_get_view_height(cam);
+view_set_visible(0, true);
+view_set_visible(1, false);
+}
+else{
+cam = view_get_camera(1);
+cw = camera_get_view_width(cam);
+ch = camera_get_view_height(cam);
+view_set_visible(0, false);
+view_set_visible(1, true);
+}
 
-/*inputDirection = point_direction(0,0,keyr-keyl,keydown-keyup);
-inputMagnitude = (keyr - keyl != 0) || (keydown - keyup != 0);
-
-hSpeed = lengthdir_x(inputMagnitude * walkspd, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * walkspd, inputDirection);
-x+=hSpeed;
-y+=vSpeed;*/
-
-// sound
-
-//scr_play_fon_music(room);
-
-//Частини 2 системи слідкування за героєм
 }

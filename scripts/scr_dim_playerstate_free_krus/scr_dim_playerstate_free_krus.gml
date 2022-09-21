@@ -18,14 +18,7 @@ if instance_exists(obj_pauser){
 x += hsp
 y -= vsp
 
-
-/*if  hsp==0 && vsp ==0
-{
-image_index = 0;
-}*/
-
 sprit="Krus";
-
 
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
 
@@ -57,16 +50,4 @@ if(place_meeting(x, y + vsp, obj_invisiblewall)){
 		y += sign(vsp);
 	vsp = 0;
 }
-
-/*if(place_meeting(x + hsp, y + vsp, obj_woi_invisible_wall)){
-	while(!place_meeting(x+sign(hsp), y + sign(vsp) , obj_woi_invisible_wall))
-		x += sign(hsp);
-		y += sign(vsp);
-	hsp = 0;
-	vsp = 0;
-}*/
-
-// перевірка стану
-if (keyattack) state = PLAYERSTATE1.ATTACK1
-
 }

@@ -10,9 +10,8 @@ keydown  =  keyboard_check(ord("S"))
 keyattack=  keyboard_check_pressed(ord("F"));
 key_room_go = keyboard_check(ord("E"))
 
-
 //унаслідування координат гравця
-
+	
 if (playernum = 2){
 	x = obj_dim_player1.posX[10];
 	y = obj_dim_player1.posY[10];
@@ -21,4 +20,5 @@ else {
 	x = obj_dim_player2.posX[10];
 	y = obj_dim_player2.posY[10];
 }
+
 }
