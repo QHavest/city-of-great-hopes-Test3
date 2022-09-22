@@ -7,7 +7,7 @@
     "path": "sprites/spr_wallWin/spr_wallWin.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
