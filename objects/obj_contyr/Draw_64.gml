@@ -1,4 +1,5 @@
-if acepted_key {
+if acepted_key 
+{
 	switch (pos)
 	{
 		case 0 : draw_sprite_stretched(spr_mp_Railway_station,0,bord_x_r,bord_y_r,r_w*kof_r,r_h*kof_r);
@@ -30,6 +31,6 @@ if acepted_key {
 		break;
 
 	}
-if keyboard_check_pressed(ord("T")) acepted_key=0;
+if keyboard_check_pressed(vk_backspace) acepted_key=0;
 
 }

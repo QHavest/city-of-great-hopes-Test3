@@ -126,17 +126,17 @@ if (global.map)
 		if (but_map)
 	{	
 		global.map = !global.map;
-		room_goto (old_room);
+		room_goto_previous();
 		// Снова включаем все объекты
 		instance_activate_all();
 	}
 }
 else
 {
-	if (but_map)
-	{	old_room = room;
+	if (but_map) 
+	{	//old_room = room;
 		global.map = !global.map;
-		// Снова включаем все объекты
+		// Вимиккаєм всі об'єкти
 		instance_deactivate_all(true);
 	}
 }
