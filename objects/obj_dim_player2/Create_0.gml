@@ -2,7 +2,7 @@ mask_index = sprite_index;
 walkspd = 4;
 runspd  = 15;
 collisionSpeed = 4;
-lastmove = 0;
+lastmove = 0
 //налаштування перемикання між персонажами 
 playernum = 2;
 status = STATUS.PASSIVE

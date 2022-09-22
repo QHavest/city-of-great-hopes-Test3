@@ -10,9 +10,8 @@ switch(status){
 }
 
  switch(state){
-case	PLAYERSTATE.FREE	 : scr_dim_playerstate_free_krus();    break;
+case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
  } 
-
 
 
 if (x!= xprevious or y!= yprevious){

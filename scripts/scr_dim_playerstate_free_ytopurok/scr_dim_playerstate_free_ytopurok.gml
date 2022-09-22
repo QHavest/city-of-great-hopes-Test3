@@ -1,22 +1,36 @@
 function scr_dim_playerstate_free_ytopurok(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
-if (move == 0 ) spd = walkspd;
-else spd = runspd;
+	if (move == 0 ) spd = walkspd;
+	else spd = runspd;
 
-directx = keyr - keyl; 
-directy = keyup - keydown;
-//directxy -= directxy - directx ;
-// змешення швидкості ходьби по діагоналі
-if( directy !=0 && directx !=0 ) spd=spd*0.8; 
+	directx = keyr - keyl; 
+	directy = keyup - keydown;
+	//directxy -= directxy - directx ;
+	// змешення швидкості ходьби по діагоналі
+	if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
-hsp = directx*spd;
-vsp = directy*spd*0.5;
-if instance_exists(obj_pauser){
-	hsp = 0;
-	vsp = 0;
-}
-x += hsp
-y -= vsp
+	hsp = directx*spd;
+	vsp = directy*spd*0.5;
+	if instance_exists(obj_pauser){
+		hsp = 0;
+		vsp = 0;
+	}
+	x += hsp
+	y -= vsp
+
+	//горизонтальна колізія
+	if(place_meeting(x + hsp, y, obj_invisiblewall)){
+		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
+			x += sign(hsp);
+		hsp = 0;
+	}
+
+	//вертикальна колізія
+	if(place_meeting(x, y + vsp, obj_invisiblewall)){
+		while(!place_meeting(x, y + sign(vsp) , obj_invisiblewall))
+			y += sign(vsp);
+		vsp = 0;
+	}
 
 sprit="Ytopurok";
 
@@ -36,18 +50,4 @@ if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 // відповідність глибини до вертикальної кординати
 //depth = -y;
-
-//горизонтальна колізія
-if(place_meeting(x + hsp, y, obj_invisiblewall)){
-	while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
-		x += sign(hsp);
-	hsp = 0;
-}
-
-//вертикальна колізія
-if(place_meeting(x, y + vsp, obj_invisiblewall)){
-	while(!place_meeting(x, y + sign(vsp) , obj_invisiblewall))
-		y += sign(vsp);
-	vsp = 0;
-}
 }

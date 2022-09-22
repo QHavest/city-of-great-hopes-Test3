@@ -19,10 +19,6 @@ state=PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 enum PLAYERSTATE{
 FREE,
-ATTACK1,
-ATTACK2,
-ATTACK3,
-BLOCK,
 }
 
 //Частина 1 системи слідкування за героєм
