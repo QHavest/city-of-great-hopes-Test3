@@ -1,5 +1,6 @@
 function scr_dim_playerstate_free_ytopurok(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
+if(status = STATUS.ACTIVE){
 	if (move == 0 ) spd = walkspd;
 	else spd = runspd;
 
@@ -31,6 +32,7 @@ function scr_dim_playerstate_free_ytopurok(){
 			y += sign(vsp);
 		vsp = 0;
 	}
+}
 
 sprit="Ytopurok";
 
