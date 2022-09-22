@@ -1229,6 +1229,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Night","folderPath":"folders/Objects/Tykhlianka/Sport centre/Night.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sport Inside","folderPath":"folders/Objects/Tykhlianka/Sport centre/Sport Inside.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ping_pong","folderPath":"folders/Ping_pong.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bazar","folderPath":"folders/Rooms/Bazar.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Indoor","folderPath":"folders/Rooms/Bazar/Indoor.yy","order":5,},
@@ -1304,7 +1305,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ytopurok","folderPath":"folders/Sprites/Ytopurok.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":5,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ping_pong","folderPath":"folders/Ping_pong.yy","order":19,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

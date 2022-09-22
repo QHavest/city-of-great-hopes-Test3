@@ -11,7 +11,7 @@
   "styleName": "Regular",
   "size": 20.0,
   "bold": false,
-  "italic": false,
+  "italic": true,
   "charset": 0,
   "AntiAlias": 1,
   "first": 0,

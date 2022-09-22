@@ -6,7 +6,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":150,"wview":640,"hview":362,"xport":100,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":0,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":150,"wview":640,"hview":362,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":0,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -34,7 +34,7 @@
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_40448D82","spriteId":{"name":"Sprite539","path":"sprites/Sprite539/Sprite539.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.9375001,"scaleY":3.4375,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":63.000004,"y":409.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3633DD2","spriteId":{"name":"Sprite539","path":"sprites/Sprite539/Sprite539.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.65625,"scaleY":3.4375,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":587.0,"y":417.5,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"spr_rival_station_first","path":"sprites/spr_rival_station_first/spr_rival_station_first.yy",},"colour":4294967295,"x":-1600,"y":0,"htiled":false,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"spr_rival_station_first","path":"sprites/spr_rival_station_first/spr_rival_station_first.yy",},"colour":4294967295,"x":-1600,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "${project_dir}/rooms/rm_pong/RoomCreationCode.gml",
