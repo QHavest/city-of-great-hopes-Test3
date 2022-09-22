@@ -6,8 +6,8 @@ if acepted_key
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
 		spot = clamp(spot,0,1);
 		draw_sprite(spr_choice_circle,0,spot_x[spot][0],spot_y[spot][0])
-		//телепортація
-		//if keyboard_check()
+		//телепортація у вибрану кімнату
+		
 			
 		break;
 		case 1 : draw_sprite_stretched(spr_mp_Bazar,0,bord_x_b,bord_y_b,b_w*kof_b,b_h*kof_b) 
@@ -32,5 +32,11 @@ if acepted_key
 
 	}
 if keyboard_check_pressed(vk_backspace) acepted_key=0;
-
 }
+if keyboard_check(vk_space) && !instance_exists(obj_warp) && acepted_key
+		{ global.map = 0;
+		var insts =	instance_create_depth(0,0,-9999, obj_warp);
+	insts.target_x = player_x[spot][pos];
+	insts.target_y = player_y[spot][pos];
+	insts.target_rm = room_pos[spot][pos];
+		}

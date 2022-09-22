@@ -1,4 +1,5 @@
 //if(!global.pause) exit;
+target_rm = 0;
 global.pause = false;
 global.map = false;
 global.view_width = camera_get_view_width(view_camera[0]);

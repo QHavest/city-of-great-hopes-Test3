@@ -123,20 +123,28 @@ if (esc_pau)
 if (global.map)
 {
 	if (room != rm_mapa)	room_goto(rm_mapa);
-		if (but_map)
+	
+		if (but_map) && !instance_exists(obj_warp)
 	{	
 		global.map = !global.map;
-		room_goto_previous();
+		var insts =	instance_create_depth(0,0,-9999, obj_warp);
+	insts.target_x = target_x;
+	insts.target_y = target_y;
+	insts.target_rm = target_rm;
+	instance_activate_all();
 		// Снова включаем все объекты
-		instance_activate_all();
+		
 	}
 }
 else
 {
 	if (but_map) 
-	{	//old_room = room;
+	{	target_rm = room;
+		target_x = obj_dim_player.x;
+		target_y = obj_dim_player.y;
 		global.map = !global.map;
 		// Вимиккаєм всі об'єкти
 		instance_deactivate_all(true);
+		instance_activate_object(obj_dim_player);
 	}
 }
