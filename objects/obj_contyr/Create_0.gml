@@ -9,6 +9,13 @@ kof_t = 0.8;
 vew_w = 1920;
 vew_h = 1080;
 
+spot_num[0]=1;
+spot_num[1]=2;
+spot_num[2]=3;
+spot_num[3]=3;
+
+choice_w = sprite_get_width(spr_choice_circle);
+choice_h = sprite_get_height(spr_choice_circle);
 b_w = sprite_get_width(spr_mp_Bazar);
 b_h = sprite_get_height(spr_mp_Bazar);
 r_w = sprite_get_width(spr_mp_Railway_station);
