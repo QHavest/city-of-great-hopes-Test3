@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_fruit1",
   "spriteId": {
     "name": "spr_fruit1",
     "path": "sprites/spr_fruit1/spr_fruit1.yy",
@@ -9,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,8 +34,4 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_fruit1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

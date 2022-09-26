@@ -4,7 +4,7 @@ target_rm=0;
 
 target_face = 0;
 
-
+//global.warp_night = true;	
 ///ссылки на название спрайтвой подсказок
 old_help_sprite = spr_help
 new_help_sprite = spr_help

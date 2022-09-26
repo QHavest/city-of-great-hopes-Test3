@@ -12,7 +12,9 @@ switch(room){
 	case rm_center: draw_daylight = true; break;
 	case rm_center_left: draw_daylight = true; break;
 	case rm_center_right: draw_daylight = true; break;
-	//case rm_home_gg: draw_daylight = true; break;
+	case rm_home_gg: draw_daylight = true; break;
+	case rm_street_magazine_tech_storage: draw_daylight = true; break;
+	case rm_fish_and_bazaar: draw_daylight = true; break;
 	
 	default: draw_daylight = false; break;
 }
