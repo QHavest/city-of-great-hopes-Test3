@@ -890,7 +890,7 @@
     {"id":{"name":"obj_home_podjezd_night2","path":"objects/obj_home_podjezd_night2/obj_home_podjezd_night2.yy",},"order":2,},
     {"id":{"name":"rm_room22","path":"rooms/rm_room22/rm_room22.yy",},"order":7,},
     {"id":{"name":"spr_plant_indoor3","path":"sprites/spr_plant_indoor3/spr_plant_indoor3.yy",},"order":6,},
-    {"id":{"name":"scr_dim_playerstate_block","path":"scripts/scr_dim_playerstate_block/scr_dim_playerstate_block.yy",},"order":3,},
+    {"id":{"name":"scr_dim_playerstate_stay","path":"scripts/scr_dim_playerstate_stay/scr_dim_playerstate_stay.yy",},"order":3,},
     {"id":{"name":"scr_text","path":"scripts/scr_text/scr_text.yy",},"order":2,},
     {"id":{"name":"obj_zabor_sport","path":"objects/obj_zabor_sport/obj_zabor_sport.yy",},"order":5,},
     {"id":{"name":"ob_doc_wall","path":"objects/ob_doc_wall/ob_doc_wall.yy",},"order":2,},

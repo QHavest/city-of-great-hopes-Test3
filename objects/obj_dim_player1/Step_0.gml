@@ -11,6 +11,7 @@ switch(status){
 
  switch(state){
  case	PLAYERSTATE.FREE	 : scr_dim_playerstate_free_ytopurok();    break;
+ case	PLAYERSTATE.STAY     : scr_dim_playerstate_stay();			   break;
  } 
 
 

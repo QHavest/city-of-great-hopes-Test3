@@ -36,7 +36,11 @@ if acepted_key
 if keyboard_check(vk_space) && acepted_key
 		{ global.map = 0;
 		room_goto( room_pos[spot][pos]);
-		obj_dim_player.x = player_x[spot][pos];
-		obj_dim_player.y = player_y[spot][pos];
-		obj_dim_player.visible = 1;
+		obj_dim_player1.x = player_x[spot][pos];
+		obj_dim_player1.y = player_y[spot][pos];
+		obj_dim_player2.x = player_x[spot][pos];
+		obj_dim_player2.y = player_y[spot][pos];
+		obj_dim_player1.visible = 1;
+		obj_dim_player2.visible = 1;
+		obj_dim_player1.state = PLAYERSTATE.FREE;
 		}
