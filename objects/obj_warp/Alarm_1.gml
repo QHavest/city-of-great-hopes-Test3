@@ -5,7 +5,7 @@ with obj_warp {
 		alarm[1] = 1;
 	
 	}
-	if room =roomgoes{
+	if room = roomgoes{
 		
 		obj_dim_player1.x = target_x
 		obj_dim_player1.y = target_y

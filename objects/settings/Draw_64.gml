@@ -123,25 +123,29 @@ if (esc_pau)
 if (global.map)
 {
 	if (room != rm_mapa)	room_goto(rm_mapa);
-	else 
-	{
-		//скрипт виділення району (першим виділяється той, в якому ти зараз знаходишся)	
-	}
 	
-	if (but_map)
+		if (but_map) 
 	{	
 		global.map = !global.map;
-		room_goto (old_room);
+		room_goto(target_rm);
+		obj_dim_player.x = target_x;
+		obj_dim_player.y = target_y;
+		obj_dim_player.visible = 1;
+	instance_activate_all();
 		// Снова включаем все объекты
-		instance_activate_all();
+		
 	}
 }
 else
 {
-	if (but_map)
-	{	old_room = room;
+	if (but_map) 
+	{	target_rm = room;
+		target_x = obj_dim_player.x;
+		target_y = obj_dim_player.y;
 		global.map = !global.map;
-		// Снова включаем все объекты
+		// Вимиккаєм всі об'єкти
 		instance_deactivate_all(true);
+		instance_activate_object(obj_dim_player);
+		obj_dim_player.visible = 0;
 	}
 }
