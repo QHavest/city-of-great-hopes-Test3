@@ -1,9 +1,9 @@
 depth=-99999;
-//textbox_x = obj_dim_player.x-100;
+//textbox_x = obj_dim_player1.x-100;
 textbox_y = room_height - camera_get_view_height(view_camera[0]) + 20;
 cam_w = camera_get_view_width(view_camera[0]) ;
 cam_x = camera_get_view_x(view_camera[0]);
-//textbox_y = obj_dim_player.y-150;
+//textbox_y = obj_dim_player1.y-150;
 // параметри вікна з текстом
 textbox_width = 200;
 line_hight = 35;
