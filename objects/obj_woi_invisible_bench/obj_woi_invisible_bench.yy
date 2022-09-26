@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_bench",
   "spriteId": {
     "name": "spr_bench_centre",
     "path": "sprites/spr_bench_centre/spr_bench_centre.yy",
@@ -33,8 +36,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_bench",
-  "tags": [],
-  "resourceType": "GMObject",
 }

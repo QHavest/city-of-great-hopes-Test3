@@ -26,15 +26,5 @@ if (hits > 0 && y > ob_doc_nub.y - 15 && y < ob_doc_nub.y + 15){
 	  }
 	}
 }
-ds_list_destroy(hitByAttackNow);
-mask_index = spr_dim_Krus_stay;
-
-if(scr_dim_animation_end())
-{
-sprite_index = spr_dim_Krus_stay;
-state = PLAYERSTATE.FREE;
-
-}
-
 
 }
