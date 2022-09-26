@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_wall159",
   "spriteId": {
     "name": "spr_woi_invisible_walltri",
     "path": "sprites/spr_woi_invisible_walltri/spr_woi_invisible_walltri.yy",
@@ -36,8 +39,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_wall159",
-  "tags": [],
-  "resourceType": "GMObject",
 }

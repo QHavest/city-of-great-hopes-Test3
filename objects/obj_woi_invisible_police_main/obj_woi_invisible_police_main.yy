@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_police_main",
   "spriteId": {
     "name": "spr_police1",
     "path": "sprites/spr_police1/spr_police1.yy",
@@ -27,7 +30,7 @@
     {"x":7.0,"y":132.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +38,4 @@
     "name": "Police",
     "path": "folders/Objects/Center/Police.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_police_main",
-  "tags": [],
-  "resourceType": "GMObject",
 }

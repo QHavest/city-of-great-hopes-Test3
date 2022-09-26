@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_lamp_p",
   "spriteId": {
     "name": "spr_lamp_p",
     "path": "sprites/spr_lamp_p/spr_lamp_p.yy",
@@ -27,7 +30,7 @@
     {"x":7.0,"y":132.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +38,4 @@
     "name": "Police",
     "path": "folders/Objects/Center/Police.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_lamp_p",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -7,8 +7,8 @@ with obj_warp {
 	}
 	if room =roomgoes{
 		
-		obj_dim_player.x = target_x
-		obj_dim_player.y = target_y
+		obj_dim_player1.x = target_x
+		obj_dim_player1.y = target_y
 	
 	}
 }
