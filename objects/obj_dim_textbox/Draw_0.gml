@@ -1,3 +1,4 @@
+
 accept_key=keyboard_check_pressed(ord("Z"));
 //textbox_x = camera_get_view_x(view_camera[0])
 //textbox_y = camera_get_view_y(view_camera[0])+100;
@@ -17,14 +18,15 @@ if setup == false {
 	if room_height <300 && room_height>=150
 	{
 	//	border    = 10;
-		line_sep  = 14;
+		line_sep  = 10;
 		offsett_kof = 0.4;
 		draw_set_font(for_normal);
 		
 	}
 	if room_height <150
 	{
-		
+		line_sep  = 6;
+		offsett_kof = 0.4;
 		draw_set_font(for_small);
 	}
 	 
@@ -39,19 +41,23 @@ if setup == false {
 		
 		
 	//	визначення зміщення х текста
-		textbox_x[page] = cam_w/2 - textbox_width/2 - border + cam_x;
+		
 		text_x_offset[p] = 0;
 	
 	if speaker[p] == 1
 	{
 	textbox_x[p] = (cam_w*global.p_p)/2 + border + cam_x;
-	//text_x_offset[p] = textbox_width*player_pos/2 ;
 	}
 	if speaker[p] == -1
 	{
 	textbox_x[p] = (cam_w*(1-global.p_p)/2) + border + cam_x;
-	//text_x_offset[p] = -100*offsett_kof;
 	}
+	if speaker[p] == 0
+	{
+	textbox_width = cam_w - cam_w/4;
+	textbox_x[p] = cam_w/2 - textbox_width/2 - border + cam_x;;
+	}
+
 	
 		for(var c=0; c<text_length[p]; c++)
 			{
@@ -130,6 +136,7 @@ if draw_char < text_length[page] {
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
 			}
+			global.dialog_end =1;
 			instance_destroy();}
 		}	
 	else {
@@ -151,14 +158,18 @@ if draw_char < text_length[page] {
 
 	//var _op_border =5;
 	//координати відповідей
-	firstY  = room_height - border*4 - line_sep*2 ;
+	if(option_number<=2) firstY  = room_height - border*1 - line_sep*2 ;
+	else firstY  = room_height - border*3 - line_sep*2 ;
 	secondY = room_height - border*2 - line_sep;
-	firstX  = camera_get_view_x(view_camera[0])+8;
-	secondX = camera_get_view_x(view_camera[0])+8 + camera_get_view_width(view_camera[0])/2 + border ;
-	X_op[0]=firstX; X_op[1]=firstX; X_op[2]=secondX; X_op[3]=secondX; Y_op[0]=firstY; Y_op[1]=secondY; Y_op[2]=firstY; Y_op[3]=secondY;
+	Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
+	
+	for(var i=0; i<option_number; i++)
+	{// визначення X координат варіантів через центрування
+		X_op[i] = cam_x - (string_width(option[i])+border*2)/2 + cam_w/2 - (cam_w/4)*cos(i*pi) ;
+	}
 	
 	for(var op=0; op<option_number; op++)
-		{
+		{	
 		// виділення вибраного варіанту
 		if option[op]== option[option_pos] color=c_gray;
 		// поле для тексту відповіді

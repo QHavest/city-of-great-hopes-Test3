@@ -19,14 +19,12 @@ if argument_count >1
 		case "player":
 		 speaker[page_number] =1;
 		 break;
-		 case "Rusty":
+		 case "non_playe":
 		 speaker[page_number] =-1;
 		break;
 		}
 	}
-
-
-
+else speaker[page_number]=0;
 page_number++;
 }
 
@@ -41,9 +39,11 @@ option_number++;
 
 /// @param text_id
 function scr_create_textbox (_text_id){
+	
 	with (instance_create_depth(0,0,-99999,obj_dim_textbox))
 {
 	scr_game_text(_text_id);
 	
 }
+
 }

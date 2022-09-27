@@ -1,6 +1,6 @@
 depth=-99999;
 //textbox_x = obj_dim_player1.x-100;
-textbox_y = room_height - camera_get_view_height(view_camera[0]) + 20;
+textbox_y = room_height - camera_get_view_height(view_camera[0]);
 cam_w = camera_get_view_width(view_camera[0]) ;
 cam_x = camera_get_view_x(view_camera[0]);
 //textbox_y = obj_dim_player1.y-150;
@@ -14,6 +14,8 @@ txtb_sprite = spr_textbox;
 txtb_img = 0;
 txtb_img_spd = 6/30;
 color=c_black;
+
+global.dialog_end =0;
 
 // змінні для виводу тексту
 page = 0;
@@ -50,3 +52,4 @@ later_width[0]=0;
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;
+dialog_end = 0;
