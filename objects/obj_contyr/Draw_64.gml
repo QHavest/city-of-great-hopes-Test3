@@ -30,11 +30,12 @@ if acepted_key
 		if (i!=spot)
 		draw_sprite_ext(spr_mp_had_Ytopur,0,spot_x[i][pos],spot_y[i][pos],3,3,0,c_grey,1);
 	}
-	if keyboard_check_pressed(vk_backspace) acepted_key=0;
+	if keyboard_check_pressed(vk_escape) acepted_key=0;
 	}
 // телепортація
-if keyboard_check(vk_space) && acepted_key
+if keyboard_check(vk_enter) and acepted_key and t == 1
 		{ global.map = 0;
+		
 		room_goto( room_pos[spot][pos]);
 		obj_dim_player1.x = player_x[spot][pos];
 		obj_dim_player1.y = player_y[spot][pos];

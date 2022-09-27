@@ -1,6 +1,7 @@
 pos = 0;
 spot=0;
 acepted_key = 0;
+t=0;
 
 // масштабні коефіцієнти для редагування розміру районів
 kof_b = 0.8;
@@ -17,8 +18,8 @@ spot_num[2]=3;
 spot_num[3]=3;
 
 // визначення розмірів карт районів
-choice_w = sprite_get_width(spr_choice_circle);
-choice_h = sprite_get_height(spr_choice_circle);
+//choice_w = sprite_get_width(spr_choice_circle);
+//choice_h = sprite_get_height(spr_choice_circle);
 b_w = sprite_get_width(spr_mp_Bazar);
 b_h = sprite_get_height(spr_mp_Bazar);
 r_w = sprite_get_width(spr_mp_Railway_station);

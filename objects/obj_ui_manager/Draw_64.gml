@@ -1,7 +1,7 @@
 /// @desc UI
 key_pause = keyboard_check_pressed(vk_escape)
 map_key = keyboard_check(ord("M"))
-if (game_paused)
+if (game_paused) 
 {
 	// Выводим на экран наш скриншот
 	draw_sprite(pause_screenshot, 0, 0, 0);

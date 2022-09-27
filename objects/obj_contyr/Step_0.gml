@@ -19,5 +19,7 @@ if keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down)
 	
 }*/
 if keyboard_check_pressed(vk_enter)
-acepted_key = 1;
+{
+	acepted_key = 1;
+}
 }
