@@ -1,9 +1,6 @@
 //if(!global.pause) exit;
-target_rm = room;
-target_x = 0;
-target_y = 0;
-global.pause = false;
 global.map = false;
+global.pause = false;
 global.view_width = camera_get_view_width(view_camera[0]);
 global.view_height = camera_get_view_height(view_camera[0]);
 

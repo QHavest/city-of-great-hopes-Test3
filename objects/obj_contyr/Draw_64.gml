@@ -35,7 +35,6 @@ if acepted_key
 // телепортація
 if keyboard_check(vk_enter) and acepted_key and t == 1
 		{ global.map = 0;
-		
 		room_goto( room_pos[spot][pos]);
 		obj_dim_player1.x = player_x[spot][pos];
 		obj_dim_player1.y = player_y[spot][pos];
