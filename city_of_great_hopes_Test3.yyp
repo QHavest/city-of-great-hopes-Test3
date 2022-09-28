@@ -286,6 +286,7 @@
     {"id":{"name":"spr_culture_home","path":"sprites/spr_culture_home/spr_culture_home.yy",},"order":1,},
     {"id":{"name":"spr_dumbbells1","path":"sprites/spr_dumbbells1/spr_dumbbells1.yy",},"order":1,},
     {"id":{"name":"spr_curb_3","path":"sprites/spr_curb_3/spr_curb_3.yy",},"order":4,},
+    {"id":{"name":"Font_for_draw","path":"fonts/Font_for_draw/Font_for_draw.yy",},"order":8,},
     {"id":{"name":"spr_dim_Krus_stay_r","path":"sprites/spr_dim_Krus_stay_r/spr_dim_Krus_stay_r.yy",},"order":5,},
     {"id":{"name":"obj_woi_invisible_press2","path":"objects/obj_woi_invisible_press2/obj_woi_invisible_press2.yy",},"order":8,},
     {"id":{"name":"obj_right_lamp_night2","path":"objects/obj_right_lamp_night2/obj_right_lamp_night2.yy",},"order":1,},

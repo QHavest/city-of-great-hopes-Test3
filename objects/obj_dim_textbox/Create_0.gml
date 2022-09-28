@@ -6,15 +6,16 @@ cam_x = camera_get_view_x(view_camera[0]);
 //textbox_y = obj_dim_player1.y-150;
 // параметри вікна з текстом
 textbox_width = 200;
-line_hight = 35;
+line_hight = 18;
 border    = 10;
-line_sep  = 21;
+line_sep  = 5;
 line_widt = textbox_width-border*2;
 txtb_sprite = spr_textbox;
 txtb_img = 0;
 txtb_img_spd = 6/30;
 color=c_black;
 
+font_for_math = for_normal;
 global.dialog_end =0;
 
 // змінні для виводу тексту
@@ -33,15 +34,15 @@ setup = false;
  option_link_id[0] = -1;
  option_pos    = 0;
  option_number = 0;
-X_op[0]=camera_get_view_x(view_camera[0])+8;
-X_op[1]=camera_get_view_x(view_camera[0])+8;
-X_op[2]=camera_get_view_x(view_camera[0])+280;
-X_op[3]=camera_get_view_x(view_camera[0])+280;
+/*X_op[0]=cam_x+8;
+X_op[1]=cam_x+8;
+X_op[2]=cam_x+280;
+X_op[3]=cam_x+280;
 Y_op[0]=camera_get_view_y(view_camera[0])+240;
 Y_op[1]=camera_get_view_y(view_camera[0])+270;
 Y_op[2]=camera_get_view_y(view_camera[0])+240;
 Y_op[3]=camera_get_view_y(view_camera[0])+270;
-
+*/
 // змінні для координат букв
   char[0,0] ="";
 char_x[0,0] =0;
