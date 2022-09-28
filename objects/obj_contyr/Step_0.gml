@@ -18,7 +18,7 @@ if keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down)
 	instance_create_depth(x,y,100,obj_mp_manager);
 	
 }*/
-if keyboard_check_pressed(vk_enter)
+if keyboard_check_released(vk_enter)
 {
 	acepted_key = 1;
 }

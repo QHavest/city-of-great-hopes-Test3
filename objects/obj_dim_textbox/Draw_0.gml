@@ -1,5 +1,5 @@
 old_font = draw_get_font();
-accept_key=keyboard_check_pressed(ord("Z"));
+accept_key=keyboard_check_pressed(vk_enter);
 //textbox_x = camera_get_view_x(view_camera[0])
 //textbox_y = camera_get_view_y(view_camera[0])+100;
 
@@ -19,8 +19,8 @@ if setup == false {
 	if room_height <300 && room_height>=150
 	{
 		border    = 6;
-		line_hight = 10;
-		line_sep  = 4;
+		line_hight = 12;
+		line_sep  = 2;
 		offsett_kof = 0.4;
 		scale = 0.1;
 		draw_set_font(for_normal);
@@ -29,8 +29,8 @@ if setup == false {
 	if room_height <150
 	{
 		border     = 6;
-		line_hight = 8
-		line_sep   = 3;
+		line_hight = 9
+		line_sep   = 2;
 		offsett_kof = 0.4;
 		scale = 0.08;
 		draw_set_font(for_small);
@@ -146,7 +146,7 @@ if draw_char < text_length[page] {
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
 			}
-			global.dialog_end =1;
+			global.dialog_end = 1;
 			instance_destroy();}
 		}	
 	else {
@@ -169,8 +169,8 @@ if draw_char < text_length[page] {
 	//var _op_border =5;
 	//координати відповідей
 	if(option_number<=2) firstY  = room_height - border*1 - line_hight*2 ;
-	else firstY  = room_height - border*3 - line_hight*2 ;
-	secondY = room_height - border*2 - line_hight;
+	else firstY  = room_height - border*6 - line_hight*2 ;
+	secondY = room_height - border*3 - line_hight;
 	Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
 	
 	for(var i=0; i<option_number; i++) // визначення X координат варіантів через центрування

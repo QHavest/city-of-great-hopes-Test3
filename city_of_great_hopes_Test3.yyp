@@ -784,6 +784,7 @@
     {"id":{"name":"spr_dumbbells3","path":"sprites/spr_dumbbells3/spr_dumbbells3.yy",},"order":3,},
     {"id":{"name":"spr_curb1","path":"sprites/spr_curb1/spr_curb1.yy",},"order":11,},
     {"id":{"name":"obj_dumbbells3","path":"objects/obj_dumbbells3/obj_dumbbells3.yy",},"order":4,},
+    {"id":{"name":"spr_textbox2","path":"sprites/spr_textbox2/spr_textbox2.yy",},"order":5,},
     {"id":{"name":"snd_go_to_game","path":"sounds/snd_go_to_game/snd_go_to_game.yy",},"order":1,},
     {"id":{"name":"spr_cone","path":"sprites/spr_cone/spr_cone.yy",},"order":15,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":11,},

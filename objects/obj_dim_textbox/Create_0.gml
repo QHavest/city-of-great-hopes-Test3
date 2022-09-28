@@ -16,7 +16,7 @@ txtb_img_spd = 6/30;
 color=c_black;
 
 font_for_math = for_normal;
-global.dialog_end =0;
+global.dialog_end = 0;
 
 // змінні для виводу тексту
 page = 0;
