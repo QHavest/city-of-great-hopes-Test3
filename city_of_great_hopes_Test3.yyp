@@ -583,6 +583,7 @@
     {"id":{"name":"spr_contyr_4","path":"sprites/spr_contyr_4/spr_contyr_4.yy",},"order":6,},
     {"id":{"name":"obj_police_lamp_night1","path":"objects/obj_police_lamp_night1/obj_police_lamp_night1.yy",},"order":1,},
     {"id":{"name":"obj_technika","path":"objects/obj_technika/obj_technika.yy",},"order":2,},
+    {"id":{"name":"sp_name_bakery","path":"sprites/sp_name_bakery/sp_name_bakery.yy",},"order":14,},
     {"id":{"name":"obj_bush4","path":"objects/obj_bush4/obj_bush4.yy",},"order":3,},
     {"id":{"name":"obj_closed_stall","path":"objects/obj_closed_stall/obj_closed_stall.yy",},"order":7,},
     {"id":{"name":"spr_zabor_rival_b","path":"sprites/spr_zabor_rival_b/spr_zabor_rival_b.yy",},"order":21,},
