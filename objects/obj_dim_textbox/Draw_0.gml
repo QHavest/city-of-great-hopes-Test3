@@ -146,7 +146,7 @@ if draw_char < text_length[page] {
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
 			}
-			global.dialog_end = 1;
+			else global.dialog_end = 1;
 			instance_destroy();}
 		}	
 	else {

@@ -1,2 +1,2 @@
-text_id=3;
+text_id="Kasa";
 global.p_p=0;
