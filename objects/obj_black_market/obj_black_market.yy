@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_black_market",
   "spriteId": {
     "name": "spr_black_market",
     "path": "sprites/spr_black_market/spr_black_market.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_black_market",
-  "tags": [],
-  "resourceType": "GMObject",
 }

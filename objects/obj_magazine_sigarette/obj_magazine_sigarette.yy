@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_magazine_sigarette",
   "spriteId": {
     "name": "spr_magazine_sigarette",
     "path": "sprites/spr_magazine_sigarette/spr_magazine_sigarette.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_magazine_sigarette",
-  "tags": [],
-  "resourceType": "GMObject",
 }
