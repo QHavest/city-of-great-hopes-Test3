@@ -11,31 +11,31 @@ if setup == false
 	
 	if room_height >=300 
 	{	
-		line_hight = 15;
-		line_sep	= 4;
-		border      = 8
+		line_hight = 12;
+		line_sep	= 3;
+		border      = 4
 		offsett_kof = 1;
-		scale = 0.12;
+		scale = 0.08;
 		draw_set_font(for_large);
 		font_for_math = for_large;
 	}
 	if room_height <300 && room_height>=150
 	{
-		border    = 6;
-		line_hight = 10;
+		border    = 3;
+		line_hight = 6;
 		line_sep  = 2;
 		offsett_kof = 0.4;
-		scale = 0.08;
+		scale = 0.05;
 		draw_set_font(for_normal);
 		font_for_math = for_normal;
 	}
 	if room_height <150
 	{
-		border     = 6;
-		line_hight = 7
+		border     = 2;
+		line_hight = 4
 		line_sep   = 2;
 		offsett_kof = 0.4;
-		scale = 0.06;
+		scale = 0.04;
 		draw_set_font(for_small);
 		font_for_math = for_small;
 	}
@@ -52,30 +52,12 @@ if setup == false
 	txt_x = cam_x + cam_w/2
 	txtb_x = cam_x - border + cam_w/2 - text_width/2
 	hi_txtb = (line_hight+line_sep)*4 + border*2 - line_sep;
+	ico_scale = (hi_txtb-border*2)/sprite_get_height(spr_ic_Ytopurok);
 for(var p=0; p<page_number; p++)
 	{
 		//визначення кількості символів на сторіні
 		text_length[p] = string_length(text[p]);
-	
-	//	визначення зміщення х текста
-	// При Р_Р = 1 ГГ по праву сторону від центра екрану
-	// При Р_Р = 0 ГГ по ліву сторону від центра екрану
-		text_x_offset[p] = 0;	
-	
-	if speaker[p] == 1 // ГГ
-	{
-	
-	}
-	if speaker[p] == -1 // не ГГ
-	{
-	
-	}
-	if speaker[p] == 0 // нема спікера - текст поцентру
-	{
-	//textbox_width = cam_w - cam_w/4;
-	}
-
-	
+		
 		for(var c=0; c<text_length[p]; c++)
 			{
 			var _char_pos=c+1;
@@ -104,7 +86,7 @@ for(var p=0; p<page_number; p++)
 			}
 			// цикл для вирівнювання 
 			var _txt_line = 0;
-			var _str_copy = string_copy(text[p],1, line_break_pos[0,p]);
+			var _str_copy = string_copy(text[p],1, line_break_pos[0,p]-2);
 			line_widt[0] = string_width(_str_copy);
 			
 			for (var lb=1; lb<line_break_num[p]; lb++)
@@ -113,7 +95,7 @@ for(var p=0; p<page_number; p++)
 					line_widt[lb] = string_width(_str_copy);
 				}
 			
-			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], text_length[p] - line_break_pos[lb-1,p]);
+			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], text_length[p] - line_break_pos[lb-1,p]-2);
 			line_widt[lb] = string_width(_str_copy);
 			
 			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2;
@@ -141,7 +123,7 @@ for(var p=0; p<page_number; p++)
 				}
 				
 			// додамо координати
-			char_x [c, p] = txt_x + _current_txt_w - line_widt[_txt_line]/2 + border/2;
+			char_x [c, p] = txt_x + _current_txt_w - line_widt[_txt_line]/2;
 			char_y [c, p] = textbox_y + first_y + _txt_line*(line_hight+line_sep);
 			
 		}
@@ -149,8 +131,8 @@ for(var p=0; p<page_number; p++)
 }
 	 
 	 // розмір шрифту під кімнату and зміна параметрів виведення
-
 	draw_set_font(font_for_math)
+	
 // друкування тексту
 if draw_char < text_length[page] {
 	draw_char += text_spd;
@@ -202,7 +184,7 @@ if draw_char < text_length[page] {
 	
 	for(var i=0; i<option_number; i++) // визначення X координат варіантів через центрування
 	{
-		X_op[i] = cam_x - (string_width(option[i])+border*2)/2 + cam_w/2 - (cam_w/4)*cos(i*pi) ;
+		X_op[i] = cam_x - (string_width(option[i]))/2 + cam_w/2 - (cam_w/4)*cos(i*pi) - border ;
 	}
 	
 	for(var op=0; op<option_number; op++)
@@ -250,6 +232,23 @@ for (var c=0; c<draw_char; c++){
 	}
 }
 */
+draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border*2 + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+	if speaker[page] == 1 // ГГ
+	{
+		//shuruna = sprite_get_width(spr_ic_Ytopurok)
+		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
+	}
+	if speaker[page] == -1 // не ГГ
+	{
+		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
+	}
+	if speaker[page] == 0 // нема спікера - текст поцентру
+	{
+	//textbox_width = cam_w - cam_w/4;
+	}
 
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 draw_set_font(Font_for_draw);
@@ -259,3 +258,4 @@ for (var c=0; c<draw_char; c++)
 	draw_text_transformed_color(char_x[c, page], char_y[c, page], char[c, page], scale,scale,0,c_black,0,0,0,c_white);	
 	}
 draw_set_font(old_font);
+	
