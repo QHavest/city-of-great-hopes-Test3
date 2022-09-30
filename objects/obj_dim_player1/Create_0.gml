@@ -1,6 +1,6 @@
 mask_index = sprite_index;
 walkspd = 4;
-runspd  = 15;
+runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
 
