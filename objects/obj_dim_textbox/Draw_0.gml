@@ -2,7 +2,11 @@ old_font = draw_get_font();
 accept_key=keyboard_check_pressed(vk_enter);
 //textbox_x = camera_get_view_x(view_camera[0])
 //textbox_y = camera_get_view_y(view_camera[0])+100;
-
+if string_length(text[page]) == 0 
+{
+	global.dialog_end = 1;
+	instance_destroy();
+}
 
 //setup
 if setup == false
@@ -49,10 +53,11 @@ if setup == false
 	txtb_width = text_width + border*2
 	textbox_y = room_height - camera_get_view_height(view_camera[0])+border;
 	txt_y = textbox_y + border;
-	txt_x = cam_x + cam_w/2
+	midle_x = cam_x + cam_w/2
 	txtb_x = cam_x - border + cam_w/2 - text_width/2
 	hi_txtb = (line_hight+line_sep)*4 + border*2 - line_sep;
 	ico_scale = (hi_txtb-border*2)/sprite_get_height(spr_ic_Ytopurok);
+	
 for(var p=0; p<page_number; p++)
 	{
 		//визначення кількості символів на сторіні
@@ -123,7 +128,7 @@ for(var p=0; p<page_number; p++)
 				}
 				
 			// додамо координати
-			char_x [c, p] = txt_x + _current_txt_w - line_widt[_txt_line]/2;
+			char_x [c, p] = midle_x + _current_txt_w - line_widt[_txt_line]/2;
 			char_y [c, p] = textbox_y + first_y + _txt_line*(line_hight+line_sep);
 			
 		}
@@ -176,8 +181,29 @@ if draw_char < text_length[page] {
 		option_pos = clamp(option_pos, 0, option_number-1);
 
 	//var _op_border =5;
+	
+	
+	var sec = cam_w/option_number;
+	var _o_w = sec - border*2;
 	//координати відповідей
-	if(option_number<=2) firstY  = room_height - border*1 - line_hight*2 ;
+	for(var i=0; i<option_number; i++)
+	{ 
+		
+		if option_number<=4 
+		{
+			Y_op[i] = room_height - border*1 - line_hight*2;
+			X_op[i] = cam_x + sec*i + border;
+		}
+		//else 
+		//{ 
+		//	if i/option_number <= .5 Y_op[i] =  room_height - border*3 - line_hight*3;
+		//	else Y_op[i] =  room_height - border*1 - line_hight*2;
+		
+	//	}
+	}
+	
+	
+/*	if(option_number<=2) firstY  = room_height - border*1 - line_hight*2 ;
 	else firstY  = room_height - border*6 - line_hight*2 ;
 	secondY = room_height - border*3 - line_hight;
 	Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
@@ -186,18 +212,18 @@ if draw_char < text_length[page] {
 	{
 		X_op[i] = cam_x - (string_width(option[i]))/2 + cam_w/2 - (cam_w/4)*cos(i*pi) - border ;
 	}
-	
+	*/
 	for(var op=0; op<option_number; op++)
 		{	
 		// виділення вибраного варіанту
 		if option[op] == option[option_pos] color=c_gray;
 		// поле для тексту відповіді
-		var _o_w = string_width(option[op])+border*2;
+		var _o_c = (_o_w - string_width(option[op]))/2;
 		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,color,1);
 		color=c_white;
 		// текст варіанту відповіді
 		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + border, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,c_white);
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,c_white);
 			draw_set_font(font_for_math)
 		}
 	}

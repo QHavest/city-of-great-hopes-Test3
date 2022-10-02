@@ -16,6 +16,7 @@ case "Kasa":
 	scr_text("Ну а тепер якщо це всьо, то з вас 5 карбованців.","non_playe");
 		scr_option("Дати 5 карбованців.","bying_tiket");
 		scr_option("Вибачте, ми передумали.","4");
+		
 break
 			case "bying_tiket":
 			scr_text("BY_IT");
@@ -93,6 +94,7 @@ case "Yana":
 		case "bying_Yana":
 	scr_text("BY_IT");
 	// скрипт покупокупок
+	
 	break
 	
 	case "Security1":
