@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_smallfish",
   "spriteId": {
     "name": "spr_dumb_smallfish",
     "path": "sprites/spr_dumb_smallfish/spr_dumb_smallfish.yy",
@@ -28,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,4 +33,8 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_smallfish",
+  "tags": [],
+  "resourceType": "GMObject",
 }

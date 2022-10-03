@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_sausage",
   "spriteId": {
     "name": "spr_sausage",
     "path": "sprites/spr_sausage/spr_sausage.yy",
@@ -34,4 +31,8 @@
     "name": "Indoor",
     "path": "folders/Objects/Bazar/Fish and Bazar/Indoor.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_sausage",
+  "tags": [],
+  "resourceType": "GMObject",
 }

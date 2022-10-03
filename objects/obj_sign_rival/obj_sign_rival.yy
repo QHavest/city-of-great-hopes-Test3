@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_sign_rival",
   "spriteId": {
     "name": "spr_sign_rival",
     "path": "sprites/spr_sign_rival/spr_sign_rival.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_sign_rival",
+  "tags": [],
+  "resourceType": "GMObject",
 }

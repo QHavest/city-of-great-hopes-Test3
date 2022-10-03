@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_truck_first",
   "spriteId": {
     "name": "spr_truck_first",
     "path": "sprites/spr_truck_first/spr_truck_first.yy",
@@ -34,4 +31,8 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_truck_first",
+  "tags": [],
+  "resourceType": "GMObject",
 }

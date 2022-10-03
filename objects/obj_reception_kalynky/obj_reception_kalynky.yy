@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_reception_kalynky",
   "spriteId": {
     "name": "spr_reception_kalynky",
     "path": "sprites/spr_reception_kalynky/spr_reception_kalynky.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_reception_kalynky",
+  "tags": [],
+  "resourceType": "GMObject",
 }

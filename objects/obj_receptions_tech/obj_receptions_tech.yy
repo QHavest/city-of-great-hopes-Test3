@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_receptions_tech",
   "spriteId": {
     "name": "spr_receptions_tech",
     "path": "sprites/spr_receptions_tech/spr_receptions_tech.yy",
@@ -34,4 +31,8 @@
     "name": "Inside_magazine",
     "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_receptions_tech",
+  "tags": [],
+  "resourceType": "GMObject",
 }

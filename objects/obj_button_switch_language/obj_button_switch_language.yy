@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_button_switch_language",
   "spriteId": {
     "name": "spr_ukr_or_eng",
     "path": "sprites/spr_ukr_or_eng/spr_ukr_or_eng.yy",
@@ -25,7 +22,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,4 +30,8 @@
     "name": "Obj Menu",
     "path": "folders/Main Menu/Obj Menu.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_button_switch_language",
+  "tags": [],
+  "resourceType": "GMObject",
 }

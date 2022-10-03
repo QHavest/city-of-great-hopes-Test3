@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_hanger_gg",
   "spriteId": {
     "name": "spr_hanger_gg",
     "path": "sprites/spr_hanger_gg/spr_hanger_gg.yy",
@@ -34,4 +31,8 @@
     "name": "Home GG_inside",
     "path": "folders/Objects/Tykhlianka/Home GG_inside.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_hanger_gg",
+  "tags": [],
+  "resourceType": "GMObject",
 }

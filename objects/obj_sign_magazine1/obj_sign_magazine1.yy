@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_sign_magazine1",
   "spriteId": {
     "name": "spr_sign_magazine1",
     "path": "sprites/spr_sign_magazine1/spr_sign_magazine1.yy",
@@ -34,4 +31,8 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_sign_magazine1",
+  "tags": [],
+  "resourceType": "GMObject",
 }

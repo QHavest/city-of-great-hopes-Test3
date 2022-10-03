@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_magazine3",
   "spriteId": {
     "name": "spr_lamp_magazine3",
     "path": "sprites/spr_lamp_magazine3/spr_lamp_magazine3.yy",
@@ -34,4 +31,8 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_magazine3",
+  "tags": [],
+  "resourceType": "GMObject",
 }

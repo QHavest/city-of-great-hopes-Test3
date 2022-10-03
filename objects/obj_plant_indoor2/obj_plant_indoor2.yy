@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_plant_indoor2",
   "spriteId": {
     "name": "spr_plant_indoor2",
     "path": "sprites/spr_plant_indoor2/spr_plant_indoor2.yy",
@@ -34,4 +31,8 @@
     "name": "Indoor",
     "path": "folders/Objects/Rival Station/Indoor.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_plant_indoor2",
+  "tags": [],
+  "resourceType": "GMObject",
 }

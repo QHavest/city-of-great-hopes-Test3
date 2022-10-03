@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumbbell_sport2",
   "spriteId": {
     "name": "spr_dumbbell_sport2",
     "path": "sprites/spr_dumbbell_sport2/spr_dumbbell_sport2.yy",
@@ -34,4 +31,8 @@
     "name": "Sport Inside",
     "path": "folders/Objects/Tykhlianka/Sport centre/Sport Inside.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumbbell_sport2",
+  "tags": [],
+  "resourceType": "GMObject",
 }

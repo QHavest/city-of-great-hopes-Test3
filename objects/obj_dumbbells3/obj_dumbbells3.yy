@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumbbells3",
   "spriteId": {
     "name": "spr_dumbbells3",
     "path": "sprites/spr_dumbbells3/spr_dumbbells3.yy",
@@ -34,4 +31,8 @@
     "name": "Manda",
     "path": "folders/Objects/Tykhlianka/South/Manda.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumbbells3",
+  "tags": [],
+  "resourceType": "GMObject",
 }

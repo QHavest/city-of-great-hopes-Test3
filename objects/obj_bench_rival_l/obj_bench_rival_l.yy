@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bench_rival_l",
   "spriteId": {
     "name": "spr_bench_rival_l",
     "path": "sprites/spr_bench_rival_l/spr_bench_rival_l.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bench_rival_l",
+  "tags": [],
+  "resourceType": "GMObject",
 }

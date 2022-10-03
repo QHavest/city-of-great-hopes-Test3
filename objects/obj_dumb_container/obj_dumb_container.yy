@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_container",
   "spriteId": {
     "name": "spr_dumb_container",
     "path": "sprites/spr_dumb_container/spr_dumb_container.yy",
@@ -34,4 +31,8 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_container",
+  "tags": [],
+  "resourceType": "GMObject",
 }

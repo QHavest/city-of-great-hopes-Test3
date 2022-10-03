@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bench_school_big",
   "spriteId": {
     "name": "spr_bench_school_small",
     "path": "sprites/spr_bench_school_small/spr_bench_school_small.yy",
@@ -34,4 +31,8 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bench_school_big",
+  "tags": [],
+  "resourceType": "GMObject",
 }

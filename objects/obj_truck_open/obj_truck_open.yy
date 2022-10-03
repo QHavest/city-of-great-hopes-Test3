@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_truck_open",
   "spriteId": {
     "name": "spr_truck_open",
     "path": "sprites/spr_truck_open/spr_truck_open.yy",
@@ -34,4 +31,8 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_truck_open",
+  "tags": [],
+  "resourceType": "GMObject",
 }

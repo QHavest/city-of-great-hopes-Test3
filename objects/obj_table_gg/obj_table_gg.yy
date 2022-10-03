@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_table_gg",
   "spriteId": {
     "name": "spr_table_gg",
     "path": "sprites/spr_table_gg/spr_table_gg.yy",
@@ -34,4 +31,8 @@
     "name": "Home GG_inside",
     "path": "folders/Objects/Tykhlianka/Home GG_inside.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_table_gg",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_fresh_meat",
   "spriteId": {
     "name": "spr_fresh_meat",
     "path": "sprites/spr_fresh_meat/spr_fresh_meat.yy",
@@ -34,4 +31,8 @@
     "name": "Indoor",
     "path": "folders/Objects/Bazar/Fish and Bazar/Indoor.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_fresh_meat",
+  "tags": [],
+  "resourceType": "GMObject",
 }

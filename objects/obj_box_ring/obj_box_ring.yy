@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_box_ring",
   "spriteId": {
     "name": "spr_box_ring",
     "path": "sprites/spr_box_ring/spr_box_ring.yy",
@@ -34,4 +31,8 @@
     "name": "Box Inside",
     "path": "folders/Objects/Tykhlianka/Sport centre/Box Inside.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_box_ring",
+  "tags": [],
+  "resourceType": "GMObject",
 }

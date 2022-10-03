@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "Movment",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -28,4 +25,8 @@
     "name": "Player",
     "path": "folders/Objects/Player.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "Movment",
+  "tags": [],
+  "resourceType": "GMObject",
 }

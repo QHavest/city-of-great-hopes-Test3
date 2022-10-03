@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_fish",
   "spriteId": {
     "name": "spr_lamp_fish",
     "path": "sprites/spr_lamp_fish/spr_lamp_fish.yy",
@@ -34,4 +31,8 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_fish",
+  "tags": [],
+  "resourceType": "GMObject",
 }

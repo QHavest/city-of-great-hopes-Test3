@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bookshelf1",
   "spriteId": {
     "name": "spr_bookshelf1",
     "path": "sprites/spr_bookshelf1/spr_bookshelf1.yy",
@@ -34,4 +31,8 @@
     "name": "Ieghova",
     "path": "folders/Objects/Tykhlianka/South/Ieghova.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bookshelf1",
+  "tags": [],
+  "resourceType": "GMObject",
 }

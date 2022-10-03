@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bibliotheka",
   "spriteId": {
     "name": "spr_bibliotheka",
     "path": "sprites/spr_bibliotheka/spr_bibliotheka.yy",
@@ -34,4 +31,8 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bibliotheka",
+  "tags": [],
+  "resourceType": "GMObject",
 }

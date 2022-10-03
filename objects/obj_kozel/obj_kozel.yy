@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_kozel",
   "spriteId": {
     "name": "spr_kozel",
     "path": "sprites/spr_kozel/spr_kozel.yy",
@@ -34,4 +31,8 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_kozel",
+  "tags": [],
+  "resourceType": "GMObject",
 }

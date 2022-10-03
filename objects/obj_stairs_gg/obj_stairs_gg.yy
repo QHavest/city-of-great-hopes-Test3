@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_stairs_gg",
   "spriteId": {
     "name": "spr_stairs_gg",
     "path": "sprites/spr_stairs_gg/spr_stairs_gg.yy",
@@ -34,4 +31,8 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_stairs_gg",
+  "tags": [],
+  "resourceType": "GMObject",
 }

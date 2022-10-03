@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMMainOptions",
-  "resourceVersion": "1.4",
-  "name": "Main",
   "option_gameguid": "2ef2a150-338d-4d8f-901a-34d13000dc84",
   "option_gameid": "0",
   "option_game_speed": 30,
@@ -17,4 +14,8 @@
   "option_template_image": "${base_options_dir}/main/template_image.png",
   "option_template_icon": "${base_options_dir}/main/template_icon.png",
   "option_template_description": null,
+  "resourceVersion": "1.4",
+  "name": "Main",
+  "tags": [],
+  "resourceType": "GMMainOptions",
 }

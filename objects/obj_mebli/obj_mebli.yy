@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_mebli",
   "spriteId": {
     "name": "spr_mebli",
     "path": "sprites/spr_mebli/spr_mebli.yy",
@@ -34,4 +31,8 @@
     "name": "Inside_magazine",
     "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_mebli",
+  "tags": [],
+  "resourceType": "GMObject",
 }

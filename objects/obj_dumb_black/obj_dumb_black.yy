@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_black",
   "spriteId": {
     "name": "spr_dumb_black",
     "path": "sprites/spr_dumb_black/spr_dumb_black.yy",
@@ -34,4 +31,8 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_black",
+  "tags": [],
+  "resourceType": "GMObject",
 }

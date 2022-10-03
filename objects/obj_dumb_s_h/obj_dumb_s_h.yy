@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_s_h",
   "spriteId": {
     "name": "spr_dumb_s_h",
     "path": "sprites/spr_dumb_s_h/spr_dumb_s_h.yy",
@@ -34,4 +31,8 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_s_h",
+  "tags": [],
+  "resourceType": "GMObject",
 }

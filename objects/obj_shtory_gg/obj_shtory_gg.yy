@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_shtory_gg",
   "spriteId": {
     "name": "spr_shtory_gg",
     "path": "sprites/spr_shtory_gg/spr_shtory_gg.yy",
@@ -34,4 +31,8 @@
     "name": "Kitchen",
     "path": "folders/Objects/Tykhlianka/Home GG_inside/Kitchen.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_shtory_gg",
+  "tags": [],
+  "resourceType": "GMObject",
 }

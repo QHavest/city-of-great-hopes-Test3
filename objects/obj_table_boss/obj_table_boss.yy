@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_table_boss",
   "spriteId": {
     "name": "spr_table_boss",
     "path": "sprites/spr_table_boss/spr_table_boss.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_table_boss",
+  "tags": [],
+  "resourceType": "GMObject",
 }

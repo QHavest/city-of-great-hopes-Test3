@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_north",
   "spriteId": {
     "name": "spr_lamp_north",
     "path": "sprites/spr_lamp_north/spr_lamp_north.yy",
@@ -34,4 +31,8 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_north",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_komod_small",
   "spriteId": {
     "name": "spr_komod_small",
     "path": "sprites/spr_komod_small/spr_komod_small.yy",
@@ -34,4 +31,8 @@
     "name": "Inside_magazine",
     "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_komod_small",
+  "tags": [],
+  "resourceType": "GMObject",
 }

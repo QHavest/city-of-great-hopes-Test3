@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMFont",
-  "resourceVersion": "1.0",
-  "name": "t_buttons",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
@@ -207,4 +204,8 @@
     "name": "Fonts",
     "path": "folders/Fonts.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "t_buttons",
+  "tags": [],
+  "resourceType": "GMFont",
 }

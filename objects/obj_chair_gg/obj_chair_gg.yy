@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_chair_gg",
   "spriteId": {
     "name": "spr_chair_gg",
     "path": "sprites/spr_chair_gg/spr_chair_gg.yy",
@@ -34,4 +31,8 @@
     "name": "Home GG_inside",
     "path": "folders/Objects/Tykhlianka/Home GG_inside.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_chair_gg",
+  "tags": [],
+  "resourceType": "GMObject",
 }

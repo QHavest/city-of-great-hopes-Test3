@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_rival_side",
   "spriteId": {
     "name": "spr_lamp_rival_side",
     "path": "sprites/spr_lamp_rival_side/spr_lamp_rival_side.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_rival_side",
+  "tags": [],
+  "resourceType": "GMObject",
 }

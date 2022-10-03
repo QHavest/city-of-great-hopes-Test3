@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_sign_stop_sch",
   "spriteId": {
     "name": "spr_sign_stop_sch",
     "path": "sprites/spr_sign_stop_sch/spr_sign_stop_sch.yy",
@@ -34,4 +31,8 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_sign_stop_sch",
+  "tags": [],
+  "resourceType": "GMObject",
 }

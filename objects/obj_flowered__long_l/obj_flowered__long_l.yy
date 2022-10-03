@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_flowered__long_l",
   "spriteId": {
     "name": "spr_flowerbed_long_l",
     "path": "sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",
@@ -34,4 +31,8 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_flowered__long_l",
+  "tags": [],
+  "resourceType": "GMObject",
 }

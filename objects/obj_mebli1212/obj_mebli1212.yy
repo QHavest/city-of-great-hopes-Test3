@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_mebli1212",
   "spriteId": {
     "name": "spr_mebli1212",
     "path": "sprites/spr_mebli1212/spr_mebli1212.yy",
@@ -31,4 +28,8 @@
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_mebli1212",
+  "tags": [],
+  "resourceType": "GMObject",
 }

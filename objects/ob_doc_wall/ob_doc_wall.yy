@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "ob_doc_wall",
   "spriteId": {
     "name": "sp_doc_wall",
     "path": "sprites/sp_doc_wall/sp_doc_wall.yy",
@@ -36,4 +33,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "ob_doc_wall",
+  "tags": [],
+  "resourceType": "GMObject",
 }

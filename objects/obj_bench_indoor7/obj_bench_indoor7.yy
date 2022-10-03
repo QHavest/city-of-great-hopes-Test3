@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bench_indoor7",
   "spriteId": {
     "name": "spr_bench_indoor7",
     "path": "sprites/spr_bench_indoor7/spr_bench_indoor7.yy",
@@ -34,4 +31,8 @@
     "name": "Indoor",
     "path": "folders/Objects/Rival Station/Indoor.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bench_indoor7",
+  "tags": [],
+  "resourceType": "GMObject",
 }

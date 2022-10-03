@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_receptions_zoomagazine",
   "spriteId": {
     "name": "spr_receptions_zoomagazine",
     "path": "sprites/spr_receptions_zoomagazine/spr_receptions_zoomagazine.yy",
@@ -34,4 +31,8 @@
     "name": "Indoor",
     "path": "folders/Objects/Bazar/Fish and Bazar/Indoor.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_receptions_zoomagazine",
+  "tags": [],
+  "resourceType": "GMObject",
 }
