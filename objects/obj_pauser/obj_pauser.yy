@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pauser",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "Player",
     "path": "folders/Objects/Player.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pauser",
-  "tags": [],
-  "resourceType": "GMObject",
 }

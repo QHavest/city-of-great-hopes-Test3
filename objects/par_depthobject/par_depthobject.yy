@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "par_depthobject",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "par_depthobject",
-  "tags": [],
-  "resourceType": "GMObject",
 }

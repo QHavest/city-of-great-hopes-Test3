@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_technika",
   "spriteId": {
     "name": "spr_technika",
     "path": "sprites/spr_technika/spr_technika.yy",
@@ -31,8 +34,4 @@
     "name": "Inside_magazine",
     "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_technika",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_hastronom_north",
   "spriteId": {
     "name": "spr_hastronom_north",
     "path": "sprites/spr_hastronom_north/spr_hastronom_north.yy",
@@ -31,8 +34,4 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_hastronom_north",
-  "tags": [],
-  "resourceType": "GMObject",
 }

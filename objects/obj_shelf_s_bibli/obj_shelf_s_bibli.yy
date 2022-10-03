@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_shelf_s_bibli",
   "spriteId": {
     "name": "spr_shelf_s_bibli",
     "path": "sprites/spr_shelf_s_bibli/spr_shelf_s_bibli.yy",
@@ -31,8 +34,4 @@
     "name": "Bibliotheka",
     "path": "folders/Objects/Tykhlianka/Bibliotheka.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_shelf_s_bibli",
-  "tags": [],
-  "resourceType": "GMObject",
 }

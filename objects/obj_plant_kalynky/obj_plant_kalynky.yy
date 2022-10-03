@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_plant_kalynky",
   "spriteId": {
     "name": "spr_plant_kalynky",
     "path": "sprites/spr_plant_kalynky/spr_plant_kalynky.yy",
@@ -31,8 +34,4 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_plant_kalynky",
-  "tags": [],
-  "resourceType": "GMObject",
 }

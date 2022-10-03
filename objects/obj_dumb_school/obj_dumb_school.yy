@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_school",
   "spriteId": {
     "name": "spr_dumb_school",
     "path": "sprites/spr_dumb_school/spr_dumb_school.yy",
@@ -31,8 +34,4 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_school",
-  "tags": [],
-  "resourceType": "GMObject",
 }

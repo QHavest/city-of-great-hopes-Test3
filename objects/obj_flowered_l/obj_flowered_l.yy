@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_flowered_l",
   "spriteId": {
     "name": "spr_flowerbed_l",
     "path": "sprites/spr_flowerbed_l/spr_flowerbed_l.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_flowered_l",
-  "tags": [],
-  "resourceType": "GMObject",
 }

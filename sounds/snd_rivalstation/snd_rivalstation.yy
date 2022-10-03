@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_rivalstation",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.1,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_rivalstation",
-  "tags": [],
-  "resourceType": "GMSound",
 }

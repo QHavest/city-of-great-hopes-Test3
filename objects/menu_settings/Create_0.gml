@@ -10,6 +10,8 @@ global.key_right = vk_right;
 global.key_up = vk_up;
 global.key_down = vk_down;
 
+global.sound = snd_main_menu1; //Mazur
+
 enum menu_main_page {
 	main,
 	settings,

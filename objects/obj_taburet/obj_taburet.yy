@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_taburet",
   "spriteId": {
     "name": "spr_taburet",
     "path": "sprites/spr_taburet/spr_taburet.yy",
@@ -31,8 +34,4 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_taburet",
-  "tags": [],
-  "resourceType": "GMObject",
 }

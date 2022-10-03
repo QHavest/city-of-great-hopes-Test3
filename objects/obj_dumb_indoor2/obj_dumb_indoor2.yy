@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_indoor2",
   "spriteId": {
     "name": "spr_dumb_indoor2",
     "path": "sprites/spr_dumb_indoor2/spr_dumb_indoor2.yy",
@@ -31,8 +34,4 @@
     "name": "Indoor",
     "path": "folders/Objects/Rival Station/Indoor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_indoor2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

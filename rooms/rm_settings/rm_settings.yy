@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMRoom",
+  "resourceVersion": "1.0",
+  "name": "rm_settings",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -13,19 +16,19 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"Menu_settings","path":"objects/Menu_settings/Menu_settings.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_73498DB3","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"sort_end","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"assets":[
-        {"spriteId":{"name":"spr_great_hopes_city_ua","path":"sprites/spr_great_hopes_city_ua/spr_great_hopes_city_ua.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.403022,"scaleY":2.403022,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":958.7985,"y":187.70285,"resourceVersion":"1.0","name":"graphic_1781C6A2_1","tags":[],"resourceType":"GMRSpriteGraphic",},
-      ],"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Great_hopes_city","tags":[],"resourceType":"GMRAssetLayer",},
-    {"assets":[],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"text_eng","tags":[],"resourceType":"GMRAssetLayer",},
-    {"assets":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"text_ukr","tags":[],"resourceType":"GMRAssetLayer",},
-    {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_obj","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_menu_backgraund_1","path":"objects/obj_menu_backgraund_1/obj_menu_backgraund_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.4,"scaleY":2.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5583.0,"y":1080.0,"resourceVersion":"1.0","name":"inst_3FAA23B4_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_menu_backgraund_1","path":"objects/obj_menu_backgraund_1/obj_menu_backgraund_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.4,"scaleY":2.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":363.0,"y":1080.0,"resourceVersion":"1.0","name":"inst_5908EEDC_1","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"backgraund","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"sort_end","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73498DB3","properties":[],"isDnd":false,"objectId":{"name":"Menu_settings","path":"objects/Menu_settings/Menu_settings.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":-64.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Great_hopes_city","assets":[
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1781C6A2_1","spriteId":{"name":"spr_great_hopes_city_ua","path":"sprites/spr_great_hopes_city_ua/spr_great_hopes_city_ua.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.403022,"scaleY":2.403022,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":958.7985,"y":187.70285,},
+      ],"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"text_eng","assets":[],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"text_ukr","assets":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"backgraund","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3FAA23B4_1","properties":[],"isDnd":false,"objectId":{"name":"obj_menu_backgraund_1","path":"objects/obj_menu_backgraund_1/obj_menu_backgraund_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.4,"scaleY":2.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5583.0,"y":1080.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5908EEDC_1","properties":[],"isDnd":false,"objectId":{"name":"obj_menu_backgraund_1","path":"objects/obj_menu_backgraund_1/obj_menu_backgraund_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.4,"scaleY":2.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":363.0,"y":1080.0,},
+      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "${project_dir}/rooms/rm_main_menu/RoomCreationCode.gml",
@@ -60,8 +63,4 @@
     "name": "Rooms",
     "path": "folders/Rooms.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "rm_settings",
-  "tags": [],
-  "resourceType": "GMRoom",
 }
