@@ -6,7 +6,7 @@
     "name": "spr_AfroYvasia_na",
     "path": "sprites/spr_AfroYvasia_na/spr_AfroYvasia_na.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

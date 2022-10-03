@@ -177,7 +177,7 @@ if draw_char < text_length[page] {
 	if draw_char==text_length[page] && page==page_number-1
 	{
 		// вибір варіанту
-		option_pos += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+		option_pos += keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
 		option_pos = clamp(option_pos, 0, option_number-1);
 
 	//var _op_border =5;

@@ -736,6 +736,7 @@
     {"id":{"name":"ob_doc_player","path":"objects/ob_doc_player/ob_doc_player.yy",},"order":12,},
     {"id":{"name":"obj_tires_garage2","path":"objects/obj_tires_garage2/obj_tires_garage2.yy",},"order":3,},
     {"id":{"name":"spr_AfroYvasia_na","path":"sprites/spr_AfroYvasia_na/spr_AfroYvasia_na.yy",},"order":37,},
+    {"id":{"name":"spr_ic_Security","path":"sprites/spr_ic_Security/spr_ic_Security.yy",},"order":5,},
     {"id":{"name":"spr_bench_south2","path":"sprites/spr_bench_south2/spr_bench_south2.yy",},"order":8,},
     {"id":{"name":"spr_receptions_zoomagazine","path":"sprites/spr_receptions_zoomagazine/spr_receptions_zoomagazine.yy",},"order":1,},
     {"id":{"name":"obj_woi_invisible_car_police","path":"objects/obj_woi_invisible_car_police/obj_woi_invisible_car_police.yy",},"order":7,},

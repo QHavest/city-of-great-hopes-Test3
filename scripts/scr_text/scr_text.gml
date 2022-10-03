@@ -19,7 +19,7 @@ if argument_count >1
 		case "player":
 		 speaker[page_number] =1;
 		 break;
-		 case "non_playe":
+		 case "non_player":
 		 speaker[page_number] =-1;
 		break;
 		}
