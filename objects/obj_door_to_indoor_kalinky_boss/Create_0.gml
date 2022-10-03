@@ -1,8 +1,8 @@
 ///ссылки на комнаты
-newrйцйувйцф oom = rm_tri_kalynky_boss
+new_room = rm_tri_kalynky_boss
 oldroom = rm_tri_kalynky
 ///координаты в первое комнате
-new_x =ыфвф 38
+new_x = 38
 new_y = 116
 ///координаты в второй комнате
 old_x = 310
