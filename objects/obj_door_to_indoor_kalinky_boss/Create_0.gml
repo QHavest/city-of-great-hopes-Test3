@@ -1,5 +1,6 @@
 ///ссылки на комнаты
-new_room = rm_tri_kalynky_boss
+//<<<<<<< HEAD
+newroom = rm_tri_kalynky_boss
 oldroom = rm_tri_kalynky
 ///координаты в первое комнате
 new_x = 38
