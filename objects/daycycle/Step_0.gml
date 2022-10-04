@@ -30,8 +30,10 @@ if (draw_daylight){
 		image_index += 1;/*/
 	 }
 	else if (hours > phase.sunrise and hours <= phase.daytime /*and visability = true*/){//Схід
-		darks = [max_darkness, 0.2];
-		colours = [merge_color(c_black,c_navy, 0.3), c_orange];
+		//darks = [max_darkness, 0.2];
+		darks = [0.2, 0, 0, 0, 0];
+		//colours = [merge_color(c_black,c_navy, 0.3), c_orange];
+		colours = [ merge_color(c_black,c_navy, 0.1)];
 		pstart = phase.sunrise;
 		pend = phase.daytime;
 
@@ -45,8 +47,9 @@ if (draw_daylight){
 		
 		
 	}else if (hours > phase.daytime and hours <= phase.sunset /*and visability = true*/){//день
-		darks = [0.2, 0, 0, 0, 0.2];
-		colours = [c_orange, c_orange, c_white, c_orange, c_orange];
+		darks = [0, 0, 0, 0, 0.2];
+		//colours = [c_orange, c_orange, c_white, c_orange, c_orange];
+		colours = [ merge_color(c_black,c_navy, 0.3),c_orange];
 		pstart = phase.daytime;
 		pend = phase.sunset;
 		
