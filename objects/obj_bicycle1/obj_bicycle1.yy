@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dumb_rival",
+  "name": "obj_bicycle1",
   "spriteId": {
-    "name": "spr_dumb_rival",
-    "path": "sprites/spr_dumb_rival/spr_dumb_rival.yy",
+    "name": "spr_bicycle1",
+    "path": "sprites/spr_bicycle1/spr_bicycle1.yy",
   },
   "solid": true,
   "visible": true,

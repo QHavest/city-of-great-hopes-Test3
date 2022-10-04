@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bicycle",
+  "name": "obj_restraunt_door",
   "spriteId": {
-    "name": "spr_bicycle",
-    "path": "sprites/spr_bicycle/spr_bicycle.yy",
+    "name": "spr_restraunt_door",
+    "path": "sprites/spr_restraunt_door/spr_restraunt_door.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -27,11 +27,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Second Side",
-    "path": "folders/Objects/Rival Station/Second Side.yy",
+    "name": "Left",
+    "path": "folders/Objects/Center/Left.yy",
   },
 }
