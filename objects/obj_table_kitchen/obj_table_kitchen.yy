@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_table_kitchen",
   "spriteId": {
     "name": "spr_table_kithen",
     "path": "sprites/spr_table_kithen/spr_table_kithen.yy",
@@ -31,8 +34,4 @@
     "name": "Kitchen",
     "path": "folders/Objects/Tykhlianka/Home GG_inside/Kitchen.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_table_kitchen",
-  "tags": [],
-  "resourceType": "GMObject",
 }

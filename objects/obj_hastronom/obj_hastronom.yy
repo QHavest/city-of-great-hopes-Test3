@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_hastronom",
   "spriteId": {
     "name": "spr_hastronom",
     "path": "sprites/spr_hastronom/spr_hastronom.yy",
@@ -28,8 +31,4 @@
     "name": "Second Side",
     "path": "folders/Objects/Rival Station/Second Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_hastronom",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_magazine_okorochok",
   "spriteId": {
     "name": "spr_magazine_okorochok",
     "path": "sprites/spr_magazine_okorochok/spr_magazine_okorochok.yy",
@@ -31,8 +34,4 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_magazine_okorochok",
-  "tags": [],
-  "resourceType": "GMObject",
 }

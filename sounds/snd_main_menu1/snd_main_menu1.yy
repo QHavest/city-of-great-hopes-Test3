@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_main_menu1",
   "conversionMode": 0,
   "compression": 3,
   "volume": 0.5,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_main_menu1",
-  "tags": [],
-  "resourceType": "GMSound",
 }

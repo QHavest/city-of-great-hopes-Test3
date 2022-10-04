@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_counter_hastronom_tukh",
   "spriteId": {
     "name": "spr_counter_hastronom_tukh",
     "path": "sprites/spr_counter_hastronom_tukh/spr_counter_hastronom_tukh.yy",
@@ -31,8 +34,4 @@
     "name": "Hastronom_tukh",
     "path": "folders/Objects/Tykhlianka/Hastronom_tukh.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_counter_hastronom_tukh",
-  "tags": [],
-  "resourceType": "GMObject",
 }

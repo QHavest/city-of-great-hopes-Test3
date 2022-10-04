@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_toilet_gg",
   "spriteId": {
     "name": "spr_toilet_gg",
     "path": "sprites/spr_toilet_gg/spr_toilet_gg.yy",
@@ -31,8 +34,4 @@
     "name": "Kitchen",
     "path": "folders/Objects/Tykhlianka/Home GG_inside/Kitchen.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_toilet_gg",
-  "tags": [],
-  "resourceType": "GMObject",
 }

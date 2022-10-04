@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_shtory",
   "spriteId": {
     "name": "spr_shtory",
     "path": "sprites/spr_shtory/spr_shtory.yy",
@@ -31,8 +34,4 @@
     "name": "Left",
     "path": "folders/Objects/Center/Left.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_shtory",
-  "tags": [],
-  "resourceType": "GMObject",
 }

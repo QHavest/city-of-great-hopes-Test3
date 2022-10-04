@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_kitchen",
   "spriteId": {
     "name": "spr_dumb_kitchen_gg",
     "path": "sprites/spr_dumb_kitchen_gg/spr_dumb_kitchen_gg.yy",
@@ -31,8 +34,4 @@
     "name": "Kitchen",
     "path": "folders/Objects/Tykhlianka/Home GG_inside/Kitchen.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_kitchen",
-  "tags": [],
-  "resourceType": "GMObject",
 }

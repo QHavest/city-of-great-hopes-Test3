@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_sport_centre",
   "spriteId": {
     "name": "spr_sport_centre",
     "path": "sprites/spr_sport_centre/spr_sport_centre.yy",
@@ -31,8 +34,4 @@
     "name": "Sport centre",
     "path": "folders/Objects/Tykhlianka/Sport centre.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_sport_centre",
-  "tags": [],
-  "resourceType": "GMObject",
 }

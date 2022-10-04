@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_north",
   "spriteId": {
     "name": "spr_dumb_north",
     "path": "sprites/spr_dumb_north/spr_dumb_north.yy",
@@ -31,8 +34,4 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_north",
-  "tags": [],
-  "resourceType": "GMObject",
 }

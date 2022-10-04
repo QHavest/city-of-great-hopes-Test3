@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_zoo_zabor",
   "spriteId": {
     "name": "spr_zoo_zabor",
     "path": "sprites/spr_zoo_zabor/spr_zoo_zabor.yy",
@@ -31,8 +34,4 @@
     "name": "Indoor",
     "path": "folders/Objects/Bazar/Fish and Bazar/Indoor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_zoo_zabor",
-  "tags": [],
-  "resourceType": "GMObject",
 }

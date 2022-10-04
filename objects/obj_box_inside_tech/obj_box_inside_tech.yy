@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_box_inside_tech",
   "spriteId": {
     "name": "spr_box_inside_tech",
     "path": "sprites/spr_box_inside_tech/spr_box_inside_tech.yy",
@@ -31,8 +34,4 @@
     "name": "Inside_magazine",
     "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_box_inside_tech",
-  "tags": [],
-  "resourceType": "GMObject",
 }
