@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_magazine_fish_back",
   "spriteId": {
     "name": "spr_magazine_fish_back",
     "path": "sprites/spr_magazine_fish_back/spr_magazine_fish_back.yy",
@@ -31,8 +34,4 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_magazine_fish_back",
-  "tags": [],
-  "resourceType": "GMObject",
 }

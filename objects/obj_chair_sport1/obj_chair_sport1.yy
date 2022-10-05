@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_chair_sport1",
   "spriteId": {
     "name": "spr_chair_sport1",
     "path": "sprites/spr_chair_sport1/spr_chair_sport1.yy",
@@ -31,8 +34,4 @@
     "name": "Sport Inside",
     "path": "folders/Objects/Tykhlianka/Sport centre/Sport Inside.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_chair_sport1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bench_ieg2",
   "spriteId": {
     "name": "spr_bench_ieg2",
     "path": "sprites/spr_bench_ieg2/spr_bench_ieg2.yy",
@@ -31,8 +34,4 @@
     "name": "Ieghova",
     "path": "folders/Objects/Tykhlianka/South/Ieghova.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bench_ieg2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

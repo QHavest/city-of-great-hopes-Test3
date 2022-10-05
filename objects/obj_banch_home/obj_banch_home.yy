@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_banch_home",
   "spriteId": {
     "name": "spr_banch_home",
     "path": "sprites/spr_banch_home/spr_banch_home.yy",
@@ -31,8 +34,4 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_banch_home",
-  "tags": [],
-  "resourceType": "GMObject",
 }

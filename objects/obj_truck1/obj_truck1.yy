@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_truck1",
   "spriteId": {
     "name": "spr_truck1",
     "path": "sprites/spr_truck1/spr_truck1.yy",
@@ -31,8 +34,4 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_truck1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

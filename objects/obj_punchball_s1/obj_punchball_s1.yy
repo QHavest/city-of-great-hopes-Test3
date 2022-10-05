@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_punchball_s1",
   "spriteId": {
     "name": "spr_punchball_s1",
     "path": "sprites/spr_punchball_s1/spr_punchball_s1.yy",
@@ -31,8 +34,4 @@
     "name": "Box Inside",
     "path": "folders/Objects/Tykhlianka/Sport centre/Box Inside.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_punchball_s1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

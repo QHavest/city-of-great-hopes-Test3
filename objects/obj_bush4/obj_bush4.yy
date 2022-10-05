@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bush4",
   "spriteId": {
     "name": "sprt_bush_4",
     "path": "sprites/sprt_bush_4/sprt_bush_4.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bush4",
-  "tags": [],
-  "resourceType": "GMObject",
 }

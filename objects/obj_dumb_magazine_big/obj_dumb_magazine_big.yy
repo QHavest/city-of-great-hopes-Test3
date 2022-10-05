@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_dumb_magazine_big",
   "spriteId": {
     "name": "spr_dumb_magazine_big",
     "path": "sprites/spr_dumb_magazine_big/spr_dumb_magazine_big.yy",
@@ -31,8 +34,4 @@
     "name": "Magazine",
     "path": "folders/Objects/Bazar/Magazine.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_dumb_magazine_big",
-  "tags": [],
-  "resourceType": "GMObject",
 }

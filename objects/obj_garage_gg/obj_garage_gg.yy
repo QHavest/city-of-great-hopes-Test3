@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_garage_gg",
   "spriteId": {
     "name": "spr_garage_gg",
     "path": "sprites/spr_garage_gg/spr_garage_gg.yy",
@@ -31,8 +34,4 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_garage_gg",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_closed_magazine_l",
   "spriteId": {
     "name": "spr_closed_magazine",
     "path": "sprites/spr_closed_magazine/spr_closed_magazine.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_closed_magazine_l",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_milk",
   "spriteId": {
     "name": "spr_milk",
     "path": "sprites/spr_milk/spr_milk.yy",
@@ -31,8 +34,4 @@
     "name": "Indoor",
     "path": "folders/Objects/Bazar/Fish and Bazar/Indoor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_milk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

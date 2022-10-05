@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_clumbe_school",
   "spriteId": {
     "name": "spr_clumbe_school",
     "path": "sprites/spr_clumbe_school/spr_clumbe_school.yy",
@@ -31,8 +34,4 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_clumbe_school",
-  "tags": [],
-  "resourceType": "GMObject",
 }

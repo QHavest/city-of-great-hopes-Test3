@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_telephone_budka",
   "spriteId": {
     "name": "spr_telephone_budka",
     "path": "sprites/spr_telephone_budka/spr_telephone_budka.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_telephone_budka",
-  "tags": [],
-  "resourceType": "GMObject",
 }

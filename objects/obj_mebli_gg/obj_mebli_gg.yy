@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_mebli_gg",
   "spriteId": {
     "name": "spr_mebli_gg",
     "path": "sprites/spr_mebli_gg/spr_mebli_gg.yy",
@@ -31,8 +34,4 @@
     "name": "Home GG_inside",
     "path": "folders/Objects/Tykhlianka/Home GG_inside.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_mebli_gg",
-  "tags": [],
-  "resourceType": "GMObject",
 }

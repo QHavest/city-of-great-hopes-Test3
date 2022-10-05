@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_closed_containers",
   "spriteId": {
     "name": "spr_closed_containers",
     "path": "sprites/spr_closed_containers/spr_closed_containers.yy",
@@ -31,8 +34,4 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_closed_containers",
-  "tags": [],
-  "resourceType": "GMObject",
 }
