@@ -1,5 +1,5 @@
 if acepted_key 
-{
+{ draw_sprite_ext(spr_dark,0,0,0,100,100,0,c_black,0.5);
 	switch (pos)
 	{
 		case 0 : draw_sprite_stretched(spr_mp_Railway_station,0,bord_x_r,bord_y_r,r_w*kof_r,r_h*kof_r);

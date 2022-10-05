@@ -38,6 +38,8 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"633a7621-6bcb-4e31-8c83-27101ebb4335",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6818c40b-ea49-4280-b724-7a829b347cf2",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0179f8d3-cccd-4738-9c55-e4e96d5158b3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b74fb3a-6bd2-4998-a2b1-60ad4c48e770",},
+
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -49,7 +51,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 11.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -65,6 +67,9 @@
             {"id":"8814ed16-d30c-47f2-82c6-a0601b4e762d","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"633a7621-6bcb-4e31-8c83-27101ebb4335","path":"sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"221a8b8e-8685-4ba2-bc71-cc35c6dbab6d","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6818c40b-ea49-4280-b724-7a829b347cf2","path":"sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cfead4b1-c631-4fe4-b0c2-ed55f974bdb9","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0179f8d3-cccd-4738-9c55-e4e96d5158b3","path":"sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+
+            {"id":"300b0814-1193-45cc-893b-78337fdaeb86","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b74fb3a-6bd2-4998-a2b1-60ad4c48e770","path":"sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
