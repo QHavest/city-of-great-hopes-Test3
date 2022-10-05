@@ -204,4 +204,10 @@ player_y[3][3] = 270;
 sprite_index = imaga[pos];
 x = pos_x[pos];
 y = pos_y[pos];
-camera_set_view_pos(view_camera[0], x - 200 , y-1000);
+switch (pos) 
+{
+	case 0: camera_set_view_pos(view_camera[0], x - 200 , 1700); break;
+	case 1: camera_set_view_pos(view_camera[0], x - 200 , 1400); break;
+	case 2: camera_set_view_pos(view_camera[0], x - 200 , 400); break;
+	case 3: camera_set_view_pos(view_camera[0], x - 200 , 0); break;
+}
