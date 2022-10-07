@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_home_big",
   "spriteId": {
     "name": "spr_home_big",
     "path": "sprites/spr_home_big/spr_home_big.yy",
@@ -31,8 +34,4 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_home_big",
-  "tags": [],
-  "resourceType": "GMObject",
 }

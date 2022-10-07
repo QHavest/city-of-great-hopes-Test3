@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_turniki1",
   "spriteId": {
     "name": "spr_turniki1",
     "path": "sprites/spr_turniki1/spr_turniki1.yy",
@@ -31,8 +34,4 @@
     "name": "School",
     "path": "folders/Objects/Tykhlianka/School.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_turniki1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,4 @@
-target_x = 105;
-target_y = 75;
+target_x = 107;
+target_y = 115;
 target_rm=rm_bakery;
 

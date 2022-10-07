@@ -1,3 +1,6 @@
+//якщо магазин відкритий, гравець нерухомий
+if (global.shop) exit;
+
 //система зміни статусу гравця
 
 if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;

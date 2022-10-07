@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lamp_home1",
   "spriteId": {
     "name": "spr_lamp_home1",
     "path": "sprites/spr_lamp_home1/spr_lamp_home1.yy",
@@ -31,8 +34,4 @@
     "name": "Home",
     "path": "folders/Objects/Tykhlianka/Home.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lamp_home1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -94,7 +94,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

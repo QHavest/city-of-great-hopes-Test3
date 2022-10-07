@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_woi_invisible_press2",
   "spriteId": {
     "name": "spr_press2",
     "path": "sprites/spr_press2/spr_press2.yy",
@@ -27,7 +30,7 @@
     {"x":7.0,"y":132.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +38,4 @@
     "name": "Center",
     "path": "folders/Objects/Center.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_press2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

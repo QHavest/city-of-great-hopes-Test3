@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_sign_back",
   "spriteId": {
     "name": "spr_sign_back1",
     "path": "sprites/spr_sign_back1/spr_sign_back1.yy",
@@ -31,8 +34,4 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_sign_back",
-  "tags": [],
-  "resourceType": "GMObject",
 }

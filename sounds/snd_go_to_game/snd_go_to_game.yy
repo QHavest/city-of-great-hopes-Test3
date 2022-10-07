@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_go_to_game",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.0,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_go_to_game",
-  "tags": [],
-  "resourceType": "GMSound",
 }

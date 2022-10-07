@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platforms",
   "spriteId": {
     "name": "spr_platforms",
     "path": "sprites/spr_platforms/spr_platforms.yy",
@@ -31,8 +34,4 @@
     "name": "Ieghova",
     "path": "folders/Objects/Tykhlianka/South/Ieghova.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platforms",
-  "tags": [],
-  "resourceType": "GMObject",
 }

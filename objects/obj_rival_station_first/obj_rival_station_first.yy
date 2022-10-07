@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_rival_station_first",
   "spriteId": {
     "name": "spr_rival_station_first_side",
     "path": "sprites/spr_rival_station_first_side/spr_rival_station_first_side.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_rival_station_first",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_curb_1",
   "spriteId": {
     "name": "spr_curb_1",
     "path": "sprites/spr_curb_1/spr_curb_1.yy",
@@ -31,8 +34,4 @@
     "name": "North",
     "path": "folders/Objects/Tykhlianka/North.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_curb_1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

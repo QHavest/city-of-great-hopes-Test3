@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_fish_havhav",
   "spriteId": {
     "name": "spr_fish_havhav",
     "path": "sprites/spr_fish_havhav/spr_fish_havhav.yy",
@@ -31,8 +34,4 @@
     "name": "Fish and Bazar",
     "path": "folders/Objects/Bazar/Fish and Bazar.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_fish_havhav",
-  "tags": [],
-  "resourceType": "GMObject",
 }

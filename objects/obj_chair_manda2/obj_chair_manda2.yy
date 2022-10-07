@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_chair_manda2",
   "spriteId": {
     "name": "spr_chair_manda2",
     "path": "sprites/spr_chair_manda2/spr_chair_manda2.yy",
@@ -31,8 +34,4 @@
     "name": "Manda",
     "path": "folders/Objects/Tykhlianka/South/Manda.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_chair_manda2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

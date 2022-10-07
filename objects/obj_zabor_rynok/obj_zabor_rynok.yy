@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_zabor_rynok",
   "spriteId": {
     "name": "spr_zabor_rynok",
     "path": "sprites/spr_zabor_rynok/spr_zabor_rynok.yy",
@@ -31,8 +34,4 @@
     "name": "First Side",
     "path": "folders/Objects/Rival Station/First Side.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_zabor_rynok",
-  "tags": [],
-  "resourceType": "GMObject",
 }
