@@ -22,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52AE8F94","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.8,"scaleY":0.14,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1463.0,"y":229.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A1F96E0","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.080000006,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1240.0,"y":238.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A9D91B2","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block_bezshow","path":"objects/obj_warp_block_bezshow/obj_warp_block_bezshow.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.6300001,"scaleY":0.05000003,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1241.5,"y":300.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CDD070","properties":[],"isDnd":false,"objectId":{"name":"obj_bus_stop","path":"objects/obj_bus_stop/obj_bus_stop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":251.0,"y":253.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj_night","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70168E97","properties":[],"isDnd":false,"objectId":{"name":"obj_shaurma_night","path":"objects/obj_shaurma_night/obj_shaurma_night.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":189.0,"y":192.0,},
@@ -99,6 +100,7 @@
     {"name":"inst_625E15CF","path":"rooms/rm_police/rm_police.yy",},
     {"name":"inst_70168E97","path":"rooms/rm_police/rm_police.yy",},
     {"name":"inst_242A0F62","path":"rooms/rm_police/rm_police.yy",},
+    {"name":"inst_4CDD070","path":"rooms/rm_police/rm_police.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
