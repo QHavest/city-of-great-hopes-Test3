@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ob_doc_blik",
-  "spriteId": {
-    "name": "sp_doc_blik",
-    "path": "sprites/sp_doc_blik/sp_doc_blik.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_truck_closeds",
   "spriteId": {
     "name": "spr_truck_closeds",
     "path": "sprites/spr_truck_closeds/spr_truck_closeds.yy",
@@ -31,8 +34,4 @@
     "name": "Container",
     "path": "folders/Objects/Bazar/Container.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_truck_closeds",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -62,6 +62,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62493156","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.125,"scaleY":1.0625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3014.0,"y":233.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_501E2899","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.375,"scaleY":0.125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2996.0,"y":242.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_539D1281","properties":[],"isDnd":false,"objectId":{"name":"obj_suvenir","path":"objects/obj_suvenir/obj_suvenir.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":977.0,"y":190.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_667006DE","properties":[],"isDnd":false,"objectId":{"name":"obj_suvenirnyi","path":"objects/obj_suvenirnyi/obj_suvenirnyi.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":192.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CA92A0B","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.95000005,"scaleY":0.24000002,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.5,"y":219.0,},
@@ -129,6 +130,7 @@
     {"name":"inst_539D1281","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_3105071","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_74C492EC","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_667006DE","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

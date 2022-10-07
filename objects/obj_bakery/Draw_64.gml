@@ -16,8 +16,8 @@ var itemR = arr[1];
 var sprR = asset_get_index("sp_" + itemR)
 var sprL = asset_get_index("sp_" + itemL)
 
-draw_sprite_ext(sprR, 0, guiW/30.5*22, guiH/3, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(sprL, 0, guiW/8.5, guiH/3, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(sprR, 0, guiW/30.5*23, guiH/3, 0.5, 0.5, 0, c_grey, 1);
+draw_sprite_ext(sprL, 0, guiW/11, guiH/3, 0.5, 0.5, 0, c_grey, 1);
 
 
 //draw menu items
@@ -37,5 +37,3 @@ draw_sprite(spr, 0, guiW/4, guiH/4);
 
 //Стрілочки і назва
 draw_sprite_ext(sp_name_bakery, 0, guiW/2, guiH/6, 2, 2, 0, c_white, 1)
-draw_sprite(sp_left_click, 0, guiW/15, guiH/2.3)
-draw_sprite(sp_right_click, 0, guiW/30*27, guiH/2.3)

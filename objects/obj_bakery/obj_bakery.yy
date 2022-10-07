@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bakery",
   "spriteId": {
-    "name": "Sprite655",
-    "path": "sprites/Sprite655/Sprite655.yy",
+    "name": "spr_shopping",
+    "path": "sprites/spr_shopping/spr_shopping.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Shopping",
-    "path": "folders/Objects/Shopping.yy",
+    "name": "ShoppingUA",
+    "path": "folders/Objects/ShoppingUA.yy",
   },
 }
