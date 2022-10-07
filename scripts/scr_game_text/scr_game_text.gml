@@ -267,18 +267,18 @@ break
 #endregion
 #region (Black_bazar_X)
 //if ponedilok = false
-case "Black_bazar_X":
+/*case "Black_bazar_X":
 	scr_text("Слава свободному риночку. Бачу ще пара людисьок, хоче чогось екстравагантного. Надіюсь ви мене розважите.","non_player")
-		scr_option("Переглянути асортимент","by_misterX");
-		scr_option("Відмовитись","goodby");
-		
+	//	scr_option("Переглянути асортимент","by_misterX");
+	//	scr_option("Відмовитись","goodby");
+break
 		case "goodby":
 		scr_text("Вот ви скучні. Ну ідіть куди маєте тоді.","non_player")
 		break
-		case "by_mistrX":
+		case "by_mistrX5":
 // Меню ПОКУПОК
 		break
-break
+//break*/
 //if ponedilok = TRUE
 case "Black_bazar_X":
 	scr_text("Чого ви донімаєте вільну людину? Може хочете придбать календарик?","non_player")
@@ -286,13 +286,14 @@ case "Black_bazar_X":
 	scr_text("Та того шо в мене вихідний й я манав щось продавать й взагалі працювать. Ну хіба ви доплатите.","non_player")
 		scr_option("Переглянути асортимент","by_misterX");
 		scr_option("Відмовитись","goodby");
-		
+break	
 		case "goodby":
 		scr_text("Ну тоді не заважайте, я дивлюсь на поїзда.","non_player")
 		break
+		
 		case "by_mistrX":
 // Меню ПОКУПОК +25% до всіх цін
-break
+		break
 case "end_bying_pon_X":
 	scr_text("Слава свободному риночку!","non_player")
 break

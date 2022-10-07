@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 20,
   "height": 20,
   "textureGroupId": {
@@ -67,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "speaker_icon",
-    "path": "folders/Dialogs/speaker_icon.yy",
+    "name": "Rival_station",
+    "path": "folders/Dialogs/speaker_icon/Rival_station.yy",
   },
 }

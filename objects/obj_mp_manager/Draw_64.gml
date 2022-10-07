@@ -33,6 +33,7 @@ else
 		instance_activate_object(obj_dim_player2);
 		instance_activate_object(Settings);
 		instance_activate_object(obj_room_manager);
+		instance_activate_object(daycycle);
 		obj_dim_player1.state = PLAYERSTATE.STAY;
 		obj_dim_player1.visible = 0;
 		obj_dim_player2.visible = 0;
