@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_sheva",
   "spriteId": {
-    "name": "spr_Sheva",
-    "path": "sprites/spr_Sheva/spr_Sheva.yy",
+    "name": "spr_cherka_stay",
+    "path": "sprites/spr_cherka_stay/spr_cherka_stay.yy",
   },
   "solid": false,
   "visible": true,
