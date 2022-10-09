@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "Font_for_draw",
+  "name": "Font_for_language2",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,

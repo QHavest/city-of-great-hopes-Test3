@@ -32,7 +32,6 @@ enum menu_element_types {
 }
 
 //створення сторінок меню
-
 ds_menu_main = create_menu_page(
 // ["Resume", menu_element_types.script_runner, resume_game],
  //["Settings", menu_element_types.page_transfer, menu_page.settings],
