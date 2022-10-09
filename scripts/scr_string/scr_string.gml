@@ -1,7 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+///@desc string_lang(ini_index)
+///@arg ini_index
 function scr_string(argument0){
-	var search = "";
+	var search = argument0;
  switch (global.languages)
  {
 	 case 0: var lang = "english";break;
@@ -14,6 +14,6 @@ function scr_string(argument0){
  var findstr = ini_read_string(lang, string(search), "No string Found!");
  
  ini_close();
- findstr = string_replace_all(findstr, "*", "#");
+ //findstr = string_replace_all(findstr, "*", "#");
  return findstr;
 }

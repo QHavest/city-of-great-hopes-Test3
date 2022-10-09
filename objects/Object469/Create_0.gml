@@ -1,1 +1,1 @@
-global.languages = "eng"
+global.languages = "english"
