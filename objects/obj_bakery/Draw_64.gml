@@ -26,7 +26,7 @@ for (var i=0; i<itemCount; i++){
 	var arr = items_bakery[| i]; 
 	var item = arr[0];
 }
-
+	
 var arr = items_bakery[| selected];
 var item = arr[0];
 var price = arr[1];
@@ -37,3 +37,6 @@ draw_sprite(spr, 0, guiW/4, guiH/4);
 
 //Стрілочки і назва
 draw_sprite_ext(sp_name_bakery, 0, guiW/2, guiH/6, 2, 2, 0, c_white, 1)
+
+
+
