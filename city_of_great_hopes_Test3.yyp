@@ -288,6 +288,7 @@
     {"id":{"name":"obj_kvass","path":"objects/obj_kvass/obj_kvass.yy",},"order":0,},
     {"id":{"name":"deactivate_obj_day","path":"scripts/deactivate_obj_day/deactivate_obj_day.yy",},"order":4,},
     {"id":{"name":"obj_door_police","path":"objects/obj_door_police/obj_door_police.yy",},"order":0,},
+    {"id":{"name":"spr_ic_Gogi","path":"sprites/spr_ic_Gogi/spr_ic_Gogi.yy",},"order":6,},
     {"id":{"name":"obj_box_fish","path":"objects/obj_box_fish/obj_box_fish.yy",},"order":0,},
     {"id":{"name":"spr_flowerbed1","path":"sprites/spr_flowerbed1/spr_flowerbed1.yy",},"order":16,},
     {"id":{"name":"spr_zabor","path":"sprites/spr_zabor/spr_zabor.yy",},"order":2,},

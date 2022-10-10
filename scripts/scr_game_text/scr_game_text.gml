@@ -129,37 +129,46 @@ break
 #endregion
 #region (Gogi)
 case "Gogi":
-// if znoiomui = false
+if global.znaiomui = false
+{
 	scr_text("Доброго дня, чим можу допомогти, ви вже щось вибрали?","non_player");
-//else
+global.znaiomui = true
+}
+else{
 	scr_text("О, здоров мужики, що вас вітер заніс до мене? Ви так побалакать чи може чисто затариться смачною випічкою?","non_player");
+}
 	scr_option("Побалакать","speak_gog");
 	scr_option("Купить","by_beckery");
 break		
-	case "speak_gog":		
-		scr_option("Як ти? Як робота йде?","How_are_you");
-		scr_option("Ми не заважаєм? Не сильно важкий день?","Hard_dayy");
-	break
-		case "How_are_you":
-			scr_text("Доброго дня, чим можу допомогти, ви вже щось вибрали?","non_player");
-		break
+	case "speak_gog":	
+		scr_text("Як ти? Як робота йде?","player");
+	//	scr_option("Як ти? Як робота йде?","How_are_you");
+	//	scr_option("Ми не заважаєм? Не сильно важкий день?","Hard_dayy");
+//	break
+	//	case "How_are_you":
+			
 // тут все складно
 // рандом 
+
 	scr_text("Я впринципі нормаль. Вот получив випічку, свіжа стоїть, то розгрібають. До вечора нічого не останеться.","non_player");
 	scr_text("Ну таке. День якийсь херовий. Голова болить й люди мозг компостирують.","non_player");	
 	scr_text("Настрій чогось випить. Жду поки у Васі робота кінчиться й розслабимся. Та й таке.","non_player");
 	scr_text("Нормально. Шумно, но приходиться привикать. Ну а шо робить? Місце ж торгове.","non_player");
 	scr_text("Я єбав. Хочу спать. Хочу втікти з роботи й жить як Вася й не париться.","non_player");
-
+	//	break
 	scr_text("Але в любом випадку рад що у вас все чікі-пукі. Це ж так?","non_player");
 	// іф пройшли пройшли певно кількість гри
-		scr_text("Так. Живемо приспівуючи, правда не знаєш що буде завтра постійно", "player");
-		scr_text("Ну це да.","non_player");
+	//	scr_text("Так. Живемо приспівуючи, правда не знаєш що буде завтра постійно", "player");
+	//	scr_text("Ну це да.","non_player");
 	//ельзе
 		scr_text("Так. Живемо приспівуючи, як різноробочі, але хоть при грошах.", "player");
 		scr_text("Ну ясно, в принципі нічого сверх. Ладно, я продовжу працювать, а вам удачки.","non_player");
-	case"by_beckery":
+break
+case"by_beckery":
 // ЗАПУСК МАГАЗА
+instance_create_depth(obj_dim_player1.x,90,-9999,obj_bakery)
+obj_bakery.shopOpen = true;
+global.shop = true;
 	break
 #endregion
 #region (enother)
