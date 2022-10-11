@@ -1,2 +1,2 @@
 sprite_index = spr_dikobraz;
-alarm[1] = 40 * irandom_range(1, 3);
+alarm[1] = 32 * irandom_range(1, 2);
