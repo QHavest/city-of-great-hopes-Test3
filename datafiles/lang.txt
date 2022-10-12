@@ -1,0 +1,14 @@
+{
+	"eng":{
+		"pause0": "Resume",
+		"pause1": "Options",
+		"pause2": "Exit"
+		},
+		
+	"ua":{
+		"pause0": "rESUMEN",
+		"pause1": "wHAT",
+		"pause2": "Good"
+		}
+		
+}
