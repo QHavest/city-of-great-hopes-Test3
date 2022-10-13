@@ -36,10 +36,10 @@ ds_menu_main = create_menu_page(
 // ["Resume", menu_element_types.script_runner, resume_game],
  //["Settings", menu_element_types.page_transfer, menu_page.settings],
  [scr_json_lang(global.LANGUAGE,"settings0"), menu_element_types.slider, change_volume, 0.5, [0,1]],
- ["Resolution", menu_element_types.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
- ["Window mode", menu_element_types.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
- ["Language", menu_element_types.shift, change_language, 0, ["English", "Українська"]],
- ["Back", menu_element_types.script_runner, back_menu]
+ [scr_json_lang(global.LANGUAGE,"settings1"), menu_element_types.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
+ [scr_json_lang(global.LANGUAGE,"settings2"), menu_element_types.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
+ [scr_json_lang(global.LANGUAGE,"settings3"), menu_element_types.shift, change_language, 0, ["English", "Українська"]],
+ [scr_json_lang(global.LANGUAGE,"settings4"), menu_element_types.script_runner, back_menu]
 );
 
 ds_settings = create_menu_page(

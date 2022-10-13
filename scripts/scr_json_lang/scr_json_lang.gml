@@ -6,35 +6,35 @@ function scr_json_lang(argument0,argument1){
 var LANGUAGE = argument0;
 var KEYWORD = argument1;
 
-// Open the Json file
+// Відкриття JSON файлу
 var JsonFile = file_text_open_read("lang.txt");
 var Data = "";
 
-// Read through the Json file and save the text in the Data variable
+// Зчитати Json файл та зберегти дані у Data змінній
 while (!file_text_eof(JsonFile)) {
     Data += file_text_read_string(JsonFile);
     file_text_readln(JsonFile);
 }
 
-// Close the Json file
+// Закриття Json файлу
 file_text_close(JsonFile);
 
-// Store the data in a temporary map
+// Збереження даних в тимчасовій карті
 var temp_map = json_decode(Data);
 
-// Find the current game language data
+// Перевіряє дані про поточну МОВУ
 var lang_map = ds_map_find_value(temp_map, LANGUAGE);
 
-// If the keyword you typed in as argument is not a string, convert it to a string, just in case you don't get any errors
+//  Якщо вибране слово не є рядком, переводить його в рядок. ЗРОБЛЕНО НА ВИПАДОК РІЗНИХ СИТУАЦІЙ
 if (!is_string(KEYWORD)) KEYWORD = string(KEYWORD);
 
-// Store the output string in a local variable before destroying the data structures
+//  Перед знищенням структур даних, зберегти вихідний рядок в локальній змінній
 var output_string = lang_map[? KEYWORD];
 
-// Destroy the maps you've created to prevent memory leaks
+// Видаляємо створені раніше карти, щоб не навантажувати память
 ds_map_destroy(temp_map);
 ds_map_destroy(lang_map);
 
-// Return the output string
+// Повертаємо вихідний/знайдений рядок
 return output_string;
 }

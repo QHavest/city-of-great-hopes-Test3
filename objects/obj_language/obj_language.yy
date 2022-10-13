@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object469",
+  "name": "obj_language",
   "spriteId": null,
   "solid": false,
   "visible": true,
