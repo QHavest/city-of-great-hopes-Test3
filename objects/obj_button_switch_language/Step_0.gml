@@ -1,4 +1,13 @@
-if (global.LANGUAGE = "eng"){image_index = 1} else if  (global.LANGUAGE = "ua"){image_index = 2}
+if (global.LANGUAGE = "eng"){
+	image_index = 1
+	layer_set_visible("text_ukr", false)
+	layer_set_visible("text_eng", true)
+	} 
+	else if  (global.LANGUAGE = "ua"){
+		image_index = 0
+		layer_set_visible("text_ukr", true)
+		layer_set_visible("text_eng", false)
+		}
 //x_key = keyboard_check_pressed(ord("X"))
 //if (x_key){
 /*	switch (x_key)

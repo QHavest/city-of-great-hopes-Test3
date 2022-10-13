@@ -1,6 +1,6 @@
 //if(!global.pauses) exit;
 var fnt = draw_get_font()
-var sz=draw_set_font(menu_main_font)
+var sz=draw_set_font(Font_for_language2)
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
 input_enter_p = keyboard_check_pressed(global.key_enter);
@@ -16,7 +16,9 @@ switch(ds_grid[# 1, menu_option[page]]){
 				
 				ds_grid[# 3,menu_option[page]] += hinput;
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, array_length_1d(ds_grid[# 4, menu_option[page]])-1);
+				
 			}
+			
 		break;
 		case menu_element_types.slider:
 			switch(menu_option[page]){
@@ -57,7 +59,7 @@ if(input_enter_p){
 	switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_types.script_runner: script_execute(ds_grid[# 2,menu_option[page]]); break;
 		case menu_element_types.page_transfer: page = ds_grid[# 2, menu_option[page]]; break;
-		case menu_element_types.shift:
+		case menu_element_types.shift: if(inputting) { room_restart();}
 		case menu_element_types.slider:
 		case menu_element_types.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
 		case menu_element_types.input:

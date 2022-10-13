@@ -2,13 +2,17 @@
 	"eng":{
 		"pause0": "Resume",
 		"pause1": "Options",
-		"pause2": "Exit"
+		"pause2": "Exit",
+		"settings0": "Master",
+		"dialogs0": "No you blyat, easy blyat."
 		},
 		
 	"ua":{
 		"pause0": "rESUMEN",
 		"pause1": "wHAT",
-		"pause2": "Good"
+		"pause2": "Good",
+		"settings0": "Основне",
+		"dialogs0": "Не ви блять, просто блять."
 		}
 		
 }
