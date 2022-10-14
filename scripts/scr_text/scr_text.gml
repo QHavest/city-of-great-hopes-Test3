@@ -16,8 +16,11 @@ if argument_count >1
 	{
 		switch (argument[1])
 		{
-		case "player":
+		case "player1":
 		 speaker[page_number] =1;
+		 break;
+		 case "player2":
+		 speaker[page_number] =2;
 		 break;
 		 case "non_player":
 		 speaker[page_number] =-1;
