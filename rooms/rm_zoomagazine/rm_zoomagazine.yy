@@ -33,6 +33,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14A9EC9B","properties":[],"isDnd":false,"objectId":{"name":"obj_turtle","path":"objects/obj_turtle/obj_turtle.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":251.0,"y":60.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35454597","properties":[],"isDnd":false,"objectId":{"name":"obj_mouses","path":"objects/obj_mouses/obj_mouses.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":133.0,"y":41.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7686E554","properties":[],"isDnd":false,"objectId":{"name":"obj_enot","path":"objects/obj_enot/obj_enot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":44.0,"y":78.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1048D0F5","properties":[],"isDnd":false,"objectId":{"name":"obj_dikobraz","path":"objects/obj_dikobraz/obj_dikobraz.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":29.0,"y":93.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A766F6B","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.36,"scaleY":0.09,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":129.0,"y":116.5,},
@@ -84,6 +85,7 @@
     {"name":"inst_7686E554","path":"rooms/rm_zoomagazine/rm_zoomagazine.yy",},
     {"name":"inst_1DB8F05B","path":"rooms/rm_zoomagazine/rm_zoomagazine.yy",},
     {"name":"inst_16802DE4","path":"rooms/rm_zoomagazine/rm_zoomagazine.yy",},
+    {"name":"inst_1048D0F5","path":"rooms/rm_zoomagazine/rm_zoomagazine.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
