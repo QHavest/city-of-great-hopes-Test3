@@ -6,8 +6,8 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":213,"hview":120,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":0,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dim_player1","path":"objects/obj_dim_player1/obj_dim_player1.yy",},},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":1700,"yview":80,"wview":425,"hview":240,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":50,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dim_player1","path":"objects/obj_dim_player1/obj_dim_player1.yy",},},
+    {"inherit":false,"visible":true,"xview":1700,"yview":80,"wview":425,"hview":240,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":50,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dim_player2","path":"objects/obj_dim_player2/obj_dim_player2.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -27,6 +27,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B5DC689","properties":[],"isDnd":false,"objectId":{"name":"obj_fresh_meat","path":"objects/obj_fresh_meat/obj_fresh_meat.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":121.0,"y":53.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69BF9159","properties":[],"isDnd":false,"objectId":{"name":"obj_sausage","path":"objects/obj_sausage/obj_sausage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":394.0,"y":53.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E1F1CC8","properties":[],"isDnd":false,"objectId":{"name":"obj_milk","path":"objects/obj_milk/obj_milk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":681.0,"y":53.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D2D4447","properties":[],"isDnd":false,"objectId":{"name":"obj_food_shop","path":"objects/obj_food_shop/obj_food_shop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":64.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CE19AC","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.56,"scaleY":0.089999996,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":396.0,"y":117.5,},
@@ -48,6 +49,7 @@
     {"name":"inst_60AA69AD","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
     {"name":"inst_56A98025","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
     {"name":"inst_2C2B9A46","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
+    {"name":"inst_5D2D4447","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

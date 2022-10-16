@@ -14,11 +14,12 @@ if(shopOpen && keyboard_check_pressed(vk_escape)){
 }
 
 if(shopOpen){
+
 	//To right
 	if(keyboard_check_pressed(ord("D")) ||  keyboard_check_pressed(vk_right)){
 		selected++;
 		notselected++;
-		if (selected == itemCount) selected = 0; 
+		if (selected == itemCount) selected = 0;
 		if (notselected == itemCount01) notselected = 0; 
 	}
 	//To left
