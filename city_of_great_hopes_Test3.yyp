@@ -642,6 +642,7 @@
     {"id":{"name":"spr_zabor_rival_b","path":"sprites/spr_zabor_rival_b/spr_zabor_rival_b.yy",},"order":21,},
     {"id":{"name":"obj_taburet","path":"objects/obj_taburet/obj_taburet.yy",},"order":27,},
     {"id":{"name":"sp_dyvan_zhytomyr01","path":"sprites/sp_dyvan_zhytomyr01/sp_dyvan_zhytomyr01.yy",},"order":6,},
+    {"id":{"name":"spr_bakerys","path":"sprites/spr_bakerys/spr_bakerys.yy",},"order":5,},
     {"id":{"name":"sp_valet01","path":"sprites/sp_valet01/sp_valet01.yy",},"order":3,},
     {"id":{"name":"spr_lotki_night1","path":"sprites/spr_lotki_night1/spr_lotki_night1.yy",},"order":2,},
     {"id":{"name":"spr_north_lamp_night","path":"sprites/spr_north_lamp_night/spr_north_lamp_night.yy",},"order":1,},
