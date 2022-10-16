@@ -48,6 +48,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22C8609E","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":483.0,"y":118.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69E06CE6","properties":[],"isDnd":false,"objectId":{"name":"obj_sheva","path":"objects/obj_sheva/obj_sheva.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EEE3B0F","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":811.0,"y":114.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F6536B5","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0317335,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":367.5,"y":142.25388,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_128F8CB4","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.65,"scaleY":0.16000001,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":652.5,"y":101.0,},
@@ -94,6 +95,7 @@
     {"name":"inst_1BDEC0B","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_69E06CE6","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_EEE3B0F","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_3F6536B5","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -646,6 +646,7 @@
     {"id":{"name":"spr_ieghova_ins","path":"sprites/spr_ieghova_ins/spr_ieghova_ins.yy",},"order":0,},
     {"id":{"name":"spr_mishky","path":"sprites/spr_mishky/spr_mishky.yy",},"order":6,},
     {"id":{"name":"obj_bench_south2407","path":"objects/obj_bench_south2407/obj_bench_south2407.yy",},"order":38,},
+    {"id":{"name":"spr_ic_cher","path":"sprites/spr_ic_cher/spr_ic_cher.yy",},"order":7,},
     {"id":{"name":"obj_bush6","path":"objects/obj_bush6/obj_bush6.yy",},"order":19,},
     {"id":{"name":"spr_garage_4","path":"sprites/spr_garage_4/spr_garage_4.yy",},"order":13,},
     {"id":{"name":"spr_box_gg","path":"sprites/spr_box_gg/spr_box_gg.yy",},"order":5,},

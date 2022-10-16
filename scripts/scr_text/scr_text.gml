@@ -3,31 +3,65 @@ line_break_pos[0, page_number]=999;
 line_break_num[page_number]   =0;
 line_break_offset[page_number]=0;
 speaker[page_number]=0;
+speaker1[page_number]=0;
+speaker2[page_number]=0;
 }
 
 
 ///@param text
-///@param [speaker]
-function scr_text(_text){
+///@param active_speaker
+///@param [speaker1]
+///@param [speaker2]
+function scr_text(_text,active_speaker){
 scr_set_defaults_for_text()
 text[page_number]=_text;
+// визначення хто говорить
+speaker[page_number] = active_speaker;
 
-if argument_count >1
+if argument_count = 4
+	{
+	switch (argument[2])
+		{
+		case "pl1": //Ytopurok
+		 speaker1[page_number] =spr_ic_Ytopurok;
+		 break;
+		 case "pl2": // Krus
+		 speaker1[page_number] =spr_ic_Krus;
+		 break;
+		 case "pl0": 
+		 speaker1[page_number] = global.sp;
+		break;
+		}
+		switch (argument[3])
+		{
+		case "pl1":
+		 speaker2[page_number] =spr_ic_Ytopurok;
+		 break;
+		 case "pl2":
+		 speaker2[page_number] =spr_ic_Krus;
+		 break;
+		 case "pl0":
+		 speaker2[page_number] =global.sp;
+		break;
+		}	
+	}
+
+if argument_count = 3
 	{
 		switch (argument[1])
 		{
-		case "player1":
-		 speaker[page_number] =1;
+		case "pl1":
+		 speaker2[page_number] =spr_ic_Ytopurok;
 		 break;
-		 case "player2":
-		 speaker[page_number] =2;
+		 case "pl2":
+		 speaker2[page_number] =spr_ic_Krus;
 		 break;
-		 case "non_player":
-		 speaker[page_number] =-1;
+		 case "pl0":
+		 speaker2[page_number] =global.sp;
 		break;
 		}
+		
 	}
-else speaker[page_number]=0;
 page_number++;
 }
 

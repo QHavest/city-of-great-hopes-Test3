@@ -257,22 +257,17 @@ for (var c=0; c<draw_char; c++){
 // вивід рамок для іконок прерсонажів
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border*2 + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
-	if speaker[page] == 1 // Утопирок
+	if speaker[page] == 0 // ГГ
 	{
-		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
 	}
-		if speaker[page] == 2 // Крис
+	if speaker[page] == 1 // не ГГ
 	{
-		draw_sprite_ext(spr_ic_Krus,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
 	}
-	if speaker[page] == -1 // не ГГ
-	{
-		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
-	}
-	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
+	if speaker[page] == -1 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
 
 	}
