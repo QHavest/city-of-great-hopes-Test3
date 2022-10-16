@@ -6,7 +6,7 @@ function scr_game_text(_text_id){
 #region (Cherka)
 case "Cherka":
 	scr_text("Ееее… А це ти, Васьок?","non_player");
-	scr_text("Ні. Це Утопирок та Крис.", "player");
+	scr_text("Ні. Це Утопирок та Крис.", "player2");
 	scr_text("Ну що ви хо-х-ххх-хочите від м-мме-ммене?", "non_player");
 		scr_option("кинути 2 карбованця на їжу","give_money_cher");
 		scr_option("Струсити плечима","move_sholder_cher");
@@ -18,9 +18,9 @@ break
 		case "move_sholder_cher":
 		// якщо перший раз
 		scr_text("Ви за сертифікатами при-пр-п-пп-пришли?","non_player");
-		scr_text("Сертифікати? Ти про що? Точно… твій брат нам розповідав.", "player");	
+		scr_text("Сертифікати? Ти про що? Точно… твій брат нам розповідав.", "player2");	
 		scr_text("Клят-тий брат. З потрохами…","non_player");
-		scr_text("Співчуваємо.", "player");
+		scr_text("Співчуваємо.", "player2");
 		scr_text("Мені вон-нни не здались. я зн-нна-нааю. Це обманка. Но лад-нн-но. За 200 сіг від-да-ддам. Нєє, 300 й точка. Ви вродь хороши.","non_player");
 			scr_option("Погодитись","yes_siga_cher");
 			scr_option("Відмовитись","no_siga_cher");
@@ -38,7 +38,7 @@ break
 			break
 		
 			case "no_siga_cher":
-			scr_text("Так, й нам вони треба уже й зараз.","player")
+			scr_text("Так, й нам вони треба уже й зараз.","player2")
 			scr_text("Ем, ага угу.","non_player")
 			break
 		
@@ -46,6 +46,7 @@ break
 		scr_text("Ей, мусор!","non_player")
 		// Мусор ком ін
 		global.sp = spr_ic_Security;
+		speaker[page_number] =1;
 		scr_text("Що за діла?","non_player")
 			scr_option("Хочеш щоб ми і тебе пнули?","fight_cher");
 			scr_option("Нічого","4");
@@ -54,6 +55,7 @@ break
 		case "hit_cher1":
 		// Мусор ком ін
 		global.sp = spr_ic_Security;
+		speaker[page_number] =1;
 		//скрипт випадковості
 		scr_text("Ей, хуліганйо, не чипать бомжа!","non_player")
 		scr_text("Ви там вкрай уж наглі стали?","non_player")
@@ -76,8 +78,9 @@ break
 #endregion
 #region (Kasa)
 case "Kasa":
+speaker[page_number] =2;
 	scr_text("Добрий день, що хочем?","non_player");
-	scr_text("А куди є рейси?","player");
+	scr_text("А куди є рейси?","player2");
 	scr_text("Луцьк - Шепетівка – в 1:30","non_player");
 	scr_text("Ковель - Рівне – в 4:55","non_player");
 	scr_text("Еребоград - Ківерці – в 8:10","non_player");
@@ -96,6 +99,7 @@ break
 	#endregion
 #region (Lotereia)
 case "Lotereia":
+speaker[page_number] =1;
 	scr_text("Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?","non_player");
 		scr_option("Да, давайте. (Дать 50 копійок)","Yes_loto");
 		scr_option("Ой нє, я на це ще раз не попадусь.","4");
@@ -109,30 +113,31 @@ case "Vasia":
 	scr_text("Господа, зирєлкі суйте, глядіть.","non_player");
 	scr_text("Вопроси будуть задавайте блять.","non_player");
 	scr_text("Не ви блять, просто блять.","non_player");	
-	scr_text("Странний в тебе бізнес друг.","player");
+	scr_text("Странний в тебе бізнес друг.","player1");
 	scr_text("Та ти просто не вкурююєш наскоко це ахуєнна тєма.","non_player");
 	scr_text("Цветочки це суще прекрасне дєйство.","non_player");
 	scr_text("Вот скажи, подарив свої матушці ну там букет гартензій, їй буде радосно?","non_player");
-	scr_text("Я лучше подарю дєньги.","player");
-	scr_text("Пішли, Крис… Ну мабуть.","player");
+	scr_text("Я лучше подарю дєньги.","player1");
+	scr_text("Пішли, Крис… Ну мабуть.","player1");
 	scr_text("Вот. Потому вони своєю єнергетикой заряджають.","non_player");
 	scr_text("Там біополя, всяка фігня.","non_player");
 	scr_text("Радость, енергія простодушним… чистим душой… ","non_player");
-	scr_text("Прости шо задів, ладно-ладно.","player");
-	scr_text("Якийсь ти сильно нарваний, мужик. Не хоч піти лесом?","player");	
+	scr_text("Прости шо задів, ладно-ладно.","player1");
+	scr_text("Якийсь ти сильно нарваний, мужик. Не хоч піти лесом?","player1");	
 	scr_text("Нє, нє, нє. Я лиш недавно там жив.","non_player");
 	scr_text("Алмаз уже мене не переварює. Так що лучше ви лесом.","non_player");
-	scr_text("Ем, ладно. Забей. Ми передумали шось. ","player");
+	scr_text("Ем, ладно. Забей. Ми передумали шось. ","player1");
 	scr_text("Ну ладно лоб. Тоді подивитесь – подходіть.","non_player");
 
 break
 #endregion
 #region (Gogi)
 case "Gogi":
-if global.znaiomui = false
+speaker[page_number] =2;
+if global.zn_Gog = false
 {
 	scr_text("Доброго дня, чим можу допомогти, ви вже щось вибрали?","non_player");
-global.znaiomui = true
+	global.znaiomui = true
 }
 else{
 	scr_text("О, здоров мужики, що вас вітер заніс до мене? Ви так побалакать чи може чисто затариться смачною випічкою?","non_player");
@@ -141,7 +146,7 @@ else{
 	scr_option("Купить","by_beckery");
 break		
 	case "speak_gog":	
-		scr_text("Як ти? Як робота йде?","player");
+		scr_text("Як ти? Як робота йде?","player2");
 	//	scr_option("Як ти? Як робота йде?","How_are_you");
 	//	scr_option("Ми не заважаєм? Не сильно важкий день?","Hard_dayy");
 //	break
@@ -161,7 +166,7 @@ break
 	//	scr_text("Так. Живемо приспівуючи, правда не знаєш що буде завтра постійно", "player");
 	//	scr_text("Ну це да.","non_player");
 	//ельзе
-		scr_text("Так. Живемо приспівуючи, як різноробочі, але хоть при грошах.", "player");
+		scr_text("Так. Живемо приспівуючи, як різноробочі, але хоть при грошах.", "player2");
 		scr_text("Ну ясно, в принципі нічого сверх. Ладно, я продовжу працювать, а вам удачки.","non_player");
 break
 case"by_beckery":
@@ -223,13 +228,13 @@ case "Yana":
 		break
 	
 	case "Security1":
-		scr_text("Руки тримай при собі.","non_playe");
+		scr_text("Руки тримай при собі.","non_player");
 	break
 	case "Security2":
-		scr_text("Відійшов від мене.","non_playe");
+		scr_text("Відійшов від мене.","non_player");
 	break
 	case "Security3":
-		scr_text("Ну, шо…","non_playe");
+		scr_text("Ну, шо…","non_player");
 	break
 #endregion
 #region (Boss)
@@ -358,7 +363,11 @@ scr_text("Ех, гавнарі, упьоздуйте, хорош?","non_player")
 // так і скажуть напів живі гопніки?
 break
 #endregion
+#region (Ninel)
+case ("Ninel"):
 
+break
+#endregion
 
 // центр
 #region (Alladin_Step)
