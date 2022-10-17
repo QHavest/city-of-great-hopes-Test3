@@ -3,7 +3,6 @@ switch(room){
 	case rm_street_first_side: draw_daylight = true; break;
 	case rm_street_second_side: draw_daylight = true; break;
 	case rm_street_container: draw_daylight = true; break;
-	case rm_street_container_night: draw_daylight = true; break;
 	case rm_north: draw_daylight = true; break;
 	case rm_south: draw_daylight = true; break;
 	case rm_sport_centre: draw_daylight = true; break;
@@ -15,7 +14,7 @@ switch(room){
 	case rm_home_gg: draw_daylight = true; break;
 	case rm_street_magazine_tech_storage: draw_daylight = true; break;
 	case rm_fish_and_bazaar: draw_daylight = true; break;
-	case rm_mapa: draw_daylight = true; break;
+	//case rm_mapa: draw_daylight = true; break;
 	
 	default: draw_daylight = false; break;
 }

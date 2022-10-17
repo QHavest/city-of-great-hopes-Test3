@@ -1,3 +1,5 @@
+global.money = 10;
+
 mask_index = sprite_index;
 walkspd = 4;
 runspd  = 6;
@@ -29,5 +31,3 @@ for(var i = array_size-1; i >= 0; i--){
 	posY[i] = y;		
 }
 
-//inventory
-global.inv = ds_list_create();

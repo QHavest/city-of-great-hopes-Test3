@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Lighting_Cutour",
-  "spriteId": {
-    "name": "sp_doc_blik",
-    "path": "sprites/sp_doc_blik/sp_doc_blik.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": false,
   "managed": true,

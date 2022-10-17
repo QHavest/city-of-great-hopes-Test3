@@ -11,9 +11,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 8,
-  "bbox_right": 940,
+  "bbox_right": 935,
   "bbox_top": 8,
-  "bbox_bottom": 505,
+  "bbox_bottom": 503,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"35fe9650-eb34-419d-b183-c3a5aacb8ddd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efa57c63-bafe-44d7-a77e-0e08014f8235",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"916f1146-5248-4d97-bc89-d9b99d8e489a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"35fe9650-eb34-419d-b183-c3a5aacb8ddd","path":"sprites/sp_studentskyi_nabir/sp_studentskyi_nabir.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"306cb2ea-73ae-4e62-a7fc-904811de1797","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efa57c63-bafe-44d7-a77e-0e08014f8235","path":"sprites/sp_studentskyi_nabir/sp_studentskyi_nabir.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"22ed8bc6-2dbc-47b8-bc9d-7459dc8d0d09","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"985f18d9-48c1-4f24-9c05-82a108824be0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Diner",
-    "path": "folders/Sprites/Shopping/Diner.yy",
+    "name": "Dinery",
+    "path": "folders/Sprites/Shopping/Dinery.yy",
   },
 }
