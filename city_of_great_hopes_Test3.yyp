@@ -517,7 +517,6 @@
     {"id":{"name":"spr_bench","path":"sprites/spr_bench/spr_bench.yy",},"order":6,},
     {"id":{"name":"spr_flowerbed3","path":"sprites/spr_flowerbed3/spr_flowerbed3.yy",},"order":18,},
     {"id":{"name":"spr_bus_stop","path":"sprites/spr_bus_stop/spr_bus_stop.yy",},"order":33,},
-    {"id":{"name":"sp_doc_playerd","path":"sprites/sp_doc_playerd/sp_doc_playerd.yy",},"order":4,},
     {"id":{"name":"spr_dim_Ytopurok_run_left","path":"sprites/spr_dim_Ytopurok_run_left/spr_dim_Ytopurok_run_left.yy",},"order":7,},
     {"id":{"name":"sp_rybni_konservy01","path":"sprites/sp_rybni_konservy01/sp_rybni_konservy01.yy",},"order":10,},
     {"id":{"name":"obj_invisiblewall","path":"objects/obj_invisiblewall/obj_invisiblewall.yy",},"order":21,},
@@ -1103,7 +1102,6 @@
     {"id":{"name":"obj_orange","path":"objects/obj_orange/obj_orange.yy",},"order":6,},
     {"id":{"name":"spr_grandpa_night","path":"sprites/spr_grandpa_night/spr_grandpa_night.yy",},"order":6,},
     {"id":{"name":"obj_bush1","path":"objects/obj_bush1/obj_bush1.yy",},"order":0,},
-    {"id":{"name":"sp_okorochok","path":"sprites/sp_okorochok/sp_okorochok.yy",},"order":9,},
     {"id":{"name":"sp_okorochok","path":"sprites/sp_okorochok/sp_okorochok.yy",},"order":10,},
     {"id":{"name":"Main_Menu_Settings","path":"objects/Main_Menu_Settings/Main_Menu_Settings.yy",},"order":28,},
     {"id":{"name":"obj_bench_indoor8","path":"objects/obj_bench_indoor8/obj_bench_indoor8.yy",},"order":7,},
@@ -1201,7 +1199,6 @@
     {"id":{"name":"sp_kovbasa","path":"sprites/sp_kovbasa/sp_kovbasa.yy",},"order":17,},
     {"id":{"name":"obj_box_ring","path":"objects/obj_box_ring/obj_box_ring.yy",},"order":0,},
     {"id":{"name":"obj_table5","path":"objects/obj_table5/obj_table5.yy",},"order":12,},
-    {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},"order":2,},
     {"id":{"name":"obj_bakery_box","path":"objects/obj_bakery_box/obj_bakery_box.yy",},"order":2,},
     {"id":{"name":"spr_mp_Railway_station","path":"sprites/spr_mp_Railway_station/spr_mp_Railway_station.yy",},"order":8,},
     {"id":{"name":"spr_bench_rival_r","path":"sprites/spr_bench_rival_r/spr_bench_rival_r.yy",},"order":4,},
@@ -1360,7 +1357,6 @@
     {"roomId":{"name":"rm_food_shop","path":"rooms/rm_food_shop/rm_food_shop.yy",},},
     {"roomId":{"name":"rm_indoor_rival_station","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},},
     {"roomId":{"name":"rm_street_second_side","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},},
-    {"roomId":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
     {"roomId":{"name":"rm_menu_settings","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},},
     {"roomId":{"name":"rm_center","path":"rooms/rm_center/rm_center.yy",},},
     {"roomId":{"name":"rm_police","path":"rooms/rm_police/rm_police.yy",},},
@@ -1590,7 +1586,6 @@
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":false,"compressFormat":"png","loadType":"default","directory":"","autocrop":false,"border":1,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
-
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"savedata_eng.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
