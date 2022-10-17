@@ -1,0 +1,36 @@
+{
+	"eng":{
+		"pause0": "Resume",
+		"pause1": "Options",
+		"pause2": "Exit",
+		"settings0": "Master",
+		"settings1": "Resolution",
+		"settings2": "Window mode",
+		"settings3": "Language",
+		"settings4": "Back",
+		"settings5": "Story Mode",
+		"settings6": "Load Game",
+		"settings7": "Settings",
+		"settings8": "Our Team",
+		"settings9": "Exit the Game",
+		"dialogs0": "No you blyat, easy blyat."
+		},
+		
+	"ua":{
+		"pause0": "rESUMEN",
+		"pause1": "wHAT",
+		"pause2": "Good",
+		"settings0": "Звук",
+		"settings1": "Розширення",
+		"settings2": "Режим вікна",
+		"settings3": "Мова",
+		"settings4": "Назад",
+		"settings5": "Сюжетний режим",
+		"settings6": "Завантаження гри",
+		"settings7": "Налаштування",
+		"settings8": "Наша команда",
+		"settings9": "Вихід",
+		"dialogs0": "Не ви блять, просто блять."
+		}
+		
+}

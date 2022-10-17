@@ -112,8 +112,8 @@ break
 case "Vasia":
 	scr_text("Господа, зирєлкі суйте, глядіть.","non_player");
 	scr_text("Вопроси будуть задавайте блять.","non_player");
-	scr_text("Не ви блять, просто блять.","non_player");	
-	scr_text("Странний в тебе бізнес друг.","player1");
+	scr_text(/*"Не ви блять, просто блять."*/scr_json_lang(global.LANGUAGE,"dialogs0"),"non_player");	
+	scr_text("Странний в тебе бізнес друг.","player");
 	scr_text("Та ти просто не вкурююєш наскоко це ахуєнна тєма.","non_player");
 	scr_text("Цветочки це суще прекрасне дєйство.","non_player");
 	scr_text("Вот скажи, подарив свої матушці ну там букет гартензій, їй буде радосно?","non_player");
