@@ -518,7 +518,6 @@
     {"id":{"name":"spr_flowerbed3","path":"sprites/spr_flowerbed3/spr_flowerbed3.yy",},"order":18,},
     {"id":{"name":"spr_bus_stop","path":"sprites/spr_bus_stop/spr_bus_stop.yy",},"order":33,},
     {"id":{"name":"spr_dim_Ytopurok_run_left","path":"sprites/spr_dim_Ytopurok_run_left/spr_dim_Ytopurok_run_left.yy",},"order":7,},
-    {"id":{"name":"obj_dim_player1_1","path":"objects/obj_dim_player1_1/obj_dim_player1_1.yy",},"order":12,},
     {"id":{"name":"sp_rybni_konservy01","path":"sprites/sp_rybni_konservy01/sp_rybni_konservy01.yy",},"order":10,},
     {"id":{"name":"obj_invisiblewall","path":"objects/obj_invisiblewall/obj_invisiblewall.yy",},"order":21,},
     {"id":{"name":"spr_chair_box2","path":"sprites/spr_chair_box2/spr_chair_box2.yy",},"order":3,},
