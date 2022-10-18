@@ -1,2 +1,2 @@
 text_id = "Boss";
-global.p_p = 0;
+global.sp = spr_ic_boss

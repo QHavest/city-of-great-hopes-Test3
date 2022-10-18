@@ -5,17 +5,18 @@
 
 
 //---=============================
-seconds = 0;
-minutes = 0;
-hours = 0;
+seconds = 32400;
+minutes = 540;
+hours = 9;
 
 
 day = 1;
 season = 1;
 year = 1;
 
-time_increment = 50; //секунди за крок
-time_pause = true;
+//time_increment = 50; //секунди за крок
+time_increment = 5;
+time_pause = false;
 
 max_darkness = 0.2;
 darkness = 0;

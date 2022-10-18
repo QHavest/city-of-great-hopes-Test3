@@ -6,7 +6,7 @@
     "name": "spr_security",
     "path": "sprites/spr_security/spr_security.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

@@ -1,5 +1,5 @@
 if acepted_key 
-{
+{ draw_sprite_ext(spr_dark,0,0,0,100,100,0,c_black,0.5);
 	switch (pos)
 	{
 		case 0 : draw_sprite_stretched(spr_mp_Railway_station,0,bord_x_r,bord_y_r,r_w*kof_r,r_h*kof_r);
@@ -23,12 +23,12 @@ if acepted_key
 		break;
 	}
 	//вивід вибраного місця для телепорту
-	draw_sprite_ext(spr_mp_had_Ytopur,0,spot_x[spot][pos],spot_y[spot][pos],3,3,0,-1,1);
+	draw_sprite_ext(spr_hat,0,spot_x[spot][pos],spot_y[spot][pos],3,3,0,-1,1);
 	// вивід всіз можливих варіантів для телепорту
 	for (var i=0; i<=spot_num[pos]; i++;)
 	{	
 		if (i!=spot)
-		draw_sprite_ext(spr_mp_had_Ytopur,0,spot_x[i][pos],spot_y[i][pos],3,3,0,c_grey,1);
+		draw_sprite_ext(spr_choice_circle,0,spot_x[i][pos],spot_y[i][pos],1,1,0,c_grey,1);
 	}
 	if keyboard_check_pressed(vk_escape) acepted_key=0;
 	}

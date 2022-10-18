@@ -1,5 +1,11 @@
-//система зміни статусу гравця
 
+//якщо магазин або діалог відкритий, гравець нерухомий
+if (global.shop or !global.dialog_end) {
+	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+	exit;
+}
+//система зміни статусу гравця
 if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
 if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
 

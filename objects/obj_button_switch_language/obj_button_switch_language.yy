@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_switch_language",
   "spriteId": {
-    "name": "spr_ukr_or_eng",
-    "path": "sprites/spr_ukr_or_eng/spr_ukr_or_eng.yy",
+    "name": "spr_lang",
+    "path": "sprites/spr_lang/spr_lang.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,2 +1,2 @@
-text_id=3;
-global.p_p=0;
+text_id="Kasa";
+global.sp = spr_ic_kasa
