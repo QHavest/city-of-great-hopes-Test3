@@ -1,0 +1,1 @@
+if instance_number(obj_dim_player2) > 1 {instance_destroy()};

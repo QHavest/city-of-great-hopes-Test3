@@ -1,5 +1,3 @@
-global.money = 10;
-
 mask_index = sprite_index;
 walkspd = 4;
 runspd  = 6;
