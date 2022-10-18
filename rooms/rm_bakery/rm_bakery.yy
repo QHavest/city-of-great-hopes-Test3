@@ -16,9 +16,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Text","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_410D6FCC","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start_1","path":"objects/obj_dialog_start_1/obj_dialog_start_1.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":38.0,"y":112.0,},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Text","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A11A533","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall_1","path":"objects/obj_woi_invisible_wall_1/obj_woi_invisible_wall_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.8125,"scaleY":0.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":87.5,"y":105.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79B862A6","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall_1","path":"objects/obj_woi_invisible_wall_1/obj_woi_invisible_wall_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.125,"scaleY":1.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":25.5,"y":114.0,},
@@ -42,7 +40,6 @@
     {"name":"inst_53A92C39","path":"rooms/rm_bakery/rm_bakery.yy",},
     {"name":"inst_556E3453","path":"rooms/rm_bakery/rm_bakery.yy",},
     {"name":"inst_FE3C800","path":"rooms/rm_bakery/rm_bakery.yy",},
-    {"name":"inst_410D6FCC","path":"rooms/rm_bakery/rm_bakery.yy",},
     {"name":"inst_7A11A533","path":"rooms/rm_bakery/rm_bakery.yy",},
     {"name":"inst_79B862A6","path":"rooms/rm_bakery/rm_bakery.yy",},
     {"name":"inst_53A92C39","path":"rooms/rm_bakery/rm_bakery.yy",},

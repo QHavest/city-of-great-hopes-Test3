@@ -83,22 +83,21 @@ break
 #endregion
 #region (Kasa)
 case "Kasa":
-speaker[page_number] =2;
-	scr_text("Добрий день, що хочем?","non_player");
-	scr_text("А куди є рейси?","player2");
-	scr_text("Луцьк - Шепетівка – в 1:30","non_player");
-	scr_text("Ковель - Рівне – в 4:55","non_player");
-	scr_text("Еребоград - Ківерці – в 8:10","non_player");
-	scr_text("Є якраз два місця на верхніх полках.","non_player");
-	scr_text("Коли прибуде поїзд, показуєте білет, цілий й не порваний","non_player");
-	scr_text("В вагоні не смітить й алкоголь не брать, понятно?","non_player");
-	scr_text("Ну а тепер якщо це всьо, то з вас 5 карбованців.","non_player");
+	scr_text("Добрий день, що хочем?",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("А куди є рейси?",1,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Луцьк - Шепетівка – в 1:30",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Ковель - Рівне – в 4:55",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Еребоград - Ківерці – в 8:10",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Є якраз два місця на верхніх полках.",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Коли прибуде поїзд, показуєте білет, цілий й не порваний",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("В вагоні не смітить й алкоголь не брать, понятно?",2,spr_ic_Krus,spr_ic_kasa);
+	scr_text("Ну а тепер якщо це всьо, то з вас 5 карбованців.",2,spr_ic_Krus,spr_ic_kasa);
 		scr_option("Дати 5 карбованців.","bying_tiket");
 		scr_option("Вибачте, ми передумали.","4");
 		
 break
 			case "bying_tiket":
-			scr_text("BY_IT");
+			//scr_text("BY_IT");
 	// скрипт покупокупок
 			break
 	#endregion

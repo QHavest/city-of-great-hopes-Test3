@@ -17,51 +17,9 @@ scr_set_defaults_for_text()
 text[page_number]=_text;
 // визначення хто говорить
 speaker[page_number] = active_speaker;
-
-if argument_count = 4
-	{
-	switch (argument[2])
-		{
-		case "pl1": //Ytopurok
-		 speaker1[page_number] =spr_ic_Ytopurok;
-		 break;
-		 case "pl2": // Krus
-		 speaker1[page_number] =spr_ic_Krus;
-		 break;
-		 case "pl0": 
-		 speaker1[page_number] = global.sp;
-		break;
-		}
-		switch (argument[3])
-		{
-		case "pl1":
-		 speaker2[page_number] =spr_ic_Ytopurok;
-		 break;
-		 case "pl2":
-		 speaker2[page_number] =spr_ic_Krus;
-		 break;
-		 case "pl0":
-		 speaker2[page_number] =global.sp;
-		break;
-		}	
-	}
-
-if argument_count = 3
-	{
-		switch (argument[1])
-		{
-		case "pl1":
-		 speaker2[page_number] =spr_ic_Ytopurok;
-		 break;
-		 case "pl2":
-		 speaker2[page_number] =spr_ic_Krus;
-		 break;
-		 case "pl0":
-		 speaker2[page_number] =global.sp;
-		break;
-		}
-		
-	}
+// присвоєння спрайтів співрозмовників
+speaker1[page_number] =argument[2];
+speaker2[page_number] =argument[3];	
 page_number++;
 }
 

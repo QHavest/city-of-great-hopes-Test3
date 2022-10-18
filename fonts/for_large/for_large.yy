@@ -308,7 +308,7 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Dialogs",
+    "path": "folders/Dialogs.yy",
   },
 }

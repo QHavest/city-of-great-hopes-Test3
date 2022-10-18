@@ -212,17 +212,18 @@ if draw_char < text_length[page] {
 	for(var op=0; op<option_number; op++)
 		{	
 		// виділення вибраного варіанту
-		if option[op] == option[option_pos] color = c_gray;
+		if option[op] == option[option_pos] {color = c_yellow; txtb_img = 1;}
 		// поле для тексту відповіді
 		var _o_c = (_o_w - string_width(option[op]))/2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,color,1);
-		color=c_white;
+		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,c_white,1);
+		txtb_img = 0;
 		// текст варіанту відповіді
 		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,c_white);
-			draw_set_font(font_for_math)
-		}
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,color);
+			color=c_black;
 	}
+	} 
+	draw_set_font(font_for_math)
 /*
 // поступовий вивід рамки тексту
 for (var c=0; c<draw_char; c++){
@@ -257,12 +258,12 @@ for (var c=0; c<draw_char; c++){
 // вивід рамок для іконок прерсонажів
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border*2 + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
-	if speaker[page] == 0 // ГГ
+	if speaker[page] == 1 // ГГ
 	{
 		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
 		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
 	}
-	if speaker[page] == 1 // не ГГ
+	if speaker[page] == 2 // не ГГ
 	{
 		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
 		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
