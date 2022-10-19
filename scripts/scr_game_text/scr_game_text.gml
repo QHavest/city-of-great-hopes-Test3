@@ -141,7 +141,7 @@ speaker[page_number] =2;
 if global.zn_Gog = false
 {
 	scr_text("Доброго дня, чим можу допомогти, ви вже щось вибрали?","non_player");
-	global.znaiomui = true
+	global.zn_Gog = true
 }
 else{
 	scr_text("О, здоров мужики, що вас вітер заніс до мене? Ви так побалакать чи може чисто затариться смачною випічкою?","non_player");
@@ -218,55 +218,56 @@ case "3":
 #endregion
 #region (Yana)
 case "Yana":
-	scr_text("Доброго дня! Бажаєте стати акціонером компанії ООО <<Три Калинки>> ","non_player");
-	scr_text("Прошу звернути увагу на послуги.","non_player");
-	scr_text("Кожен куплений вами сертифікат з кожним роком виростає в ціні до небес,","non_player");
-	scr_text("тому ознайомтесь й не баріться з закупівлею.","non_player");
+
+	scr_text("Доброго дня! Бажаєте стати акціонером компанії ООО <<Три Калинки>> ?",2,spr_ic_Krus,spr_ic_Yana);
+	if global.zn_Yana = false
+{	global.zn_Yana = true
+	scr_text("Прошу звернути увагу на послуги.",2,spr_ic_Krus,spr_ic_Yana);
+	scr_text("Кожен куплений вами сертифікат з кожним роком виростає в ціні до небес, тому ознайомтесь й не баріться з закупівлею.",2,spr_ic_Krus,spr_ic_Yana);
+	//scr_text("тому ознайомтесь й не баріться з закупівлею.",2,spr_ic_Krus,spr_ic_Yana);
+}	
 		scr_option("Купити сертифікати", "bying_Yana");
 		scr_option("Відмовитись", "4");
 	break
 		case "bying_Yana":
-			scr_text("BY_IT");
+			scr_text("BY_IT",1,spr_ic_Krus,spr_ic_Yana);
 	// скрипт покупокупок
 	
 		break
 	
 	case "Security1":
-		scr_text("Руки тримай при собі.","non_player");
+		scr_text("Руки тримай при собі.",2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security2":
-		scr_text("Відійшов від мене.","non_player");
+		scr_text("Відійшов від мене.",2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security3":
-		scr_text("Ну, шо…","non_player");
+		scr_text("Ну, шо…",2,spr_ic_Krus,spr_ic_Security);
 	break
 #endregion
 #region (Boss)
 case "Boss":
 
-	scr_text("Доброго дня,  дайте угадаю, ви хочете стати нашим акціонером?","non_player");
+	scr_text("Доброго дня,  дайте угадаю, ви хочете стати нашим акціонером?",2,spr_ic_Krus,spr_ic_boss);
 		scr_option("Можливо. Ми не знаєм…","1_yes_kal")
 		scr_option("Ні.","4")
 	break
 		case "1_yes_kal":
-	scr_text ("Зате знаю я!","non_player");
-	scr_text ("Ми є інвесторською компанією, що займається банкінгом, вкладами та депозитами.","non_player");
-	scr_text ("Кожного дня наша клієнська база збільшується на 2 тисячі чоловік...","non_player");
-	scr_text ("в 40 містах УРСР і БРСР… Ой, України й Білорусії.","non_player");
-	scr_text ("Наша компанія стрімко розвивається, але ми хочемо рости ще швидше й залучаєм для цього інвесторів","non_player");
-	scr_text ("Все легко.","non_player");
-	scr_text ("Просто купіть мінімум один сертифікат компанії та тримайте","non_player");
-	scr_text ("тримайте, поки вона не стане дорожче від золота","non_player");
-	scr_text ("всього лиш через пів року?","non_player");
-	scr_text ("Правда приваблива пропозиція?","non_player");
+	scr_text ("Зате знаю я!",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Ми є інвесторською компанією, що займається банкінгом, вкладами та депозитами.",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Кожного дня наша клієнська база збільшується на 2 тисячі чоловік в 40 містах УРСР і БРСР… Ой, України й Білорусії.",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Наша компанія стрімко розвивається, але ми хочемо рости ще швидше й залучаєм для цього інвесторів",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Все легко. Просто купіть мінімум один сертифікат компанії та тримайте",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("тримайте, поки вона не стане дорожче від золота всього лиш через пів року!",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Правда приваблива пропозиція?",2,spr_ic_Krus,spr_ic_boss);
 	
 		scr_option("Maybe","2_yes_kal");
 		scr_option("No, I'm sorry","4");
 		break;
 	case "2_yes_kal":
-	scr_text ("Також ви можете примножить свій капітал ще на 5 відсотків запрошуючи","non_player");
-	scr_text ("своїх знайомих, друзів та членів сім'ї стати акціонерами.","non_player");
-	scr_text ("Купить акції ви зможете у нашої секретарки, я є власником.","non_player");
+	scr_text ("Також ви можете примножить свій капітал ще на 5 відсотків запрошуючи своїх знайомих, друзів та членів сім'ї стати акціонерами.",2,spr_ic_Krus,spr_ic_boss);
+	//scr_text ("",2,spr_ic_Krus,spr_ic_boss);
+	scr_text ("Купить акції ви зможете у нашої секретарки, я є власником.",2,spr_ic_Krus,spr_ic_boss);
 	scr_text ("Валентин Степанович, радий знайомству.","non_player");
 	break;
 #endregion
