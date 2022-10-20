@@ -803,6 +803,7 @@
     {"id":{"name":"obj_toilet_gg","path":"objects/obj_toilet_gg/obj_toilet_gg.yy",},"order":3,},
     {"id":{"name":"obj_chair3","path":"objects/obj_chair3/obj_chair3.yy",},"order":6,},
     {"id":{"name":"spr_lamp_magazine2","path":"sprites/spr_lamp_magazine2/spr_lamp_magazine2.yy",},"order":5,},
+    {"id":{"name":"spr_ic_Loto","path":"sprites/spr_ic_Loto/spr_ic_Loto.yy",},"order":8,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":35,},
     {"id":{"name":"obj_try_kalynky","path":"objects/obj_try_kalynky/obj_try_kalynky.yy",},"order":20,},
     {"id":{"name":"spr_car_r","path":"sprites/spr_car_r/spr_car_r.yy",},"order":6,},

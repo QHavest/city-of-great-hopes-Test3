@@ -75,7 +75,11 @@ for(var p=0; p<page_number; p++)
 			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
 			
 			// визначення залишеного вільного місця
-			if char [c,p] ==" " {last_free_space = _char_pos+1;}
+			if char [c,p] ==" " and c>0
+			{ 
+				if char [c-1,p] == " " line_break_offset[p] = -99
+				else last_free_space = _char_pos+1;
+			}
 								
 			// розділення тексту на рядки
 			if _current_txt_w - line_break_offset[p] > text_width
@@ -122,7 +126,7 @@ for(var p=0; p<page_number; p++)
 					var _str_copy = string_copy(text[p], line_break_pos[lb,p], _char_pos-line_break_pos[lb,p]);
 					//line_widt[lb+1] = _current_txt_w;
 					_current_txt_w = string_width(_str_copy);
-					line_y[_txt_line][p] = first_y + _txt_line*(line_hight+line_sep);
+					//line_y[_txt_line][p] = first_y + _txt_line*(line_hight+line_sep);
 					_txt_line = lb + 1;
 					}
 				}

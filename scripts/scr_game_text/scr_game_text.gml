@@ -83,17 +83,14 @@ break
 #endregion
 #region (Kasa)
 case "Kasa":
-	scr_text("Добрий день, що хочем?",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("А куди є рейси?",1,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Луцьк - Шепетівка – в 1:30",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Ковель - Рівне – в 4:55",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Еребоград - Ківерці – в 8:10",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Є якраз два місця на верхніх полках.",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Коли прибуде поїзд, показуєте білет, цілий й не порваний",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("В вагоні не смітить й алкоголь не брать, понятно?",2,spr_ic_Krus,spr_ic_kasa);
-	scr_text("Ну а тепер якщо це всьо, то з вас 5 карбованців.",2,spr_ic_Krus,spr_ic_kasa);
-		scr_option("Дати 5 карбованців.","bying_tiket");
-		scr_option("Вибачте, ми передумали.","4");
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa0"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa1"),1,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa2"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa3"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa4"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa5"),2,spr_ic_Krus,spr_ic_kasa);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kasa6"),"bying_tiket");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kasa7"),"4");
 		
 break
 			case "bying_tiket":
@@ -104,9 +101,9 @@ break
 #region (Lotereia)
 case "Lotereia":
 speaker[page_number] =1;
-	scr_text("Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?","non_player");
-		scr_option("Да, давайте. (Дать 50 копійок)","Yes_loto");
-		scr_option("Ой нє, я на це ще раз не попадусь.","4");
+	scr_text(scr_json_lang(global.LANGUAGE,"Loto0"),2,spr_ic_Krus,spr_ic_Loto);
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto2"),"Yes_loto");
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto3"),"4");
 break	
 		case "Yes_loto":
 		// скрипт покупки лотерейних квитків
@@ -219,15 +216,15 @@ case "3":
 #region (Yana)
 case "Yana":
 
-	scr_text("Доброго дня! Бажаєте стати акціонером компанії ООО <<Три Калинки>> ?",2,spr_ic_Krus,spr_ic_Yana);
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana0"),2,spr_ic_Krus,spr_ic_Yana);
 	if global.zn_Yana = false
 {	global.zn_Yana = true
-	scr_text("Прошу звернути увагу на послуги.",2,spr_ic_Krus,spr_ic_Yana);
-	scr_text("Кожен куплений вами сертифікат з кожним роком виростає в ціні до небес, тому ознайомтесь й не баріться з закупівлею.",2,spr_ic_Krus,spr_ic_Yana);
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana1"),2,spr_ic_Krus,spr_ic_Yana);
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana2"),2,spr_ic_Krus,spr_ic_Yana);
 	//scr_text("тому ознайомтесь й не баріться з закупівлею.",2,spr_ic_Krus,spr_ic_Yana);
 }	
-		scr_option("Купити сертифікати", "bying_Yana");
-		scr_option("Відмовитись", "4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Yana3"), "bying_Yana");
+		scr_option(scr_json_lang(global.LANGUAGE,"Yana4"), "4");
 	break
 		case "bying_Yana":
 			scr_text("BY_IT",1,spr_ic_Krus,spr_ic_Yana);
@@ -236,13 +233,13 @@ case "Yana":
 		break
 	
 	case "Security1":
-		scr_text("Руки тримай при собі.",2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security2":
-		scr_text("Відійшов від мене.",2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security3":
-		scr_text("Ну, шо…",2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,spr_ic_Krus,spr_ic_Security);
 	break
 #endregion
 #region (Boss)
@@ -268,7 +265,7 @@ case "Boss":
 	scr_text ("Також ви можете примножить свій капітал ще на 5 відсотків запрошуючи своїх знайомих, друзів та членів сім'ї стати акціонерами.",2,spr_ic_Krus,spr_ic_boss);
 	//scr_text ("",2,spr_ic_Krus,spr_ic_boss);
 	scr_text ("Купить акції ви зможете у нашої секретарки, я є власником.",2,spr_ic_Krus,spr_ic_boss);
-	scr_text ("Валентин Степанович, радий знайомству.","non_player");
+	scr_text ("Валентин Степанович, радий знайомству.",2,spr_ic_Krus,spr_ic_boss);
 	break;
 #endregion
 #region (Souvenir)
