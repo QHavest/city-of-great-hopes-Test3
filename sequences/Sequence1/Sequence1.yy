@@ -21,9 +21,7 @@
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
   },
   "tracks": [
-    {"resourceType":"GMGraphicTrack","resourceVersion":"1.0","name":"Sprite736","keyframes":{"Keyframes":[
-          {"id":"8f7a23e0-bad0-4362-9f1e-57b162e6a3be","Key":123.0,"Length":162.85713,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"Sprite736","path":"sprites/Sprite736/Sprite736.yy",},"resourceVersion":"1.0","resourceType":"AssetSpriteKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetSpriteKeyframe>",},
-        ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetSpriteKeyframe>",},"trackColour":4283036232,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
+    {"resourceType":"GMGraphicTrack","resourceVersion":"1.0","name":"Sprite736","keyframes":{"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetSpriteKeyframe>",},"trackColour":4283036232,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"origin","keyframes":{"Keyframes":[
               {"id":"78699e26-b944-4265-984c-d5fc6b121a40","Key":123.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4283036232,"inheritsTrackColour":true,"builtinName":16,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"modifiers":[],},
@@ -72,7 +70,7 @@
   ],
   "visibleRange": {
     "x": 0.0,
-    "y": 286.0,
+    "y": 124.0,
   },
   "lockOrigin": false,
   "showBackdrop": true,
