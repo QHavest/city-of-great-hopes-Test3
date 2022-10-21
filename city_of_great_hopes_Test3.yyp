@@ -1296,6 +1296,7 @@
     {"id":{"name":"rm_cinema_inside","path":"rooms/rm_cinema_inside/rm_cinema_inside.yy",},"order":0,},
     {"id":{"name":"sp_towarysh","path":"sprites/sp_towarysh/sp_towarysh.yy",},"order":9,},
     {"id":{"name":"obj_trigger_perm","path":"objects/obj_trigger_perm/obj_trigger_perm.yy",},"order":16,},
+    {"id":{"name":"obj_create","path":"objects/obj_create/obj_create.yy",},"order":4,},
     {"id":{"name":"sp_ponchiki","path":"sprites/sp_ponchiki/sp_ponchiki.yy",},"order":5,},
     {"id":{"name":"obj_swing_south7","path":"objects/obj_swing_south7/obj_swing_south7.yy",},"order":21,},
     {"id":{"name":"sp_nostalgia","path":"sprites/sp_nostalgia/sp_nostalgia.yy",},"order":4,},
