@@ -107,7 +107,7 @@ for(var p=0; p<page_number; p++)
 			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], string_width(text[p]) - line_break_pos[lb-1,p]-2);
 			line_widt[lb] = string_width(_str_copy);
 			
-			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2;
+			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2 //- border;
 			
 		// визначення координат кожного символу
 		 for (var c=0; c<text_length[p]; c++)
@@ -223,7 +223,7 @@ if draw_char < text_length[page] {
 		txtb_img = 0;
 		// текст варіанту відповіді
 		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,color);
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+border, option[op],scale,scale,0,c_black,0,0,0,color);
 			color=c_black;
 	}
 	} 

@@ -13,7 +13,7 @@
 		"settings7": "Settings",
 		"settings8": "Our Team",
 		"settings9": "Exit the Game",
-		"dialogs0": "No you blyat, easy blyat.",
+		"dialogs0" : "No you blyat, easy blyat.",
 
 		"Kasa0": "Good afternoon, what do we want?",
 		"Kasa1": "Where we can ride?",
@@ -22,22 +22,21 @@
 		"Kasa4": "No litter and no alcohol inside the train, is that clear?",
 		"Kasa5": "Well, now if that's all, then you pay 5 karbovanets.",
 		"Kasa6": "Give 5 karbovanets.",
-		"Kasa7": "Sorry, we changed our minds."
+		"Kasa7": "Sorry, we changed our minds.",
 
 		"Loto0": "Children-flowers, don't you want to buy a ticket,  catch your fate? Who knows how lucky you will be this time?",
 		"Loto1": "Yeah, give. (Give 50 kopecks)",
-		"Loto2": "Oh no, not this time."
+		"Loto2": "Oh no, not this time.",
 
-		"Yana0": "Hello! Would you like to become a shareholders of LLC "Three Virginity"?",
+		"Yana0": "Hello! Would you like to become a shareholders of LLC Three Virginity?",
 		"Yana1": "Please pay attention to the services.",
 		"Yana2": "Each certificate you buy skyrockets in value every year, so get familiar and don't linger with the purchase.",
 		"Yana3": "Buy sertificates",
-		"Yana4": "Refuse"
+		"Yana4": "Refuse",
 
 		"Security1": "Keep your hands out of me.",
 		"Security2": "Get out of here.",
 		"Security3": "Well, what…"
-
 
 		},
 		
@@ -63,21 +62,20 @@
 		"Kasa4": "В вагоні не смітить й алкоголь не брать, понятно?",
 		"Kasa5": "Ну а тепер якщо це всьо, то з вас 5 карбованців.",
 		"Kasa6": "Дати 5 карбованців.",
-		"Kasa7": "Вибачте, ми передумали."
+		"Kasa7": "Вибачте, ми передумали.",
 
 		"Loto0": "Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?",
 		"Loto1": "Да, давайте. (Дать 50 копійок)",
-		"Loto2": "Ой нє, я на це ще раз не попадусь."
+		"Loto2": "Ой нє, я на це ще раз не попадусь.",
 		
-		"Yana0": "Доброго дня! Бажаєте стати акціонером компанії ООО “Три Калинки”? ",
+		"Yana0": "Доброго дня! Бажаєте стати акціонером компанії ООО Три Калинки? ",
 		"Yana1": "Прошу звернути увагу на послуги.",
 		"Yana2": "Кожен куплений вами сертифікат з кожним роком виростає в ціні до небес, тому ознайомтесь й не баріться з закупівлею.",
 		"Yana3": "Купити сертифікати",
-		"Yana4": "Відмовитись"
+		"Yana4": "Відмовитись",
 
 		"Security1": "Руки тримай при собі.",
 		"Security2": "Відійшов від мене.",
 		"Security3": "Ну, шо…"
-
-
+}
 }

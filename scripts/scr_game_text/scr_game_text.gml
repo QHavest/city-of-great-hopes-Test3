@@ -102,14 +102,14 @@ break
 case "Lotereia":
 speaker[page_number] =1;
 	scr_text(scr_json_lang(global.LANGUAGE,"Loto0"),2,spr_ic_Krus,spr_ic_Loto);
-		scr_option(scr_json_lang(global.LANGUAGE,"Loto2"),"Yes_loto");
-		scr_option(scr_json_lang(global.LANGUAGE,"Loto3"),"4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto1"),"Yes_loto");
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto2"),"4");
 break	
 		case "Yes_loto":
 		// скрипт покупки лотерейних квитків
 		break
 #endregion
-#region (Vasia)
+#region (Vasia) 
 case "Vasia":
 	scr_text("Господа, зирєлкі суйте, глядіть.","non_player");
 	scr_text("Вопроси будуть задавайте блять.","non_player");
