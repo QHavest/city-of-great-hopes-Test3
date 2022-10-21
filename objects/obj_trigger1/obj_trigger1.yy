@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_trigger1",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_woi_invisible_wall",
+    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
+  },
   "solid": false,
   "visible": false,
   "managed": true,
