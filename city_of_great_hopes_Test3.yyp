@@ -116,6 +116,7 @@
     {"id":{"name":"obj_sausage","path":"objects/obj_sausage/obj_sausage.yy",},"order":3,},
     {"id":{"name":"obj_bench_south1","path":"objects/obj_bench_south1/obj_bench_south1.yy",},"order":0,},
     {"id":{"name":"Object424","path":"objects/Object424/Object424.yy",},"order":20,},
+    {"id":{"name":"spr_title_s","path":"sprites/spr_title_s/spr_title_s.yy",},"order":6,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":14,},
     {"id":{"name":"rm_school","path":"rooms/rm_school/rm_school.yy",},"order":3,},
     {"id":{"name":"obj_lamp_tech_night","path":"objects/obj_lamp_tech_night/obj_lamp_tech_night.yy",},"order":0,},
