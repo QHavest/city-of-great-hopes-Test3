@@ -15,9 +15,9 @@ key_room_go = keyboard_check(ord("E"))
 
 if (playernum == 2) {
 	//walk
-	if (move == 0) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 5, obj_woi_invisible_wall);
+	if (move == 0) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 5, obj_invisiblewall);
 	//run
-	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 10, obj_woi_invisible_wall);
+	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 10, obj_invisiblewall);
 	//teleport
 	if (distance_to_object(obj_dim_player1) > 100)
 	{
@@ -27,9 +27,9 @@ if (playernum == 2) {
 	}
 else if(playernum == 1){
 	//walk
-	if (move == 0) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 5, obj_woi_invisible_wall);
+	if (move == 0) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 5, obj_invisiblewall);
 	//run
-	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 10, obj_woi_invisible_wall);
+	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 10, obj_invisiblewall);
 	//teleport
 	if (distance_to_object(obj_dim_player2) > 100)
 	{
