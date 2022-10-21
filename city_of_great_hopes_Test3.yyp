@@ -553,6 +553,7 @@
     {"id":{"name":"spr_bench_ieg","path":"sprites/spr_bench_ieg/spr_bench_ieg.yy",},"order":4,},
     {"id":{"name":"scr_local_string","path":"scripts/scr_local_string/scr_local_string.yy",},"order":5,},
     {"id":{"name":"obj_lamp_rival_side2","path":"objects/obj_lamp_rival_side2/obj_lamp_rival_side2.yy",},"order":16,},
+    {"id":{"name":"spr_nonactive_option","path":"sprites/spr_nonactive_option/spr_nonactive_option.yy",},"order":12,},
     {"id":{"name":"spr_fruit2","path":"sprites/spr_fruit2/spr_fruit2.yy",},"order":3,},
     {"id":{"name":"obj_refrigerator_long","path":"objects/obj_refrigerator_long/obj_refrigerator_long.yy",},"order":10,},
     {"id":{"name":"sp_sribnyi_certificat01","path":"sprites/sp_sribnyi_certificat01/sp_sribnyi_certificat01.yy",},"order":17,},
