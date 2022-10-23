@@ -107,7 +107,7 @@ for(var p=0; p<page_number; p++)
 			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], string_width(text[p]) - line_break_pos[lb-1,p]-2);
 			line_widt[lb] = string_width(_str_copy);
 			
-			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2 //- border;
+			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2 ;
 			
 		// визначення координат кожного символу
 		 for (var c=0; c<text_length[p]; c++)
@@ -216,15 +216,15 @@ if draw_char < text_length[page] {
 	for(var op=0; op<option_number; op++)
 		{	
 		// виділення вибраного варіанту
-		if option[op] == option[option_pos] {color = c_yellow; txtb_img = 1;}
+		if option[op] == option[option_pos] {color = c_yellow; opt_img = 0;}
+		else {opt_img = 1; color=c_black;}
 		// поле для тексту відповіді
+		draw_set_font(font_for_math)
 		var _o_c = (_o_w - string_width(option[op]))/2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,c_white,1);
-		txtb_img = 0;
+		draw_sprite_ext(txtb_sprite, opt_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,c_white,1);
 		// текст варіанту відповіді
 		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+border, option[op],scale,scale,0,c_black,0,0,0,color);
-			color=c_black;
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+border, option[op],scale,scale,0,color,color,color,color,1);
 	}
 	} 
 	draw_set_font(font_for_math)
