@@ -1244,6 +1244,7 @@
     {"id":{"name":"spr_bookshelf2","path":"sprites/spr_bookshelf2/spr_bookshelf2.yy",},"order":3,},
     {"id":{"name":"obj_reception","path":"objects/obj_reception/obj_reception.yy",},"order":1,},
     {"id":{"name":"obj_turniki2","path":"objects/obj_turniki2/obj_turniki2.yy",},"order":9,},
+    {"id":{"name":"scr_player_and_objects","path":"scripts/scr_player_and_objects/scr_player_and_objects.yy",},"order":18,},
     {"id":{"name":"spr_dumb_magazine_small","path":"sprites/spr_dumb_magazine_small/spr_dumb_magazine_small.yy",},"order":3,},
     {"id":{"name":"spr_sign_sport_2","path":"sprites/spr_sign_sport_2/spr_sign_sport_2.yy",},"order":5,},
     {"id":{"name":"spr_kassa_tickets","path":"sprites/spr_kassa_tickets/spr_kassa_tickets.yy",},"order":23,},
