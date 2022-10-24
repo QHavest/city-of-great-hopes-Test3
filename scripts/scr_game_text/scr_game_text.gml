@@ -10,7 +10,7 @@ function scr_game_text(_text_id){
 // вокзал		
 #region (Cherka)
 case "Cherka":
-	scr_text("Ееее… А це ти, Васьок?",1,"pl2","pl0");
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),2,spr_ic_Krus,spr_ic_cher);
 	scr_text("Ні. Це Утопирок та Крис.",0, "pl2","pl0");
 	scr_text("Ну що ви хо-х-ххх-хочите від м-мме-ммене?",1,"pl2","pl0");
 		scr_option("кинути 2 карбованця на їжу","give_money_cher");
@@ -50,8 +50,6 @@ break
 		case "hit_cher2":
 		scr_text("Ей, мусор!",0,"pl0")
 		// Мусор ком ін
-		global.sp = spr_ic_Security;
-		speaker[page_number] =1;
 		scr_text("Що за діла?",1,"pl1","pl0")
 			scr_option("Хочеш щоб ми і тебе пнули?","fight_cher");
 			scr_option("Нічого","4");
@@ -59,7 +57,6 @@ break
 		
 		case "hit_cher1":
 		// Мусор ком ін
-		global.sp = spr_ic_Security;
 		
 		//скрипт випадковості
 		scr_text("Ей, хуліганйо, не чипать бомжа!",1,"pl1","pl0")
