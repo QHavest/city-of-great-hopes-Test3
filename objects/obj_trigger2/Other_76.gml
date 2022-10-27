@@ -1,0 +1,2 @@
+layer_sequence_destroy(_seqElms);
+//sequence_instance_override_object(obj_dim_player1,obj_dim_player1)

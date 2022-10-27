@@ -1,15 +1,11 @@
 mask_index = sprite_index;
+depth = -bbox_bottom;
 walkspds = 4;
 runspds  = 15;
 collisionSpeed = 4;
 lastmoves = 0
 
-moves     =  keyboard_check(vk_space);
-keyrs     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
-keyls    =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
-keyups   =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
-keydowns  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
-key_room_go = keyboard_check(ord("E"));
+
 //налаштування перемикання між персонажами 
 playernum = 1;
 status = STATUS.ACTIVE

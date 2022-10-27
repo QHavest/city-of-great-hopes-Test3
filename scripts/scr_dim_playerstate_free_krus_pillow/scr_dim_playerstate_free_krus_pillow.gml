@@ -48,7 +48,7 @@ if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprits +"_move_rig
 //if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
 //if (keyboard_check(vk_space) and keyl) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
 //lastmove = 1;}
-//if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+if (x==xprevious && y==yprevious && lastmoves ==0) sprite_index = asset_get_index("spr_dim_" + sprits + "_cut_idle");
 //if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 // відповідність глибини до вертикальної кординати
 //depth = -y;
