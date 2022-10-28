@@ -164,6 +164,7 @@
     {"id":{"name":"obj_sign_home1","path":"objects/obj_sign_home1/obj_sign_home1.yy",},"order":10,},
     {"id":{"name":"sp_moloko","path":"sprites/sp_moloko/sp_moloko.yy",},"order":14,},
     {"id":{"name":"obj_button_switch_language_show","path":"objects/obj_button_switch_language_show/obj_button_switch_language_show.yy",},"order":1,},
+    {"id":{"name":"obj_title_s","path":"objects/obj_title_s/obj_title_s.yy",},"order":12,},
     {"id":{"name":"spr_fruit4","path":"sprites/spr_fruit4/spr_fruit4.yy",},"order":5,},
     {"id":{"name":"spr_lamp_rival_side","path":"sprites/spr_lamp_rival_side/spr_lamp_rival_side.yy",},"order":6,},
     {"id":{"name":"obj_Lighting_Cutour","path":"objects/obj_Lighting_Cutour/obj_Lighting_Cutour.yy",},"order":1,},

@@ -2,7 +2,7 @@
 old_help_sprite = spr_help
 new_help_sprite = spr_help
 ///переменная отвечающая за рисование подсказки
-drowings = false
+drowings = true
 ///координаты на которых от игрока находится подсказка
 help_x = -10
 help_y = -70
@@ -10,4 +10,4 @@ help_y = -70
 old_side = false
 new_side = false
 
-depth = -1000
+depth = -9999
