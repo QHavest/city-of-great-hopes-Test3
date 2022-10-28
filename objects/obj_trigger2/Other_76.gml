@@ -1,2 +1,9 @@
-layer_sequence_destroy(_seqElms);
-//sequence_instance_override_object(obj_dim_player1,obj_dim_player1)
+if event_data [? "event_type"] == "sequence event"
+{
+	switch (event_data[? "message"])
+	{
+		case "stops":
+		layer_sequence_destroy(_seqElms);
+		break;
+	}
+}
