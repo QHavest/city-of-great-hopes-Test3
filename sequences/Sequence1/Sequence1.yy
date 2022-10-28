@@ -12,13 +12,13 @@
   "length": 62.0,
   "events": {
     "Keyframes": [
-      {"id":"c4a52432-e084-42b1-bca1-d07dd9f64c3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+      {"id":"a0a5984d-9afb-4d46-a28a-41c6a795b570","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
               "camera1",
             ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
-      {"id":"cc34c819-4092-4224-a2a1-d9ee126c54b0","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+      {"id":"447ff434-7eba-4ada-a27b-336921908903","Key":32.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
               "camera0",
             ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
-      {"id":"98a2c446-b1da-4034-b27b-7bb7e08c2a2c","Key":33.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+      {"id":"f55ea59a-e486-441f-99a3-ac9a5008bd3a","Key":33.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
               "stop",
             ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
     ],
