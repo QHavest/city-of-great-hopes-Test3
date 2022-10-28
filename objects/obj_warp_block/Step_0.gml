@@ -1,3 +1,4 @@
+if obj_dim_player1.status= STATUS.ACTIVE{
 if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) && !instance_exists(obj_warp)
 	{
 		
@@ -10,8 +11,10 @@ if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) &
 	insts.target_rm = target_rm;
 	insts.target_face = target_face;
 	}
+}
 	//if drowing = true and room =  target_rm and old_side = false{
 	//}
+	if obj_dim_player2.status = STATUS.ACTIVE{
 	if obj_dim_player2.key_room_go = true and place_meeting(x, y, obj_dim_player2) && !instance_exists(obj_warp)
 	{
 		
@@ -24,7 +27,7 @@ if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) &
 	insts.target_rm = target_rm;
 	insts.target_face = target_face;
 	}
-
+}
 	
 	
 	

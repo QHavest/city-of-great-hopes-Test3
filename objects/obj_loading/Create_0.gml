@@ -5,6 +5,7 @@ SkipRoomSave = false;
 
 //місце для збережння статусу (здоров'я і т.д)
 global.statData =
+
 {
 	save_x : 0,
 	save_y : 0,
@@ -14,6 +15,7 @@ global.statData =
 }
 
 global.levelData =
+
 {
 	room_1 : 0, 
 	room_2 : 0,

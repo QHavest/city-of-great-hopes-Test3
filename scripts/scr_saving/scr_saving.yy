@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_loading",
+  "name": "scr_saving",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
