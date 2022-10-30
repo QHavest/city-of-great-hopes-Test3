@@ -298,10 +298,10 @@ break
 //рандом
 case "Gopota1":
 //рандом
-	scr_text("Фраєр, гоп стоп другальок, хоч пройти – монет горстку поджени.","non_player") 
-		scr_option("Віддати всі гроші.","all_money");
-		scr_option("Віддать їм 5 карбованців.","5_cent");
-		scr_option("Не віддавать нічого.","fight");
+		scr_text (scr_json_lang(global.LANGUAGE,"Gopota1"),2,spr_ic_Krus,spr_ic_gopnik_1);
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota2"),"all_money");
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota3"),"5_cent");
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota4"),"fight");
 break
 	case "all_money":
 	//Гопніки будуть регулярно доставати Утопирка та Криса й вибивать з них гроші
@@ -313,15 +313,15 @@ break
 	//Почнеться бійка Утопирка та Криса проти трьох гопніків. Якщо програти, то вони заберуть всі гроші
 	break
 case "Gopota2":
-	scr_text("Два хуя на ножках, чо уставились? Вам пальці сощетать чи як? Ну так уйобуйте.","non_player") //2
+	scr_text (scr_json_lang(global.LANGUAGE,"Gopota5"),2,spr_ic_Krus,spr_ic_gopnik_1);
 break
 case "Gopota3":
-	scr_text("Гена, Гена хер моржовий, Гена, Гена вредний хуй…","non_player") //3
+	scr_text (scr_json_lang(global.LANGUAGE,"Gopota6"),2,spr_ic_Krus,spr_ic_gopnik_1);
 break
 case "Gopota4":
-	scr_text("Сигаретки не найдьотся? А, фраєрок?","non_player") //4
-		scr_option("Да, вприниципі. Бери.","give_one_siga");
-		scr_option("Відмовитись","idi_naxyi");
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota7"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota8"),"give_one_siga");
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota9"),"idi_naxyi");
 break
 		case "give_one_siga":
 		// - 1 siga
@@ -329,19 +329,19 @@ break
 		
 		case "idi_naxyi":
 		
-			scr_text("Ну а пару карбованців на сигари?","non_player")
-				scr_option("Дать 1 карбованець","give_one_penny");
-				scr_option("Відмовитись","idi_naxyi2");
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota10"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota11"),"give_one_penny");
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota12"),"idi_naxyi2");
 		break
 				case "idi_naxyi2":
 				
-			scr_text("Да ви заєбали. Гоніть тоді всьо шо у вас є.","non_player")
-				scr_option("Віддать всі гроші","all_money");
-				scr_option("Відмовитись","fight");
+			scr_text (scr_json_lang(global.LANGUAGE,"Gopota13"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota14"),"all_money");
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota15"),"fight");
 				break
 				
 case "Gopota_pobeda":
-scr_text("Ех, гавнарі, упьоздуйте, хорош?","non_player")
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota16"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
 // так і скажуть напів живі гопніки?
 break
 #endregion
@@ -416,10 +416,29 @@ break
 #endregion
 #region (Docha_alladina)
 case "Docha_alladina":
-
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad1"),2,spr_ic_Krus,spr_ic_docha_alada);
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad2"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad3"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad4"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad5"),"no_film");
+break
+case "no_film":
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad6"),2,spr_ic_Krus,spr_ic_docha_alada);
+break
+case "film1":
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad7"),2,spr_ic_Krus,spr_ic_docha_alada);
 break
 #endregion
-
+#region (Byfet)
+case"Byfet":
+scr_text (scr_json_lang(global.LANGUAGE,"Bufet1"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Bufet2"),"by_in_byfet");
+				scr_option(scr_json_lang(global.LANGUAGE,"Bufet3"),"4");
+break
+case "by_in_byfet":
+//відкриття бувфеу
+break
+#endregion
 
 
 case "4":
