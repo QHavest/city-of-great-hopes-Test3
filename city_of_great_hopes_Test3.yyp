@@ -561,6 +561,7 @@
     {"id":{"name":"spr_rival_station_first","path":"sprites/spr_rival_station_first/spr_rival_station_first.yy",},"order":10,},
     {"id":{"name":"spr_first_side","path":"sprites/spr_first_side/spr_first_side.yy",},"order":9,},
     {"id":{"name":"spr_magazine_press","path":"sprites/spr_magazine_press/spr_magazine_press.yy",},"order":8,},
+    {"id":{"name":"spr_ic_Aladin","path":"sprites/spr_ic_Aladin/spr_ic_Aladin.yy",},"order":0,},
     {"id":{"name":"obj_papyga","path":"objects/obj_papyga/obj_papyga.yy",},"order":3,},
     {"id":{"name":"obj_table4","path":"objects/obj_table4/obj_table4.yy",},"order":4,},
     {"id":{"name":"spr_box_container","path":"sprites/spr_box_container/spr_box_container.yy",},"order":7,},
@@ -991,6 +992,7 @@
     {"id":{"name":"obj_zoo_zabor","path":"objects/obj_zoo_zabor/obj_zoo_zabor.yy",},"order":1,},
     {"id":{"name":"obj_lamp_magazine1","path":"objects/obj_lamp_magazine1/obj_lamp_magazine1.yy",},"order":4,},
     {"id":{"name":"obj_rival_second_lamp_night","path":"objects/obj_rival_second_lamp_night/obj_rival_second_lamp_night.yy",},"order":1,},
+    {"id":{"name":"spr_ic_Ninel","path":"sprites/spr_ic_Ninel/spr_ic_Ninel.yy",},"order":9,},
     {"id":{"name":"obj_bench_south2","path":"objects/obj_bench_south2/obj_bench_south2.yy",},"order":1,},
     {"id":{"name":"obj_rival_seller1","path":"objects/obj_rival_seller1/obj_rival_seller1.yy",},"order":17,},
     {"id":{"name":"spr_dumb_p_inside","path":"sprites/spr_dumb_p_inside/spr_dumb_p_inside.yy",},"order":9,},
@@ -1595,6 +1597,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ytopurok","folderPath":"folders/Sprites/Ytopurok.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Center","folderPath":"folders/Dialogs/speaker_icon/Center.yy","order":4,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
