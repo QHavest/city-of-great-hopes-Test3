@@ -378,40 +378,40 @@ break
 // центр
 #region (Alladin_Step)
 case "Alladin_Step":
-	scr_text(scr_json_lang(global.LANGUAGE,"Boss1"),2,spr_ic_Krus,spr_ic_Yana);
-	scr_option("Запитати про ім'я","name_aladin");
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin1"),2,spr_ic_Krus,spr_ic_Aladin);
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin2"),"name_aladin");
 	// якщо пройшли тисяча та одну ніч (ТТОН)
-	scr_option("Отримати бонус.","bonys_aladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin3"),"bonys_aladin");
 	// якщо пройшли ТТОН та граєм білше 4-ох днів
-	scr_option("дещо запитати","question_aladin");
-	scr_option("закінчити діалог","end_alladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin4"),"question_aladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin5"),"end_alladin");
 break
 	case "name_aladin":
-	scr_text("Якщо ви не проти, хотілось би дізнаться детальніше про ваше імя? Чому вас звати Аладіном?","player") 
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin6"),1,spr_ic_Krus,spr_ic_Aladin);
 	
 	break
 	case "bonys_aladin":
-	scr_text("Ми можем розраховувати на якусь вдячність та люб'язність з вашої сторони? Ми вам допомогли, то хтілось отримать якісь бонуси.","player") 
-	scr_text("Ага. Ну по правді помогли, но… Ну ладно, могу вас пропустить безплатно на сеанс. На той що зараз йде. Согласні?","non_player") 
-		scr_option("Культурно відмовитись","thank_aladin");
-		scr_option("Ладно. Це туди йти просто?","free_tiket");
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin7"),1,spr_ic_Krus,spr_ic_Aladin);
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin8"),2,spr_ic_Krus,spr_ic_Aladin);
+		scr_option(scr_json_lang(global.LANGUAGE,"Aladin9"),"thank_aladin");
+		scr_option(scr_json_lang(global.LANGUAGE,"Aladin10"),"free_tiket");
 	break
 	
 		case "thank_aladin":
-			scr_text("Пожалуй це буде лишнім, й так отримали нагороду. Добре тоді, щасти вам!","player") 
+			scr_text(scr_json_lang(global.LANGUAGE,"Aladin11"),1,spr_ic_Krus,spr_ic_Aladin);
 		break
 		case "free_tiket":
 // скрипт активації безплатного входу та (-1 відношення Алладіна Степановича)
 		break
 	case "question_aladin":
-		scr_text("Доброго дня. В нас тут пару питань. Можна попитать, якщо ви не сильно заняті?","player") 
-		scr_text("Прошу.","non_player") 
-		scr_text("Ви згадали, що програли свою лампу, граючи в карти з Іллею Степановичем та там… продавцем-незнайомцем на списаних поїздах. Ви якось всі знайомі?","player") 
-		scr_text("Ну как вам сказать? Да, впринципє… Давні знайомі, но всьому всій час. Просто скажу, шо ви в надійних руках. Надіюсь ви прийдете на виставу.","non_player") 
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin12"),1,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin13"),2,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin14"),1,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin15"),2,spr_ic_Krus,spr_ic_Aladin);
 	break
 	
 	case "end_alladin":
-	scr_text("Вибачаємося, ми помилились номером. Точніш… Ай, не важливо…","player") 
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin16"),1,spr_ic_Krus,spr_ic_Aladin);
 	break
 #endregion
 #region (Docha_alladina)
