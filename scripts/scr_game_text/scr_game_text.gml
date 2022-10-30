@@ -153,7 +153,6 @@ if global.zn_Gog = 0
 }
 else{
 	scr_text(scr_json_lang(global.LANGUAGE,"Gog2"),2,spr_ic_Krus,spr_ic_Gogi);
-
 	scr_option(scr_json_lang(global.LANGUAGE,"Gog5"),"speak_gog");
 	scr_option(scr_json_lang(global.LANGUAGE,"Gog6"),"speak_gog");
 }
@@ -209,7 +208,6 @@ case "Yana":
 		case "bying_Yana":
 			scr_text("BY_IT",1,spr_ic_Krus,spr_ic_Yana);
 	// скрипт покупокупок
-	
 		break
 	
 	case "Security1":
@@ -296,12 +294,26 @@ break
 #endregion
 #region (Gopota)
 //рандом
+case "Gopota":
+switch(irandom_range(1,4)){
+	case 1: dop="1";
+	break
+	case 2: dop="2";
+	break
+	case 3: dop="3";
+	break
+	case 4: dop="4";
+	break
+}
+
+text_id = text_id+dop
+break
 case "Gopota1":
 //рандом
 		scr_text (scr_json_lang(global.LANGUAGE,"Gopota1"),2,spr_ic_Krus,spr_ic_gopnik_1);
-		scr_option(scr_json_lang(global.LANGUAGE,"Gopota2"),"all_money");
-		scr_option(scr_json_lang(global.LANGUAGE,"Gopota3"),"5_cent");
-		scr_option(scr_json_lang(global.LANGUAGE,"Gopota4"),"fight");
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota2"),"all_money");
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota3"),"5_cent");
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota4"),"fight");
 break
 	case "all_money":
 	//Гопніки будуть регулярно доставати Утопирка та Криса й вибивать з них гроші
@@ -439,7 +451,22 @@ case "by_in_byfet":
 //відкриття бувфеу
 break
 #endregion
-
+#region(Tarantino)
+case "Tarantino":
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino1"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino2"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino3"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino4"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino5"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino6"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino7"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino8"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino9"),1,spr_ic_Krus,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino10"),2,spr_ic_Krus,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino11"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+	break		
+#endregion
 
 case "4":
 	
