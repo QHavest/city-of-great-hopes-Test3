@@ -306,7 +306,8 @@ switch(irandom_range(1,4)){
 	break
 }
 
-text_id = text_id+dop
+text_id = _text_id+dop;
+scr_create_textbox(text_id)
 break
 case "Gopota1":
 //рандом
@@ -467,6 +468,158 @@ scr_text (scr_json_lang(global.LANGUAGE,"Taranrino11"),1,spr_ic_Ytopurok,spr_ic_
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 	break		
 #endregion
+// тут я не хотів розбиратись тому спрайти співрозмовників хтось попідставляє 
+// і це буду я тільки майбутній я кращий за теперішнього
+#region (Mascot)
+case"Mascot":
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot2"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot3"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot4"),1,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+#region(Stalova_kasa)
+case"Stalova_kasa":
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa2"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa3"),"by_in_center_byfet");
+				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa4"),"4");
+break
+case "by_in_center_byfet":
+//відкриття бувфеу
+break
+#endregion
+#region(Kylt_kasa)
+case"Kylt_kasa":
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa2"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa3"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa4"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa5"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa6"),2,spr_ic_Krus,spr_ic_Ytopurok);
+break
+#endregion
+#region(Garderob)
+case"Garderob":
+scr_text (scr_json_lang(global.LANGUAGE,"Garderob1"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob2"),"Zdat_gard");
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob4"),"Vziat_gard");
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob6"),"Povernyt_gard");
+break
+
+	case "Zdat_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob3"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+	case "Vziat_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob5"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+	case "Povernyt_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob7"),2,spr_ic_Krus,spr_ic_bufet);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob8"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+#endregion
+#region(Patrulnui)
+case"Patrulnui":
+switch(irandom_range(1,3)){
+			case 1:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui2");
+			break
+			case 2:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui3");
+			break
+			case 3:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui4");
+			break
+}	
+scr_text (scr_json_lang(global.LANGUAGE,"Patrulnui1")+patr_prod,2,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+#region(Naglyadach)
+case"Naglyadach":
+switch(irandom_range(1,5)){
+			case 1:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach1"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 2:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach2"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 3:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach3"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach31"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 4:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach4"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach41"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 5:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach5"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+}	
+break
+case"Dilnuchui":
+scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+
+// Bazarrrrr
+#region(Anton)
+case"Anton":
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton1"),2,spr_ic_Krus,spr_ic_Anton);
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton2"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton3"),2,spr_ic_Krus,spr_ic_Anton);
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton4"),"by_Anton");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton5"),"svara");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton13"),"Ruba?");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton21"),"4");
+				
+		case"by_Anton":
+		//магазин покупки м'яса
+		break
+		case"svara":
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton6"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton7"),1,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton8"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton9"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton10"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton11"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton12"),1,spr_ic_Anton,spr_ic_stiopa_tyshonka);
+									
+		break
+		case"Ruba?":
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton14"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton15"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton16"),2,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton17"),2,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton18"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton19"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton20"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+		break		
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+
+
+
+
 
 case "4":
 	

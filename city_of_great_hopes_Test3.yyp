@@ -33,6 +33,7 @@
     {"id":{"name":"obj_dumbbells1","path":"objects/obj_dumbbells1/obj_dumbbells1.yy",},"order":2,},
     {"id":{"name":"activate_obj_day","path":"scripts/activate_obj_day/activate_obj_day.yy",},"order":3,},
     {"id":{"name":"obj_bench_ieg2","path":"objects/obj_bench_ieg2/obj_bench_ieg2.yy",},"order":1,},
+    {"id":{"name":"spr_ic_stiopa_tyshonka","path":"sprites/spr_ic_stiopa_tyshonka/spr_ic_stiopa_tyshonka.yy",},"order":0,},
     {"id":{"name":"spr_box_container_night","path":"sprites/spr_box_container_night/spr_box_container_night.yy",},"order":4,},
     {"id":{"name":"sp_cukerochky01","path":"sprites/sp_cukerochky01/sp_cukerochky01.yy",},"order":9,},
     {"id":{"name":"spr_sofa","path":"sprites/spr_sofa/spr_sofa.yy",},"order":3,},
@@ -555,6 +556,7 @@
     {"id":{"name":"spr_bench_ieg","path":"sprites/spr_bench_ieg/spr_bench_ieg.yy",},"order":4,},
     {"id":{"name":"scr_local_string","path":"scripts/scr_local_string/scr_local_string.yy",},"order":5,},
     {"id":{"name":"obj_lamp_rival_side2","path":"objects/obj_lamp_rival_side2/obj_lamp_rival_side2.yy",},"order":16,},
+    {"id":{"name":"spr_ic_Anton","path":"sprites/spr_ic_Anton/spr_ic_Anton.yy",},"order":1,},
     {"id":{"name":"spr_nonactive_option","path":"sprites/spr_nonactive_option/spr_nonactive_option.yy",},"order":12,},
     {"id":{"name":"spr_fruit2","path":"sprites/spr_fruit2/spr_fruit2.yy",},"order":3,},
     {"id":{"name":"obj_refrigerator_long","path":"objects/obj_refrigerator_long/obj_refrigerator_long.yy",},"order":10,},
@@ -1602,6 +1604,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ytopurok","folderPath":"folders/Sprites/Ytopurok.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bazar","folderPath":"folders/Dialogs/speaker_icon/Bazar.yy","order":5,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

@@ -1,2 +1,2 @@
 
-text_id = "Gopota1";
+text_id = "Naglyadach";
