@@ -75,7 +75,11 @@ for(var p=0; p<page_number; p++)
 			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
 			
 			// визначення залишеного вільного місця
-			if char [c,p] ==" " {last_free_space = _char_pos+1;}
+			if char [c,p] ==" " and c>0
+			{ 
+				if char [c-1,p] == " " line_break_offset[p] = -99
+				else last_free_space = _char_pos+1;
+			}
 								
 			// розділення тексту на рядки
 			if _current_txt_w - line_break_offset[p] > text_width
@@ -103,7 +107,7 @@ for(var p=0; p<page_number; p++)
 			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], string_width(text[p]) - line_break_pos[lb-1,p]-2);
 			line_widt[lb] = string_width(_str_copy);
 			
-			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2;
+			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2 ;
 			
 		// визначення координат кожного символу
 		 for (var c=0; c<text_length[p]; c++)
@@ -122,7 +126,7 @@ for(var p=0; p<page_number; p++)
 					var _str_copy = string_copy(text[p], line_break_pos[lb,p], _char_pos-line_break_pos[lb,p]);
 					//line_widt[lb+1] = _current_txt_w;
 					_current_txt_w = string_width(_str_copy);
-					line_y[_txt_line][p] = first_y + _txt_line*(line_hight+line_sep);
+					//line_y[_txt_line][p] = first_y + _txt_line*(line_hight+line_sep);
 					_txt_line = lb + 1;
 					}
 				}
@@ -212,17 +216,18 @@ if draw_char < text_length[page] {
 	for(var op=0; op<option_number; op++)
 		{	
 		// виділення вибраного варіанту
-		if option[op] == option[option_pos] color = c_gray;
+		if option[op] == option[option_pos] {color = c_yellow; opt_img = 0;}
+		else {opt_img = 1; color=c_black;}
 		// поле для тексту відповіді
+		draw_set_font(font_for_math)
 		var _o_c = (_o_w - string_width(option[op]))/2;
-		draw_sprite_ext(txtb_sprite, txtb_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,color,1);
-		color=c_white;
+		draw_sprite_ext(txtb_sprite, opt_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,c_white,1);
 		// текст варіанту відповіді
 		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op] + border, option[op],scale,scale,0,c_black,0,0,0,c_white);
-			draw_set_font(font_for_math)
-		}
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+border, option[op],scale,scale,0,color,color,color,color,1);
 	}
+	} 
+	draw_set_font(font_for_math)
 /*
 // поступовий вивід рамки тексту
 for (var c=0; c<draw_char; c++){
@@ -257,22 +262,17 @@ for (var c=0; c<draw_char; c++){
 // вивід рамок для іконок прерсонажів
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border*2 + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
-	if speaker[page] == 1 // Утопирок
+	if speaker[page] == 1 // ГГ
 	{
-		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
 	}
-		if speaker[page] == 2 // Крис
+	if speaker[page] == 2 // не ГГ
 	{
-		draw_sprite_ext(spr_ic_Krus,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
 	}
-	if speaker[page] == -1 // не ГГ
-	{
-		draw_sprite_ext(spr_ic_Ytopurok,0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
-		draw_sprite_ext(global.sp,0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
-	}
-	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
+	if speaker[page] == -1 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
 
 	}

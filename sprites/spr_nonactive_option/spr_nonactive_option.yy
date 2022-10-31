@@ -1,10 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-
-  "name": "spr_Sheva",
-  "bboxMode": 2,
-
+  "name": "spr_nonactive_option",
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -13,15 +11,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 26,
-  "bbox_top": 47,
-  "bbox_bottom": 51,
+  "bbox_right": 1748,
+  "bbox_top": 2,
+  "bbox_bottom": 141,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
-  "width": 27,
-  "height": 52,
+  "width": 1749,
+  "height": 142,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -30,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc1c9e06-4fa7-4414-a637-8da23433187e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3618805d-2757-4f1c-b72f-25fe3e5301e8",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite578",
+    "name": "spr_nonactive_option",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -47,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"39d19581-9656-40fa-952c-72d47a0da7bb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc1c9e06-4fa7-4414-a637-8da23433187e","path":"sprites/Sprite578/Sprite578.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4a61a6d1-1661-4044-8093-6b5a8ce1a5e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3618805d-2757-4f1c-b72f-25fe3e5301e8","path":"sprites/spr_nonactive_option/spr_nonactive_option.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,11 +64,35 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6c8c40ee-9865-49cf-8451-e69c76ed9108","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"907969e3-cef5-41b3-9501-ed615d8e9b9c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 37,
+    "top": 8,
+    "right": 0,
+    "bottom": 5,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": true,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
-    "name": "Indoor",
-    "path": "folders/Sprites/Rival Station/Indoor.yy",
+    "name": "Dialogs",
+    "path": "folders/Dialogs.yy",
   },
 }
