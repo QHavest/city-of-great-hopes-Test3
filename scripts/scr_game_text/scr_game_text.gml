@@ -414,8 +414,16 @@ case "Docha_alladina":
 break
 #endregion
 
-
-
+#region (Cutscene 2)
+case "Krus_day2":
+	scr_text("Соня, вставай!!!");
+break
+#endregion
+#region (Cutscene 3)
+case "Krus_day3":
+	scr_text("Вибачте!");
+break
+#endregion
 case "4":
 	
 	break

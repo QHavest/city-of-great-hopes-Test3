@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_dim_player2_cut",
   "spriteId": {
-    "name": "spr_dim_Krus_move_right_pillow",
-    "path": "sprites/spr_dim_Krus_move_right_pillow/spr_dim_Krus_move_right_pillow.yy",
+    "name": "spr_dim_Krus_cut_idle_pillow_r",
+    "path": "sprites/spr_dim_Krus_cut_idle_pillow_r/spr_dim_Krus_cut_idle_pillow_r.yy",
   },
   "solid": false,
   "visible": true,
