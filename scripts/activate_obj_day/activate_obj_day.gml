@@ -10,4 +10,6 @@ instance_activate_object(obj_banana);
 instance_activate_object(obj_mishky);
 instance_activate_object(obj_watermelon);
 instance_activate_object(obj_box_container);*/
+
+	scr_player_and_objects(obj_days);
 }
