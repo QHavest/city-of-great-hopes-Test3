@@ -1,6 +1,6 @@
 
 //if(!global.pause) exit;
-esc_pau = keyboard_check_pressed(vk_escape);
+//esc_pau = keyboard_check_pressed(vk_escape);
 	var fnt = draw_get_font()
 var sz=draw_set_font(main_menu_font)
 menu = true;
@@ -22,7 +22,7 @@ var ltx = start_x - x_buffer+80, lty, xo; //Розташування на екр
 
 var yy = 0; repeat (ds_height){
 	lty = start_y + (yy*y_buffer);
-	c = c_white;
+	c = c_black;
 	
 	xo = 0;
 	
@@ -97,7 +97,7 @@ yy = 0; repeat(ds_height){
 	}
 	yy++;
 }
-
+/*
 draw_set_valign(fa_top);
 if (esc_pau)
 	{
@@ -116,6 +116,6 @@ if (esc_pau) and !global.map
 		//if(!global.pause) exit;
 		// Снова включаем все объекты
 		instance_deactivate_all(true);
-	}
+	}*/
 }
 

@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_dim_Krus_move_left",
   "bboxMode": 2,
-  "collisionKind": 4,
+  "collisionKind": 2,
   "type": 0,
   "origin": 7,
   "preMultiplyAlpha": false,

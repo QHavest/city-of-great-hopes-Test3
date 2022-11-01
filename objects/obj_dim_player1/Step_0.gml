@@ -1,5 +1,6 @@
 
 //якщо магазин або діалог відкритий, гравець нерухомий
+
 if (global.shop or !global.dialog_end) {
 	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
@@ -30,3 +31,4 @@ if (x!= xprevious or y!= yprevious){
 	posX[0] = x;
 	posY[0] = y;
 }
+
