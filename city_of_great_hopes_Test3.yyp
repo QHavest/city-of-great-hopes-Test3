@@ -1497,7 +1497,7 @@
     {"roomId":{"name":"rm_street_magazine_tech_storage","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},},
     {"roomId":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
     {"roomId":{"name":"rm_home_gg_cut","path":"rooms/rm_home_gg_cut/rm_home_gg_cut.yy",},},
-	{"roomId":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
+    {"roomId":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":8,},
