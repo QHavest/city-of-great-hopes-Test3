@@ -35,7 +35,7 @@ enum main_menu_element_type {
 var sz2=draw_set_font(menu_font)
 ds_menu_main = create_menu_page(
  [scr_json_lang(global.LANGUAGE,"settings5"), main_menu_element_type.script_runner, new_game],
- [scr_json_lang(global.LANGUAGE,"settings6"), main_menu_element_type.page_transfer, main_menu_page.settings],
+ [scr_json_lang(global.LANGUAGE,"settings6"), main_menu_element_type.script_runner, loading],
  [scr_json_lang(global.LANGUAGE,"settings7"), main_menu_element_type.script_runner, settings_room],
  [scr_json_lang(global.LANGUAGE,"settings8"), main_menu_element_type.script_runner, back_menu],
  [scr_json_lang(global.LANGUAGE,"settings9"), main_menu_element_type.script_runner, exit_game]

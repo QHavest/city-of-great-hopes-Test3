@@ -43,10 +43,10 @@ if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + s
 
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
  lastmove = 0;}
-if (keyboard_check(vk_space) and keyr) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
+if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
  
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-if (keyboard_check(vk_space) and keyl) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
+if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
 lastmove = 1;}
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
