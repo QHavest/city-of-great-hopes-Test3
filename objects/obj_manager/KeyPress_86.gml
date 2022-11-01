@@ -6,7 +6,7 @@ var _objInst3 = instance_find(obj_dumb_small_h,0);
 var _objInst4 = instance_find(obj_garage_gg,0);
 var _objInst5 = instance_find(obj_garage_4,0);
 var _sequence = seq_scena6;
-var _layerName = "Instances_1";
+var _layerName = "Instances_obj";
 
  _seqElm = layer_sequence_create(_layerName, 0,0, _sequence);
 var _seqInst = layer_sequence_get_instance(_seqElm);

@@ -449,6 +449,7 @@
     {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},"order":1,},
     {"id":{"name":"spr_dim_Krus_move_right1","path":"sprites/spr_dim_Krus_move_right1/spr_dim_Krus_move_right1.yy",},"order":0,},
     {"id":{"name":"obj_magazine_press","path":"objects/obj_magazine_press/obj_magazine_press.yy",},"order":10,},
+    {"id":{"name":"scr_seq_play","path":"scripts/scr_seq_play/scr_seq_play.yy",},"order":23,},
     {"id":{"name":"spr_bench_indoor8","path":"sprites/spr_bench_indoor8/spr_bench_indoor8.yy",},"order":14,},
     {"id":{"name":"spr_storage","path":"sprites/spr_storage/spr_storage.yy",},"order":0,},
     {"id":{"name":"spr_bench_centre_right","path":"sprites/spr_bench_centre_right/spr_bench_centre_right.yy",},"order":11,},

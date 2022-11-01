@@ -1,3 +1,4 @@
+
 old_font = draw_get_font();
 accept_key=keyboard_check_pressed(vk_enter);
 
@@ -16,8 +17,8 @@ if setup == false
 	if room_height >=300 
 	{	
 		line_hight = 12;
-		line_sep	= 3;
-		border      = 4
+		line_sep	= 3;// відстань між строками 
+		border      = 4// відступи від краю
 		offsett_kof = 1;
 		scale = 0.08;
 		draw_set_font(for_large);
