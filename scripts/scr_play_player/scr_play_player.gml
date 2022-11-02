@@ -1,12 +1,13 @@
 function scr_play_player(){
 event_inherited();
+if (!in_sequence){
 move     =  keyboard_check(vk_space);
 keyr     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
 keyl     =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
 keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
 keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"));
-
+}
 
 if (playernum = 1)
 {

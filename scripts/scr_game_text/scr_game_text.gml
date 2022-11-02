@@ -1,173 +1,188 @@
 ///@param text_id	
+hit_cher=0; // чи били ми черку?
 function scr_game_text(_text_id){
 	switch (_text_id)
 	{
 // вокзал		
 #region (Cherka)
 case "Cherka":
-	scr_text("Ееее… А це ти, Васьок?","non_player");
-	scr_text("Ні. Це Утопирок та Крис.", "player2");
-	scr_text("Ну що ви хо-х-ххх-хочите від м-мме-ммене?", "non_player");
-		scr_option("кинути 2 карбованця на їжу","give_money_cher");
-		scr_option("Струсити плечима","move_sholder_cher");
-		scr_option("Пнуть","hit_cher1");
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),2,spr_ic_Krus,spr_ic_cher);
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka1"),1,spr_ic_Krus,spr_ic_cher);
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka2"),2,spr_ic_Krus,spr_ic_cher);
+		scr_option(scr_json_lang(global.LANGUAGE,"Cherka3"),"give_money_cher");
+		scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
+		scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
 break
 		case "give_money_cher":
-		scr_text("Да хай в-вв-вас бог хор-ро-нн-ннить","non_player")
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka6"),2,spr_ic_Krus,spr_ic_cher);
 		
 		case "move_sholder_cher":
 		// якщо перший раз
-		scr_text("Ви за сертифікатами при-пр-п-пп-пришли?","non_player");
-		scr_text("Сертифікати? Ти про що? Точно… твій брат нам розповідав.", "player2");	
-		scr_text("Клят-тий брат. З потрохами…","non_player");
-		scr_text("Співчуваємо.", "player2");
-		scr_text("Мені вон-нни не здались. я зн-нна-нааю. Це обманка. Но лад-нн-но. За 200 сіг від-да-ддам. Нєє, 300 й точка. Ви вродь хороши.","non_player");
-			scr_option("Погодитись","yes_siga_cher");
-			scr_option("Відмовитись","no_siga_cher");
-			scr_option("Пнуть","hit_cher2");
-		break
-		
+		if global.cher_quest = 0
+		{
+			global.cher_quest = 1;
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),2,spr_ic_Krus,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),1,spr_ic_Krus,spr_ic_cher);	
+			if (hit_cher=0 and global.certificate >0) 
+			{
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka9"),2,spr_ic_Krus,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka10"),1,spr_ic_Krus,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka11"),2,spr_ic_Krus,spr_ic_cher);
+
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka12"),"yes_siga_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka16"),"no_siga_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher2");
+			}
+			break
+		}
+		else 
+		{
+			//анімаці як Черка просто підносить пляшку біля себе й пропонує її протагоністам.
+		}
 			case "yes_siga_cher":
 			
 			// if siga>=300 and 
-			scr_text("Ох, от вас та-б-аб-бб-баком штиняє, жесть. Хоть би в упаковці…","non_player")
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka13"),2,spr_ic_Krus,spr_ic_cher);
 			// -300 сигарет Біля Черки зявляється зв’язка сигарет.
-			scr_text("Ххе. Я не ку-ррю, я п'ю, но в моєму світі сігі то г-гг-гроши. Нормальний люд мене н-не-нне поважає та в-відразливо ставиться. Черка не хтів такого. Тепер хоть щось виторгую.","non_player")
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka14"),2,spr_ic_Krus,spr_ic_cher);
 			// +11 сертифікатів Черки Григоровича.
-			scr_text("Там правда по-ттом токо забра-т-тт-ть можна буде. Но ви ж не забудете до т-ттого часу Ч-ччерку?","non_player")
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka15"),2,spr_ic_Krus,spr_ic_cher);
 			break
 		
 			case "no_siga_cher":
-			scr_text("Так, й нам вони треба уже й зараз.","player2")
-			scr_text("Ем, ага угу.","non_player")
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka17"),1,spr_ic_Krus,spr_ic_cher);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka18"),2,spr_ic_Krus,spr_ic_cher);
 			break
 		
 		case "hit_cher2":
-		scr_text("Ей, мусор!","non_player")
+		hit_cher =1;
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka20"),1,spr_ic_cher,spr_ic_Security);
 		// Мусор ком ін
-		global.sp = spr_ic_Security;
-		speaker[page_number] =1;
-		scr_text("Що за діла?","non_player")
-			scr_option("Хочеш щоб ми і тебе пнули?","fight_cher");
-			scr_option("Нічого","4");
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka21"),2,spr_ic_Ytopurok,spr_ic_Security);
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka22"),"fight_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka24"),"4");
 		break
 		
 		case "hit_cher1":
+		hit_cher =1;
 		// Мусор ком ін
-		global.sp = spr_ic_Security;
-		speaker[page_number] =1;
-		//скрипт випадковості
-		scr_text("Ей, хуліганйо, не чипать бомжа!","non_player")
-		scr_text("Ви там вкрай уж наглі стали?","non_player")
-		scr_text("Мені підійти й вас може тоже пнуть?","non_player")
-		scr_text("Ну ви шо не чули?","non_player")
-			scr_option("Хочеш щоб ми і тебе пнули?","fight_cher");
-			scr_option("Вибачаємось. Більш так не будем.","sorry_cher");
-		break
 		
+		//скрипт випадковості
+		switch(irandom_range(1,3)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka25"),2,spr_ic_Ytopurok,spr_ic_Security);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka26"),2,spr_ic_Ytopurok,spr_ic_Security);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka27"),2,spr_ic_Ytopurok,spr_ic_Security);
+			break
+				scr_option(scr_json_lang(global.LANGUAGE,"Cherka29"),"4");
+				scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher3");
+			break
+			
+			case "hit_cher3":
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka28"),2,spr_ic_Ytopurok,spr_ic_Security);
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka22"),"fight_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka29"),"sorry_cher");
+			
+		break
+		}
 		case "fight_cher":
-		scr_text("Ну давай.","non_player")
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka23"),2,spr_ic_Ytopurok,spr_ic_Security);
 		// починається бійка
 		break
 		
 
 		case "sorry_cher":
-			scr_text("Ця малишня. Вот би ток доказать свою крутость.","non_player");
-			scr_text("Заєбали.","non_player");
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka32"),2,spr_ic_Ytopurok,spr_ic_Security);
+
 		break
 #endregion
 #region (Kasa)
 case "Kasa":
-speaker[page_number] =2;
-	scr_text("Добрий день, що хочем?","non_player");
-	scr_text("А куди є рейси?","player2");
-	scr_text("Луцьк - Шепетівка – в 1:30","non_player");
-	scr_text("Ковель - Рівне – в 4:55","non_player");
-	scr_text("Еребоград - Ківерці – в 8:10","non_player");
-	scr_text("Є якраз два місця на верхніх полках.","non_player");
-	scr_text("Коли прибуде поїзд, показуєте білет, цілий й не порваний","non_player");
-	scr_text("В вагоні не смітить й алкоголь не брать, понятно?","non_player");
-	scr_text("Ну а тепер якщо це всьо, то з вас 5 карбованців.","non_player");
-		scr_option("Дати 5 карбованців.","bying_tiket");
-		scr_option("Вибачте, ми передумали.","4");
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa0"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa1"),1,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa2"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa3"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa4"),2,spr_ic_Krus,spr_ic_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Kasa5"),2,spr_ic_Krus,spr_ic_kasa);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kasa6"),"bying_tiket");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kasa7"),"4");
 		
 break
 			case "bying_tiket":
-			scr_text("BY_IT");
+			//scr_text("BY_IT");
 	// скрипт покупокупок
 			break
 	#endregion
 #region (Lotereia)
 case "Lotereia":
-speaker[page_number] =1;
-	scr_text("Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?","non_player");
-		scr_option("Да, давайте. (Дать 50 копійок)","Yes_loto");
-		scr_option("Ой нє, я на це ще раз не попадусь.","4");
+	scr_text(scr_json_lang(global.LANGUAGE,"Loto0"),2,spr_ic_Krus,spr_ic_Loto);
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto1"),"Yes_loto");
+		scr_option(scr_json_lang(global.LANGUAGE,"Loto2"),"4");
 break	
 		case "Yes_loto":
 		// скрипт покупки лотерейних квитків
 		break
 #endregion
-#region (Vasia)
+#region (Vasia) 
 case "Vasia":
-	scr_text("Господа, зирєлкі суйте, глядіть.","non_player");
-	scr_text("Вопроси будуть задавайте блять.","non_player");
-	scr_text(/*"Не ви блять, просто блять."*/scr_json_lang(global.LANGUAGE,"dialogs0"),"non_player");	
-	scr_text("Странний в тебе бізнес друг.","player");
-	scr_text("Та ти просто не вкурююєш наскоко це ахуєнна тєма.","non_player");
-	scr_text("Цветочки це суще прекрасне дєйство.","non_player");
-	scr_text("Вот скажи, подарив свої матушці ну там букет гартензій, їй буде радосно?","non_player");
-	scr_text("Я лучше подарю дєньги.","player1");
-	scr_text("Пішли, Крис… Ну мабуть.","player1");
-	scr_text("Вот. Потому вони своєю єнергетикой заряджають.","non_player");
-	scr_text("Там біополя, всяка фігня.","non_player");
-	scr_text("Радость, енергія простодушним… чистим душой… ","non_player");
-	scr_text("Прости шо задів, ладно-ладно.","player1");
-	scr_text("Якийсь ти сильно нарваний, мужик. Не хоч піти лесом?","player1");	
-	scr_text("Нє, нє, нє. Я лиш недавно там жив.","non_player");
-	scr_text("Алмаз уже мене не переварює. Так що лучше ви лесом.","non_player");
-	scr_text("Ем, ладно. Забей. Ми передумали шось. ","player1");
-	scr_text("Ну ладно лоб. Тоді подивитесь – подходіть.","non_player");
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia1"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia2"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia3"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia4"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia5"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia6"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia7"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia8"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia9"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 
 break
 #endregion
 #region (Gogi)
 case "Gogi":
-speaker[page_number] =2;
-if global.zn_Gog = false
+if global.zn_Gog = 0
 {
-	scr_text("Доброго дня, чим можу допомогти, ви вже щось вибрали?","non_player");
-	global.znaiomui = true
+	scr_text(scr_json_lang(global.LANGUAGE,"Gog1"),2,spr_ic_Krus,spr_ic_Gogi);
+	global.zn_Gog = 1
+		scr_option(scr_json_lang(global.LANGUAGE,"Gog3"),"speak_gog");
+		scr_option(scr_json_lang(global.LANGUAGE,"Gog4"),"by_beckery");
 }
 else{
-	scr_text("О, здоров мужики, що вас вітер заніс до мене? Ви так побалакать чи може чисто затариться смачною випічкою?","non_player");
+	scr_text(scr_json_lang(global.LANGUAGE,"Gog2"),2,spr_ic_Krus,spr_ic_Gogi);
+	scr_option(scr_json_lang(global.LANGUAGE,"Gog5"),"speak_gog");
+	scr_option(scr_json_lang(global.LANGUAGE,"Gog6"),"speak_gog");
 }
-	scr_option("Побалакать","speak_gog");
-	scr_option("Купить","by_beckery");
 break		
 	case "speak_gog":	
-		scr_text("Як ти? Як робота йде?","player2");
-	//	scr_option("Як ти? Як робота йде?","How_are_you");
-	//	scr_option("Ми не заважаєм? Не сильно важкий день?","Hard_dayy");
-//	break
-	//	case "How_are_you":
-			
-// тут все складно
 // рандом 
-
-	scr_text("Я впринципі нормаль. Вот получив випічку, свіжа стоїть, то розгрібають. До вечора нічого не останеться.","non_player");
-	scr_text("Ну таке. День якийсь херовий. Голова болить й люди мозг компостирують.","non_player");	
-	scr_text("Настрій чогось випить. Жду поки у Васі робота кінчиться й розслабимся. Та й таке.","non_player");
-	scr_text("Нормально. Шумно, но приходиться привикать. Ну а шо робить? Місце ж торгове.","non_player");
-	scr_text("Я єбав. Хочу спать. Хочу втікти з роботи й жить як Вася й не париться.","non_player");
-	//	break
-	scr_text("Але в любом випадку рад що у вас все чікі-пукі. Це ж так?","non_player");
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gog7"),2,spr_ic_Krus,spr_ic_Gogi);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gog8"),2,spr_ic_Krus,spr_ic_Gogi);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gog9"),2,spr_ic_Krus,spr_ic_Gogi);
+			break
+			case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Gog10"),2,spr_ic_Krus,spr_ic_Gogi);
+			break
+			case 5:
+			scr_text(scr_json_lang(global.LANGUAGE,"Gog11"),2,spr_ic_Krus,spr_ic_Gogi);
+			break
+}	
+	scr_text(scr_json_lang(global.LANGUAGE,"Gog12"),2,spr_ic_Krus,spr_ic_Gogi);
 	// іф пройшли пройшли певно кількість гри
 	//	scr_text("Так. Живемо приспівуючи, правда не знаєш що буде завтра постійно", "player");
 	//	scr_text("Ну це да.","non_player");
 	//ельзе
-		scr_text("Так. Живемо приспівуючи, як різноробочі, але хоть при грошах.", "player2");
-		scr_text("Ну ясно, в принципі нічого сверх. Ладно, я продовжу працювать, а вам удачки.","non_player");
+		scr_text(scr_json_lang(global.LANGUAGE,"Gog13"),1,spr_ic_Krus,spr_ic_Gogi);
+		scr_text(scr_json_lang(global.LANGUAGE,"Gog14"),2,spr_ic_Krus,spr_ic_Gogi);
 break
 case"by_beckery":
 // ЗАПУСК МАГАЗА
@@ -175,104 +190,69 @@ instance_create_depth(obj_dim_player1.x,90,-9999,obj_bakery)
 obj_bakery.shopOpen = true;
 global.shop = true;
 	break
-#endregion
-#region (enother)
-case "2":
-	scr_text("lets go to try do some dialog I hope that I can do this! This text must be sooooo looong that nocing ib this word can`t take it inside. I must be consider that i can divide a lot of text to many pages");
-	break
 	
-case "3":
-	scr_text("The gorgeous weather!","non_player");
-	scr_text("Sure. Indian summer... Even in the morning, it's good.", "player");
-	scr_text("Shall we look for your chum?", "player");
-	scr_text("Why not?","non_player");
-	scr_text("And where he lives?", "player");
-	scr_text("Damn knows? He eats tangerines, a lot…","non_player");
-	scr_text("All year long?", "player");
-		scr_option("you lie to me?", "npc1-yes");
-		scr_option("I dont belive you", "npc1-no");
-		scr_option("Hmm...", "npc1-think");
-		scr_option("So he received on merit", "npc1-change");
-	break
-		case "npc1-yes":
-		scr_text("Ahh... Ow... Well, that ram is whistling...too","non_player");
-		scr_text("Amazing! It will definitely help. Let’s ask locals.", "player");
-		
-		break
-		
-		case "npc1-no":
-		scr_text("Mey be we are not a friend?");
-		break	
-	
-	case "npc1-think":
-		scr_text("It's OK, don't worry");
-		break	
-		
-		case "npc1-change":
-		scr_text("You realy thinking so?");
-		break	
 #endregion
 #region (Yana)
 case "Yana":
-	scr_text("Доброго дня! Бажаєте стати акціонером компанії ООО <<Три Калинки>> ","non_player");
-	scr_text("Прошу звернути увагу на послуги.","non_player");
-	scr_text("Кожен куплений вами сертифікат з кожним роком виростає в ціні до небес,","non_player");
-	scr_text("тому ознайомтесь й не баріться з закупівлею.","non_player");
-		scr_option("Купити сертифікати", "bying_Yana");
-		scr_option("Відмовитись", "4");
+
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana0"),2,spr_ic_Krus,spr_ic_Yana);
+	if global.zn_Yana = false
+{	global.zn_Yana = true
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana1"),2,spr_ic_Krus,spr_ic_Yana);
+	scr_text(scr_json_lang(global.LANGUAGE,"Yana2"),2,spr_ic_Krus,spr_ic_Yana);
+	//scr_text("тому ознайомтесь й не баріться з закупівлею.",2,spr_ic_Krus,spr_ic_Yana);
+}	
+		scr_option(scr_json_lang(global.LANGUAGE,"Yana3"), "bying_Yana");
+		scr_option(scr_json_lang(global.LANGUAGE,"Yana4"), "4");
 	break
 		case "bying_Yana":
-			scr_text("BY_IT");
+			scr_text("BY_IT",1,spr_ic_Krus,spr_ic_Yana);
 	// скрипт покупокупок
-	
 		break
 	
 	case "Security1":
-		scr_text("Руки тримай при собі.","non_player");
+		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security2":
-		scr_text("Відійшов від мене.","non_player");
+		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,spr_ic_Krus,spr_ic_Security);
 	break
 	case "Security3":
-		scr_text("Ну, шо…","non_player");
+		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,spr_ic_Krus,spr_ic_Security);
 	break
 #endregion
 #region (Boss)
 case "Boss":
 
-	scr_text("Доброго дня,  дайте угадаю, ви хочете стати нашим акціонером?","non_player");
-		scr_option("Можливо. Ми не знаєм…","1_yes_kal")
-		scr_option("Ні.","4")
+	scr_text(scr_json_lang(global.LANGUAGE,"Boss1"),2,spr_ic_Krus,spr_ic_boss);
+		scr_option(scr_json_lang(global.LANGUAGE,"Boss2"),"1_yes_kal")
+		scr_option(scr_json_lang(global.LANGUAGE,"Boss3"),"4")
 	break
 		case "1_yes_kal":
-	scr_text ("Зате знаю я!","non_player");
-	scr_text ("Ми є інвесторською компанією, що займається банкінгом, вкладами та депозитами.","non_player");
-	scr_text ("Кожного дня наша клієнська база збільшується на 2 тисячі чоловік...","non_player");
-	scr_text ("в 40 містах УРСР і БРСР… Ой, України й Білорусії.","non_player");
-	scr_text ("Наша компанія стрімко розвивається, але ми хочемо рости ще швидше й залучаєм для цього інвесторів","non_player");
-	scr_text ("Все легко.","non_player");
-	scr_text ("Просто купіть мінімум один сертифікат компанії та тримайте","non_player");
-	scr_text ("тримайте, поки вона не стане дорожче від золота","non_player");
-	scr_text ("всього лиш через пів року?","non_player");
-	scr_text ("Правда приваблива пропозиція?","non_player");
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss4"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss5"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss6"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss7"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss8"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss9"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss10"),2,spr_ic_Krus,spr_ic_boss);
 	
-		scr_option("Maybe","2_yes_kal");
-		scr_option("No, I'm sorry","4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Boss11"),"2_yes_kal");
+		scr_option(scr_json_lang(global.LANGUAGE,"Boss12"),"4");
 		break;
 	case "2_yes_kal":
-	scr_text ("Також ви можете примножить свій капітал ще на 5 відсотків запрошуючи","non_player");
-	scr_text ("своїх знайомих, друзів та членів сім'ї стати акціонерами.","non_player");
-	scr_text ("Купить акції ви зможете у нашої секретарки, я є власником.","non_player");
-	scr_text ("Валентин Степанович, радий знайомству.","non_player");
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss13"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss14"),2,spr_ic_Krus,spr_ic_boss);
+	scr_text (scr_json_lang(global.LANGUAGE,"Boss15"),2,spr_ic_Krus,spr_ic_boss);
 	break;
 #endregion
+
 #region (Souvenir)
 case "Souvenir":
-	scr_text("Здоров Крис та Утопирок. Що шастаєте й заважаєте мені продавати сувеніри? Не бачите, що із-за вас я в збитку й не можу продать нічого? ","non_player")
-	scr_text("Так ж тут нема нікого.","player")
-	scr_text("Хіба? А ви ким будете? Коль уже прийшли, то купіть якусь забавку.","non_player")
-		scr_option("Переглянуть асортимент. Перехід до меню покупок","by_souvenir")
-		scr_option("Відмовитись","4")
+	scr_text (scr_json_lang(global.LANGUAGE,"sovenir1"),2,spr_ic_Krus,spr_ic_souvenir);
+	scr_text (scr_json_lang(global.LANGUAGE,"sovenir2"),1,spr_ic_Krus,spr_ic_souvenir);
+	scr_text (scr_json_lang(global.LANGUAGE,"sovenir3"),2,spr_ic_Krus,spr_ic_souvenir);
+		scr_option(scr_json_lang(global.LANGUAGE,"sovenir4"),"by_souvenir")
+		scr_option(scr_json_lang(global.LANGUAGE,"sovenir5"),"4")
 		
 		case "by_souvenir":
 //ЗАПУСК ПОКУПОК!
@@ -314,12 +294,27 @@ break
 #endregion
 #region (Gopota)
 //рандом
+case "Gopota":
+switch(irandom_range(1,4)){
+	case 1: dop="1";
+	break
+	case 2: dop="2";
+	break
+	case 3: dop="3";
+	break
+	case 4: dop="4";
+	break
+}
+
+text_id = _text_id+dop;
+scr_create_textbox(text_id)
+break
 case "Gopota1":
 //рандом
-	scr_text("Фраєр, гоп стоп другальок, хоч пройти – монет горстку поджени.","non_player") //1
-		scr_option("Віддати всі гроші.","all_money");
-		scr_option("Віддать їм 5 карбованців.","5_cent");
-		scr_option("Не віддавать нічого.","fight");
+		scr_text (scr_json_lang(global.LANGUAGE,"Gopota1"),2,spr_ic_Krus,spr_ic_gopnik_1);
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota2"),"all_money");
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota3"),"5_cent");
+			scr_option(scr_json_lang(global.LANGUAGE,"Gopota4"),"fight");
 break
 	case "all_money":
 	//Гопніки будуть регулярно доставати Утопирка та Криса й вибивать з них гроші
@@ -331,15 +326,15 @@ break
 	//Почнеться бійка Утопирка та Криса проти трьох гопніків. Якщо програти, то вони заберуть всі гроші
 	break
 case "Gopota2":
-	scr_text("Два хуя на ножках, чо уставились? Вам пальці сощетать чи як? Ну так уйобуйте.","non_player") //2
+	scr_text (scr_json_lang(global.LANGUAGE,"Gopota5"),2,spr_ic_Krus,spr_ic_gopnik_1);
 break
 case "Gopota3":
-	scr_text("Гена, Гена хер моржовий, Гена, Гена вредний хуй…","non_player") //3
+	scr_text (scr_json_lang(global.LANGUAGE,"Gopota6"),2,spr_ic_Krus,spr_ic_gopnik_1);
 break
 case "Gopota4":
-	scr_text("Сигаретки не найдьотся? А, фраєрок?","non_player") //4
-		scr_option("Да, вприниципі. Бери.","give_one_siga");
-		scr_option("Відмовитись","idi_naxyi");
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota7"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota8"),"give_one_siga");
+		scr_option(scr_json_lang(global.LANGUAGE,"Gopota9"),"idi_naxyi");
 break
 		case "give_one_siga":
 		// - 1 siga
@@ -347,75 +342,293 @@ break
 		
 		case "idi_naxyi":
 		
-			scr_text("Ну а пару карбованців на сигари?","non_player")
-				scr_option("Дать 1 карбованець","give_one_penny");
-				scr_option("Відмовитись","idi_naxyi2");
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota10"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota11"),"give_one_penny");
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota12"),"idi_naxyi2");
 		break
 				case "idi_naxyi2":
 				
-			scr_text("Да ви заєбали. Гоніть тоді всьо шо у вас є.","non_player")
-				scr_option("Віддать всі гроші","all_money");
-				scr_option("Відмовитись","fight");
+			scr_text (scr_json_lang(global.LANGUAGE,"Gopota13"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota14"),"all_money");
+				scr_option(scr_json_lang(global.LANGUAGE,"Gopota15"),"fight");
 				break
 				
 case "Gopota_pobeda":
-scr_text("Ех, гавнарі, упьоздуйте, хорош?","non_player")
+scr_text (scr_json_lang(global.LANGUAGE,"Gopota16"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
 // так і скажуть напів живі гопніки?
 break
 #endregion
 #region (Ninel)
 case ("Ninel"):
-
+	scr_text(scr_json_lang(global.LANGUAGE,"Ninel1"),2,spr_ic_Krus,spr_ic_Ninel)
+	if global.zn_Nin = 0 
+	{ 
+		global.zn_Nin = 1;
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel2"),1,spr_ic_Krus,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel3"),1,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel4"),2,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel5"),1,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel6"),2,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel7"),1,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel8"),2,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel9"),1,spr_ic_Krus,spr_ic_Ninel)
+	}
+	else 
+	{
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel10"),1,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel11"),2,spr_ic_Krus,spr_ic_Ninel)
+			scr_option(scr_json_lang(global.LANGUAGE,"Ninel12"),"ninel_maga")
+			scr_option(scr_json_lang(global.LANGUAGE,"Ninel13"),"4")
+	}
+	
 break
+	case("ninel_maga"):
+	// magazine
+	break
+	
 #endregion
 
 // центр
 #region (Alladin_Step)
 case "Alladin_Step":
-scr_text("Здравія уважаємим господам в нашому кінотеатрі. Можу чимось допомогти?","non_player") 
-	scr_option("Запитати про ім'я","name_aladin");
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin1"),2,spr_ic_Krus,spr_ic_Aladin);
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin2"),"name_aladin");
 	// якщо пройшли тисяча та одну ніч (ТТОН)
-	scr_option("Отримати бонус.","bonys_aladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin3"),"bonys_aladin");
 	// якщо пройшли ТТОН та граєм білше 4-ох днів
-	scr_option("дещо запитати","question_aladin");
-	scr_option("закінчити діалог","end_alladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin4"),"question_aladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin5"),"end_alladin");
 break
 	case "name_aladin":
-	scr_text("Якщо ви не проти, хотілось би дізнаться детальніше про ваше імя? Чому вас звати Аладіном?","player") 
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin6"),1,spr_ic_Krus,spr_ic_Aladin);
 	
 	break
 	case "bonys_aladin":
-	scr_text("Ми можем розраховувати на якусь вдячність та люб'язність з вашої сторони? Ми вам допомогли, то хтілось отримать якісь бонуси.","player") 
-	scr_text("Ага. Ну по правді помогли, но… Ну ладно, могу вас пропустить безплатно на сеанс. На той що зараз йде. Согласні?","non_player") 
-		scr_option("Культурно відмовитись","thank_aladin");
-		scr_option("Ладно. Це туди йти просто?","free_tiket");
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin7"),1,spr_ic_Krus,spr_ic_Aladin);
+	scr_text(scr_json_lang(global.LANGUAGE,"Aladin8"),2,spr_ic_Krus,spr_ic_Aladin);
+		scr_option(scr_json_lang(global.LANGUAGE,"Aladin9"),"thank_aladin");
+		scr_option(scr_json_lang(global.LANGUAGE,"Aladin10"),"free_tiket");
 	break
 	
 		case "thank_aladin":
-			scr_text("Пожалуй це буде лишнім, й так отримали нагороду. Добре тоді, щасти вам!","player") 
+			scr_text(scr_json_lang(global.LANGUAGE,"Aladin11"),1,spr_ic_Krus,spr_ic_Aladin);
 		break
 		case "free_tiket":
 // скрипт активації безплатного входу та (-1 відношення Алладіна Степановича)
 		break
 	case "question_aladin":
-		scr_text("Доброго дня. В нас тут пару питань. Можна попитать, якщо ви не сильно заняті?","player") 
-		scr_text("Прошу.","non_player") 
-		scr_text("Ви згадали, що програли свою лампу, граючи в карти з Іллею Степановичем та там… продавцем-незнайомцем на списаних поїздах. Ви якось всі знайомі?","player") 
-		scr_text("Ну как вам сказать? Да, впринципє… Давні знайомі, но всьому всій час. Просто скажу, шо ви в надійних руках. Надіюсь ви прийдете на виставу.","non_player") 
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin12"),1,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin13"),2,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin14"),1,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin15"),2,spr_ic_Krus,spr_ic_Aladin);
 	break
 	
 	case "end_alladin":
-	scr_text("Вибачаємося, ми помилились номером. Точніш… Ай, не важливо…","player") 
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin16"),1,spr_ic_Krus,spr_ic_Aladin);
 	break
 #endregion
 #region (Docha_alladina)
 case "Docha_alladina":
-
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad1"),2,spr_ic_Krus,spr_ic_docha_alada);
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad2"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad3"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad4"),"film1");
+	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad5"),"no_film");
 break
+case "no_film":
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad6"),2,spr_ic_Krus,spr_ic_docha_alada);
+break
+case "film1":
+scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad7"),2,spr_ic_Krus,spr_ic_docha_alada);
+break
+#endregion
+#region (Byfet)
+case"Byfet":
+scr_text (scr_json_lang(global.LANGUAGE,"Bufet1"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Bufet2"),"by_in_byfet");
+				scr_option(scr_json_lang(global.LANGUAGE,"Bufet3"),"4");
+break
+case "by_in_byfet":
+//відкриття бувфеу
+break
+#endregion
+#region(Tarantino)
+case "Tarantino":
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino1"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino2"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino3"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino4"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino5"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino6"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino7"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino8"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino9"),1,spr_ic_Krus,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino10"),2,spr_ic_Krus,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino11"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+	break		
+#endregion
+// тут я не хотів розбиратись тому спрайти співрозмовників хтось попідставляє 
+// і це буду я тільки майбутній я кращий за теперішнього
+#region (Mascot)
+case"Mascot":
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot2"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot3"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot4"),1,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+#region(Stalova_kasa)
+case"Stalova_kasa":
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa2"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa3"),"by_in_center_byfet");
+				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa4"),"4");
+break
+case "by_in_center_byfet":
+//відкриття бувфеу
+break
+#endregion
+#region(Kylt_kasa)
+case"Kylt_kasa":
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa2"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa3"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa4"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa5"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa6"),2,spr_ic_Krus,spr_ic_Ytopurok);
+break
+#endregion
+#region(Garderob)
+case"Garderob":
+scr_text (scr_json_lang(global.LANGUAGE,"Garderob1"),2,spr_ic_Krus,spr_ic_bufet);
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob2"),"Zdat_gard");
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob4"),"Vziat_gard");
+				scr_option(scr_json_lang(global.LANGUAGE,"Garderob6"),"Povernyt_gard");
+break
+
+	case "Zdat_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob3"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+	case "Vziat_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob5"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+	case "Povernyt_gard":
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob7"),2,spr_ic_Krus,spr_ic_bufet);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob8"),2,spr_ic_Krus,spr_ic_bufet);
+	break
+#endregion
+#region(Patrulnui)
+case"Patrulnui":
+switch(irandom_range(1,3)){
+			case 1:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui2");
+			break
+			case 2:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui3");
+			break
+			case 3:
+		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui4");
+			break
+}	
+scr_text (scr_json_lang(global.LANGUAGE,"Patrulnui1")+patr_prod,2,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+#region(Naglyadach)
+case"Naglyadach":
+switch(irandom_range(1,5)){
+			case 1:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach1"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 2:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach2"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 3:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach3"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach31"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 4:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach4"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach41"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+			case 5:
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach5"),2,spr_ic_Krus,spr_ic_bufet);
+			break
+}	
+break
+case"Dilnuchui":
+scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_bufet);
+break
+#endregion
+
+// Bazarrrrr
+#region(Anton)
+case"Anton":
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton1"),2,spr_ic_Krus,spr_ic_Anton);
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton2"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+	scr_text (scr_json_lang(global.LANGUAGE,"Anton3"),2,spr_ic_Krus,spr_ic_Anton);
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton4"),"by_Anton");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton5"),"svara");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton13"),"Ruba?");
+		scr_option(scr_json_lang(global.LANGUAGE,"Anton21"),"4");
+				
+		case"by_Anton":
+		//магазин покупки м'яса
+		break
+		case"svara":
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton6"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton7"),1,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton8"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton9"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton10"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton11"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton12"),1,spr_ic_Anton,spr_ic_stiopa_tyshonka);
+									
+		break
+		case"Ruba?":
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton14"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton15"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton16"),2,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton17"),2,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton18"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton19"),2,spr_ic_Krus,spr_ic_Anton);
+			scr_text (scr_json_lang(global.LANGUAGE,"Anton20"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
+		break		
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
+#endregion
+#region
+
 #endregion
 
 
 
+#region (Cutscene 2)
+case "Krus_day2":
+	scr_text("Соня, вставай!!!");
+break
+#endregion
+#region (Cutscene 3)
+case "Krus_day3":
+	scr_text("Вибачте!");
+break
+#endregion
 case "4":
 	
 	break

@@ -44,9 +44,9 @@ Y_op[3]=camera_get_view_y(view_camera[0])+270;
   char[0,0] ="";
 char_x[0,0] =0;
 char_y[0,0] =0;
-maxi_x[0] = 0;
-line_y[0][0]=0;
-later_width[0]=0;
+//maxi_x[0] = 0;
+//line_y[0][0]=0;
+//later_width[0]=0;
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;

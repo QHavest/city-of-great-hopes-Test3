@@ -3,31 +3,23 @@ line_break_pos[0, page_number]=999;
 line_break_num[page_number]   =0;
 line_break_offset[page_number]=0;
 speaker[page_number]=0;
+speaker1[page_number]=0;
+speaker2[page_number]=0;
 }
 
 
 ///@param text
-///@param [speaker]
-function scr_text(_text){
+///@param active_speaker
+///@param [speaker1]
+///@param [speaker2]
+function scr_text(_text,active_speaker){
 scr_set_defaults_for_text()
 text[page_number]=_text;
-
-if argument_count >1
-	{
-		switch (argument[1])
-		{
-		case "player1":
-		 speaker[page_number] =1;
-		 break;
-		 case "player2":
-		 speaker[page_number] =2;
-		 break;
-		 case "non_player":
-		 speaker[page_number] =-1;
-		break;
-		}
-	}
-else speaker[page_number]=0;
+// визначення хто говорить
+speaker[page_number] = active_speaker;
+// присвоєння спрайтів співрозмовників
+speaker1[page_number] =argument[2];
+speaker2[page_number] =argument[3];	
 page_number++;
 }
 

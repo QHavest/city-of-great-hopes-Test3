@@ -1,6 +1,8 @@
 function scr_dim_playerstate_free_ytopurok(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
+
 if(status = STATUS.ACTIVE){
+	
 	if (move == 0 ) spd = walkspd;
 	else spd = runspd;
 
@@ -12,13 +14,15 @@ if(status = STATUS.ACTIVE){
 
 	hsp = directx*spd;
 	vsp = directy*spd*0.5;
+	
 	if instance_exists(obj_pauser){
 		hsp = 0;
 		vsp = 0;
 	}
+	if (!in_sequence){
 	x += hsp
 	y -= vsp
-
+	}
 	//горизонтальна колізія
 	if(place_meeting(x + hsp, y, obj_invisiblewall)){
 		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
