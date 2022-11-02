@@ -194,20 +194,44 @@ if draw_char < text_length[page] {
 	var sec = cam_w/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
 	var _o_w = sec - o_b*2;
 	//координати відповідей
-	for(var i=0; i<option_number; i++)
-	{ 
-		if option_number<=4 
+	
+	if option_number<=3 
 		{
+			var sec = cam_w/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
+			var _o_w = sec - o_b*2;
+			for(var i=0; i<option_number; i++)
+			{ 
 			Y_op[i] = room_height - o_b*1 - line_hight*2;
 			X_op[i] = cam_x + sec*i + o_b;
+			}
 		}
-		//else 
-		//{ 
+		else 
+		{  
+			secondY = room_height - o_b*1 - line_hight*2;
+			firstY  = secondY - line_hight - o_b*3;
+			if option_number == 4 
+			{		var sec = cam_w/2; 
+					var _o_w = sec - o_b*2;
+					X_op[0]=cam_x + o_b; X_op[2]=X_op[0];
+					X_op[1]=cam_x + sec*1 + o_b; X_op[3]=X_op[1];
+					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
+			}
+			if option_number == 5
+			{
+					var sec = cam_w/3; 
+					var _o_w = sec - o_b*2;
+					X_op[0]=cam_x + cam_w/2-sec/2 +o_b;     X_op[1]=midle_x + cam_w/2-sec/2 +o_b;
+					
+					X_op[2]=cam_x + sec*0 + o_b; X_op[3]=cam_x + sec*1 + o_b;  X_op[4]=cam_x + sec*2 + o_b
+					
+					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY; Y_op[4]=secondY;
+			
+			}
 		//	if i/option_number <= .5 Y_op[i] =  room_height - border*3 - line_hight*3;
 		//	else Y_op[i] =  room_height - border*1 - line_hight*2;
 		
-	//	}
-	}
+		}
+	
 		
 /*	if(option_number<=2) firstY  = room_height - border*1 - line_hight*2 ;
 	else firstY  = room_height - border*6 - line_hight*2 ;

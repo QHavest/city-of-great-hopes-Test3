@@ -245,7 +245,6 @@ case "Boss":
 	scr_text (scr_json_lang(global.LANGUAGE,"Boss15"),2,spr_ic_Krus,spr_ic_boss);
 	break;
 #endregion
-
 #region (Souvenir)
 case "Souvenir":
 	scr_text (scr_json_lang(global.LANGUAGE,"sovenir1"),2,spr_ic_Krus,spr_ic_souvenir);
