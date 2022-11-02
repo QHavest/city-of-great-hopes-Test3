@@ -1,8 +1,7 @@
 depth=-99999;
-
-cam_w = camera_get_view_width(view_camera[0]) ;
-cam_x = camera_get_view_x(view_camera[0]);
-
+cam_w = camera_get_view_width(view_camera[view_current]) ;
+cam_h = camera_get_view_height(view_camera[view_current]);
+cam_x = camera_get_view_x(view_camera[view_current]);
 
 // параметри вікна з текстом
 
