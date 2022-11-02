@@ -6,8 +6,8 @@ show_inventory = false;
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 
-inv_UI_w = 460;
-inv_UI_h = 560;
+inv_UI_w = 489;
+inv_UI_h = 721;
 
 spr_inv_UI = spr_inventory_UI;
 
@@ -16,4 +16,4 @@ inv_UI_y = (gui_H * 0.5) - (inv_UI_h * 0.5 * scale);
 
 //////////Info-Player
 
-ds_player_info = ds_grid_create(2, 4)
+ds_player_info = ds_grid_create(2, 5)
