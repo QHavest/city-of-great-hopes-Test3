@@ -1,8 +1,13 @@
 depth=-99999;
+
 cam_w = camera_get_view_width(view_camera[view_current]) ;
 cam_h = camera_get_view_height(view_camera[view_current]);
 cam_x = camera_get_view_x(view_camera[view_current]);
-
+border = 0.02*cam_w;
+o_b = border/2
+line_hight = cam_h/25;
+scale = line_hight/110;
+line_sep = 2;
 // параметри вікна з текстом
 
 line_widt[0] = 0;

@@ -1,5 +1,5 @@
-
 old_font = draw_get_font();
+draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
 
 // Якщо текстово поле пусте, то текст бокс не виводиться і діалог закінчується
@@ -14,11 +14,13 @@ if setup == false
 {
 	setup = true;
 	
+	#region (if room_high...)
+/*
 	if room_height >=300 
 	{	
-		line_hight = 12;
-		line_sep	= 3;// відстань між строками 
-		border      = 4// відступи від краю
+//		line_hight = 12;
+//		line_sep	= 3;// відстань між строками 
+	//	border      = 4// відступи від краю
 		offsett_kof = 1;
 		scale = 0.08;
 		draw_set_font(for_large);
@@ -26,9 +28,9 @@ if setup == false
 	}
 	if room_height <300 && room_height>=150
 	{
-		border    = 3;
-		line_hight = 6;
-		line_sep  = 2;
+//		border    = 3;
+//		line_hight = 6;
+//		line_sep  = 2;
 		offsett_kof = 0.4;
 		scale = 0.05;
 		draw_set_font(for_normal);
@@ -36,23 +38,25 @@ if setup == false
 	}
 	if room_height <150
 	{
-		border     = 2;
-		line_hight = 4
-		line_sep   = 2;
+//		border     = 2;
+//		line_hight = 4
+//		line_sep   = 2;
 		offsett_kof = 0.4;
 		scale = 0.04;
 		draw_set_font(for_small);
 		font_for_math = for_small;
 	}
-	
+//	*/
+	#endregion
+
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
 
 	//  розрахунку положеня та інш
 	text_width = cam_w/2 + 4*border;
 	txtb_width = text_width + border*2
-	textbox_y = room_height - camera_get_view_height(view_camera[0])+border;
-	txt_y = textbox_y + border;
+	textbox_y = room_height - cam_h + border;
+	txt_y = textbox_y + border;		
 	midle_x = cam_x + cam_w/2
 	txtb_x = midle_x - border - text_width/2
 	hi_txtb = (line_hight+line_sep)*4 + border*2 - line_sep;
@@ -73,12 +77,12 @@ for(var p=0; p<page_number; p++)
 			
 			//визначення ширини лінії тесту
 			var txt_up_to_char = string_copy(text[p],1,_char_pos);
-			var _current_txt_w = string_width(txt_up_to_char) - string_width(char[c,p]);
+			var _current_txt_w = (string_width(txt_up_to_char) - string_width(char[c,p]))*scale;
 			
 			// визначення залишеного вільного місця
 			if char [c,p] ==" " and c>0
 			{ 
-				if char [c-1,p] == " " line_break_offset[p] = -99
+				if char [c-1,p] == " " line_break_offset[p] = -999
 				else last_free_space = _char_pos+1;
 			}
 								
@@ -90,23 +94,23 @@ for(var p=0; p<page_number; p++)
 				line_break_num[p]++;
 				var _txt_up_to_last_space = string_copy( text[p], 1, last_free_space);
 				var _last_free_space_string = string_char_at(text[p],last_free_space);
-				line_break_offset[p] = string_width(_txt_up_to_last_space) - string_width(_last_free_space_string);		
+				line_break_offset[p] = (string_width(_txt_up_to_last_space) - string_width(_last_free_space_string))*scale;		
 			//	line_widt[line_break_num[p]-1] =string_width(_txt_up_to_last_space) ;
 				}		
 			}
 			// цикл для вирівнювання 
 			var _txt_line = 0;
 			var _str_copy = string_copy(text[p],1, line_break_pos[0,p]-2);
-			line_widt[0] = string_width(_str_copy);
+			line_widt[0] = string_width(_str_copy)*scale;
 			
 			for (var lb=1; lb<line_break_num[p]; lb++)
 				{		
 					_str_copy = string_copy(text[p],line_break_pos[lb-1,p], line_break_pos[lb,p] - line_break_pos[lb-1,p]);
-					line_widt[lb] = string_width(_str_copy);
+					line_widt[lb] = string_width(_str_copy)*scale;
 				}
 			
-			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], string_width(text[p]) - line_break_pos[lb-1,p]-2);
-			line_widt[lb] = string_width(_str_copy);
+			_str_copy = string_copy(text[p],line_break_pos[lb-1,p], string_width(text[p])*scale - line_break_pos[lb-1,p]-2);
+			line_widt[lb] = string_width(_str_copy)*scale;
 			
 			var first_y = (hi_txtb + line_sep - (line_hight+line_sep)*(line_break_num[p] + 1) )/2 ;
 			
@@ -133,7 +137,7 @@ for(var p=0; p<page_number; p++)
 				}
 				
 			// додамо координати
-			char_x [c, p] = midle_x + _current_txt_w - line_widt[_txt_line]/2;
+			char_x [c, p] = midle_x + _current_txt_w*scale - line_widt[_txt_line]/2;
 			char_y [c, p] = textbox_y + first_y + _txt_line*(line_hight+line_sep);
 			
 		}
@@ -141,7 +145,7 @@ for(var p=0; p<page_number; p++)
 }
 	 
 	 // розмір шрифту під кімнату and зміна параметрів виведення
-	draw_set_font(font_for_math)
+//	draw_set_font(font_for_math)
 	
 // друкування тексту
 if draw_char < text_length[page] {
@@ -187,22 +191,46 @@ if draw_char < text_length[page] {
 	//var _op_border =5; //змінений відступ для варіантів
 	
 	var sec = cam_w/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
-	var _o_w = sec - border*2;
+	var _o_w = sec - o_b*2;
 	//координати відповідей
-	for(var i=0; i<option_number; i++)
-	{ 
-		if option_number<=4 
+	
+	if option_number<=3 
 		{
-			Y_op[i] = room_height - border*1 - line_hight*2;
-			X_op[i] = cam_x + sec*i + border;
+			var sec = cam_w/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
+			var _o_w = sec - o_b*2;
+			for(var i=0; i<option_number; i++)
+			{ 
+			Y_op[i] = room_height - o_b*1 - line_hight*2;
+			X_op[i] = cam_x + sec*i + o_b;
+			}
 		}
-		//else 
-		//{ 
+		else 
+		{  
+			secondY = room_height - o_b*1 - line_hight*2;
+			firstY  = secondY - line_hight - o_b*3;
+			if option_number == 4 
+			{		var sec = cam_w/2; 
+					var _o_w = sec - o_b*2;
+					X_op[0]=cam_x + o_b; X_op[2]=X_op[0];
+					X_op[1]=cam_x + sec*1 + o_b; X_op[3]=X_op[1];
+					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
+			}
+			if option_number == 5
+			{
+					var sec = cam_w/3; 
+					var _o_w = sec - o_b*2;
+					X_op[0]=cam_x + cam_w/2-sec/2 +o_b;     X_op[1]=midle_x + cam_w/2-sec/2 +o_b;
+					
+					X_op[2]=cam_x + sec*0 + o_b; X_op[3]=cam_x + sec*1 + o_b;  X_op[4]=cam_x + sec*2 + o_b
+					
+					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY; Y_op[4]=secondY;
+			
+			}
 		//	if i/option_number <= .5 Y_op[i] =  room_height - border*3 - line_hight*3;
 		//	else Y_op[i] =  room_height - border*1 - line_hight*2;
 		
-	//	}
-	}
+		}
+	
 		
 /*	if(option_number<=2) firstY  = room_height - border*1 - line_hight*2 ;
 	else firstY  = room_height - border*6 - line_hight*2 ;
@@ -220,17 +248,19 @@ if draw_char < text_length[page] {
 		if option[op] == option[option_pos] {color = c_yellow; opt_img = 0;}
 		else {opt_img = 1; color=c_black;}
 		// поле для тексту відповіді
-		draw_set_font(font_for_math)
-		var _o_c = (_o_w - string_width(option[op]))/2;
-		draw_sprite_ext(txtb_sprite, opt_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+border*2)/txt_spr_h,0,c_white,1);
+//		draw_set_font(font_for_math)
+		var _o_c = (_o_w - string_width(option[op])*scale)/2;
+		draw_sprite_ext(txtb_sprite, opt_img, X_op[op], Y_op[op], _o_w/txt_spr_w,(line_hight+o_b*2)/txt_spr_h,0,c_white,1);
 		// текст варіанту відповіді
-		    draw_set_font(Font_for_draw);
-			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+border, option[op],scale,scale,0,color,color,color,color,1);
+		 //   draw_set_font(Font_for_draw);
+			draw_text_transformed_color(X_op[op] + _o_c, Y_op[op]+o_b, option[op],scale,scale,0,color,color,color,color,1);
 	}
 	} 
-	draw_set_font(font_for_math)
+//	draw_set_font(font_for_math)
+#region(поступовий вивід рамки тексту)
 /*
-// поступовий вивід рамки тексту
+// 
+
 for (var c=0; c<draw_char; c++){
 	if char[c,page]!=" "{
 		
@@ -260,6 +290,7 @@ for (var c=0; c<draw_char; c++){
 	}
 }
 */
+#endregion
 // вивід рамок для іконок прерсонажів
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border*2 + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
@@ -273,7 +304,7 @@ draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , text
 		draw_sprite_ext(speaker1[page],0,txtb_x-border-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
 		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y,ico_scale,ico_scale,0,c_white,1);
 	}
-	if speaker[page] == -1 // нема спікера (можна у вільні місця помістити іконки сценаристів)
+	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
 
 	}
@@ -282,9 +313,8 @@ draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border*2 - (20*ico_scale) , text
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 
 // вивід тексту
-draw_set_font(Font_for_draw);
+//draw_set_font(Font_for_draw);
 for (var c=0; c<draw_char; c++)
 	draw_text_transformed_color(char_x[c, page], char_y[c, page], char[c, page], scale,scale,0,c_black,0,0,0,c_white);	
 
 draw_set_font(old_font);
-	
