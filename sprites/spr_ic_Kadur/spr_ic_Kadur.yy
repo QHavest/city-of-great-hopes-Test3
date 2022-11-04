@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Center",
-    "path": "folders/Dialogs/speaker_icon/Center.yy",
+    "name": "Kavkazci",
+    "path": "folders/Dialogs/speaker_icon/Center/Kavkazci.yy",
   },
 }

@@ -471,16 +471,16 @@ scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_
 // і це буду я тільки майбутній я кращий за теперішнього
 #region (Mascot)
 case"Mascot":
-scr_text (scr_json_lang(global.LANGUAGE,"Mascot1"),2,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Mascot2"),1,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Mascot3"),2,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Mascot4"),1,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot1"),2,spr_ic_Krus,spr_ic_Mascot);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot2"),1,spr_ic_Krus,spr_ic_Mascot);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot3"),2,spr_ic_Krus,spr_ic_Mascot);
+scr_text (scr_json_lang(global.LANGUAGE,"Mascot4"),1,spr_ic_Krus,spr_ic_Mascot);
 break
 #endregion
 #region(Stalova_kasa)
 case"Stalova_kasa":
-scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa2"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa1"),2,spr_ic_Krus,spr_ic_Stolova_kasa);
+scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa2"),2,spr_ic_Krus,spr_ic_Stolova_kasa);
 				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa3"),"by_in_center_byfet");
 				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa4"),"4");
 break
@@ -490,31 +490,31 @@ break
 #endregion
 #region(Kylt_kasa)
 case"Kylt_kasa":
-scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa1"),2,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa2"),1,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa3"),2,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa4"),1,spr_ic_Krus,spr_ic_bufet);
-scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa5"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa1"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa2"),1,spr_ic_Krus,spr_ic_Kelt_kasa);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa3"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa4"),1,spr_ic_Krus,spr_ic_Kelt_kasa);
+scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa5"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
 scr_text (scr_json_lang(global.LANGUAGE,"Kylt_kasa6"),2,spr_ic_Krus,spr_ic_Ytopurok);
 break
 #endregion
 #region(Garderob)
 case"Garderob":
-scr_text (scr_json_lang(global.LANGUAGE,"Garderob1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Garderob1"),2,spr_ic_Krus,spr_ic_Garderob);
 				scr_option(scr_json_lang(global.LANGUAGE,"Garderob2"),"Zdat_gard");
 				scr_option(scr_json_lang(global.LANGUAGE,"Garderob4"),"Vziat_gard");
 				scr_option(scr_json_lang(global.LANGUAGE,"Garderob6"),"Povernyt_gard");
 break
 
 	case "Zdat_gard":
-	scr_text (scr_json_lang(global.LANGUAGE,"Garderob3"),2,spr_ic_Krus,spr_ic_bufet);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob3"),2,spr_ic_Krus,spr_ic_Garderob);
 	break
 	case "Vziat_gard":
-	scr_text (scr_json_lang(global.LANGUAGE,"Garderob5"),2,spr_ic_Krus,spr_ic_bufet);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob5"),2,spr_ic_Krus,spr_ic_Garderob);
 	break
 	case "Povernyt_gard":
-	scr_text (scr_json_lang(global.LANGUAGE,"Garderob7"),2,spr_ic_Krus,spr_ic_bufet);
-	scr_text (scr_json_lang(global.LANGUAGE,"Garderob8"),2,spr_ic_Krus,spr_ic_bufet);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob7"),2,spr_ic_Krus,spr_ic_Garderob);
+	scr_text (scr_json_lang(global.LANGUAGE,"Garderob8"),2,spr_ic_Krus,spr_ic_Garderob);
 	break
 #endregion
 #region(Patrulnui)
@@ -530,33 +530,33 @@ switch(irandom_range(1,3)){
 		var patr_prod = scr_json_lang(global.LANGUAGE,"Patrulnui4");
 			break
 }	
-scr_text (scr_json_lang(global.LANGUAGE,"Patrulnui1")+patr_prod,2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Patrulnui1")+patr_prod,2,spr_ic_Krus,spr_ic_Patrulnui);
 break
 #endregion
 #region(Naglyadach)
 case"Naglyadach":
 switch(irandom_range(1,5)){
 			case 1:
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach1"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach1"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 			case 2:
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach2"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach2"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 			case 3:
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach3"),2,spr_ic_Krus,spr_ic_bufet);
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach31"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach3"),2,spr_ic_Krus,spr_ic_Naglyadach);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach31"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 			case 4:
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach4"),2,spr_ic_Krus,spr_ic_bufet);
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach41"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach4"),2,spr_ic_Krus,spr_ic_Naglyadach);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach41"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 			case 5:
-			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach5"),2,spr_ic_Krus,spr_ic_bufet);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach5"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 }	
 break
 case"Dilnuchui":
-scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_bufet);
+scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_Dilnuchui);
 break
 #endregion
 
@@ -594,29 +594,505 @@ case"Anton":
 			scr_text (scr_json_lang(global.LANGUAGE,"Anton20"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
 		break		
 #endregion
-#region
+#region (Barugi)
+case "Barugi":
+switch(irandom_range(1,6)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+			case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+			case 5:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+			case 6:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,spr_ic_Krus,spr_ic_Barugi);
+			break
+}	
+break
+#endregion
+#region (Zooseller)
+case"Zooseller":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zooseller1"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zooseller2"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zooseller3"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+			break
+			case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Zooseller4"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+			scr_text(scr_json_lang(global.LANGUAGE,"Zooseller5"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+			break
+}	
+break
+#endregion
+#region(Pulup_kalum)
+case"Pulup_kalum":
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Anton);
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+break
+#endregion
+// жителі
+#region (Zinki)
+case"Zinki":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki2"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki3"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+			case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki4"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+			case 5:
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki5"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+}	
+break
+#endregion
+#region(Worksman)
+case"Worksman":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman1"),2,spr_ic_Krus,spr_ic_Arcadii);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman2"),2,spr_ic_Krus,spr_ic_Arcadii);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman3"),2,spr_ic_Krus,spr_ic_Arcadii);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman4"),2,spr_ic_Krus,spr_ic_Arcadii);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman5"),2,spr_ic_Krus,spr_ic_Arcadii);
+			break
+}	
+break
+#endregion
+#region(Boi)
+case"Boi":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Boi1"),2,spr_ic_Krus,spr_ic_ditu_1);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Boi2"),2,spr_ic_Krus,spr_ic_ditu_1);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Boi3"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Boi4"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+}	
+break
+#endregion
+#region(Girl)
+case"Girl":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Girl"),2,spr_ic_Krus,spr_ic_ditu_3);
+		scr_text(scr_json_lang(global.LANGUAGE,"Gir2"),1,spr_ic_Krus,spr_ic_ditu_3);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gir3"),2,spr_ic_Krus,spr_ic_ditu_3);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gir4"),2,spr_ic_Krus,spr_ic_ditu_3);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gir5"),2,spr_ic_Krus,spr_ic_ditu_4);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Gir6"),2,spr_ic_Krus,spr_ic_ditu_4);
+			break
+}	
+#endregion
+// магазин меблів та техніки
+#region(larusa)
+case"larusa":
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa1"),2,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa11"),2,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa2"),1,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa3"),2,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa4"),1,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa5"),2,spr_ic_Krus,spr_ic_Shmuga);
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa6"),1,spr_ic_Krus,spr_ic_Shmuga);
+break
+#endregion
+#region(Panton)
+case"Panton":
+scr_text(scr_json_lang(global.LANGUAGE,"Panton1"),2,spr_ic_Krus,spr_ic_Platon);
+	scr_option(scr_json_lang(global.LANGUAGE,"Panton2"),"pant_prod");
+	scr_option(scr_json_lang(global.LANGUAGE,"Panton4"),"pant_nicho");
+break
+	case"pant_prod":
+	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon);
+	// OPEN MAGAZ
+	break
+	case"pant_nicho":
+	scr_text(scr_json_lang(global.LANGUAGE,"Panton5"),2,spr_ic_Krus,spr_ic_Platon);
+	break
+#endregion
+	#region (Stiopa)
+case"Stiopa":
+scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa2"),"Provodu_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
+break
+	case"Provodu_Stiopa":
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa2"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa3"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa4"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa5"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+		scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
+		scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
+	break
+	case"By_Stiopa":
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa7"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa8"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),1,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
+	// відкриття магазину!!!
+	break
+	case"Kinec_Stiopa":
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa15"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+	break
+#endregion
+#region (Panku)
+case"Panku":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Panku1"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Panku2"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Panku3"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Panku4"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Panku5"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+}	
+break
+#endregion
+
+// Тухлянка
+#region (Children)
+case"Children":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Childrenl"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Children2"),2,spr_ic_Krus,spr_ic_ditu_3);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Children3"),2,spr_ic_Krus,spr_ic_ditu_1);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Children4"),2,spr_ic_Krus,spr_ic_ditu_4);
+			break
+			case 5:
+				switch(irandom_range(1,5)){
+				case 1:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children51"),2,spr_ic_Krus,spr_ic_ditu_4);
+				break
+				case 2:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children52"),2,spr_ic_Krus,spr_ic_ditu_2);
+				break
+				case 3:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children53"),2,spr_ic_Krus,spr_ic_ditu_4);
+				break
+				case 4:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children54"),2,spr_ic_Krus,spr_ic_ditu_1);
+				break
+				case 5:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children54"),2,spr_ic_Krus,spr_ic_ditu_2);
+				break
+				case 6:
+				scr_text(scr_json_lang(global.LANGUAGE,"Children55"),2,spr_ic_Krus,spr_ic_ditu_3);
+				break
+				}
+			break
+}	
+
+break
+#endregion
+#region (Muter_with_childcar)
+case"Muter_with_childcar":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,spr_ic_Krus,spr_ic_Hostes);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,spr_ic_Krus,spr_ic_Hostes);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,spr_ic_Krus,spr_ic_Hostes);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,spr_ic_Krus,spr_ic_Hostes);
+			break
+
+}	
+
+break
+#endregion
+#region(Muter)
+case"Muter":
+scr_text(scr_json_lang(global.LANGUAGE,"Muter1"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	scr_option(scr_json_lang(global.LANGUAGE,"Muter2"),"Yes_muter");
+	scr_option(scr_json_lang(global.LANGUAGE,"Muter4"),"Nein_muter");
+break
+	case"Yes_muter":
+	scr_text(scr_json_lang(global.LANGUAGE,"Muter3"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	break
+	case"Nein_muter":
+	scr_text(scr_json_lang(global.LANGUAGE,"Muterr5"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Muter6"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	break
+
 
 #endregion
-#region
-
-#endregion
-#region
-
-#endregion
-#region
-
-#endregion
-#region
-
-#endregion
-#region
-
-#endregion
-#region
-
+#region (Babyli)
+case"Babyli":
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,spr_ic_Krus,spr_ic_Babulia);
+switch(irandom_range(1,2)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,spr_ic_Krus,spr_ic_Babulia);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,spr_ic_Krus,spr_ic_Babulia);
+			break
+}	
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,spr_ic_Krus,spr_ic_Babulia);
+break
 #endregion
 
+//бійцівський клуб
+#region (Makedon)
+case"Makedon":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Makedon1"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Makedon2"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Makedon3"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Makedon4"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+}	
+break
+#endregion
+#region (Kylak)
+case"Kylak":
+	scr_text(scr_json_lang(global.LANGUAGE,"Kylak1"),2,spr_ic_Krus,spr_ic_Kylak);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kylak2"),"Sparung_Kylak");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kylak3"),"4");
+break
+case "Sparung_Kylak":
+// Biika z Kylakom
+break
+#endregion
+#region (Tamara)
+case"Tamara":
+	scr_text(scr_json_lang(global.LANGUAGE,"Tamara1"),2,spr_ic_Krus,spr_ic_Tamara_fulupivna);
+		scr_option(scr_json_lang(global.LANGUAGE,"Tamara2"),"By_Tamara");
+		scr_option(scr_json_lang(global.LANGUAGE,"Tamara3"),"4");
+break
+case "By_Tamara":
+// MAGAZ GONU 
+break
+#endregion
+#region(Bibiliothekar)
+case"Bibiliothekar":
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar1"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar2"),1,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar3"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar4"),1,spr_ic_Ytopurok,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar5"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar6"),1,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar7"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
+	// FIGHT!!!
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+break
+#endregion
+#region(Tyrnikman)
+case"Tyrnikman":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Tyrnikman1"),2,spr_ic_Krus,spr_ic_Hyk);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Tyrnikman2"),2,spr_ic_Krus,spr_ic_Hyk);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Tyrnikman3"),2,spr_ic_Krus,spr_ic_Hyk);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Tyrnikman4"),2,spr_ic_Krus,spr_ic_Hyk);
+			break
+}	
+break
+#endregion
+#region(Schoolman)
+case"Schoolman":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Schoolman1"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Schoolman2"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Schoolman3"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Schoolman4"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Schoolman5"),2,spr_ic_Krus,spr_ic_ditu_2);
+			break
+}	
+break
+#endregion
+#region(Skinhead)
+case"Skinhead":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead1"),2,spr_ic_Krus,spr_ic_Skihead);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead2"),2,spr_ic_Krus,spr_ic_Skihead);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead3"),2,spr_ic_Krus,spr_ic_Skihead);
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead31"),2,spr_ic_Krus,spr_ic_Skihead);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead4"),2,spr_ic_Krus,spr_ic_Skihead);
+			break
+}	
+break
+#endregion
+#region(Torchok)
+case"Torchok":
+switch(irandom_range(1,5)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok1"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok2"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok3"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok4"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok5"),2,spr_ic_Krus,spr_ic_Pank);
+			break
+}	
+break
+#endregion
+#region(Sekta)
+case"Sekta":
+switch(irandom_range(1,8)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta1"),2,spr_ic_Krus,spr_ic_sekta_1);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta2"),2,spr_ic_Krus,spr_ic_sekta_1);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta3"),2,spr_ic_Krus,spr_ic_sekta_3);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta4"),2,spr_ic_Krus,spr_ic_sekta_3);
+			break
+			case 5:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta5"),2,spr_ic_Krus,spr_ic_sekta_3);
+			break
+			case 6:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta6"),2,spr_ic_Krus,spr_ic_sekta_2);
+			break
+			case 7:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta7"),2,spr_ic_Krus,spr_ic_sekta_4);
+			break
+			case 8:
+		scr_text(scr_json_lang(global.LANGUAGE,"Sekta8"),2,spr_ic_Krus,spr_ic_sekta_4);
+			break
+	
+}	
+break
+#endregion
+#region(Myzukantu)
+case"Myzukantu":
+	scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu1"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_option(scr_json_lang(global.LANGUAGE,"Myzukantu20"),"M_ask");
+		scr_option(scr_json_lang(global.LANGUAGE,"Myzukantu30"),"M_refuse");
+		scr_option(scr_json_lang(global.LANGUAGE,"Myzukantu40"),"M_give_money");
+break
+		case"M_ask":
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu22"),1,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu23"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu24"),1,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu25"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu26"),1,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu27"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu28"),1,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu29"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu210"),1,spr_ic_Krus,spr_ic_sekta_5);
+		break
+		case"M_refuse":
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu31"),1,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu32"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu33"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu34"),2,spr_ic_Krus,spr_ic_sekta_5);
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu35"),2,spr_ic_Krus,spr_ic_sekta_5);
+		break
+		case"M_give_money":
+		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu41"),2,spr_ic_Krus,spr_ic_sekta_5);
+		break
+		
 
+#endregion
 
 #region (Cutscene 2)
 case "Krus_day2":

@@ -3,6 +3,7 @@ depth=-99999;
 cam_w = camera_get_view_width(view_camera[view_current]) ;
 cam_h = camera_get_view_height(view_camera[view_current]);
 cam_x = camera_get_view_x(view_camera[view_current]);
+cam_y = camera_get_view_y(view_camera[view_current]);
 border = 0.02*cam_w;
 o_b = border/2
 line_hight = cam_h/25;

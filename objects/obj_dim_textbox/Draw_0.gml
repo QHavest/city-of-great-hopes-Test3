@@ -56,7 +56,7 @@ if setup == false
 	//  розрахунку положеня та інш
 	text_width = cam_w/2 + 4*border;
 	txtb_width = text_width + border*2
-	textbox_y = room_height - cam_h + border;
+	textbox_y = cam_y + border;
 	txt_y = textbox_y + border;		
 	midle_x = cam_x + cam_w/2
 	txtb_x = midle_x - border - text_width/2
