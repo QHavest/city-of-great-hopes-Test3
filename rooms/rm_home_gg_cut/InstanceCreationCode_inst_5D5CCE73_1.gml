@@ -1,1 +1,0 @@
-text_id = "Krus_day2";

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_krus_throw_pillow",
   "spriteId": {
-    "name": "spr_krus_throw_pillow",
-    "path": "sprites/spr_krus_throw_pillow/spr_krus_throw_pillow.yy",
+    "name": "spr_krus_throw_pillow0",
+    "path": "sprites/spr_krus_throw_pillow0/spr_krus_throw_pillow0.yy",
   },
   "solid": false,
   "visible": true,
