@@ -1,9 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
-//<<<<<<<< HEAD:objects/obj_contyr/CleanUp_0.gml
-
-//========
-if (keyboard_check_pressed(ord("I"))){
-	show_inventory = !show_inventory;
+if (global.map or global.pause or global.shop or !global.dialog_end){
+	show_inventory = false;
+	exit;
 }
-//>>>>>>>> azar1ya:objects/obj_inventory/Step_0.gml
+if (keyboard_check_pressed(ord("I"))){
+	show_inventory = !show_inventory; 
+}
+
+if (show_inventory){
+inv_UI_x_closed = lerp(inv_UI_x_closed, inv_UI_x_opened_static, 0.1);
+inv_UI_x_opened = inv_UI_x_opened_static
+slots_x = inv_UI_x_closed + (83 * scale);
+}
+
+if (!show_inventory){
+inv_UI_x_closed = lerp(inv_UI_x_opened, inv_UI_x_closed_static, 0.1);
+inv_UI_x_opened = inv_UI_x_closed;
+slots_x = inv_UI_x_closed + (83 * scale);
+}

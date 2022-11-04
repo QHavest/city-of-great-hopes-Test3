@@ -1,4 +1,3 @@
-global.money = 10;
 scr_Znaiomstvo();
 mask_index = sprite_index;
 walkspd = 4;

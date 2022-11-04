@@ -30,3 +30,19 @@ if(shopOpen){
 		if (notselected < 0) notselected = itemCount01 - 1;
 	}
 }
+
+//To buy
+
+var arr = items_bakery[| selected];
+var item = arr[0]; var price = arr[1]; var item_num = arr[2];
+
+if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E")) and shopOpen = true){
+	if(global.money >= price){
+		for (var i = 0; i < 11; i++)
+			if(global.ds_inventory[# 0, i] = 0){
+				global.ds_inventory[# 0, i] = item_num;
+				global.money -= price;
+				break;
+		}
+	}
+}
