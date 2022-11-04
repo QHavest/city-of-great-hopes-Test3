@@ -1,5 +1,6 @@
 if (global.map or global.pause or global.shop or !global.dialog_end){
 	show_inventory = false;
+	inv_UI_x_closed = inv_UI_x_closed_static;
 	exit;
 }
 if (keyboard_check_pressed(ord("I"))){

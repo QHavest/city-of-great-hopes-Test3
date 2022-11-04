@@ -37,6 +37,3 @@ draw_sprite(spr, 0, guiW/4, guiH/4);
 
 //Назва
 draw_sprite_ext(sp_name_bakery, 0, guiW/2, guiH/6, 2, 2, 0, c_white, 1)
-
-
-

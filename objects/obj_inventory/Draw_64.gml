@@ -3,6 +3,8 @@ draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, inv_UI_w, inv_UI_h,
 
 //-------------money
 draw_set_font(Font_for_money)
+draw_set_valign(fa_top);
+draw_set_halign(fa_left);
 draw_text_color(inv_UI_x_closed + 168, info_money_y, string(global.money), 1,1,1,1,1);
 
 #region

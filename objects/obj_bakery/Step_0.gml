@@ -7,7 +7,7 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	}
 }
 
-if(shopOpen && keyboard_check_pressed(vk_escape)){
+if(shopOpen && keyboard_check_pressed(vk_escape) && keyboard_check_pressed(ord("Q"))){
 		shopOpen = false;
 		global.shop = false;
 		instance_destroy(obj_bakery);
@@ -36,7 +36,7 @@ if(shopOpen){
 var arr = items_bakery[| selected];
 var item = arr[0]; var price = arr[1]; var item_num = arr[2];
 
-if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E")) and shopOpen = true){
+if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and shopOpen = true){
 	if(global.money >= price){
 		for (var i = 0; i < 11; i++)
 			if(global.ds_inventory[# 0, i] = 0){

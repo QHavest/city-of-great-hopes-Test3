@@ -27,7 +27,7 @@ slots_y = inv_UI_y + (130 * scale);
 //////////Info-Player
 
 info_money_x = inv_UI_x_opened + (168 * scale);
-info_money_y =  inv_UI_y + 60;
+info_money_y =  inv_UI_y + 65;
 
 #region
 //////////////column and rows(help im lost)
