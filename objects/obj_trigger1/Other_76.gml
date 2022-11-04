@@ -46,7 +46,7 @@ if event_data [? "event_type"] == "sequence event"
 		case "stop":
 		layer_sequence_destroy(_seqElm);
 		//obj_dim_textbox.midle_x =obj_dim_textbox.cam_x + obj_dim_textbox.cam_w/2;
-		//scr_create_textbox(text_id);
+		//scr_create_textbox("Krus_day3");
 		break;
 	}
 }
