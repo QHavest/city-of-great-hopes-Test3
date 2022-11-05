@@ -810,6 +810,7 @@ switch(irandom_range(1,5)){
 break
 #endregion
 
+
 // Тухлянка
 #region (Children)
 case"Children":
@@ -1118,7 +1119,28 @@ break
 		case"M_give_money":
 		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu41"),2,spr_ic_Krus,spr_ic_sekta_5);
 		break
-		
+#endregion	
+
+
+#region (scena 6)
+case "scena_6":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena61"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena62"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena63"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena64"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena65"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena66"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena67"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena68"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena69"),1,spr_ic_Krus,spr_ic_Ytopurok);
+    scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
+	obj_manager.pause = false;
+	obj_manager.play = true;
+//  scr_text ("Привіт1!",2,spr_ic_Krus,spr_ic_Ytopurok);
+//  scr_text ("Привіт2!",2,spr_ic_Krus,spr_ic_Ytopurok);
+//  scr_text ("Привіт3!",2,spr_ic_Krus,spr_ic_Ytopurok);
+//  scr_option("Закінчити", "4");
+break;
 
 #endregion
 

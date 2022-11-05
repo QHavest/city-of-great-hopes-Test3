@@ -20,9 +20,9 @@ key_room_go = keyboard_check(ord("E"));
 	case STATUS.PASSIVE: scr_passive_player(); break;
 }*/
 
- switch(states){
-case	PLAYERSTATES.FREES	: scr_dim_playerstate_free_krus_pillow();    break;
- } 
+// switch(states){
+//case	PLAYERSTATES.FREES	: scr_dim_playerstate_free_krus_pillow();    break;
+// } 
 
 
 if (x!= xprevious or y!= yprevious){
