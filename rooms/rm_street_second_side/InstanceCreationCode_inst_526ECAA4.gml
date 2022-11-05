@@ -1,2 +1,2 @@
 
-text_id = "Gopota";
+text_id = "Skinhead";
