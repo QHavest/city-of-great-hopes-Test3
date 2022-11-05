@@ -46,6 +46,7 @@ break
 			scr_text(scr_json_lang(global.LANGUAGE,"Cherka13"),2,spr_ic_Krus,spr_ic_cher);
 			// -300 сигарет Біля Черки зявляється зв’язка сигарет.
 			scr_text(scr_json_lang(global.LANGUAGE,"Cherka14"),2,spr_ic_Krus,spr_ic_cher);
+			
 			// +11 сертифікатів Черки Григоровича.
 			scr_text(scr_json_lang(global.LANGUAGE,"Cherka15"),2,spr_ic_Krus,spr_ic_cher);
 			break
@@ -398,6 +399,7 @@ case "Alladin_Step":
 	// якщо пройшли ТТОН та граєм білше 4-ох днів
 	scr_option(scr_json_lang(global.LANGUAGE,"Aladin4"),"question_aladin");
 	scr_option(scr_json_lang(global.LANGUAGE,"Aladin5"),"end_alladin");
+	scr_option(scr_json_lang(global.LANGUAGE,"Aladin5"),"end_alladin1");
 break
 	case "name_aladin":
 	scr_text(scr_json_lang(global.LANGUAGE,"Aladin6"),1,spr_ic_Krus,spr_ic_Aladin);
@@ -420,7 +422,9 @@ break
 		scr_text(scr_json_lang(global.LANGUAGE,"Aladin12"),1,spr_ic_Krus,spr_ic_Aladin);
 		scr_text(scr_json_lang(global.LANGUAGE,"Aladin13"),2,spr_ic_Krus,spr_ic_Aladin);
 		scr_text(scr_json_lang(global.LANGUAGE,"Aladin14"),1,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin141"),1,spr_ic_Krus,spr_ic_Aladin);
 		scr_text(scr_json_lang(global.LANGUAGE,"Aladin15"),2,spr_ic_Krus,spr_ic_Aladin);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aladin151"),2,spr_ic_Krus,spr_ic_Aladin);
 	break
 	
 	case "end_alladin":
@@ -458,6 +462,7 @@ scr_text (scr_json_lang(global.LANGUAGE,"Taranrino1"),2,spr_ic_Ytopurok,spr_ic_T
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino2"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino3"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino4"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino41"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino5"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino6"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino7"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
@@ -553,6 +558,7 @@ switch(irandom_range(1,5)){
 			break
 			case 5:
 			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach5"),2,spr_ic_Krus,spr_ic_Naglyadach);
+			scr_text (scr_json_lang(global.LANGUAGE,"Naglyadach51"),2,spr_ic_Krus,spr_ic_Naglyadach);
 			break
 }	
 break
@@ -752,7 +758,7 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Panton5"),2,spr_ic_Krus,spr_ic_Platon);
 	break
 #endregion
-	#region (Stiopa)
+#region (Stiopa)
 case"Stiopa":
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa2"),"Provodu_Stiopa");
@@ -929,6 +935,25 @@ case "Sparung_Kylak":
 // Biika z Kylakom
 break
 #endregion
+#region (Aperkot)
+case"Aperkot":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot1"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot11"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot2"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot3"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot4"),2,spr_ic_Krus,spr_ic_Makedon);
+			break
+}	
+break
+#endregion
 #region (Tamara)
 case"Tamara":
 	scr_text(scr_json_lang(global.LANGUAGE,"Tamara1"),2,spr_ic_Krus,spr_ic_Tamara_fulupivna);
@@ -1000,6 +1025,7 @@ switch(irandom_range(1,4)){
 			break
 			case 2:
 		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead2"),2,spr_ic_Krus,spr_ic_Skihead);
+		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead21"),2,spr_ic_Krus,spr_ic_Skihead);
 			break
 			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Skinhead3"),2,spr_ic_Krus,spr_ic_Skihead);
@@ -1022,6 +1048,7 @@ switch(irandom_range(1,5)){
 			break
 			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok3"),2,spr_ic_Krus,spr_ic_Pank);
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok31"),2,spr_ic_Krus,spr_ic_Pank);
 			break
 			case 4:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok4"),2,spr_ic_Krus,spr_ic_Pank);

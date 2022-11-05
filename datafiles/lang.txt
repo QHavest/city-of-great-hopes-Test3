@@ -30,7 +30,8 @@
 		"Cherka12":"Give 300 cigarettes",
 		"Cherka13":"Oh, here you sm-mmel like to-ba-cc-c-o. At least in the package.",
 		"Cherka14":"Hehe, I don't smoke, I drink, but in my world it's m-mm-money. Normal people don't respect me at all and treat me with disgust.",
-		"Cherka15":"Cherka didn't want that. Now at least I'll trade something.",
+		"Cherka141":"Cherka didn't want that. Now at least I'll trade something.",
+		"Cherka15":"It will be possible to take cer-ti-tificates later. But you won't forget Cherka, wi-ii-il you?",
 		"Cherka16":"Refuse",
 		"Cherka17":"Yes, we need them now.",
 		"Cherka18":"Еm, аha uhh.",
@@ -170,8 +171,10 @@
 		"Aladin11": "Perhaps we get enough, we've already received a reward. So, good luck!",
 		"Aladin12": "Good day. We have a couple of questions. May I ask if you arn't very busy?",
 		"Aladin13": "Please.",
-		"Aladin14": "You reminded me that you lost your lamp while playing cards with Ilya Stepanovich and there... a stranger seller on old trains. Do you all know each other?",
-		"Aladin15": "Well, how do you say? Yes, in principle... Old acquaintances, but all have their time. I'll just say that you are in safe hands. I hope you'll come to the performance.",
+		"Aladin14": "You reminded me that you lost your lamp while playing cards with Ilya Stepanovich and there... a stranger seller on old trains.",
+		"Aladin141": "Do you all know each other?",
+		"Aladin15": "Well, how do you say? Yes, in principle... Old acquaintances, but all have their time.",
+		"Aladin151": "I'll just say that you are in safe hands. I hope you'll come to the performance.",
 		"Aladin16": "Sorry, we are mistaken about the number. More precisely... Oh, it doesn't matter...",
 	
 		"docha_Alad1": "Good day. Have you decided where you want to go?",
@@ -189,7 +192,8 @@
 		"Taranrino1": "Hello guys. What for what? Have you come to me for the cassettes?",
 		"Taranrino2": "Well, kind of that, man. Tell me who you are.",
 		"Taranrino3": "Yeah, a bored man. I've been working here since I was a teenager, watching movies and selling cassettes. Watched all the Soviet classics.",
-		"Taranrino4": "I would go to Odessa to Dovzhenka Academy if I had more time and money. They are shooting movies there... I even wrote a story for the movie called <<Reservoir Dogs>>.",
+		"Taranrino4": "I would go to Odessa to Dovzhenka Academy if I had more time and money. They are shooting movies there...",
+		"Taranrino41": "I even wrote a story for the movie called <<Reservoir Dogs>>.",
 		"Taranrino5": "What do you have interesting here? What can we watch?",
 		"Taranrino6": "Many things: comedies, agitations, melodramas, and of course... historical chronicles.",
 		"Taranrino7": "Maybe some comedies?",
@@ -237,7 +241,8 @@
 		"Naglyadach31": "Right here, five meters from the cage. Where is a place for you, freak.",
 		"Naglyadach4": "Oh, a second of statistics. My ex says that 5 minutes is not enough, but it's normal for me. Somehow she agreed and everything passed in 30 seconds.",
 		"Naglyadach41": "I'm talking about a fight,  freaks. Not what you thought.",
-		"Naglyadach5": "Oh, the butcher from Tukhlyanka and his henchmen. When you make some shit, I'll catch you. And you know what? You're already in front of me, then... I usually slap such as you, I can do it cause I'm a cop.",
+		"Naglyadach5": "Oh, the butcher from Tukhlyanka and his henchmen. When you make some shit, I'll catch you. And you know what?",
+		"Naglyadach51": "You're already in front of me, then... I usually slap such as you, I can do it cause I'm a cop.",
 
 		"Dilnuchui1": "Ugh... I'm busy, go somewhere else.",
 
@@ -271,11 +276,11 @@
 		"Barugi5": "We sell the husk and don't pretend to be charlatans!",
 		"Barugi6": "Ladies and gentlemen, buy some vegetables, you aren't lazy!",
 
-		"Zooseler1": "Wow, I don't remember if you were here, but I welcome you. How can I help you? We have everything: feed and a mini-zoo, with pets from Poland.",
-		"Zooseler2": "I don't remember, did you and I just talk? If not, please welcome to our store. We have a wide selection, all of your choices with a  long list of our merits..",
-		"Zooseler3": "Say it again, what did you mean it when you called me in the night and said I am a pig-dog? Sounds fun.",
-		"Zooseler4": "Help me. People say I don't understand jokes. It's true? Well, it's not that I don't understand at all.",
-		"Zooseler5": "I don't take them as jokes. I believe in everything that was said. People laugh at me for this.",
+		"Zooseller1": "Wow, I don't remember if you were here, but I welcome you. How can I help you? We have everything: feed and a mini-zoo, with pets from Poland.",
+		"Zooseller2": "I don't remember, did you and I just talk? If not, please welcome to our store. We have a wide selection, all of your choices with a long list of our merits..",
+		"Zooseller3": "Say it again, what did you mean it when you called me in the night and said I am a pig-dog? Sounds fun.",
+		"Zooseller4": "Help me. People say I don't understand jokes. It's true? Well, it's not that I don't understand at all.",
+		"Zooseller5": "I don't take them as jokes. I believe in everything that was said. People laugh at me for this.",
 
 		"Pulup_kalum1": "Young people! I accept and sell glass. There are still a couple of good sets.",
 		"Pulup_kalum1": "Who is interested, come. I buy expensive, sell cheap! Glass! Dishes. Sell and buy!",
@@ -336,7 +341,8 @@
 		"Stiopa14": "End dialog",
 		"Stiopa15": "Sorry, we forget something. Soon we’ll return.",
 
-		"Panku1": "Not long ago, I caught a sectarian and all he had was a book, now I know that the judgment is merciless on the one who didn't show mercy. Mercy is placed above judgment.",
+		"Panku1": "Not long ago, I caught a sectarian and all he had was a book, now I know that the judgment is merciless on the one who didn't show mercy.",
+		"Panku11": "Mercy is placed above judgment.",
 		"Panku2": "Friend and bugaboo, let's count the book! Give me your wallet and fuck off. Or either you'll go chat with Moses.",
 		"Panku3": "Shmyr, what did you see? How can I put my fingers on and break your own? Okay? Not? Then fuck off the beach.",
 		"Panku4": "Eh, life is boring again, man?",
@@ -388,7 +394,8 @@
 		"Kylak2": "Accept the challenge",
 		"Kylak3": "Refuse",
 
-		"Aperkot1": "Shit,  I saw you somewhere. Okay, let's go. In short,  we have punching bags, a ring, and the equipment you need. Always glad to see new people here.",
+		"Aperkot1": "Shit,  I saw you somewhere. Okay, let's go. In short,  we have punching bags, a ring, and the equipment you need.",
+		"Aperkot11": "Always glad to see new people here.",
 		"Aperkot2": "What, can't find gloves? Go to the ring, they'll give you it immediately.",
 		"Aperkot3": "Why are you confused under my feet? You either go or train.",
 		"Aperkot4": "Don't disturb me, as you aren't busy with anything...",
@@ -419,14 +426,16 @@
 		"Schoolman5": "Uncles, you look like Lyolik and Bolik. The cartoon is like that.",
 
 		"Skinhead1": "A brave nation must blossom, but for this, it's necessary to burn others. Their ashes become fertilizer for us.",
-		"Skinhead2": "How can the city develop while the communists are still in power? Get away with red shackles! Tear down the idols standing in the cities and put heroes in their place!",
+		"Skinhead2": "How can the city develop while the communists are still in power? Get away with red shackles!",
+		"Skinhead21": "Tear down the idols standing in the cities and put heroes in their place!",
 		"Skinhead3": "Our movement is not the meaning of life, but a springboard for a future, safe existence.",
 		"Skinhead31":"If they didn't put sticks on the wheels and perceive us as garbage, then we would achieve something. Now, we have to get along with drugers.",
 		"Skinhead4": "The difference in cultures only leads to branching out and loss of identity. Let's introduce a common course and root out evil ones!",
 
 		"Torchok1": "Hehe, my mother still thinks I work at the post office. This is what it means to hear without context.",
 		"Torchok2": "Go further. I was released from prison on the program, and who will think about selling it again? I don't sell, I consume! Remember this!",
-		"Torchok3": "Bald guys are kind of fussy. They would be purely backgrounded for us if they didn't get into our affairs and tell us what to do and what to smoke. What the hell?",
+		"Torchok3": "Bald guys are kind of fussy. They would be purely backgrounded for us if they didn't get into our affairs and tell us what to do and what to smoke.",
+		"Torchok31": "What the hell?",
 		"Torchok4": "Men, remember, the main thing is to take it on time. You won't be suspected when it's inside, but if you haven't finished it, you'll already dealer.",
 		"Torchok5": "So smoke a puff and a full LSD! The main thing isn't to catch a squirrel.",
 
@@ -492,7 +501,8 @@
 		"Cherka11":"Мені вон-нни не здались. я зн-нна-нааю. Це обманка. Но лад-нн-но. За 200 сіг від-да-ддам. Нєє, 300 й точка. Ви вродь хороши.",
 		"Cherka12":"Віддати 300 сигарет",
 		"Cherka13":"Ох, от вас та-б-аб-бб-баком штиняє, жесть. Хоть би в упаковці…",
-		"Cherka14":"Ххе. Я не ку-ррю, я п’ю, но в моєму світі сігі то г-гг-гроши. Нормальний люд мене н-не-нне поважає та в-відразливо ставиться. Черка не хтів такого. Тепер хоть щось виторгую.",
+		"Cherka14":"Ххе. Я не ку-ррю, я п’ю, но в моєму світі сігі то г-гг-гроши.Нормальний люд мене н-не-нне поважає та в-відразливо ставиться.",
+		"Cherka141":"Черка не хтів такого. Тепер хоть щось виторгую.",
 		"Cherka15":"Там правда по-ттом токо забра-т-тт-ть можна буде. Но ви ж не забудете до т-ттого часу Ч-ччерку?",
 		"Cherka16":"Відмовитись.",
 		"Cherka17":"Так, й нам вони треба уже й зараз.",
@@ -631,8 +641,10 @@
 		"Aladin11": "Пожалуй це буде лишнім, й так отримали нагороду. Добре тоді, щасти вам!",
 		"Aladin12": "Доброго дня. В нас тут пару питань. Можна попитать, якщо ви не сильно заняті?",
 		"Aladin13": "Прошу.",
-		"Aladin14": "Ви згадали, що програли свою лампу, граючи в карти з Іллею Степановичем та там… продавцем-незнайомцем на списаних поїздах. Ви якось всі знайомі?",
-		"Aladin15": "Ну как вам сказать? Да, впринципє… Давні знайомі, но всьому всій час. Просто скажу, шо ви в надійних руках. Надіюсь ви прийдете на виставу.",
+		"Aladin14": "Ви згадали, що програли свою лампу, граючи в карти з Іллею Степановичем та там… продавцем-незнайомцем на списаних поїздах.",
+		"Aladin141": "Ви якось всі знайомі?",
+		"Aladin15": "Ну как вам сказать? Да, впринципє… Давні знайомі, но всьому всій час.",
+		"Aladin151": "Просто скажу, шо ви в надійних руках. Надіюсь ви прийдете на виставу.",
 		"Aladin16": "Вибачаємося, ми помилились номером. Точніш… Ай, не важливо…",
 	
 		"docha_Alad1": "Добрий день. Визначились куда хочете піти?",
@@ -650,7 +662,8 @@
 		"Taranrino1": "Здоров пацани. Що по чом? Невже пришли за кассетами до мене?",
 		"Taranrino2": "Ну тип того мужик. Розкажи ким будеш?",
 		"Taranrino3": "Та так, скучающий мужичок. Я тут з підліткового віку працюю, вот дивлюсь фільми й продаю кассети. Всю радянську класику передивився.",
-		"Taranrino4": "Була б моя воля й гроши, то катнув би я в Одессу в Академію Довженка. Там кіно знімають… Я даже історію написав под фільм, називається <<Скажені Пси>>.",
+		"Taranrino4": "Була б моя воля й гроши, то катнув би я в Одессу в Академію Довженка. Там кіно знімають…",
+		"Taranrino41": "Я даже історію написав под фільм, називається <<Скажені Пси>>.",
 		"Taranrino5": "А взагалі шо в тебе тут є з інтересного? Що глянуть можна?",
 		"Taranrino6": "Є много чого: комедії, агітки, мелодрами, і звісно… це історичні хроніки.",
 		"Taranrino7": "Можна комедії якісь? Шо в тебе є?",
@@ -698,7 +711,8 @@
 		"Naglyadach31": "Прям тут, в пяти метрах у обізянніка. Там де тобі й місце, урод.",
 		"Naglyadach4": "О, секунда статистики. Вот колишня каже, шо 5 хвилин то мало, а мені саме норм, но якось та договорилась й все прошло за 30 секунд.",
 		"Naglyadach41": "Я про драку коль чо, уроди. Не то про що ви подумали.",
-		"Naglyadach5": "О, м’ясник з Тухлянки і його прихвостень. Коли зробите мутню, а я вас ловить. А знаєте шо? Ви уже перед мною, то… Обично таких сразу луплю, мені, мусору можна.",
+		"Naglyadach5": "О, м’ясник з Тухлянки і його прихвостень. Коли зробите мутню, а я вас ловить. А знаєте шо?",
+		"Naglyadach51": "Ви уже перед мною, то… Обично таких сразу луплю, мені, мусору можна.",
 
 		"Dilnuchui1": "Угу.. я занят, йдіть кудась де-інде.",
 
@@ -732,11 +746,11 @@
 		"Barugi5": "Ми то лушпу продаєм й шарлатанів не вдаєм!",
 		"Barugi6": "Сударині й сударі купіть овощей, ви ж не ледарі!",
 
-		"Zooseler1": "Вох, не помню чи ви в нас були, але вітаю в нас. Вам шось підказати? В нас є все: корми та міні-зоопарк, із домашніх улюбленців привезених з Польщі.",
-		"Zooseler2": "Не помню, ми з вами тільки що не говорили? Якщо ні, то прошу в наш магазин. В нас широкий вибір все на ваш розсуд з послужним списком наших заслуг.",
-		"Zooseler3": "Повторіть ще раз, ще ви мали на увазі коли дзвонили вночі та говорили, шо я свинособака? Звучить весело.",
-		"Zooseler4": "Допоможіть мені. Кажуть що я не розумію жартів. Це правда?",
-		"Zooseler5": "Ну не то що зовсім не розумію, я не сприймаю їх як жарти. Я вірю у все що говориться. Із мене за це сміються.",
+		"Zooseller1": "Вох, не помню чи ви в нас були, але вітаю в нас. Вам шось підказати? В нас є все: корми та міні-зоопарк, із домашніх улюбленців привезених з Польщі.",
+		"Zooseller2": "Не помню, ми з вами тільки що не говорили? Якщо ні, то прошу в наш магазин. В нас широкий вибір все на ваш розсуд з послужним списком наших заслуг.",
+		"Zooseller3": "Повторіть ще раз, ще ви мали на увазі коли дзвонили вночі та говорили, шо я свинособака? Звучить весело.",
+		"Zooseller4": "Допоможіть мені. Кажуть що я не розумію жартів. Це правда?",
+		"Zooseller5": "Ну не то що зовсім не розумію, я не сприймаю їх як жарти. Я вірю у все що говориться. Із мене за це сміються.",
 
 		"Pulup_kalum1": "Народ молодой. Приймаю та продаю стеклотару. Ще є гарних пару сервізів. Кого цікавить підходьте.",
 		"Pulup_kalum1": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
@@ -797,7 +811,8 @@
 		"Stiopa14": "Закінчити ділог",
 		"Stiopa15": "Вибачаюсь, ми дещо забулись. Зараз повернемось.",
 
-		"Panku1": "Вот недавно пиздив я сектанта та всьо шо в нього було то книжка, тепер я знаю що суд немилосердний на того, хто не вчинив милосердя. Милосердя ставиться вище за суд.",
+		"Panku1": "Вот недавно пиздив я сектанта та всьо шо в нього було то книжка, тепер я знаю що суд немилосердний на того, хто не вчинив милосердя.",
+		"Panku11": "Милосердя ставиться вище за суд.",
 		"Panku2": "Другальок й бугайок, давай посчитай буйок? Кошель на стіл і звалюй. А то підеш с Мойсеєм болтать.",
 		"Panku3": "Шмирь, чо зиркі вилупив? Я як пальцями насажу й собственні поламаю? Лади? Не? Тоді нахер з пляжа.",
 		"Panku4": "Ех, опять очередному скучно живеться.",
@@ -849,7 +864,8 @@
 		"Kylak2": "Прийняти виклик",
 		"Kylak3": "Відмовитись",
 
-		"Aperkot1": "Бля, все одно кажись я десь тебе бачив. Та ладно, проїхали. Короче, в нас тут груши, арена й потрібний тобі інвентар. Всєгда рад побачить нових людей тут.",
+		"Aperkot1": "Бля, все одно кажись я десь тебе бачив. Та ладно, проїхали. Короче, в нас тут груши, арена й потрібний тобі інвентар.",
+		"Aperkot11": "Всєгда рад побачить нових людей тут.",
 		"Aperkot2": "Що, не можеш знайти перчатки? Виходь на арену, їх тобі одразу й дадуть.",
 		"Aperkot3": "Чого плутаєшся під ногами. Ти або йди, або тренуйся.",
 		"Aperkot4": "Не заважай уж мені, коль сам нічим не занят…",
@@ -880,7 +896,8 @@
 		"Schoolman5": "Дяді, ви схожі на Льоліка й Боліка. Мультик такий.",
 
 		"Skinhead1": "Брава нація має розквікнуть, но для цього треба інші спалить. Їх попіл стане добривом для нас.",
-		"Skinhead2": "Як можна розвивать місто поки при владі досі комуністи? Додолу червоні окови! Зносьте ідоли, що стоять у містах та ставте на їх місцях героїв!",
+		"Skinhead2": "Як можна розвивать місто поки при владі досі комуністи? Додолу червоні окови!",
+		"Skinhead21": "Зносьте ідоли, що стоять у містах та ставте на їх місцях героїв!",
 		"Skinhead3": "Наший рух то не сенс життя, а плацдарм для майбутнього безбідного існування.",
 		"Skinhead31":"Не ставили палки в колеса й не сприймали як сміття, то й може б чого і добились. Приходиться з наркоманами зживаться.",
 		"Skinhead4": "Різність культур веде лиш до розгалуження та втрати своєї ідентичності. Введем же курс спільний та викорчуємо чужерідні!",
@@ -918,7 +935,7 @@
 		"Myzukantu33": "Вот би був зараз коммунізм, то ви були б куркулями. А то куда це нас привело? Все щось стоїть. А ціну кожному дають дядьки, а не люд.",
 		"Myzukantu34": "Ви працюєте на когось, а не ради себе. Того раби. Підтримали би молодих музикантів, ми би донесли своє бачення світу. А з такими як ви, він буде горіти.",
 		"Myzukantu35": "За таке гріх не кинути гроші. Граєте доволі жваво. Ціни нема композитору вашому.",
-		"Myzukantu41":"Дякую велике. Да хай майорить над вами флаг красних надєжд."
+		"Myzukantu41": "Дякую велике. Да хай майорить над вами флаг красних надєжд."
 
 }
 }

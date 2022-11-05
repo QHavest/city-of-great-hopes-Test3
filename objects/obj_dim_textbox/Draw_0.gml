@@ -220,7 +220,7 @@ if draw_char < text_length[page] {
 			{
 					var sec = cam_w/3; 
 					var _o_w = sec - o_b*2;
-					X_op[0]=cam_x + cam_w/2-sec/2 +o_b;     X_op[1]=midle_x + cam_w/2-sec/2 +o_b;
+					X_op[0]=cam_x + sec/2 -o_b;     X_op[1]=cam_x + sec*2 - sec/2 - o_b;
 					
 					X_op[2]=cam_x + sec*0 + o_b; X_op[3]=cam_x + sec*1 + o_b;  X_op[4]=cam_x + sec*2 + o_b
 					
