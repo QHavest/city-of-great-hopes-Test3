@@ -4,6 +4,7 @@ function scr_game_text(_text_id){
 	switch (_text_id)
 	{
 // вокзал		
+// text test
 #region (Cherka)
 case "Cherka":
 	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),2,spr_ic_Krus,spr_ic_cher);
