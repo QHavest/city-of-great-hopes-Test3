@@ -22,7 +22,7 @@ if (global.map)
 }
 else
 {
-	if (but_map) 
+	if but_map and place_meeting(x,y,obj_dim_player1) 
 	{	target_rm = room;
 		target_x = obj_dim_player1.x;
 		target_y = obj_dim_player1.y;
