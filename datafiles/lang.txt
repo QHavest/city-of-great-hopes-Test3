@@ -312,6 +312,7 @@
 		"larusa1": "Good day, young people. Do you already know what will take?",
 		"larusa11": "Selection, God bless, here's a radio, a tape recorder, maybe a cassette player? Think about it.",
 		"larusa2": "View the product",
+		"larusa22": "We did not come for items.",
 		"larusa3": "А. Stew told something?",
 		"larusa4": "You about what?",
 		"larusa5": "Nevermind.",
@@ -781,7 +782,8 @@
 
 		"larusa1": "Добрий день люди молоді. Вже знаєте шо брать будем?",
 		"larusa11": "Виборка, дай Боже, один мужик дбає про це, вот радіо, антени, може касетник? Подумайте.",
-		"larusa2": "Ми пришли не за технікою.",
+		"larusa2": "Переглянути товари",
+		"larusa22": "Ми пришли не за технікою.",
 		"larusa3": "А. Шось Тушонка передавав?",
 		"larusa4": "Ви про шо?",
 		"larusa5": "Ой, не важно.",
