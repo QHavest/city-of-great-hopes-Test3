@@ -154,7 +154,7 @@ if global.zn_Gog = 0
 		scr_option(scr_json_lang(global.LANGUAGE,"Gog4"),"by_beckery");
 }
 else{
-	scr_text(scr_json_lang(global.LANGUAGE,"Gog2"),2,spr_ic_Krus,spr_ic_Gogi);
+	scr_text(scr_json_lang(global.LANGUAGE,"Gog2"),2,spr_ic_Ytopurok,spr_ic_Gogi);
 	scr_option(scr_json_lang(global.LANGUAGE,"Gog5"),"speak_gog");
 	scr_option(scr_json_lang(global.LANGUAGE,"Gog6"),"speak_gog");
 }
@@ -196,7 +196,6 @@ global.shop = true;
 #endregion
 #region (Yana)
 case "Yana":
-
 	scr_text(scr_json_lang(global.LANGUAGE,"Yana0"),2,spr_ic_Krus,spr_ic_Yana);
 	if global.zn_Yana = false
 {	global.zn_Yana = true
@@ -208,7 +207,9 @@ case "Yana":
 		scr_option(scr_json_lang(global.LANGUAGE,"Yana4"), "4");
 	break
 		case "bying_Yana":
-			scr_text("BY_IT",1,spr_ic_Krus,spr_ic_Yana);
+		instance_create_depth(obj_dim_player1.x,90,-9999,obj_tryKalynky)
+obj_tryKalynky.shopOpen = true;
+global.shop = true;
 	// скрипт покупокупок
 		break
 	
@@ -256,7 +257,9 @@ case "Souvenir":
 		scr_option(scr_json_lang(global.LANGUAGE,"sovenir5"),"4")
 		
 		case "by_souvenir":
-//ЗАПУСК ПОКУПОК!
+		instance_create_depth(obj_dim_player1.x,90,-9999,obj_suvenirnyi)
+obj_suvenirnyi.shopOpen = true;
+global.shop = true;
 		break
 break
 #endregion
@@ -384,7 +387,10 @@ case ("Ninel"):
 	
 break
 	case("ninel_maga"):
-	// magazine
+	instance_create_depth(obj_dim_player1.x,90,-9999,obj_food_shop)
+obj_food_shop.shopOpen = true;
+global.shop = true;
+// magazine
 	break
 	
 #endregion
@@ -446,7 +452,7 @@ case "film1":
 scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad7"),2,spr_ic_Krus,spr_ic_docha_alada);
 break
 #endregion
-#region (Byfet)
+#region		(Byfet)
 case"Byfet":
 scr_text (scr_json_lang(global.LANGUAGE,"Bufet1"),2,spr_ic_Krus,spr_ic_bufet);
 				scr_option(scr_json_lang(global.LANGUAGE,"Bufet2"),"by_in_byfet");
@@ -491,7 +497,9 @@ scr_text (scr_json_lang(global.LANGUAGE,"Stalova_kasa2"),2,spr_ic_Krus,spr_ic_St
 				scr_option(scr_json_lang(global.LANGUAGE,"Stalova_kasa4"),"4");
 break
 case "by_in_center_byfet":
-//відкриття бувфеу
+instance_create_depth(obj_dim_player1.x,90,-9999,obj_stolovka)
+obj_stolovka.shopOpen = true;
+global.shop = true;//відкриття бувфеу
 break
 #endregion
 #region(Kylt_kasa)
@@ -737,11 +745,21 @@ switch(irandom_range(1,5)){
 case"larusa":
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa1"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa11"),2,spr_ic_Krus,spr_ic_Shmuga);
+		scr_option(scr_json_lang(global.LANGUAGE,"larusa2"),"By_larusa");
+		scr_option(scr_json_lang(global.LANGUAGE,"larusa22"),"Ref_larusa")
+break
+case "Ref_larusa":
+	scr_text(scr_json_lang(global.LANGUAGE,"larusa11"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa2"),1,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa3"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa4"),1,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa5"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa6"),1,spr_ic_Krus,spr_ic_Shmuga);
+break
+case"By_larusa":
+	instance_create_depth(obj_dim_player1.x,90,-9999,obj_technic)
+	obj_technic.shopOpen = true;
+	global.shop = true;
 break
 #endregion
 #region(Panton)
@@ -752,6 +770,9 @@ scr_text(scr_json_lang(global.LANGUAGE,"Panton1"),2,spr_ic_Krus,spr_ic_Platon);
 break
 	case"pant_prod":
 	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon);
+	instance_create_depth(obj_dim_player1.x,90,-9999,obj_furniture)
+	obj_furniture.shopOpen = true;
+	global.shop = true;
 	// OPEN MAGAZ
 	break
 	case"pant_nicho":
@@ -782,6 +803,10 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),1,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
+	
+	instance_create_depth(obj_dim_player1.x,90,-9999,obj_fishery)
+	obj_fishery.shopOpen = true;
+	global.shop = true;
 	// відкриття магазину!!!
 	break
 	case"Kinec_Stiopa":
@@ -809,7 +834,6 @@ switch(irandom_range(1,5)){
 }	
 break
 #endregion
-
 
 // Тухлянка
 #region (Children)
@@ -962,6 +986,9 @@ case"Tamara":
 		scr_option(scr_json_lang(global.LANGUAGE,"Tamara3"),"4");
 break
 case "By_Tamara":
+	instance_create_depth(obj_dim_player1.x,90,-9999,obj_food_shop)
+	obj_food_shop.shopOpen = true;
+	global.shop = true;
 // MAGAZ GONU 
 break
 #endregion
@@ -1119,28 +1146,7 @@ break
 		case"M_give_money":
 		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu41"),2,spr_ic_Krus,spr_ic_sekta_5);
 		break
-#endregion	
-
-
-#region (scena 6)
-case "scena_6":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena61"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena62"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena63"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena64"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena65"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena66"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena67"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena68"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena69"),1,spr_ic_Krus,spr_ic_Ytopurok);
-    scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
-	obj_manager.pause = false;
-	obj_manager.play = true;
-//  scr_text ("Привіт1!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_text ("Привіт2!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_text ("Привіт3!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_option("Закінчити", "4");
-break;
+		
 
 #endregion
 

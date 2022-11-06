@@ -5,7 +5,8 @@ collisionSpeed = 4;
 lastmove = 0
 //налаштування перемикання між персонажами 
 playernum = 2;
-status = STATUS.PASSIVE
+status = STATUS.PASSIVE;
+sprit="Krus";
 
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/

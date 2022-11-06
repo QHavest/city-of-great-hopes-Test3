@@ -1,10 +1,12 @@
 global.money = 10;
+global.dialog_end = 1;
 scr_Znaiomstvo();
 mask_index = sprite_index;
 walkspd = 4;
 runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
+sprit = "Ytopurok"
 
 //налаштування перемикання між персонажами 
 playernum = 1;

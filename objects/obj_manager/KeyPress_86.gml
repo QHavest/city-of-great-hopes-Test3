@@ -8,10 +8,8 @@ var _objInst5 = instance_find(obj_garage_4,0);
 var _sequence = seq_scena6;
 var _layerName = "Instances_obj";
 
-global.shop = true;
-
- seq1 = layer_sequence_create(_layerName, 0,0, _sequence);
-var _seqInst = layer_sequence_get_instance(seq1);
+ _seqElm = layer_sequence_create(_layerName, 0,0, _sequence);
+var _seqInst = layer_sequence_get_instance(_seqElm);
 
 sequence_instance_override_object(_seqInst, obj_dim_player1,  _playerInst);
 sequence_instance_override_object(_seqInst, obj_dim_player2,  _playerInst2);
