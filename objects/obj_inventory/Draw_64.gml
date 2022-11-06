@@ -7,6 +7,8 @@ draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 draw_text_color(inv_UI_x_closed + 168, info_money_y, string(global.money), 1,1,1,1,1);
 
+	
+
 #region
 var ii, ix, iy, xx, yy, iitem, inv_grid, sx, sy;
 ii = 0; ix = 0; iy = 0; inv_grid = global.ds_inventory;

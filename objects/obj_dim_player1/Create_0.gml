@@ -13,11 +13,7 @@ ACTIVE,
 PASSIVE,
 }
 
-/*sound = snd_rivalstation;
-audio_play_sound(sound,1,1);*/
-
 state=PLAYERSTATE.FREE;
-hitByAttack = ds_list_create();
 enum PLAYERSTATE{
 FREE,
 STAY

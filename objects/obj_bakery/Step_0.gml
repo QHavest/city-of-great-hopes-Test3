@@ -7,7 +7,7 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	}
 }
 
-if(shopOpen && keyboard_check_pressed(vk_escape) && keyboard_check_pressed(ord("Q"))){
+if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
 		shopOpen = false;
 		global.shop = false;
 		instance_destroy(obj_bakery);
