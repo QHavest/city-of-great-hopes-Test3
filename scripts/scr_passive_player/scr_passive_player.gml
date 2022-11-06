@@ -2,7 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_passive_player(){
 event_inherited();
-move = 0;
 if (!in_sequence){
 move     =  keyboard_check(vk_space);
 keyr     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
