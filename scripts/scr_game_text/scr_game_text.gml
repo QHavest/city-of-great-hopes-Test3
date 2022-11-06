@@ -452,7 +452,7 @@ case "film1":
 scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad7"),2,spr_ic_Krus,spr_ic_docha_alada);
 break
 #endregion
-#region		(Byfet)
+#region	(Byfet)
 case"Byfet":
 scr_text (scr_json_lang(global.LANGUAGE,"Bufet1"),2,spr_ic_Krus,spr_ic_bufet);
 				scr_option(scr_json_lang(global.LANGUAGE,"Bufet2"),"by_in_byfet");
@@ -750,7 +750,6 @@ case"larusa":
 break
 case "Ref_larusa":
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa11"),2,spr_ic_Krus,spr_ic_Shmuga);
-	scr_text(scr_json_lang(global.LANGUAGE,"larusa2"),1,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa3"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa4"),1,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa5"),2,spr_ic_Krus,spr_ic_Shmuga);

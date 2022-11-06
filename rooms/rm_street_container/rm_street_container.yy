@@ -38,6 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FCEEA56","properties":[],"isDnd":false,"objectId":{"name":"obj_truck_closeds","path":"objects/obj_truck_closeds/obj_truck_closeds.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2039.0,"y":219.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DB2F171","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":0.6875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1213.0,"y":231.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2EB549D1","properties":[],"isDnd":false,"objectId":{"name":"obj_orange2","path":"objects/obj_orange2/obj_orange2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1357.0,"y":255.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C0EC16B","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1008.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj_night","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D1E3B91","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":5.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":30.0,"y":243.0,},
@@ -113,6 +114,7 @@
     {"name":"inst_58545DA2","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_A773B67","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_2EB549D1","path":"rooms/rm_street_container/rm_street_container.yy",},
+    {"name":"inst_3C0EC16B","path":"rooms/rm_street_container/rm_street_container.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

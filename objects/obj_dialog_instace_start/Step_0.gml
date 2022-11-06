@@ -1,0 +1,1 @@
+if !place_meeting(x,y,obj_dim_player1) and start_counter=1 start_counter=0;

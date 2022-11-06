@@ -28,6 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69BF9159","properties":[],"isDnd":false,"objectId":{"name":"obj_sausage","path":"objects/obj_sausage/obj_sausage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":394.0,"y":53.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E1F1CC8","properties":[],"isDnd":false,"objectId":{"name":"obj_milk","path":"objects/obj_milk/obj_milk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":681.0,"y":53.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D2D4447","properties":[],"isDnd":false,"objectId":{"name":"obj_food_shop","path":"objects/obj_food_shop/obj_food_shop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_576D9240","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":354.0,"y":105.53061,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CE19AC","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.56,"scaleY":0.089999996,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":396.0,"y":117.5,},
@@ -50,6 +51,7 @@
     {"name":"inst_56A98025","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
     {"name":"inst_2C2B9A46","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
     {"name":"inst_5D2D4447","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
+    {"name":"inst_576D9240","path":"rooms/rm_okorochok_indoor/rm_okorochok_indoor.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

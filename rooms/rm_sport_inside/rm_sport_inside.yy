@@ -19,6 +19,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B302B60","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":-46.316853,"scaleX":0.060000002,"scaleY":0.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7.154665,"y":151.63841,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7104ED81","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.51,"scaleY":0.049999997,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.5,"y":178.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_159CE281","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":386.0,"y":143.63843,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4EDC9B07","properties":[],"isDnd":false,"objectId":{"name":"obj_dumbbell_sport2","path":"objects/obj_dumbbell_sport2/obj_dumbbell_sport2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":406.0,"y":111.0,},
@@ -62,6 +63,7 @@
     {"name":"inst_4937BA4B","path":"rooms/rm_sport_inside/rm_sport_inside.yy",},
     {"name":"inst_5B302B60","path":"rooms/rm_sport_inside/rm_sport_inside.yy",},
     {"name":"inst_7104ED81","path":"rooms/rm_sport_inside/rm_sport_inside.yy",},
+    {"name":"inst_159CE281","path":"rooms/rm_sport_inside/rm_sport_inside.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

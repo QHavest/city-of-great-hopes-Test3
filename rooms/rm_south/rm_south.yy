@@ -23,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B7B9C34","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.38,"scaleY":0.06,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":677.0,"y":179.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D870C93","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.09,"scaleY":0.27,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2243.5,"y":199.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C1C0BC","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.060000002,"scaleY":0.28,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6.0,"y":204.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F3B38FB","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj_night","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D7072D2","properties":[],"isDnd":false,"objectId":{"name":"obj_entrance_south_night2","path":"objects/obj_entrance_south_night2/obj_entrance_south_night2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":70.0,"y":140.0,},
@@ -185,6 +186,7 @@
     {"name":"inst_722E2C12","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_74465AC3","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_79FC6981","path":"rooms/rm_south/rm_south.yy",},
+    {"name":"inst_F3B38FB","path":"rooms/rm_south/rm_south.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
