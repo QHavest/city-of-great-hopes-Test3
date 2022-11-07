@@ -8,11 +8,11 @@ if event_data [? "event_type"] == "sequence event"
 		view_set_camera(4, camsi);
 		view_set_visible(4, true);
 		view_set_visible(2, false);*/
-		view_visible[1]= false;
+		/*view_visible[1]= false;
 		camera_destroy(view_camera[1]);
 		view_visible[4] = true;
 		var cams2 = camera_create_view(0, 0, 213, 120, 0, obj_krus_throw_pillow, -1, -1, 300, 50);
-		view_set_camera(4, cams2);
+		view_set_camera(4, cams2);*/
 		break;
 		
 		case "wakeup":
@@ -30,11 +30,11 @@ if event_data [? "event_type"] == "sequence event"
 		
 		case "Ytopur":
 		instance_destroy(obj_dim_textbox);
-		view_visible[4]= false;
+		/*view_visible[4]= false;
 		camera_destroy(view_camera[4]);
 		view_visible[5] = true;
 		var cams5 = camera_create_view(0, 0, 213, 120, 0, obj_dim_player2, -1, -1, 300, 50);
-		view_set_camera(5, cams5);
+		view_set_camera(5, cams5);*/
 		break;
 		
 		case "stops":

@@ -79,6 +79,7 @@
     {"id":{"name":"spr_komod","path":"sprites/spr_komod/spr_komod.yy",},"order":5,},
     {"id":{"name":"scr_dim_playerstate_free_krus_pillow","path":"scripts/scr_dim_playerstate_free_krus_pillow/scr_dim_playerstate_free_krus_pillow.yy",},"order":5,},
     {"id":{"name":"spr_chair2","path":"sprites/spr_chair2/spr_chair2.yy",},"order":5,},
+    {"id":{"name":"Sequence24","path":"sequences/Sequence24/Sequence24.yy",},"order":28,},
     {"id":{"name":"obj_kiosk","path":"objects/obj_kiosk/obj_kiosk.yy",},"order":6,},
     {"id":{"name":"sp_kalmar01","path":"sprites/sp_kalmar01/sp_kalmar01.yy",},"order":8,},
     {"id":{"name":"spr_sign_school_baby","path":"sprites/spr_sign_school_baby/spr_sign_school_baby.yy",},"order":10,},

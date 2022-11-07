@@ -7,8 +7,8 @@ var _objInst2 = instance_find(obj_mebli_gg_b,0);
 var _sequence = Sequence1;
 var _layerName = "Instances_obj";
 
- _seqElm = layer_sequence_create(_layerName, 0,0, _sequence);
-var _seqInst = layer_sequence_get_instance(_seqElm);
+ _seqElmi = layer_sequence_create(_layerName, 0,0, _sequence);
+var _seqInst = layer_sequence_get_instance(_seqElmi);
 
 sequence_instance_override_object(_seqInst,obj_dim_player1,  _playerInst)
 sequence_instance_override_object(_seqInst,obj_table_gg,  _objInst)
