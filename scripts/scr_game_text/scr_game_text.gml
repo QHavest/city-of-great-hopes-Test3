@@ -629,12 +629,6 @@ case "scena_6":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena68"),2,spr_ic_Krus,spr_ic_Ytopurok);
   scr_text(scr_json_lang(global.LANGUAGE,"Scena69"),1,spr_ic_Krus,spr_ic_Ytopurok);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
-	obj_manager.pause = false;
-	obj_manager.play = true;
-//  scr_text ("Привіт1!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_text ("Привіт2!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_text ("Привіт3!",2,spr_ic_Krus,spr_ic_Ytopurok);
-//  scr_option("Закінчити", "4");
 break;
 #endregion
 

@@ -1,2 +1,1 @@
 pause = false;
-play = false;
