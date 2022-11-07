@@ -60,15 +60,12 @@ kof_t = 0.8;
 vew_w = 1920;
 vew_h = 1080;
 
-// масив еомурів точок для телепортації
-spot_num[0]=1;
-spot_num[1]=2;
-spot_num[2]=3;
-spot_num[3]=3;
 
 // визначення розмірів карт районів
 //choice_w = sprite_get_width(spr_choice_circle);
 //choice_h = sprite_get_height(spr_choice_circle);
+
+
 b_w = sprite_get_width(spr_mp_Bazar);
 b_h = sprite_get_height(spr_mp_Bazar);
 r_w = sprite_get_width(spr_mp_Railway_station);
@@ -77,6 +74,7 @@ c_w = sprite_get_width(spr_mp_Center);
 c_h = sprite_get_height(spr_mp_Center);
 t_w = sprite_get_width(spr_mp_Tukhlyanka);
 t_h = sprite_get_height(spr_mp_Tukhlyanka);
+
 
 // обчислення відступу від країв камери
 bord_x_b = (vew_w - b_w*kof_b)/2 ;
@@ -104,23 +102,37 @@ pos_y[2] = 1344;
 pos_x[3] = 910;
 pos_y[3] = 665;
 
+if obj_mp_manager.Tax = 1{
+	
+	// при поїздці на таксі (виклик через таксофон)
+// масив кількості точок для телепортації
+spot_num[0]=1; // 2 точки телепортації для вокзалу (0 та 1)
+spot_num[1]=3; // 4 точки телепортації для Ринку
+spot_num[2]=3; // 4 точки телепортації для Центру 
+spot_num[3]=3; // 4 точки телепортації для Тухлянки
+
 // координати покажчиків телепортації для Вокзалу
 
 spot_x[0][0] = 632*kof_r + bord_x_r ;
 spot_y[0][0] = 538*kof_r + bord_y_r ;
-spot_x[1][0] = 521*kof_r + bord_x_r ;
-spot_y[1][0] = 328*kof_r + bord_y_r ;
+spot_x[1][0] = 243*kof_r + bord_x_r ;
+spot_y[1][0] = 285*kof_r + bord_y_r ;
 
+// кількість позицій показчиків для Вокзалу  -1 
+max_spot_n_r = 1 
 
 // координати покажчиків телепортації для Базару
 
-spot_x[0][1] = 420*kof_b + bord_x_b ;
-spot_y[0][1] = 642*kof_b + bord_y_b ;
-spot_x[1][1] = 738*kof_b + bord_x_b ;
-spot_y[1][1] = 592*kof_b + bord_y_b ;
-spot_x[2][1] = 420*kof_b + bord_x_b ;
-spot_y[2][1] = 280*kof_b + bord_y_b ;
-
+spot_x[0][1] = 285*kof_b + bord_x_b ;
+spot_y[0][1] = 830*kof_b + bord_y_b ;
+spot_x[1][1] = 380*kof_b + bord_x_b ;
+spot_y[1][1] = 580*kof_b + bord_y_b ;
+spot_x[2][1] = 380*kof_b + bord_x_b ;
+spot_y[2][1] = 320*kof_b + bord_y_b ;
+spot_x[3][1] = 730*kof_b + bord_x_b ;
+spot_y[3][1] = 380*kof_b + bord_y_b ;
+// кількість позицій показчиків для Базару  -1 
+max_spot_n_b = 3
 
 // координати покажчиків телепортації для Центру
 
@@ -130,44 +142,51 @@ spot_x[1][2] = 511*kof_c + bord_x_c ;
 spot_y[1][2] = 511*kof_c + bord_y_c ;
 spot_x[2][2] = 812*kof_c + bord_x_c ;
 spot_y[2][2] = 520*kof_c + bord_y_c ;
-spot_x[3][2] = 510*kof_c + bord_x_c ;
-spot_y[3][2] = 350*kof_c + bord_y_c ;
+spot_x[3][2] = 575*kof_c + bord_x_c ;
+spot_y[3][2] = 290*kof_c + bord_y_c ;
+// кількість позицій показчиків для центру  -1 
+max_spot_n_c = 3
 
 // координати покажчиків телепортації для Тухлянки
 
 spot_x[0][3] = 575*kof_t + bord_x_t ;
 spot_y[0][3] = 700*kof_t + bord_y_t ;
-spot_x[1][3] = 865*kof_t + bord_x_t ;
-spot_y[1][3] = 665*kof_t + bord_y_t ;
-spot_x[2][3] = 300*kof_t + bord_x_t ;
-spot_y[2][3] = 580*kof_t + bord_y_t ;
-spot_x[3][3] = 580*kof_t + bord_x_t ;
-spot_y[3][3] = 450*kof_t + bord_y_t ;
-
+spot_x[1][3] = 300*kof_t + bord_x_t ;
+spot_y[1][3] = 580*kof_t + bord_y_t ;
+spot_x[2][3] = 580*kof_t + bord_x_t ;
+spot_y[2][3] = 450*kof_t + bord_y_t ;
+spot_x[3][3] = 865*kof_t + bord_x_t ;
+spot_y[3][3] = 355*kof_t + bord_y_t ;
+// кількість позицій показчиків для Ne[kzyrb  -1 
+max_spot_n_t = 3
 
 // кімнати так координати для переміщень
-
 
 room_pos[0][0] = rm_street_first_side;
 player_x[0][0] = 1900;
 player_y[0][0] = 275;
 
 room_pos[1][0] = rm_street_second_side;
-player_x[1][0] = 1100
-player_y[1][0] = 265;
+player_x[1][0] = 3320
+player_y[1][0] = 270;
 
 
-room_pos[0][1] = rm_fish_and_bazaar;
-player_x[0][1] = 995;
-player_y[0][1] = 275;
+room_pos[0][1] = rm_street_container;
+player_x[0][1] = 1080
+player_y[0][1] = 270;
 
-room_pos[1][1] = rm_home_gg;
-player_x[1][1] = 1350
-player_y[1][1] = 270;
+room_pos[1][1] = rm_fish_and_bazaar;
+player_x[1][1] = 995;
+player_y[1][1] = 275;
 
 room_pos[2][1] = rm_street_magazine_tech_storage;
 player_x[2][1] = 900
 player_y[2][1] = 250;
+
+room_pos[3][1] = rm_home_gg;
+player_x[3][1] = 320
+player_y[3][1] = 250;
+
 
 room_pos[0][2] = rm_center_left;
 player_x[0][2] = 830;
@@ -182,24 +201,82 @@ player_x[2][2] = 1100
 player_y[2][2] = 280;
 
 room_pos[3][2] = rm_police;
-player_x[3][2] = 750
-player_y[3][2] = 275;
+player_x[3][2] = 300
+player_y[3][2] = 280;
 
 room_pos[0][3] = rm_south;
 player_x[0][3] = 1120;
 player_y[0][3] = 255;
 
-room_pos[1][3] = rm_school;
-player_x[1][3] = 1650
-player_y[1][3] = 245;
+room_pos[1][3] = rm_sport_centre;
+player_x[1][3] = 470
+player_y[1][3] = 255;
 
-room_pos[2][3] = rm_sport_centre;
-player_x[2][3] = 470
-player_y[2][3] = 255;
+room_pos[2][3] = rm_north;
+player_x[2][3] = 1050
+player_y[2][3] = 270;
 
-room_pos[3][3] = rm_north;
-player_x[3][3] = 1050
-player_y[3][3] = 270;
+room_pos[3][3] = rm_school;
+player_x[3][3] = 145;
+player_y[3][3] = 255;
+
+}
+else{
+	// кількість позицій показчиків для вибору варіанту переміщення (доступна кількість телепортацій на район)
+	max_spot_n_r = 0;
+	max_spot_n_c = 0;
+	max_spot_n_b = 0;
+	max_spot_n_t = 0;
+	
+	
+// при поїздці на маршрутці	
+spot_num[0]=0; // 1 точка телепортації для вокзалу 
+spot_num[1]=0; // 1 точка телепортації для Ринку
+spot_num[2]=0; // 1 точка телепортації для Центру 
+spot_num[3]=0; // 1 точка телепортації для Тухлянки
+
+
+// координати покажчиків телепортації для Вокзалу
+
+spot_x[0][0] = 243*kof_r + bord_x_r ;
+spot_y[0][0] = 285*kof_r + bord_y_r ;
+
+
+// координати покажчиків телепортації для Базару
+
+spot_x[0][1] = 730*kof_b + bord_x_b ;
+spot_y[0][1] = 380*kof_b + bord_y_b ;
+
+// координати покажчиків телепортації для Центру
+
+spot_x[0][2] = 575*kof_c + bord_x_c ;
+spot_y[0][2] = 290*kof_c + bord_y_c ;
+
+// координати покажчиків телепортації для Тухлянки
+
+spot_x[0][3] = 865*kof_t + bord_x_t ;
+spot_y[0][3] = 355*kof_t + bord_y_t ;
+
+room_pos[0][0] = rm_street_second_side;
+player_x[0][0] = 3320
+player_y[0][0] = 270;
+
+room_pos[0][1] = rm_home_gg;
+player_x[0][1] = 320
+player_y[0][1] = 250;
+
+room_pos[0][2] = rm_police;
+player_x[0][2] = 300
+player_y[0][2] = 280;
+
+room_pos[0][3] = rm_school;
+player_x[0][3] = 145;
+player_y[0][3] = 255;
+}
+
+
+
+
 
 sprite_index = imaga[pos];
 x = pos_x[pos];

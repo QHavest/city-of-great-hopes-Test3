@@ -130,7 +130,7 @@
 		"Ninel6":"What already? Well missed. Somehow I'll catch you and have a beer together or something...else",
 		"Ninel7":"Wanna drink together?",
 		"Ninel8":"Heh, something like that.",
-		"Ninel9":"Вип’єм?",
+		"Ninel9":"Wanna drink together?",
 		"Ninel10":"Oh yoh…",
 		"Ninel11":"I wish you feel good.",
 		"Ninel12":"Well, wanna buy something?",
@@ -283,7 +283,7 @@
 		"Zooseller5": "I don't take them as jokes. I believe in everything that was said. People laugh at me for this.",
 
 		"Pulup_kalum1": "Young people! I accept and sell glass. There are still a couple of good sets.",
-		"Pulup_kalum1": "Who is interested, come. I buy expensive, sell cheap! Glass! Dishes. Sell and buy!",
+		"Pulup_kalum2": "Who is interested, come. I buy expensive, sell cheap! Glass! Dishes. Sell and buy!",
 
 		"Zinki1": "Can't you see my baby? Ah... Children! Children!!!",
 		"Zinki2": "Oh... Who are you? You look suspicious! Pedophiles? Leave me alone!",
@@ -754,7 +754,7 @@
 		"Zooseller5": "Ну не то що зовсім не розумію, я не сприймаю їх як жарти. Я вірю у все що говориться. Із мене за це сміються.",
 
 		"Pulup_kalum1": "Народ молодой. Приймаю та продаю стеклотару. Ще є гарних пару сервізів. Кого цікавить підходьте.",
-		"Pulup_kalum1": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
+		"Pulup_kalum2": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
 
 		"Zinki1": "Ви не бачи мою малечу? Ах..Діти! Дітиии!!!",
 		"Zinki2": "Ох, ви… Ви хто? Якісь ви підозрілі? Педофіли? Залиште мене.",

@@ -654,8 +654,8 @@ break
 #endregion
 #region(Pulup_kalum)
 case"Pulup_kalum":
-scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Anton);
-scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Zoo_seller);
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
 break
 #endregion
 // жителі
@@ -749,7 +749,6 @@ case"larusa":
 		scr_option(scr_json_lang(global.LANGUAGE,"larusa22"),"Ref_larusa")
 break
 case "Ref_larusa":
-	scr_text(scr_json_lang(global.LANGUAGE,"larusa11"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa3"),2,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa4"),1,spr_ic_Krus,spr_ic_Shmuga);
 	scr_text(scr_json_lang(global.LANGUAGE,"larusa5"),2,spr_ic_Krus,spr_ic_Shmuga);

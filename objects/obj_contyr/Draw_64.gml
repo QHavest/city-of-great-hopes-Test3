@@ -4,22 +4,22 @@ if acepted_key
 	{
 		case 0 : draw_sprite_stretched(spr_mp_Railway_station,0,bord_x_r,bord_y_r,r_w*kof_r,r_h*kof_r);
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
-		spot = clamp(spot,0,1);		
+		spot = clamp(spot,0,max_spot_n_r);		
 		break;
 		
 		case 1 : draw_sprite_stretched(spr_mp_Bazar,0,bord_x_b,bord_y_b,b_w*kof_b,b_h*kof_b) 
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
-		spot = clamp(spot,0,2);
+		spot = clamp(spot,0,max_spot_n_b);
 		break;
 		
 		case 2 : draw_sprite_stretched(spr_mp_Center,0,bord_x_c,bord_y_c,c_w*kof_c,c_h*kof_c) 
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
-		spot = clamp(spot,0,3);
+		spot = clamp(spot,0,max_spot_n_c);
 		break;
 		
 		case 3 : draw_sprite_stretched(spr_mp_Tukhlyanka,0,bord_x_t,bord_y_t,t_w*kof_t,t_h*kof_t) 
 		spot += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);
-		spot = clamp(spot,0,3);
+		spot = clamp(spot,0,max_spot_n_t);
 		break;
 	}
 	//вивід вибраного місця для телепорту
@@ -28,7 +28,7 @@ if acepted_key
 	for (var i=0; i<=spot_num[pos]; i++;)
 	{	
 		if (i!=spot)
-		draw_sprite_ext(spr_choice_circle,0,spot_x[i][pos],spot_y[i][pos],1,1,0,c_grey,1);
+		draw_sprite_ext(spr_choice_circle,0,spot_x[i][pos],spot_y[i][pos],0.8,0.8,0,c_white,1);
 	}
 	if keyboard_check_pressed(vk_escape) acepted_key=0;
 	}
