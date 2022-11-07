@@ -23,7 +23,7 @@ if event_data [? "event_type"] == "sequence event"
 		
 		case "pause":
 	//	layer_sequence_pause(_seqElms);
-		instance_destroy(obj_dim_textbox);
+		//instance_destroy(obj_dim_textbox);
 		scr_create_textbox("Krus_day3");
 		//layer_sequence_play(_seqElms);
 		break;

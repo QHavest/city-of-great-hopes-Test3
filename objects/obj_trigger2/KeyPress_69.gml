@@ -1,4 +1,4 @@
-var _playerInst3 = instance_find(obj_dim_player2_cut,0);
+/*var _playerInst3 = instance_find(obj_dim_player2_cut,0);
 //var _objInst = instance_find(obj_table_gg,0);
 var _objInst1 = instance_find(obj_mebli_gg_b,0);
 
