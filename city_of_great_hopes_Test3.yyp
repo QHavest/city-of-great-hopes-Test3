@@ -509,6 +509,7 @@
     {"id":{"name":"spr_home_podjezd_night1","path":"sprites/spr_home_podjezd_night1/spr_home_podjezd_night1.yy",},"order":2,},
     {"id":{"name":"sp_lula_kebap","path":"sprites/sp_lula_kebap/sp_lula_kebap.yy",},"order":5,},
     {"id":{"name":"spr_reception","path":"sprites/spr_reception/spr_reception.yy",},"order":0,},
+    {"id":{"name":"spr_textbox2","path":"sprites/spr_textbox2/spr_textbox2.yy",},"order":13,},
     {"id":{"name":"obj_woi_invisible_dumb_right","path":"objects/obj_woi_invisible_dumb_right/obj_woi_invisible_dumb_right.yy",},"order":7,},
     {"id":{"name":"obj_woi_invisible_center_enter","path":"objects/obj_woi_invisible_center_enter/obj_woi_invisible_center_enter.yy",},"order":19,},
     {"id":{"name":"sp_pylosos","path":"sprites/sp_pylosos/sp_pylosos.yy",},"order":3,},
