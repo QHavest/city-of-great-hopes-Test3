@@ -20,7 +20,7 @@ if event_data [? "event_type"] == "sequence event"
 		camera_destroy(view_camera[1]);
 		
 		view_visible[4] = true;
-		cams = camera_create_view(0,0, 213, 120, 0, obj_krus_throw_pillow, -1, -1, 300, 50);
+		cams = camera_create_view(0,0, 213, 120, 0, obj_krus_throw_pillow, -1, -1, -100, 50);
 		view_set_camera(4, cams);
 		break;
 	
