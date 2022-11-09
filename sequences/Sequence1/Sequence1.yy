@@ -3,7 +3,7 @@
   "resourceVersion": "1.4",
   "name": "Sequence1",
   "spriteId": null,
-  "timeUnits": 1,
+  "timeUnits": 0,
   "playback": 0,
   "playbackSpeed": 5.0,
   "playbackSpeedType": 0,

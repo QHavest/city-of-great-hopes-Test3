@@ -7,7 +7,7 @@
     "path": "sprites/spr_krus_throw_pillow0/spr_krus_throw_pillow0.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
