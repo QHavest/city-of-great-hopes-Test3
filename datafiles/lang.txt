@@ -395,7 +395,7 @@
 		"Kylak2": "Accept the challenge",
 		"Kylak3": "Refuse",
 
-		"Aperkot1": "Shit,  I saw you somewhere. Okay, let's go. In short,  we have punching bags, a ring, and the equipment you need.",
+		"Aperkot1": "Shit, I saw you somewhere. Okay, let's go. In short, we have punching bags, a ring, and the equipment you need.",
 		"Aperkot11": "Always glad to see new people here.",
 		"Aperkot2": "What, can't find gloves? Go to the ring, they'll give you it immediately.",
 		"Aperkot3": "Why are you confused under my feet? You either go or train.",
