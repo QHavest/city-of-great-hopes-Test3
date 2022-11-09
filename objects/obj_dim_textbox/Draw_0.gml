@@ -297,13 +297,13 @@ draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border + (20*ico_scale), textbox
 draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
 	if speaker[page] == 1 // ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2, txt_y,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
 	}
 	if speaker[page] == 2 // не ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y,ico_scale,ico_scale,0,c_gray,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2, txt_y,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
