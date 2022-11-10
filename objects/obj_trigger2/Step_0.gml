@@ -1,4 +1,4 @@
-if place_meeting(x, y, obj_dim_player2_cut)
+/*if place_meeting(x, y, obj_dim_player2_cut)
 {
 		view_visible[1]= false;
 		camera_destroy(view_camera[1]);
@@ -11,7 +11,7 @@ if place_meeting(x, y, obj_dim_player2_cut)
 		
 		 cams1 = camera_create_view(0, 0, 213, 120, 0, obj_dim_player2_cut,-1, -1,300);
 		view_set_camera(1, cams1);
-		}
+		}*/
 if(pause == true)
 {
   layer_sequence_pause(_seqElms);

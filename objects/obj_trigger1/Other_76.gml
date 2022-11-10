@@ -34,8 +34,8 @@ if event_data [? "event_type"] == "sequence event"
 		view_visible[3]= false;
 		camera_destroy(view_camera[3]);
 		view_visible[1] = true;
-		var cams1 = camera_create_view(0, 0, 213, 120, 0, obj_dim_player2_cut, -1, -1,300);
-		view_set_camera(1, cams1);
+		cams = camera_create_view(0, 0, 213, 120, 0, obj_dim_player2_cut, -1, -1,300);
+		view_set_camera(1, cams);
 	/*cams = camera_create_view(0, 0, 213, 120, 0, obj_dim_player2_cut, -1, -1, 300, 50);
 		view_set_camera(2, cams);
 		view_set_visible(2, true);
