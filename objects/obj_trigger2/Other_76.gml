@@ -26,6 +26,7 @@ if event_data [? "event_type"] == "sequence event"
 	
 		
 		case "wakeup":
+		pause = true;
 		scr_create_textbox("Krus_day2");
 		
 		break;
