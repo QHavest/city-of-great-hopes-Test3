@@ -23,6 +23,6 @@ STAY
 array_size = 15; 
 for(var i = array_size-1; i >= 0; i--){
 	posX[i] = x; 
-	posY[i] = y;		
+	posY[i] = y;
 }
 

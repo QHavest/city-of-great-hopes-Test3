@@ -10,38 +10,30 @@ keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
 keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"))
 }
-//keyr     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
-//keyl     =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
-//keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
-//keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
-//key_room_go = keyboard_check(ord("E"))
-
-//унаслідування координат гравця
-
 
 if (playernum == 2) {
 	//walk
-	if (move == 0) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 5, obj_invisiblewall);
+	if (move == 0 and distance_to_object(obj_dim_player1) > 20 ) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, obj_invisiblewall);
 	//run
-	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 10, obj_invisiblewall);
+	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, obj_invisiblewall);
 	//teleport
-	if (distance_to_object(obj_dim_player1) > 100)
-	{
-		x = obj_dim_player1.posX[10]
-		y = obj_dim_player1.posY[10]
-	}
+	//if (distance_to_object(obj_dim_player1) > 100)
+	//{
+	//	x = obj_dim_player1.posX[10]
+	//	y = obj_dim_player1.posY[10]
+	//}
 	}
 else if(playernum == 1){
 	//walk
-	if (move == 0) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 5, obj_invisiblewall);
+	if (move == 0 and distance_to_object(obj_dim_player2) > 20) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, obj_invisiblewall);
 	//run
-	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 10, obj_invisiblewall);
+	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, obj_invisiblewall);
 	//teleport
-	if (distance_to_object(obj_dim_player2) > 100)
-	{
-		x = obj_dim_player2.posX[10]
-		y = obj_dim_player2.posY[10]
-	}
+//	if (distance_to_object(obj_dim_player2) > 100)
+//	{
+//		x = obj_dim_player2.posX[10]
+//		y = obj_dim_player2.posY[10]
+//	}
 }
 
 }
