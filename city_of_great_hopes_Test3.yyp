@@ -1016,7 +1016,7 @@
     {"id":{"name":"obj_car_south_l","path":"objects/obj_car_south_l/obj_car_south_l.yy",},"order":2,},
     {"id":{"name":"sp_doner","path":"sprites/sp_doner/sp_doner.yy",},"order":4,},
     {"id":{"name":"obj_zoo_fox","path":"objects/obj_zoo_fox/obj_zoo_fox.yy",},"order":2,},
-    {"id":{"name":"spr_textbaox3","path":"sprites/spr_textbaox3/spr_textbaox3.yy",},"order":14,},
+    {"id":{"name":"spr_textbox3","path":"sprites/spr_textbox3/spr_textbox3.yy",},"order":14,},
     {"id":{"name":"spr_hastronom","path":"sprites/spr_hastronom/spr_hastronom.yy",},"order":20,},
     {"id":{"name":"snd_Bazar","path":"sounds/snd_Bazar/snd_Bazar.yy",},"order":5,},
     {"id":{"name":"obj_woi_invisible_curb","path":"objects/obj_woi_invisible_curb/obj_woi_invisible_curb.yy",},"order":4,},

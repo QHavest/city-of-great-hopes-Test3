@@ -14,7 +14,7 @@ line_sep = 2;
 // параметри вікна з текстом
 
 line_widt[0] = 0;
-txtb_sprite = spr_textbox;
+txtb_sprite = spr_textbox3;
 txtb_img = 0;
 txtb_img_spd = 6/30;
 color=c_black;
