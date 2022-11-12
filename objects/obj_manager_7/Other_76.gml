@@ -26,6 +26,12 @@ if event_data [? "event_type"] == "sequence event"
 	
 	break;
 	
+	case "dialog4":
+	pause = true;
+	scr_create_textbox("scena_7_4");
+	
+	break;
+	
     case "delete":
 	global.shop = false;
     layer_sequence_destroy(seq2);
