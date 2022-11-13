@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Sprites/Bazar/Day/Boxes.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
 }
