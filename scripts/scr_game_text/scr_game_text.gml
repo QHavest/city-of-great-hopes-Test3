@@ -1144,7 +1144,7 @@ break
 		case"M_give_money":
 		scr_text(scr_json_lang(global.LANGUAGE,"Myzukantu41"),2,spr_ic_Krus,spr_ic_sekta_5);
 		break
-		
+#endregion		
 
 #region (scena 6)
 case "scena_6":
