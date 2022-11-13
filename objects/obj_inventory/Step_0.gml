@@ -10,16 +10,16 @@ if (keyboard_check_pressed(ord("I"))){
 }
 
 if (show_inventory){
-inv_UI_x_closed = lerp(inv_UI_x_closed, inv_UI_x_opened_static, 0.1);
-inv_UI_x_opened = inv_UI_x_opened_static;
-slots_x = inv_UI_x_closed + (83 * scale);
+	inv_UI_x_closed = lerp(inv_UI_x_closed, inv_UI_x_opened_static, 0.1);
+	inv_UI_x_opened = inv_UI_x_opened_static;
+	slots_x = inv_UI_x_closed + (72 * scale);
 }
 
 if (!show_inventory || global.shop = true){
 	if(inv_UI_x_closed != inv_UI_x_closed_static){
 	inv_UI_x_closed = lerp(inv_UI_x_opened, inv_UI_x_closed_static, 0.1);
 	inv_UI_x_opened = inv_UI_x_closed;
-	slots_x = inv_UI_x_closed + (83 * scale);
+	slots_x = inv_UI_x_closed + (72 * scale);
 	}
 }
 

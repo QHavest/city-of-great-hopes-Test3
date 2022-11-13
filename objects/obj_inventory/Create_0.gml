@@ -9,8 +9,8 @@ spr_inv_items = spr_shopping_list;
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 
-inv_UI_w = 489;
-inv_UI_h = 721;
+inv_UI_w = 488;
+inv_UI_h = 700;
 
 inv_UI_y = (gui_H * 0.5) - (inv_UI_h * 0.5 * scale);
 
@@ -21,13 +21,12 @@ inv_UI_x_opened = (gui_W * 1) - (inv_UI_w * 1 * scale);
 inv_UI_x_closed_static = (gui_W * 1) - (inv_UI_w * 1 * scale) + 450;
 inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale);
 
-slots_x = inv_UI_x_closed_static;
-slots_y = inv_UI_y + (130 * scale);
+slots_x = inv_UI_x_closed_static + 30;
+slots_y = inv_UI_y + (105 * scale);
 
 //////////Info-Player
 
-info_money_x = inv_UI_x_opened + (168 * scale);
-info_money_y =  inv_UI_y + 65;
+info_money_y =  inv_UI_y + 42;
 
 #region
 //////////////column and rows(help im lost)
@@ -101,5 +100,8 @@ enum item{
 	diamantovyi_certificat = 52,
 	height				= 53,
 }
+
+global.ds_inventory[# 0, 0] = 1;
+global.ds_inventory[# 0, 1] = 1;
 	
 #endregion
