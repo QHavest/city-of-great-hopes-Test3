@@ -1,4 +1,3 @@
-
 old_font = draw_get_font();
 draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
@@ -310,4 +309,3 @@ for (var c=0; c<draw_char; c++)
 	draw_text_transformed_color(char_x[c, page], char_y[c, page], char[c, page], scale,scale,0,c_black,0,0,0,c_white);	
 
 draw_set_font(old_font);
-	

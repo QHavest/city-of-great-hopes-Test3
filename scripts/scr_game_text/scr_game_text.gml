@@ -1240,6 +1240,11 @@ case "Krus_day3":
 	scr_text("Вибачте!");
 break
 #endregion
+#region (Cutscene 3.1)
+case "Krus_day4":
+	scr_text("Вот же ведмідь…");
+break
+#endregion
 case "4":
 	
 	break

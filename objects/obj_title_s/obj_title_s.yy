@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_title_s",
   "spriteId": {
-    "name": "spr_title_s",
-    "path": "sprites/spr_title_s/spr_title_s.yy",
+    "name": "spr_title_animate",
+    "path": "sprites/spr_title_animate/spr_title_animate.yy",
   },
   "solid": false,
   "visible": true,
