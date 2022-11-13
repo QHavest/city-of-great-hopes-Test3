@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_days_4",
+    "path": "objects/obj_days_4/obj_days_4.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
