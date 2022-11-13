@@ -1,19 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_box_bicycle",
-  "spriteId": {
-    "name": "spr_box_bicycle",
-    "path": "sprites/spr_box_bicycle/spr_box_bicycle.yy",
-  },
+  "name": "obj_invisiblewall_10",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_days_7",
-    "path": "objects/obj_days_7/obj_days_7.yy",
+    "name": "obj_depth_system_10",
+    "path": "objects/obj_depth_system_10/obj_depth_system_10.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Objects/Bazar/Boxes.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
