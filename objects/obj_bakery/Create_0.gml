@@ -5,15 +5,15 @@ global.shop = false; // любий магазин відкритий?
 selected = 0;
 notselected = 0;
 
-//items to but
+//items to but [назва продукту, ціна, номер в enum]
 items_bakery = ds_list_create();
-ds_list_add(items_bakery, ["baton", 0.25]);
-ds_list_add(items_bakery, ["bulka_z_povidlom", 0.50]);
-ds_list_add(items_bakery, ["cukerochky", 0.30]);
-ds_list_add(items_bakery, ["keksiki", 0.10]);
-ds_list_add(items_bakery, ["ponchiki", 0.20]);
-ds_list_add(items_bakery, ["syrna_bulka", 0.40]);
-ds_list_add(items_bakery, ["zavarna_bulka", 0.35]);
+ds_list_add(items_bakery, ["baton", 0.25, 1]);
+ds_list_add(items_bakery, ["bulka_z_povidlom", 0.50, 2]);
+ds_list_add(items_bakery, ["cukerochky", 0.30, 3]);
+ds_list_add(items_bakery, ["keksiki", 0.10, 4]);
+ds_list_add(items_bakery, ["ponchiki", 0.20, 5]);
+ds_list_add(items_bakery, ["syrna_bulka", 0.40, 6]);
+ds_list_add(items_bakery, ["zavarna_bulka", 0.35, 7]);
 
 itemCount = ds_list_size(items_bakery)
 

@@ -133,7 +133,6 @@ function save_game(_fileNum = 0){
 	global.statData.save_2_y = obj_dim_player2.y;
 	global.statData.save_rm = room_get_name(room);
 	
-	global.statData.money = global.money;
 	
 	array_push(_saveArray, global.statData);
 	
@@ -168,8 +167,7 @@ function load_game(_fileNum = 0){
 	
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
-	
-	global.money = global.statData.money;
+
 	
 	//повертаємося до кімнати в якій збереглися
 	

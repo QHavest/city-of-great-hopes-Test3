@@ -109,7 +109,7 @@ if (esc_pau)
 	}
 } 
 else{
-if (esc_pau) and !global.map and global.shop
+if (esc_pau) and !global.map and !global.shop
 	{
 		global.pause = !global.pause;
 		inputting = false;
