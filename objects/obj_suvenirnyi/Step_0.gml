@@ -10,6 +10,7 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 if(shopOpen && keyboard_check_pressed(vk_escape)){
 		shopOpen = false;
 		global.shop = false;
+		instance_destroy(obj_suvenirnyi);
 }
 
 if(shopOpen){

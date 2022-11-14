@@ -286,21 +286,31 @@ for (var c=0; c<draw_char; c++){
 */
 #endregion
 // вивід рамок для іконок прерсонажів
-draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
-draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+//draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+//draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+
+//draw_sprite_ext(spr_textbox_big, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, (40*ico_scale+border*2+txtb_width)/sprite_get_width (spr_textbox_big), hi_txtb/txt_spr_h, 0, c_white, 1);
+
 	if speaker[page] == 1 // ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x + txtb_width, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x - (20*ico_scale)-border, textbox_y,(20*ico_scale+border)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale)-2, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
 	}
 	if speaker[page] == 2 // не ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x + txtb_width, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x - (20*ico_scale)-border, textbox_y,(20*ico_scale+border)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale)-2, txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
-
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x + txtb_width, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, txtb_x - (20*ico_scale)-border, textbox_y,(20*ico_scale+border)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale)-2, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 
 // вивід рамки під текст (щоб вона була перед рамками під іконки)
