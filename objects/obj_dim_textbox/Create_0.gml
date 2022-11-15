@@ -1,10 +1,9 @@
 depth=-99999;
-
+instance_create_depth(0,0,0,obj_pauser);
 
 Y_op = 0;
 cam_w = camera_get_view_width(view_camera[view_current]) ;
 cam_h = camera_get_view_height(view_camera[view_current]);
-cam_x = camera_get_view_x(view_camera[view_current]);
 cam_y = camera_get_view_y(view_camera[view_current]);
 
 border = 0.02*cam_w;
@@ -28,7 +27,6 @@ op_spr=0;
 op_sprh=0;
 op_sprw=0;
 
-font_for_math = for_normal;
 global.dialog_end = 0;
 
 // змінні для виводу тексту
@@ -47,15 +45,7 @@ setup = false;
  option_link_id[0] = -1;
  option_pos    = 0;
  option_number = 0;
-/*X_op[0]=cam_x+8;
-X_op[1]=cam_x+8;
-X_op[2]=cam_x+280;
-X_op[3]=cam_x+280;
-Y_op[0]=camera_get_view_y(view_camera[0])+240;
-Y_op[1]=camera_get_view_y(view_camera[0])+270;
-Y_op[2]=camera_get_view_y(view_camera[0])+240;
-Y_op[3]=camera_get_view_y(view_camera[0])+270;
-*/
+
 // змінні для координат букв
   char[0,0] ="";
 char_x[0,0] =0;
@@ -66,4 +56,3 @@ char_y[0,0] =0;
 // ефекти
 scr_set_defaults_for_text()
 last_free_space = 0;
-dialog_end = 0;
