@@ -48,8 +48,10 @@ char_y[0,0] =0;
 //maxi_x[0] = 0;
 //line_y[0][0]=0;
 //later_width[0]=0;
-// звукові ефекти
 
+// звукові ефекти
+snd_count=20;
+snd_delay = 20;
 
 
 scr_set_defaults_for_text()

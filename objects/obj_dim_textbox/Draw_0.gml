@@ -151,13 +151,12 @@ for(var p=0; p<page_number; p++)
 // друкування тексту
 if draw_char < text_length[page] 
 {
-
 	draw_char += text_spd;
 	draw_char = clamp(draw_char, 0, text_length[page]); // останнцй символ який виводиться в даний фрейм
-
-
+	if !audio_is_playing(snd_taping) audio_play_sound(snd_taping,5,false);
+	if audio_is_paused(snd_taping) audio_resume_sound(snd_taping)
 }
-
+else audio_pause_sound(snd_taping) 
 //  заповнення сторіник текстом + перелистування сторінки
 	if accept_key
 {
@@ -172,6 +171,7 @@ if draw_char < text_length[page]
 		//переключення гілки діалогу після вибору репліки
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
+			audio_play_sound(snd_op_accept,3,false);
 			}
 			else global.dialog_end = 1;
 			instance_destroy(obj_pauser);
@@ -193,6 +193,7 @@ if draw_char < text_length[page]
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
 		option_pos = clamp(option_pos, 0, option_number-1);
+		if keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_left) audio_play_sound(snd_search,2,false);
 
 	//var _op_border =5; //змінений відступ для варіантів
 	
