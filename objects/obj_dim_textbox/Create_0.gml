@@ -1,5 +1,5 @@
 depth=-99999;
-instance_create_depth(0,0,0,obj_pauser);
+//instance_create_depth(0,0,0,obj_pauser);
 
 Y_op = 0;
 cam_w = camera_get_view_width(view_camera[view_current]) ;
@@ -20,13 +20,6 @@ txtb_img = 0;
 txtb_img_spd = 6/30;
 color=c_black;
 
-op_sprite[1] = spr_textbox1;
-op_sprite[2] = spr_textbox2;
-op_sprite[3] = spr_textbox3;
-op_spr=0;
-op_sprh=0;
-op_sprw=0;
-
 global.dialog_end = 0;
 
 // змінні для виводу тексту
@@ -38,13 +31,15 @@ draw_char = 0;
 text_spd  = 0.8;
 setup = false;
 
-
  //  вибір реплік
  
  option[0]="";
  option_link_id[0] = -1;
  option_pos    = 0;
  option_number = 0;
+op_sprite[1] = spr_textbox1;
+op_sprite[2] = spr_textbox2;
+op_sprite[3] = spr_textbox3;
 
 // змінні для координат букв
   char[0,0] ="";
@@ -53,6 +48,8 @@ char_y[0,0] =0;
 //maxi_x[0] = 0;
 //line_y[0][0]=0;
 //later_width[0]=0;
-// ефекти
+// звукові ефекти
+
+
+
 scr_set_defaults_for_text()
-last_free_space = 0;

@@ -1,4 +1,3 @@
-
 old_font = draw_get_font();
 draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
@@ -7,7 +6,7 @@ accept_key=keyboard_check_pressed(vk_enter);
 if string_length(text[page]) == 0 
 {
 	global.dialog_end = 1;
-	instance_destroy(obj_pauser);
+//	instance_destroy(obj_pauser);
 	instance_destroy();
 }
 
@@ -150,9 +149,13 @@ for(var p=0; p<page_number; p++)
 //	draw_set_font(font_for_math)
 	
 // друкування тексту
-if draw_char < text_length[page] {
+if draw_char < text_length[page] 
+{
+
 	draw_char += text_spd;
 	draw_char = clamp(draw_char, 0, text_length[page]); // останнцй символ який виводиться в даний фрейм
+
+
 }
 
 //  заповнення сторіник текстом + перелистування сторінки
