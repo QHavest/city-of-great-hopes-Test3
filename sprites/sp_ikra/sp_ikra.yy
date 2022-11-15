@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Hastronom",
-    "path": "folders/Sprites/Shopping/Hastronom.yy",
+    "path": "folders/Sprites/Shopping_spr_UA/Hastronom.yy",
   },
 }

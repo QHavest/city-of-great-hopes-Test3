@@ -7,12 +7,12 @@ notselected = 0;
 
 //items to buy
 items_stolovka = ds_list_create();
-ds_list_add(items_stolovka, ["kavkazkiy_aromat", 0.80]);
-ds_list_add(items_stolovka, ["nostalgia", 0.60]);
-ds_list_add(items_stolovka, ["partiynyi_shyk", 0.99]);
-ds_list_add(items_stolovka, ["proletarskyi_hostinec", 0.50]);
-ds_list_add(items_stolovka, ["smak_dutunstva", 0.80]);
-ds_list_add(items_stolovka, ["studentskyi_nabir", 0.30]);
+ds_list_add(items_stolovka, ["kavkazkiy_aromat", 0.80, 32]);
+ds_list_add(items_stolovka, ["nostalgia", 0.60, 33]);
+ds_list_add(items_stolovka, ["partiynyi_shyk", 0.99, 34]);
+ds_list_add(items_stolovka, ["proletarskyi_hostinec", 0.50, 35]);
+ds_list_add(items_stolovka, ["smak_dutunstva", 0.80, 36]);
+ds_list_add(items_stolovka, ["studentskyi_nabir", 0.30, 37]);
 
 itemCount = ds_list_size(items_stolovka)
 

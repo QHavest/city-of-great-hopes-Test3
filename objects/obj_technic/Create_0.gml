@@ -6,11 +6,11 @@ notselected = 0;
 
 //items to but
 items_technic = ds_list_create();
-ds_list_add(items_technic, ["kasetnyk", 40]);
-ds_list_add(items_technic, ["mahnitofon", 100]);
-ds_list_add(items_technic, ["prohravach",50]);
-ds_list_add(items_technic, ["pylosos", 65]);
-ds_list_add(items_technic, ["radio", 35]);
+ds_list_add(items_technic, ["kasetnyk", 40, 43]);
+ds_list_add(items_technic, ["mahnitofon", 100, 44]);
+ds_list_add(items_technic, ["prohravach",50, 45]);
+ds_list_add(items_technic, ["pylosos", 65, 46]);
+ds_list_add(items_technic, ["radio", 35, 47]);
 
 itemCount = ds_list_size(items_technic)
 

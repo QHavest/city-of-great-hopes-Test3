@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Try_Kalynki",
-    "path": "folders/Sprites/Shopping/Try_Kalynki.yy",
+    "path": "folders/Sprites/Shopping_spr_UA/Try_Kalynki.yy",
   },
 }

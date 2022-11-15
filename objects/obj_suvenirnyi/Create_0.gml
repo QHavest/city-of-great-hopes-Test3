@@ -7,11 +7,11 @@ notselected = 0;
 
 //items to but
 items_suvenir = ds_list_create();
-ds_list_add(items_suvenir, ["bulava_hetmana", 10]);
-ds_list_add(items_suvenir, ["homunkul", 20]);
-ds_list_add(items_suvenir, ["kartyna_maestro", 15]);
-ds_list_add(items_suvenir, ["konyk_horbunok", 3]);
-ds_list_add(items_suvenir, ["ryba_pyla", 12]);
+ds_list_add(items_suvenir, ["bulava_hetmana", 10, 38]);
+ds_list_add(items_suvenir, ["homunkul", 20, 39]);
+ds_list_add(items_suvenir, ["kartyna_maestro", 15, 40]);
+ds_list_add(items_suvenir, ["konyk_horbunok", 3, 41]);
+ds_list_add(items_suvenir, ["ryba_pyla", 12, 42]);
 
 itemCount = ds_list_size(items_suvenir)
 

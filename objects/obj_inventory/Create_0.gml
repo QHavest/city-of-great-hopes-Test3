@@ -1,10 +1,11 @@
 global.money = 10;
 depth = -1;
 scale = 1;
-cell_size = 59;
+cell_size = 58;
 show_inventory = false;
 spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
+spr_frame = spr_frame_for_inventory;
 
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
@@ -24,6 +25,10 @@ inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale);
 slots_x = inv_UI_x_closed_static + 30;
 slots_y = inv_UI_y + (105 * scale);
 
+frame_x = inv_UI_x_closed_static + 30;
+frame_y = inv_UI_y + (105 * scale);
+frame_ii = 0;
+
 //////////Info-Player
 
 info_money_y =  inv_UI_y + 42;
@@ -34,7 +39,7 @@ spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
 spr_inv_items_rows = sprite_get_height(spr_inv_items)/cell_size;
 
 ///////////Slots
-buffer_btw_slots = 10; //кількість пікселів між слотами
+buffer_btw_slots = 12; //кількість пікселів між слотами
 
 inv_slots = 10;
 inv_slots_w = 5;
@@ -100,8 +105,5 @@ enum item{
 	diamantovyi_certificat = 52,
 	height				= 53,
 }
-
-global.ds_inventory[# 0, 0] = 1;
-global.ds_inventory[# 0, 1] = 1;
 	
 #endregion

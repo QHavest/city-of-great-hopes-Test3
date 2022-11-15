@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Bakery",
-    "path": "folders/Sprites/Shopping/Bakery.yy",
+    "path": "folders/Sprites/Shopping_spr_UA/Bakery.yy",
   },
 }

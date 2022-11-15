@@ -7,9 +7,9 @@ notselected = 0;
 
 //items to but
 items_shaurma = ds_list_create();
-ds_list_add(items_shaurma, ["doner", 0.50]);
-ds_list_add(items_shaurma, ["lula_kebap", 1]);
-ds_list_add(items_shaurma, ["shaurma", 0.75]);
+ds_list_add(items_shaurma, ["doner", 0.50, 29]);
+ds_list_add(items_shaurma, ["lula_kebap", 1, 30]);
+ds_list_add(items_shaurma, ["shaurma", 0.75, 31]);
 
 itemCount = ds_list_size(items_shaurma)
 
