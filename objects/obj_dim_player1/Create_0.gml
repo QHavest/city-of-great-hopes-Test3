@@ -1,4 +1,3 @@
-global.money = 10;
 global.dialog_end = 1;
 scr_Znaiomstvo();
 mask_index = sprite_index;

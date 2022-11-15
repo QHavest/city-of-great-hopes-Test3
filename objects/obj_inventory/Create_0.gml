@@ -5,6 +5,7 @@ cell_size = 58;
 show_inventory = false;
 spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
+spr_frame = spr_frame_for_inventory;
 
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
@@ -23,6 +24,10 @@ inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale);
 
 slots_x = inv_UI_x_closed_static + 30;
 slots_y = inv_UI_y + (105 * scale);
+
+frame_x = inv_UI_x_closed_static + 30;
+frame_y = inv_UI_y + (105 * scale);
+frame_ii = 0;
 
 //////////Info-Player
 

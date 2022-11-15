@@ -1005,6 +1005,7 @@
     {"id":{"name":"obj_curb_cinema","path":"objects/obj_curb_cinema/obj_curb_cinema.yy",},"order":4,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":1,},
     {"id":{"name":"sp_ikra","path":"sprites/sp_ikra/sp_ikra.yy",},"order":15,},
+    {"id":{"name":"spr_frame_for_inventory","path":"sprites/spr_frame_for_inventory/spr_frame_for_inventory.yy",},"order":3,},
     {"id":{"name":"obj_door_to_rival_station","path":"objects/obj_door_to_rival_station/obj_door_to_rival_station.yy",},"order":5,},
     {"id":{"name":"spr_dumb_rival2","path":"sprites/spr_dumb_rival2/spr_dumb_rival2.yy",},"order":11,},
     {"id":{"name":"spr_papyga_stay","path":"sprites/spr_papyga_stay/spr_papyga_stay.yy",},"order":6,},
