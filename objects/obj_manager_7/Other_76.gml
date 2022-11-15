@@ -38,6 +38,9 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
     case "delete":
+	obj_center_fontan.x = x1;
+	obj_center_fontan.y = y1;
+	//obj_center_goluby.depth = dep1;
 	view_set_camera(0, regCam1);
 	view_set_camera(1, regCam2);
 	global.shop = false;

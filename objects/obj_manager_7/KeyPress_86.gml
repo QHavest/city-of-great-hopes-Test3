@@ -1,3 +1,9 @@
+x1 = obj_center_fontan.x;
+y1 = obj_center_fontan.y;
+
+//dep1 = obj_center_goluby.depth;
+//obj_center_goluby.depth = 1000;
+
 var playerInst1 = instance_find(obj_dim_player1,0);
 var playerInst2 = instance_find(obj_dim_player2,0);
 var objInst1 = instance_find(obj_fountain,0);
