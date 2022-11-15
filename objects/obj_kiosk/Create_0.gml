@@ -7,11 +7,11 @@ notselected = 0;
 
 //items to but
 items_kiosk = ds_list_create();
-ds_list_add(items_kiosk, ["uholek", 0.25]);
-ds_list_add(items_kiosk, ["valet", 0.50]);
-ds_list_add(items_kiosk, ["towarysh", 0.30]);
-ds_list_add(items_kiosk, ["shwarc", 0.10]);
-ds_list_add(items_kiosk, ["pan_fedir", 0.20]);
+ds_list_add(items_kiosk, ["uholek", 0.25, 24]);
+ds_list_add(items_kiosk, ["valet", 0.50, 25]);
+ds_list_add(items_kiosk, ["towarysh", 0.30, 26]);
+ds_list_add(items_kiosk, ["shwarc", 0.10, 27]);
+ds_list_add(items_kiosk, ["pan_fedir", 0.20, 28]);
 
 itemCount = ds_list_size(items_kiosk)
 

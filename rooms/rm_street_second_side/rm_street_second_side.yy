@@ -63,7 +63,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_539D1281","properties":[],"isDnd":false,"objectId":{"name":"obj_suvenir","path":"objects/obj_suvenir/obj_suvenir.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":977.0,"y":190.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18C4234D","properties":[],"isDnd":false,"objectId":{"name":"obj_bicycle2","path":"objects/obj_bicycle2/obj_bicycle2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2743.0,"y":230.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5426176A","properties":[],"isDnd":false,"objectId":{"name":"obj_AfroYvasia_na","path":"objects/obj_AfroYvasia_na/obj_AfroYvasia_na.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3033.0,"y":247.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_667006DE","properties":[],"isDnd":false,"objectId":{"name":"obj_suvenirnyi","path":"objects/obj_suvenirnyi/obj_suvenirnyi.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":192.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CA92A0B","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.95000005,"scaleY":0.24000002,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.5,"y":219.0,},
@@ -139,7 +138,6 @@
     {"name":"inst_5426176A","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_333E8119","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_28953189","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_667006DE","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_E6CF072","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "inheritCreationOrder": false,

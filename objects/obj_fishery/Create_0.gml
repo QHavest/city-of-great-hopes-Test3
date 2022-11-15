@@ -7,13 +7,13 @@ notselected = 0;
 
 //items to but
 items_fishery = ds_list_create();
-ds_list_add(items_fishery, ["kalmar", 0.25]);
-ds_list_add(items_fishery, ["korop", 0.50]);
-ds_list_add(items_fishery, ["krab", 0.30]);
-ds_list_add(items_fishery, ["oseledec", 0.10]);
-ds_list_add(items_fishery, ["rybni_konservy", 0.20]);
-ds_list_add(items_fishery, ["shchuka", 0.40]);
-ds_list_add(items_fishery, ["vuhor", 0.35]);
+ds_list_add(items_fishery, ["kalmar", 0.25, 8]);
+ds_list_add(items_fishery, ["korop", 0.50, 9]);
+ds_list_add(items_fishery, ["krab", 0.30, 10]);
+ds_list_add(items_fishery, ["oseledec", 0.10, 11]);
+ds_list_add(items_fishery, ["rybni_konservy", 0.20, 12]);
+ds_list_add(items_fishery, ["shchuka", 0.40, 13]);
+ds_list_add(items_fishery, ["vuhor", 0.35, 14]);
 
 itemCount = ds_list_size(items_fishery)
 

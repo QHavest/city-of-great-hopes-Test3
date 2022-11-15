@@ -7,11 +7,6 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	}
 }
 
-if(shopOpen && keyboard_check_pressed(vk_escape)){
-		shopOpen = false;
-		global.shop = false;
-}
-
 if(shopOpen){
 	//To right
 	if(keyboard_check_pressed(ord("D")) ||  keyboard_check_pressed(vk_right)){
@@ -27,4 +22,27 @@ if(shopOpen){
 		if (selected < 0) selected = itemCount - 1;
 		if (notselected < 0) notselected = itemCount01 - 1;
 	}
+}
+
+//To buy
+var arr = items_kiosk[| selected];
+var item = arr[0]; var price = arr[1]; var item_num = arr[2];
+
+if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and shopOpen = true){
+	if(global.money >= price){
+		for (var i = 0; i < 11; i++)
+			if(global.ds_inventory[# 0, i] = 0){
+				global.ds_inventory[# 0, i] = item_num;
+				global.money -= price;
+				break;
+		}
+	}
+}
+
+if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+		shopOpen = false;
+		global.shop = false;
+		ds_list_destroy(items_kiosk);
+		ds_list_destroy(items_kiosk01);
+		instance_destroy(obj_kiosk);
 }

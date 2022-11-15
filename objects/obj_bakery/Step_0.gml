@@ -7,12 +7,6 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	}
 }
 
-if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
-		shopOpen = false;
-		global.shop = false;
-		instance_destroy(obj_bakery);
-}
-
 if(shopOpen){
 
 	//To right
@@ -32,7 +26,6 @@ if(shopOpen){
 }
 
 //To buy
-
 var arr = items_bakery[| selected];
 var item = arr[0]; var price = arr[1]; var item_num = arr[2];
 
@@ -45,4 +38,11 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 				break;
 		}
 	}
+}
+if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+		shopOpen = false;
+		global.shop = false;
+		ds_list_destroy(items_bakery);
+		ds_list_destroy(items_bakery01);
+		instance_destroy(obj_bakery);
 }
