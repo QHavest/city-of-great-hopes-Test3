@@ -8,6 +8,7 @@ cam_y = camera_get_view_y(view_camera[view_current]);
 
 border = 0.02*cam_w;
 o_b = border/2
+ic_b = 0.015*cam_w;
 
 line_hight = cam_h/25;
 scale = line_hight/110;
