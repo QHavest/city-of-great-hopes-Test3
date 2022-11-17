@@ -7,6 +7,8 @@ spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
 spr_frame = spr_frame_for_inventory;
 
+count_slot_pos = 1;
+
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 
