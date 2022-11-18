@@ -37,6 +37,23 @@ if event_data [? "event_type"] == "sequence event"
 	
 	break;
 	
+	case "dialog5":
+	//pause = true;
+	scr_create_textbox("scena_7_5");
+	
+	break;
+	
+	case "pause1":
+	pause = true;
+	
+	break;
+	
+	case "dialog6":
+	pause = true;
+	scr_create_textbox("scena_7_6");
+	
+	break;
+	
     case "delete":
 	obj_center_fontan.x = x1;
 	obj_center_fontan.y = y1;

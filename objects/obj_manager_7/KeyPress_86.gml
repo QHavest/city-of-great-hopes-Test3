@@ -14,6 +14,7 @@ var objInst5 = instance_find(obj_center_goluby,0);
 var objInst6 = instance_find(obj_right_lamp,0);
 var objInst7 = instance_find(obj_woi_invisible_wall2,0);
 var objInst8 = instance_find(obj_curb_right_hotel,0);
+var objInst9 = instance_find(obj_hotel,0);
 
 var sequence = seq_scena_7;
 var layerName = "Instances_obj";
@@ -33,3 +34,4 @@ sequence_instance_override_object(seqInst, obj_center_goluby,  objInst5);
 sequence_instance_override_object(seqInst, obj_right_lamp,  objInst6);
 sequence_instance_override_object(seqInst, obj_woi_invisible_wall2,  objInst7);
 sequence_instance_override_object(seqInst, obj_curb_right_hotel,  objInst8);
+sequence_instance_override_object(seqInst, obj_hotel,  objInst9);

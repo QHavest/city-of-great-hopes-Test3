@@ -1207,6 +1207,10 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena713"),2,spr_ic_Krus,spr_ic_Ytopurok
 scr_text(scr_json_lang(global.LANGUAGE,"Scena714"),2,spr_ic_Krus,spr_ic_Ytopurok);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena715"),2,spr_ic_Krus,spr_ic_Ytopurok);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena716"),2,spr_ic_Krus,spr_ic_Ytopurok);
+	
+break;
+
+case "scena_7_5":
 scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),2,spr_ic_Krus,spr_ic_Ytopurok);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena718"),"var1");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena719"),"var2");
@@ -1214,7 +1218,7 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),2,spr_ic_Krus,spr_ic_Ytopurok
 	
 break;
 
-case "var1":
+case "scena_7_6":
 scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
@@ -1225,25 +1229,25 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok
 	
 break;
 
-case "var2":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
-	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
+//case "var2":
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 	
-break;
+//break;
 
-case "var3":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
-	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
+//case "var3":
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
+//	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 #endregion
 
 #region (Cutscene 2)
