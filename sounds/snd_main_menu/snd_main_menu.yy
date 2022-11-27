@@ -4,7 +4,7 @@
   "name": "snd_main_menu",
   "conversionMode": 0,
   "compression": 3,
-  "volume": 0.0,
+  "volume": 0.23,
   "preload": false,
   "bitRate": 512,
   "sampleRate": 44100,
