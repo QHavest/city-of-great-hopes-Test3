@@ -164,10 +164,42 @@ if draw_char < text_length[page]
 {
 	draw_char += text_spd;
 	draw_char = clamp(draw_char, 0, text_length[page]); // останнцй символ який виводиться в даний фрейм
-	if !audio_is_playing(snd_taping) audio_play_sound(snd_taping,5,false);
-	if audio_is_paused(snd_taping) audio_resume_sound(snd_taping)
+	// звук друквання як загальна доріжка на фон тексту
+//	if !audio_is_playing(snd_taping) audio_play_sound(snd_taping,5,false);
+//	if audio_is_paused(snd_taping) audio_resume_sound(snd_taping)
+    //  під індивідуальні натиски
+	#region (manual_sound)
+if snd_count < snd_delay{
+	snd_count++;}
+	else{
+		//випадковий проміжок часу між натисканнями
+	snd_delay = irandom_range(2,5);
+	snd_count = 0;
+	//випадковий звук клавіші
+	switch (irandom_range(1,8))
+			{ 
+				case 1 : audio_play_sound(snd_klik_1,5,false);
+				break
+				case 2 : audio_play_sound(snd_klik_2,5,false);
+				break
+				case 3 : audio_play_sound(snd_klik_3,5,false);
+				break
+				case 4 : audio_play_sound(snd_klik_4,5,false);
+				break
+				case 5 : audio_play_sound(snd_klik_5,5,false);
+				break
+				case 6 : audio_play_sound(snd_klik_6,5,false);
+				break
+				case 7 : audio_play_sound(snd_klik_7,5,false);
+				break
+				case 8 : audio_play_sound(snd_klik_8,5,false);
+				break
+			}
+		}
+		#endregion
 }
-else audio_pause_sound(snd_taping) 
+//else audio_pause_sound(snd_taping) 
+
 //  заповнення сторіник текстом + перелистування сторінки
 	if accept_key
 {

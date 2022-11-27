@@ -51,8 +51,8 @@ char_y[0,0] =0;
 //later_width[0]=0;
 
 // звукові ефекти
-snd_count=20;
-snd_delay = 20;
+snd_count=4;
+snd_delay = 4;
 
 
 scr_set_defaults_for_text()

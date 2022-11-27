@@ -17,7 +17,7 @@
   "soundFile": "snd_op_accept.wav",
   "duration": 0.218753,
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Dialogs.yy",
+    "name": "Sounds",
+    "path": "folders/Dialogs/Sounds.yy",
   },
 }

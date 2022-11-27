@@ -17,7 +17,7 @@
   "soundFile": "snd_search.wav",
   "duration": 0.152948,
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Dialogs.yy",
+    "name": "Sounds",
+    "path": "folders/Dialogs/Sounds.yy",
   },
 }
