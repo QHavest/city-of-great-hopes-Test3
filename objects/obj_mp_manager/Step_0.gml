@@ -15,6 +15,7 @@ if (global.map)
 		obj_dim_player2.y = target_y;
 		obj_dim_player1.visible = 1;
 		obj_dim_player2.visible = 1;
+		//obj_inventory.visible = 1;
 		obj_dim_player1.state = PLAYERSTATE.FREE;
 	instance_activate_all();
 		// Снова включаем все объекты
@@ -23,7 +24,7 @@ if (global.map)
 }
 else
 {
-	if but_map and obj_mp_open.contact 
+	if but_map and global.contact
 	{	target_rm = room;
 		target_x = obj_dim_player1.x;
 		target_y = obj_dim_player1.y;
@@ -37,9 +38,11 @@ else
 		instance_activate_object(Settings);
 		instance_activate_object(obj_room_manager);
 		instance_activate_object(daycycle);
+		instance_activate_object(obj_inventory);
 		obj_dim_player1.state = PLAYERSTATE.STAY;
 		obj_dim_player1.visible = 0;
 		obj_dim_player2.visible = 0;
+		//obj_inventory.visible = 0;
 	}
 }
 

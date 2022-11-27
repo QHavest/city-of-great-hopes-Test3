@@ -1,1 +1,1 @@
-contact = 0;
+global.contact = 0;
