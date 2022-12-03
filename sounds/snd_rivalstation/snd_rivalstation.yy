@@ -17,7 +17,7 @@
   "soundFile": "snd_rivalstation.mp3",
   "duration": 166.00816,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Fon_snd",
+    "path": "folders/Sounds/Fon_snd.yy",
   },
 }
