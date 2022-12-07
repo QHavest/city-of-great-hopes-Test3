@@ -1,12 +1,14 @@
-if (global.map or global.pause or !global.dialog_end or global.shop){
+if (global.map or global.pause or !global.dialog_end or global.shop or global.diary){
 	inv_UI_x_closed = inv_UI_x_closed_static;
 	show_inventory = false;
+	slots_x = inv_UI_x_closed_static + (72 * scale);
+	frame_x = inv_UI_x_closed_static + (72 * scale);
 	exit;
 }
 
-if(keyboard_check_pressed(ord("I"))){
+if(keyboard_check_pressed(ord("I")) and alarm[0] < 40){
 	show_inventory = !show_inventory;
-	alarm[0] = 70;
+	alarm[0] = 60;
 }
 
 if (show_inventory){
@@ -23,6 +25,7 @@ if (!show_inventory){
 	frame_x = inv_UI_x_closed + (72 * scale);
 	frame_y = inv_UI_y + (105 * scale);
 	count_slot_pos = 0;
+	alarm[0] -= 1;
 	}
 }
 
