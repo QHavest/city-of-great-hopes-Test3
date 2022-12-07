@@ -13,6 +13,7 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog80":
 	scr_create_textbox("scena_8");
 	pause = true;
+	break;
 	
     case "delete":
 	//view_set_camera(0, regCam1);
