@@ -1250,6 +1250,35 @@ break;
 //	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 #endregion
 
+#region (scena 8)
+case "scena_8":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena81"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena82"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena83"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena84"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena85"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena86"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena87"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena88"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena89"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena810"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena811"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena812"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena813"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena814"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena815"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena816"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena817"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena818"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena819"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena820"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena821"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena822"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  //scr_text(scr_json_lang(global.LANGUAGE,"Scena823"),1,spr_ic_Krus,spr_ic_Ytopurok);
+    scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
+break;
+#endregion
+
 #region (Cutscene 2)
 case "Krus_day2":
 	scr_text("Соня, вставай!!!");
