@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Dialogue",
-    "path": "folders/Battle_system/Dialogue.yy",
+    "path": "folders/Battle_system/buttons/Dialogue.yy",
   },
 }
