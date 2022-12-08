@@ -415,6 +415,7 @@
     {"id":{"name":"sp_popsi","path":"sprites/sp_popsi/sp_popsi.yy",},"order":13,},
     {"id":{"name":"sp_sil","path":"sprites/sp_sil/sp_sil.yy",},"order":11,},
     {"id":{"name":"sp_shaurma_eng","path":"sprites/sp_shaurma_eng/sp_shaurma_eng.yy",},"order":5,},
+    {"id":{"name":"spr_center_right_night_back","path":"sprites/spr_center_right_night_back/spr_center_right_night_back.yy",},"order":5,},
     {"id":{"name":"sp_oseledec","path":"sprites/sp_oseledec/sp_oseledec.yy",},"order":6,},
     {"id":{"name":"sp_right_hover","path":"sprites/sp_right_hover/sp_right_hover.yy",},"order":2,},
     {"id":{"name":"spr_left_lamp","path":"sprites/spr_left_lamp/spr_left_lamp.yy",},"order":10,},
