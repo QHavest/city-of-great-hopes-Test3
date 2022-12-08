@@ -39,6 +39,7 @@ else
 		instance_activate_object(obj_room_manager);
 		instance_activate_object(daycycle);
 		instance_activate_object(obj_inventory);
+		instance_activate_object(music_room);
 		obj_dim_player1.state = PLAYERSTATE.STAY;
 		obj_dim_player1.visible = 0;
 		obj_dim_player2.visible = 0;
