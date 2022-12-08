@@ -1651,13 +1651,14 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"testing_room","path":"rooms/testing_room/testing_room.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"roomId":{"name":"rm_center","path":"rooms/rm_center/rm_center.yy",},},
     {"roomId":{"name":"rm_street_first_side","path":"rooms/rm_street_first_side/rm_street_first_side.yy",},},
     {"roomId":{"name":"rm_food_shop","path":"rooms/rm_food_shop/rm_food_shop.yy",},},
     {"roomId":{"name":"rm_indoor_rival_station","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},},
     {"roomId":{"name":"rm_street_second_side","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},},
     {"roomId":{"name":"rm_menu_settings","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},},
-    {"roomId":{"name":"rm_center","path":"rooms/rm_center/rm_center.yy",},},
     {"roomId":{"name":"rm_police","path":"rooms/rm_police/rm_police.yy",},},
     {"roomId":{"name":"rm_police_inside","path":"rooms/rm_police_inside/rm_police_inside.yy",},},
     {"roomId":{"name":"rm_police_inside_boss","path":"rooms/rm_police_inside_boss/rm_police_inside_boss.yy",},},
@@ -1710,7 +1711,6 @@
     {"roomId":{"name":"rm_home_gg_cut","path":"rooms/rm_home_gg_cut/rm_home_gg_cut.yy",},},
     {"roomId":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
     {"roomId":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
-    {"roomId":{"name":"testing_room","path":"rooms/testing_room/testing_room.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":8,},
