@@ -93,6 +93,6 @@
   },
   "parent": {
     "name": "Fishery",
-    "path": "folders/Sprites/Shopping_spr_UA/Fishery.yy",
+    "path": "folders/Shopping/Shopping_spr_UA/Fishery.yy",
   },
 }

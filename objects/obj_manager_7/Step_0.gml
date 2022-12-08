@@ -17,3 +17,7 @@ if(pause == true)
 
 //obj_dim_player2.x = obj_player_2_7.x;
 //obj_dim_player2.y = obj_player_2_7.y;}
+
+if(audio_sound_get_gain(snd_svust) <= 0) audio_stop_sound(snd_svust);
+
+if(audio_sound_get_gain(snd_mandarun) <= 0) audio_stop_sound(snd_mandarun);

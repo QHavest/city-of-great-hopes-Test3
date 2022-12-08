@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_seller_clothes",
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -13,7 +13,7 @@
   "bbox_left": 1,
   "bbox_right": 19,
   "bbox_top": 0,
-  "bbox_bottom": 51,
+  "bbox_bottom": 54,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -82,7 +82,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "Boxes",
+    "path": "folders/Sprites/Bazar/Day/Boxes.yy",
   },
 }
