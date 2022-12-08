@@ -29,3 +29,7 @@ if (x!= xprevious or y!= yprevious){
 	posX[0] = x;
 	posY[0] = y;
 }
+
+// Mazur
+
+audio_listener_set_position(0,x,y,0);

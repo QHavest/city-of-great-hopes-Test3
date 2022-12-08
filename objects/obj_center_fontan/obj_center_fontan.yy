@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_environment_sounds",
+    "path": "objects/obj_environment_sounds/obj_environment_sounds.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"useSound","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"objectId":{"name":"obj_environment_sounds","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"value":"snd_fountain",},
+  ],
   "parent": {
     "name": "Left",
     "path": "folders/Objects/Center/Left.yy",

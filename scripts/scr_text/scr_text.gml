@@ -5,6 +5,10 @@ line_break_offset[page_number]=0;
 speaker[page_number]=0;
 speaker1[page_number]=spr_ic_blank;
 speaker2[page_number]=spr_ic_blank;
+op_spr=0;
+op_sprh=0;
+op_sprw=0;
+last_free_space = 0;
 }
 
 

@@ -18,6 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18373CDC","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.46,"scaleY":0.04,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":338.0,"y":119.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E56569C","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_instace_start","path":"objects/obj_dialog_instace_start/obj_dialog_instace_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":97.0,"y":106.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3129EAFB","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":31.781689,"scaleX":0.25,"scaleY":2.3125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":388.0,"y":105.0,},
@@ -46,6 +47,7 @@
     {"name":"inst_1F276663","path":"rooms/rm_bibliotheka/rm_bibliotheka.yy",},
     {"name":"inst_3129EAFB","path":"rooms/rm_bibliotheka/rm_bibliotheka.yy",},
     {"name":"inst_18373CDC","path":"rooms/rm_bibliotheka/rm_bibliotheka.yy",},
+    {"name":"inst_5E56569C","path":"rooms/rm_bibliotheka/rm_bibliotheka.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
