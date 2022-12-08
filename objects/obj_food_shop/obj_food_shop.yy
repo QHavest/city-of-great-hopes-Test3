@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects shopping in UA",
-    "path": "folders/Shopping/objects shopping in UA.yy",
+    "name": "objects shopping",
+    "path": "folders/Shopping/objects shopping.yy",
   },
 }

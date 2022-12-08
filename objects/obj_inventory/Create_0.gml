@@ -7,6 +7,8 @@ spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
 spr_frame = spr_frame_for_inventory;
 
+count_slot_pos = 0;
+
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 
@@ -106,4 +108,7 @@ enum item{
 	height				= 53,
 }
 	
+global.ds_inventory[# 0, 1] = 1;
+global.ds_inventory[# 0, 9] = 2;
+
 #endregion

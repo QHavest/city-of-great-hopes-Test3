@@ -5,6 +5,7 @@ draw_set_font(Font_for_money)
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 draw_text_color(inv_UI_x_closed + 160, info_money_y, string(global.money), 1,1,1,1,1);
+draw_text_color(inv_UI_x_closed + 220, info_money_y, string(count_slot_pos), 1,1,1,1,1);
 
 
 #region(1)
