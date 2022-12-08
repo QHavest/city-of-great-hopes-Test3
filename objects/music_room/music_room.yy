@@ -4,7 +4,7 @@
   "name": "music_room",
   "spriteId": null,
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": true,
