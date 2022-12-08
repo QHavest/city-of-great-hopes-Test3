@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_culture_column_2",
+  "name": "obj_culture_column_1l",
   "spriteId": {
-    "name": "spr_column_2r",
-    "path": "sprites/spr_column_2r/spr_column_2r.yy",
+    "name": "spr_column_1",
+    "path": "sprites/spr_column_1/spr_column_1.yy",
   },
   "solid": true,
   "visible": true,
@@ -27,9 +27,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

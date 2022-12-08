@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_culture_column_2",
+  "name": "obj_culture_column_2l",
   "spriteId": {
-    "name": "spr_column_2r",
-    "path": "sprites/spr_column_2r/spr_column_2r.yy",
+    "name": "spr_column_2",
+    "path": "sprites/spr_column_2/spr_column_2.yy",
   },
   "solid": true,
   "visible": true,
