@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Status",
-    "path": "folders/Scripts/Status.yy",
+    "path": "folders/Players_obj/Status.yy",
   },
 }
