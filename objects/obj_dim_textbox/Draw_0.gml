@@ -6,6 +6,7 @@ accept_key=keyboard_check_pressed(vk_enter);
 if string_length(text[page]) == 0 
 {
 	global.dialog_end = 1;
+//	instance_destroy(obj_pauser);
 	instance_destroy();
 }
 
@@ -13,7 +14,7 @@ if string_length(text[page]) == 0
 if setup == false
 {
 	setup = true;
-	
+	cam_x = camera_get_view_x(view_camera[view_current]);
 	#region (if room_high...)
 /*
 	if room_height >=300 
@@ -61,7 +62,18 @@ if setup == false
 	txtb_x = midle_x - border - text_width/2
 	hi_txtb = (line_hight+line_sep)*4 + border*2 - line_sep;
 	ico_scale = (hi_txtb-border*2)/sprite_get_height(spr_ic_Ytopurok);
+	icobx1 = txtb_x - (20*ico_scale)-ic_b*2;
+	icobx2 = txtb_x + txtb_width;
 	
+	/* Змінні для розрахунків у великій кімнаті
+	cam_w = 425
+	text_width = 212.5
+	border = 8.5
+	line_hi = 9.6
+	line sep = 2
+	hi_txtb = 61.4
+	ico_scale = 52.9/20=2.65
+	*/
 	//цикл для "листання" сторінок,
 for(var p=0; p<page_number; p++)
 	{
@@ -148,10 +160,45 @@ for(var p=0; p<page_number; p++)
 //	draw_set_font(font_for_math)
 	
 // друкування тексту
-if draw_char < text_length[page] {
+if draw_char < text_length[page] 
+{
 	draw_char += text_spd;
 	draw_char = clamp(draw_char, 0, text_length[page]); // останнцй символ який виводиться в даний фрейм
+	// звук друквання як загальна доріжка на фон тексту
+//	if !audio_is_playing(snd_taping) audio_play_sound(snd_taping,5,false);
+//	if audio_is_paused(snd_taping) audio_resume_sound(snd_taping)
+    //  під індивідуальні натиски
+	#region (manual_sound)
+if snd_count < snd_delay{
+	snd_count++;}
+	else{
+		//випадковий проміжок часу між натисканнями
+	snd_delay = irandom_range(2,5);
+	snd_count = 0;
+	//випадковий звук клавіші
+	switch (irandom_range(1,8))
+			{ 
+				case 1 : audio_play_sound(snd_klik_1,5,false);
+				break
+				case 2 : audio_play_sound(snd_klik_2,5,false);
+				break
+				case 3 : audio_play_sound(snd_klik_3,5,false);
+				break
+				case 4 : audio_play_sound(snd_klik_4,5,false);
+				break
+				case 5 : audio_play_sound(snd_klik_5,5,false);
+				break
+				case 6 : audio_play_sound(snd_klik_6,5,false);
+				break
+				case 7 : audio_play_sound(snd_klik_7,5,false);
+				break
+				case 8 : audio_play_sound(snd_klik_8,5,false);
+				break
+			}
+		}
+		#endregion
 }
+//else audio_pause_sound(snd_taping) 
 
 //  заповнення сторіник текстом + перелистування сторінки
 	if accept_key
@@ -167,8 +214,10 @@ if draw_char < text_length[page] {
 		//переключення гілки діалогу після вибору репліки
 			if option_number>0{
 			scr_create_textbox(option_link_id[option_pos])	
+			audio_play_sound(snd_op_accept,3,false);
 			}
 			else global.dialog_end = 1;
+			instance_destroy(obj_pauser);
 			instance_destroy();}
 		}	
 	else {
@@ -187,6 +236,7 @@ if draw_char < text_length[page] {
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
 		option_pos = clamp(option_pos, 0, option_number-1);
+		if keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_left) audio_play_sound(snd_search,2,false);
 
 	//var _op_border =5; //змінений відступ для варіантів
 	
@@ -283,21 +333,31 @@ for (var c=0; c<draw_char; c++){
 */
 #endregion
 // вивід рамок для іконок прерсонажів
-draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
-draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+//draw_sprite_ext(txtb_sprite, txtb_img, txtb_x + border + (20*ico_scale), textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+//draw_sprite_ext(txtb_sprite, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, txtb_width/txt_spr_w, hi_txtb/txt_spr_h, 0, c_white, 1);
+
+//draw_sprite_ext(spr_textbox_big, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, (40*ico_scale+border*2+txtb_width)/sprite_get_width (spr_textbox_big), hi_txtb/txt_spr_h, 0, c_white, 1);
+
 	if speaker[page] == 1 // ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,icobx1+ic_b, txt_y + border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,icobx2+ic_b, txt_y + border-1,ico_scale,ico_scale,0,c_gray,1);
 	}
 	if speaker[page] == 2 // не ГГ
 	{
-		draw_sprite_ext(speaker1[page],0,txtb_x-border/2-(20*ico_scale), txt_y+border-1,ico_scale,ico_scale,0,c_gray,1);
-		draw_sprite_ext(speaker2[page],0,txtb_x+txtb_width+border/2-1, txt_y+border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,icobx1+ic_b, txt_y+ border-1,ico_scale,ico_scale,0,c_gray,1);
+		draw_sprite_ext(speaker2[page],0,icobx2+ic_b, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
-
+		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
+		draw_sprite_ext(speaker1[page],0,icobx1+border, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,icobx2+border, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 
 // вивід рамки під текст (щоб вона була перед рамками під іконки)
