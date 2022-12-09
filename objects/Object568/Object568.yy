@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_seller_posyda",
+  "name": "Object568",
   "spriteId": {
-    "name": "spr_seller_posyda",
-    "path": "sprites/spr_seller_posyda/spr_seller_posyda.yy",
+    "name": "spr_mandarun_stay_r_2",
+    "path": "sprites/spr_mandarun_stay_r_2/spr_mandarun_stay_r_2.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_depth_system",
-    "path": "objects/obj_depth_system/obj_depth_system.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Objects/Bazar/Boxes.yy",
+    "name": "Objects",
+    "path": "folders/Sequences/scena 8/Objects.yy",
   },
 }

@@ -1251,30 +1251,45 @@ break;
 #endregion
 
 #region (scena 8)
-case "scena_8":
+case "scena_8_1":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena81"),2,spr_ic_Krus,spr_ic_Ytopurok);
   scr_text(scr_json_lang(global.LANGUAGE,"Scena82"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena83"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena84"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena85"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena86"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena87"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena88"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena89"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena810"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena811"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena812"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena813"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena814"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena815"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena816"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena817"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena818"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena819"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena820"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena821"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena822"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  //scr_text(scr_json_lang(global.LANGUAGE,"Scena823"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena83"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena84"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena85"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena86"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena87"),1,spr_ic_Krus,spr_ic_Ytopurok);
+//break;
+  // іде жінка
+ case "scena_8_2":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena88"),2,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena89"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena810"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena811"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena812"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena813"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena814"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  
+  // розминає руки
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena815"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena816"),1,spr_ic_Krus,spr_ic_Ytopurok);
+break;
+  // б'є ліктем
+ case "scena_8_3":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena817"),1,spr_ic_Krus,spr_ic_Ytopurok);
+break;
+  // рука на серце
+  // крис зітхає
+case "scena_8_4":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena818"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena819"),1,spr_ic_Krus,spr_ic_Ytopurok);
+break;
+  // зі спини утопирка виходить крис
+case "scena_8_5":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena820"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena821"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena822"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena823"),1,spr_ic_Krus,spr_ic_Ytopurok);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 #endregion
