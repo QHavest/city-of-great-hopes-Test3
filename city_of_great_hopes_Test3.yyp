@@ -1743,7 +1743,7 @@
     {"id":{"name":"snd_klik_3","path":"sounds/snd_klik_3/snd_klik_3.yy",},"order":5,},
     {"id":{"name":"sprt_bush_3","path":"sprites/sprt_bush_3/sprt_bush_3.yy",},"order":15,},
     {"id":{"name":"sp_partiynyi_shyk_eng","path":"sprites/sp_partiynyi_shyk_eng/sp_partiynyi_shyk_eng.yy",},"order":4,},
-    {"id":{"name":"заповіт","path":"notes/заповіт/заповіт.yy",},"order":1,},
+    {"id":{"name":"zapovit","path":"notes/zapovit/zapovit.yy",},"order":1,},
     {"id":{"name":"obj_child_3","path":"objects/obj_child_3/obj_child_3.yy",},"order":13,},
     {"id":{"name":"spr_truck_open","path":"sprites/spr_truck_open/spr_truck_open.yy",},"order":12,},
     {"id":{"name":"spr_seller_bazar_4","path":"sprites/spr_seller_bazar_4/spr_seller_bazar_4.yy",},"order":22,},
