@@ -252,6 +252,7 @@
     {"id":{"name":"obj_zoo_glass_mouses","path":"objects/obj_zoo_glass_mouses/obj_zoo_glass_mouses.yy",},"order":12,},
     {"id":{"name":"spr_mama_2","path":"sprites/spr_mama_2/spr_mama_2.yy",},"order":16,},
     {"id":{"name":"spr_shelf_b_bibli2","path":"sprites/spr_shelf_b_bibli2/spr_shelf_b_bibli2.yy",},"order":4,},
+    {"id":{"name":"obj_globals","path":"objects/obj_globals/obj_globals.yy",},"order":27,},
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},"order":0,},
     {"id":{"name":"spr_dim_atack1_mask","path":"sprites/spr_dim_atack1_mask/spr_dim_atack1_mask.yy",},"order":4,},
     {"id":{"name":"spr_flowerbed_long_l","path":"sprites/spr_flowerbed_long_l/spr_flowerbed_long_l.yy",},"order":2,},
