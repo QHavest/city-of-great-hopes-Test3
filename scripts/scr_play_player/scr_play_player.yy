@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Status",
-    "path": "folders/Players_obj/Status.yy",
+    "name": "Players_obj",
+    "path": "folders/Players_obj.yy",
   },
 }
