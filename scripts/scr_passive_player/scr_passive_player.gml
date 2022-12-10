@@ -16,24 +16,23 @@ if (playernum == 2) {
 	if (move == 0 and distance_to_object(obj_dim_player1) > 20 ) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, obj_invisiblewall);
 	//run
 	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, obj_invisiblewall);
-	//teleport
-	//if (distance_to_object(obj_dim_player1) > 100)
-	//{
-	//	x = obj_dim_player1.posX[10]
-	//	y = obj_dim_player1.posY[10]
-	//}
 	}
 else if(playernum == 1){
 	//walk
 	if (move == 0 and distance_to_object(obj_dim_player2) > 20) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, obj_invisiblewall);
 	//run
 	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, obj_invisiblewall);
-	//teleport
-//	if (distance_to_object(obj_dim_player2) > 100)
-//	{
-//		x = obj_dim_player2.posX[10]
-//		y = obj_dim_player2.posY[10]
+//if (playernum == 2) {
+//	//walk
+//	if (move == 0 and distance_to_object(obj_dim_player1) > 20 ) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, true);
+//	//run
+//	if (move == 1) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, obj_invisiblewall);
 //	}
+//else if(playernum == 1){
+//	//walk
+//	if (move == 0 and distance_to_object(obj_dim_player2) > 20) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, true);
+//	//run
+//	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, obj_invisiblewall);
+//}
 }
-
 }

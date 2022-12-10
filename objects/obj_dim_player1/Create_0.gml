@@ -1,4 +1,4 @@
-global.dialog_end = 1;
+
 scr_Znaiomstvo();
 mask_index = sprite_index;
 walkspd = 4;

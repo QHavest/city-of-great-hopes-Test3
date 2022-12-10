@@ -1,6 +1,5 @@
 
-shopOpen = false; // цеймагазин відкритий?
-global.shop = false; // любий магазин відкритий?
+shopOpen = false; // цеймагазин відкритий? // любий магазин відкритий?
 
 selected = 0;
 notselected = 0;
