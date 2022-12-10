@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_culture_column_1",
   "spriteId": {
-    "name": "spr_column_1",
-    "path": "sprites/spr_column_1/spr_column_1.yy",
+    "name": "spr_column_1r",
+    "path": "sprites/spr_column_1r/spr_column_1r.yy",
   },
   "solid": true,
   "visible": true,
