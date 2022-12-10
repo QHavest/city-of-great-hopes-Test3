@@ -20,7 +20,7 @@ var objInst13 = instance_find(obj_magazine_fish_back,0);
 var objInst14 = instance_find(obj_box_container,0);
 var objInst15 = instance_find(obj_box_container_night,0);
 
-var sequence = seq_scena_8;
+var sequence = seq_scena_8_slowed;
 var layerName = "Cutscenes";
 
 global.shop = true;
