@@ -35,6 +35,7 @@ if acepted_key
 // телепортація
 if keyboard_check(vk_enter) and acepted_key and t == 1
 		{ global.map = 0;
+		global.contact = 0;
 		room_goto( room_pos[spot][pos]);
 		scr_music_fon_change(room_pos[spot][pos]);
 		obj_dim_player1.x = player_x[spot][pos];
