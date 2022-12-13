@@ -1295,7 +1295,7 @@ break;
 #endregion
 
 #region (scena 9)
-case "scena_8_1":
+case "scena_9_1":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena91"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
   
   // обійми
@@ -1324,6 +1324,7 @@ case "scena_8_1":
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 #endregion
+
 #region (Cutscene 2)
 case "Krus_day2":
 	scr_text("Соня, вставай!!!");
