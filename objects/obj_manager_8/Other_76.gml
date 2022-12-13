@@ -16,9 +16,9 @@ if event_data [? "event_type"] == "sequence event"
 	scr_create_textbox("scena_8_1");
 	break;
 	
-	case "dialog2":
-	scr_create_textbox("scena_8_2");
-	break;
+	//case "dialog2":
+	//scr_create_textbox("scena_8_2");
+	//break;
 	
 	case "dialog3":
 	scr_create_textbox("scena_8_3");
