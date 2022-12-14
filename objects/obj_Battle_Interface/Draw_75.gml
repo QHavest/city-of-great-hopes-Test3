@@ -6,6 +6,8 @@ if(battle_start = true){
 	draw_sprite_part(spr_hpGreen, 0, 0, 0, amount_hp, 35, gui_W/1.2568, gui_H/1.112);
 	//мерехтілка
 	draw_sprite(spr_red_l, light_bi, gui_W/5.41, gui_H/2.40);
+	//instance_create_depth(0,0,-99999,obj_shprutz_dow1);
 	//кнопки
+	
 }
 

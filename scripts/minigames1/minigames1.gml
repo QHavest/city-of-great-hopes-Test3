@@ -5,6 +5,11 @@ if(obj_Battle_Interface.battle_start = true){
 draw_sprite(spr_background_narko, 0, gui_W/3.918, gui_H/1.892);
 draw_sprite(spr_complete_green,-1, gui_W/1.343, gui_H/1.866); 
 image_speed = 0.1;
-
+shprutz = draw_sprite(spr_shprutz_up1,0, gui_W/2.500, gui_H/1.866); 
+shprutz1 = gui_W/2.500
+shprutz2 = gui_W/3.500 
+with (shprutz){
+anim =lerp(shprutz1,shprutz2,0.1)
+}
 }
 }
