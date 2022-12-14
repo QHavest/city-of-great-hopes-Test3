@@ -10,6 +10,8 @@ if(battle_start = true){
 	//мерехтілка
 	draw_sprite(spr_red_l, light_bi, gui_W/5.41, gui_H/2.40);
 	//кнопки
-	
+	if(global.LANGUAGE = "eng"){
+	draw_sprite(spr_DFight, 0,  gui_W/11.18, gui_H/1.320)
+	}
 } else {instance_activate_object(obj_inventory);}
 
