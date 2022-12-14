@@ -1789,9 +1789,9 @@
     {"id":{"name":"rm_street_magazine_tech_storage","path":"rooms/rm_street_magazine_tech_storage/rm_street_magazine_tech_storage.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -2095,6 +2095,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }
