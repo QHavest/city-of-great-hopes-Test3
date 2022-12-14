@@ -1,7 +1,7 @@
 //В степ івент треба внести всі умови при яких починається боротьба
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
-	
+	spr_krus_zelen.y = lerp(y,mouse_y,0.1)
 }
 alarm[1] -= 1;
 //отримання пошкодження
