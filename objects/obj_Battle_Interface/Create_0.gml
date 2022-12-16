@@ -1,3 +1,4 @@
+battle_start = false;
 /*hpKrys = 50;
 hpYtopyrok = 50;  
 global.MaxHp = hpKrys+hpYtopyrok
