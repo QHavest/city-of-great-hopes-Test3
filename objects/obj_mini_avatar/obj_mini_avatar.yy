@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shprutz_up1",
+  "name": "obj_mini_avatar",
   "spriteId": {
-    "name": "spr_shprutz_up1",
-    "path": "sprites/spr_shprutz_up1/spr_shprutz_up1.yy",
+    "name": "spr_ytopur_zelen",
+    "path": "sprites/spr_ytopur_zelen/spr_ytopur_zelen.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mini_avatar","path":"objects/obj_mini_avatar/obj_mini_avatar.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_shprutz_up1","path":"objects/obj_shprutz_up1/obj_shprutz_up1.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
