@@ -17,7 +17,7 @@
   "soundFile": "snd_bazar.mp3",
   "duration": 144.03918,
   "parent": {
-    "name": "Fon_snd",
-    "path": "folders/Sounds/Fon_snd.yy",
+    "name": "Day",
+    "path": "folders/Sounds/Fon_snd/Day.yy",
   },
 }

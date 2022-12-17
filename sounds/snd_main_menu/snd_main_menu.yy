@@ -17,7 +17,7 @@
   "soundFile": "snd_main_menu.wav",
   "duration": 106.0,
   "parent": {
-    "name": "Fon_snd",
-    "path": "folders/Sounds/Fon_snd.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

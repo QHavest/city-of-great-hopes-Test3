@@ -17,7 +17,7 @@
   "soundFile": "snd_center.mp3",
   "duration": 126.35429,
   "parent": {
-    "name": "Fon_snd",
-    "path": "folders/Sounds/Fon_snd.yy",
+    "name": "Day",
+    "path": "folders/Sounds/Fon_snd/Day.yy",
   },
 }
