@@ -367,6 +367,7 @@
     {"id":{"name":"spr_shopping_list","path":"sprites/spr_shopping_list/spr_shopping_list.yy",},"order":2,},
     {"id":{"name":"spr_indoor_tri_kalynky","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"order":23,},
     {"id":{"name":"sp_smak_dutunstva01","path":"sprites/sp_smak_dutunstva01/sp_smak_dutunstva01.yy",},"order":10,},
+    {"id":{"name":"scr_rooms_variables","path":"scripts/scr_rooms_variables/scr_rooms_variables.yy",},"order":24,},
     {"id":{"name":"spr_left_lamp_night","path":"sprites/spr_left_lamp_night/spr_left_lamp_night.yy",},"order":1,},
     {"id":{"name":"obj_south_lamp_night","path":"objects/obj_south_lamp_night/obj_south_lamp_night.yy",},"order":0,},
     {"id":{"name":"obj_sport_centre","path":"objects/obj_sport_centre/obj_sport_centre.yy",},"order":3,},

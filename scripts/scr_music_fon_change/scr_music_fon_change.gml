@@ -1,12 +1,9 @@
-// скрипт має задіяти функцію плавного затухання музики і плавно вмикати музику відповідно до таргет руми
-// це у випадку якщо музика на кімнатах відрізняється
-// окремі умови можна спробувати винести в окремі скрипти
-
-// обдумавши скрипт плавно тушить стару музику після переходу і міняє змінну  new_sound
+// скрипт плавно тушить стару музику до переходу і міняє змінну  new_sound
 function scr_music_fon_change(r){
 	if !object_exists(music_room) instance_create_depth(0,0,-99999, music_room)
 	with (music_room){
-
+		new_sound = scr_rooms_variables(r,1);
+/*
 		switch(r)
 		{
 case rm_main_menu:				new_sound = snd_main_menu; break
@@ -65,7 +62,7 @@ case rm_hastronom_tukh : new_sound = noone; break
 case rm_north :			 new_sound = snd_Tyhlyanka; break
 case rm_school :		 new_sound = snd_Tyhlyanka; break
 
-}
+}*/
 	if 	old_sound != new_sound and old_sound != noone audio_sound_gain(old_sound,0,500)
 	
 	}

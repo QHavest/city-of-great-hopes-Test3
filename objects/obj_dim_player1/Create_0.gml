@@ -6,6 +6,7 @@ runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
 sprit = "Ytopurok"
+s_walk = snd_walk;
 
 //налаштування перемикання між персонажами 
 playernum = 1;
