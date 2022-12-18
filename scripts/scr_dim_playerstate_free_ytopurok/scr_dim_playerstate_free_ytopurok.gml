@@ -40,20 +40,64 @@ if(status = STATUS.ACTIVE){
 
 sprit="Ytopurok";
 
+
+// рух вправо
+if (x>xprevious){ 
+	// біг
+	if (key_space and keyr) {
+		sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,1,0);
+		if audio_is_playing(snd_walk) audio_stop_sound(snd_walk);
+	}
+	// ходьба
+	else {
+		sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
+		if !audio_is_playing(snd_walk) audio_play_sound(snd_walk,1,0);
+		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	}
+	lastmove = 0;
+ }
+
+ // рух вліво
+if (x<xprevious){ 
+	if (key_space and keyl)  // біг
+	{
+		sprite_index = asset_get_index ("spr_dim_" + sprit +"_run_left");
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,1,0);
+		if audio_is_playing(snd_walk) audio_stop_sound(snd_walk);
+	}	
+	else // ходьба
+	{
+		sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
+		if !audio_is_playing(snd_walk) && !key_space audio_play_sound(snd_walk,1,0);
+		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	}
+		lastmove = 1;
+}
+
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
+if (y!=yprevious && lastmove==0 && x==xprevious) 
+{
+	if (key_space) {
+		sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,1,0);
+		if audio_is_playing(snd_walk) audio_stop_sound(snd_walk);
+	}
+	// ходьба
+	else {
+		sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
+		if !audio_is_playing(snd_walk) audio_play_sound(snd_walk,1,0);
+		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	}	
+}
 
-if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
-if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
+if (y!=yprevious && lastmove==1 && x==xprevious) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
 
-if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
- lastmove = 0;}
-if (keyboard_check(vk_space) and keyr) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");}
- 
-if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-if (keyboard_check(vk_space) and keyl) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");}	
-lastmove = 1;}
+// без руху
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+if (x==xprevious && y==yprevious && audio_is_playing(snd_walk)) audio_stop_sound(snd_walk);
+if (x==xprevious && y==yprevious && audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 // відповідність глибини до вертикальної кординати
 //depth = -y;
 }
