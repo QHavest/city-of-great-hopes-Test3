@@ -8,7 +8,6 @@ keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
 keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"));
 key_diary = keyboard_check(ord("N")) or keyboard_check(ord("T"));
-key_space = keyboard_check(vk_space);
 }
 
 if (playernum = 1)
