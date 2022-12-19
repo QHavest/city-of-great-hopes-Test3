@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_fountain",
   "conversionMode": 0,
-  "compression": 0,
-  "volume": 0.03,
+  "compression": 1,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_fountain.wav",
   "duration": 45.048073,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sequences/snena 7/Sounds.yy",
+    "name": "rooms_sounds",
+    "path": "folders/Sounds/rooms_sounds.yy",
   },
 }

@@ -40,6 +40,9 @@ if (draw_daylight){
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
+		global.day = 1;
+		//scr_music_fon_change(room);
+		
 		activate_obj_day();
 		deactivate_obj_night();
 		global.darknes = 0;
@@ -56,7 +59,10 @@ if (draw_daylight){
 	
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
-			
+		
+		global.day = 1;
+		//scr_music_fon_change(room);
+		
 		activate_obj_day();
 		deactivate_obj_night();
 		global.darknes = 0;
@@ -70,6 +76,9 @@ if (draw_daylight){
 		pend = phase.sunset1;
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
+		
+		global.day = 1;
+		//scr_music_fon_change(room);
 		
 		activate_obj_day();
 		deactivate_obj_night();
@@ -100,6 +109,8 @@ if (draw_daylight){
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
 		
+		global.day = 0;
+		//scr_music_fon_change(room);
 
 		activate_obj_night();
 		deactivate_obj_day()

@@ -59,7 +59,7 @@ break
 case rm_indoor_rival_station :
 	switch(name)
 	{	
-	case 1: return snd_rivalstation break
+	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
 	case 2: return 0 break
 	case 3: return 1 break
 	case 4: break
@@ -68,7 +68,7 @@ break
 case rm_street_first_side :	
 	switch(name)
 	{	
-	case 1: return snd_rivalstation break
+	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
 	case 2: return 0 break
 	case 3: return 0 break
 	case 4: break
@@ -77,7 +77,7 @@ break
 case rm_street_second_side :
 	switch(name)
 	{	
-	case 1: return snd_rivalstation break
+	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
 	case 2: return 0 break
 	case 3: return 0 break
 	case 4: break
@@ -124,7 +124,7 @@ break
 case rm_okorochok_indoor :	
 	switch(name)
 	{	
-	case 1: return snd_Bazar break
+	case 1: if global.day return snd_Bazar else return snd_bazar_night break
 	case 2: return 1 break
 	case 3: return 1 break
 	case 4: break
@@ -151,7 +151,7 @@ break
 case rm_fish_and_bazaar :	
 	switch(name)
 	{	
-	case 1: return snd_Bazar  break
+	case 1: if global.day return snd_Bazar else return snd_bazar_night break
 	case 2: return 1 break
 	case 3: return 0 break
 	case 4: break
@@ -160,7 +160,7 @@ break
 case rm_street_container :	
 	switch(name)
 	{	
-	case 1: return snd_Bazar  break
+	case 1: if global.day return snd_Bazar else return snd_bazar_night break
 	case 2: return 1 break
 	case 3: return 0 break
 	case 4: break
@@ -169,7 +169,7 @@ break
 case rm_street_magazine_tech_storage :	
 	switch(name)
 	{	
-	case 1: return snd_Bazar  break
+	case 1: if global.day return snd_Bazar else return snd_bazar_night break
 	case 2: return 1 break
 	case 3: return 0 break
 	case 4: break
@@ -187,7 +187,7 @@ break
 case rm_home_gg :						
 	switch(name)
 	{	
-	case 1: return snd_Bazar  break
+	case 1: if global.day return snd_Bazar else return snd_bazar_night break
 	case 2: return 1 break
 	case 3: return 0 break
 	case 4: break
@@ -289,8 +289,11 @@ break
 case rm_police :				
 	switch(name)
 	{	
-	case 1: return snd_center  break
+	case 1: if global.day return snd_center; else return snd_Center_night; break
 	case 2: return 2 break
+	
+	
+	
 	case 3: return 0 break
 	case 4: break
 	}
@@ -352,7 +355,7 @@ break
 case rm_center :				
 	switch(name)
 	{	
-	case 1: return snd_center break
+	case 1: if global.day return snd_center else return snd_Center_night break
 	case 2: return 2 break
 	case 3: return 0 break
 	case 4: break
@@ -361,7 +364,7 @@ break
 case rm_center_left :			
 	switch(name)
 	{	
-	case 1: return snd_center break
+	case 1: if global.day return snd_center else return snd_Center_night break
 	case 2: return 2 break
 	case 3: return 0 break
 	case 4: break
@@ -370,7 +373,7 @@ break
 case rm_center_right :			
 	switch(name)
 	{	
-	case 1: return snd_center break
+	case 1: if global.day return snd_center else return snd_Center_night break
 	case 2: return 2 break
 	case 3: return 0 break
 	case 4: break
@@ -407,7 +410,7 @@ case rm_ieghova_inside :
 break
 case rm_south :			 	switch(name)
 	{	
-	case 1: return snd_Tyhlyanka  break
+	case 1: if global.day return snd_Tyhlyanka else return snd_tyhlya_night break
 	case 2: return 3 break
 	case 3: return 0 break
 	case 4: break
@@ -425,7 +428,7 @@ break
 case rm_sport_centre :	 
 	switch(name)
 	{	
-	case 1: return snd_Tyhlyanka  break
+	case 1: if global.day return snd_Tyhlyanka else return snd_tyhlya_night break
 	case 2: return 3 break
 	case 3: return 0 break
 	case 4: break
@@ -461,7 +464,7 @@ break
 case rm_north :			 
 	switch(name)
 	{	
-	case 1: return snd_Tyhlyanka break
+	case 1: if global.day return snd_Tyhlyanka else return snd_tyhlya_night break
 	case 2: return 3 break
 	case 3: return 0 break
 	case 4: break
@@ -470,7 +473,7 @@ break
 case rm_school :		 
 	switch(name)
 	{	
-	case 1: return snd_Tyhlyanka  break
+	case 1: if global.day return snd_Tyhlyanka else return snd_tyhlya_night break
 	case 2: return 3 break
 	case 3: return 0 break
 	case 4: break

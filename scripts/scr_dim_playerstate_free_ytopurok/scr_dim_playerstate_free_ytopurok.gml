@@ -97,4 +97,5 @@ if (x==xprevious && y==yprevious && audio_is_playing(s_walk)) audio_stop_sound(s
 if (x==xprevious && y==yprevious && audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 // відповідність глибини до вертикальної кординати
 //depth = -y;
+if y!=yprevious or x!=xprevious audio_listener_set_position(0,x,y,0);
 }
