@@ -4,23 +4,27 @@ vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 x += hInput * spd;
 y += vInput * spd;
  alarm[1] -= 1;
-if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_up1)){
+ alarm[4] -= 1;
+if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_up1) and alarm[4] < 1){
 	alarm[1] = 30;
 	light_bi = 1;
-	if(global.MaxHp > 50){
-	//hpYtopyrok -= damage;
-	alarm[4]=60;
+	if(global.MaxHp > 51){
 	global.MaxHp = hpKrys+hpYtopyrok;
 	take_damage = true;
-	amount_hp = amount_hp - (279/damage);
-	
+	if (alarm[4] < 1){
+	hpYtopyrok -= damage;
+	amount_hp = amount_hp - (damage/100*279);
+	}
+	alarm[4]=60;
 	}
 	else if(global.MaxHp > 0){
 	hpKrys -= damage;
 	global.MaxHp = hpKrys+hpYtopyrok;
 	take_damage = true;
-	amount_hp = amount_hp - (279/damage);
-	
+	if (alarm[4] < 0){
+	amount_hp = amount_hp - (damage/100*279);
+	}
+	alarm[4]=60;
 	}
 	take_damage = false;
 } 
