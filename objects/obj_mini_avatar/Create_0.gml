@@ -2,6 +2,7 @@ hpKrys = 50;
 hpYtopyrok = 50;  
 global.MaxHp = hpKrys+hpYtopyrok
 
+grv = 0.8;
 spd = 5;
 
 gui_H = display_get_gui_height();
