@@ -633,6 +633,7 @@
     {"id":{"name":"obj_seller_potato","path":"objects/obj_seller_potato/obj_seller_potato.yy",},"order":16,},
     {"id":{"name":"spr_povar","path":"sprites/spr_povar/spr_povar.yy",},"order":11,},
     {"id":{"name":"obj_tires_south2","path":"objects/obj_tires_south2/obj_tires_south2.yy",},"order":25,},
+    {"id":{"name":"Sprite1042","path":"sprites/Sprite1042/Sprite1042.yy",},"order":28,},
     {"id":{"name":"sp_name_hastronom","path":"sprites/sp_name_hastronom/sp_name_hastronom.yy",},"order":16,},
     {"id":{"name":"spr_bench_2","path":"sprites/spr_bench_2/spr_bench_2.yy",},"order":38,},
     {"id":{"name":"spr_lamp_night","path":"sprites/spr_lamp_night/spr_lamp_night.yy",},"order":6,},
