@@ -36,7 +36,6 @@ butt_invis = 0.5;
 
 
 //button
-//тут треба вказати, що битва не йде, якщо йде, то відключити кнопки;
 if(system = 0 and mini_game = false){
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
 		button_c++;
