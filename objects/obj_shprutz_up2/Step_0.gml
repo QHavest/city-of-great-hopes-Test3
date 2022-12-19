@@ -2,53 +2,53 @@
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("C"))){ alarm[2] = 80; }
 
-with (inst_198CDF67){
+with (inst_4F588A8F){
 if(alarm[2] = 80){ 
 	alarm[1] = 80;
 }
 
 if(alarm[1] > 0){
-	mp_linear_step(695, 569, 3, false);
+	mp_linear_step(803, 453, 3, false);
 	alarm[1] -= 1;
 	alarm[2] -= 1;
 }
 
 if(alarm[1] < 2){
-	mp_linear_step(695, 453, 3, false);
+	mp_linear_step(803, 569, 3, false);
 	alarm[2] += 1;
 }
 }
 
-with (inst_5812145A){
+with (inst_5F3E18E){
 if(alarm[2] = 80){ 
 	alarm[1] = 80;
 }
 
 if(alarm[1] > 0){
-	mp_linear_step(919, 453, 3, false);
+	mp_linear_step(1026, 453, 3, false);
 	alarm[1] -= 1;
 	alarm[2] -= 1;
 }
 
 if(alarm[1] < 2){
-	mp_linear_step(919, 569, 3, false);
+	mp_linear_step(1026, 569, 3, false);
 	alarm[2] += 1;
 }
 }
 
-with (inst_56890F30){
+with (inst_4884328E){
 if(alarm[2] = 80){ 
 	alarm[1] = 80;
 }
 
 if(alarm[1] > 0){
-	mp_linear_step(1147, 569, 3, false);
+	mp_linear_step(1242, 569, 3, false);
 	alarm[1] -= 1;
 	alarm[2] -= 1;
 }
 
 if(alarm[1] < 2){
-	mp_linear_step(1147, 453, 3, false);
+	mp_linear_step(1242, 453, 3, false);
 	alarm[2] += 1;
 }
 }
@@ -69,7 +69,6 @@ if(alarm[1] < 2){
 	alarm[2] += 1;
 }
 }
-
 
 
 
