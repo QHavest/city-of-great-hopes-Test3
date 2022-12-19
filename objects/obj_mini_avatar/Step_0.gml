@@ -8,7 +8,7 @@ spd += grv
 y += spd
 x++
 
-if (keyboard_check_pressed(vk_space)){
+if (keyboard_check_pressed(ord("W"))){
 	spd = -10;
 }
 
