@@ -1,2 +1,2 @@
 spd = 2;
-im = -1;
+im = random_range(0,3);

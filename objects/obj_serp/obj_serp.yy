@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_serp",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_serp",
+    "path": "sprites/spr_serp/spr_serp.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
