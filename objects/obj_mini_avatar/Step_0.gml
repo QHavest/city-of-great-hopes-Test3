@@ -1,12 +1,32 @@
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+image_index = 0;
+
+/*hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 x += hInput * spd;
-y += vInput * spd;
+y += vInput * spd;*/
 
-spd += grv
+/*spd += grv
 y += spd
-x++
+x++*/
+#region ходьба по клітинкам
+
+if place_snapped(G,G1){
+speed=0//остановка игрока
+
+if keyboard_check_pressed(vk_down) && Move[1,0]=true{
+//motion_set(270,S)//шагать вниз со скоростью S
+y += 105;
+}
+
+if keyboard_check_pressed(vk_up) && Move[1,1]=true{  
+//motion_set(90,S)//шагать наверх со скоростью S 
+y -= 105;
+}
+}
+
+#endregion
+
 
 if (keyboard_check_pressed(ord("W"))){
 	spd = -10;
