@@ -34,7 +34,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_parent) and alarm[4] < 1){
+if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_parent) or place_meeting(x, y, obj_sssrs) and alarm[4] < 1){
 	alarm[1] = 30;
 	light_bi = 1;
 	if(global.MaxHp > 51){
