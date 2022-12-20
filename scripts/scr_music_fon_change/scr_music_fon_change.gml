@@ -63,7 +63,7 @@ case rm_north :			 new_sound = snd_Tyhlyanka; break
 case rm_school :		 new_sound = snd_Tyhlyanka; break
 
 }*/
-	if 	old_sound != new_sound and old_sound != noone audio_sound_gain(old_sound,0,500)
+	if 	old_sound != new_sound and old_sound != noone audio_sound_gain(old_sound,0,gain_decrease)
 	
 	}
 }

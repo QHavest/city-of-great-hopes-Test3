@@ -41,7 +41,7 @@ if (draw_daylight){
 		layer_set_visible("Backgrounds_night", false);
 		
 		global.day = 1;
-		//scr_music_fon_change(room);
+		if !audio_is_playing(scr_rooms_variables(room,1)) scr_music_fon_change(room);
 		
 		activate_obj_day();
 		deactivate_obj_night();
@@ -110,7 +110,7 @@ if (draw_daylight){
 		layer_set_visible("Backgrounds_night", true);
 		
 		global.day = 0;
-		//scr_music_fon_change(room);
+		if !audio_is_playing(scr_rooms_variables(room,1)) scr_music_fon_change(room);
 
 		activate_obj_night();
 		deactivate_obj_day()

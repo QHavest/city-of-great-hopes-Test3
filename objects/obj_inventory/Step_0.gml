@@ -1,3 +1,9 @@
+
+
+
+
+
+
 if (global.map or global.pause or !global.dialog_end or global.shop or global.diary){
 	inv_UI_x_closed = inv_UI_x_closed_static;
 	show_inventory = false;
@@ -64,6 +70,7 @@ if(keyboard_check_pressed(vk_enter))
 {
 	global.ds_inventory[# 0, count_slot_pos] = 0;
 	audio_play_sound(snd_op_accept,global.System_gain,0)
+	show_debug_message("sound_scam");
 }
 
 
