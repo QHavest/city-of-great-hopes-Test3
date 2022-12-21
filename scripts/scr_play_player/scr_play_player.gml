@@ -25,4 +25,28 @@ ch = camera_get_view_height(cam);
 view_set_visible(0, false);
 view_set_visible(1, true);
 }
+
+if x!=xprevious 
+{
+	if move
+	{
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,global.player_gain,0);
+		if audio_is_playing(s_walk) audio_stop_sound(s_walk);
+	}
+	else 
+	{
+	if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
+	if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	}
+	show_debug_message("mooving")
+}
+if y!=yprevious if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
+
+// стап звуків коли стоїш 
+//if (x==xprevious && y==yprevious && audio_is_playing(s_walk)) audio_stop_sound(s_walk);
+//if (x==xprevious && y==yprevious && audio_is_playing(snd_run)) audio_stop_sound(snd_run);
+
+//переміщення слухача
+if y!=yprevious or x!=xprevious audio_listener_set_position(0,x,y,0);
+
 }

@@ -7,6 +7,7 @@ lastmove = 0
 playernum = 2;
 status = STATUS.PASSIVE;
 sprit="Krus";
+s_walk = snd_walk;
 
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
