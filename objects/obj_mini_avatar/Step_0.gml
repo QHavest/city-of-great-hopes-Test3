@@ -38,19 +38,21 @@ if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_parent) or place_meeting
 	alarm[1] = 30;
 	light_bi = 1;
 	if(global.MaxHp > 51){
+	hpYtopyrok -= damage;
 	global.MaxHp = hpKrys+hpYtopyrok;
 	take_damage = true;
+	
 	if (alarm[4] < 1){
-	hpYtopyrok -= damage;
+	
 	amount_hp = amount_hp - (damage/100*279);
 	}
 	alarm[4]=60;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
+	hpKrys -= damage;
 	global.MaxHp = hpKrys+hpYtopyrok;
 	take_damage = true;
 	if (alarm[4] < 1){
-	hpKrys -= damage;
 	amount_hp = amount_hp - (damage/100*279);
 	}
 	alarm[4]=60;
