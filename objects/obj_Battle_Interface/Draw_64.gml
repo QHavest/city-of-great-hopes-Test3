@@ -51,7 +51,7 @@ if(battle_start = true){
 	}
 	/////////////Діалоги + статистика
 	draw_set_font(font_azariya_textbox)
-	draw_text_ext(gui_W/1.233, gui_H/1.85, text_torchky, stringHeight, 340);
+	draw_text_ext(gui_W/1.233, gui_H/1.85, text_torchky, stringHeight, 240);
 	
 } else {instance_activate_object(obj_inventory);}
 

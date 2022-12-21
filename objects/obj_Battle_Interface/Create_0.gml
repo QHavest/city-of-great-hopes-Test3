@@ -26,7 +26,8 @@ button[2] = "D";
 button[3] = "D";
 button[4] = "D";
 
-text_torchky = "Натисніть “W” або “Стрілочка вгору”, щоб почати бійку. Ухиляйтеся від шприців за допомогою відштовхування в повітрі на кнопку “W” або “Стрілочка вгору”."
+//text_torchky = "Натисніть “W” або “Стрілочка вгору”, щоб почати бійку. Ухиляйтеся від шприців за допомогою відштовхування в повітрі на кнопку “W” або “Стрілочка вгору”."
+text_torchky = "Press “W” or “Up Arrow” to start a fight. Dodge syringes by pushing in the air on the “W” or “Up Arrow” button."
 stringHeight = string_height(text_torchky);
 
 
