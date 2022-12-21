@@ -49,6 +49,9 @@ if(battle_start = true){
 			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/11.18, gui_H/1.320, 1, 1, 0, c_white, 0.5);	
 		}
 	}
+	/////////////Діалоги + статистика
+	draw_set_font(font_azariya_textbox)
+	draw_text_ext(gui_W/1.233, gui_H/1.85, text_torchky, stringHeight, 340);
 	
 } else {instance_activate_object(obj_inventory);}
 

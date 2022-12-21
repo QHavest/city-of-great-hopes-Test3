@@ -2,6 +2,7 @@
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
 }
+
 if (!battle_start) exit;
 
 alarm[1] -= 1;

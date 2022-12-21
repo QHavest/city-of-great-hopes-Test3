@@ -30,6 +30,8 @@ if (!show_inventory){
 }
 
 if (alarm[0] > 0){ frame_x = inv_UI_x_closed + (72 * scale);}
+
+if(show_inventory = false) exit;
 	
 if(keyboard_check_pressed(vk_right) && alarm[0] < 0){
 		frame_x = frame_x + ((cell_size + buffer_btw_slots));

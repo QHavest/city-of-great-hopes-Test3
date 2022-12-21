@@ -1399,6 +1399,7 @@
     {"id":{"name":"script_sxecute_alt","path":"scripts/script_sxecute_alt/script_sxecute_alt.yy",},"order":11,},
     {"id":{"name":"obj_lamp_fish","path":"objects/obj_lamp_fish/obj_lamp_fish.yy",},"order":12,},
     {"id":{"name":"obj_school_h","path":"objects/obj_school_h/obj_school_h.yy",},"order":4,},
+    {"id":{"name":"font_azariya_textbox","path":"fonts/font_azariya_textbox/font_azariya_textbox.yy",},"order":10,},
     {"id":{"name":"spr_meriia","path":"sprites/spr_meriia/spr_meriia.yy",},"order":3,},
     {"id":{"name":"spr_mandarun_stay_r","path":"sprites/spr_mandarun_stay_r/spr_mandarun_stay_r.yy",},"order":11,},
     {"id":{"name":"obj_developers_button","path":"objects/obj_developers_button/obj_developers_button.yy",},"order":9,},
