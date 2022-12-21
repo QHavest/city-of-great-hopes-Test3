@@ -37,9 +37,6 @@ if(keyr or keyl or keyup or keydown){
 	if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
 	if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 	}
-	
-	
-	show_debug_message("mooving")
 }
 
 if(!keyr and !keyl and !keyup and !keydown){
