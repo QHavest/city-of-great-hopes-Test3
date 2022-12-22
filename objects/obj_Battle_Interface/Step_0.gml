@@ -5,11 +5,11 @@ if(keyboard_check_pressed(ord("B"))){
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 //alarm[1] -= 1;
-}
+
 
 if (!battle_start) exit;
 
-alarm[1] -= 1;
+//alarm[1] -= 1;
 //отримання пошкодження
 /*if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
 	alarm[1] = 30;
@@ -32,7 +32,7 @@ alarm[1] -= 1;
 if(alarm[1] < 1){
 	light_bi = 0;
 	}*/
-}
+
 //mini-game
 if (mini_game = true)
 for(i = 1; i < 5; i++){
