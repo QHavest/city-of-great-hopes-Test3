@@ -1,4 +1,3 @@
-global.money = 10;
 depth = -1;
 scale = 1;
 cell_size = 58;
@@ -27,7 +26,7 @@ inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale);
 slots_x = inv_UI_x_closed_static + 30;
 slots_y = inv_UI_y + (105 * scale);
 
-frame_x = inv_UI_x_closed_static + 30;
+frame_x = inv_UI_x_closed_static + 72;
 frame_y = inv_UI_y + (105 * scale);
 frame_ii = 0;
 
