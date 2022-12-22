@@ -6,15 +6,19 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 }
 
 if(shopOpen){
+
 	//To right
 	if(keyboard_check_pressed(ord("D")) ||  keyboard_check_pressed(vk_right)){
+		audio_play_sound(snd_search,global.System_gain,0)
 		selected++;
 		notselected++;
 		if (selected == itemCount) selected = 0;
 		if (notselected == itemCount01) notselected = 0; 
+		
 	}
 	//To left
 	if(keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_left)){
+		audio_play_sound(snd_search,global.System_gain,0)
 		selected--;
 		notselected--;
 		if (selected < 0) selected = itemCount - 1;
@@ -32,6 +36,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 			if(global.ds_inventory[# 0, i] = 0){
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
+				audio_play_sound(snd_op_accept,global.System_gain,0)
 				break;
 		}
 	}

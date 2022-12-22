@@ -18,3 +18,6 @@ old_side = false
 new_side = false
 
 depth = -1000
+
+// звук дверей
+dor_sound = snd_open_dor;

@@ -6,6 +6,7 @@ runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
 sprit = "Ytopurok"
+s_walk = snd_walk;
 
 //налаштування перемикання між персонажами 
 playernum = 1;
@@ -27,4 +28,8 @@ for(var i = array_size-1; i >= 0; i--){
 	posX[i] = x; 
 	posY[i] = y;
 }
+
+// МУзонЧІК
+audio_listener_set_position(0,x,y,0);
+audio_listener_set_orientation(0,0,1,0,0,0,1);
 

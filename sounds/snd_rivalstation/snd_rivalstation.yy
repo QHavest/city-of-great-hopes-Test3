@@ -4,7 +4,7 @@
   "name": "snd_rivalstation",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.05,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_rivalstation.mp3",
   "duration": 166.00816,
   "parent": {
-    "name": "Fon_snd",
-    "path": "folders/Sounds/Fon_snd.yy",
+    "name": "Day",
+    "path": "folders/Sounds/Fon_snd/Day.yy",
   },
 }

@@ -1,3 +1,9 @@
+
+
+
+
+
+
 if (global.map or global.pause or !global.dialog_end or global.shop or global.diary){
 	inv_UI_x_closed = inv_UI_x_closed_static;
 	show_inventory = false;
@@ -45,6 +51,7 @@ if(keyboard_check_pressed(vk_right) && alarm[0] < 0){
 			count_slot_pos = -1;
 			}
 		count_slot_pos ++;
+		audio_play_sound(snd_search,global.System_gain,0)
 		}
 if(keyboard_check_pressed(vk_left) && alarm[0] < 0){
 		if (count_slot_pos == 0){
@@ -59,10 +66,13 @@ if(keyboard_check_pressed(vk_left) && alarm[0] < 0){
 			}
 		frame_x = frame_x - (cell_size + buffer_btw_slots);
 		count_slot_pos --;
+		audio_play_sound(snd_search,global.System_gain,0)
 		}
 if(keyboard_check_pressed(vk_enter))
 {
 	global.ds_inventory[# 0, count_slot_pos] = 0;
+	audio_play_sound(snd_op_accept,global.System_gain,0)
+	show_debug_message("sound_scam");
 }
 
 

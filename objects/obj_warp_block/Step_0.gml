@@ -10,7 +10,8 @@ if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) &
 	insts.target_y = target_y;
 	insts.target_rm = target_rm;
 	insts.target_face = target_face;
-	scr_music_fon_change(target_rm); 
+	scr_music_fon_change(target_rm);
+	audio_play_sound(dor_sound,5,0,global.player_gain);
 	}
 }
 	//if drowing = true and room =  target_rm and old_side = false{
@@ -28,6 +29,7 @@ if obj_dim_player1.key_room_go = true and place_meeting(x, y, obj_dim_player1) &
 	insts.target_rm = target_rm;
 	insts.target_face = target_face;
 	scr_music_fon_change(target_rm);
+	audio_play_sound(dor_sound,5,0,global.player_gain);
 	}
 }
 	
