@@ -1,7 +1,7 @@
 mask_index = sprite_index;
 depth = -bbox_bottom;
 walkspds = 4;
-runspds  = 15;
+runspds  = 4;
 collisionSpeed = 4;
 lastmoves = 0
 

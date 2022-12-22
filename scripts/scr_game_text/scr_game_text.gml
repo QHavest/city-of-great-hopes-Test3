@@ -1297,49 +1297,73 @@ break;
 #region (scena 9)
 case "scena_9_1":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena91"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  
   // обійми
-  
   scr_text(scr_json_lang(global.LANGUAGE,"Scena92"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena93"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena93"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  break;
   // пакет літає
-  
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena94"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  
+case "scena_9_2":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena94"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  break;
   // пакет полетів
-  
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena95"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  
+case "scena_9_3":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena95"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  break;
   // складує руки на грудяї (змерз)
   // пропонує сигарету
-  
-    scr_option(scr_json_lang(global.LANGUAGE,"Scena96"),"4");
-    scr_option(scr_json_lang(global.LANGUAGE,"Scena97"),"4");
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena98"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-  
+case "scena_9_4":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena910"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+    scr_option(scr_json_lang(global.LANGUAGE,"Scena96"),"Krus_smok");
+    scr_option(scr_json_lang(global.LANGUAGE,"Scena97"),"Krus_dont_smok");
+  break;
   // докурює сигарету, йде геть
+  case "Krus_smok":
+  break;
   
+  case "Krus_dont_smok":
+  
+  //seq4_2 = layer_sequence_create("Cutscenes2", 0,0, seq_scena_9_2);
+  instance_create_depth(0, 0, 1000, obj_seq_delete);
+  break;
+  
+  
+case "scena_9_5":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena98"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+break;
+
+case "scena_9_6":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena99"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 #endregion
 
-#region (Cutscene 2)
-case "Krus_day2":
-	scr_text("Соня, вставай!!!");
+#region (scena 5)
+case "scena_5_1":
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena51"),1,spr_ic_Krus,spr_ic_Ytopurok);
+break
+
+// кидає подушку, стукають по батареї
+
+case "scena_5_2":
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena52"),1,spr_ic_Krus);
+break
+
+case "scena_5_3":
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena53"),2,spr_ic_Krus,spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena54"),1,spr_ic_Krus,spr_ic_Ytopurok);
+break
+
+case "scena_5_4":
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena55"),1,spr_ic_Krus);
+break
+
+case "scena_5_5":
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena56"),1,spr_ic_Krus);
 break
 #endregion
-#region (Cutscene 3)
-case "Krus_day3":
-	scr_text("Вибачте!");
-break
-#endregion
-#region (Cutscene 3.1)
-case "Krus_day4":
-	scr_text("Вот же ведмідь…");
-break
-#endregion
+
+
+
 case "4":
 	
 	break

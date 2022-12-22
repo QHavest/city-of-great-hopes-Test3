@@ -1,2 +1,3 @@
-// додаткова анімація - spr_seller_agro_count
+a = 1;
+alarm[0] = 10;
 

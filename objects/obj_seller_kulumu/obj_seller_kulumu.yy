@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_seller_kulumu",
   "spriteId": {
-    "name": "spr_seller_kulumu_smok",
-    "path": "sprites/spr_seller_kulumu_smok/spr_seller_kulumu_smok.yy",
+    "name": "spr_seller_kulumu_stay",
+    "path": "sprites/spr_seller_kulumu_stay/spr_seller_kulumu_stay.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

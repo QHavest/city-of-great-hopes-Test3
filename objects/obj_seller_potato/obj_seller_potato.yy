@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_seller_potato",
   "spriteId": {
-    "name": "spr_seller_potato",
-    "path": "sprites/spr_seller_potato/spr_seller_potato.yy",
+    "name": "spr_seller_potato_stay",
+    "path": "sprites/spr_seller_potato_stay/spr_seller_potato_stay.yy",
   },
   "solid": false,
   "visible": true,

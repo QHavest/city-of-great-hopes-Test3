@@ -3,8 +3,8 @@ if (global.shop) exit;
 
 //система зміни статусу гравця
 if (!in_sequence){
-if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
-if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
+//if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
+//if(keyboard_check(ord("1"))) status = STATUS.ACTIVE; 
 moves     =  keyboard_check(vk_space);
 keyrs     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
 keyls    =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
