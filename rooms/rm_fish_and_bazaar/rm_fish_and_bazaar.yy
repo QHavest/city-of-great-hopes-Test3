@@ -18,9 +18,7 @@
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Cutscenes2","assets":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Cutscenes","assets":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_animations","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61FE9525","properties":[],"isDnd":false,"objectId":{"name":"obj_goluby_bazar","path":"objects/obj_goluby_bazar/obj_goluby_bazar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1284.0,"y":152.0,},
-      ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_animations","instances":[],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C618504_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-39.416637,"scaleX":0.25,"scaleY":6.375001,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":43.0,"y":262.99997,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C47A330_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":140.37498,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1131.9999,"y":303.0,},
@@ -122,7 +120,6 @@
     {"name":"inst_7EDC70E0","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_1C15752","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_AAA9E66","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
-    {"name":"inst_61FE9525","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_3303F689","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_4BDF60CE","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_46EBC797","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},

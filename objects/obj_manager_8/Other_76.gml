@@ -56,6 +56,17 @@ if event_data [? "event_type"] == "sequence event"
 	//obj_box_posyda.depth = num3;
 	audio_stop_all();
 	audio_play_sound(global.sound, 1, true);
+	
+	x1 = obj_dim_player1.x;
+	y1 = obj_dim_player1.y;
+	x2 = obj_dim_player2.x;
+	y2 = obj_dim_player2.y;
+	room_goto(rm_fishing);
+	room_goto(rm_street_container);
+	obj_dim_player1.x = x1;
+	obj_dim_player1.y = y1;
+	obj_dim_player2.x = x2;
+	obj_dim_player2.y = y2;
     break;
   }
 }

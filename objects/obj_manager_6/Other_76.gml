@@ -23,6 +23,7 @@ if event_data [? "event_type"] == "sequence event"
     case "delete":
 	global.shop = false;
     layer_sequence_destroy(seq1);
+	audio_play_sound(global.sound, 1, true);
     break;
   }
 }

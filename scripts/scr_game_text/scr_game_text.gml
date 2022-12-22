@@ -1187,7 +1187,7 @@ scr_text("Стоять!",1,spr_ic_Krus,spr_ic_Ytopurok);
 break;
 
 case "scena_7_2":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena74"),2,spr_ic_Ytopurok,spr_ic_);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena74"),2,spr_ic_Ytopurok,spr_ic_Krus);
 scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 break;
 
@@ -1345,7 +1345,7 @@ break
 // кидає подушку, стукають по батареї
 
 case "scena_5_2":
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena52"),1,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena52"),1,spr_ic_Krus, spr_ic_Krus);
 break
 
 case "scena_5_3":
@@ -1354,11 +1354,11 @@ case "scena_5_3":
 break
 
 case "scena_5_4":
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena55"),1,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena55"),1,spr_ic_Krus, spr_ic_Krus);
 break
 
 case "scena_5_5":
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena56"),1,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena56"),1,spr_ic_Krus, spr_ic_Ytopurok);
 break
 #endregion
 
