@@ -11,8 +11,3 @@ if(pause == true)
 		pause = false;
 	}
 }
-//if(a==1)
-//{
-//	obj_dim_player2.x = obj_player_2_9.x;
-//	obj_dim_player2.y = obj_player_2_9.y;
-//}

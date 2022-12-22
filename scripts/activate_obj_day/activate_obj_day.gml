@@ -12,4 +12,9 @@ instance_activate_object(obj_watermelon);
 instance_activate_object(obj_box_container);*/
 
 	scr_player_and_objects(obj_days);
+	
+	with(obj_manager_9)
+	{
+		a = 0;
+	}
 }

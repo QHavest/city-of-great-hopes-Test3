@@ -4,7 +4,7 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	a = 1;
+	//a = 1;
 	audio_stop_all();
 	audio_play_sound(snd_bazar_2, 1, true);
 	regCam1 = view_get_camera(0);

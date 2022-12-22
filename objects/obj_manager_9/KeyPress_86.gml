@@ -1,8 +1,5 @@
-//with(daycycle)
-//{
-//	if(phase == phase.nighttime or phase1 == phase.nighttime1 or phase1 == phase.nighttime2)
-//	{
-	//time_pause = !time_pause;
+if(a == 1)
+{
 	var playerInst1 = instance_find(obj_dim_player2,0);
 	var objInst1 = instance_find(obj_lotki_night2,0);
 	var objInst2 = instance_find(obj_lamp_fish_and_bazaar_night,0);
@@ -42,6 +39,6 @@
 	sequence_instance_override_object(seqInst, obj_sign_back,  objInst12);
 	sequence_instance_override_object(seqInst, obj_sign_back1,  objInst13);
 	sequence_instance_override_object(seqInst, obj_lamp_fish,  objInst14);
-//	}
-//	else exit;
-//}
+}
+
+else exit;
