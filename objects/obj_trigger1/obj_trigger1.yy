@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_trigger1",
   "spriteId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
+    "name": "spr_trigger",
+    "path": "sprites/spr_trigger/spr_trigger.yy",
   },
   "solid": false,
   "visible": false,

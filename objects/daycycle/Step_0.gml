@@ -1,4 +1,7 @@
-if(keyboard_check_pressed(ord("T"))){time_pause = !time_pause;}
+
+if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
+if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("O"))){time_increment = 20;}
 event_inherited()
 if(time_pause) exit;
 //збільошуємо час за секунду
@@ -183,5 +186,6 @@ if (hours >= 24){
 	}
 }
 #endregion
+
 
 

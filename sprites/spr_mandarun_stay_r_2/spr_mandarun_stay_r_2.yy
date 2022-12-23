@@ -47,7 +47,7 @@
     "name": "spr_mandarun_stay_r_2",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 9.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
