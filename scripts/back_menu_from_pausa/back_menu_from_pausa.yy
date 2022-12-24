@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "back_menu",
+  "name": "back_menu_from_pausa",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

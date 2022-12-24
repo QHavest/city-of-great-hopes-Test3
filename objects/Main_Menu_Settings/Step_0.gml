@@ -30,7 +30,6 @@ switch(ds_grid[# 1, menu_option[page]]){
 				if ds_grid[# 3, menu_option[page]] == clamp(ds_grid[# 3, menu_option[page]], 0, 1) audio_play_sound(snd_search,global.System_gain,0);
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, 1);
 				script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);
-				//audio_play_sound(snd_search,1,0);
 			}
 			break;
 		case main_menu_element_type.toggle:

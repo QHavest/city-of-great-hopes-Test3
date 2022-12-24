@@ -2,7 +2,6 @@
 //global.pause = false;
 view_widths = /*camera_get_view_width(view_camera[0])*/ room_width/2;
 view_heights = /*camera_get_view_height(view_camera[0])*/room_height/2;
-
 //global.key_revert =  keyboard_check_pressed(ord("X"));
 global.key_enter = vk_enter;
 global.key_left = vk_left;
