@@ -63,6 +63,12 @@ if(system = 0 and mini_game = false){
 	} 
 	if(button[2] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
+	//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
+	if(global.LANGUAGE = "eng"){
+	obj_background_mini.index_minigame_back = 2;
+	} else if(global.LANGUAGE = "ua"){
+	obj_background_mini.index_minigame_back = 3;
+	}
 	} 
 	if(button[3] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
 	button_c = 1;
@@ -95,13 +101,17 @@ if(system = 1) {
 	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		system = 0;
-		obj_mini_avatar.index_avatar = 1;
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 0;
+		instance_activate_object(obj_sssr);
 		// почалася бійка за Утопирка
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		system = 0;
+		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 2;
+		instance_activate_object(obj_sssr);
 		// почалася бійка за Криса
 	} 
 	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){

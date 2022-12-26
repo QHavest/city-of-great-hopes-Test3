@@ -15,7 +15,8 @@ Move[1,0]=true
 Move[1,1]=true
 #endregion
 
-index_avatar = image_index; 
+index_avatar = 1;
+
 grv = 0.8;
 spd = 5;
 
