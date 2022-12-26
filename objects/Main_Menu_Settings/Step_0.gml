@@ -67,3 +67,4 @@ if(input_enter_p){
 			break;
 	}
 }
+if global.settings_open instance_create_depth(0,0,0,Menu_settings);
