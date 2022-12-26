@@ -36,7 +36,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Narkomany",
-    "path": "folders/Battle_system/MiniGames/Narkomany.yy",
+    "name": "MiniGames",
+    "path": "folders/Battle_system/MiniGames.yy",
   },
 }

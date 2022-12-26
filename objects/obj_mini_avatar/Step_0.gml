@@ -1,4 +1,4 @@
-image_index = 1;
+
 
 /*hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -9,6 +9,8 @@ y += vInput * spd;*/
 /*spd += grv
 y += spd
 x++*/
+
+if (obj_Battle_Interface.mini_game = true){
 #region ходьба по клітинкам
 
 if place_snapped(G,G1){
@@ -26,7 +28,7 @@ y -= 105;
 }
 
 #endregion
-
+}
 
 if (keyboard_check_pressed(ord("W"))){
 	spd = -10;

@@ -95,11 +95,13 @@ if(system = 1) {
 	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		system = 0;
+		obj_mini_avatar.index_avatar = 1;
 		// почалася бійка за Утопирка
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		system = 0;
+		obj_mini_avatar.index_avatar = 2;
 		// почалася бійка за Криса
 	} 
 	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){

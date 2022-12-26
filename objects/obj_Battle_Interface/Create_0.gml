@@ -16,6 +16,13 @@ butt_invis = 1; //видимість кнопок
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
+enemies = ENEMY.Noname
+enum ENEMY{
+Noname,
+Narkomany,
+Kavkazci,
+}
+
 //for button array
 
 button_c = 1;
