@@ -10,6 +10,7 @@ light_bi = 0; // мерехтілка вимкнена
 mini_game = false; //міні-гра не активна
 butt_invis = 1; //видимість кнопок
 BDialogue = false; //діалог
+luck = irandom_range(0, 100);
 
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
