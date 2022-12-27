@@ -1,6 +1,6 @@
-hpKrys = 50;
-hpYtopyrok = 50;  
-global.MaxHp = hpKrys+hpYtopyrok
+//hpKrys = 50;
+//hpYtopyrok = 50;  
+
 
 #region ходьба по клітинкам
 G=1//даємо значення сітці G px
@@ -26,4 +26,4 @@ gui_W = display_get_gui_width();
 take_damage = false;
 damage = damage;
 amount_hp = 279;
-light_bi = 0;
+//light_bi = 0;

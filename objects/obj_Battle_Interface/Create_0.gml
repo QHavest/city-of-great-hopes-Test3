@@ -1,6 +1,9 @@
 battle_start = false;
-/*hpKrys = 50;
-hpYtopyrok = 50;  
+hpKrys = 50;
+hpYtopyrok = 50; 
+global.MaxHp = hpKrys+hpYtopyrok
+light_bi = 0; // мерехтілка вимкнена
+/* 
 global.MaxHp = hpKrys+hpYtopyrok
 
 battle_start = false;
@@ -8,7 +11,6 @@ take_damage = false;
 amount_hp = 279
 damage = 10; //це можна буде видалити
 
-light_bi = 0; // мерехтілка вимкнена
 */
 mini_game = false; //міні-гра не активна
 butt_invis = 1; //видимість кнопок

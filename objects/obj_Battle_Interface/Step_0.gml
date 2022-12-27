@@ -1,14 +1,23 @@
 //В степ івент треба внести всі умови при яких починається боротьба
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
+	enemies = ENEMY.Kavkazci
 	room_goto(Room61);
+
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 //alarm[1] -= 1;
-
-
+	
 if (!battle_start) exit;
-
+if (battle_start = true and mini_game = false){
+		instance_deactivate_object(obj_mini_avatar);
+		instance_deactivate_object(obj_sssr);
+		instance_deactivate_object(obj_background_mini);
+		} /*else if (mini_game = true and battle_start = true){
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 0;
+		instance_activate_object(obj_sssr);
+		}*/
 //alarm[1] -= 1;
 //отримання пошкодження
 /*if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
@@ -100,18 +109,29 @@ if(system = 1) {
 	}
 	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
-		system = 0;
+		if (mini_game = true and battle_start = true){
+		instance_activate_object(obj_background_mini);
 		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 0;
+		obj_mini_avatar.index_avatar = 1;
 		instance_activate_object(obj_sssr);
+		}
+		system = 0;
 		// почалася бійка за Утопирка
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
-		system = 0;
+		/*if (mini_game = true){
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 2;
 		instance_activate_object(obj_sssr);
+		}*/
+		if (mini_game = true and battle_start = true){
+		instance_activate_object(obj_background_mini);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 2;
+		instance_activate_object(obj_sssr);
+		}
+		system = 0;
 		// почалася бійка за Криса
 	} 
 	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
@@ -145,5 +165,6 @@ if(system = 2) {
 		system = 0;
 	}
 }	
-	
+
+
 
