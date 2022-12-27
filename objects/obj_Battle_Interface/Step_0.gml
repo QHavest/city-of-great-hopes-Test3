@@ -124,6 +124,12 @@ if(system = 1) {
 		obj_mini_avatar.index_avatar = 1;
 		instance_activate_object(obj_sssr);
 		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
+		instance_activate_object(obj_shprutz_parent);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 1;
+		}
 		system = 0;
 		// почалася бійка за Утопирка
 	} 
@@ -139,6 +145,11 @@ if(system = 1) {
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 2;
 		instance_activate_object(obj_sssr);
+		}
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
+		instance_activate_object(obj_shprutz_parent);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 1;
 		}
 		system = 0;
 		// почалася бійка за Криса

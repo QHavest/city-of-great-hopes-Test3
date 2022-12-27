@@ -1,16 +1,17 @@
 image_index = index_avatar;
-
-/*hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany){
+hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 x += hInput * spd;
-y += vInput * spd;*/
+y += vInput * spd;
 
-/*spd += grv
+spd += grv
 y += spd
-x++*/
+x++
+}
 
-if (obj_Battle_Interface.mini_game = true){
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci){
 #region ходьба по клітинкам
 
 if place_snapped(G,G1){
@@ -36,7 +37,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_parent) or place_meeting(x, y, obj_sssrs) and alarm[4] < 1){
+if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_parent) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_shprutz_dow1) and alarm[4] < 1){
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

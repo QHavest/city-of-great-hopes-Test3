@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("C"))){ alarm[2] = 80; }
-
+if (place_meeting(x,y,obj_mini_avatar)){
+obj_mini_avatar.damage = 5;}
 with (inst_198CDF67){
 if(alarm[2] = 80){ 
 	alarm[1] = 80;

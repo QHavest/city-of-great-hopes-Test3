@@ -1,3 +1,5 @@
+if (place_meeting(x,y,obj_mini_avatar)){
+obj_mini_avatar.damage = 5;}
 if(keyboard_check_pressed(ord("C"))){ alarm[2] = 80; }
 
 with (inst_6625367E){
