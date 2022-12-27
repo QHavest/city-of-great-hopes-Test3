@@ -29,7 +29,7 @@ if(alarm[1] < 1){
 	light_bi = 0;
 }
 //mini-game
-if (mini_game = true)
+if (mini_game == true)
 for(i = 1; i < 5; i++){
 button[i] = "D";
 butt_invis = 0.5;
@@ -37,19 +37,18 @@ butt_invis = 0.5;
 
 
 //button
-if(system = 0 and mini_game = false){
+if(system == 0 and mini_game == false and BDialogue == false){
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
 		button_c++;
-		if(button_c = 5){ button[4] = "D";}
-		if(button_c = 5){ button_c = 1}	
+		if(button_c == 5){ button[4] = "D";}
+		if(button_c == 5){ button_c = 1}	
 		button[button_c] = "L";
 		button[button_c-1] = "D";
 	}
-	//To left
 	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
 		button_c--;
-		if(button_c = 0){ button[1] = "D"}	
-		if(button_c = 0){ button_c = 4}	
+		if(button_c == 0){ button[1] = "D"}	
+		if(button_c == 0){ button_c = 4}	
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
@@ -68,7 +67,9 @@ if(system = 0 and mini_game = false){
 	if(button[4] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
 	butt_invis = 0.5;
 	screen = 1;
-	mini_game = true;
+	BDialogue = true;
+	button_c = 1;
+	varcol[1] = c_orange;
 	} 
 }
 
@@ -128,5 +129,31 @@ if(system = 2) {
 		system = 0;
 	}
 }	
+
+if(BDialogue = true){
+	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
+		button_c++;
+		varcol[button_c-1] = c_gray;
+		if(button_c = 4){ button_c = 1 }	
+		varcol[button_c] = c_orange;
+	}
+	//To left
+	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
+		button_c--;
+		if(button_c = 0){ varcol[1] = c_gray }
+		if(button_c = 0){ button_c = 3 }
+		varcol[button_c+1] = c_gray;
+		varcol[button_c] = c_orange;
+	}
+	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
+		system = 0;
+		screen = 0;
+		BDialogue = false;
+		butt_invis = 1;
+		button_c = 1;
+		button[button_c] = "L";
+		button[4] = "D";
+	}
+}
 	
 
