@@ -3,6 +3,10 @@ hpYtopyrok = 50;
 global.MaxHp = hpKrys+hpYtopyrok
 
 battle_start = false;
+battle_turn_down = false;
+
+answer = 1;
+
 take_damage = false;
 amount_hp = 279
 damage = 10; //це можна буде видалити
@@ -49,16 +53,16 @@ dia_torchky[2][2] = "Huh? Didn't get that.";
 #endregion
 
 #region діалоги сектантів
-dia_sect[1][1] = "Maybe let's come to an agreement somehow?";
-dia_sect[2][1] = "I heard that now the service in church..."; 
-dia_sect[3][1] = "Don't you think this is superfluous?";
+dia_sect[1][0] = "Maybe let's come to an agreement somehow?";
+dia_sect[2][0] = "I heard that now the service in church..."; 
+dia_sect[3][0] = "Don't you think this is superfluous?";
 
-dia_sect[1][2] = "This should've been talked about earlier, not when they raised their hand against their neighbor.";
-dia_sect[2][2] = "You should always give people a chance."; 
-dia_sect[3][2] = "Oh child, go with God!";
+dia_sect[1][1] = "This should've been talked about earlier, not when they raised their hand against their neighbor.";
+dia_sect[2][1] = "You should always give people a chance."; 
+dia_sect[3][1] = "Oh child, go with God!";
 
-dia_sect[1][3] = "Huh? What, really?";
-dia_sect[2][3] = "We are not falling into this again!"; 
+dia_sect[1][2] = "Huh? What, really?";
+dia_sect[2][2] = "We are not falling into this again!"; 
 
 #endregion
 
@@ -67,11 +71,11 @@ dia_caucasci[1][0] = "Maybe let's come to an agreement somehow?";
 dia_caucasci[2][0] = "What did Makhno say to Chapaev?"; 
 dia_caucasci[3][0] = "Don't you think this is superfluous?";
 
-dia_caucasci[1][2] = "Hey bros, no bullshit. It's already late, brothers.";
-dia_caucasci[2][2] = "Oh, I felt sorry for this brats. Now scram."; 
+dia_caucasci[1][1] = "Hey bros, no bullshit. It's already late, brothers.";
+dia_caucasci[2][1] = "Oh, I felt sorry for this brats. Now scram."; 
 
-dia_caucasci[1][3] = "Am I an anarchist?";
-dia_caucasci[2][3] = "I give up!"; 
+dia_caucasci[1][2] = "Am I an anarchist?";
+dia_caucasci[2][2] = "I give up!"; 
 #endregion
 
 #region діалоги гопників

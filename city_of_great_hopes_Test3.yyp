@@ -1181,6 +1181,7 @@
     {"id":{"name":"rm_south","path":"rooms/rm_south/rm_south.yy",},"order":1,},
     {"id":{"name":"obj_shelf_b_bibli","path":"objects/obj_shelf_b_bibli/obj_shelf_b_bibli.yy",},"order":0,},
     {"id":{"name":"obj_box_gg","path":"objects/obj_box_gg/obj_box_gg.yy",},"order":5,},
+    {"id":{"name":"font_azariya_textbox_2","path":"fonts/font_azariya_textbox_2/font_azariya_textbox_2.yy",},"order":11,},
     {"id":{"name":"obj_tires_garage2","path":"objects/obj_tires_garage2/obj_tires_garage2.yy",},"order":3,},
     {"id":{"name":"spr_ic_Hyk","path":"sprites/spr_ic_Hyk/spr_ic_Hyk.yy",},"order":1,},
     {"id":{"name":"spr_AfroYvasia_na","path":"sprites/spr_AfroYvasia_na/spr_AfroYvasia_na.yy",},"order":37,},
