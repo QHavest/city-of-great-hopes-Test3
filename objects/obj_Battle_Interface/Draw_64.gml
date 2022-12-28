@@ -59,6 +59,7 @@ if(battle_start = true){
 	if(BDialogue = true){
 		//if(torchky)
 		draw_set_font(font_azariya_textbox)
+		draw_sprite_stretched(Sprite1042, 0, gui_W/3.6, gui_H/1.65, hh, ww);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_torchky[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_torchky[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_torchky[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
@@ -66,23 +67,23 @@ if(battle_start = true){
 	//if(BDialogue = true){
 	//	//if(caucasci)
 	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, asset_get_index( "dia_caucasci[1][0]"), stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, asset_get_index( "dia_caucasci[2][0]"), stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, asset_get_index( "dia_caucasci[3][0]"), stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_caucasci[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_caucasci[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_caucasci[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	//}
 	//if(BDialogue = true){
 	//	//if(sectants)
 	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, asset_get_index( "dia_sect[1][0]"), stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, asset_get_index( "dia_sect[2][0]"), stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, asset_get_index( "dia_sect[3][0]"), stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_sect[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_sect[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_sect[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	//}
 	//if(BDialogue = true){
 	//	//if(hopniki)
 	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, asset_get_index( "dia_hopniki[1][0]"), stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, asset_get_index( "dia_hopniki[2][0]"), stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, asset_get_index( "dia_hopniki[3][0]"), stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_hopniki[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_hopniki[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_hopniki[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	//}
 	
 } else {instance_activate_object(obj_inventory);}

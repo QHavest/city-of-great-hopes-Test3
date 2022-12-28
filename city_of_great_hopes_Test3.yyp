@@ -1113,6 +1113,7 @@
     {"id":{"name":"sp_studentskyi_nabir_eng01","path":"sprites/sp_studentskyi_nabir_eng01/sp_studentskyi_nabir_eng01.yy",},"order":6,},
     {"id":{"name":"obj_seller_bazar_1","path":"objects/obj_seller_bazar_1/obj_seller_bazar_1.yy",},"order":26,},
     {"id":{"name":"spr_fruit3","path":"sprites/spr_fruit3/spr_fruit3.yy",},"order":4,},
+    {"id":{"name":"Sprite1042","path":"sprites/Sprite1042/Sprite1042.yy",},"order":12,},
     {"id":{"name":"obj_mp_open","path":"objects/obj_mp_open/obj_mp_open.yy",},"order":8,},
     {"id":{"name":"spr_car_s","path":"sprites/spr_car_s/spr_car_s.yy",},"order":16,},
     {"id":{"name":"obj_zoo_aquarium","path":"objects/obj_zoo_aquarium/obj_zoo_aquarium.yy",},"order":0,},
