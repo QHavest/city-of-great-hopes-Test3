@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "font_azariya_textbox",
+  "name": "font_azariya_textbox_2",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
