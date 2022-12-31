@@ -64,8 +64,8 @@ if(battle_turn_down = true and alarm[2] < 1){
 //мерехтілка
 if(alarm[1] < 1){
 	light_bi = 0;
-	}*/
-}
+	}
+}*/
 
 
 //mini-game

@@ -3,11 +3,11 @@ hpKrys = 50;
 hpYtopyrok = 50; 
 global.MaxHp = hpKrys+hpYtopyrok
 light_bi = 0; // мерехтілка вимкнена
+battle_turn_down = false;
 /* 
 global.MaxHp = hpKrys+hpYtopyrok
 
-battle_start = false;
-battle_turn_down = false;
+
 
 answer = 1;
 
