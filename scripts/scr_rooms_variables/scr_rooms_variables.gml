@@ -7,7 +7,7 @@
 3 - indor (true - indor; false - outdor)
 4 - for Margaryta
 */
-function scr_rooms_variables(r,name){
+function scr_rooms_variables(r, name){
 switch(r)
 		{
 case rm_main_menu:	

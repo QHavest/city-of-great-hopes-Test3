@@ -1,8 +1,96 @@
+#region weather
+
+#region rain
+if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == true)
+{
+	rain_chance = 80; // шанс дощу - 1 до 80 (кожен ігровий кадр)
+
+	var rain_or_not = irandom_range(0, rain_chance);
+	//show_debug_message("Number is" + string(rain_or_not))
+	//var rain_or_not = 1;
+	//if(keyboard_check_pressed(ord("X"))){rain_or_not = a/2}
+	if(rain_or_not == rain_chance)
+	{	
+		emitter_rain = part_emitter_create(weather);
+		raining = true;
+		var duration = irandom_range(30, 120) // in sekonds
+		//var intensivity_var = irandom_range(1,3); // інтенсивність дощу
+		switch(intensivity_var)
+		{
+			case 1: 
+			intensivity = 15;
+			break;
+		
+			case 2: 
+			intensivity = 25;
+			break;
+		
+			case 3: 
+			intensivity = 40;
+			break;
+		
+		}
+		var angle = irandom_range(260, 280) // in degrees
+	
+		// налаштування анімації дощу
+		rain = part_type_create();
+
+		// налаштування анімації дощу
+		part_type_sprite(rain, spr_rain, 0, 0, 1);
+		part_type_size(rain, 0.5, 0.5, 0, 0);
+		part_type_direction(rain, angle, angle, 0, 0);
+		part_type_speed(rain, 4, 4, 0, 0);
+		//part_type_gravity(rain, 0.5, angle)
+		part_type_life(rain, 200, 200);
+		part_type_orientation(rain, angle, angle, 0, 0, 1);
+		part_type_alpha1(rain, 0.6);
+
+		// обчислення позиції
+		y_start = camera_get_view_y(view_current);
+		camera_width = camera_get_view_width(view_current);
+		x_start = obj_dim_player1.x - camera_width/2;
+
+		// запуск анімації
+		part_emitter_region(weather, emitter_rain, x_start - 200, x_start + camera_width + 200, y_start, y_start, ps_shape_rectangle, ps_distr_linear);
+		part_emitter_stream(weather, emitter_rain, rain, intensivity);
+		alarm[0] = 40 * duration;
+	}
+}
+#endregion
+
+#region fog
+
+if(num == percent) 
+{
+	alarm[3] = 1; 
+	alarm[5] = time1 * 20; 
+	show_debug_message("Fog is real");
+	percent++;
+	
+}
+
+if(fogNum > 350 and fog_or_not == true)
+{
+	fog_or_not = false;
+	fogNum -= 70;
+	alarm[4] = 60;
+}
+
+if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
+if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
+
+if(keyboard_check_pressed(ord("V"))){alarm[3] = 1; alarm[5] = time1 * 25;}
+
+#endregion
+
+#endregion
+#region day_night
 
 if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
 if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
 if(keyboard_check_pressed(ord("O"))){time_increment = 20;}
 event_inherited()
+
 if(time_pause) exit;
 //збільошуємо час за секунду
 seconds += time_increment;
@@ -187,5 +275,4 @@ if (hours >= 24){
 }
 #endregion
 
-
-
+#endregion

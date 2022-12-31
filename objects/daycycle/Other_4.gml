@@ -18,3 +18,14 @@ switch(room){
 	
 	default: draw_daylight = false; break;
 }
+
+//part_particles_clear(weather)
+//if(scr_rooms_variables(room, 3) == false)
+//{
+//	// spawn
+//}
+
+//else
+//{
+//	// not spawn
+//}
