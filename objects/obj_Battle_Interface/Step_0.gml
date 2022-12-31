@@ -60,7 +60,6 @@ if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y,
 	take_damage = false;
 }
 	
-	
 
 if(alarm[1] < 1){
 	light_bi = 0;
