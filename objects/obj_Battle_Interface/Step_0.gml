@@ -41,8 +41,8 @@ if(battle_turn_down = true and alarm[2] < 1){
 	battle_turn_down = false;
 }
 
-//отримання пошкодження
-/*if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
+
+if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
 	alarm[1] = 30;
 	light_bi = 1;
 	if(global.MaxHp > 50){
@@ -61,16 +61,15 @@ if(battle_turn_down = true and alarm[2] < 1){
 }
 	
 	
-//мерехтілка
+
 if(alarm[1] < 1){
 	light_bi = 0;
 	}
-}*/
 
 
 //mini-game
 if (mini_game == true){
-BDialogue = false;	
+	BDialogue = false;	
 	for(i = 1; i < 5; i++){
 	button[i] = "D";
 	butt_invis = 0.5;
@@ -239,7 +238,7 @@ if(BDialogue = true){
 	///////ШАНСИ НА РІШЕННЯ В ДІАЛОЗІ
 	//якщо торчки!!!!!!!!!!!!!
 
-		if(button_c = 1 and (keyboard_check_press(vk_enter) or keyboard_check_press(ord("E")))){
+		if(button_c = 1 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
 			//(Торчки відберають всю їжу у персонажей та йдуть. Бій закінчується).
@@ -262,7 +261,7 @@ if(BDialogue = true){
 				battle_turn_down = true;
 				}
 			}
-		if(button_c = 2 and (keyboard_check_press(vk_enter) or keyboard_check_press(ord("E")))){
+		if(button_c = 2 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
 			answer = 2;
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
@@ -283,7 +282,7 @@ if(BDialogue = true){
 				button[2] = "D";
 			}	
 		}
-		if(button_c = 3 and (keyboard_check_press(vk_enter) or keyboard_check_press(ord("E")))){
+		if(button_c = 3 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
 			luck = irandom_range(0,100);
 			if(luck > 50){
 				system = 0;
