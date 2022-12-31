@@ -1,4 +1,4 @@
-switch (obj_mp_manager.target_rm){
+/*switch (obj_mp_manager.target_rm){
 case rm_bakery :				pos = 0; break
 case rm_food_shop :				pos = 0; break
 case rm_indoor_rival_station :	pos = 0; break
@@ -47,7 +47,8 @@ case rm_bibliotheka :	pos = 3; break
 case rm_hastronom_tukh :pos = 3; break
 case rm_north :			pos = 3; break
 case rm_school :		pos = 3; break
-}
+}*/
+pos = scr_rooms_variables(obj_mp_manager.target_rm,2)
 spot=0;
 acepted_key = 0;
 t=0;

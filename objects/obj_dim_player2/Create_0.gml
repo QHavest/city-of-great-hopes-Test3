@@ -1,4 +1,5 @@
 mask_index = sprite_index;
+move = 1; // Mazur
 walkspd = 4;
 runspd  = 15;
 collisionSpeed = 4;
@@ -7,6 +8,7 @@ lastmove = 0
 playernum = 2;
 status = STATUS.PASSIVE;
 sprit="Krus";
+s_walk = snd_walk;
 
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
@@ -25,5 +27,5 @@ for(var i = array_size-1; i >= 0; i--){
 
 // Mazur
 
-audio_listener_set_position(0,x,y,0);
-audio_listener_set_orientation(0,0,1,0,0,0,1)
+//audio_listener_set_position(0,x,y,0);
+//audio_listener_set_orientation(0,0,1,0,0,0,1)

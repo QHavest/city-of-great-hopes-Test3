@@ -1,8 +1,8 @@
 //якщо магазин або діалог відкритий, гравець нерухомий
 // 
 if (global.shop or !global.dialog_end) {
-	sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+	if lastmove =0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	exit;
 }
 //система зміни статусу гравця

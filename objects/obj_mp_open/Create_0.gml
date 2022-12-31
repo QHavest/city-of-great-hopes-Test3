@@ -1,1 +1,0 @@
-global.contact = 0;

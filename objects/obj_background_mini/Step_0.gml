@@ -1,0 +1,1 @@
+image_index = index_minigame_back;

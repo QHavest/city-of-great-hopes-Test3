@@ -4,7 +4,7 @@
   "name": "snd_center",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.07,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_center.mp3",
   "duration": 126.35429,
   "parent": {
-    "name": "Fon_snd",
-    "path": "folders/Sounds/Fon_snd.yy",
+    "name": "Day",
+    "path": "folders/Sounds/Fon_snd/Day.yy",
   },
 }

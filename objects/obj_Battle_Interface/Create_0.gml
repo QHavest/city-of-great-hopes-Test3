@@ -1,9 +1,13 @@
+battle_start = false;
 hpKrys = 50;
-hpYtopyrok = 50;  
+hpYtopyrok = 50; 
+global.MaxHp = hpKrys+hpYtopyrok
+light_bi = 0; // мерехтілка вимкнена
+battle_turn_down = false;
+/* 
 global.MaxHp = hpKrys+hpYtopyrok
 
-battle_start = false;
-battle_turn_down = false;
+
 
 answer = 1;
 dialogue_was = false;
@@ -11,7 +15,8 @@ dialogue_was = false;
 take_damage = false;
 amount_hp = 279
 damage = 10; //це можна буде видалити
-light_bi = 0; // мерехтілка вимкнена
+
+*/
 mini_game = false; //міні-гра не активна
 butt_invis = 1; //видимість кнопок
 BDialogue = false; //діалог
@@ -19,6 +24,13 @@ luck = irandom_range(0, 100);
 
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
+
+enemies = ENEMY.Noname
+enum ENEMY{
+Noname,
+Narkomany,
+Kavkazci,
+}
 
 //for button array
 

@@ -13,3 +13,5 @@ new_side = false
 depth = -9999
 
 pause = false;
+pause1 = false;
+a = true;

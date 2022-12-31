@@ -7,6 +7,8 @@ var _objInst3 = instance_find(obj_bed_cut,0);
 var _sequence = Sequence1_test;
 var _layerName = "Instances_obj";
 
+global.ghop = true;
+
  _seqElmi = layer_sequence_create(_layerName, 0,0, _sequence);
 var _seqInst = layer_sequence_get_instance(_seqElmi);
 

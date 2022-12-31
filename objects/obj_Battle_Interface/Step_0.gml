@@ -1,9 +1,33 @@
 //В степ івент треба внести всі умови при яких починається боротьба
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
-}
+	enemies = ENEMY.Kavkazci
+	room_goto(Room61);
+
+} else if (!battle_start = battle_start)
+{room_goto(rm_south);}
+//alarm[1] -= 1;
+
+if(keyboard_check_pressed(ord("C"))){
+	battle_start = !battle_start;
+	enemies = ENEMY.Narkomany
+	room_goto(Room61);
+} else if (!battle_start = battle_start)
+{room_goto(rm_south);}
+
 
 if (!battle_start) exit;
+if (battle_start = true and mini_game = false){
+		instance_deactivate_object(obj_mini_avatar);
+		instance_deactivate_object(obj_sssr);
+		instance_deactivate_object(obj_background_mini);
+		instance_deactivate_object(obj_shprutz_parent);
+		} /*else if (mini_game = true and battle_start = true){
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 0;
+		instance_activate_object(obj_sssr);
+		}*/
+//alarm[1] -= 1;
 
 
 alarm[1] -= 1;
@@ -18,7 +42,7 @@ if(battle_turn_down = true and alarm[2] < 1){
 }
 
 //отримання пошкодження
-if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0){
+/*if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
 	alarm[1] = 30;
 	light_bi = 1;
 	if(global.MaxHp > 50){
@@ -40,7 +64,8 @@ if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0){
 //мерехтілка
 if(alarm[1] < 1){
 	light_bi = 0;
-}
+	}
+}*/
 
 
 //mini-game
@@ -75,6 +100,12 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	} 
 	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
+	//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
+	if(global.LANGUAGE = "eng"){
+	obj_background_mini.index_minigame_back = 2;
+	} else if(global.LANGUAGE = "ua"){
+	obj_background_mini.index_minigame_back = 3;
+	}
 	} 
 	if(button[3] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	button_c = 1;
@@ -109,11 +140,39 @@ if(system = 1) {
 	}
 	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
+		instance_activate_object(obj_background_mini);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 1;
+		instance_activate_object(obj_sssr);
+		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
+		instance_activate_object(obj_shprutz_parent);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 1;
+		}
 		system = 0;
 		// почалася бійка за Утопирка
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
+		/*if (mini_game = true){
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 2;
+		instance_activate_object(obj_sssr);
+		}*/
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
+		instance_activate_object(obj_background_mini);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 2;
+		instance_activate_object(obj_sssr);
+		}
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
+		instance_activate_object(obj_shprutz_parent);
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 1;
+		}
 		system = 0;
 		// почалася бійка за Криса
 	} 

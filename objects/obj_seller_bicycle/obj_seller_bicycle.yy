@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_seller_bicycle",
   "spriteId": {
-    "name": "spr_seller_bicycle",
-    "path": "sprites/spr_seller_bicycle/spr_seller_bicycle.yy",
+    "name": "spr_seller_bicycle_stay",
+    "path": "sprites/spr_seller_bicycle_stay/spr_seller_bicycle_stay.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

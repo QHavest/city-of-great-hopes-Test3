@@ -1,4 +1,7 @@
-if(keyboard_check_pressed(ord("T"))){time_pause = !time_pause;}
+
+if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
+if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("O"))){time_increment = 20;}
 event_inherited()
 if(time_pause) exit;
 //збільошуємо час за секунду
@@ -40,6 +43,9 @@ if (draw_daylight){
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
+		global.day = 1;
+		if !audio_is_playing(scr_rooms_variables(room,1)) scr_music_fon_change(room);
+		
 		activate_obj_day();
 		deactivate_obj_night();
 		global.darknes = 0;
@@ -56,7 +62,10 @@ if (draw_daylight){
 	
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
-			
+		
+		global.day = 1;
+		//scr_music_fon_change(room);
+		
 		activate_obj_day();
 		deactivate_obj_night();
 		global.darknes = 0;
@@ -70,6 +79,9 @@ if (draw_daylight){
 		pend = phase.sunset1;
 		layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
+		
+		global.day = 1;
+		//scr_music_fon_change(room);
 		
 		activate_obj_day();
 		deactivate_obj_night();
@@ -100,6 +112,8 @@ if (draw_daylight){
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
 		
+		global.day = 0;
+		if !audio_is_playing(scr_rooms_variables(room,1)) scr_music_fon_change(room);
 
 		activate_obj_night();
 		deactivate_obj_day()
@@ -172,5 +186,6 @@ if (hours >= 24){
 	}
 }
 #endregion
+
 
 

@@ -114,8 +114,8 @@ if (esc_pau) and !global.map and !global.shop
 		global.pause = !global.pause;
 		inputting = false;
 		//if(!global.pause) exit;
-		// Снова включаем все объекты
 		instance_deactivate_all(true);
+		instance_activate_object(music_room);
 	}
 }
 

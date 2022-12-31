@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_sound_emmiter_3d",
+    "path": "objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"useSound","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"snd_fountain",},
+  ],
   "parent": {
     "name": "Left",
     "path": "folders/Objects/Center/Left.yy",

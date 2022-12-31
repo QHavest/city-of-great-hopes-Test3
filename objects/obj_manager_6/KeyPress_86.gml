@@ -10,6 +10,8 @@ var layerName = "Instances_obj";
 
 global.shop = true;
 
+audio_stop_all();
+
 seq1 = layer_sequence_create(layerName, 0,0, sequence);
 var seqInst = layer_sequence_get_instance(seq1);
 
