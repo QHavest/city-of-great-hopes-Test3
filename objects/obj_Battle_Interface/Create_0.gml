@@ -6,6 +6,7 @@ battle_start = false;
 battle_turn_down = false;
 
 answer = 1;
+dialogue_was = false;
 
 take_damage = false;
 amount_hp = 279
