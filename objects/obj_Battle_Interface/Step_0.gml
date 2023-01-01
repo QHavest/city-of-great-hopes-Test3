@@ -15,6 +15,9 @@ if(keyboard_check_pressed(ord("C"))){
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 
+if(mini_game = true){
+	dialogue_was = false;
+}
 
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
@@ -42,23 +45,23 @@ if(battle_turn_down = true and alarm[2] < 1){
 }
 
 
-if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
-	alarm[1] = 30;
-	light_bi = 1;
-	if(global.MaxHp > 50){
-	hpYtopyrok -= damage;
-	global.MaxHp = hpKrys+hpYtopyrok;
-	take_damage = true;
-	amount_hp = amount_hp - (279/damage);
-	}
-	else if(global.MaxHp > 0){
-	hpKrys -= damage;
-	global.MaxHp = hpKrys+hpYtopyrok;
-	take_damage = true;
-	amount_hp = amount_hp - (279/damage);
-	}
-	take_damage = false;
-}
+//if(keyboard_check_pressed(ord("V")) and global.MaxHp > 0 and place_meeting(x, y, obj_mini_avatar)){
+//	alarm[1] = 30;
+//	light_bi = 1;
+//	if(global.MaxHp > 50){
+//	hpYtopyrok -= damage;
+//	global.MaxHp = hpKrys+hpYtopyrok;
+//	take_damage = true;
+//	amount_hp = amount_hp - (279/damage);
+//	}
+//	else if(global.MaxHp > 0){
+//	hpKrys -= damage;
+//	global.MaxHp = hpKrys+hpYtopyrok;
+//	take_damage = true;
+//	amount_hp = amount_hp - (279/damage);
+//	}
+//	take_damage = false;
+//}
 	
 
 if(alarm[1] < 1){
@@ -76,6 +79,7 @@ if (mini_game == true){
 	}
 }
 
+if(alarm[2] > 150) exit;
 
 //button
 if(system == 0 and mini_game == false and BDialogue == false){
@@ -111,13 +115,15 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	button[3] = "D";
 	system = 2;
 	} 
-	if(button[4] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E")) and dialogue_was = false){
-	butt_invis = 0.5;
-	screen = 1;
-	BDialogue = true;
-	button_c = 1;
-	varcol[1] = c_orange;
-	dialogue_was = true;
+	if(button[4] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
+		if(dialogue_was = false){
+			butt_invis = 0.5;
+			screen = 1;
+			BDialogue = true;
+			button_c = 1;
+			varcol[1] = c_orange;
+			dialogue_was = true;
+		}
 	} 
 }
 
@@ -237,7 +243,7 @@ if(BDialogue = true){
 	///////ШАНСИ НА РІШЕННЯ В ДІАЛОЗІ
 	//якщо торчки!!!!!!!!!!!!!
 
-		if(button_c = 1 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
+		if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
 			//(Торчки відберають всю їжу у персонажей та йдуть. Бій закінчується).
@@ -260,7 +266,7 @@ if(BDialogue = true){
 				battle_turn_down = true;
 				}
 			}
-		if(button_c = 2 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
+		if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 			answer = 2;
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
@@ -281,7 +287,8 @@ if(BDialogue = true){
 				button[2] = "D";
 			}	
 		}
-		if(button_c = 3 and (keyboard_key_press(vk_enter) or keyboard_key_press(ord("E")))){
+		if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			dialogue_was = true;
 			luck = irandom_range(0,100);
 			if(luck > 50){
 				system = 0;
@@ -349,6 +356,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		}	
 	//	}
 	//	if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
@@ -369,6 +379,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else {
 	//			system = 0;
 	//			screen = 0;
@@ -411,6 +424,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else{
 	//			//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по по собі.
 	//			mini_game = true;
@@ -426,6 +442,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//			global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
 	//		} else if(luck < 11){
 	//			//(Герой до кінця міні-гри буде повільнішим на 15%)
@@ -435,6 +454,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else {
 	//			system = 0;
 	//			screen = 0;
@@ -442,6 +464,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		}
 	//	}
 		
@@ -470,6 +495,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else{
 	//			//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по собі.
 	//			mini_game = true;
@@ -486,6 +514,9 @@ if(BDialogue = true){
 	//			button_c = 1;
 	//			button[button_c] = "L";
 	//			global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else if(luck < 11){
 	//			//(Герой до кінця міні-гри буде повільнішим на 15%)
 	//			system = 0;
@@ -494,6 +525,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		} else {
 	//			system = 0;
 	//			screen = 0;
@@ -501,6 +535,9 @@ if(BDialogue = true){
 	//			butt_invis = 1;
 	//			button_c = 1;
 	//			button[button_c] = "L";
+				//button[4] = "D";
+				//button[3] = "D";
+				//button[2] = "D";
 	//		}
 	//	}		
 } 
