@@ -93,6 +93,6 @@
   },
   "parent": {
     "name": "Police",
-    "path": "folders/Sprites/Center/Right/Night/Police.yy",
+    "path": "folders/Sprites/Center/Right/Police.yy",
   },
 }

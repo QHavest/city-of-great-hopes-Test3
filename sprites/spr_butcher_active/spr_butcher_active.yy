@@ -184,7 +184,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Indoor",
-    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/Indoor.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/Indoor/NPC.yy",
   },
 }

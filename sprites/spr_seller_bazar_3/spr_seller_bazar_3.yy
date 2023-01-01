@@ -86,7 +86,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "FIsh and Bazar",
-    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/NPC.yy",
   },
 }
