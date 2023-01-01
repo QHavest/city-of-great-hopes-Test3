@@ -1,5 +1,13 @@
+/// @description animation_end(sprite_index,image_index, rate)
+/// @param {real} <sprite_index> The index of the sprite being animated
+/// @param {real} <image_index> The current frame value
+/// @param {real} <rate> -See Below-
+///     The rate of change in frames per step if not
+///     using built in image_index/image_speed.  
+///     Don't use if you don't think you need this.  You probably don't.
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// повертає true якщо анімація закінчиться цього фрейму (якщо цей фрейм останній фрейм анімації)
 function scr_dim_animation_end(){
 var _sprite=sprite_index;
 var _image=image_index;
