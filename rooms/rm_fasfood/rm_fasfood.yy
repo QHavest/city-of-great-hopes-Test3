@@ -20,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AE5C72C","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.51,"scaleY":0.060000002,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":698.5,"y":118.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BAD45FF","properties":[],"isDnd":false,"objectId":{"name":"obj_fastfood_seller","path":"objects/obj_fastfood_seller/obj_fastfood_seller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":127.0,"y":93.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_233483D5_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.125,"scaleY":0.56250006,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":118.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36408753_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":50.3125,"scaleY":0.125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":402.5,"y":122.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42AD5EDA_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3125,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":802.5,"y":117.0,},
@@ -70,6 +71,7 @@
     {"name":"inst_177BDC7F","path":"rooms/rm_fasfood/rm_fasfood.yy",},
     {"name":"inst_44B2BCF1","path":"rooms/rm_fasfood/rm_fasfood.yy",},
     {"name":"inst_3AE5C72C","path":"rooms/rm_fasfood/rm_fasfood.yy",},
+    {"name":"inst_5BAD45FF","path":"rooms/rm_fasfood/rm_fasfood.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
