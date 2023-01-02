@@ -1,7 +1,7 @@
-num = irandom(percent);
+if(num_fog == percent_fog) {exit;}
 
-//show_debug_message(num);
-
-if(num == percent) {exit;}
+num_fog = irandom(percent_fog);
 
 alarm_set(6, time_fog * 20);
+
+//show_debug_message(num_fog);

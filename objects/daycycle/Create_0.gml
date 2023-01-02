@@ -38,37 +38,46 @@ guiHeight = display_get_gui_height();
 enum phase {
 	sunrise = 6,
 	daytime = 12,
-	sunset = 20,
-	sunset1 = 23,
+	sunset = 21,
+	sunset1 = 23.9,
 	nighttime = 24,
 	nighttime1 = 5.9,
 	nighttime2 = 5,
+	nighttime3 = 1,
+	nighttime4 = 0.5,
 }
 
 weather = part_system_create();
 part_system_depth(weather, -1000);
 
+randomize();
+
+percent_rain = 10; // чим вище число тим меньше шанс дощу
+time_rain2 = 5; // кожні 5 секунд обчислюється чи буде дощ чи ні
+rain_to_rain = 90; // мінімальний час між занінченям одного дощу і запуском іншого в секундах
+rain_dur = 90; // тривалість дощу у секундах
+
+num_rain = 100;
 emitter_rain = 1;
 intensivity = 1;
 raining = false;
 intensivity_var = 1;
 rain_or_not_1 = true;
 
-timer_rain = false;
-timer_rain_1 = 120; // мінімальний час між запуском дощу
+timer_rain = true;
+
+alarm[7] = 1;
 
 
 #region fog
 
-randomize();
-
-percent = 10; // шанс туману у відсотках
-fog_to_fog = 90 // мінімальний час між занінченям одного туману і запуском іншого в секундах
-time1 = 90; // тривалість туману секундах
+percent_fog = 10; // чим вище число тим меньше шанс туману
+fog_to_fog = 90; // мінімальний час між занінченям одного туману і запуском іншого в секундах
+time1 = 60; // тривалість туману у секундах
 time_fog = 5; // кожні 5 секунд обчислюється чи буде туман чи ні
 
 
-num = 10;
+num_fog = 100;
 time = 30;
 fogNum = 0
 fog_or_not = true;

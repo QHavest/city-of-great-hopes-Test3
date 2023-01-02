@@ -1468,6 +1468,7 @@
     {"id":{"name":"spr_dumbbells4","path":"sprites/spr_dumbbells4/spr_dumbbells4.yy",},"order":6,},
     {"id":{"name":"rm_home_gg_inside","path":"rooms/rm_home_gg_inside/rm_home_gg_inside.yy",},"order":6,},
     {"id":{"name":"sp_radio_eng01","path":"sprites/sp_radio_eng01/sp_radio_eng01.yy",},"order":1,},
+    {"id":{"name":"snd_rain","path":"sounds/snd_rain/snd_rain.yy",},"order":27,},
     {"id":{"name":"spr_bus_blue","path":"sprites/spr_bus_blue/spr_bus_blue.yy",},"order":12,},
     {"id":{"name":"spr_table_3","path":"sprites/spr_table_3/spr_table_3.yy",},"order":3,},
     {"id":{"name":"sp_ponchiki01","path":"sprites/sp_ponchiki01/sp_ponchiki01.yy",},"order":12,},
