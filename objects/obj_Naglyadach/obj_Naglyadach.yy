@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Patrulnui",
+  "name": "obj_Naglyadach",
   "spriteId": {
-    "name": "spr_Patrylnui",
-    "path": "sprites/spr_Patrylnui/spr_Patrylnui.yy",
+    "name": "spr_Naglyadach",
+    "path": "sprites/spr_Naglyadach/spr_Naglyadach.yy",
   },
   "solid": false,
   "visible": true,

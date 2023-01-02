@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Patrulnui",
+  "name": "obj_Boass_ment",
   "spriteId": {
-    "name": "spr_Patrylnui",
-    "path": "sprites/spr_Patrylnui/spr_Patrylnui.yy",
+    "name": "spr_Police_Boss",
+    "path": "sprites/spr_Police_Boss/spr_Police_Boss.yy",
   },
   "solid": false,
   "visible": true,
