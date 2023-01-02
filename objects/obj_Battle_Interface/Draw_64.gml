@@ -61,13 +61,13 @@ if(battle_start = true){
 	}
 	///////////////Діалоги
 	if(BDialogue = true){
-		//if(torchky)
+		if(enemies = ENEMY.Torchky){
 		draw_set_font(font_azariya_textbox)
 		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_torchky[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_torchky[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_torchky[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 		
-		draw_set_font(font_azariya_textbox)
+		draw_set_font(font_azariya_textbox);
 		if(alarm[2] > 1 and luck > 29){
 			draw_text_ext_color(gui_W/2.25, gui_H/9, dia_torchky[1][1], stringHeight_torchky, 250, c_orange, c_orange, c_orange, c_orange, 1);
 		}
@@ -83,71 +83,66 @@ if(battle_start = true){
 		if(alarm[2] > 1 and luck < 30 and answer = 2){
 			draw_text_ext_color(gui_W/2.25, gui_H/9, dia_torchky[2][2], stringHeight_torchky, 250, c_orange, c_orange, c_orange, c_orange, 1);
 		}
-	}
-	//if(BDialogue = true){
-	//	//if(caucasci)
-	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_caucasci[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_caucasci[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_caucasci[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
-	
-	//if(alarm[2] > 1 and luck < 90){
-	//		draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_caucasci[1][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//	if(alarm[2] > 1 and > 89){
-	//		draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_caucasci[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
+		}
 		
-	//	if(alarm[2] > 1 and luck > 50 and answer = 2){
-	//		draw_text_ext_color(gui_W/1.335, gui_H/7, dia_caucasci[1][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//	if(alarm[2] > 1 and luck < 51 and answer = 2){
-	//		draw_text_ext_color(gui_W/1.335, gui_H/7, dia_caucasci[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//}	
+		if(enemies = ENEMY.Kavkazci){
+		draw_set_font(font_azariya_textbox);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_caucasci[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_caucasci[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_caucasci[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	
-	//}
-	//if(BDialogue = true){
-	//	//if(sectants)
-	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_sect[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_sect[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_sect[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
+		if(alarm[2] > 1 and luck < 90){
+			draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_caucasci[1][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		if(alarm[2] > 1 and luck > 89){
+			draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_caucasci[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		
+		if(alarm[2] > 1 and luck > 50 and answer = 2){
+			draw_text_ext_color(gui_W/1.335, gui_H/7, dia_caucasci[1][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		if(alarm[2] > 1 and luck < 51 and answer = 2){
+			draw_text_ext_color(gui_W/1.335, gui_H/7, dia_caucasci[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+	}	
 	
-	//if(alarm[2] > 1 and luck > 29){
-	//		draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_sect[1][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//	if(alarm[2] > 1 and luck > 9 and luck < 30){
-	//		draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_sect[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//	if(alarm[2] > 1 and luck < 10){
-	//		draw_text_ext_color(gui_W/1.35, gui_H/5.8, dia_sect[3][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
+	if(enemies = ENEMY.Sect){
+		draw_set_font(font_azariya_textbox)
+		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_sect[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_sect[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_sect[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	
-	//	if(alarm[2] > 1 and luck > 29 and answer = 2){
-	//		draw_text_ext_color(gui_W/1.335, gui_H/7, dia_sect[1][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//	if(alarm[2] > 1 and luck < 30 and answer = 2){
-	//		draw_text_ext_color(gui_W/1.335, gui_H/7, dia_sect[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
+	if(alarm[2] > 1 and luck > 29){
+			draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_sect[1][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		if(alarm[2] > 1 and luck > 9 and luck < 30){
+			draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_sect[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		if(alarm[2] > 1 and luck < 10){
+			draw_text_ext_color(gui_W/1.35, gui_H/5.8, dia_sect[3][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
 	
+		if(alarm[2] > 1 and luck > 29 and answer = 2){
+			draw_text_ext_color(gui_W/1.335, gui_H/7, dia_sect[1][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+		if(alarm[2] > 1 and luck < 30 and answer = 2){
+			draw_text_ext_color(gui_W/1.335, gui_H/7, dia_sect[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+	}
+
+	if(enemies = ENEMY.Hopniki){
+		draw_set_font(font_azariya_textbox)
+		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_hopniki[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_hopniki[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
+		draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_hopniki[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
 	
-	//}
-	//if(BDialogue = true){
-	//	//if(hopniki)
-	//	draw_set_font(font_azariya_textbox)
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_hopniki[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_hopniki[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);
-	//	draw_text_ext_color(gui_W/3.6, gui_H/1.20, dia_hopniki[3][0], stringHeight_torchky, 800, varcol[3], varcol[3], varcol[3], varcol[3], 1);
-	
-	//if(alarm[2] > 1){
-	//		draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_hopniki[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	//if(alarm[2] > 1 and answer = 2){
-	//		draw_text_ext_color(gui_W/1.335, gui_H/7, dia_hopniki[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
-	//	}
-	
-	//}
-	
+	if(alarm[2] > 1){
+			draw_text_ext_color(gui_W/1.4, gui_H/5.4, dia_hopniki[2][1], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+	if(alarm[2] > 1 and answer = 2){
+			draw_text_ext_color(gui_W/1.335, gui_H/7, dia_hopniki[2][2], stringHeight_torchky, 300, c_orange, c_orange, c_orange, c_orange, 1);
+		}
+	}
+	}
 } else {instance_activate_object(obj_inventory);}
 

@@ -21,6 +21,9 @@ enum ENEMY{
 Noname,
 Narkomany,
 Kavkazci,
+Hopniki,
+Torchky,
+Sect,
 }
 
 //for button array
