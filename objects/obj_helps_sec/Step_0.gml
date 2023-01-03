@@ -1,6 +1,6 @@
 if (image_index = 4){
 	instance_destroy();
-	//hrestx = irandom_range(0,8);
+
 	switch(obj_sects.val1){
 	case 0 :
 	instance_create_depth(510,577,-400,obj_hrest);

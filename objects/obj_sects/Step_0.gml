@@ -6,7 +6,6 @@ val1 = irandom_range(0,8);
 
 hresty = 577;
 
-
 if (val1 = 0){instance_create_depth(510,hresty,-300,obj_helps_sec);}
 if (val1 = 1){instance_create_depth(615,hresty,-300,obj_helps_sec);}
 if (val1 = 2){instance_create_depth(720,hresty,-300,obj_helps_sec);}
