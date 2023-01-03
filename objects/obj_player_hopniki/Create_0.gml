@@ -1,6 +1,6 @@
-collisionSpeed = 4;
-hsp = 12;
-vsp = 12;
+knife_spd = 40;
+hsp = 15;
+vsp = 15;
 spd = 12;
 
 gui_H = display_get_gui_height();
@@ -10,4 +10,7 @@ take_damage = false;
 damage = 5;
 amount_hp = 279;
 
-turn = 0;
+turn = 8;
+
+random_attack = 1;
+randomiser = true;

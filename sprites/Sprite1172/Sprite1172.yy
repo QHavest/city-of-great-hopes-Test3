@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_battleI",
+  "name": "Sprite1172",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -11,15 +11,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1919,
+  "bbox_right": 999,
   "bbox_top": 0,
-  "bbox_bottom": 1079,
+  "bbox_bottom": 999,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
-  "width": 1920,
-  "height": 1080,
+  "width": 1000,
+  "height": 1000,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34739e68-56eb-4067-9827-215bb16c06cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"309f4dc5-e9f2-4ef3-8e22-b66b09e4f473",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_battleI",
+    "name": "Sprite1172",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cba32318-d1b6-4fc0-941d-6c7cbfd859e6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34739e68-56eb-4067-9827-215bb16c06cd","path":"sprites/spr_battleI/spr_battleI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"55ebdfbc-26ae-4596-aa86-37269dd95c4c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"309f4dc5-e9f2-4ef3-8e22-b66b09e4f473","path":"sprites/Sprite1172/Sprite1172.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,12 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"928073b5-d767-44c7-9fff-fab6f74b5961","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6742194-5c53-41e5-817b-ad10f7cf541d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"430d575d-45d0-44d6-a318-23a29ec88fb2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Battle_system",
-    "path": "folders/Battle_system.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
 }

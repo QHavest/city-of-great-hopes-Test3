@@ -1,3 +1,5 @@
+if(obj_Battle_Interface.mini_game = false) exit;
+
 keyr     =  keyboard_check(ord("D"));
 keyl     =  keyboard_check(ord("A"));
 keyup    =  keyboard_check(ord("W"));
@@ -9,26 +11,21 @@ keydown  =  keyboard_check(ord("S"));
 	hsp = directx*spd;
 	vsp = directy*spd;
 
-	x += hsp
-	y -= vsp
+	self.x += hsp
+	self.y -= vsp
 
  alarm[1] -= 1;
  alarm[4] -= 1;
  alarm[0] -= 1;
+ alarm[6] -= 1;
  
- if(keyboard_check_pressed(ord("V"))){
-	 alarm[0] = 100;
- };
- 
- 
-if(global.MaxHp > 0 and place_meeting(x, y, obj_nozh)  and alarm[4] < 1){
+if(global.MaxHp > 0 and alarm[4] < 1 and (place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))){
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){
 	obj_Battle_Interface.hpYtopyrok -= damage;
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
 	take_damage = true;
-	
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
 	}
@@ -44,6 +41,8 @@ if(global.MaxHp > 0 and place_meeting(x, y, obj_nozh)  and alarm[4] < 1){
 	alarm[4]=20;
 	}
 	take_damage = false;
+	obj_Battle_Interface.battle_start = false;
+	obj_Battle_Interface.mini_game = false;
 } 
 
 
@@ -54,20 +53,157 @@ if(alarm[1] < 1){
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-	if(turn = 0){
-		instance_create_depth(1512, 611, -300, obj_nozh);
-		obj_nozh.x = obj_nozh.x - obj_nozh.spd;	
-		image_index = 0;
-		if (alarm [0] < 1){turn = 1;}
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 0){
+	instance_create_depth(1504, 608, -300, obj_nozh);
+	turn += 1;
+}else if(instance_exists(obj_nozh) and turn = 1){
+	obj_nozh.x -= knife_spd;
+}
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 1){
+	instance_create_depth(32, 896, -300, obj_nozh);
+	turn += 1;
+	obj_nozh.image_index = 1; 
+}else if(instance_exists(obj_nozh) and turn = 2){
+	obj_nozh.x += knife_spd;
+}
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 2){
+	instance_create_depth(736, 1088, -300, obj_nozh_vert);
+	instance_create_depth(1152, 1088, -300, obj_nozh_vert);
+	turn += 1;
+}else if(instance_exists(obj_nozh_vert) and turn = 3){
+	obj_nozh_vert.y -= knife_spd;
+}
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 3){
+	instance_create_depth(576, 64, -300, obj_nozh_vert);
+	instance_create_depth(928, 64, -300, obj_nozh_vert);
+	instance_create_depth(1280, 64, -300, obj_nozh_vert);
+	obj_nozh_vert.image_index = 3;
+	turn += 1;
+}else if(instance_exists(obj_nozh_vert) and turn = 4){
+	obj_nozh_vert.y += knife_spd;
+}
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 4){
+	instance_create_depth(1440, 448, -300, obj_nozh);
+	obj_nozh.image_angle = point_direction(1440, 448, 1760, 768);
+	turn += 1;
+}else if(instance_exists(obj_nozh) and turn = 5){
+	obj_nozh.x -= knife_spd;
+	obj_nozh.y += knife_spd/2;
+}
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 5){
+	instance_create_depth(608, 480, -300, obj_nozh);
+	obj_nozh.image_angle = point_direction(608, 480, 352, 768);
+	obj_nozh.image_index = 3;
+	turn += 1;
+	alarm[0] = 30;
+}else if(instance_exists(obj_nozh) and turn = 6){
+	obj_nozh.x += knife_spd;
+	obj_nozh.y += knife_spd/2;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 6 and alarm[0] < 1){
+	knife_spd = 15;
+	first = instance_create_depth(1248, 312, -300, obj_nozh);
+	second = instance_create_depth(310, 1200, -300, obj_nozh);
+	third = instance_create_depth(1504, 800, -300, obj_nozh_vert);
+	forth = instance_create_depth(416, 362, -300, obj_nozh_vert);
+	first_id = instance_id_get(first);
+	turn += 1;
+	alarm[6] = 100;
+}else if((instance_exists(obj_nozh_vert)) and turn = 7){
+with(first){
+	y += knife_spd;
 	}
-	
-	if(turn = 1){
-		instance_create_depth(72, 893, -300, obj_nozh);
-		obj_nozh.x = obj_nozh.x + obj_nozh.spd;	
-		image_index = 1;
-		if (alarm [0] < 1){turn = 2;}
+with(second){
+	image_index = 3;
+	y -= knife_spd;
 	}
+with(third){
+	image_index = 1;
+	if(x > 1071){ mp_linear_step_object(1070, 800, 30, obj_nozh_vert); }
+	if(x = 1070){ mp_linear_step_object(1070, 0, 30, obj_nozh_vert); }
+	}
+with(forth){
+	image_index = 2;
+	if(x < 863){ mp_linear_step_object(864, 362, 30, obj_nozh_vert); }
+	if(x = 864){ mp_linear_step_object(864, 1200, 30, obj_nozh_vert); }
+	}
+}
 
+if(turn = 7 and !instance_exists(obj_nozh_vert)){
+randomiser = true;	
+}
 
+////////////////////////////////////////////////////////////////////////////
 
+if(randomiser = true){
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+	knife_spd = 20;
+	random_attack = irandom_range(1, 6);
+}
 
+if (random_attack = 1){
+	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+		instance_create_depth(1504, 608, -300, obj_nozh);
+		}else if(instance_exists(obj_nozh)){
+		obj_nozh.x -= knife_spd;
+		}
+		
+}
+if (random_attack = 2){
+	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+		instance_create_depth(32, 896, -300, obj_nozh);
+		turn += 1;
+		obj_nozh.image_index = 1; 
+	}else if(instance_exists(obj_nozh)){
+		obj_nozh.x += knife_spd;
+	}
+}
+
+if (random_attack = 3){
+	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+		instance_create_depth(736, 1088, -300, obj_nozh_vert);
+		instance_create_depth(1152, 1088, -300, obj_nozh_vert);
+		}else if(instance_exists(obj_nozh_vert)){
+			obj_nozh_vert.y -= knife_spd;
+		}
+}
+
+if (random_attack = 4){
+	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+	instance_create_depth(576, 64, -300, obj_nozh_vert);
+	instance_create_depth(928, 64, -300, obj_nozh_vert);
+	instance_create_depth(1248, 64, -300, obj_nozh_vert);
+	obj_nozh_vert.image_index = 3;
+	}else if(instance_exists(obj_nozh_vert)){
+	obj_nozh_vert.y += knife_spd;
+}
+}
+
+if (random_attack = 5){
+	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+		instance_create_depth(1440, 448, -300, obj_nozh);
+		obj_nozh.image_angle = point_direction(1440, 448, 1760, 768);
+	}else if(instance_exists(obj_nozh)){
+		obj_nozh.x -= knife_spd;
+		obj_nozh.y += knife_spd/2;
+	}
+}
+if (random_attack = 5){
+if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
+	instance_create_depth(608, 480, -300, obj_nozh);
+	obj_nozh.image_angle = point_direction(608, 480, 352, 768);
+	obj_nozh.image_index = 3;
+}else if(instance_exists(obj_nozh)){
+	obj_nozh.x += knife_spd;
+	obj_nozh.y += knife_spd/2;
+}
+}
+}

@@ -1,4 +1,4 @@
-spd = 40;
+knife_spd = 30;
 
 
 
