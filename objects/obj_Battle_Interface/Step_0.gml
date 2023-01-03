@@ -31,6 +31,7 @@ if (battle_start = true and mini_game = false){
 		instance_deactivate_object(obj_shprutz_parent);
 		instance_deactivate_object(obj_sects);
 		instance_deactivate_object(wall);
+		instance_deactivate_object(obj_wall_sect);
 		} /*else if (mini_game = true and battle_start = true){
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 0;
@@ -167,6 +168,7 @@ if(system = 1) {
 		obj_background_mini.index_minigame_back = 2;
 		instance_activate_object(obj_sects);
 		instance_activate_object(obj_mini_avatar);
+		instance_activate_object(obj_wall_sect);
 		obj_mini_avatar.index_avatar = 2;
 		}
 		system = 0;

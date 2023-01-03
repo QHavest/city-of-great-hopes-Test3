@@ -24,7 +24,7 @@ if (image_index = 9){
 	instance_create_depth(1245,577,-400,obj_hrest);
 	break;
 	
-	/*case 7 :
+	case 7 :
 	 instance_create_depth(615,990,-300,obj_hrest_horiz);
 	break;
 	case 8 :
@@ -44,7 +44,7 @@ if (image_index = 9){
 	break;
 	case 13 :
 	instance_create_depth(1245,990,-400,obj_hrest_horiz);
-	break;*/
+	break;
 	}
 	
 	}
