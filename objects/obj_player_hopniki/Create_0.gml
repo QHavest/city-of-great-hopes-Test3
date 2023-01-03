@@ -10,7 +10,7 @@ take_damage = false;
 damage = 5;
 amount_hp = 279;
 
-turn = 8;
+turn = 0;
 
 random_attack = 1;
-randomiser = true;
+randomiser = false;
