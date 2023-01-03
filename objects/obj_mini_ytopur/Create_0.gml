@@ -1,0 +1,1 @@
+hits_grusha = false;
