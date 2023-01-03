@@ -16,4 +16,8 @@ if(hits_grusha = true and keyboard_check_pressed(vk_down)){
 	alarm[3] = 20;	
 }
 
+if(hits_grusha = false and keyboard_check_pressed(vk_down)){
+	alarm[3] = 20;	
+}
+
 
