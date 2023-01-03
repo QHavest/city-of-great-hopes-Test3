@@ -1625,6 +1625,7 @@
     {"id":{"name":"sp_bufet_prybaltyka","path":"sprites/sp_bufet_prybaltyka/sp_bufet_prybaltyka.yy",},"order":0,},
     {"id":{"name":"sp_konyk_horbunok","path":"sprites/sp_konyk_horbunok/sp_konyk_horbunok.yy",},"order":4,},
     {"id":{"name":"spr_successUA","path":"sprites/spr_successUA/spr_successUA.yy",},"order":5,},
+    {"id":{"name":"obj_helps_sec","path":"objects/obj_helps_sec/obj_helps_sec.yy",},"order":4,},
     {"id":{"name":"obj_box_container_night","path":"objects/obj_box_container_night/obj_box_container_night.yy",},"order":2,},
     {"id":{"name":"spr_krus_sit","path":"sprites/spr_krus_sit/spr_krus_sit.yy",},"order":32,},
     {"id":{"name":"snd_Center_night","path":"sounds/snd_Center_night/snd_Center_night.yy",},"order":3,},
