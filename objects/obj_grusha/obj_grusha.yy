@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_grusha",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_grusha",
+    "path": "sprites/spr_grusha/spr_grusha.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

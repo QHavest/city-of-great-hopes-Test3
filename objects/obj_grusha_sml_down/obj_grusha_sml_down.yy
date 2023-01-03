@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_grusha_sml_down",
   "spriteId": {
-    "name": "spr_grusha",
-    "path": "sprites/spr_grusha/spr_grusha.yy",
+    "name": "spr_grusha_sml_down",
+    "path": "sprites/spr_grusha_sml_down/spr_grusha_sml_down.yy",
   },
   "solid": false,
   "visible": true,

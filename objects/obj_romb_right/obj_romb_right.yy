@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_romb_right",
   "spriteId": {
-    "name": "spr_romb_left",
-    "path": "sprites/spr_romb_left/spr_romb_left.yy",
+    "name": "spr_romb_right",
+    "path": "sprites/spr_romb_right/spr_romb_right.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
