@@ -13,6 +13,8 @@ move_snap(G,G1)
 }
 Move[1,0]=true
 Move[1,1]=true
+Move[1,2]=true
+Move[1,3]=true
 #endregion
 
 index_avatar = 1;
@@ -24,6 +26,6 @@ gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
 take_damage = false;
-damage = damage;
+damage = 5;
 amount_hp = 279;
 //light_bi = 0;

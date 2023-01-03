@@ -11,8 +11,8 @@ y += spd
 x++
 }
 
+#region ходьба по клітинкам СРСР Кавказці
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci){
-#region ходьба по клітинкам
 
 if place_snapped(G,G1){
 speed=0//остановка игрока
@@ -27,9 +27,38 @@ if keyboard_check_pressed(vk_up) && Move[1,1]=true{
 y -= 105;
 }
 }
-
-#endregion
 }
+#endregion
+
+#region ходьба по клітинкам Сектанти Хрести
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Sectants){
+
+if place_snapped(G,G1){
+speed=0//остановка игрока
+
+if keyboard_check_pressed(vk_right) && Move[1,0]=true{  
+//motion_set(90,S)//шагать наверх со скоростью S 
+x += 105;
+}
+
+if keyboard_check_pressed(vk_left) && Move[1,1]=true{  
+//motion_set(90,S)//шагать наверх со скоростью S 
+x -= 105;
+}
+
+if keyboard_check_pressed(vk_down) && Move[1,2]=true{
+//motion_set(270,S)//шагать вниз со скоростью S
+y += 105;
+}
+
+if keyboard_check_pressed(vk_up) && Move[1,3]=true{  
+//motion_set(90,S)//шагать наверх со скоростью S 
+y -= 105;
+}
+}
+}
+#endregion
+
 
 if (keyboard_check_pressed(ord("W"))){
 	spd = -10;
@@ -37,7 +66,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs)  and alarm[4] < 1){
+if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest)  and alarm[4] < 1){
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

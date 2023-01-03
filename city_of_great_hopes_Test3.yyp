@@ -863,6 +863,7 @@
     {"id":{"name":"obj_table_b_bibli","path":"objects/obj_table_b_bibli/obj_table_b_bibli.yy",},"order":3,},
     {"id":{"name":"spr_lotki_night2","path":"sprites/spr_lotki_night2/spr_lotki_night2.yy",},"order":3,},
     {"id":{"name":"obj_dim_player1","path":"objects/obj_dim_player1/obj_dim_player1.yy",},"order":0,},
+    {"id":{"name":"spr_mini_avatar_sect","path":"sprites/spr_mini_avatar_sect/spr_mini_avatar_sect.yy",},"order":5,},
     {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},"order":7,},
     {"id":{"name":"spr_shprutz_dow2","path":"sprites/spr_shprutz_dow2/spr_shprutz_dow2.yy",},"order":4,},
     {"id":{"name":"obj_clothes","path":"objects/obj_clothes/obj_clothes.yy",},"order":6,},
