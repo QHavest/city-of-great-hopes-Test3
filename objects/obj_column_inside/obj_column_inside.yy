@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_column_inside",
   "spriteId": {
-    "name": "spr_column_culture",
-    "path": "sprites/spr_column_culture/spr_column_culture.yy",
+    "name": "spr_cultyr_peredok",
+    "path": "sprites/spr_cultyr_peredok/spr_cultyr_peredok.yy",
   },
   "solid": true,
   "visible": true,
