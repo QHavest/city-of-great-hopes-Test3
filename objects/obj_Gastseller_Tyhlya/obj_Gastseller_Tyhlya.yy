@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_swing_south9",
+  "name": "obj_Gastseller_Tyhlya",
   "spriteId": {
-    "name": "spr_Child_and_gus",
-    "path": "sprites/spr_Child_and_gus/spr_Child_and_gus.yy",
+    "name": "spr_gastroseller_active",
+    "path": "sprites/spr_gastroseller_active/spr_gastroseller_active.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "South",
-    "path": "folders/Objects/Tykhlianka/South.yy",
+    "name": "Hastronom_tukh",
+    "path": "folders/Objects/Tykhlianka/Hastronom_tukh.yy",
   },
 }

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Aperkot",
   "spriteId": {
-    "name": "spr_Aperkot",
-    "path": "sprites/spr_Aperkot/spr_Aperkot.yy",
+    "name": "spr_Aperkot_grusha",
+    "path": "sprites/spr_Aperkot_grusha/spr_Aperkot_grusha.yy",
   },
   "solid": false,
   "visible": true,

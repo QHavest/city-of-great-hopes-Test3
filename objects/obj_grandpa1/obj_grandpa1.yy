@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_swing_south9",
+  "name": "obj_grandpa1",
   "spriteId": {
-    "name": "spr_Child_and_gus",
-    "path": "sprites/spr_Child_and_gus/spr_Child_and_gus.yy",
+    "name": "spr_Spurodon",
+    "path": "sprites/spr_Spurodon/spr_Spurodon.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
