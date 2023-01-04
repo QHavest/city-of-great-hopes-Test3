@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_grusha",
+  "name": "obj_grusha_right",
   "spriteId": {
     "name": "spr_grusha",
     "path": "sprites/spr_grusha/spr_grusha.yy",
