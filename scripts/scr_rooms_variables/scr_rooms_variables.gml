@@ -479,6 +479,39 @@ case rm_school :
 	case 4: break
 	}
 break
+//case seq_scena_6 :		 
+//	switch(name)
+//	{	
+//	case 1: return noone break
+//	case 2: break
+//	case 3: break
+//	case 4: break
+//	}
+//break
+//case seq_scena_7:		 
+//	switch(name)
+//	{	
+//	case 1: return snd_center break
+//	}
+//break
+//case seq_scena_8:		 
+//	switch(name)
+//	{	
+//	case 1: return snd_Bazar break
+//	}
+//break
+//case seq_scena_9_1:		 
+//	switch(name)
+//	{	
+//	case 1: return snd_bazar_2 break
+//	}
+//break
+//case seq_scena_9_2:		 
+//	switch(name)
+//	{	
+//	case 1: return snd_bazar_2 break
+//	}
+//break
 #endregion
 }
 }

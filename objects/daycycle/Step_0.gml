@@ -9,7 +9,7 @@ if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == 
 	var a = false;
 	if(num_rain == percent_rain) 
 	{
-		a = true;
+		//a = true;
 		alarm[0] = rain_dur * 20; 
 		percent_rain++;
 		//show_debug_message("Step 1");
@@ -71,14 +71,14 @@ if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == 
 
 if(keyboard_check_pressed(ord("C"))){num_fog = percent_fog};
 
-if(num_fog == percent_fog) 
-{
-	alarm[3] = 1; 
-	alarm[5] = time1 * 20; 
-	//show_debug_message("Step 1");
-	percent_fog++;
+//if(num_fog == percent_fog) 
+//{
+//	alarm[3] = 1; 
+//	alarm[5] = time1 * 20; 
+//	//show_debug_message("Step 1");
+//	percent_fog++;
 	
-}
+//}
 
 if(fogNum > 350 and fog_or_not == true)
 {
@@ -98,8 +98,8 @@ if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 
 #region day_night
 
-if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
-else time_pause = false;
+//if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
+//else time_pause = false;
 
 if(time_pause == true)
 {
@@ -111,9 +111,9 @@ if(time_pause == false)
 	instance_activate_object(obj_clock);
 }
 
-//if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
-//if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
-//if(keyboard_check_pressed(ord("O"))){time_increment = 5;}
+if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
+if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("O"))){time_increment = 5;}
 event_inherited()
 
 if(time_pause) exit;

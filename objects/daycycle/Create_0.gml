@@ -66,7 +66,7 @@ rain_or_not_1 = true;
 
 timer_rain = true;
 
-alarm[7] = 1;
+//alarm[7] = 1;
 
 
 #region fog
@@ -94,5 +94,5 @@ room_prev_fog1 = 1;
 	part_type_direction(fog, 180, 180, 0, 0);
 	part_type_speed(fog, 0.1, 0.25, 0, 0);
 
-alarm[6] = 1;
+//alarm[6] = 1;
 #endregion

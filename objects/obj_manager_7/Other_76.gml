@@ -4,7 +4,7 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	audio_stop_sound(snd_center);
+	scr_music_fon_change()
 	volume = 0;
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
@@ -99,8 +99,8 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
     case "delete":
-	audio_stop_sound(snd_fountain);
-	audio_stop_sound(snd_street);
+	//audio_stop_sound(snd_fountain);
+	//audio_stop_sound(snd_street);
 	obj_center_fontan.x = x1;
 	obj_center_fontan.y = y1;
 	//obj_center_goluby.depth = dep1;
@@ -108,7 +108,7 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(1, regCam2);
 	global.shop = false;
     layer_sequence_destroy(seq2);
-	audio_play_sound(snd_center, 1, true);
+	scr_music_fon_change(room);
     break;
   }
 }

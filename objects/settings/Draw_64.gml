@@ -6,34 +6,91 @@ if (global.pause){
 var gwidth = global.view_width, gheight = global.view_height;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
+var ds_grid2 = ds_menu_main, ds_height2 = ds_grid_height(ds_grid2);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,start_x+x_buffer+300,300,0,c_black,0.5);
+//draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,start_x+x_buffer+300,300,0,c_black,0.5);
 draw_sprite(spr_pause_h, 0, gwidth+500, gheight+310);
-draw_sprite_ext(spr_ukraine, 0, gwidth+850, gheight+310,1.2,1.2,0,c_white,1);
+//draw_sprite_ext(spr_ukraine, 0, gwidth+850, gheight+310,1.2,1.2,0,c_white,1);
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer+80, lty, xo; //Розташування на екрані
+var ltx = start_x - x_buffer+30, lty, xo; //Розташування на екрані
 
-var yy = 0; repeat (ds_height){
-	lty = start_y + (yy*y_buffer);
-	c = c_white;
+
+//if(menu_page == menu_page.settings)
+//{
+//	draw_sprite(spr_bg_settings, 0, )
+//}
+
+
+if(menu_pages[page] != ds_settings)
+{
+	var yy = 0; repeat (ds_height){
 	
-	xo = 0;
+		var a = ds_grid[# 0, yy];
 	
-	if( yy = menu_option[page]){
-		c = c_orange;
-		xo = -(x_buffer/2);
-		//draw_sprite_ext(spr_pause_menu,0,ltx+200/*-90*/, lty+450,1.3,1.1,0,c_white,1);
+		lty = start_y + (yy*y_buffer);
+	
+		c = c_black; // Mazur26
+	
+		xo = 0;
+	
+		//if(menu_pages[page] == ds_settings)
+		//{
+		//	draw_sprite_ext(ds_grid2[# 0, yy],0,ltx+250/*-90*/, lty+350,1,1,0,c_white,1);
+		//	draw_sprite(spr_bg_settings, 0, ltx+750, lty+300);
+		//}
+	
+		if( yy = menu_option[page]){
+			c = make_color_rgb(102, 30, 30); // Mazur26
+			xo = -(x_buffer/2);
+			a = scr_buttons(ds_grid[# 0, yy]);
+		}
+		draw_sprite_ext(a,0,ltx+250/*-90*/, lty+350,1,1,0,c_white,1); //кнопки
+		//draw_text_color(ltx+xo+440, lty+450, ds_grid[# 0, yy], c, c, c, c, 1);
+		yy++;
+		
+		
+		//draw_sprite_ext(ds_grid2[# 0, yy],0,ltx+250/*-90*/, lty+350,1,1,0,c_white,1); //кнопки menu
+		
 	}
-	draw_sprite_ext(spr_pause_menu,0,ltx+150/*-90*/, lty+450,1.3,1.1,0,c_white,1); //кнопки
-	draw_text_color(ltx+xo+440, lty+450, ds_grid[# 0, yy], c, c, c, c, 1);
-	yy++;
+}
+
+if(menu_pages[page] == ds_settings)
+{
+	draw_sprite_ext(spr_bg_settings, 0, ltx+715, start_y+355, 1, 1, 0, c_white, 1); // bg
+	draw_sprite_ext(spr_audio_ukr, 0, ltx+715, start_y+355, 1, 1, 0, c_white, 1); // bg
+	var yy = 0; repeat (ds_height){
+	
+		var a = ds_grid[# 0, yy];
+	
+		lty = start_y + (yy*y_buffer);
+		xo = 0;
+		if( yy = menu_option[page]){
+			xo = -(x_buffer/2);
+			a = scr_buttons(ds_grid[# 0, yy]);
+		}
+		draw_sprite_ext(a,0,ltx+895/*-90*/, lty+440,1.2,1.2,0,c_white,1); //кнопки settings
+		
+		
+		yy++;
+	}
+}
+
+if(menu_pages[page] == ds_settings)
+{
+		yy2 = 0; repeat (ds_height2){
+		lty = start_y + (yy2*y_buffer);
+		if(yy2 == 1) {a = scr_buttons(ds_grid2[# 0, yy2]);}
+		else {a = ds_grid2[# 0, yy2];}
+		draw_sprite_ext(a,0,ltx+250/*-90*/, lty+350,1,1,0,c_white,1); //кнопки menu
+		yy2++;
+	}
 }
 
 //малювання вертикальної лінії

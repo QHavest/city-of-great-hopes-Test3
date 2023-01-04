@@ -55,7 +55,7 @@ if event_data [? "event_type"] == "sequence event"
 	//obj_prilavok_posyda.depth = num2;
 	//obj_box_posyda.depth = num3;
 	audio_stop_all();
-	audio_play_sound(global.sound, 1, true);
+	scr_music_fon_change(room);
 	
 	x1 = obj_dim_player1.x;
 	y1 = obj_dim_player1.y;
