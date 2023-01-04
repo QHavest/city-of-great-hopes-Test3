@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_swing_south9",
   "spriteId": {
-    "name": "spr_swing_south9",
-    "path": "sprites/spr_swing_south9/spr_swing_south9.yy",
+    "name": "spr_Child_and_gus",
+    "path": "sprites/spr_Child_and_gus/spr_Child_and_gus.yy",
   },
   "solid": true,
   "visible": true,

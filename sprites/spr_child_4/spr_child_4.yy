@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "School",
-    "path": "folders/Sprites/Tukhlianka/School.yy",
+    "name": "children",
+    "path": "folders/Sprites/Tukhlianka/NPC/children.yy",
   },
 }

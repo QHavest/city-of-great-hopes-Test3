@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_grandpa",
   "spriteId": {
-    "name": "spr_grandpa",
-    "path": "sprites/spr_grandpa/spr_grandpa.yy",
+    "name": "spr_didu_play",
+    "path": "sprites/spr_didu_play/spr_didu_play.yy",
   },
   "solid": true,
   "visible": true,
