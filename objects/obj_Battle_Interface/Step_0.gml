@@ -22,6 +22,13 @@ if(keyboard_check_pressed(ord("P"))){
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 
+if(keyboard_check_pressed(ord("L"))){
+	battle_start = !battle_start;
+	enemies = ENEMY.Ytopurok_mini
+	room_goto(Room61);
+} else if (!battle_start = battle_start)
+{room_goto(rm_south);}
+
 
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
@@ -32,6 +39,7 @@ if (battle_start = true and mini_game = false){
 		instance_deactivate_object(obj_sects);
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
+		instance_deactivate_object(obj_mini_ytopur);
 		} /*else if (mini_game = true and battle_start = true){
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 0;
@@ -170,6 +178,13 @@ if(system = 1) {
 		instance_activate_object(obj_mini_avatar);
 		instance_activate_object(obj_wall_sect);
 		obj_mini_avatar.index_avatar = 2;
+		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Ytopurok_mini){
+		instance_activate_object(obj_mini_ytopur);
+		obj_background_mini.index_minigame_back = 3;
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 3;
 		}
 		system = 0;
 		// почалася бійка за Утопирка

@@ -2,49 +2,57 @@ instance_create_depth(941.5,887,-300,obj_grusha_sml_up);
 instance_create_depth(941.5,577,-300,obj_grusha_sml_down);
 instance_create_depth(1101,661,-300,obj_grusha_right);
 instance_create_depth(782,661,-300,obj_grusha_left);
+//Трикутні кнопки 
+instance_create_depth(938.5,693,-300,obj_romb_up);
+instance_create_depth(885,743.5,-300,obj_romb_left);
+instance_create_depth(1016,743.5,-300,obj_romb_right);
+instance_create_depth(938.5,818,-300,obj_romb_down);
+
+//х945 у748 голова коорди
+
 alarm[0] += 1;
 alarm[1] += 1;
 alarm[2] += 1;
 alarm[3] += 1;
 randomize();
-if (alarm[0] > irandom_range(100,150)){
+if (alarm[0] > random_range(100,150)){
 obj_grusha_sml_up.idx = 1;
 hits_grusha = true;
 }
-if (alarm[1] > irandom_range(100,150)){
+if (alarm[1] > random_range(100,150)){
 obj_grusha_sml_down.idx = 1;
 hits_grusha = true;
 }
 
-if (alarm[2] > irandom_range(100,150)){
+if (alarm[2] > random_range(100,150)){
 obj_grusha_right.idx = 1;
 hits_grusha = true;
 }
-if (alarm[3] > irandom_range(100,150)){
+if (alarm[3] > random_range(100,150)){
 obj_grusha_left.idx = 1;
 hits_grusha = true;
 }
 
-if(alarm[0] > 300){
+if(alarm[0] > random_range(200,300)){
 	obj_grusha_sml_up.idx = 0;
-	alarm[0] = 0
+	alarm[0] = random_range(0,15)
 	hits_grusha = false;
 }
-if(alarm[1] > 300){
+if(alarm[1] > random_range(200,300)){
 	obj_grusha_sml_down.idx = 0;
-	alarm[1] = 0
+	alarm[1] = random_range(0,15)
 	hits_grusha = false;
 }
 
-if(alarm[2] > 300){
+if(alarm[2] > random_range(200,300)){
 	obj_grusha_right.idx = 0;
-	alarm[2] = 0
+	alarm[2] = random_range(0,15)
 	hits_grusha = false;
 }
 
-if(alarm[3] > 300){
+if(alarm[3] > random_range(200,300)){
 	obj_grusha_left.idx = 0;
-	alarm[3] = 0
+	alarm[3] = random_range(0,15)
 	hits_grusha = false;
 }
 
@@ -54,7 +62,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1050, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[0] = 0
+	alarm[0] = random_range(0,15)
 	}
 	
 	if (keyboard_check_pressed(vk_up)){
@@ -62,7 +70,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1050, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[1] = 0
+	alarm[1] = random_range(0,15)
 	}
 	
 	if (keyboard_check_pressed(vk_right)){
@@ -70,7 +78,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1215, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[2] = 0
+	alarm[2] = random_range(0,15)
 	}
 	
 	if (keyboard_check_pressed(vk_left)){
@@ -78,7 +86,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(710, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[3] = 0
+	alarm[3] = random_range(0,15)
 	}
 	
 } else if (hits_grusha = false){

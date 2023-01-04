@@ -59,7 +59,34 @@ y -= 105;
 }
 #endregion
 
+#region короткий рух головой Міні гра за утопирка захист
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Ytopurok_mini){
+switch (keyboard_key)
+{
+	case vk_left:
+    case ord("A"):
+        mp_linear_step(928,748,5,false);
+    break;
 
+    case vk_right:
+    case ord("D"):
+        mp_linear_step(960,748,5,false);
+    break;
+
+    case vk_up:
+    case ord("W"):
+        mp_linear_step(945,736,5,false);
+    break;
+
+    case vk_down:
+    case ord("S"):
+        mp_linear_step(945,768,5,false);
+    break;
+	default:
+	 mp_linear_step(945,748,5,false);
+}
+}
+#endregion
 if (keyboard_check_pressed(ord("W"))){
 	spd = -10;
 }

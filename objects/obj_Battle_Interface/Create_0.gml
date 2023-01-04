@@ -30,6 +30,7 @@ Noname,
 Narkomany,
 Kavkazci,
 Sectants,
+Ytopurok_mini,
 }
 
 //for button array
