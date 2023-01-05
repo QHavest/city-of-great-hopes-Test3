@@ -13,16 +13,16 @@ strax = 1570;
 
 switch(val){
 	case 0 :
-	 instance_create_depth(valx,618,-300,obj_bottle_mini);
+	 instance_create_depth(valx,500,-300,obj_bottle_mini);
 	break;
 	case 1 :
-	 instance_create_depth(valx,618,-300,obj_kirpich_mini);
+	 instance_create_depth(valx,500,-300,obj_kirpich_mini);
 	break;
 	case 2 :
-	 instance_create_depth(valx,618,-300,obj_palka_mini);
+	 instance_create_depth(valx,500,-300,obj_palka_mini);
 	break;
 	case 3 :
-	instance_create_depth(valx,618,-300,obj_rock_mini);
+	instance_create_depth(valx,500,-300,obj_rock_mini);
 	break;
 }
 
