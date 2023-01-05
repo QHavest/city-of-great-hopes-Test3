@@ -33,6 +33,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"invis_wall","path":"objects/invis_wall/invis_wall.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_sssrs","path":"objects/obj_sssrs/obj_sssrs.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_wall_sect","path":"objects/obj_wall_sect/obj_wall_sect.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mini_krus","path":"objects/obj_mini_krus/obj_mini_krus.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

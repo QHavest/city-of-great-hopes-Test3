@@ -29,7 +29,12 @@ if(keyboard_check_pressed(ord("L"))){
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 
-
+if(keyboard_check_pressed(ord("K"))){
+	battle_start = !battle_start;
+	enemies = ENEMY.Krus_mini
+	room_goto(Room61);
+} else if (!battle_start = battle_start)
+{room_goto(rm_south);}
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
 		instance_deactivate_object(obj_mini_avatar);
@@ -40,6 +45,7 @@ if (battle_start = true and mini_game = false){
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
 		instance_deactivate_object(obj_mini_ytopur);
+		instance_deactivate_object(obj_mini_krus);
 		} /*else if (mini_game = true and battle_start = true){
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 0;
@@ -186,6 +192,14 @@ if(system = 1) {
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 3;
 		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Krus_mini){
+		instance_activate_object(obj_mini_krus);
+		obj_background_mini.index_minigame_back = 3;
+		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 4;
+		}
+		
 		system = 0;
 		// почалася бійка за Утопирка
 	} 

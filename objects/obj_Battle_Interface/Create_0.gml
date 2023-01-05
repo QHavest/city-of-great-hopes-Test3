@@ -31,6 +31,7 @@ Narkomany,
 Kavkazci,
 Sectants,
 Ytopurok_mini,
+Krus_mini,
 }
 
 //for button array

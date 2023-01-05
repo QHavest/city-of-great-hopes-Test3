@@ -10,7 +10,13 @@ spd += grv
 y += spd
 x++
 }
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Krus_mini){
+hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
+x += hInput * 15;
+y += vInput * 15;
+}
 #region ходьба по клітинкам СРСР Кавказці
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci){
 
@@ -93,7 +99,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest)  and alarm[4] < 1){
+if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus)  and alarm[4] < 1){
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

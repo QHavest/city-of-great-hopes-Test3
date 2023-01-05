@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_palka_mini",
-  "spriteId": {
-    "name": "spr_palka_mini",
-    "path": "sprites/spr_palka_mini/spr_palka_mini.yy",
-  },
+  "name": "obj_mini_krus",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_mini_krus",
-    "path": "objects/obj_mini_krus/obj_mini_krus.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
