@@ -8,7 +8,7 @@ if (useSound != noone) {
 		audio_emitter_position(myEmitter,x,y,0);
 		audio_falloff_set_model(audio_falloff_exponent_distance);
 		audio_emitter_falloff(myEmitter,fallStart,maxDist,1);
-		audio_play_sound_on(myEmitter,useSound,1,1);
+		audio_play_sound_on(myEmitter,useSound,1,1,global.player_gain);
 		}
 	}
 		

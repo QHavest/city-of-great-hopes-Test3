@@ -22,7 +22,15 @@ if (global.map)
 		obj_dim_player1.visible = 1;
 		obj_dim_player2.visible = 1;
 		//obj_inventory.visible = 1;
-		obj_dim_player1.state = PLAYERSTATE.FREE;
+		if ac_pl =1
+		{
+		obj_dim_player1.status = STATUS.ACTIVE;	
+		}
+		else
+		{
+		obj_dim_player2.status = STATUS.ACTIVE;	
+		}
+		
 	instance_activate_all();
 		// Снова включаем все объекты
 		
@@ -36,11 +44,10 @@ else
 				{
 				if place_meeting(x,y,obj_dim_player1) or place_meeting(x,y,obj_dim_player2)
 					{global.contact = 1;}
+				else if global.contact!=0 global.contact=0;
 				}
 		if global.contact == 1{
 		target_rm = room;
-		target_x = obj_dim_player1.x;
-		target_y = obj_dim_player1.y;
 		taxofon = obj_mp_open.Tax
 		global.map = !global.map;
 		// Вимиккаєм всі об'єкти
@@ -53,10 +60,24 @@ else
 		instance_activate_object(daycycle);
 		instance_activate_object(obj_inventory);
 		instance_activate_object(music_room);
-		obj_dim_player1.state = PLAYERSTATE.STAY;
+		// status check
+		if obj_dim_player1.status = STATUS.ACTIVE
+		{
+			obj_dim_player1.status = STATUS.PASSIVE;
+			ac_pl=1;
+			target_x = obj_dim_player1.x;
+			target_y = obj_dim_player1.y;
+		}
+		else
+		{
+			obj_dim_player2.status = STATUS.PASSIVE;
+			ac_pl=2;
+			target_x = obj_dim_player2.x;
+			target_y = obj_dim_player2.y;
+		}
 		obj_dim_player1.visible = 0;
 		obj_dim_player2.visible = 0;
-		//obj_inventory.visible = 0;
+		obj_inventory.visible = 0;
 		}
 	}
 }

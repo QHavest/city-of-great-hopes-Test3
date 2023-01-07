@@ -1,25 +1,29 @@
 ///@param text_id	
-hit_cher=0; // чи били ми черку?
+
 function scr_game_text(_text_id){
+ // чи били ми черку?
+
 	switch (_text_id)
 	{
 // вокзал		
 // text test
 #region (Cherka)
 case "Cherka":
+randomise();
 	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),2,spr_ic_Krus,spr_ic_cher);
 	scr_text(scr_json_lang(global.LANGUAGE,"Cherka1"),1,spr_ic_Krus,spr_ic_cher);
 	scr_text(scr_json_lang(global.LANGUAGE,"Cherka2"),2,spr_ic_Krus,spr_ic_cher);
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka3"),"give_money_cher");
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
-		scr_option(scr_json_lang(global.LANGUAGE,"Cherka55"),"sorry_cher");
+		scr_option(scr_json_lang(global.LANGUAGE,"Cherka55"),"4");
 break
 		case "give_money_cher":
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka6"),2,spr_ic_Krus,spr_ic_cher);
-		scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
-		scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
-		scr_option(scr_json_lang(global.LANGUAGE,"Cherka55"),"sorry_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka3"),"give_money_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka55"),"4");
 		break
 		case "move_sholder_cher":
 		// якщо перший раз
@@ -27,24 +31,29 @@ break
 		{
 			global.cher_quest = 1;
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),2,spr_ic_Krus,spr_ic_cher);
-		scr_text(" ",0,spr_ic_Krus,spr_ic_Ytopurok);	
-
-			if (hit_cher=0 and global.certificate >0) 
-			{
+		scr_text(" ",0,spr_ic_Krus,spr_ic_Ytopurok_l);	
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),1,spr_ic_Krus,spr_ic_cher);	
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka9"),2,spr_ic_Krus,spr_ic_cher);
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka10"),1,spr_ic_Krus,spr_ic_cher);
+			if (obj_globals.hit_cher=0 and global.certificate >0) 
+			{
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka88"),1,spr_ic_Krus,spr_ic_cher);	
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka9"),2,spr_ic_Krus,spr_ic_cher);
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka10"),1,spr_ic_Krus,spr_ic_cher);
 	//	scr_text(scr_json_lang(global.LANGUAGE,"Cherka11"),2,spr_ic_Krus,spr_ic_cher);
 
 	//		scr_option(scr_json_lang(global.LANGUAGE,"Cherka12"),"yes_siga_cher");
 	//		scr_option(scr_json_lang(global.LANGUAGE,"Cherka16"),"no_siga_cher");
 	//		scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher2");
 			}
+			else
+			{
+			//анімаці як Черка просто підносить пляшку біля себе й пропонує її протагоністам.	
+			}
 			break
 		}
 		else 
 		{
 			//анімаці як Черка просто підносить пляшку біля себе й пропонує її протагоністам.
+			break
 		}
 			case "yes_siga_cher":
 			
@@ -62,8 +71,8 @@ break
 			scr_text(scr_json_lang(global.LANGUAGE,"Cherka18"),2,spr_ic_Krus,spr_ic_cher);
 			break
 		
-		case "hit_cher2":
-		hit_cher =1;
+		case "hit_cher2":// перша глава
+		obj_globals.hit_cher +=1;
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka20"),1,spr_ic_cher,spr_ic_Security);
 		// Мусор ком ін
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka21"),2,spr_ic_Ytopurok,spr_ic_Security);
@@ -72,8 +81,19 @@ break
 		break
 		
 		case "hit_cher1":
-		hit_cher +=1;
+		obj_globals.hit_cher +=1;
+		switch(irandom_range(1,3)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka101"),2,spr_ic_Ytopurok,spr_ic_cher);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka102"),2,spr_ic_Ytopurok,spr_ic_cher);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka103"),2,spr_ic_Ytopurok,spr_ic_cher);
+			break}
 		//скрипт випадковості
+		if obj_globals.hit_cher >=2{ // фрази мєнта
 		switch(irandom_range(1,3)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka25"),2,spr_ic_Ytopurok,spr_ic_Security);
@@ -83,20 +103,20 @@ break
 			break
 			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka27"),2,spr_ic_Ytopurok,spr_ic_Security);
-			break
+			break}}
 				scr_option(scr_json_lang(global.LANGUAGE,"Cherka29"),"4");
-		if (hit_cher<=2)scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher1");
-				scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher3");
+				if obj_globals.hit_cher =3 scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher3");
+				else scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher1");
 			break
 			
 			case "hit_cher3":
 			// мусор ком ін
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka28"),2,spr_ic_Ytopurok,spr_ic_Security);
 			scr_option(scr_json_lang(global.LANGUAGE,"Cherka22"),"fight_cher");
-			scr_option(scr_json_lang(global.LANGUAGE,"Cherka29"),"sorry_cher");
-			
+			scr_option(scr_json_lang(global.LANGUAGE,"Cherka31"),"sorry_cher");
+			obj_globals.hit_cher = 0;
 		break
-		}
+		
 		case "fight_cher":
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka23"),2,spr_ic_Ytopurok,spr_ic_Security);
 		// починається бійка
@@ -105,6 +125,9 @@ break
 		case "sorry_cher":
 			scr_text(scr_json_lang(global.LANGUAGE,"Cherka32"),2,spr_ic_Ytopurok,spr_ic_Security);
 
+		break
+		case "go_away":
+		
 		break
 #endregion
 #region (Kasa)
