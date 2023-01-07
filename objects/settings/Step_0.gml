@@ -28,7 +28,9 @@ switch(ds_grid[# 1, menu_option[page]]){
 			if(hinput != 0){
 				
 				ds_grid[# 3,menu_option[page]] += hinput*0.01;
-				if ds_grid[# 3, menu_option[page]] == clamp(ds_grid[# 3, menu_option[page]], 0, 1) audio_play_sound(snd_search,global.System_gain,0);
+				if ds_grid[# 3, menu_option[page]] == clamp(ds_grid[# 3, menu_option[page]], 0, 1) 
+				
+				audio_play_sound(snd_search,global.System_gain,0);
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, 1);
 				script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);
 			}
@@ -62,6 +64,7 @@ if(input_enter_p){
 		case menu_element_type.slider:
 		case menu_element_type.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
 		case menu_element_type.input:
+		//case menu_element_type.empty: break;
 			inputting = !inputting;
 			break;
 	}
