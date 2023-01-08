@@ -20,7 +20,7 @@ Move[1,3]=true
 index_avatar = 1;
 
 grv = 0.8;
-spd = 5;
+spd = 12;
 
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
@@ -29,3 +29,13 @@ take_damage = false;
 damage = 5;
 amount_hp = 279;
 //light_bi = 0;
+
+////Гопніки
+knife_spd = 40;
+hsp = 15;
+vsp = 15;
+
+turn = 0;
+
+random_attack = 1;
+randomiser = false;

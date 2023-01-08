@@ -1,3 +1,4 @@
+if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
@@ -65,6 +66,22 @@ y -= 105;
 }
 #endregion
 
+#region ходьба по клітинкам Сектанти Хрести
+keyr     =  keyboard_check(ord("D"));
+keyl     =  keyboard_check(ord("A"));
+keyup    =  keyboard_check(ord("W"));
+keydown  =  keyboard_check(ord("S"));
+
+	directx = keyr - keyl; 
+	directy = keyup - keydown;
+	
+	hsp = directx*spd;
+	vsp = directy*spd;
+
+	self.x += hsp
+	self.y -= vsp
+#endregion
+
 #region короткий рух головой Міні гра за утопирка захист
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Ytopurok_mini){
 switch (keyboard_key)
@@ -99,7 +116,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus)  and alarm[4] < 1){
+if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or (place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))  and alarm[4] < 1){
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){
@@ -111,7 +128,7 @@ if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_mee
 	
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=60;
+	alarm[4]=20;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
 	obj_Battle_Interface.hpKrys -= damage;
@@ -120,9 +137,12 @@ if(global.MaxHp > 0 and /*place_meeting(x, y, obj_shprutz_parent) or */place_mee
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=60;
+	alarm[4]=20;
 	}
 	take_damage = false;
+	//Вставлено з обєкта маргарити
+	obj_Battle_Interface.battle_start = false;
+	obj_Battle_Interface.mini_game = false;
 } 
 
 
