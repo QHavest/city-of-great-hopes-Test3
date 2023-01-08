@@ -1,8 +1,121 @@
+#region weather
+
+#region rain
+
+if(keyboard_check_pressed(ord("X"))){num_rain = percent_rain};
+
+if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == true)
+{
+	var a = false;
+	if(num_rain == percent_rain) 
+	{
+		//a = true;
+		alarm[0] = rain_dur * 20; 
+		percent_rain++;
+		//show_debug_message("Step 1");
+	
+	}
+	if(a == true)
+	{	
+		a = false;
+		emitter_rain = part_emitter_create(weather);
+		raining = true;
+		//var duration = irandom_range(30, 120) // in sekonds
+		//var intensivity_var = irandom_range(1,3); // інтенсивність дощу
+		//show_debug_message("Step 2")
+		switch(intensivity_var)
+		{
+			case 1: 
+			intensivity = 20;
+			break;
+		
+			case 2: 
+			intensivity = 30;
+			break;
+		
+			case 3: 
+			intensivity = 40;
+			break;
+		
+		}
+		var angle = irandom_range(260, 280) // in degrees
+	
+		rain = part_type_create();
+
+		// налаштування анімації дощу
+		part_type_sprite(rain, spr_rain, 0, 0, 1);
+		part_type_size(rain, 0.5, 0.5, 0, 0);
+		part_type_direction(rain, angle, angle, 0, 0);
+		part_type_speed(rain, 5.5, 5.5, 0, 0);
+		//part_type_gravity(rain, 0.5, angle)
+		part_type_life(rain, 200, 200);
+		part_type_orientation(rain, angle, angle, 0, 0, 1);
+		part_type_alpha1(rain, 0.6);
+
+		// обчислення позиції
+		y_start = camera_get_view_y(view_current);
+		camera_width = camera_get_view_width(view_current);
+		x_start = obj_dim_player1.x - camera_width/2;
+
+		// запуск анімації
+		part_emitter_region(weather, emitter_rain, x_start - 200, x_start + camera_width + 200, y_start, y_start, ps_shape_rectangle, ps_distr_linear);
+		part_emitter_stream(weather, emitter_rain, rain, intensivity);
+		audio_play_sound(snd_rain, 2, 1);
+		//alarm[0] = 40 * duration;
+		//show_debug_message("Step 3")
+	}
+}
+#endregion
+
+#region fog
+
+if(keyboard_check_pressed(ord("C"))){num_fog = percent_fog};
+
+//if(num_fog == percent_fog) 
+//{
+//	alarm[3] = 1; 
+//	alarm[5] = time1 * 20; 
+//	//show_debug_message("Step 1");
+//	percent_fog++;
+	
+//}
+
+if(fogNum > 350 and fog_or_not == true)
+{
+	fog_or_not = false;
+	fogNum -= 70;
+	alarm[4] = 60;
+}
+
+if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
+if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
+
+//if(keyboard_check_pressed(ord("V"))){alarm[3] = 1; alarm[5] = time1 * 25;}
+
+#endregion
+
+#endregion
+
+#region day_night
+
+//if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
+//else time_pause = false;
+
+if(time_pause == true)
+{
+	instance_deactivate_object(obj_clock);
+}
+
+if(time_pause == false)
+{
+	instance_activate_object(obj_clock);
+}
 
 if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
 if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
-if(keyboard_check_pressed(ord("O"))){time_increment = 20;}
+if(keyboard_check_pressed(ord("O"))){time_increment = 5;}
 event_inherited()
+
 if(time_pause) exit;
 //збільошуємо час за секунду
 seconds += time_increment;
@@ -88,7 +201,10 @@ if (draw_daylight){
 		global.darknes = 0;
 		image_index += 1;
 		
-	}else if (hours > phase.sunset1 and hours <= phase.nighttime /*and visability = true*/){//захід
+		//seqDark = sequence_create(seq_dark);
+		
+		
+	}else if (hours > phase.sunset1 and hours <= phase.nighttime/*and visability = true*/){//захід
 		darks = [max_darkness, 1];
 		colours = [merge_color(c_black,c_black, 1)];
 		pstart = phase.sunset1;
@@ -101,13 +217,22 @@ if (draw_daylight){
 		global.darknes = 0;
 		image_index += 1;
 		*/
+		
+		//layer_sequence_destroy(seqDark);
+		
+	//}else if (){
+	//	darks = [max_darkness];
+	//	colours = [merge_color(c_black,c_black, 1)];
+	//	pstart = phase.nighttime;
+	//	pend = phase.nighttime3;
+		
 	} else {
 		//visability = true
 		//obj1 = true
 		darks = [max_darkness];
 		colours = [merge_color(c_black,c_navy, 0)];
 		pstart = phase.nighttime;
-		pend = phase.nighttime2;
+		pend = phase.nighttime1;
 
 		layer_set_visible("Background", false);
 		layer_set_visible("Backgrounds_night", true);
@@ -116,7 +241,7 @@ if (draw_daylight){
 		if !audio_is_playing(scr_rooms_variables(room,1)) scr_music_fon_change(room);
 
 		activate_obj_night();
-		deactivate_obj_day()
+		deactivate_obj_day();
 		global.darknes = .5
 		/*surface_set_target(lighting_surface);
 		draw_clear_alpha(c_black,0.1);
@@ -139,14 +264,16 @@ if (draw_daylight){
 	//-------------------------------
 	#region Зміна глубини темного
 	//COlours
-	if (pstart == phase.nighttime){ light_colour = colours[0];}
-	else {
-		var cc = ((hours - pstart) / (pend - pstart))*(array_length_1d(colours)-1);
-		var c1 = colours[floor(cc)];
-		var c2 = colours[ceil(cc)];
+	//if (pstart == phase.nighttime){ light_colour = colours[0];}
+	//else {
+		//var cc = ((hours - pstart) / (pend - pstart))*(array_length_1d(colours)-1);
+		//var c1 = colours[floor(cc)];
+		//var c2 = colours[ceil(cc)];
 	
-		light_colour = merge_color(c1, c2, cc-floor(cc));
-	}
+		//light_colour = merge_color(c1, c2, cc-floor(cc));
+		
+		light_colour = c_black;
+	//}
 	//Drakness
 	if (pstart == phase.nighttime){ darkness = darks[0];}
 	else {
@@ -187,5 +314,4 @@ if (hours >= 24){
 }
 #endregion
 
-
-
+#endregion

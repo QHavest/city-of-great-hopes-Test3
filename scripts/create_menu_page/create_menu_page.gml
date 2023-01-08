@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function create_menu_page(){
 	var arg, i=0;
+	if(argument_count == 0) exit;
 	repeat(argument_count){
 	arg[i] = argument[i];
 	i++;

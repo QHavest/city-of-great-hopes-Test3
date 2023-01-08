@@ -1187,31 +1187,31 @@ scr_text("Стоять!",1,spr_ic_Krus,spr_ic_Ytopurok);
 break;
 
 case "scena_7_2":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena74"),2,spr_ic_Ytopurok,spr_ic_Krus);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena74"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 break;
 
 case "scena_7_3":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena75"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena76"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena77"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena78"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena79"),2,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena75"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena76"),2,spr_ic_Ytopurok_l,spr_ic_Krus_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena77"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena78"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena79"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 break;
 
 case "scena_7_4":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena710"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena711"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena712"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena713"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena714"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena715"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena716"),2,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena710"),2,spr_ic_Ytopurok_l,spr_ic_Krus_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena711"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena712"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena713"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena714"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena715"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena716"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 	
 break;
 
 case "scena_7_5":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),2,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena718"),"var1");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena719"),"var2");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena720"),"var3");
@@ -1219,12 +1219,12 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),2,spr_ic_Krus,spr_ic_Ytopurok
 break;
 
 case "scena_7_6":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 	
 break;
@@ -1252,44 +1252,44 @@ break;
 
 #region (scena 8)
 case "scena_8_1":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena81"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena82"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena83"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena84"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena85"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena86"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena87"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena81"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena82"),2,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena83"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena84"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena85"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena86"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena87"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 //break;
   // іде жінка
  case "scena_8_2":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena88"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena89"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena810"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena811"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena812"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena813"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena814"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena88"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena89"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena810"),2,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena811"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena812"),2,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena813"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena814"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
   
   // розминає руки
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena815"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena816"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena815"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena816"),2,spr_ic_Mandarun_r,spr_ic_Krus_l);
 break;
   // б'є ліктем
  case "scena_8_3":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena817"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena817"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
 break;
   // рука на серце
   // крис зітхає
 case "scena_8_4":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena818"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena819"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena818"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena819"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 break;
   // зі спини утопирка виходить крис
 case "scena_8_5":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena820"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena821"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena822"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena823"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena820"),2,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena821"),1,spr_ic_Mandarun_r,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena822"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena823"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 #endregion

@@ -1,0 +1,1 @@
+//room_prev_fog = room_prev_fog1;

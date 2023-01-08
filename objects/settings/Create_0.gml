@@ -18,7 +18,8 @@ enum menu_page {
 	graphics,
 	controls,
 	language,
-	height
+	height, 
+	savings
 }
 
 enum menu_element_type {
@@ -27,27 +28,38 @@ enum menu_element_type {
 	slider,
 	shift,
 	toggle,
-	input
+	input, 
+	empty
 }
 
 //створення сторінок меню
-	var fnt2 = draw_get_font()
-var sz2=draw_set_font(menu_font)
+//	var fnt2 = draw_get_font()
+//var sz2=draw_set_font(menu_font)
 ds_menu_main = create_menu_page(
- ["Resume", menu_element_type.script_runner, resume_game],
- ["Settings", menu_element_type.page_transfer, menu_page.settings],
- ["Main menu", menu_element_type.script_runner, back_menu],
- ["Exit", menu_element_type.script_runner, exit_game]
+ [spr_continue_ukr_d, menu_element_type.script_runner, resume_game],
+ [spr_savings_ukr_d, menu_element_type.script_runner, menu_page.savings],
+ [spr_settings_ukr_d, menu_element_type.page_transfer, menu_page.settings],
+ [spr_main_menu_ukr_d, menu_element_type.script_runner, back_menu],
+ [spr_exit_ukr_d, menu_element_type.script_runner, exit_game]
 );
 
 ds_settings = create_menu_page(
- ["Audio"/*, menu_element_type.page_transfer, menu_page.audio*/],
- ["Master", menu_element_type.slider, change_volume, 0.5, [0,1]],
- ["Graphics"/*, menu_element_type.page_transfer, menu_page.graphics*/],
- ["Resolution", menu_element_type.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
- ["Window mode", menu_element_type.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
- ["Back", menu_element_type.page_transfer, menu_page.main],
+ [spr_audio2_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]], // кнопка "загальне аудіо"
+ [spr_sounds_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]], // кнопка "звуки"
+ [spr_music_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]] // кнопка "музика"
+ 
+ 
+ 
+ //[spr_rezolution_ukr, menu_element_type.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]], // напис розширення екрану
+ //[spr_screen_ukr, menu_element_type.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]] // напис "режим екрану"
+ ////["Back", menu_element_type.page_transfer, menu_page.main],
 );
+
+//ds_savings = create_menu_page(
+// [settings, menu_element_type.empty]
+//);
+
+/*
 
 ds_menu_audio = create_menu_page(
  ["Master", menu_element_type.slider, change_volume, 0.5, [0,1]],
@@ -62,9 +74,12 @@ ds_graphics = create_menu_page(
  ["Back", menu_element_type.page_transfer, menu_page.settings],
 );
 
+*/
+
+
 page = 0;
 
-menu_pages = [ds_menu_main, ds_settings, ds_menu_audio, ds_graphics]
+menu_pages = [ds_menu_main, ds_settings, /*ds_savings ds_menu_audio, ds_graphics*/]
 
 var i = 0, array_len = array_length_1d(menu_pages);
  repeat(array_len){
