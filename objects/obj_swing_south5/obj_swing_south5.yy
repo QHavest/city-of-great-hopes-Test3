@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_swing_south5",
   "spriteId": {
-    "name": "spr_swing_south5",
-    "path": "sprites/spr_swing_south5/spr_swing_south5.yy",
+    "name": "spr_child_play_wit_sand",
+    "path": "sprites/spr_child_play_wit_sand/spr_child_play_wit_sand.yy",
   },
   "solid": true,
   "visible": true,

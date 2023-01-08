@@ -1,5 +1,7 @@
 if acepted_key 
 { draw_sprite_ext(spr_dark,0,0,0,100,100,0,c_black,0.5);
+	if keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down) audio_play_sound(snd_search,5,0,global.System_gain);
+	// переміщення по точках вибраного району
 	switch (pos)
 	{
 		case 0 : draw_sprite_stretched(spr_mp_Railway_station,0,bord_x_r,bord_y_r,r_w*kof_r,r_h*kof_r);
@@ -24,7 +26,7 @@ if acepted_key
 	}
 	//вивід вибраного місця для телепорту
 	draw_sprite_ext(spr_hat,0,spot_x[spot][pos],spot_y[spot][pos],3,3,0,-1,1);
-	// вивід всіз можливих варіантів для телепорту
+	// вивід всіх можливих варіантів для телепорту
 	for (var i=0; i<=spot_num[pos]; i++;)
 	{	
 		if (i!=spot)
@@ -44,5 +46,6 @@ if keyboard_check(vk_enter) and acepted_key and t == 1
 		obj_dim_player2.y = player_y[spot][pos];
 		obj_dim_player1.visible = 1;
 		obj_dim_player2.visible = 1;
-		obj_dim_player1.state = PLAYERSTATE.FREE;
+		if obj_mp_manager.ac_pl=1 obj_dim_player1.status = STATUS.ACTIVE;
+		else obj_dim_player2.status = STATUS.ACTIVE;
 		}

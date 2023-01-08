@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "South",
-    "path": "folders/Sprites/Tukhlianka/South.yy",
+    "name": "Babki",
+    "path": "folders/Sprites/Tukhlianka/NPC/Babki.yy",
   },
 }

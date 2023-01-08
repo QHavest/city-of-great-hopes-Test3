@@ -8,6 +8,11 @@ if (global.LANGUAGE = "eng"){
 		layer_set_visible("text_ukr", true)
 		layer_set_visible("text_eng", false)
 		}
+if global.settings_open = 1
+{
+	layer_set_visible("text_ukr", false)
+	layer_set_visible("text_eng", false)
+}
 //x_key = keyboard_check_pressed(ord("X"))
 //if (x_key){
 /*	switch (x_key)

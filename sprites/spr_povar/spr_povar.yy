@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Hotel",
-    "path": "folders/Sprites/Center/Left/Hotel.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Center/Left/Hotel/NPC.yy",
   },
 }

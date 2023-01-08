@@ -28,6 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1761D0F8","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.125,"scaleY":0.8375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":68.0,"y":93.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63C0D384","properties":[],"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.8125,"scaleY":0.125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":38.5,"y":99.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BD9EA90","properties":[],"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":103.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5154350B","properties":[],"isDnd":false,"objectId":{"name":"obj_Boass_ment","path":"objects/obj_Boass_ment/obj_Boass_ment.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3.0,"y":38.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8171FBE","properties":[],"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.040000003,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":189.0,"y":119.0,},
@@ -50,6 +51,7 @@
     {"name":"inst_1761D0F8","path":"rooms/rm_police_inside_boss/rm_police_inside_boss.yy",},
     {"name":"inst_63C0D384","path":"rooms/rm_police_inside_boss/rm_police_inside_boss.yy",},
     {"name":"inst_6BD9EA90","path":"rooms/rm_police_inside_boss/rm_police_inside_boss.yy",},
+    {"name":"inst_5154350B","path":"rooms/rm_police_inside_boss/rm_police_inside_boss.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -29,12 +29,12 @@ view_set_visible(1, true);
 if(keyr or keyl or keyup or keydown){
 	if(move = true)
 	{
-		if !audio_is_playing(snd_run) audio_play_sound(snd_run,global.player_gain,0);
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,0,0,global.player_gain);
 		if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 	}
 	else 
 	{
-	if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
+	if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
 	if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 	}
 }

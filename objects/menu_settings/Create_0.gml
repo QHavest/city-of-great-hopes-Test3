@@ -1,5 +1,6 @@
 //if(!global.pauses) exit;
 //global.pauses = true;
+instance_deactivate_object(Main_Menu_Settings);
 global.view_width = camera_get_view_width(view_camera[0]);
 global.view_height = camera_get_view_height(view_camera[0]);
 
@@ -38,7 +39,7 @@ ds_menu_main = create_menu_page(
  [scr_json_lang(global.LANGUAGE,"settings1"), menu_element_types.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
  [scr_json_lang(global.LANGUAGE,"settings2"), menu_element_types.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
  [scr_json_lang(global.LANGUAGE,"settings3"), menu_element_types.shift, change_language, 0, ["English", "Українська"]],
- [scr_json_lang(global.LANGUAGE,"settings4"), menu_element_types.script_runner, back_menu]
+ [scr_json_lang(global.LANGUAGE,"settings4"), menu_element_types.script_runner, back_menu_from_settings]
 );
 
 ds_settings = create_menu_page(

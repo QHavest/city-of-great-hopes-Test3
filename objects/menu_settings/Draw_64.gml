@@ -101,7 +101,7 @@ yy = 0; repeat(ds_height){
 	}
 	yy++;
 }
-
+/*
 draw_set_valign(fa_top);
 if (esc_paus)
 	{
@@ -119,5 +119,5 @@ if (esc_paus)
 		//if(!global.pause) exit;
 		// Снова включаем все объекты
 		//instance_deactivate_all(true);
-	}
+	}*/
 }// else if (room_goto(rm_main_menu)) {go=false;}
