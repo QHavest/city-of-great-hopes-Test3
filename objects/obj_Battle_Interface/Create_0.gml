@@ -4,18 +4,10 @@ hpYtopyrok = 50;
 global.MaxHp = hpKrys+hpYtopyrok
 light_bi = 0; // мерехтілка вимкнена
 battle_turn_down = false;
-/* 
-global.MaxHp = hpKrys+hpYtopyrok
-
-
 
 answer = 1;
+dialogue_was = false;
 
-take_damage = false;
-amount_hp = 279
-damage = 10; //це можна буде видалити
-
-*/
 mini_game = false; //міні-гра не активна
 butt_invis = 1; //видимість кнопок
 BDialogue = false; //діалог
@@ -32,6 +24,9 @@ Kavkazci,
 Sectants,
 Ytopurok_mini,
 Krus_mini,
+Hopniki,
+Torchky,
+Sect,
 }
 
 //for button array
