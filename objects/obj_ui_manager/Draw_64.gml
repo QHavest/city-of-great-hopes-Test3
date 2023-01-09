@@ -20,8 +20,8 @@ if (game_paused)
 	// Снимаем игру с паузы
 	if (key_pause)
 	{
-		game_paused = !game_paused;
- 
+		game_paused = !game_paused
+		
 		// Снова включаем все объекты
 		instance_activate_all();
 	}

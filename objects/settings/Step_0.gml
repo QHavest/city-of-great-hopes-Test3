@@ -1,3 +1,9 @@
+//if(keyboard_check_pressed(global.key_up))
+//{
+	//exit_game();
+//}
+
+
 if(!global.pause) exit;
 
 input_up_p = keyboard_check_pressed(global.key_up);

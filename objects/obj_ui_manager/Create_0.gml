@@ -2,3 +2,4 @@
 
 game_paused = false;
 map_open = false;
+

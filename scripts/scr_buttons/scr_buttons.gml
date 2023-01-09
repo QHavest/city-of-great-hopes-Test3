@@ -14,6 +14,20 @@ function scr_buttons(arg){
 		case spr_audio2_ukr_d: return spr_audio2_ukr_l; break;
 		case spr_sounds_ukr_d: return spr_sounds_ukr_l; break;
 		case spr_music_ukr_d: return spr_music_ukr_l; break;
-
+		
+		case spr_rez1_l: return spr_rez1_l_act;
+		case spr_rez1_d: return spr_rez1_d_act;
+		
+		case spr_rez2_l: return spr_rez2_l_act;
+		case spr_rez2_d: return spr_rez2_d_act;
+		
+		case spr_rez3_l: return spr_rez3_l_act;
+		case spr_rez3_d: return spr_rez3_d_act;
+		
+		case spr_fullscreen_ukr_l: return spr_fullscreen_ukr_l_act;
+		case spr_fullscreen_ukr_d: return spr_fullscreen_ukr_d_act;
+		
+		case spr_windowmode_ukr_l: return spr_windowmode_ukr_l_act;
+		case spr_windowmode_ukr_d: return spr_windowmode_ukr_d_act;
 	}
 }
