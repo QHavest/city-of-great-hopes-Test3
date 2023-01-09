@@ -417,6 +417,7 @@
     {"id":{"name":"obj_day_and_night","path":"objects/obj_day_and_night/obj_day_and_night.yy",},"order":5,},
     {"id":{"name":"seq_scena_7","path":"sequences/seq_scena_7/seq_scena_7.yy",},"order":0,},
     {"id":{"name":"obj_closed_containers","path":"objects/obj_closed_containers/obj_closed_containers.yy",},"order":3,},
+    {"id":{"name":"obj_hopnik","path":"objects/obj_hopnik/obj_hopnik.yy",},"order":22,},
     {"id":{"name":"spr_lang","path":"sprites/spr_lang/spr_lang.yy",},"order":0,},
     {"id":{"name":"spr_ic_Ashot","path":"sprites/spr_ic_Ashot/spr_ic_Ashot.yy",},"order":1,},
     {"id":{"name":"Sequence1_test","path":"sequences/Sequence1_test/Sequence1_test.yy",},"order":31,},

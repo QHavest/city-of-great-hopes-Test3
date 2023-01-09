@@ -31,11 +31,7 @@ amount_hp = 279;
 //light_bi = 0;
 
 ////Гопніки
-knife_spd = 40;
+
 hsp = 15;
 vsp = 15;
 
-turn = 0;
-
-random_attack = 1;
-randomiser = false;

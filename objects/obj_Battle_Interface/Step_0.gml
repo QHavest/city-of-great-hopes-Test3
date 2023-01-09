@@ -21,11 +21,12 @@ if(keyboard_check_pressed(ord("P"))){
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
-if(keyboard_check_pressed(ord("V"))){
+
+if(keyboard_check_pressed(ord("O"))){
 	battle_start = !battle_start;
-	mini_game = true;
+	//mini_game = true;
 	enemies = ENEMY.Hopniki
-	room_goto(Room6162);
+	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 
@@ -57,6 +58,7 @@ if (battle_start = true and mini_game = false){
 		instance_deactivate_object(obj_wall_sect);
 		instance_deactivate_object(obj_mini_ytopur);
 		instance_deactivate_object(obj_mini_krus);
+		instance_deactivate_object(obj_hopnik);
 		} /*else if (mini_game = true and battle_start = true){
 		instance_activate_object(obj_mini_avatar);
 		obj_mini_avatar.index_avatar = 0;
@@ -211,6 +213,13 @@ if(system = 1) {
 		instance_activate_object(obj_mini_krus);
 		obj_background_mini.index_minigame_back = 3;
 		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.index_avatar = 4;
+		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Hopniki){
+		obj_background_mini.index_minigame_back = 3;
+		instance_activate_object(obj_mini_avatar);
+		instance_activate_object(obj_hopnik);
 		obj_mini_avatar.index_avatar = 4;
 		}
 		
