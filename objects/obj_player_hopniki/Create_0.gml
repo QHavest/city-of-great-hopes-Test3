@@ -1,4 +1,4 @@
-knife_spd = 40;
+/*knife_spd = 40;
 hsp = 15;
 vsp = 15;
 spd = 12;

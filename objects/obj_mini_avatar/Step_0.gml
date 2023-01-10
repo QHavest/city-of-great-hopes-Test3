@@ -1,4 +1,4 @@
-if(obj_Battle_Interface.mini_game = false) exit;
+//if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
@@ -128,7 +128,7 @@ if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x
 	
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=20;
+	alarm[4]=60;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
 	obj_Battle_Interface.hpKrys -= damage;
@@ -137,12 +137,12 @@ if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=20;
+	alarm[4]=60;
 	}
 	take_damage = false;
 	//Вставлено з обєкта маргарити
-	obj_Battle_Interface.battle_start = false;
-	obj_Battle_Interface.mini_game = false;
+	//obj_Battle_Interface.battle_start = false;
+//	obj_Battle_Interface.mini_game = false;
 } 
 
 
