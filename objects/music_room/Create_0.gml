@@ -1,7 +1,7 @@
 //global.sound = snd_rivalstation;
 //audio_play_sound(global.sound,1,1);
 global.player_gain = 1;
-global.Fon_sound_gain = 0;
+global.Fon_sound_gain = 0.3;
 global.System_gain = 1;
 global.day = 1;
 

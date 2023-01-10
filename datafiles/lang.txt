@@ -331,6 +331,7 @@
 
 
 		"Stiopa1": "Boys-boys, how are you? What are you doing here?",
+		"Stiopa22": "Came to visit",
 		"Stiopa2": "Nothing special, came to visit you, uncle.",
 		"Stiopa3": "Seriously. 15 months without any news, and here so frequently. You two naughty asses.",
 		"Stiopa4": "Uncle,  have you forgotten? I was in the army - Cudgel in prison. Sorry, but we couldn't go.",
@@ -891,6 +892,7 @@
 
 
 		"Stiopa1": "Хлопци хлопци, як ви? Що ви тут забули?",
+		"Stiopa22": "Прийши провідати",
 		"Stiopa2": "Та так, вас провідать прийшли.",
 		"Stiopa3": "Да невже. Півтора роки не слуху ні духу, а тут уже зачастили. Ви дві непослушні жопи.",
 		"Stiopa4": "Дядько, ви що забули? Я в армії був – Утопирок в тюрмі. Вибачайте, но приїхать не могли.",

@@ -29,7 +29,7 @@ switch(ds_grid[# 1, menu_option[page]]){
 				
 				ds_grid[# 3,menu_option[page]] += hinput*0.01;
 				
-				audio_play_sound(snd_search,global.System_gain,0);
+				audio_play_sound(snd_search,5,0,global.System_gain);
 				if ds_grid[# 3, menu_option[page]] == clamp(ds_grid[# 3, menu_option[page]], 0, 1) audio_play_sound(snd_search,5,0,global.System_gain);
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, 1);
 				script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);

@@ -1,5 +1,6 @@
 depth=-99999;
 //instance_create_depth(0,0,0,obj_pauser);
+please_shop_open =0;
 
 Y_op = 0;
 cam_w = camera_get_view_width(view_camera[view_current]) ;

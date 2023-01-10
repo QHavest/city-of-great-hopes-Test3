@@ -9,6 +9,7 @@ op_spr=0;
 op_sprh=0;
 op_sprw=0;
 last_free_space = 0;
+//please_shop_open =0;
 }
 
 
@@ -16,6 +17,7 @@ last_free_space = 0;
 ///@param active_speaker
 ///@param [speaker1]
 ///@param [speaker2]
+///@param [shop_name]
 function scr_text(_text,active_speaker){
 scr_set_defaults_for_text()
 text[page_number]=_text;
@@ -25,6 +27,11 @@ speaker[page_number] = active_speaker;
 speaker1[page_number] =argument[2];
 speaker2[page_number] =argument[3];	
 page_number++;
+if argument_count=5
+{
+	please_shop_open=1;
+	shop_name=argument[4];
+}
 }
 
 ///@param option
@@ -33,6 +40,12 @@ function scr_option(_option, _link_id){
 option[option_number]   = _option;
 option_link_id[option_number] = _link_id;
 option_number++;
+
+}
+function scr_shop_open(name){
+instance_create_depth(obj_dim_player1.x,90,-9999,name)
+	name.shopOpen = true;
+	global.shop = true;
 
 }
 

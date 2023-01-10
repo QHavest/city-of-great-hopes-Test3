@@ -29,7 +29,7 @@ break
 		// якщо перший раз
 		if global.cher_quest = 0
 		{
-			global.cher_quest = 1;
+			obj_globals.hit_cher = 1;
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),2,spr_ic_Krus,spr_ic_cher);
 		scr_text(" ",0,spr_ic_Krus,spr_ic_Ytopurok_l);	
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),1,spr_ic_Krus,spr_ic_cher);	
@@ -814,7 +814,7 @@ break
 #region (Stiopa)
 case"Stiopa":
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa2"),"Provodu_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa22"),"Provodu_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
 break
@@ -832,13 +832,14 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),1,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka,obj_fishery);
+	//scr_option("","By_Stiopa");
+	//break
+//	case "By_Stiopa":
+
 	
-	instance_create_depth(obj_dim_player1.x,90,-9999,obj_fishery)
-	obj_fishery.shopOpen = true;
-	global.shop = true;
 	// відкриття магазину!!!
 	break
 	case"Kinec_Stiopa":

@@ -216,7 +216,10 @@ if snd_count < snd_delay{
 			scr_create_textbox(option_link_id[option_pos])	
 			audio_play_sound(snd_op_accept,3,false,global.System_gain);
 			}
-			else global.dialog_end = 1;
+			else {
+				global.dialog_end = 1;
+				if please_shop_open=1 	scr_shop_open(shop_name);
+			}
 			instance_destroy(obj_pauser);
 			instance_destroy();}
 		}	
