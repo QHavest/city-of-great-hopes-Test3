@@ -5,8 +5,8 @@ randomize();
 alarm[0] = random_range(90,95);
 val1 = irandom_range(0,13);
 
-hresty = 577;
-hrestyy = 990;
+hresty = 579;
+hrestyy = 991;
 
 if (val1 = 0){instance_create_depth(615,hresty,-300,obj_helps_sec);}
 if (val1 = 1){instance_create_depth(720,hresty,-300,obj_helps_sec);}

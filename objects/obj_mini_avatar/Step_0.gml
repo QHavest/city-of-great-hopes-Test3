@@ -116,7 +116,7 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or (place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))  and alarm[4] < 1){
+if(global.MaxHp > 0 and alarm[4] < 1) and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

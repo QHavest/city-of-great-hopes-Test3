@@ -1,4 +1,4 @@
-if(obj_Battle_Interface.mini_game = false) exit;
+/*if(obj_Battle_Interface.mini_game = false) exit;
 
 keyr     =  keyboard_check(ord("D"));
 keyl     =  keyboard_check(ord("A"));
