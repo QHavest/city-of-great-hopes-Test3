@@ -1,8 +1,8 @@
 if (image_index = 9){
 	instance_destroy();
 
-	switch(obj_sects.val1){
-	case 0 :
+
+	/*case 0 :
 	 instance_create_depth(625,581,-300,obj_hrest);
 	break;
 	case 1 :
@@ -23,7 +23,8 @@ if (image_index = 9){
 	case 6 :
 	instance_create_depth(1257,581,-400,obj_hrest);
 	break;
-	
+	*/
+	switch(obj_sects.val1){
 	case 7 :
 	 instance_create_depth(625,987,-300,obj_hrest_horiz);
 	break;
