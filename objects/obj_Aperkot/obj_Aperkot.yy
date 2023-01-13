@@ -6,7 +6,7 @@
     "name": "spr_Aperkot_grusha",
     "path": "sprites/spr_Aperkot_grusha/spr_Aperkot_grusha.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

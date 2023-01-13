@@ -1029,18 +1029,18 @@ break
 case"Bibiliothekar":
 if global.zn_bibl = 0{
 	global.zn_bibl = 1;
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar1"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar2"),1,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar3"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar1"),2,spr_ic_bibliothekar,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar2"),1,spr_ic_bibliothekar,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar3"),2,spr_ic_bibliothekar,spr_ic_gopnik_1);
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar4"),1,spr_ic_Ytopurok,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar5"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar6"),1,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar5"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar6"),1,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar7"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
 	// FIGHT!!!
 	}
 	else{
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	}
 break
 #endregion
