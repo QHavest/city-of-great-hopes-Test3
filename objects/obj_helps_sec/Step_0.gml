@@ -27,7 +27,7 @@ if (image_index = 9){
 	}
 	}
 	
-	if(instance_exists(obj_sects)){
+	if(instance_exists(obj_sects) and obj_sects.phases = 1){
 	switch(obj_sects.val2){
 	case 0 :
 	 instance_create_depth(625,581,-300,obj_hrest);

@@ -47,6 +47,7 @@ if (image_index = 9){
 	instance_create_depth(1257,987,-400,obj_hrest_horiz);
 	break;
 	}
+	if (obj_sects.phases = 1){
 	switch(obj_sects.val2){
 	case 7 :
 	 instance_create_depth(625,987,-300,obj_hrest_horiz);
@@ -69,5 +70,6 @@ if (image_index = 9){
 	case 13 :
 	instance_create_depth(1257,987,-400,obj_hrest_horiz);
 	break;
+	}
 	}
 	}
