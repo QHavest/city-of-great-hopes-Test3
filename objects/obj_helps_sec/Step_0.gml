@@ -26,6 +26,7 @@ if (image_index = 9){
 	break;
 	}
 	}
+	
 	if(instance_exists(obj_sects)){
 	switch(obj_sects.val2){
 	case 0 :

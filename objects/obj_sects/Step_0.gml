@@ -3,13 +3,28 @@ alarm[0] -= 1;
 if (alarm[0] < 1){
 randomize();
 alarm[0] = random_range(120,180);
-val1 = irandom_range(0,13);
-val2 = irandom_range(0,13);
+val1 = 0
+val2 = 4
 
 hresty = 579;
 hrestyy = 991;
 
-if (val1 = 0 or val2 = irandom_range(0,6)){instance_create_depth(615,hresty,-300,obj_helps_sec);}
+switch(val1){
+case 0:
+instance_create_depth(615,hresty,-300,obj_helps_sec);
+break;
+
+}
+
+switch(val2){
+case 4:
+instance_create_depth(1035,hresty,-300,obj_helps_sec);
+break;
+
+}
+
+/*
+if (val1 = 0 and val2 = 1){instance_create_depth(615,hresty,-300,obj_helps_sec);instance_create_depth(1035,hresty,-300,obj_helps_sec);}
 if (val1 = 1 or val2 = irandom_range(0,6)){instance_create_depth(720,hresty,-300,obj_helps_sec);}
 if (val1 = 2 or val2 = irandom_range(0,6)){instance_create_depth(825,hresty,-300,obj_helps_sec);}
 if (val1 = 3 or val2 = irandom_range(0,6)){instance_create_depth(930,hresty,-300,obj_helps_sec);}
@@ -25,7 +40,10 @@ if (val1 = 11 or val2 = irandom_range(7,13)){instance_create_depth(1035,hrestyy,
 if (val1 = 12 or val2 = irandom_range(7,13)){instance_create_depth(1140,hrestyy,-300,obj_helps_sec_horiz);}
 if (val1 = 13 or val2 = irandom_range(7,13)){instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);}
 ////////////////////////
-/*if (val1 = 0 ){instance_create_depth(615,hresty,-300,obj_helps_sec);}
+/*
+if (val1 = 0 and val2 = 1){instance_create_depth(615,hresty,-300,obj_helps_sec);
+instance_create_depth(1035,hresty,-300,obj_helps_sec);}
+if (val1 = 0 ){instance_create_depth(615,hresty,-300,obj_helps_sec);}
 if (val1 = 1){instance_create_depth(720,hresty,-300,obj_helps_sec);}
 if (val1 = 2){instance_create_depth(825,hresty,-300,obj_helps_sec);}
 if (val1 = 3){instance_create_depth(930,hresty,-300,obj_helps_sec);}
