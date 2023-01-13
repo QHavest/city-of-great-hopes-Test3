@@ -3,8 +3,8 @@ alarm[0] -= 1;
 if (alarm[0] < 1){
 
 alarm[0] = random_range(120,180);
-val1 = irandom_range(0,6);
-val2 = irandom_range(0,6);
+val1 = irandom_range(0,13);
+val2 = irandom_range(0,13);
 
 hresty = 579;
 hrestyy = 991;
@@ -36,22 +36,22 @@ case 7:
 instance_create_depth(615,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 8:
-instance_create_depth(720,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(720,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 9:
-instance_create_depth(825,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(825,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 10:
-instance_create_depth(930,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(930,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 11:
-instance_create_depth(1035,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(1035,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 12:
-instance_create_depth(1140,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(1140,hrestyy,-300,obj_helps_sec_horiz);
 break;
 case 13:
-instance_create_depth(1245,hresty,-300,obj_helps_sec_horiz);
+instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
 }
 
@@ -76,6 +76,28 @@ instance_create_depth(1140,hresty,-300,obj_helps_sec);
 break;
 case 6:
 instance_create_depth(1245,hresty,-300,obj_helps_sec);
+break;
+
+case 7:
+instance_create_depth(615,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 8:
+instance_create_depth(720,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 9:
+instance_create_depth(825,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 10:
+instance_create_depth(930,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 11:
+instance_create_depth(1035,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 12:
+instance_create_depth(1140,hrestyy,-300,obj_helps_sec_horiz);
+break;
+case 13:
+instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
 }
 
