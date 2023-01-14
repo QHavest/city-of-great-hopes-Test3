@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_foodshop_seller",
-  "spriteId": {
-    "name": "spr_seller_stay",
-    "path": "sprites/spr_seller_stay/spr_seller_stay.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
