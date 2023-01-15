@@ -31,7 +31,6 @@
 		obj_dim_player1.visible = 0;
 		obj_dim_player2.visible = 0;
 		obj_inventory.visible = 0;
-show_debug_message("alarm!!")
 
 
 
