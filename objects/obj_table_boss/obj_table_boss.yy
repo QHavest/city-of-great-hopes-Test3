@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Second Side",
-    "path": "folders/Objects/Rival Station/Second Side.yy",
+    "name": "Tri_kalunu",
+    "path": "folders/Objects/Rival Station/Tri_kalunu.yy",
   },
 }
