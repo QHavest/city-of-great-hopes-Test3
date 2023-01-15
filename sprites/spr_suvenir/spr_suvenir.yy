@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/Rival Station/NPC.yy",
+    "name": "Second Side",
+    "path": "folders/Sprites/Rival Station/Second Side.yy",
   },
 }

@@ -86,7 +86,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Indoor",
-    "path": "folders/Sprites/Rival Station/Indoor.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Rival Station/NPC.yy",
   },
 }
