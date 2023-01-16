@@ -3,4 +3,5 @@
 function scr_fullscreen(){
 	window_set_fullscreen(true);
 	fullscreen = true;
+	global.fullscreen = 1;
 }

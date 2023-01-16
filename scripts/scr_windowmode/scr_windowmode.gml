@@ -3,4 +3,5 @@
 function scr_windowmode(){
 	window_set_fullscreen(false);
 	fullscreen = false;
+	global.fullscreen = 0;
 }

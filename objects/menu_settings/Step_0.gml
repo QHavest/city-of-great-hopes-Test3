@@ -1,11 +1,13 @@
 //if(!global.pauses) exit;
+if(global.settings_open == 0) {exit;}
+
+var cur_button = 0;
 var fnt = draw_get_font()
 var sz=draw_set_font(Font_for_language2)
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
 input_enter_p = keyboard_check_pressed(global.key_enter);
 esc_paus = keyboard_check_pressed(vk_escape);
-var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
 if(inputting){
 
@@ -33,6 +35,7 @@ switch(ds_grid[# 1, menu_option[page]]){
 				ds_grid[# 3,menu_option[page]] += hinput*0.01;
 				if ds_grid[# 3, menu_option[page]] == clamp(ds_grid[# 3, menu_option[page]], 0, 1) audio_play_sound(snd_search,5,0,global.System_gain);
 				ds_grid[# 3,menu_option[page]] = clamp(ds_grid[# 3, menu_option[page]], 0, 1);
+				
 				script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);
 			}
 			break;
@@ -56,7 +59,9 @@ switch(ds_grid[# 1, menu_option[page]]){
 		audio_play_sound(snd_search,5,0,global.System_gain);
 	}
 }
+
 if(input_enter_p){
+	var cur_button = menu_option[page];
 	audio_play_sound(snd_op_accept,5,0,global.System_gain);
 	switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_types.script_runner: script_execute(ds_grid[# 2,menu_option[page]]); break;
@@ -69,3 +74,18 @@ if(input_enter_p){
 			break;
 	}
 }
+
+//ds_grid[# 3, 0] = global.Fon_sound_gain;
+//ds_grid[# 3, 1] = global.System_gain;
+//ds_grid[# 3, 2] = global.rezolution;
+//ds_grid[# 3, 3] = global.fullscreen;
+//if(global.Language == "eng") ds_grid[# 3, 4] = 0;
+//else ds_grid[# 3, 4] = 1;
+
+global.Fon_sound_gain = ds_grid[# 3, 0];
+global.System_gain = ds_grid[# 3, 1];
+global.player_gain = ds_grid[# 3, 1];
+global.fullscreen = ds_grid[# 3, 3];
+global.rezolution = ds_grid[# 3, 2];
+
+

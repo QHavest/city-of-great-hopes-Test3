@@ -44,9 +44,9 @@ ds_menu_main = create_menu_page(
 );
 
 ds_settings = create_menu_page(
- [spr_audio2_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]], // кнопка "загальне аудіо"
- [spr_sounds_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]], // кнопка "звуки"
- [spr_music_ukr_d, menu_element_type.slider, change_volume, 0.5, [0,1]], // кнопка "музика"
+ [spr_audio2_ukr_d, menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
+ [spr_sounds_ukr_d, menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
+ [spr_music_ukr_d, menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
  
  [spr_rez1_l, menu_element_type.script_runner, scr_rezolution_1], 
  [spr_rez2_l, menu_element_type.script_runner, scr_rezolution_2], 
@@ -89,6 +89,6 @@ var i = 0, array_len = array_length_1d(menu_pages);
  
  inputting = false;
  
-rez_act = 1;
-fullscreen = false;
+rez_act = global.rezolution;
+fullscreen = global.fullscreen;
 settings_savings = true;

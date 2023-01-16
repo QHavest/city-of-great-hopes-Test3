@@ -3,4 +3,5 @@
 function scr_rezolution_2(){
 	window_set_size(1680,1050);
 	rez_act = 2;
+	global.rezolution = 1;
 }

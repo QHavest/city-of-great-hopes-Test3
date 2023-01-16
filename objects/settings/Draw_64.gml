@@ -28,10 +28,10 @@ draw_set_halign(fa_right);
 var ltx = start_x - x_buffer+30, lty; //Розташування на екрані
 
 
-//if(menu_page == menu_page.settings)
-//{
-//	draw_sprite(spr_bg_settings, 0, )
-//}
+
+//draw_set_alpha(0.25);
+//draw_rectangle_color(-50, -50, gwidth + 50, gheight + 50, c_black, c_black, c_black, c_black, 0);
+//draw_set_alpha(1);
 
 if(menu_pages[page] == ds_settings or menu_pages[page] == ds_savings) settings_savings = false;
 else settings_savings = true;
@@ -254,4 +254,8 @@ if (esc_pau) and !global.map and !global.shop
 		instance_activate_object(music_room);
 	}
 }
+
+//ds_grid[# 3, 2] = global.Fon_sound_gain;
+//ds_grid[# 3, 1] = global.System_gain;
+rez_act = global.rezolution+1;
 

@@ -76,3 +76,13 @@ if(input_enter_p){
 	}
 
 }
+
+//ds_grid[# 3, 2] = global.Fon_sound_gain;
+//ds_grid[# 3, 1] = global.System_gain;
+//ds_grid[# 3, 0] = global.master;
+//ds_grid[# 3, 2] = global.rezolution;
+//ds_grid[# 3, 3] = global.fullscreen;
+
+global.Fon_sound_gain = ds_grid[# 3, 2];
+global.System_gain = ds_grid[# 3, 1];
+global.player_gain = ds_grid[# 3, 1];

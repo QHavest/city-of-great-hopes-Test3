@@ -1,4 +1,5 @@
 //if(!global.pause) exit;
+if(global.settings_open == 1) {exit;}
 
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);
@@ -67,4 +68,4 @@ if(input_enter_p){
 			break;
 	}
 }
-if global.settings_open instance_create_depth(0,0,0,Menu_settings);
+if global.settings_open instance_activate_object(Menu_settings);
