@@ -116,19 +116,21 @@ if (keyboard_check_pressed(ord("W"))){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0 and alarm[4] < 1) and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)  {
+if((global.MaxHp > 0 and alarm[4] < 1) and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){
+	take_damage = true;
+	if (take_damage = true){
 	obj_Battle_Interface.hpYtopyrok -= damage;
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
-	take_damage = true;
-	
+	}
 	if (alarm[4] < 1){
-	
+
 	amount_hp = amount_hp - (damage/100*279);
 	}
 	alarm[4]=60;
+	take_damage = false;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
 	obj_Battle_Interface.hpKrys -= damage;
