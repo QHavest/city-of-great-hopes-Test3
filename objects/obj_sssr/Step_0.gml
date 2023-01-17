@@ -2,9 +2,10 @@
 alarm[0] -= 1;
 //alarm[1] -= 1;
 if (alarm[0] < 1){
-alarm[0] = random_range(120,180);
+alarm[0] = random_range(60,120);
 val = irandom_range(0,3);
 strax = 1570;
+if (phases = 0){
 randomisers = irandom_range(0,3);
 switch(randomisers){
 	case 0 :
@@ -20,8 +21,6 @@ switch(randomisers){
 	randomisers = 894;
 	break;
 }
-
-if (phases = 0){
 switch(val){
 	case 0 :
 	instance_create_depth(strax,randomisers,-300,obj_sssrs);
@@ -40,50 +39,95 @@ switch(val){
 }
 
 if (phases = 1){
-val1 = irandom_range(0,3);
-randomisers1 = irandom_range(0,3);
-switch(randomisers1){
+randomisers = irandom_range(0,1);
+switch(randomisers){
 	case 0 :
 	randomisers = 578;
 	break;
 	case 1 :
 	randomisers = 682;
 	break;
+
+}
+randomisers1 = irandom_range(0,1);
+	switch(randomisers1){
+	case 0 :
+	randomisers1 = 789;
+	break;
+	case 1 :
+	randomisers1 = 894;
+	break;
+}
+
+switch(val){
+	case 0 :
+	instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	break;
+	case 1 :
+	instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	break;
 	case 2 :
-	randomisers = 789;
+	 instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	 instance_create_depth(strax,randomisers1,-300,obj_sssrs);
 	break;
 	case 3 :
-	randomisers = 894;
+	 instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	 instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	break;
+	}
+
+	
+	
+}
+
+
+if (phases = 2){
+randomisers = 0;
+switch(randomisers){
+	case 0 :
+	randomisers = 578;
+	break;
+}
+randomisers1 = 1;
+	switch(randomisers1){
+	case 1 :
+	randomisers1 = 894;
+	break;
+}
+
+randomisers2 = irandom_range(0,1);
+	switch(randomisers2){
+	case 0 :
+	randomisers2 = 789;
+	break;
+	case 1 :
+	randomisers2 = 682;
 	break;
 }
 switch(val){
 	case 0 :
 	instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers2,-300,obj_sssrs);
 	break;
 	case 1 :
 	instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	instance_create_depth(strax,randomisers2,-300,obj_sssrs);
 	break;
 	case 2 :
 	 instance_create_depth(strax,randomisers,-300,obj_sssrs);
+	 instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	 instance_create_depth(strax,randomisers2,-300,obj_sssrs);
 	break;
 	case 3 :
 	 instance_create_depth(strax,randomisers,-300,obj_sssrs);
-	break;
-	}
-switch(val1){
-	case 0 :
-	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
-	break;
-	case 1 :
-	instance_create_depth(strax,randomisers1,-300,obj_sssrs);
-	break;
-	case 2 :
 	 instance_create_depth(strax,randomisers1,-300,obj_sssrs);
+	 instance_create_depth(strax,randomisers2,-300,obj_sssrs);
 	break;
-	case 3 :
-	 instance_create_depth(strax,randomisers1,-300,obj_sssrs);
-	break;
-	}
+	}	
 }
 //instance_create_depth(strax,578,-300,obj_star)
 /*

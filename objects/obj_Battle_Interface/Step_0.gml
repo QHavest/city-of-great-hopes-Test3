@@ -175,6 +175,8 @@ if(system = 1) {
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
 		obj_background_mini.index_minigame_back = 1;
 		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.x = 531;
+		obj_mini_avatar.y = 702;
 		obj_mini_avatar.index_avatar = 1;
 		instance_activate_object(obj_sssr);
 		}
