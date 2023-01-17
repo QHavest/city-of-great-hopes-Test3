@@ -6,7 +6,7 @@
     "name": "spr_gogich_active",
     "path": "sprites/spr_gogich_active/spr_gogich_active.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

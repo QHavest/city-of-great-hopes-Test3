@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_suvenirnyi",
   "spriteId": {
-    "name": "spr_shopping",
-    "path": "sprites/spr_shopping/spr_shopping.yy",
+    "name": "spr_ic_blank",
+    "path": "sprites/spr_ic_blank/spr_ic_blank.yy",
   },
   "solid": false,
   "visible": true,
