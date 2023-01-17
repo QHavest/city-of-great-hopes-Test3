@@ -18,8 +18,5 @@ with (ds_list_find_value(sssr_enemy, irandom_range(0,3))){
 	im = irandom_range(0,3);
 }
 }
-/*if (alarm[1] < 1){
-				obj_Battle_Interface.battle_start = false;
-				room_goto(rm_street_first_side); 
-				}
+
 

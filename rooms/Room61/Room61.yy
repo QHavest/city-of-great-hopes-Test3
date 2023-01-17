@@ -72,8 +72,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_33B6C9AD","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_16C1FA0D","path":"rooms/Room61/Room61.yy",},
+    {"name":"inst_33B6C9AD","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_6625367E","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_5F6B1D4A","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_5AE21B82","path":"rooms/Room61/Room61.yy",},

@@ -4,8 +4,6 @@ if (alarm[0] < 1){
 
 alarm[0] = random_range(120,180);
 
-
-
 hresty = 579;
 hrestyy = 991;
 if (phases = 0){
@@ -58,7 +56,8 @@ break;
 }
 
 if (phases = 1){
-
+val1 = irandom_range(0,13);
+val2 = irandom_range(0,13);
 switch(val1){
 case 0:
 instance_create_depth(615,hresty,-300,obj_helps_sec);
@@ -104,7 +103,7 @@ case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
 }
-val2 = irandom_range(0,13);
+
 switch(val2){
 case 0:
 instance_create_depth(615,hresty,-300,obj_helps_sec);
@@ -154,7 +153,7 @@ break;
 }
 
 if (phases = 2){
-
+val1 = irandom_range(0,13);
 switch(val1){
 case 0:
 instance_create_depth(615,hresty,-300,obj_helps_sec);

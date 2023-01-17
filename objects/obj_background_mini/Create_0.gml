@@ -1,1 +1,1 @@
-index_minigame_back = 1;
+index_minigame_back = 4;
