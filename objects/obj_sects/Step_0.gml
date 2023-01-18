@@ -52,6 +52,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 }
 
@@ -102,6 +105,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 
 switch(val2){
@@ -148,6 +154,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 
 }
@@ -198,6 +207,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 val2 = irandom_range(0,13);
 switch(val2){
@@ -244,6 +256,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 val3 = irandom_range(0,13);
 switch(val3){
@@ -290,6 +305,9 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
+default :
+	instance_create_depth(1257,581,-400,obj_hrest);
+	break;
 }
 }
 /*
@@ -327,5 +345,4 @@ if (val1 = 10){instance_create_depth(930,hrestyy,-300,obj_helps_sec_horiz);}
 if (val1 = 11){instance_create_depth(1035,hrestyy,-300,obj_helps_sec_horiz);}
 if (val1 = 12){instance_create_depth(1140,hrestyy,-300,obj_helps_sec_horiz);}
 if (val1 = 13){instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);}*/
-
 }

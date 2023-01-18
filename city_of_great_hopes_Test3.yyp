@@ -1579,6 +1579,7 @@
     {"id":{"name":"spr_seller_agro_stay","path":"sprites/spr_seller_agro_stay/spr_seller_agro_stay.yy",},"order":9,},
     {"id":{"name":"spr_dim_Ytopurok_stay1","path":"sprites/spr_dim_Ytopurok_stay1/spr_dim_Ytopurok_stay1.yy",},"order":0,},
     {"id":{"name":"obj_manager_9","path":"objects/obj_manager_9/obj_manager_9.yy",},"order":3,},
+    {"id":{"name":"obj_screen_gamestart","path":"objects/obj_screen_gamestart/obj_screen_gamestart.yy",},"order":6,},
     {"id":{"name":"spr_ic_bufet","path":"sprites/spr_ic_bufet/spr_ic_bufet.yy",},"order":0,},
     {"id":{"name":"spr_fastfood_seller","path":"sprites/spr_fastfood_seller/spr_fastfood_seller.yy",},"order":2,},
     {"id":{"name":"obj_seller_posyda","path":"objects/obj_seller_posyda/obj_seller_posyda.yy",},"order":1,},

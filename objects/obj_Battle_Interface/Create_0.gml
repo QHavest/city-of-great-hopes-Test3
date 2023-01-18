@@ -16,6 +16,10 @@ luck = irandom_range(0, 100);
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
+target_rm = room;
+
+
+alarm[10] = 60;
 enemies = ENEMY.Noname
 enum ENEMY{
 Noname,
