@@ -1,6 +1,7 @@
 //Інтерфейс
 if(battle_start = true){
 	instance_deactivate_object(obj_inventory);
+	draw_sprite_ext(Sprite1041, 0, 0, 0,0.1,1.5,0,c_black,1);
 	draw_sprite(spr_battleI, 0, gui_W/100, gui_H/100);
 
 	var maxs = global.MaxHp;
