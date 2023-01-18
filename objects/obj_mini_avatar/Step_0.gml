@@ -66,20 +66,14 @@ y -= 105;
 }
 #endregion
 
-#region ходьба по клітинкам Сектанти Хрести
-keyr     =  keyboard_check(ord("D"));
-keyl     =  keyboard_check(ord("A"));
-keyup    =  keyboard_check(ord("W"));
-keydown  =  keyboard_check(ord("S"));
+#region ходьба по клітинкам Гопніки
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Hopniki){
+hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-	directx = keyr - keyl; 
-	directy = keyup - keydown;
-	
-	hsp = directx*spd;
-	vsp = directy*spd;
-
-	self.x += hsp
-	self.y -= vsp
+x += hInput * 15;
+y += vInput * 15;
+}
 #endregion
 
 #region короткий рух головой Міні гра за утопирка захист
@@ -114,9 +108,21 @@ if (keyboard_check_pressed(ord("W"))){
 	spd = -10;
 }
 
+switch(obj_Battle_Interface.enemies){
+	case ENEMY.Kavkazci :
+	damage = 5;
+	break;
+	case ENEMY.Sectants :
+	damage = 20;
+	break;
+	case ENEMY.Hopniki :
+	damage = 20;
+	break;
+}
+
  alarm[1] -= 1;
  alarm[4] -= 1;
-if((global.MaxHp > 0 and alarm[4] < 1) and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))  {
+if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

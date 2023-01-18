@@ -50,6 +50,8 @@ if(keyboard_check_pressed(ord("K"))){
 {room_goto(rm_south);}
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
+		instance_deactivate_object(obj_dim_player1);
+		instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
 		instance_deactivate_object(obj_sssr);
 		//instance_deactivate_object(obj_background_mini);
