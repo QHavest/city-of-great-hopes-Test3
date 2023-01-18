@@ -1,3 +1,4 @@
 phases = 0;
-alarm[1] = 600;
-alarm[2] = 900;
+alarm[1] = 300;
+alarm[2] = 600;
+alarm[3] = 820;

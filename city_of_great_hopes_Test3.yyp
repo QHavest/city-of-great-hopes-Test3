@@ -804,6 +804,7 @@
     {"id":{"name":"spr_ic_Bufet_women","path":"sprites/spr_ic_Bufet_women/spr_ic_Bufet_women.yy",},"order":4,},
     {"id":{"name":"obj_fruit3","path":"objects/obj_fruit3/obj_fruit3.yy",},"order":9,},
     {"id":{"name":"spr_main_menu_ukr_d","path":"sprites/spr_main_menu_ukr_d/spr_main_menu_ukr_d.yy",},"order":13,},
+    {"id":{"name":"obj_youwon","path":"objects/obj_youwon/obj_youwon.yy",},"order":7,},
     {"id":{"name":"spr_Child_and_gus","path":"sprites/spr_Child_and_gus/spr_Child_and_gus.yy",},"order":5,},
     {"id":{"name":"obj_kletka_papygu","path":"objects/obj_kletka_papygu/obj_kletka_papygu.yy",},"order":4,},
     {"id":{"name":"spr_rival_second_night","path":"sprites/spr_rival_second_night/spr_rival_second_night.yy",},"order":0,},
