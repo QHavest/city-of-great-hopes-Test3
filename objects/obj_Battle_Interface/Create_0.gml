@@ -5,6 +5,8 @@ global.MaxHp = hpKrys+hpYtopyrok
 light_bi = 0; // мерехтілка вимкнена
 battle_turn_down = false;
 
+H=0;
+
 answer = 1;
 dialogue_was = false;
 

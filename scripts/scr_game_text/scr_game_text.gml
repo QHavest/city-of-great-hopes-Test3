@@ -356,6 +356,12 @@ break
 	//Не змінює періодичність їх появи
 	break
 	case "fight":
+	with obj_Battle_Interface{
+	battle_start = !battle_start;
+	mini_game = true;
+	enemies = ENEMY.Hopniki
+	room_goto(Room61);
+	}
 	//Почнеться бійка Утопирка та Криса проти трьох гопніків. Якщо програти, то вони заберуть всі гроші
 	break
 case "Gopota2":
@@ -801,10 +807,10 @@ scr_text(scr_json_lang(global.LANGUAGE,"Panton1"),2,spr_ic_Krus,spr_ic_Platon);
 	scr_option(scr_json_lang(global.LANGUAGE,"Panton4"),"pant_nicho");
 break
 	case"pant_prod":
-	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon);
-	instance_create_depth(obj_dim_player1.x,90,-9999,obj_furniture)
-	obj_furniture.shopOpen = true;
-	global.shop = true;
+	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon,obj_furniture);
+//	instance_create_depth(obj_dim_player1.x,90,-9999,obj_furniture)
+//	obj_furniture.shopOpen = true;
+//	global.shop = true;
 	// OPEN MAGAZ
 	break
 	case"pant_nicho":
@@ -997,17 +1003,17 @@ break
 case"Aperkot":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot1"),2,spr_ic_Krus,spr_ic_Makedon);
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot11"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot1"),2,spr_ic_Krus,spr_ic_Apperkot);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot11"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot2"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot2"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot3"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot3"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot4"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot4"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 }	
 break

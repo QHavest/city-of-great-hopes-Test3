@@ -90,7 +90,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Sprites/Bazar/Day/Boxes.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Bazar/Day/Boxes/NPC.yy",
   },
 }

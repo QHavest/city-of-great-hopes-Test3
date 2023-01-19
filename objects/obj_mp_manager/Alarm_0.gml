@@ -5,7 +5,7 @@
 		global.map = !global.map;
 		// Вимиккаєм всі об'єкти
 		instance_deactivate_all(true);
-		// вмикаєм те що має працювати
+		// вмикаєм те що має працювати коли відкрита мапа
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);
 		instance_activate_object(Settings);
@@ -13,6 +13,7 @@
 		instance_activate_object(daycycle);
 		instance_activate_object(obj_inventory);
 		instance_activate_object(music_room);
+		instance_activate_object(obj_Battle_Interface);
 		// status check
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{
