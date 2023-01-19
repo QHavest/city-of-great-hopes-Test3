@@ -58,7 +58,27 @@ if(battle_start = true){
 	if(mini_game = true){
 	draw_set_font(font_azariya_textbox_2)
 	draw_set_color(c_gray);
-	draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
+	switch (enemies){
+		case ENEMY.Narkomany :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
+		break;
+		case ENEMY.Kavkazci :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'W' or 'Arrow S' and 'Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 238);
+		break;
+		case ENEMY.Sectants :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 238);
+		break;
+		case ENEMY.Ytopurok_mini :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
+		break;
+		case ENEMY.Krus_mini :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
+		break;
+		case ENEMY.Hopniki :
+		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 238);
+		break;
+	}
+	
 	}
 	///////////////Діалоги
 	if(BDialogue = true){

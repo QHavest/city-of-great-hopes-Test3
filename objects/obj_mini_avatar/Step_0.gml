@@ -110,7 +110,7 @@ if (keyboard_check_pressed(ord("W"))){
 
 switch(obj_Battle_Interface.enemies){
 	case ENEMY.Kavkazci :
-	damage = 5;
+	damage = 10;
 	break;
 	case ENEMY.Sectants :
 	damage = 20;
@@ -122,7 +122,7 @@ switch(obj_Battle_Interface.enemies){
 
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
+if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz) or place_meeting(x, y,obj_mini_krus) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){
@@ -135,7 +135,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=60;
+	alarm[4]=40;
 	take_damage = false;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
@@ -145,13 +145,15 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
 	}
-	alarm[4]=60;
+	alarm[4]=40;
 	}
 	take_damage = false;
 	//Вставлено з обєкта маргарити
 	//obj_Battle_Interface.battle_start = false;
 //	obj_Battle_Interface.mini_game = false;
-} 
+} else if (global.MaxHp = 0){
+	instance_create_depth(490,570,-600,obj_gameover);
+}
 
 
 if(alarm[1] < 1){

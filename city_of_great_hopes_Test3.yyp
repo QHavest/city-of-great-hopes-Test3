@@ -1270,6 +1270,7 @@
     {"id":{"name":"spr_mandarun_turn","path":"sprites/spr_mandarun_turn/spr_mandarun_turn.yy",},"order":3,},
     {"id":{"name":"spr_Schveicar_R","path":"sprites/spr_Schveicar_R/spr_Schveicar_R.yy",},"order":18,},
     {"id":{"name":"spr_secretrka","path":"sprites/spr_secretrka/spr_secretrka.yy",},"order":21,},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":8,},
     {"id":{"name":"rm_food_shop","path":"rooms/rm_food_shop/rm_food_shop.yy",},"order":3,},
     {"id":{"name":"spr_dim_Krus_stay_l","path":"sprites/spr_dim_Krus_stay_l/spr_dim_Krus_stay_l.yy",},"order":10,},
     {"id":{"name":"sp_uholek01","path":"sprites/sp_uholek01/sp_uholek01.yy",},"order":1,},

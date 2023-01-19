@@ -48,7 +48,7 @@ button[4] = "D";
 //ДІАЛОГИ
 
 //text_torchky = "Натисніть “W” або “Стрілочка вгору”, щоб почати бійку. Ухиляйтеся від шприців за допомогою відштовхування в повітрі на кнопку “W” або “Стрілочка вгору”."
-st_text_torchky = "Press 'W' or 'UP' to start a fight. Dodge syringes by pushing in the air on the 'W' or 'DOWN' buttons."
+st_text_torchky = "Press 'W' or 'Arrow UP' to start a fight. Dodge syringes flapping between them."
 stringHeight_torchky = string_height(st_text_torchky);
 
 if(global.LANGUAGE = "eng"){
