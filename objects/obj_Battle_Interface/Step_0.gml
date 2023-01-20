@@ -28,7 +28,6 @@ if(keyboard_check_pressed(ord("P"))){
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
-
 if(keyboard_check_pressed(ord("O"))){
 	battle_start = !battle_start;
 	//mini_game = true;

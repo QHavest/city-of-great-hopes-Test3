@@ -92,7 +92,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Container",
-    "path": "folders/Sprites/Bazar/Day/Container.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Bazar/Day/Container/NPC.yy",
   },
 }

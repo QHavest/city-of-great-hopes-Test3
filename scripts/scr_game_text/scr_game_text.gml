@@ -29,7 +29,7 @@ break
 		// якщо перший раз
 		if global.cher_quest = 0
 		{
-			global.cher_quest = 1;
+			obj_globals.hit_cher = 1;
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),2,spr_ic_Krus,spr_ic_cher);
 		scr_text(" ",0,spr_ic_Krus,spr_ic_Ytopurok_l);	
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),1,spr_ic_Krus,spr_ic_cher);	
@@ -356,6 +356,12 @@ break
 	//Не змінює періодичність їх появи
 	break
 	case "fight":
+	with obj_Battle_Interface{
+	battle_start = !battle_start;
+	mini_game = true;
+	enemies = ENEMY.Hopniki
+	room_goto(Room61);
+	}
 	//Почнеться бійка Утопирка та Криса проти трьох гопніків. Якщо програти, то вони заберуть всі гроші
 	break
 case "Gopota2":
@@ -801,10 +807,10 @@ scr_text(scr_json_lang(global.LANGUAGE,"Panton1"),2,spr_ic_Krus,spr_ic_Platon);
 	scr_option(scr_json_lang(global.LANGUAGE,"Panton4"),"pant_nicho");
 break
 	case"pant_prod":
-	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon);
-	instance_create_depth(obj_dim_player1.x,90,-9999,obj_furniture)
-	obj_furniture.shopOpen = true;
-	global.shop = true;
+	scr_text(scr_json_lang(global.LANGUAGE,"Panton3"),2,spr_ic_Krus,spr_ic_Platon,obj_furniture);
+//	instance_create_depth(obj_dim_player1.x,90,-9999,obj_furniture)
+//	obj_furniture.shopOpen = true;
+//	global.shop = true;
 	// OPEN MAGAZ
 	break
 	case"pant_nicho":
@@ -814,7 +820,7 @@ break
 #region (Stiopa)
 case"Stiopa":
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa2"),"Provodu_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa22"),"Provodu_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
 break
@@ -832,13 +838,14 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),1,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka,obj_fishery);
+	//scr_option("","By_Stiopa");
+	//break
+//	case "By_Stiopa":
+
 	
-	instance_create_depth(obj_dim_player1.x,90,-9999,obj_fishery)
-	obj_fishery.shopOpen = true;
-	global.shop = true;
 	// відкриття магазину!!!
 	break
 	case"Kinec_Stiopa":
@@ -996,17 +1003,17 @@ break
 case"Aperkot":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot1"),2,spr_ic_Krus,spr_ic_Makedon);
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot11"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot1"),2,spr_ic_Krus,spr_ic_Apperkot);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot11"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot2"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot2"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot3"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot3"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot4"),2,spr_ic_Krus,spr_ic_Makedon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Aperkot4"),2,spr_ic_Krus,spr_ic_Apperkot);
 			break
 }	
 break
@@ -1028,18 +1035,18 @@ break
 case"Bibiliothekar":
 if global.zn_bibl = 0{
 	global.zn_bibl = 1;
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar1"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar2"),1,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar3"),2,spr_ic_Buh_Stepanovucha,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar1"),2,spr_ic_bibliothekar,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar2"),1,spr_ic_bibliothekar,spr_ic_gopnik_1);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar3"),2,spr_ic_bibliothekar,spr_ic_gopnik_1);
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar4"),1,spr_ic_Ytopurok,spr_ic_gopnik_1);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar5"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar6"),1,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar5"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar6"),1,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar7"),2,spr_ic_Ytopurok,spr_ic_gopnik_1);
 	// FIGHT!!!
 	}
 	else{
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
-	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_Buh_Stepanovucha);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
+	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	}
 break
 #endregion

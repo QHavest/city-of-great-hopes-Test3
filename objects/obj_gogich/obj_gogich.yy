@@ -3,10 +3,10 @@
   "resourceVersion": "1.0",
   "name": "obj_gogich",
   "spriteId": {
-    "name": "spr_gogich_stay",
-    "path": "sprites/spr_gogich_stay/spr_gogich_stay.yy",
+    "name": "spr_gogich_active",
+    "path": "sprites/spr_gogich_active/spr_gogich_active.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -29,6 +29,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -6,7 +6,7 @@
     "name": "spr_Mascot_stay",
     "path": "sprites/spr_Mascot_stay/spr_Mascot_stay.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
