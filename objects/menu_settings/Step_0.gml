@@ -66,7 +66,7 @@ if(input_enter_p){
 	switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_types.script_runner: script_execute(ds_grid[# 2,menu_option[page]]); break;
 		case menu_element_types.page_transfer: page = ds_grid[# 2, menu_option[page]]; break;
-		case menu_element_types.shift: if(inputting) { room_restart();}
+		case menu_element_types.shift: /*if(inputting) { room_restart();}*/
 		case menu_element_types.slider:
 		case menu_element_types.toggle: if(inputting) { script_execute(ds_grid[# 2,menu_option[page]], ds_grid[# 3,menu_option[page]]);};
 		case menu_element_types.input:
@@ -82,10 +82,10 @@ if(input_enter_p){
 //if(global.Language == "eng") ds_grid[# 3, 4] = 0;
 //else ds_grid[# 3, 4] = 1;
 
-global.Fon_sound_gain = ds_grid[# 3, 0];
-global.System_gain = ds_grid[# 3, 1];
-global.player_gain = ds_grid[# 3, 1];
-global.fullscreen = ds_grid[# 3, 3];
-global.rezolution = ds_grid[# 3, 2];
+//global.Fon_sound_gain = ds_grid[# 3, 0];
+//global.System_gain = ds_grid[# 3, 1];
+//global.player_gain = ds_grid[# 3, 1];
+//global.fullscreen = ds_grid[# 3, 3];
+//global.rezolution = ds_grid[# 3, 2];
 
 

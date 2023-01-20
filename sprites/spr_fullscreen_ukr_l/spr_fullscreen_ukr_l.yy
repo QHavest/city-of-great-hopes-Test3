@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "graphics",
-    "path": "folders/Main Menu/Pause/sprites/graphics.yy",
+    "name": "ukr",
+    "path": "folders/Main Menu/Pause/sprites/graphic/ukr.yy",
   },
 }

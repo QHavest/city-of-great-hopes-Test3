@@ -6,6 +6,7 @@ global.shop = false
 global.dialog_end = 1;
 global.fullscreen = 0;
 global.rezolution = 2;
-global.Language = "eng";
 global.master = 0.5;
 global.LANGUAGE = "eng";
+
+show_debug_message("config")

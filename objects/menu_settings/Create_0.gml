@@ -35,21 +35,25 @@ enum menu_element_types {
 	toggle,
 	input
 }
+
+var rezolution = global.rezolution;
+var screenmode = global.fullscreen;
+show_debug_message(string(screenmode) + " = screen")
 //створення сторінок меню
 var lang;
 if(global.LANGUAGE == "ua") lang = 1;
 else lang = 0;
- show_debug_message("music = " + string(global.Fon_sound_gain));
- show_debug_message("sound = " + string(global.System_gain));
+ //show_debug_message("music = " + string(global.Fon_sound_gain));
+ //show_debug_message("sound = " + string(global.System_gain));
  
  if(lang == 1)
  {
 	ds_menu_main = create_menu_page(
 	 ["Музика", menu_element_types.slider, scr_change_music_vol, global.Fon_sound_gain, [0,1]],
 	 ["Звуки", menu_element_types.slider, scr_change_sound_vol, global.System_gain, [0,1]],
-	 ["Розширення", menu_element_types.shift, change_resolution, global.rezolution, ["1280х1024", "1680x1050", "1920x1080"]],
-	 ["Режим екрану", menu_element_types.shift, change_window_mode, global.fullscreen, ["Вікно", "Повний екран"]],
-	 ["Мова", menu_element_types.shift, change_language, lang, ["Українська", "Англійська"]],
+	 ["Розширення", menu_element_types.shift, change_resolution, rezolution, ["1280х1024", "1680x1050", "1920x1080"]],
+	 ["Режим екрану", menu_element_types.shift, change_window_mode, screenmode, ["Вікно", "Повний екран"]],
+	 ["Мова", menu_element_types.shift, change_language, lang, ["Англійська", "Українська"]],
 	 ["<<< Назад", menu_element_types.script_runner, back_menu_from_settings]
 	);
  }
@@ -58,8 +62,8 @@ else lang = 0;
 	ds_menu_main = create_menu_page(
 	 ["Music", menu_element_types.slider, scr_change_music_vol, global.Fon_sound_gain, [0,1]],
 	 ["Sounds", menu_element_types.slider, scr_change_sound_vol, global.System_gain, [0,1]],
-	 ["Rezolution", menu_element_types.shift, change_resolution, global.rezolution, ["1280х1024", "1680x1050", "1920x1080"]],
-	 ["Screen mode", menu_element_types.shift, change_window_mode, global.fullscreen, ["Window", "Fullscreen"]],
+	 ["Rezolution", menu_element_types.shift, change_resolution, rezolution, ["1280х1024", "1680x1050", "1920x1080"]],
+	 ["Screen mode", menu_element_types.shift, change_window_mode, screenmode, ["Window", "Fullscreen"]],
 	 ["Language", menu_element_types.shift, change_language, lang, ["English", "Ukrainian"]],
 	 ["<<< Back", menu_element_types.script_runner, back_menu_from_settings]
 	);

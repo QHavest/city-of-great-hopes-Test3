@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "audio",
-    "path": "folders/Main Menu/Pause/sprites/audio.yy",
+    "name": "ukr",
+    "path": "folders/Main Menu/Pause/sprites/audio/ukr.yy",
   },
 }

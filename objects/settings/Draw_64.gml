@@ -50,8 +50,10 @@ switch(menu_pages[page])
 		if( yy = menu_option[page]){
 			//xo = -(x_buffer/2);
 			a = scr_buttons(ds_grid[# 0, yy]);
+			//c = c_black;
 		}
 		draw_sprite_ext(a,0,ltx+242/*-90*/, lty+319,1,1,0,c_white,1); //кнопки
+		//draw_text_color(ltx+242, lty+319, a, c,c,c,c,1);
 		yy++;
 		
 	}
@@ -60,12 +62,22 @@ switch(menu_pages[page])
 	
 	case ds_settings:
 	//show_debug_message(start_y);
-	
-	draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
-	draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
-	draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
-	draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-	draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+	if(global.LANGUAGE == "ua")
+	{
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+	}
+	if(global.LANGUAGE == "eng")
+	{
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_eng, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_eng, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_eng, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_eng2, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+	}
 	var yy = 0; repeat (ds_height){
 	
 		var a = ds_grid[# 0, yy];
@@ -107,33 +119,72 @@ switch(menu_pages[page])
 			}
 		}
 		
-		if(ds_grid[# 0, yy] == spr_fullscreen_ukr_l or ds_grid[# 0, yy] == spr_fullscreen_ukr_d)
+		
+		
+		if(global.LANGUAGE == "ua")
 		{
-			xP = 955; yP = 845; // координати
-			if(fullscreen == true) 
+			if(ds_grid[# 0, yy] == spr_fullscreen_ukr_l or ds_grid[# 0, yy] == spr_fullscreen_ukr_d)
 			{
-				ds_grid[# 0, yy] = spr_fullscreen_ukr_d;
-				ds_grid[# 0, yy+1] = spr_windowmode_ukr_l;
-			}
+				xP = 955; yP = 845; // координати
+				if(fullscreen == true) 
+				{
+					ds_grid[# 0, yy] = spr_fullscreen_ukr_d;
+					ds_grid[# 0, yy+1] = spr_windowmode_ukr_l;
+				}
 			
-		}
+			}
 		
-		if(ds_grid[# 0, yy] == spr_windowmode_ukr_l or ds_grid[# 0, yy] == spr_windowmode_ukr_d)
-		{
-			xP = 955; yP = 865; // координати
-			if(fullscreen == false) 
+			if(ds_grid[# 0, yy] == spr_windowmode_ukr_l or ds_grid[# 0, yy] == spr_windowmode_ukr_d)
 			{
-				ds_grid[# 0, yy] = spr_windowmode_ukr_d;
-				ds_grid[# 0, yy-1] = spr_fullscreen_ukr_l;
+				xP = 955; yP = 865; // координати
+				if(fullscreen == false) 
+				{
+					ds_grid[# 0, yy] = spr_windowmode_ukr_d;
+					ds_grid[# 0, yy-1] = spr_fullscreen_ukr_l;
+				}
+			}
+		
+			if(ds_grid[# 0, yy] != spr_rez1_l and ds_grid[# 0, yy] != spr_rez1_d and ds_grid[# 0, yy] != spr_rez2_l and ds_grid[# 0, yy] != spr_rez2_d
+			   and ds_grid[# 0, yy] != spr_rez3_l and ds_grid[# 0, yy] != spr_rez3_d and ds_grid[# 0, yy] != spr_fullscreen_ukr_l and ds_grid[# 0, yy] != spr_fullscreen_ukr_d
+			   and ds_grid[# 0, yy] != spr_windowmode_ukr_l and ds_grid[# 0, yy] != spr_windowmode_ukr_d)
+			{
+				xP = ltx + 908; yP = lty + 590; // 430
 			}
 		}
 		
-		if(ds_grid[# 0, yy] != spr_rez1_l and ds_grid[# 0, yy] != spr_rez1_d and ds_grid[# 0, yy] != spr_rez2_l and ds_grid[# 0, yy] != spr_rez2_d
-		   and ds_grid[# 0, yy] != spr_rez3_l and ds_grid[# 0, yy] != spr_rez3_d and ds_grid[# 0, yy] != spr_fullscreen_ukr_l and ds_grid[# 0, yy] != spr_fullscreen_ukr_d
-		   and ds_grid[# 0, yy] != spr_windowmode_ukr_l and ds_grid[# 0, yy] != spr_windowmode_ukr_d)
+		if(global.LANGUAGE == "eng")
 		{
-			xP = ltx + 908; yP = lty + 590; // 430
+			if(ds_grid[# 0, yy] == spr_fullscreen_eng_l or ds_grid[# 0, yy] == spr_fullscreen_eng_d)
+			{
+				xP = 955; yP = 845; // координати
+				if(fullscreen == true) 
+				{
+					ds_grid[# 0, yy] = spr_fullscreen_eng_d;
+					ds_grid[# 0, yy+1] = spr_windowmode_eng_l;
+				}
+			
+			}
+		
+			if(ds_grid[# 0, yy] == spr_windowmode_eng_l or ds_grid[# 0, yy] == spr_windowmode_eng_d)
+			{
+				xP = 955; yP = 865; // координати
+				if(fullscreen == false) 
+				{
+					ds_grid[# 0, yy] = spr_windowmode_eng_d;
+					ds_grid[# 0, yy-1] = spr_fullscreen_eng_l;
+				}
+			}
+		
+			if(ds_grid[# 0, yy] != spr_rez1_l and ds_grid[# 0, yy] != spr_rez1_d and ds_grid[# 0, yy] != spr_rez2_l and ds_grid[# 0, yy] != spr_rez2_d
+			   and ds_grid[# 0, yy] != spr_rez3_l and ds_grid[# 0, yy] != spr_rez3_d and ds_grid[# 0, yy] != spr_fullscreen_eng_l and ds_grid[# 0, yy] != spr_fullscreen_eng_d
+			   and ds_grid[# 0, yy] != spr_windowmode_eng_l and ds_grid[# 0, yy] != spr_windowmode_eng_d)
+			{
+				xP = ltx + 908; yP = lty + 590; // 430
+			}
 		}
+		
+		
+		
 		
 		if( yy = menu_option[page]){
 			a = scr_buttons(ds_grid[# 0, yy]);
