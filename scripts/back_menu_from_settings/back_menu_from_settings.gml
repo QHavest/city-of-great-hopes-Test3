@@ -3,5 +3,5 @@
 function back_menu_from_settings(){
 instance_activate_object(Main_Menu_Settings);
 global.settings_open = 0;
-instance_destroy();
+instance_deactivate_object(Menu_settings);
 }

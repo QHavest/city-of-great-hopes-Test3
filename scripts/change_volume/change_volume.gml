@@ -3,7 +3,7 @@
 function change_volume(){
 var type = menu_option[page];
 	
-	show_debug_message(argument0);
+	//show_debug_message(argument0);
 	
 switch(type){
 	case 0: audio_master_gain(argument0); show_debug_message("case 0"); break;

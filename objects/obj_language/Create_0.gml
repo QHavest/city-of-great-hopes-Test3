@@ -1,2 +1,2 @@
-global.LANGUAGE = "eng";
+//global.LANGUAGE = "eng";
 

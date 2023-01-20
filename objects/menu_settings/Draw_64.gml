@@ -71,6 +71,7 @@ yy = 0; repeat(ds_height){
 	switch(ds_grid[# 1, yy]){
 	case menu_element_type.shift:
 		var current_val = ds_grid[# 3, yy];
+		//show_debug_message(current_val);
 		var current_array = ds_grid[# 4, yy];
 		var left_shift = "";
 		var right_shift = "";
@@ -80,7 +81,25 @@ yy = 0; repeat(ds_height){
 		if(current_val == array_length_1d(ds_grid[# 4, yy])-1) right_shift = "";
 		
 		if(inputting and yy == menu_option[page]){ c = c_orange; }
-		draw_text_color(rtx+155, rty, current_array[current_val], c,c,c,c, 1)
+		
+		//if(current_array[current_val] == "Fullscreen" or current_array[current_val] == "Window")
+		//{
+		//	if(global.fullscreen == 1)
+		//	{
+		//		var cout = "Fullscreen";
+		//	}
+		//	if(global.fullscreen == 0)
+		//	{
+		//		var cout = "Window";
+		//	}
+		//}
+		
+		//if(current_array[current_val] != "Fullscreen" or current_array[current_val] != "Window")
+		//{
+			var cout = current_array[current_val];
+		//}
+		
+		draw_text_color(rtx+155, rty, cout, c,c,c,c, 1)
 		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
 		break;
 		

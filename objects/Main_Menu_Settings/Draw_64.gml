@@ -1,4 +1,4 @@
-
+if(global.settings_open == 1) {exit;}
 //if(!global.pause) exit;
 //esc_pau = keyboard_check_pressed(vk_escape);
 	var fnt = draw_get_font()

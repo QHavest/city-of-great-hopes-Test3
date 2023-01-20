@@ -10,10 +10,37 @@ function scr_buttons(arg){
 		case spr_settings_ukr_d: return spr_settings_ukr_l; break;
 		case spr_exit_ukr_d: return spr_exit_ukr_l; break;
 		
+		case spr_continue_eng_d: return spr_continue_eng_l; break;
+		case spr_savings_eng_d: return spr_savings_eng_l; break;
+		case spr_main_menu_eng_d: return spr_main_menu_eng_l; break;
+		case spr_settings_eng_d: return spr_settings_eng_l; break;
+		case spr_exit_eng_d: return spr_exit_eng_l; break;
+		
 		// налаштування
 		case spr_audio2_ukr_d: return spr_audio2_ukr_l; break;
 		case spr_sounds_ukr_d: return spr_sounds_ukr_l; break;
 		case spr_music_ukr_d: return spr_music_ukr_l; break;
-
+		case spr_audio2_eng_d: return spr_audio2_eng_l; break;
+		case spr_sound_eng_d: return spr_sound_eng_l; break;
+		case spr_music_eng_d: return spr_music_eng_l; break;
+		
+		case spr_rez1_l: return spr_rez1_l_act;
+		case spr_rez1_d: return spr_rez1_d_act;
+		
+		case spr_rez2_l: return spr_rez2_l_act;
+		case spr_rez2_d: return spr_rez2_d_act;
+		
+		case spr_rez3_l: return spr_rez3_l_act;
+		case spr_rez3_d: return spr_rez3_d_act;
+		
+		case spr_fullscreen_ukr_l: return spr_fullscreen_ukr_l_act;
+		case spr_fullscreen_ukr_d: return spr_fullscreen_ukr_d_act;
+		case spr_fullscreen_eng_l: return spr_fullscreen_eng_l_act;
+		case spr_fullscreen_eng_d: return spr_fullscreen_eng_d_act;
+		
+		case spr_windowmode_ukr_l: return spr_windowmode_ukr_l_act;
+		case spr_windowmode_ukr_d: return spr_windowmode_ukr_d_act;
+		case spr_windowmode_eng_l: return spr_windowmode_eng_l_act;
+		case spr_windowmode_eng_d: return spr_windowmode_eng_d_act;
 	}
 }

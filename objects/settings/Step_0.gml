@@ -1,3 +1,9 @@
+//if(keyboard_check_pressed(global.key_up))
+//{
+	//exit_game();
+//}
+
+
 if(!global.pause) exit;
 
 input_up_p = keyboard_check_pressed(global.key_up);
@@ -70,3 +76,13 @@ if(input_enter_p){
 	}
 
 }
+
+//ds_grid[# 3, 2] = global.Fon_sound_gain;
+//ds_grid[# 3, 1] = global.System_gain;
+//ds_grid[# 3, 0] = global.master;
+//ds_grid[# 3, 2] = global.rezolution;
+//ds_grid[# 3, 3] = global.fullscreen;
+
+//global.Fon_sound_gain = ds_grid[# 3, 2];
+//global.System_gain = ds_grid[# 3, 1];
+//global.player_gain = ds_grid[# 3, 1];
