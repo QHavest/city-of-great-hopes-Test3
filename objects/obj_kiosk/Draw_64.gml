@@ -35,6 +35,3 @@ var spr = asset_get_index("sp_" + item);
 
 draw_sprite(spr, 0, guiW/4, guiH/4);
 
-//Стрілочки і назва
-draw_sprite_ext(sp_name_kiosk, 0, guiW/2, guiH/6, 2, 2, 0, c_white, 1);
-

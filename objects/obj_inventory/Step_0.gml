@@ -1,9 +1,4 @@
 
-
-
-
-
-
 if (global.map or global.pause or !global.dialog_end or global.shop or global.diary){
 	inv_UI_x_closed = inv_UI_x_closed_static;
 	show_inventory = false;
@@ -15,6 +10,7 @@ if (global.map or global.pause or !global.dialog_end or global.shop or global.di
 if(keyboard_check_pressed(ord("I")) and alarm[0] < 40){
 	show_inventory = !show_inventory;
 	alarm[0] = 60;
+	audio_play_sound(snd_inventory, 9,0);
 }
 
 if (show_inventory){
