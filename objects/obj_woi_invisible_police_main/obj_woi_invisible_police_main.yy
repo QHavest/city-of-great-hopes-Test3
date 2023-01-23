@@ -6,7 +6,7 @@
     "name": "spr_police1",
     "path": "sprites/spr_police1/spr_police1.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
