@@ -7,8 +7,8 @@ global.statData =
 	save_x : 0,
 	save_y : 0,
 	save_rm : "rm_steet_first_side",
-	
-	money : 0
+	save_inv : 0,
+	money : 0,
 }
 
 global.levelData =

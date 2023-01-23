@@ -123,6 +123,14 @@ if !is_string(_roomStruct) {exit;};
 //////////////////////////////////////////////////////////////////
 function save_game(_fileNum = 0){
 	var _saveArray = array_create(0);
+	_saveInv = array_create(9);
+	
+	for(var i = 0; i < 10; i++)
+	{
+		//array_push(_saveInv, global.ds_inventory[# 0, i]);
+		_saveInv[i] = global.ds_inventory[# 0, i];
+	}
+	
 	//зберегти кімнату в якій ти знаходишся
 	save_room();
 	
@@ -132,6 +140,9 @@ function save_game(_fileNum = 0){
 	global.statData.save_1_y = obj_dim_player1.y;
 	global.statData.save_2_y = obj_dim_player2.y;
 	global.statData.save_rm = room_get_name(room);
+	
+	global.statData.money = global.money;
+	global.statData.save_inv = _saveInv;
 	
 	
 	array_push(_saveArray, global.statData);
@@ -167,7 +178,15 @@ function load_game(_fileNum = 0){
 	
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
-
+	
+	//with(save_game()
+	for(var i = 0; i < 10; i++)
+	{
+		//array_push(_saveInv, global.ds_inventory[# 0, i]);
+		
+		global.ds_inventory[# 0, i] = _saveInv[i];
+	}
+	global.money = global.statData.money;
 	
 	//повертаємося до кімнати в якій збереглися
 	
