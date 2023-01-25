@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!shopOpen) exit;
+if (!shopOpen or !global.shop) exit;
 
 for (var i=0; i<itemCount01; i++){
 	var arr = items_hastronom01[| i]; 

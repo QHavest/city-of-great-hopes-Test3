@@ -8,8 +8,7 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 }
 
 
-if(shopOpen){
-
+if(shopOpen and global.shop){
 	//To right
 	if(keyboard_check_pressed(ord("D")) ||  keyboard_check_pressed(vk_right)){
 		audio_play_sound(snd_search,5,0,global.System_gain)

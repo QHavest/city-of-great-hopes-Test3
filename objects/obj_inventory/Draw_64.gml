@@ -2,6 +2,7 @@ draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, inv_UI_w, inv_UI_h,
 	inv_UI_x_closed, inv_UI_y, scale, scale, c_white, 1);
 
 //-------------money
+draw_sprite(spr_frame, 0, frame_x, frame_y);
 draw_set_font(Font_for_money)
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
@@ -31,7 +32,5 @@ repeat(inv_slots){
 #endregion(1)
 
 #region(2)
-draw_sprite(spr_frame, 0, frame_x, frame_y);
-
 #endregion(2)
 

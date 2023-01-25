@@ -209,6 +209,7 @@ if (draw_daylight){
 		colours = [merge_color(c_black,c_black, 1)];
 		pstart = phase.sunset1;
 		pend = phase.nighttime;
+		global.shop = false;
 		/*layer_set_visible("Background", true);
 		layer_set_visible("Backgrounds_night", false);
 		
@@ -243,6 +244,10 @@ if (draw_daylight){
 		activate_obj_night();
 		deactivate_obj_day();
 		global.darknes = .5
+		
+		//я тут впилю свій магазин :)
+		global.shop = false;
+		
 		/*surface_set_target(lighting_surface);
 		draw_clear_alpha(c_black,0.1);
 		with(obj_lamp_night_container){
