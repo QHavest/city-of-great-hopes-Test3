@@ -18,15 +18,12 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
-		
 			break;
 			case 2:
 			grushki = GRUSHKI.grushka_right
-		
 			break;
 			case 3:
 			grushki = GRUSHKI.grushka_left
-	
 			break;
 		}
 	switch (grushki){
@@ -40,8 +37,54 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			obj_grusha_right.idx = 1;
 			break;
 			case 2:
-			obj_grusha_left.idx = 0;
+			obj_grusha_left.idx = 1;
 			break;
+			}
+		break;
+		
+		case GRUSHKI.grushka_down:
+		grush = irandom_range(0,2);
+			switch (grush){
+			case 0:
+			obj_grusha_sml_up.idx = 1;
+			break;
+			case 1:
+			obj_grusha_right.idx = 1;
+			break;
+			case 2:
+			obj_grusha_left.idx = 1;
+			break;
+			}
+		break;
+		
+		case GRUSHKI.grushka_right:
+		grush = irandom_range(0,2);
+			switch (grush){
+			case 0:
+			obj_grusha_sml_up.idx = 1;
+			break;
+			case 1:
+			obj_grusha_sml_down.idx = 1;
+			break;
+			case 2:
+			obj_grusha_left.idx = 1;
+			break;
+			}
+		break;
+		
+		case GRUSHKI.grushka_left:
+		grush = irandom_range(0,2);
+			switch (grush){
+			case 0:
+			obj_grusha_sml_up.idx = 1;
+			break;
+			case 1:
+			obj_grusha_sml_down.idx = 1;
+			break;
+			case 2:
+			obj_grusha_right.idx = 1;
+			break;
+			}
 		break;
 	}
 	alarm [4] = 150;
