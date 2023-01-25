@@ -6,7 +6,7 @@
     "name": "spr_babka_3",
     "path": "sprites/spr_babka_3/spr_babka_3.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
