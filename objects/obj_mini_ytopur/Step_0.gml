@@ -30,7 +30,19 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 		}
 	switch (grushki){
-		
+		case GRUSHKI.grushka_up:
+		grush = irandom_range(0,2);
+			switch (grush){
+			case 0:
+			obj_grusha_sml_down.idx = 1;
+			break;
+			case 1:
+			obj_grusha_right.idx = 1;
+			break;
+			case 2:
+			obj_grusha_left.idx = 0;
+			break;
+		break;
 	}
 	alarm [4] = 150;
 	}
