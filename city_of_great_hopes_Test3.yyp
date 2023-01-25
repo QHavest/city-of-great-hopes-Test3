@@ -2013,7 +2013,6 @@
     {"id":{"name":"spr_woi_invisible_wall_1_1","path":"sprites/spr_woi_invisible_wall_1_1/spr_woi_invisible_wall_1_1.yy",},"order":21,},
     {"id":{"name":"sp_rybni_konservy_eng01","path":"sprites/sp_rybni_konservy_eng01/sp_rybni_konservy_eng01.yy",},"order":3,},
     {"id":{"name":"spr_lamp_rival_side2","path":"sprites/spr_lamp_rival_side2/spr_lamp_rival_side2.yy",},"order":9,},
-    {"id":{"name":"Object688","path":"objects/Object688/Object688.yy",},"order":13,},
     {"id":{"name":"obj_score_ytopur","path":"objects/obj_score_ytopur/obj_score_ytopur.yy",},"order":18,},
     {"id":{"name":"spr_gogich_stay","path":"sprites/spr_gogich_stay/spr_gogich_stay.yy",},"order":4,},
     {"id":{"name":"spr_cherka_L_moove","path":"sprites/spr_cherka_L_moove/spr_cherka_L_moove.yy",},"order":20,},
