@@ -12,6 +12,23 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	alarm [4] -= 1
 	if (alarm [4] < 1){
 	grushka = irandom_range(0,3);
+	switch(grushka){
+			case 0:
+			grushki = GRUSHKI.grushka_up
+			break;
+			case 1:
+			grushki = GRUSHKI.grushka_down
+			grushka_a = 1;
+			break;
+			case 2:
+			grushki = GRUSHKI.grushka_right
+			grushka_a = 2;
+			break;
+			case 3:
+			grushki = GRUSHKI.grushka_left
+			grushka_a = 3;
+			break;
+		}
 	alarm [4] = 150;
 	}
 	
