@@ -18,17 +18,20 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
-			grushka_a = 1;
+		
 			break;
 			case 2:
 			grushki = GRUSHKI.grushka_right
-			grushka_a = 2;
+		
 			break;
 			case 3:
 			grushki = GRUSHKI.grushka_left
-			grushka_a = 3;
+	
 			break;
 		}
+	switch (grushki){
+		
+	}
 	alarm [4] = 150;
 	}
 	
