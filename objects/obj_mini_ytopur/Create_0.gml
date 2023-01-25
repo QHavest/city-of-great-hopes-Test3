@@ -1,9 +1,10 @@
 hits_grusha = false;
 udaryv = false;
-grushka = irandom_range(0,3);
+grushka = 0;
+grush = irandom_range(0,2);
 //alarm[5] = 150;
 alarm [4] = 150;
-alarm[0] = 100;
+//alarm[0] = 100;
 grushki = GRUSHKI.grushka_noone;
 enum GRUSHKI{
 grushka_noone,

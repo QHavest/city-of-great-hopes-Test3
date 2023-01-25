@@ -11,10 +11,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 //х945 у748 голова коорди
 	alarm [4] -= 1
 	if (alarm [4] < 1){
-	grushka = irandom_range(0,3);
+	grushka =0; //irandom_range(0,3);
+	grush = irandom_range(0,2);
+	alarm [4] = 150;
+	}
 	switch(grushka){
 			case 0:
 			grushki = GRUSHKI.grushka_up
+			
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
@@ -28,7 +32,6 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 		}
 	switch (grushki){
 		case GRUSHKI.grushka_up:
-		grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_down.idx = 1;
@@ -41,9 +44,9 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			}
 		break;
-		
+		/*
 		case GRUSHKI.grushka_down:
-		grush = irandom_range(0,2);
+		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -58,7 +61,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 		break;
 		
 		case GRUSHKI.grushka_right:
-		grush = irandom_range(0,2);
+		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -73,7 +76,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 		break;
 		
 		case GRUSHKI.grushka_left:
-		grush = irandom_range(0,2);
+		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -85,59 +88,70 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			obj_grusha_right.idx = 1;
 			break;
 			}
-		break;
-	}
-	alarm [4] = 150;
+		break;*/
 	}
 	
 	switch(grushka){
 	case 0:
-	alarm[0] -= 1;
-	if (alarm[0] < 1){
 	obj_grusha_sml_up.idx = 1;
+	grushki = GRUSHKI.grushka_up;
 	hits_grusha = true;
-	alarm[0] = 100;
-	}
-	if(alarm[0] < 70 and hits_grusha = true){
+	/*
+	if(hits_grusha = true){
 	obj_grusha_sml_up.idx = 0;
+	obj_grusha_sml_down.idx = 0;
+	obj_grusha_right.idx = 0;
+	obj_grusha_left.idx = 0;
 	hits_grusha = false;
-	}
+	}*/
 	break;
 	
 	case 1:
-	alarm[0] -= 1;
-	if (alarm[0] < 1){
+	alarm[1] -= 1;
+	if (alarm[1] < 1 and hits_grusha = false){
 	obj_grusha_sml_down.idx = 1;
+	grushki = GRUSHKI.grushka_down;
 	hits_grusha = true;
-	alarm[0] = 100;
+	alarm[1] = 100;
 	}
-	if(alarm[0]< 70 and hits_grusha = true){
+	if(alarm[1]< 70 and hits_grusha = true){
+	obj_grusha_sml_up.idx = 0;
 	obj_grusha_sml_down.idx = 0;
+	obj_grusha_right.idx = 0;
+	obj_grusha_left.idx = 0;
 	hits_grusha = false;
 	}
 
 	break;
 	case 2:
-	alarm[0] -= 1;
-	if (alarm[0] < 1){
+	alarm[2] -= 1;
+	if (alarm[2] < 1 and hits_grusha = false){
 	obj_grusha_right.idx = 1;
+	grushki = GRUSHKI.grushka_right;
 	hits_grusha = true;
-	alarm[0] = 100;
+	alarm[2] = 100;
 	}
-	if(alarm[0] < 70 and hits_grusha = true){
+	if(alarm[2] < 70 and hits_grusha = true){
+	obj_grusha_sml_up.idx = 0;
+	obj_grusha_sml_down.idx = 0;
 	obj_grusha_right.idx = 0;
+	obj_grusha_left.idx = 0;
 	hits_grusha = false;
 	}
 
 	break;
 	case 3:
-	alarm[0] -= 1;
-	if (alarm[0] < 1){
+	alarm[3] -= 1;
+	if (alarm[3] < 1 and hits_grusha = false){
 	obj_grusha_left.idx = 1;
+	grushki = GRUSHKI.grushka_left;
 	hits_grusha = true;
-	alarm[0] = 100;
+	alarm[3] = 100;
 	}
-	if(alarm[0] < 70 and hits_grusha = true){
+	if(alarm[3] < 70 and hits_grusha = true){
+	obj_grusha_sml_up.idx = 0;
+	obj_grusha_sml_down.idx = 0;
+	obj_grusha_right.idx = 0;
 	obj_grusha_left.idx = 0;
 	hits_grusha = false;
 
