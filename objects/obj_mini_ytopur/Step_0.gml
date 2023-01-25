@@ -18,7 +18,6 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	switch(grushka){
 			case 0:
 			grushki = GRUSHKI.grushka_up
-			
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
@@ -96,14 +95,8 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_grusha_sml_up.idx = 1;
 	grushki = GRUSHKI.grushka_up;
 	hits_grusha = true;
-	/*
-	if(hits_grusha = true){
-	obj_grusha_sml_up.idx = 0;
-	obj_grusha_sml_down.idx = 0;
-	obj_grusha_right.idx = 0;
-	obj_grusha_left.idx = 0;
-	hits_grusha = false;
-	}*/
+	
+	
 	break;
 	
 	case 1:
