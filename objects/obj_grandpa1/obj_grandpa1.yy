@@ -6,7 +6,7 @@
     "name": "spr_Spurodon",
     "path": "sprites/spr_Spurodon/spr_Spurodon.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

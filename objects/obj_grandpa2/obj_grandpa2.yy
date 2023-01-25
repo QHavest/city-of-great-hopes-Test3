@@ -6,7 +6,7 @@
     "name": "spr_Petrovuch",
     "path": "sprites/spr_Petrovuch/spr_Petrovuch.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
