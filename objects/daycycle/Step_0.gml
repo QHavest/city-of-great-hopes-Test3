@@ -112,8 +112,8 @@ if(time_pause == false)
 }
 
 if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
-if(keyboard_check_pressed(ord("P"))){time_increment = 300;}
-if(keyboard_check_pressed(ord("O"))){time_increment = 5;}
+if(keyboard_check_pressed(ord("R"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("Y"))){time_increment = 5;}
 event_inherited()
 
 if(time_pause) exit;
