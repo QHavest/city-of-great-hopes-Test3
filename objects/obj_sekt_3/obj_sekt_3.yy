@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

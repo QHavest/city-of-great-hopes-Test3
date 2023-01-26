@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_depth_system",
-    "path": "objects/obj_depth_system/obj_depth_system.yy",
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
