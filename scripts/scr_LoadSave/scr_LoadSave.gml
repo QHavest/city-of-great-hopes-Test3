@@ -122,6 +122,26 @@ if !is_string(_roomStruct) {exit;};
 
 //////////////////////////////////////////////////////////////////
 function save_game(_fileNum = 0){
+	
+	saveHour = current_hour;
+	saveMin = current_minute;
+	
+	saveDay = current_day;
+	saveMonth = current_month;
+	
+	with(daycycle)
+	{
+		hours2 = hours;
+		minutes2 = minutes;
+		seconds2 = seconds;
+	}
+	
+	if(saveHour < 10) saveHour = "0" + string(saveHour);
+	if(saveMin < 10) saveMin = "0" + string(saveMin);
+	
+	if(saveDay < 10) saveDay = "0" + string(saveDay);
+	if(saveMonth < 10) saveMonth = "0" + string(saveMonth);
+	
 	var _saveArray = array_create(0);
 	_saveInv = array_create(9);
 	
@@ -178,13 +198,27 @@ function load_game(_fileNum = 0){
 	
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
+	var saveInv = array_create(9);
+	with(obj_loading)
+	{
+		for(var i=0;i<10;i++)
+		{
+			saveInv[i] = _saveInv[i];
+		}
+	}
 	
-	//with(save_game()
+	with(daycycle)
+	{
+		minutes = minutes2;
+		hours = hours2;
+		seconds = sekonds2;
+	}
+	
 	for(var i = 0; i < 10; i++)
 	{
 		//array_push(_saveInv, global.ds_inventory[# 0, i]);
 		
-		global.ds_inventory[# 0, i] = _saveInv[i];
+		global.ds_inventory[# 0, i] = saveInv[i];
 	}
 	global.money = global.statData.money;
 	

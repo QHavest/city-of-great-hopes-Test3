@@ -1,4 +1,6 @@
 /// @desc UI
+
+
 key_pause = keyboard_check_pressed(vk_escape)
 map_key = keyboard_check(ord("M"))
 if (game_paused) 
@@ -40,7 +42,7 @@ else
 														global.screen_width,global.screen_height,0,0,0,0);
  
 		// Отключаем все объекты, кроме этого
-		instance_deactivate_all(true);
+		//instance_deactivate_all(true);
 	}
 }
 

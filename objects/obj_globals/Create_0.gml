@@ -6,4 +6,4 @@ global.battle = false;
 //global.LANGUAGE = "eng"; // Mazur
 global.certificate =0;
 hit_cher=0;
-
+global.gameStart = 0;

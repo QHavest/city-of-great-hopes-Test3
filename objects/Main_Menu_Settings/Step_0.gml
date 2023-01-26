@@ -69,3 +69,4 @@ if(input_enter_p){
 	}
 }
 if global.settings_open instance_activate_object(Menu_settings);
+

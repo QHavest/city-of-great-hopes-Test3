@@ -202,6 +202,25 @@ switch(menu_pages[page])
 	
 	draw_sprite_ext(spr_bg_savings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg savings
 	
+	draw_set_font(Font_for_draw_mazur2);
+	
+	with(obj_loading)
+	{
+		var saveHour2 = saveHour;
+		var saveMin2 = saveMin;
+		var saveDay2 = saveDay;
+		var saveMonth2 = saveMonth;
+	}
+	
+	
+	if (saveMonth2 != 0)
+	{
+		c = make_color_rgb(98, 98, 77);
+		draw_text_color(ltx+835, 55+380, "AutoS", c, c, c, c, 1);
+		draw_text_color(ltx+1090, 55+380, string(saveHour2) + ":" + string(saveMin2), c, c, c, c, 1);
+		draw_text_color(ltx+965, 55+380, string(saveDay2) + "." + string(saveMonth2), c, c, c, c, 1);
+	}
+	
 	break;
 }
 
@@ -210,11 +229,11 @@ if(menu_pages[page] == ds_settings or menu_pages[page] == ds_savings)
 		var yy2 = 0; repeat (ds_height2){
 		lty = start_y2 + (yy2*y_buffer_menu);
 		if(yy2 == 2) {a = scr_buttons(ds_grid2[# 0, yy2]);}
+		if(yy2 == 1) {a = scr_buttons(ds_grid2[# 0, yy2]);}
 		else {a = ds_grid2[# 0, yy2];}
 		draw_sprite_ext(a,0,ltx+242,lty+319,1,1,0,c_white,1); //кнопки menu
 		yy2++;
-		
-		//draw_sprite_ext(a,0,ltx+242,lty+319,1,1,0,c_white,1); //кнопки
+
 	}
 }
 
@@ -302,6 +321,7 @@ if (esc_pau) and !global.map and !global.shop
 		inputting = false;
 		//if(!global.pause) exit;
 		instance_deactivate_all(true);
+		instance_activate_object(obj_loading);
 		instance_activate_object(music_room);
 	}
 }

@@ -4,4 +4,6 @@ function new_game(){
 	room_goto(rm_street_first_side)
 	scr_music_fon_change(rm_street_first_side)
 	//room_goto(rm_home_gg_cut)
+	global.gameStart = 1;
+	
 }
