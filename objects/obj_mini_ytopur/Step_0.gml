@@ -11,7 +11,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 //х945 у748 голова коорди
 	alarm [4] -= 1
 	if (alarm [4] < 1){
-	grushka = irandom_range(0,1);
+	grushka = irandom_range(0,3);
 	grush = irandom_range(0,2);
 	alarm [4] = 150;
 	
@@ -69,9 +69,8 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			}
 		break;
-		/*
+		
 		case GRUSHKI.grushka_right:
-		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -86,7 +85,6 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 		break;
 		
 		case GRUSHKI.grushka_left:
-		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -98,7 +96,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			obj_grusha_right.idx = 1;
 			break;
 			}
-		break;*/
+		break;
 	}
 	}
 	/*switch(grushka){
