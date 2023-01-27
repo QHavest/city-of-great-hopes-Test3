@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_grusha_sml_up",
   "spriteId": {
-    "name": "spr_grusha_sml_up",
-    "path": "sprites/spr_grusha_sml_up/spr_grusha_sml_up.yy",
+    "name": "spr_grusha_sml_down",
+    "path": "sprites/spr_grusha_sml_down/spr_grusha_sml_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

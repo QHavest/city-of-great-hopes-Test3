@@ -1,4 +1,8 @@
 hits_grusha = false;
+hits_grusha_up = false;
+hits_grusha_down = false;
+hits_grusha_left = false;
+hits_grusha_right = false;
 udaryv = false;
 //grushka = 0;
 //grush = irandom_range(0,2);
