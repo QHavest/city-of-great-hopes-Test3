@@ -11,23 +11,27 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 //х945 у748 голова коорди
 	alarm [4] -= 1
 	if (alarm [4] < 1){
-	grushka = 0; //irandom_range(0,3);
+	grushka = irandom_range(0,1);
 	grush = irandom_range(0,2);
 	alarm [4] = 150;
 	
 	switch(grushka){
 			case 0:
 			grushki = GRUSHKI.grushka_up
+			obj_grusha_sml_up.idx = 1;
 			hits_grusha = true;
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
+			obj_grusha_sml_down.idx = 1;
 			break;
 			case 2:
 			grushki = GRUSHKI.grushka_right
+			obj_grusha_right.idx = 1;
 			break;
 			case 3:
 			grushki = GRUSHKI.grushka_left
+			obj_grusha_left.idx = 1;
 			break;
 		}
 	switch (grushki){
@@ -51,9 +55,8 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			}
 		break;
-		/*
+		
 		case GRUSHKI.grushka_down:
-		//grush = irandom_range(0,2);
 			switch (grush){
 			case 0:
 			obj_grusha_sml_up.idx = 1;
@@ -66,7 +69,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 			}
 		break;
-		
+		/*
 		case GRUSHKI.grushka_right:
 		//grush = irandom_range(0,2);
 			switch (grush){
@@ -158,7 +161,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	}
 	break;*/
 //}
-randomize();/*
+/*
 //якщо груша дозодить до 150+ секунд вмикати білу заливку
 if (alarm[0] > random_range(100,150)){
 obj_grusha_sml_up.idx = 1;
