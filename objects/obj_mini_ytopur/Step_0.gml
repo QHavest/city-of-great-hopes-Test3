@@ -11,13 +11,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 //х945 у748 голова коорди
 	alarm [4] -= 1
 	if (alarm [4] < 1){
-	grushka =0; //irandom_range(0,3);
+	grushka = 0; //irandom_range(0,3);
 	grush = irandom_range(0,2);
 	alarm [4] = 150;
-	}
+	
 	switch(grushka){
 			case 0:
 			grushki = GRUSHKI.grushka_up
+			hits_grusha = true;
 			break;
 			case 1:
 			grushki = GRUSHKI.grushka_down
@@ -30,6 +31,13 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			break;
 		}
 	switch (grushki){
+		case GRUSHKI.grushka_noone:
+			obj_grusha_sml_up.idx = 0;
+			obj_grusha_sml_down.idx = 0;
+			obj_grusha_right.idx = 0;
+			obj_grusha_left.idx = 0;
+			hits_grusha = false;
+		break;
 		case GRUSHKI.grushka_up:
 			switch (grush){
 			case 0:
@@ -89,17 +97,16 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 			}
 		break;*/
 	}
-	
-	switch(grushka){
+	}
+	/*switch(grushka){
 	case 0:
-	obj_grusha_sml_up.idx = 1;
-	grushki = GRUSHKI.grushka_up;
-	hits_grusha = true;
+	//obj_grusha_sml_up.idx = 1;
 	
-	
+	//grushki = GRUSHKI.grushka_up;
+	//hits_grusha = true;
 	break;
 	
-	case 1:
+	/*case 1:
 	alarm[1] -= 1;
 	if (alarm[1] < 1 and hits_grusha = false){
 	obj_grusha_sml_down.idx = 1;
@@ -149,8 +156,8 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	hits_grusha = false;
 
 	}
-	break;
-}
+	break;*/
+//}
 randomize();/*
 //якщо груша дозодить до 150+ секунд вмикати білу заливку
 if (alarm[0] > random_range(100,150)){
@@ -201,7 +208,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1050, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[0] = random_range(0,15)
+	
 	}
 	
 	if (keyboard_check_pressed(vk_up)){
@@ -209,7 +216,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1050, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[1] = random_range(0,15)
+	
 	}
 	
 	if (keyboard_check_pressed(vk_right)){
@@ -217,7 +224,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(1215, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[2] = random_range(0,15)
+	
 	}
 	
 	if (keyboard_check_pressed(vk_left)){
@@ -225,7 +232,7 @@ if (hits_grusha = true){
 	hits_grusha = false;
 	instance_create_depth(710, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
-	alarm[3] = random_range(0,15)
+	
 	}
 
 } else if (hits_grusha = false){
