@@ -146,12 +146,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_grusha_sml_down.idx = 0;
 	//hits_grusha = false;
 	instance_create_depth(1050, 940,-300,obj_score_ytopur);
+	//instance_create_depth(1050, 940,-300,obj_score_min_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//obj_score_min_ytopur.idxx = 1;
 	//alarm [7] = 10;
 
 	hits_grusha_down = false;
 	
-	} else if(keyboard_check_pressed(vk_down) and hits_grusha_down = false){
+	} else if(keyboard_check_pressed(vk_down) and hits_grusha_down = false and !instance_exists(obj_score_ytopur)){
 	obj_grusha_sml_down.idx = 0;
 	instance_create_depth(1050, 940,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
@@ -162,11 +164,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_grusha_sml_up.idx = 0;
 	//hits_grusha = false;
 	instance_create_depth(1050, 605,-300,obj_score_ytopur);
+	//instance_create_depth(1050, 605,-300,obj_score_min_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//obj_score_min_ytopur.idxx = 1;
 	//alarm [8] = 10;
 	hits_grusha_up = false;
 	
-	} else if(keyboard_check_pressed(vk_up) and hits_grusha_up = false){
+	} else if(keyboard_check_pressed(vk_up) and hits_grusha_up = false and !instance_exists(obj_score_ytopur)){
+
 	obj_grusha_sml_up.idx = 0;
 	instance_create_depth(1050, 605,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
@@ -178,11 +183,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_grusha_right.idx = 0;
 	//hits_grusha = false;
 	instance_create_depth(1215, 940,-300,obj_score_ytopur);
+	//instance_create_depth(1215, 750,-300,obj_score_min_ytopur);
 	obj_score_ytopur.idxx = 0;
+//	obj_score_min_ytopur.idxx = 1;
 	//alarm [9] = 10;
 	hits_grusha_right = false;
 	
-	} else if(keyboard_check_pressed(vk_right) and hits_grusha_right = false){
+	} else if(keyboard_check_pressed(vk_right) and hits_grusha_right = false and !instance_exists(obj_score_ytopur)){
+
 	obj_grusha_right.idx = 0;
 	instance_create_depth(1215, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
@@ -194,11 +202,14 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_grusha_left.idx = 0;
 	//hits_grusha = false;
 	instance_create_depth(710, 605,-300,obj_score_ytopur);
+	//instance_create_depth(710, 750,-300,obj_score_min_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//obj_score_min_ytopur.idxx = 1;
 	//alarm [10] = 10;
 	hits_grusha_left = false;
 	
-	}else if(keyboard_check_pressed(vk_left) and hits_grusha_left = false){
+	}else if(keyboard_check_pressed(vk_left) and hits_grusha_left = false and !instance_exists(obj_score_ytopur)){
+
 	obj_grusha_left.idx = 0;
 	instance_create_depth(710, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
