@@ -135,57 +135,22 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	}
 	}
 
-/*
-//якщо груша дозодить до 150+ секунд вмикати білу заливку
-if (alarm[0] > random_range(100,150)){
-obj_grusha_sml_up.idx = 1;
-hits_grusha = true;
-}
-if (alarm[1] > random_range(100,150)){
-obj_grusha_sml_down.idx = 1;
-hits_grusha = true;
-}
 
-if (alarm[2] > random_range(100,150)){
-obj_grusha_right.idx = 1;
-hits_grusha = true;
-}
-if (alarm[3] > random_range(100,150)){
-obj_grusha_left.idx = 1;
-hits_grusha = true;
-}
-//якщо груша дозодить до 200+ секунд, вимикати білу заливку
-if(alarm[0] > random_range(200,300)){
-	obj_grusha_sml_up.idx = 0;
-	alarm[0] = random_range(0,15)
-	hits_grusha = false;
-}
-if(alarm[1] > random_range(200,300)){
-	obj_grusha_sml_down.idx = 0;
-	alarm[1] = random_range(0,15)
-	hits_grusha = false;
-}
-
-if(alarm[2] > random_range(200,300)){
-	obj_grusha_right.idx = 0;
-	alarm[2] = random_range(0,15)
-	hits_grusha = false;
-}
-
-if(alarm[3] > random_range(200,300)){
-	obj_grusha_left.idx = 0;
-	alarm[3] = random_range(0,15)
-	hits_grusha = false;
-}
-*/
 //if (hits_grusha = true){
-
-	if (keyboard_check_pressed(vk_down) and hits_grusha_down = true){
+//alarm [7] -= 1;
+//alarm [8] -= 1;
+//alarm [9] -= 1;
+//alarm [10] -= 1;
+if (hits_grusha_up = true or hits_grusha_down = true or hits_grusha_left = true or hits_grusha_right = true){
+	if (keyboard_check_pressed(vk_down) and hits_grusha_down = true) {
 	obj_grusha_sml_down.idx = 0;
 	//hits_grusha = false;
 	instance_create_depth(1050, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//alarm [7] = 10;
+
 	hits_grusha_down = false;
+	
 	}
 	
 	if (keyboard_check_pressed(vk_up) and hits_grusha_up = true){
@@ -193,7 +158,9 @@ if(alarm[3] > random_range(200,300)){
 	//hits_grusha = false;
 	instance_create_depth(1050, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//alarm [8] = 10;
 	hits_grusha_up = false;
+	
 	}
 	
 	if (keyboard_check_pressed(vk_right) and hits_grusha_right = true){
@@ -201,7 +168,9 @@ if(alarm[3] > random_range(200,300)){
 	//hits_grusha = false;
 	instance_create_depth(1215, 940,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//alarm [9] = 10;
 	hits_grusha_right = false;
+	
 	}
 	
 	if (keyboard_check_pressed(vk_left) and hits_grusha_left = true){
@@ -209,34 +178,42 @@ if(alarm[3] > random_range(200,300)){
 	//hits_grusha = false;
 	instance_create_depth(710, 605,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
+	//alarm [10] = 10;
 	hits_grusha_left = false;
+	
 	}
-
-//} else if (hits_grusha = false){
+} if (hits_grusha_up = false or hits_grusha_down = false or hits_grusha_left = false or hits_grusha_right = false)
+{
 	if(keyboard_check_pressed(vk_down) and hits_grusha_down = false){
 	obj_grusha_sml_down.idx = 0;
 	instance_create_depth(1050, 940,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
+	//alarm [1] = 25;
 	}
 	
 	if(keyboard_check_pressed(vk_up) and hits_grusha_up = false){
 	obj_grusha_sml_up.idx = 0;
 	instance_create_depth(1050, 605,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
+	//alarm [1] = 25;
 	}
 	
 	if(keyboard_check_pressed(vk_right) and hits_grusha_right = false){
 	obj_grusha_right.idx = 0;
 	instance_create_depth(1215, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
+	//alarm [1] = 25;
 	}
 	
 	if(keyboard_check_pressed(vk_left) and hits_grusha_left = false){
 	obj_grusha_left.idx = 0;
 	instance_create_depth(710, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
+	//alarm [1] = 25;
 	}
+}
 //}
+
 
 
 
