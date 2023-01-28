@@ -1,6 +1,6 @@
 depth = -1;
 scale = 1;
-cell_size = 58;
+cell_size = 72;
 show_inventory = false;
 spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
@@ -11,28 +11,28 @@ count_slot_pos = 0;
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 
-inv_UI_w = 488;
-inv_UI_h = 700;
+inv_UI_w = 570;
+inv_UI_h = 813;
 
 inv_UI_y = (gui_H * 0.5) - (inv_UI_h * 0.5 * scale);
 
 ////////////Moving_Inventory
 
-inv_UI_x_closed = (gui_W * 1) - (inv_UI_w * 1 * scale) + 450;
-inv_UI_x_opened = (gui_W * 1) - (inv_UI_w * 1 * scale);
-inv_UI_x_closed_static = (gui_W * 1) - (inv_UI_w * 1 * scale) + 450;
-inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale);
+inv_UI_x_closed = (gui_W * 1) - (inv_UI_w * 1 * scale) + 550;
+inv_UI_x_opened = (gui_W * 1) - (inv_UI_w * 1 * scale)+50;
+inv_UI_x_closed_static = (gui_W * 1) - (inv_UI_w * 1 * scale) + 550;
+inv_UI_x_opened_static = (gui_W * 1) - (inv_UI_w * 1 * scale)+50;
 
-slots_x = inv_UI_x_closed_static + 30;
-slots_y = inv_UI_y + (105 * scale);
+slots_x = inv_UI_x_closed_static + 88;
+slots_y = inv_UI_y + (147 * scale);
 
-frame_x = inv_UI_x_closed_static + 72;
-frame_y = inv_UI_y + (105 * scale);
+frame_x = inv_UI_x_closed_static + 88;
+frame_y = inv_UI_y + (147 * scale);
 frame_ii = 0;
 
 //////////Info-Player
 
-info_money_y =  inv_UI_y + 42;
+info_money_y =  inv_UI_y + 75;
 
 #region
 //////////////column and rows(help im lost)
@@ -40,7 +40,7 @@ spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
 spr_inv_items_rows = sprite_get_height(spr_inv_items)/cell_size;
 
 ///////////Slots
-buffer_btw_slots = 12; //кількість пікселів між слотами
+buffer_btw_slots = 9; //кількість пікселів між слотами
 
 inv_slots = 10;
 inv_slots_w = 5;
