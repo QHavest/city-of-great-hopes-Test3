@@ -3,6 +3,7 @@ hits_grusha_up = false;
 hits_grusha_down = false;
 hits_grusha_left = false;
 hits_grusha_right = false;
+power_hit = 0;
 udaryv = false;
 //grushka = 0;
 //grush = irandom_range(0,2);

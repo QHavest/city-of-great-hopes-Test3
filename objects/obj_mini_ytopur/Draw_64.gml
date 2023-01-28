@@ -1,3 +1,5 @@
+var hits = power_hit;
+draw_text(0,30,hits);
 /*alarm[1] -= 1;
 alarm[3] -= 1; 
 alarm[4] -= 1; 
