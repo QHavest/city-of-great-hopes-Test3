@@ -1,0 +1,1 @@
+power_hit = 0;

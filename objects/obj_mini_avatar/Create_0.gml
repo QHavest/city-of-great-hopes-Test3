@@ -27,7 +27,7 @@ gui_W = display_get_gui_width();
 
 take_damage = false;
 
-	damage = 5;
+	//damage = 0;
 
 amount_hp = 279;
 //light_bi = 0;

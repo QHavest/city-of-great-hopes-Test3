@@ -1,9 +1,10 @@
 image_index = im;
 y += spd;
 if (place_meeting(x,y,obj_mini_avatar) and im=1){
+//obj_mini_avatar.damage = 5;
 instance_destroy();
-} 
-else if (place_meeting(x,y,obj_mini_avatar) and im=0){
+} else
+if (place_meeting(x,y,obj_mini_avatar) and im=0){
 global.MaxHp += 5;
 instance_destroy();
 }

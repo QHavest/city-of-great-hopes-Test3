@@ -118,6 +118,14 @@ switch(obj_Battle_Interface.enemies){
 	case ENEMY.Hopniki :
 	damage = 20;
 	break;
+	case ENEMY.Krus_mini :
+	/*if (place_meeting(x,y,obj_mini_krus) and obj_bottle_mini.im=1 or obj_kirpich_mini.im=1 or obj_palka_mini.im=1 or obj_rock_mini.im=1){
+	damage = 5;
+	}
+	if (place_meeting(x,y,obj_mini_krus) and obj_bottle_mini.im=0 or obj_kirpich_mini.im=0 or obj_palka_mini.im=0 or obj_rock_mini.im=0){
+	damage = 0;
+	}*/
+	break;
 }
 
  alarm[1] -= 1;
