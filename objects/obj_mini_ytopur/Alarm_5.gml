@@ -9,5 +9,5 @@ hits_grusha_left = false;
 hits_grusha_right = false;
 
 
-alarm[5] = 100;
+alarm[5] = 40;
 

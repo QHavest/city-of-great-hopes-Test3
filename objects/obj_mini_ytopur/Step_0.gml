@@ -13,7 +13,7 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	if (alarm [4] < 1){
 	grushka = irandom_range(0,3);
 	grush = irandom_range(0,2);
-	alarm [4] = 150;
+	alarm [4] = 60;
 	
 	switch(grushka){
 			case 0:
@@ -190,7 +190,10 @@ instance_create_depth(938.5,818,-300,obj_romb_down);
 	obj_score_min_ytopur.idxx = 0;
 	}
 
-	
+	if (power_hit < 1)
+	{
+		power_hit = 0;
+	}
 	
 	
 	
