@@ -1,2 +1,3 @@
 spd = 3;
-im = irandom_range(0,1);
+im = 0;
+//obj_mini_avatar.damage = 5;
