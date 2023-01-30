@@ -31,7 +31,7 @@ take_damage = false;
 
 amount_hp = 279;
 //light_bi = 0;
-
+power_hit = 0;
 ////Гопніки
 
 hsp = 15;

@@ -6,7 +6,7 @@ alarm[0] -= 1;
 
 if (alarm[0] < 1){
 	randomize();
-alarm[0] = random_range(30,120);
+alarm[0] = random_range(45,55);
 val = irandom_range(0,7);
 valx = random_range(550,1410);
 strax = 1570;
