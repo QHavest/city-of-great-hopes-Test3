@@ -126,6 +126,7 @@ if (ENEMY.Krus_mini){
 if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini)){
 	damage = 0;
 	power_hit += 3;
+
 	} else
 	if (place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4)){
 	damage = 5;

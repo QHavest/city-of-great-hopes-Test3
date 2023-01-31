@@ -16,7 +16,7 @@ Move[1,1]=true
 Move[1,2]=true
 Move[1,3]=true
 #endregion
-
+true_hit = false;
 index_avatar = 1;
 
 grv = 0.8;
