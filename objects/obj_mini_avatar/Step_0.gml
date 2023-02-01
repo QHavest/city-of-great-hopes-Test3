@@ -9,7 +9,7 @@ y += vInput * spd;
 
 spd += grv
 y += spd
-x++
+//x++
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Krus_mini){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);

@@ -27,6 +27,8 @@ switch(obj_Battle_Interface.enemies){
 		obj_background_mini.index_minigame_back = 0;
 		instance_activate_object(obj_shprutz_parent);
 		instance_activate_object(obj_mini_avatar);
+		obj_mini_avatar.x = 547.5;
+		obj_mini_avatar.y = 755;
 		instance_activate_object(wall);
 		obj_mini_avatar.index_avatar = 0;
 	break;
