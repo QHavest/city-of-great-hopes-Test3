@@ -41,6 +41,8 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
 				break;
 		}
+	}else{
+		audio_play_sound(snd_not_enough_money,5,0,global.System_gain);
 	}
 }
 
