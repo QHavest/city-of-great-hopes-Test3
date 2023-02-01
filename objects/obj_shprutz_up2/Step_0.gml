@@ -1,4 +1,5 @@
-/// @description Insert description here
+x = -2;
+/*/// @description Insert description here
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("C"))){ alarm[2] = 80; }
 
@@ -14,7 +15,7 @@ if(alarm[1] > 0){
 }
 
 if(alarm[1] < 2){
-	mp_linear_step(1056, /*569*/ 544, 3, false);
+	mp_linear_step(1056, /*569 544, 3, false);
 	alarm[2] += 1;
 }
 }

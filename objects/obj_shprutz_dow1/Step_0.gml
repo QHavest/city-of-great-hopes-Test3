@@ -1,4 +1,7 @@
 x -= 2;
+if(x < 280){
+instance_destroy();
+}
 
 
 

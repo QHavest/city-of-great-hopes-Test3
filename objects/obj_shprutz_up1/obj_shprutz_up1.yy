@@ -13,10 +13,7 @@
     "name": "Narkomany",
     "path": "folders/Battle_system/MiniGames/Narkomany.yy",
   },
-  "parentObjectId": {
-    "name": "obj_shprutz_parent",
-    "path": "objects/obj_shprutz_parent/obj_shprutz_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
