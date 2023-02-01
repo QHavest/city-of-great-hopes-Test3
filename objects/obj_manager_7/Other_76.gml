@@ -4,7 +4,13 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	scr_music_fon_change()
+	//scr_music_fon_change()
+	with(music_room)
+	{
+		audio_stop_sound(snd_center);
+		new_sound = noone;
+	}
+	audio_play_sound(snd_street, 1, 1);
 	volume = 0;
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
@@ -98,7 +104,30 @@ if event_data [? "event_type"] == "sequence event"
 	//}
 	break;
 	
+	//case "room_goto1":
+	////room_goto(rm_center);
+	////p1X = obj_dim_player1.x;
+	////p1Y = obj_dim_player1.y;
+	////p2X = obj_dim_player2.x;
+	////p2Y = obj_dim_player2.y;
+	//room_restart();
+	//break;
+	
+	//case "room_goto2":
+	//room_goto(rm_center_left);
+	//obj_dim_player1.x = p1X;
+	//obj_dim_player1.y = p1Y;
+	//obj_dim_player2.x = p2X;
+	//obj_dim_player2.y = p2Y;
+	//break;
+	
     case "delete":
+	audio_stop_sound(snd_street);
+	with(music_room)
+	{
+		new_sound = snd_center;
+		//audio_play_sound(snd_center, 1, 1);
+	}
 	//audio_stop_sound(snd_fountain);
 	//audio_stop_sound(snd_street);
 	obj_center_fontan.x = x1;
@@ -109,6 +138,8 @@ if event_data [? "event_type"] == "sequence event"
 	global.shop = false;
     layer_sequence_destroy(seq2);
 	scr_music_fon_change(room);
+	instance_destroy(obj_mandarun_sound);
+	room_restart();
     break;
   }
 }
