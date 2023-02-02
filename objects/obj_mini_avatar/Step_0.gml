@@ -118,8 +118,8 @@ switch(obj_Battle_Interface.enemies){
 	case ENEMY.Hopniki :
 	damage = 20;
 	break;
-	case ENEMY.Krus_mini :
-	
+	case ENEMY.Narkomany :
+	damage = 10;
 	break;
 }
 if (ENEMY.Krus_mini){
@@ -135,7 +135,7 @@ if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or
 }
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz) or place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini) or place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
+if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_shprutz_up1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz) or place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini) or place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){

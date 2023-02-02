@@ -22,7 +22,12 @@ switch(status){
  case	PLAYERSTATE.STAY     : scr_dim_playerstate_stay();			   break;
  } 
 
-
+if (obj_Battle_Interface.battle_start = true){
+walkspd = 0;
+move = false;
+} else if (obj_Battle_Interface.battle_start = false){
+	walkspd = 4;
+}
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){
 		posX[i] = posX[i-1];
