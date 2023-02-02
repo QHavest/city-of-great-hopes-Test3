@@ -19,6 +19,18 @@ if(keyboard_check_pressed(ord("C"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Narkomany
 	room_goto(Room61);
+		instance_deactivate_object(obj_dim_player1);
+		instance_deactivate_object(obj_dim_player2);
+		instance_deactivate_object(obj_mini_avatar);
+		instance_deactivate_object(obj_sssr);
+		instance_deactivate_object(obj_shprutz_parent);
+		instance_deactivate_object(obj_sects);
+		instance_deactivate_object(wall);
+		instance_deactivate_object(obj_wall_sect);
+		instance_deactivate_object(obj_mini_ytopur);
+		instance_deactivate_object(obj_mini_krus);
+		instance_deactivate_object(obj_hopnik);
+	mini_game = true;
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 
@@ -54,7 +66,7 @@ if(keyboard_check_pressed(ord("K"))){
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
 if (!battle_start) exit;
-if (battle_start = true and mini_game = false){
+/*if (battle_start = true){
 		instance_deactivate_object(obj_dim_player1);
 		instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
@@ -105,6 +117,11 @@ if (mini_game == true){
 	dialogue_was = false;
 	}
 }
+
+if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
+	
+	instance_create_depth(490,570,-600,obj_screen_gamestart)
+	}
 
 if(alarm[2] > 150) exit;
 

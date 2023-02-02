@@ -1,4 +1,4 @@
-x -= 2;
+x -= 4;
 /*/// @description Insert description here
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("C"))){ alarm[2] = 80; }

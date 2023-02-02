@@ -1,4 +1,4 @@
-x = -2;
+x = -4;
 if(x < 280){
 instance_destroy();
 }
