@@ -55,19 +55,8 @@ if(keyboard_check_pressed(ord("K"))){
 {room_goto(rm_south);}
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
-		instance_deactivate_object(obj_dim_player1);
-		instance_deactivate_object(obj_dim_player2);
-		instance_deactivate_object(obj_mini_avatar);
-		instance_deactivate_object(obj_sssr);
-		//instance_deactivate_object(obj_background_mini);
-		instance_deactivate_object(obj_shprutz_parent);
-		instance_deactivate_object(obj_sects);
-		instance_deactivate_object(wall);
-		instance_deactivate_object(obj_wall_sect);
-		instance_deactivate_object(obj_mini_ytopur);
-		instance_deactivate_object(obj_mini_krus);
-		instance_deactivate_object(obj_hopnik);
-		
+		mini_game = true;
+	
 		}else if (battle_start = false and mini_game = false){
 			instance_activate_object(obj_dim_player1);
 			instance_activate_object(obj_dim_player2);
@@ -94,18 +83,42 @@ if(battle_turn_down = true and alarm[2] < 1){
 if(alarm[1] < 1){
 	light_bi = 0;
 	}
-
-
+if (mini_game = true and games = false){
+		instance_deactivate_object(obj_dim_player1);
+		instance_deactivate_object(obj_dim_player2);
+		instance_deactivate_object(obj_mini_avatar);
+		instance_deactivate_object(obj_sssr);
+		//instance_deactivate_object(obj_background_mini);
+		instance_deactivate_object(obj_shprutz_parent);
+		instance_deactivate_object(obj_sects);
+		instance_deactivate_object(wall);
+		instance_deactivate_object(obj_wall_sect);
+		instance_deactivate_object(obj_mini_ytopur);
+		instance_deactivate_object(obj_mini_krus);
+		instance_deactivate_object(obj_hopnik);
+}
 //mini-game
 if (mini_game == true){
 	BDialogue = false;	
+	
 	for(i = 1; i < 5; i++){
 	button[i] = "D";
 	butt_invis = 0.5;
 	dialogue_was = false;
 	}
-}
+	
+} else if (mini_game == false){
+	BDialogue = true;	
+	for(i = 1; i < 5; i++){
+	butt_invis = 1;
+	}
+	button[1] = "L";
 
+}
+if (mini_game = true and games = false and battle_start = true and enemies = ENEMY.Narkomany and keyboard_check_released(ord("W"))){
+			games = true;
+			instance_create_depth(490,570,-600,obj_screen_gamestart)
+		}
 if(alarm[2] > 150) exit;
 
 //button
