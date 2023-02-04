@@ -579,6 +579,7 @@
     {"id":{"name":"spr_bicycle1","path":"sprites/spr_bicycle1/spr_bicycle1.yy",},"order":19,},
     {"id":{"name":"sp_dyvan_zhytomyr","path":"sprites/sp_dyvan_zhytomyr/sp_dyvan_zhytomyr.yy",},"order":1,},
     {"id":{"name":"sp_platynovui_certificat","path":"sprites/sp_platynovui_certificat/sp_platynovui_certificat.yy",},"order":14,},
+    {"id":{"name":"snd_lose_XP","path":"sounds/snd_lose_XP/snd_lose_XP.yy",},"order":0,},
     {"id":{"name":"spr_hastronom_north","path":"sprites/spr_hastronom_north/spr_hastronom_north.yy",},"order":8,},
     {"id":{"name":"spr_dumb_fish","path":"sprites/spr_dumb_fish/spr_dumb_fish.yy",},"order":11,},
     {"id":{"name":"spr_plant","path":"sprites/spr_plant/spr_plant.yy",},"order":4,},

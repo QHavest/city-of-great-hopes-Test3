@@ -119,7 +119,7 @@ switch(obj_Battle_Interface.enemies){
 	damage = 20;
 	break;
 	case ENEMY.Narkomany :
-	damage = 10;
+	damage = 25;
 	break;
 }
 if (ENEMY.Krus_mini){
@@ -142,6 +142,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	take_damage = true;
 	if (take_damage = true){
 	obj_Battle_Interface.hpYtopyrok -= damage;
+	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
 	}
 	if (alarm[4] < 1){
@@ -153,6 +154,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
 	obj_Battle_Interface.hpKrys -= damage;
+	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
 	take_damage = true;
 	if (alarm[4] < 1){
@@ -165,6 +167,8 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	//obj_Battle_Interface.battle_start = false;
 //	obj_Battle_Interface.mini_game = false;
 } else if (global.MaxHp = 0){
+	
+	audio_play_sound(snd_defeat_sound,5,false);
 	instance_create_depth(490,570,-600,obj_gameover);
 }
 
