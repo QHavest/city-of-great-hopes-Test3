@@ -32,7 +32,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_babka_4",
     "path": "sprites/spr_babka_4/spr_babka_4.yy",

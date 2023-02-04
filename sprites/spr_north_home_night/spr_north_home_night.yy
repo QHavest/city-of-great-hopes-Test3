@@ -13,7 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d136ec3-b8d4-4a5f-9096-02005d85121e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0e8b276-4a9a-4e22-a699-76f87f092194",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3d136ec3-b8d4-4a5f-9096-02005d85121e","path":"sprites/spr_north_home_night/spr_north_home_night.yy",},},},"Disabled":false,"id":"ad160402-336d-46f7-b7f3-8685dbd3e1dc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c0e8b276-4a9a-4e22-a699-76f87f092194","path":"sprites/spr_north_home_night/spr_north_home_night.yy",},},},"Disabled":false,"id":"dbda6795-02fb-4fba-9dab-843354fe4535","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

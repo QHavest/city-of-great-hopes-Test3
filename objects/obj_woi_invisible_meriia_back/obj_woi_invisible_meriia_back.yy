@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_woi_invisible_meriia_back",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -19,7 +17,7 @@
   "physicsGroup": 1,
   "physicsKinematic": false,
   "physicsLinearDamping": 0.1,
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,

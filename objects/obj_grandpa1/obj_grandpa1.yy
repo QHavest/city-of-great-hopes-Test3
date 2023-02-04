@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_Spurodon",
     "path": "sprites/spr_Spurodon/spr_Spurodon.yy",

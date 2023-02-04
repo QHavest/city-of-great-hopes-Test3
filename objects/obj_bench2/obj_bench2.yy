@@ -9,7 +9,10 @@
     "name": "South",
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -24,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_bench_2",
     "path": "sprites/spr_bench_2/spr_bench_2.yy",

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_shopping_list",
-  "bbox_bottom": 331,
-  "bbox_left": 6,
-  "bbox_right": 573,
-  "bbox_top": 20,
+  "bbox_bottom": 421,
+  "bbox_left": 4,
+  "bbox_right": 719,
+  "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d66736e-9e8d-45d9-b6fa-ee58719129d8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"679fb79d-1b15-4027-8647-53c7e5cd64af",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 348,
+  "height": 536,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5aba397f-f596-43e4-8b24-15be9fad39bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dcd660aa-9ffd-4eb0-85d4-7a80d4b4bd93","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d66736e-9e8d-45d9-b6fa-ee58719129d8","path":"sprites/spr_shopping_list/spr_shopping_list.yy",},},},"Disabled":false,"id":"e06dd6f8-0058-481d-addf-f1f611e4a9c1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"679fb79d-1b15-4027-8647-53c7e5cd64af","path":"sprites/spr_shopping_list/spr_shopping_list.yy",},},},"Disabled":false,"id":"46128c46-ddd0-4054-8d0b-6f26ec372dee","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 580,
+  "width": 720,
 }

@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_babka_1",
-  "bbox_bottom": 42,
+  "bbox_bottom": 46,
   "bbox_left": 0,
   "bbox_right": 22,
   "bbox_top": 31,

@@ -7,7 +7,7 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	}
 }
 
-if(shopOpen){
+if(shopOpen and global.shop){
 
 	//To right
 	if(keyboard_check_pressed(ord("D")) ||  keyboard_check_pressed(vk_right)){
@@ -39,8 +39,11 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
+				audio_play_sound(snd_sound_buy,5,0,global.System_gain)
 				break;
 		}
+	}else{
+		audio_play_sound(snd_not_enough_money,5,0,global.System_gain);
 	}
 }
 if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){

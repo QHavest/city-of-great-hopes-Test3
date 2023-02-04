@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_Petrovuch",
     "path": "sprites/spr_Petrovuch/spr_Petrovuch.yy",

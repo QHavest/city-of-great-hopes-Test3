@@ -4,7 +4,7 @@
   "name": "spr_school_night",
   "bbox_bottom": 299,
   "bbox_left": 0,
-  "bbox_right": 1723,
+  "bbox_right": 1799,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,7 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29e47b7d-8d0d-4753-a246-c1dfd2ca6f54",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f4fcde9-6ba8-488b-ad77-b1d2e90b0b1a",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -54,12 +54,12 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"29e47b7d-8d0d-4753-a246-c1dfd2ca6f54","path":"sprites/spr_school_night/spr_school_night.yy",},},},"Disabled":false,"id":"50353867-cb9b-4800-9202-0adbad2ec697","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f4fcde9-6ba8-488b-ad77-b1d2e90b0b1a","path":"sprites/spr_school_night/spr_school_night.yy",},},},"Disabled":false,"id":"a16e43b8-97f6-498b-89b8-d70fd8277870","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 862,
+    "xorigin": 900,
     "yorigin": 150,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1724,
+  "width": 1800,
 }

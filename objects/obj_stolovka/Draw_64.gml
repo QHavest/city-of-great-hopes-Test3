@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!shopOpen) exit;
+if (!shopOpen or !global.shop) exit;
 
 for (var i=0; i<itemCount01; i++){
 	var arr = items_stolovka01[| i]; 
@@ -34,7 +34,4 @@ var price = arr[1];
 var spr = asset_get_index("sp_" + item);
 
 draw_sprite(spr, 0, guiW/4, guiH/4);
-
-//Стрілочки і назва
-draw_sprite_ext(sp_name_stolovka, 0, guiW/2, guiH/6, 2, 2, 0, c_white, 1)
 
