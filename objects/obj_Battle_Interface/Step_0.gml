@@ -3,6 +3,7 @@
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Kavkazci
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	if (room != Room61) room_goto(Room61);
 
 }
@@ -27,6 +28,7 @@ if(keyboard_check_pressed(ord("C"))){
 if(keyboard_check_pressed(ord("P"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Sectants
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
@@ -34,6 +36,7 @@ if(keyboard_check_pressed(ord("O"))){
 	battle_start = !battle_start;
 	//mini_game = true;
 	enemies = ENEMY.Hopniki
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
@@ -45,6 +48,7 @@ if(mini_game = true){
 if(keyboard_check_pressed(ord("L"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Ytopurok_mini
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
@@ -52,6 +56,7 @@ if(keyboard_check_pressed(ord("L"))){
 if(keyboard_check_pressed(ord("K"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Krus_mini
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
