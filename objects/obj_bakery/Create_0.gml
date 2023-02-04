@@ -27,7 +27,7 @@ ds_list_add(items_bakery01, ["syrna_bulka01", "baton01"]);
 }
 
 if(global.LANGUAGE = "eng"){
-	items_bakery = ds_list_create();
+items_bakery = ds_list_create();
 ds_list_add(items_bakery, ["baton_eng", 0.25, 1]);
 ds_list_add(items_bakery, ["bulka_z_povidlom_eng", 0.50, 2]);
 ds_list_add(items_bakery, ["cukerochky_eng", 0.30, 3]);
@@ -46,8 +46,8 @@ ds_list_add(items_bakery01, ["keksiki_eng01", "syrna_bulka_eng01"]);
 ds_list_add(items_bakery01, ["ponchiki_eng01","zavarna_bulka_eng01"]);
 ds_list_add(items_bakery01, ["syrna_bulka_eng01", "baton01"]);
 }
-itemCount = ds_list_size(items_bakery)
-itemCount01 = ds_list_size(items_bakery01)
+itemCount = ds_list_size(items_bakery);
+itemCount01 = ds_list_size(items_bakery01);
 
 guiW = display_get_gui_width();
 guiH = display_get_gui_height();

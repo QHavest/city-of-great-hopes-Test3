@@ -30,9 +30,6 @@ frame_x = inv_UI_x_closed_static + 88;
 frame_y = inv_UI_y + (147 * scale);
 frame_ii = 0;
 
-//////////Info-Player
-
-info_money_y =  inv_UI_y + 75;
 
 #region
 //////////////column and rows(help im lost)
@@ -108,6 +105,7 @@ enum item{
 }
 	
 global.ds_inventory[# 0, 1] = 1;
+global.ds_inventory[# 0, 2] = 39;
 global.ds_inventory[# 0, 9] = 2;
 
 #endregion

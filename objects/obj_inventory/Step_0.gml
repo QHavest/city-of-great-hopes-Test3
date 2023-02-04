@@ -66,9 +66,11 @@ if(keyboard_check_pressed(vk_left) && alarm[0] < 0){
 		}
 if(keyboard_check_pressed(vk_enter))
 {
+	if(global.ds_inventory[# 0, count_slot_pos] < 38){
 	global.ds_inventory[# 0, count_slot_pos] = 0;
 	audio_play_sound(snd_op_accept,5,0,global.System_gain)
 	show_debug_message("sound_scam");
+	}
 }
 
 
