@@ -263,6 +263,7 @@
     {"name":"Weather","order":25,"path":"folders/Sprites/Weather.yy",},
     {"name":"Ytopurok","order":3,"path":"folders/Sprites/Ytopurok.yy",},
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
+    {"name":"Sound","order":21,"path":"folders/Battle_system/Sound.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},

@@ -290,6 +290,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ytopurok","folderPath":"folders/Sprites/Ytopurok.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Battle_system/Sound.yy","order":0,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"savedata_eng.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -740,6 +741,7 @@
     {"id":{"name":"spr_savings_eng_d","path":"sprites/spr_savings_eng_d/spr_savings_eng_d.yy",},"order":21,},
     {"id":{"name":"obj_manager_6","path":"objects/obj_manager_6/obj_manager_6.yy",},"order":2,},
     {"id":{"name":"obj_day_and_night","path":"objects/obj_day_and_night/obj_day_and_night.yy",},"order":5,},
+    {"id":{"name":"snd_battle_music","path":"sounds/snd_battle_music/snd_battle_music.yy",},"order":0,},
     {"id":{"name":"seq_scena_7","path":"sequences/seq_scena_7/seq_scena_7.yy",},"order":0,},
     {"id":{"name":"obj_closed_containers","path":"objects/obj_closed_containers/obj_closed_containers.yy",},"order":3,},
     {"id":{"name":"obj_hopnik","path":"objects/obj_hopnik/obj_hopnik.yy",},"order":22,},

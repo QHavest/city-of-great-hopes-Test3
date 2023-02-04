@@ -9,7 +9,7 @@ H=0;
 games = false;
 answer = 1;
 dialogue_was = false;
-
+dor_sound = noone;
 mini_game = false; //міні-гра не активна
 butt_invis = 1; //видимість кнопок
 BDialogue = false; //діалог
