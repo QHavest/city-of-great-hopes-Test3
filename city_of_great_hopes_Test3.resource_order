@@ -1187,6 +1187,7 @@
     {"name":"obj_culture_column_2","order":7,"path":"objects/obj_culture_column_2/obj_culture_column_2.yy",},
     {"name":"obj_dumbbells4","order":5,"path":"objects/obj_dumbbells4/obj_dumbbells4.yy",},
     {"name":"main_menu_font","order":7,"path":"fonts/main_menu_font/main_menu_font.yy",},
+    {"name":"snd_defeat_sound","order":1,"path":"sounds/snd_defeat_sound/snd_defeat_sound.yy",},
     {"name":"spr_music_eng_d","order":2,"path":"sprites/spr_music_eng_d/spr_music_eng_d.yy",},
     {"name":"obj_settings_button","order":8,"path":"objects/obj_settings_button/obj_settings_button.yy",},
     {"name":"obj_turtle","order":8,"path":"objects/obj_turtle/obj_turtle.yy",},

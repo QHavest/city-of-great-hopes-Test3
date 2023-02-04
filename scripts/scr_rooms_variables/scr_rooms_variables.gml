@@ -483,8 +483,8 @@ case Room61:
 	switch(name)
 	{	
 	case 1: return snd_battle_music  break
-	case 2: return 0 break
-	case 3: return 1 break
+	case 2: return 3 break
+	case 3: return 0 break
 	case 4: break
 	}
 break
