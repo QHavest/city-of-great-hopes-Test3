@@ -119,7 +119,7 @@ switch(obj_Battle_Interface.enemies){
 	damage = 20;
 	break;
 	case ENEMY.Narkomany :
-	damage = 25;
+	damage = 10;
 	break;
 }
 if (ENEMY.Krus_mini){
@@ -162,6 +162,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	}
 	alarm[4]=40;
 	}
+	
 	take_damage = false;
 	//Вставлено з обєкта маргарити
 	//obj_Battle_Interface.battle_start = false;
@@ -170,8 +171,11 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	
 	audio_play_sound(snd_defeat_sound,5,false);
 	instance_create_depth(490,570,-600,obj_gameover);
+	global.MaxHp = 100;
 }
-
+if (take_damage = true){
+	
+	}
 
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;

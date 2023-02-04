@@ -1726,6 +1726,7 @@
     {"name":"spr_press_re","order":14,"path":"sprites/spr_press_re/spr_press_re.yy",},
     {"name":"obj_babka_milk_2","order":10,"path":"objects/obj_babka_milk_2/obj_babka_milk_2.yy",},
     {"name":"spr_leleka","order":3,"path":"sprites/spr_leleka/spr_leleka.yy",},
+    {"name":"snd_victory_sound","order":3,"path":"sounds/snd_victory_sound/snd_victory_sound.yy",},
     {"name":"spr_glass_aquarium","order":26,"path":"sprites/spr_glass_aquarium/spr_glass_aquarium.yy",},
     {"name":"seq_scena_8_slowed","order":5,"path":"sequences/seq_scena_8_slowed/seq_scena_8_slowed.yy",},
     {"name":"spr_Petrovuch","order":18,"path":"sprites/spr_Petrovuch/spr_Petrovuch.yy",},

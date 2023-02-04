@@ -18,8 +18,8 @@ if(keyboard_check_pressed(ord("B"))){
 if(keyboard_check_pressed(ord("C"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Narkomany
-	scr_music_fon_change(Room61);
-	audio_play_sound(dor_sound,5,0,global.player_gain);
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
+	//audio_play_sound(dor_sound,5,0,global.player_gain);
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
 {room_goto(rm_south);}
@@ -117,7 +117,7 @@ if (mini_game == true){
 	button[1] = "L";
 
 }
-if (mini_game = true and games = false and battle_start = true and enemies = ENEMY.Narkomany and keyboard_check_released(ord("W"))){
+if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W")) or keyboard_check_released(vk_enter)){
 			games = true;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
