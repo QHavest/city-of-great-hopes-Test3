@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_defeat_sound.wav",
   "type": 0,
-  "volume": 0.2,
+  "volume": 0.63,
 }
