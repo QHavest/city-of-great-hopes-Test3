@@ -23,12 +23,12 @@ case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
  } 
 
 
-if (obj_Battle_Interface.battle_start = true){
+/*if (obj_Battle_Interface.battle_start = true){
 walkspd = 0;
 move = false;
 } else if (obj_Battle_Interface.battle_start = false) {
 	walkspd = 4;
-}
+}*/
 
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){

@@ -1,6 +1,6 @@
 SkipRoomSave = false
 
-saveTime = 5; // автозбереження раз в 5 хвилин
+saveTime = 1; // автозбереження раз в 5 хвилин
 
 saveHour = 0;
 saveMin = 0;
