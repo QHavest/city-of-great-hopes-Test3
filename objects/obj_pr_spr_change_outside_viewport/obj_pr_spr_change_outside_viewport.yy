@@ -30,7 +30,12 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_Klinch","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_babka_3","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr3","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_kav_3","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr4","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_child_1","varType":4,},
+  ],
   "solid": true,
   "spriteId": null,
   "spriteMaskId": null,

@@ -267,6 +267,7 @@
     {"name":"NPC","order":4,"path":"folders/Sprites/Bazar/Day/NPC.yy",},
     {"name":"woman","order":48,"path":"folders/Sprites/Bazar/Day/NPC/woman.yy",},
     {"name":"man","order":49,"path":"folders/Sprites/Bazar/Day/NPC/man.yy",},
+    {"name":"NPC","order":5,"path":"folders/Objects/Bazar/NPC.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},
@@ -367,6 +368,7 @@
     {"name":"obj_zabor_sport2","order":6,"path":"objects/obj_zabor_sport2/obj_zabor_sport2.yy",},
     {"name":"sp_left_click","order":3,"path":"sprites/sp_left_click/sp_left_click.yy",},
     {"name":"obj_lamp_home1","order":8,"path":"objects/obj_lamp_home1/obj_lamp_home1.yy",},
+    {"name":"obj_pr_AI","order":2,"path":"objects/obj_pr_AI/obj_pr_AI.yy",},
     {"name":"obj_lamp_night_container","order":3,"path":"objects/obj_lamp_night_container/obj_lamp_night_container.yy",},
     {"name":"sp_name_kiosk","order":10,"path":"sprites/sp_name_kiosk/sp_name_kiosk.yy",},
     {"name":"spr_table_b_bibli","order":5,"path":"sprites/spr_table_b_bibli/spr_table_b_bibli.yy",},
@@ -644,6 +646,7 @@
     {"name":"sp_oseledec_eng01","order":6,"path":"sprites/sp_oseledec_eng01/sp_oseledec_eng01.yy",},
     {"name":"obj_waiter","order":13,"path":"objects/obj_waiter/obj_waiter.yy",},
     {"name":"sp_kovbasa_eng","order":3,"path":"sprites/sp_kovbasa_eng/sp_kovbasa_eng.yy",},
+    {"name":"obj_pr_NPC","order":3,"path":"objects/obj_pr_NPC/obj_pr_NPC.yy",},
     {"name":"spr_turtle_stay_hide","order":20,"path":"sprites/spr_turtle_stay_hide/spr_turtle_stay_hide.yy",},
     {"name":"spr_gop_4","order":3,"path":"sprites/spr_gop_4/spr_gop_4.yy",},
     {"name":"obj_child_4","order":14,"path":"objects/obj_child_4/obj_child_4.yy",},

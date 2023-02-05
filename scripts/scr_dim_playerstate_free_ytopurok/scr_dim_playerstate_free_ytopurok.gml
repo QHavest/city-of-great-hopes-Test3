@@ -77,23 +77,17 @@ if (x<xprevious){
 if (y!=yprevious && lastmove==0 && x==xprevious) 
 {
 		sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
-		//if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
-		//if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	
 }
 
 if (y!=yprevious && lastmove==1 && x==xprevious)
 {
 	sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
-	//if !audio_is_playing(s_walk) audio_play_sound(s_walk,global.player_gain,0);
-	//if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+
 }
 
 // без руху
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
-//if (x==xprevious && y==yprevious && audio_is_playing(s_walk)) audio_stop_sound(s_walk);
-//if (x==xprevious && y==yprevious && audio_is_playing(snd_run)) audio_stop_sound(snd_run);
-// відповідність глибини до вертикальної кординати
-//depth = -y;
 
 }
