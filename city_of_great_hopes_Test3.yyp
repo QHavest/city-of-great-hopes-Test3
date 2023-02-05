@@ -877,6 +877,7 @@
     {"id":{"name":"rm_pong","path":"rooms/rm_pong/rm_pong.yy",},"order":7,},
     {"id":{"name":"spr_ic_Seller_2","path":"sprites/spr_ic_Seller_2/spr_ic_Seller_2.yy",},"order":1,},
     {"id":{"name":"spr_GameOver","path":"sprites/spr_GameOver/spr_GameOver.yy",},"order":0,},
+    {"id":{"name":"snd_klik_8","path":"sounds/snd_klik_8/snd_klik_8.yy",},"order":0,},
     {"id":{"name":"sp_kovbasa_eng01","path":"sprites/sp_kovbasa_eng01/sp_kovbasa_eng01.yy",},"order":1,},
     {"id":{"name":"spr_palka_mini_3","path":"sprites/spr_palka_mini_3/spr_palka_mini_3.yy",},"order":11,},
     {"id":{"name":"spr_main_menu_eng_d","path":"sprites/spr_main_menu_eng_d/spr_main_menu_eng_d.yy",},"order":19,},

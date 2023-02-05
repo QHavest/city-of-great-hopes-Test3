@@ -756,6 +756,7 @@
     {"name":"spr_larusa_look","order":4,"path":"sprites/spr_larusa_look/spr_larusa_look.yy",},
     {"name":"rm_pong","order":7,"path":"rooms/rm_pong/rm_pong.yy",},
     {"name":"spr_ic_Seller_2","order":1,"path":"sprites/spr_ic_Seller_2/spr_ic_Seller_2.yy",},
+    {"name":"snd_klik_8","order":10,"path":"sounds/snd_klik_8/snd_klik_8.yy",},
     {"name":"sp_kovbasa_eng01","order":1,"path":"sprites/sp_kovbasa_eng01/sp_kovbasa_eng01.yy",},
     {"name":"spr_palka_mini_3","order":11,"path":"sprites/spr_palka_mini_3/spr_palka_mini_3.yy",},
     {"name":"spr_main_menu_eng_d","order":19,"path":"sprites/spr_main_menu_eng_d/spr_main_menu_eng_d.yy",},
