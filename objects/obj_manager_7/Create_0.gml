@@ -1,4 +1,4 @@
 pause = false;
 //a = 0;
-sound_fountain = false;
+//sound_fountain = false;
 //volume;

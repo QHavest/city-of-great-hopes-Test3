@@ -1,8 +1,6 @@
 //if(!global.pause) exit;
 //global.pause = false;
 
-show_debug_message("Menu create open");
-
 view_widths = /*camera_get_view_width(view_camera[0])*/ room_width/2;
 view_heights = /*camera_get_view_height(view_camera[0])*/room_height/2;
 //global.key_revert =  keyboard_check_pressed(ord("X"));

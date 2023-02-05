@@ -416,6 +416,7 @@
     {"name":"spr_police","order":1,"path":"sprites/spr_police/spr_police.yy",},
     {"name":"spr_rez1_d","order":6,"path":"sprites/spr_rez1_d/spr_rez1_d.yy",},
     {"name":"new_game","order":21,"path":"scripts/new_game/new_game.yy",},
+    {"name":"obj_mandarun_sound","order":5,"path":"objects/obj_mandarun_sound/obj_mandarun_sound.yy",},
     {"name":"spr_plant_pol","order":26,"path":"sprites/spr_plant_pol/spr_plant_pol.yy",},
     {"name":"spr_hanger_gg","order":2,"path":"sprites/spr_hanger_gg/spr_hanger_gg.yy",},
     {"name":"obj_black_market","order":4,"path":"objects/obj_black_market/obj_black_market.yy",},

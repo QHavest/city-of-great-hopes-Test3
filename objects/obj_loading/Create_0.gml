@@ -1,4 +1,14 @@
-SkipRoomSave = false;
+SkipRoomSave = false
+
+saveTime = 5; // автозбереження раз в 5 хвилин
+
+saveHour = 0;
+saveMin = 0;
+saveDay = 0;
+saveMonth = 0;
+hours2 = 0;
+minutes2 = 0;
+sekonds2 = 0;
 
 //місце для збережння статусу (здоров'я і т.д)
 global.statData =
@@ -7,8 +17,8 @@ global.statData =
 	save_x : 0,
 	save_y : 0,
 	save_rm : "rm_steet_first_side",
-	
-	money : 0
+	save_inv : 0,
+	money : 0,
 }
 
 global.levelData =
@@ -73,5 +83,9 @@ global.levelData =
 	room_57: 0,
 	room_58: 0,
 }
+
+alarm[0] = 25 * 60;
+
+_saveInv = 1;
 
 
