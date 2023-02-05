@@ -53,6 +53,7 @@ if room = rm_bibliotheka {global.levelData.rm_bibliotheka	= _roomStruct;};
 if room = rm_hastronom_tukh {global.levelData.rm_hastronom_tukh = _roomStruct;};
 if room = rm_north {global.levelData.rm_north	= _roomStruct;};
 if room = rm_school {global.levelData.rm_school	= _roomStruct;};
+if room = Room61 {global.levelData.Room61	= _roomStruct;};
 #endregion 2
 }
 
@@ -110,6 +111,7 @@ if room = rm_bibliotheka {global.levelData.rm_bibliotheka	= _roomStruct;};
 if room = rm_hastronom_tukh {global.levelData.rm_hastronom_tukh = _roomStruct;};
 if room = rm_north {global.levelData.rm_north	= _roomStruct;};
 if room = rm_school {global.levelData.rm_school	= _roomStruct;};
+if room = Room61 {global.levelData.Room61	= _roomStruct;};
 #endregion 1
 
 //Вихід, якщо структура не структура

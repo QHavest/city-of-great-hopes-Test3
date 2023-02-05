@@ -19,7 +19,7 @@ if(keyboard_check_pressed(ord("B"))){
 if(keyboard_check_pressed(ord("C"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Narkomany
-	//scr_music_fon_change(Room61); //Музика фонова в бойовій системі
+	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	audio_play_sound(dor_sound,5,0,global.player_gain);
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
@@ -91,8 +91,8 @@ if(alarm[1] < 1){
 	light_bi = 0;
 	}
 if (mini_game = true and games = false){
-		instance_deactivate_object(obj_dim_player1);
-		instance_deactivate_object(obj_dim_player2);
+		//instance_deactivate_object(obj_dim_player1);
+		//instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
 		instance_deactivate_object(obj_sssr);
 		//instance_deactivate_object(obj_background_mini);
