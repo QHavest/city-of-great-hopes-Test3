@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pr_NPC",
+  "name": "obj_man_5",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Parrents",
-    "path": "folders/Objects/Parrents.yy",
+    "name": "NPC",
+    "path": "folders/Objects/Bazar/NPC.yy",
   },
   "parentObjectId": {
-    "name": "obj_pr_AI",
-    "path": "objects/obj_pr_AI/obj_pr_AI.yy",
+    "name": "obj_pr_NPC_mov",
+    "path": "objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +29,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "spr_man_5_back",
+    "path": "sprites/spr_man_5_back/spr_man_5_back.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

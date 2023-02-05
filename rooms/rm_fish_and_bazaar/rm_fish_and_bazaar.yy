@@ -64,11 +64,17 @@
     {"name":"inst_1DA6B577","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_45E8BECD","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_1C38761E","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
+    {"name":"inst_136237C5","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_animations","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61FE9525","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_goluby_bazar","path":"objects/obj_goluby_bazar/obj_goluby_bazar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1284.0,"y":152.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_136237C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_man_8","path":"objects/obj_man_8/obj_man_8.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pr_NPC_mov","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"propertyId":{"name":"spd","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"value":"2",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pr_NPC_mov","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"propertyId":{"name":"max_t","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"value":"5",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pr_NPC_mov","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"propertyId":{"name":"min_t","path":"objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",},"value":"4",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2015.0,"y":295.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Cutscenes2","assets":[],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Cutscenes","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

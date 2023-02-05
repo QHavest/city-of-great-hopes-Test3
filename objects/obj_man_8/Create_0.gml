@@ -1,0 +1,11 @@
+// 
+alarm[1]=1;
+hsp=0;
+vsp=0;
+lastmove=0;
+
+spr_move_r = spr_man_8_walk_R
+spr_move_l = spr_man_8_walk_L
+spr_r = spr_man_8_R
+spr_l = spr_man_8_L
+spr_back = spr_man_8_back

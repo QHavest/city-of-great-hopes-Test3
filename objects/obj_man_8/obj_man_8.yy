@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_man_1",
+  "name": "obj_man_8",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_man_1_back",
-    "path": "sprites/spr_man_1_back/spr_man_1_back.yy",
+    "name": "spr_man_8_back",
+    "path": "sprites/spr_man_8_back/spr_man_8_back.yy",
   },
   "spriteMaskId": null,
   "visible": true,
