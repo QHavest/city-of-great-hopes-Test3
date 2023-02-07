@@ -96,7 +96,7 @@ if (mini_game = true and games = false){
 		instance_deactivate_object(obj_mini_avatar);
 		instance_deactivate_object(obj_sssr);
 		//instance_deactivate_object(obj_background_mini);
-		instance_deactivate_object(obj_shprutz_parent);
+		//instance_deactivate_object(obj_shprutz_parent);
 		instance_deactivate_object(obj_sects);
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
@@ -190,7 +190,7 @@ if(system = 1) {
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
-	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+	if(button[1] = "L" and (keyboard_check_released(vk_enter) or keyboard_check_released(ord("E")))){
 		mini_game = true;
 		instance_destroy(obj_wait);
 		//instance_activate_object(obj_background_mini);
@@ -277,7 +277,7 @@ if(system = 2) {
 ///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
 
 if(BDialogue = true){
-	instance_destroy(obj_wait);
+
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down) and alarm[2] < 1){
 		button_c++;
 		varcol[button_c-1] = c_gray;
