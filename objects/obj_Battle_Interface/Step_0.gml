@@ -62,7 +62,7 @@ if(keyboard_check_pressed(ord("K"))){
 {room_goto(rm_south);}
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
-		mini_game = true;
+		//mini_game = true;
 	
 		}else if (battle_start = false and mini_game = false){
 			instance_activate_object(obj_dim_player1);
@@ -114,14 +114,11 @@ if (mini_game == true){
 	dialogue_was = false;
 	}
 	
-} else if (mini_game == false){
-	BDialogue = true;	
-	for(i = 1; i < 5; i++){
-	butt_invis = 1;
-	}
-	button[1] = "L";
-
+} /*else if(mini_game == false and instance_exists(obj_wait)){
+	
+	button[button_c] = "L";
 }
+*/
 if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W")) or keyboard_check_released(vk_enter)){
 			games = true;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
@@ -132,6 +129,8 @@ if(alarm[2] > 150) exit;
 if(system == 0 and mini_game == false and BDialogue == false){
 	//instance_activate_object(obj_background_mini);
 	//obj_background_mini.index_minigame_back = 2;
+	butt_invis = 1;
+
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
 		button_c++;
 		if(button_c == 5){ button[4] = "D";}
@@ -193,6 +192,7 @@ if(system = 1) {
 	}
 	if(button[1] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
+		instance_destroy(obj_wait);
 		//instance_activate_object(obj_background_mini);
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
@@ -277,6 +277,7 @@ if(system = 2) {
 ///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
 
 if(BDialogue = true){
+	instance_destroy(obj_wait);
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down) and alarm[2] < 1){
 		button_c++;
 		varcol[button_c-1] = c_gray;
