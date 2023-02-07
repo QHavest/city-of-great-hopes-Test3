@@ -1,8 +1,8 @@
-
 shopOpen = false; // цеймагазин відкритий? // любий магазин відкритий?
 
 selected = 0;
 notselected = 0;
+item_bought = false; //перевірка чи був куплений предмет.
 
 //items to but [назва продукту, ціна, номер в enum]
 if(global.LANGUAGE = "ua"){

@@ -7,3 +7,4 @@ global.battle = false;
 global.certificate =0;
 hit_cher=0;
 global.gameStart = 0;
+global.item_bought = false;

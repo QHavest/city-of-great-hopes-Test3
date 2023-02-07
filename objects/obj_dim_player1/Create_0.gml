@@ -1,11 +1,9 @@
-
 scr_Znaiomstvo();
 mask_index = sprite_index;
 walkspd = 4;
 runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
-sprit = "Ytopurok"
 s_walk = snd_walk;
 
 //налаштування перемикання між персонажами 
@@ -19,7 +17,7 @@ PASSIVE,
 state=PLAYERSTATE.FREE;
 enum PLAYERSTATE{
 FREE,
-STAY
+BUY
 }
 
 //Частина 1 системи слідкування за героєм

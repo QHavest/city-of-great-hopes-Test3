@@ -18,9 +18,14 @@ switch(status){
 
 
  switch(state){
- case	PLAYERSTATE.FREE	 : scr_dim_playerstate_free_ytopurok();    break;
- case	PLAYERSTATE.STAY     : scr_dim_playerstate_stay();			   break;
+	 case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
+	 case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();    break;
  } 
+
+if (global.item_bought = true){
+self.state = PLAYERSTATE.BUY;
+status = STATUS.PASSIVE;
+}
 
 /*if (obj_Battle_Interface.battle_start = true){
 walkspd = 0;

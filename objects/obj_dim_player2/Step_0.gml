@@ -20,7 +20,13 @@ switch(status){
 
  switch(state){
 case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
+//case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();    break;
  } 
+
+//if (global.item_bought = true){
+//self.state = PLAYERSTATE.BUY;
+//status = STATUS.PASSIVE;
+//}
 
 
 /*if (obj_Battle_Interface.battle_start = true){

@@ -7,7 +7,6 @@ lastmove = 0
 //налаштування перемикання між персонажами 
 playernum = 2;
 status = STATUS.PASSIVE;
-sprit="Krus";
 s_walk = snd_walk;
 
 /*sound = snd_rivalstation;

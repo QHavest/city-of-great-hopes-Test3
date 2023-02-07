@@ -50,8 +50,5 @@ if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("s
 lastmove = 1;}
 if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
-// відповідність глибини до вертикальної кординати
-//depth = -y;
-// відповідність глибини до вертикальної кординати
-//depth = -y;
+		
 }
