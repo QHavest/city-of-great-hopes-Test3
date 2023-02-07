@@ -51,7 +51,6 @@ if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("
 		ds_list_destroy(items_suvenir);
 		ds_list_destroy(items_suvenir01);
 		instance_destroy(obj_suvenirnyi);
-		global.item_bought = true;
 		shopOpen = false;
 		global.shop = false;
 }

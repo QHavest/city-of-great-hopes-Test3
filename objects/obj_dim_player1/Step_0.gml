@@ -5,8 +5,7 @@ if (global.shop or !global.dialog_end or global.map) {
 	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
-	exit;
-}
+} 
 //система зміни статусу гравця
 if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
 if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
@@ -22,7 +21,7 @@ switch(status){
 	 case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();    break;
  } 
 
-if (global.item_bought = true){
+if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
 self.state = PLAYERSTATE.BUY;
 status = STATUS.PASSIVE;
 }
