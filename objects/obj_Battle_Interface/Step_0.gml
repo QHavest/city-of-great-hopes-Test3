@@ -193,60 +193,41 @@ if(system = 1) {
 	if(button[1] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		games = true;
-		
-		//instance_activate_object(obj_background_mini);
-		/*if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}*/
-		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
-		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Sectants){
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
-		
-		/*if (mini_game = true and battle_start = true and enemies = ENEMY.Ytopurok_mini){
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
-		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Krus_mini){
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}*/
-		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Hopniki){
-		instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Atack){
 		instance_destroy(obj_wait);
-		aliens = ALIES.Noone;
-		instance_create_depth(490,570,-600,obj_screen_gamestart)
+		switch(enemies){
+		case ENEMY.Narkomany :
+			switch(phase_battle){
+			case PHASES.Atack:
+				aliens = ALIES.Noone;
+				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+			break;
+			case PHASES.Defence:
+				aliens = ALIES.Ytopurok_mini;
+				instance_create_depth(490,570,-600,obj_screen_gamestart)
+			break;
+			}
 		}
-		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Defence){
-		instance_destroy(obj_wait);
-		aliens = ALIES.Ytopurok_mini;
-		instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
-		
 		system = 0;
 		// почалася бійка за Утопирка
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		games = true;
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Atack){
 		instance_destroy(obj_wait);
-		aliens = ALIES.Noone;
-		instance_create_depth(490,570,-600,obj_screen_gamestart)
+		switch(enemies){
+		case ENEMY.Narkomany :
+			switch(phase_battle){
+			case PHASES.Atack:
+				aliens = ALIES.Noone;
+				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+			break;
+			case PHASES.Defence:
+				aliens = ALIES.Krus_mini;
+				instance_create_depth(490,570,-600,obj_screen_gamestart)
+			break;
+			}
 		}
 		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Defence){
-		instance_destroy(obj_wait);
-		aliens = ALIES.Krus_mini;
-		instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
 		system = 0;
 		// почалася бійка за Криса
 	} 
