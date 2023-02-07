@@ -47,7 +47,7 @@ if(mini_game = true){
 
 if(keyboard_check_pressed(ord("L"))){
 	battle_start = !battle_start;
-	enemies = ENEMY.Ytopurok_mini
+	//enemies = ENEMY.Ytopurok_mini
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
@@ -55,7 +55,7 @@ if(keyboard_check_pressed(ord("L"))){
 
 if(keyboard_check_pressed(ord("K"))){
 	battle_start = !battle_start;
-	enemies = ENEMY.Krus_mini
+	//enemies = ENEMY.Krus_mini
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 } else if (!battle_start = battle_start)
@@ -100,7 +100,7 @@ if (mini_game = true and games = false){
 		instance_deactivate_object(obj_sects);
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
-		instance_deactivate_object(obj_mini_ytopur);
+		//instance_deactivate_object(obj_mini_ytopur);
 		//instance_deactivate_object(obj_mini_krus);
 		instance_deactivate_object(obj_hopnik);
 }
@@ -193,11 +193,11 @@ if(system = 1) {
 	if(button[1] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
 		games = true;
-		instance_destroy(obj_wait);
+		
 		//instance_activate_object(obj_background_mini);
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
+		/*if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
+		}*/
 		
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
@@ -207,24 +207,44 @@ if(system = 1) {
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 		
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Ytopurok_mini){
+		/*if (mini_game = true and battle_start = true and enemies = ENEMY.Ytopurok_mini){
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 		
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Krus_mini){
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
-		}
+		}*/
 		
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Hopniki){
+		instance_create_depth(490,570,-600,obj_screen_gamestart)
+		}
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Atack){
+		instance_destroy(obj_wait);
+		aliens = ALIES.Noone;
+		instance_create_depth(490,570,-600,obj_screen_gamestart)
+		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Defence){
+		instance_destroy(obj_wait);
+		aliens = ALIES.Ytopurok_mini;
 		instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 		
 		system = 0;
 		// почалася бійка за Утопирка
 	} 
-	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Hopniki and phase_battle = PHASES.Defence){
+		games = true;
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Atack){
+		instance_destroy(obj_wait);
+		aliens = ALIES.Noone;
+		instance_create_depth(490,570,-600,obj_screen_gamestart)
+		}
+		
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany and phase_battle = PHASES.Defence){
+		instance_destroy(obj_wait);
+		aliens = ALIES.Krus_mini;
 		instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 		system = 0;

@@ -68,12 +68,12 @@ if(battle_start = true){
 		case ENEMY.Sectants :
 		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 238);
 		break;
-		case ENEMY.Ytopurok_mini :
+		/*case ENEMY.Ytopurok_mini :
 		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
 		break;
 		case ENEMY.Krus_mini :
 		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
-		break;
+		break;*/
 		case ENEMY.Hopniki :
 		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 238);
 		break;

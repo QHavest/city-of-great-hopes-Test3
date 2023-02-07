@@ -11,7 +11,7 @@ spd += grv
 y += spd
 //x++
 }
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
@@ -77,7 +77,7 @@ y += vInput * 15;
 #endregion
 
 #region короткий рух головой Міні гра за утопирка захист
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Ytopurok_mini){
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Ytopurok_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
 switch (keyboard_key)
 {
 	case vk_left:
@@ -122,7 +122,7 @@ switch(obj_Battle_Interface.enemies){
 	damage = 10;
 	break;
 }
-if (ENEMY.Krus_mini){
+if (ALIES.Krus_mini){
 if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini)){
 	damage = 0;
 	power_hit += 3;

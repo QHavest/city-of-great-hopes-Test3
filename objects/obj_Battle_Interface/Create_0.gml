@@ -28,13 +28,18 @@ Noname,
 Narkomany,
 Kavkazci,
 Sectants,
-Ytopurok_mini,
-Krus_mini,
+
 Hopniki,
 Torchky,
 Sect,
 }
 
+aliens = ALIES.Noone;
+enum ALIES{
+Noone,
+Ytopurok_mini,
+Krus_mini,
+}
 phase_battle = PHASES.Atack;
 enum PHASES{
 Atack,
