@@ -145,7 +145,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
-	if(button[1] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
+	if(button[1] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_released(ord("E"))){
 	system = 1;
 	} 
 	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
