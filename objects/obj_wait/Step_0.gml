@@ -2,6 +2,7 @@
 //obj_Battle_Interface.system = 0;
 obj_Battle_Interface.games = false
 instance_destroy(obj_shprutz_parent);
+instance_destroy(obj_mini_krus);
 obj_Battle_Interface.mini_game = false
 if (obj_Battle_Interface.enemies = ENEMY.Narkomany){
 instance_destroy(obj_shprutz_dow1);

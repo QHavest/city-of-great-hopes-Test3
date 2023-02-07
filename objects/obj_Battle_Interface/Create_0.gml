@@ -4,7 +4,7 @@ hpYtopyrok = 50;
 global.MaxHp = hpKrys+hpYtopyrok
 light_bi = 0; // мерехтілка вимкнена
 battle_turn_down = false;
-
+phase_battle = 0;
 H=0;
 games = false;
 answer = 1;
@@ -22,7 +22,7 @@ target_rm = room;
 
 
 alarm[10] = 60;
-enemies = ENEMY.Noname
+enemies = ENEMY.Noname;
 enum ENEMY{
 Noname,
 Narkomany,
@@ -35,6 +35,11 @@ Torchky,
 Sect,
 }
 
+phase_battle = PHASES.Atack;
+enum PHASES{
+Atack,
+Defence,
+}
 //for button array
 
 button_c = 1;

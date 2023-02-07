@@ -101,7 +101,7 @@ if (mini_game = true and games = false){
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
 		instance_deactivate_object(obj_mini_ytopur);
-		instance_deactivate_object(obj_mini_krus);
+		//instance_deactivate_object(obj_mini_krus);
 		instance_deactivate_object(obj_hopnik);
 }
 //mini-game
@@ -119,7 +119,7 @@ if (mini_game == true){
 	button[button_c] = "L";
 }
 */
-if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W")) or keyboard_check_released(vk_enter)){
+if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W"))/* or keyboard_check_released(vk_enter)*/){
 			games = true;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
@@ -145,7 +145,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
-	if(button[1] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_released(ord("E"))){
+	if(button[1] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	system = 1;
 	} 
 	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
@@ -163,7 +163,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	button[3] = "D";
 	system = 2;
 	} 
-	if(button[4] = "L" and keyboard_check_released(vk_enter) or  keyboard_check_released(ord("E"))){
+	if(button[4] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 		if(dialogue_was = false){
 			butt_invis = 0.5;
 			screen = 1;
@@ -190,8 +190,9 @@ if(system = 1) {
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
-	if(button[1] = "L" and (keyboard_check_released(vk_enter) or keyboard_check_released(ord("E")))){
+	if(button[1] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
+		games = true;
 		instance_destroy(obj_wait);
 		//instance_activate_object(obj_background_mini);
 		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
