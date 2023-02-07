@@ -224,21 +224,8 @@ if(system = 1) {
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 		mini_game = true;
-		/*if (mini_game = true){
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 2;
-		instance_activate_object(obj_sssr);
-		}*/
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Kavkazci){
-		instance_activate_object(obj_background_mini);
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 2;
-		instance_activate_object(obj_sssr);
-		}
-		if (mini_game = true and battle_start = true and enemies = ENEMY.Narkomany){
-		instance_activate_object(obj_shprutz_parent);
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 1;
+		if (mini_game = true and battle_start = true and enemies = ENEMY.Hopniki and phase_battle = PHASES.Defence){
+		instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 		system = 0;
 		// почалася бійка за Криса
