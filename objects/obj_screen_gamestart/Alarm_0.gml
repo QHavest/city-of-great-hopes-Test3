@@ -26,22 +26,22 @@ switch(obj_Battle_Interface.enemies){
 	case ENEMY.Narkomany :
 		switch(obj_Battle_Interface.phase_battle){
 			case PHASES.Atack:
-			obj_background_mini.index_minigame_back = 0;
-			show_debug_message("Hello");
-			//instance_activate_object(obj_shprutz_parent);
-			instance_create_depth(480,416,-300,obj_shprutz_parent);
-			instance_activate_object(obj_mini_avatar);
-			obj_mini_avatar.x = 547.5;
-			obj_mini_avatar.y = 755;
-			instance_activate_object(wall);
-			obj_mini_avatar.index_avatar = 0;
+				obj_background_mini.index_minigame_back = 0;
+				show_debug_message("Hello");
+				//instance_activate_object(obj_shprutz_parent);
+				instance_create_depth(480,416,-300,obj_shprutz_parent);
+				instance_activate_object(obj_mini_avatar);
+				obj_mini_avatar.x = 547.5;
+				obj_mini_avatar.y = 755;
+				instance_activate_object(wall);
+				obj_mini_avatar.index_avatar = 0;
 			break;
 			case PHASES.Defence:
-			//instance_activate_object(obj_mini_krus);
-			instance_create_depth(480,416,-300,obj_mini_krus);
-			obj_background_mini.index_minigame_back = 3;
-			instance_activate_object(obj_mini_avatar);
-			obj_mini_avatar.index_avatar = 4;
+				//instance_activate_object(obj_mini_krus);
+				instance_create_depth(480,416,-300,obj_mini_krus);
+				obj_background_mini.index_minigame_back = 3;
+				instance_activate_object(obj_mini_avatar);
+				obj_mini_avatar.index_avatar = 4;
 			break;
 			}
 	break;
