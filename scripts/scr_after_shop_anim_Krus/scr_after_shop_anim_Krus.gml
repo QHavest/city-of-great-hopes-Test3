@@ -3,6 +3,8 @@
 function scr_after_shop_anim_Krus(){
 
 sprite_index = spr_buy_Krus_bakery;
+x = obj_dim_player2;
+y = obj_dim_player2;
 if (image_index >= image_number - 1){
 	global.item_bought = false;
 	state = PLAYERSTATE.FREE;

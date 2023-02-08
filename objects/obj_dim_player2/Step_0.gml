@@ -17,23 +17,17 @@ switch(status){
 	case STATUS.PASSIVE: scr_passive_player(); break;
 }
 
- switch(state){
-case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
-case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();    break;
- } 
-
 if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
+image_index = 0;
 state = PLAYERSTATE.BUY;
 status = STATUS.PASSIVE;
 }
 
+switch(state){
+case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
+case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();    break;
+ } 
 
-/*if (obj_Battle_Interface.battle_start = true){
-walkspd = 0;
-move = false;
-} else if (obj_Battle_Interface.battle_start = false) {
-	walkspd = 4;
-}*/
 
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){
