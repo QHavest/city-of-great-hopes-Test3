@@ -12,6 +12,8 @@ keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"))
 }
 
+if(global.item_bought) exit;
+
 if (playernum == 2) {
 	//walk
 	if (move == 0 and distance_to_object(obj_dim_player1) > 20 ) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, obj_invisiblewall);

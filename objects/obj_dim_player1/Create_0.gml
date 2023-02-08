@@ -6,6 +6,7 @@ collisionSpeed = 4;
 lastmove = 0;
 s_walk = snd_walk;
 
+
 //налаштування перемикання між персонажами 
 playernum = 1;
 status = STATUS.ACTIVE

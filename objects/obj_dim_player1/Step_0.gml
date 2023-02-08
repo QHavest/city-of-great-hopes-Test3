@@ -37,10 +37,8 @@ if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){
 		posX[i] = posX[i-1];
 		posY[i] = posY[i-1];
-		//переміщення слухача
 		if status = STATUS.ACTIVE audio_listener_set_position(0,x,y,0);
-	}
-
+	}	
 	posX[0] = x;
 	posY[0] = y;
 }
