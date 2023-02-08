@@ -50,12 +50,23 @@ instance_create_depth(obj_dim_player1.x,90,-9999,name)
 }
 
 /// @param text_id
+/// @param [spr_speak_2]
 function scr_create_textbox (_text_id){
-	
+	if argument_count=2 
+	{
+		var spr_ic =  argument_count[1]
 	with (instance_create_depth(0,0,-99999,obj_dim_textbox))
-{
-	scr_game_text(_text_id);
-	
-}
+		{	
+			scr_game_text(_text_id,spr_ic);
+		}
+	}	
+	else
+	{
+	with (instance_create_depth(0,0,-99999,obj_dim_textbox))
+		{	
+			scr_game_text(_text_id);
+		}
+	}	
+
 
 }

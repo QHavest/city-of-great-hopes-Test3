@@ -1104,6 +1104,7 @@
     {"id":{"name":"spr_sektantka2","path":"sprites/spr_sektantka2/spr_sektantka2.yy",},"order":8,},
     {"id":{"name":"spr_flowerbed4","path":"sprites/spr_flowerbed4/spr_flowerbed4.yy",},"order":19,},
     {"id":{"name":"spr_izhak_stay","path":"sprites/spr_izhak_stay/spr_izhak_stay.yy",},"order":7,},
+    {"id":{"name":"spr_ic_man_1","path":"sprites/spr_ic_man_1/spr_ic_man_1.yy",},"order":0,},
     {"id":{"name":"obj_anton","path":"objects/obj_anton/obj_anton.yy",},"order":12,},
     {"id":{"name":"snd_rivalstation","path":"sounds/snd_rivalstation/snd_rivalstation.yy",},"order":4,},
     {"id":{"name":"spr_background_kavkaz","path":"sprites/spr_background_kavkaz/spr_background_kavkaz.yy",},"order":0,},

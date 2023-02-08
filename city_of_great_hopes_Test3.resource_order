@@ -951,6 +951,7 @@
     {"name":"spr_sektantka2","order":8,"path":"sprites/spr_sektantka2/spr_sektantka2.yy",},
     {"name":"spr_flowerbed4","order":19,"path":"sprites/spr_flowerbed4/spr_flowerbed4.yy",},
     {"name":"spr_izhak_stay","order":7,"path":"sprites/spr_izhak_stay/spr_izhak_stay.yy",},
+    {"name":"spr_ic_man_1","order":15,"path":"sprites/spr_ic_man_1/spr_ic_man_1.yy",},
     {"name":"obj_anton","order":12,"path":"objects/obj_anton/obj_anton.yy",},
     {"name":"snd_rivalstation","order":4,"path":"sounds/snd_rivalstation/snd_rivalstation.yy",},
     {"name":"obj_truck1","order":12,"path":"objects/obj_truck1/obj_truck1.yy",},

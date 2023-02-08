@@ -20,6 +20,15 @@ depth = -bbox_bottom;
 			x += sign(hsp);
 		hsp = 0;
 	}
+	// діалог з зважаючим ГГ
+	if(place_meeting(x + hsp, y, obj_dim_player1) or place_meeting(x + hsp, y, obj_dim_player2) ){
+		
+		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
+			x += sign(hsp);
+		hsp = 0;
+		// dialog
+		scr_create_textbox(text_id,spr_ic);
+	}
 
 	if (!in_sequence){
 	x += hsp
