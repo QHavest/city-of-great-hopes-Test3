@@ -38,7 +38,7 @@ y -= 105;
 #endregion
 
 #region ходьба по клітинкам Сектанти Хрести
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Sectants){
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Sectants and obj_Battle_Interface.phase_battle = PHASES.Atack){
 
 if place_snapped(G,G1){
 speed=0//остановка игрока

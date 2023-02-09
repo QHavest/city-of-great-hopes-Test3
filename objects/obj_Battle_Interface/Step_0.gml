@@ -194,19 +194,32 @@ if(system = 1) {
 		mini_game = true;
 		games = true;
 		instance_destroy(obj_wait);
-		switch(enemies){
-		case ENEMY.Narkomany :
-			switch(phase_battle){
+		switch(phase_battle){
 			case PHASES.Atack:
-				aliens = ALIES.Noone;
-				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+				switch(enemies){
+					case ENEMY.Narkomany :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Kavkazci :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Sectants :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Hopniki :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					}
 			break;
 			case PHASES.Defence:
 				aliens = ALIES.Ytopurok_mini;
 				instance_create_depth(490,570,-600,obj_screen_gamestart)
 			break;
 			}
-		}
 		system = 0;
 		// почалася бійка за Утопирка
 	} 
@@ -214,19 +227,33 @@ if(system = 1) {
 		mini_game = true;
 		games = true;
 		instance_destroy(obj_wait);
-		switch(enemies){
-		case ENEMY.Narkomany :
-			switch(phase_battle){
+		switch(phase_battle){
 			case PHASES.Atack:
-				aliens = ALIES.Noone;
-				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+				switch(enemies){
+					case ENEMY.Narkomany :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Kavkazci :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Sectants :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					case ENEMY.Hopniki :
+					aliens = ALIES.Noone;
+					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					break;
+					}
 			break;
 			case PHASES.Defence:
 				aliens = ALIES.Krus_mini;
 				instance_create_depth(490,570,-600,obj_screen_gamestart)
 			break;
 			}
-		}
+		
 		
 		system = 0;
 		// почалася бійка за Криса
