@@ -19,7 +19,7 @@ x += hInput * 15;
 y += vInput * 15;
 }
 #region ходьба по клітинкам СРСР Кавказці
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci){
+if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci and obj_Battle_Interface.phase_battle = PHASES.Atack){
 
 if place_snapped(G,G1){
 speed=0//остановка игрока
