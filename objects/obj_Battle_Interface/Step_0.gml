@@ -108,7 +108,9 @@ if (mini_game = true and games = false and battle_start = true and /*enemies = E
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 if(alarm[2] > 150) exit;
-
+/*if (battle_start = true){
+amount_hp_enemy = amount_hp_enemy - (damage_enemy/100*279);
+}*/
 //button
 if(system == 0 and mini_game == false and BDialogue == false){
 	//instance_activate_object(obj_background_mini);
