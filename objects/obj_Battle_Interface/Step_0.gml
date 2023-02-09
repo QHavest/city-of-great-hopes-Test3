@@ -44,22 +44,6 @@ if(keyboard_check_pressed(ord("O"))){
 if(mini_game = true){
 	dialogue_was = false;
 }
-
-if(keyboard_check_pressed(ord("L"))){
-	battle_start = !battle_start;
-	//enemies = ENEMY.Ytopurok_mini
-	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
-	room_goto(Room61);
-} else if (!battle_start = battle_start)
-{room_goto(rm_south);}
-
-if(keyboard_check_pressed(ord("K"))){
-	battle_start = !battle_start;
-	//enemies = ENEMY.Krus_mini
-	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
-	room_goto(Room61);
-} else if (!battle_start = battle_start)
-{room_goto(rm_south);}
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
 		//mini_game = true;
