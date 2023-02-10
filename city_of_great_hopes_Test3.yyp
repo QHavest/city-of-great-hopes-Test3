@@ -1862,6 +1862,7 @@
     {"id":{"name":"obj_sekt_3","path":"objects/obj_sekt_3/obj_sekt_3.yy",},"order":2,},
     {"id":{"name":"back_menu_from_settings","path":"scripts/back_menu_from_settings/back_menu_from_settings.yy",},"order":24,},
     {"id":{"name":"snd_viter","path":"sounds/snd_viter/snd_viter.yy",},"order":1,},
+    {"id":{"name":"snd_door_scena5","path":"sounds/snd_door_scena5/snd_door_scena5.yy",},"order":0,},
     {"id":{"name":"obj_receptions_tech","path":"objects/obj_receptions_tech/obj_receptions_tech.yy",},"order":1,},
     {"id":{"name":"obj_romb_up","path":"objects/obj_romb_up/obj_romb_up.yy",},"order":13,},
     {"id":{"name":"spr_romb_down","path":"sprites/spr_romb_down/spr_romb_down.yy",},"order":1,},

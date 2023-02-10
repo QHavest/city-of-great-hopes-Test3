@@ -193,6 +193,15 @@ case rm_home_gg :
 	case 4: break
 	}
 break
+case rm_home_gg_cut :				
+	switch(name)
+	{	
+	case 1: return noone  break
+	case 2: return 1 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
 case rm_home_gg_inside :				
 	switch(name)
 	{	

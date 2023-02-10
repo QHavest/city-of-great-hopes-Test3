@@ -1607,6 +1607,7 @@
     {"name":"obj_sekt_3","order":2,"path":"objects/obj_sekt_3/obj_sekt_3.yy",},
     {"name":"back_menu_from_settings","order":24,"path":"scripts/back_menu_from_settings/back_menu_from_settings.yy",},
     {"name":"snd_viter","order":1,"path":"sounds/snd_viter/snd_viter.yy",},
+    {"name":"snd_door_scena5","order":3,"path":"sounds/snd_door_scena5/snd_door_scena5.yy",},
     {"name":"obj_receptions_tech","order":1,"path":"objects/obj_receptions_tech/obj_receptions_tech.yy",},
     {"name":"obj_romb_up","order":13,"path":"objects/obj_romb_up/obj_romb_up.yy",},
     {"name":"spr_romb_down","order":1,"path":"sprites/spr_romb_down/spr_romb_down.yy",},
