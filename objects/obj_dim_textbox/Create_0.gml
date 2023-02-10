@@ -1,5 +1,5 @@
 depth=-99999;
-//instance_create_depth(0,0,0,obj_pauser);
+instance_create_depth(0,0,0,obj_pauser);
 please_shop_open =0;
 
 Y_op = 0;

@@ -13,8 +13,8 @@
     "path": "folders/Objects/Bazar/NPC.yy",
   },
   "parentObjectId": {
-    "name": "obj_pr_NPC_mov",
-    "path": "objects/obj_pr_NPC_mov/obj_pr_NPC_mov.yy",
+    "name": "obj_pr_NPC_back",
+    "path": "objects/obj_pr_NPC_back/obj_pr_NPC_back.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

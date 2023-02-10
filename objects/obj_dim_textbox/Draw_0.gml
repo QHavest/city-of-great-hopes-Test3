@@ -6,7 +6,7 @@ accept_key=keyboard_check_pressed(vk_enter);
 if string_length(text[page]) == 0 
 {
 	global.dialog_end = 1;
-//	instance_destroy(obj_pauser);
+	instance_destroy(obj_pauser);
 	instance_destroy();
 }
 

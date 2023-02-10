@@ -6,4 +6,4 @@ spr_r = spr_man_8_R
 spr_l = spr_man_8_L
 spr_back = spr_man_8_back
 text_id = "Worksman";
-spr_ic = spr_ic_man_1
+spr_ic = spr_ic_man_8
