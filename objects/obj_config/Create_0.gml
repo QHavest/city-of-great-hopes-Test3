@@ -8,5 +8,4 @@ global.fullscreen = 0;
 global.rezolution = 2;
 global.master = 0.5;
 global.LANGUAGE = "eng";
-
-show_debug_message("config")
+global.sequence = 0;
