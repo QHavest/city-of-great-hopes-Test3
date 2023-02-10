@@ -9,6 +9,12 @@ playernum = 2;
 status = STATUS.PASSIVE;
 s_walk = snd_walk;
 
+sprit = "Krus";
+
+xsd = 0;
+ysd = 0;
+
+
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
 

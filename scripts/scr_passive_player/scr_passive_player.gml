@@ -12,7 +12,7 @@ keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"))
 }
 
-if(global.item_bought) exit;
+if(global.item_bought or global.dialogue_move) exit;
 
 if (playernum == 2) {
 	//walk

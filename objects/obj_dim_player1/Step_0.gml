@@ -1,7 +1,8 @@
+//УТОПИРОК
 //якщо магазин або діалог відкритий, гравець нерухомий
-// 
-if (global.shop or !global.dialog_end or global.map) {
-	if lastmove =0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+
+if (global.shop or !global.dialog_end or global.map or !global.dialogue_move) {
+	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
@@ -15,24 +16,38 @@ switch(status){
 	case STATUS.PASSIVE: scr_passive_player(); break;
 }
 
-if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
-image_index = 0;
-state = PLAYERSTATE.BUY;
-status = STATUS.PASSIVE;
+///////////////////////////////////////////////////////////////////////////////
+if(place_meeting(x, y, obj_dialog_start) and keyboard_check_pressed(ord("Q")) or global.dialogue_move = true){
+	global.dialogue_move = true;
+	xsd = inst_28953189.x+20;
+	ysd = inst_28953189.y+2;
+}
+if (global.dialogue_move = true){
+	status = STATUS.PASSIVE;
+	mp_linear_step(xsd, ysd, 2, false);	
+	if ( x = xsd and y = ysd  ) {    sprite_index = spr_dim_Ytopurok_stay_l   } 
 }
 
- switch(state){
-	 case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
-	 case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();    break;
+if (global.dialogue_move = true and keyboard_check_pressed(ord("Z"))){
+	global.dialogue_move = false;
+}
+///////////////////////////////////////////////////////////////////////////////
+
+
+//анімація покупки
+if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
+	image_index = 0;
+	state = PLAYERSTATE.BUY;
+	status = STATUS.PASSIVE;
+}
+
+switch(state){
+	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();			break;
  } 
 
 
-/*if (obj_Battle_Interface.battle_start = true){
-walkspd = 0;
-move = false;
-} else if (obj_Battle_Interface.battle_start = false){
-	walkspd = 4;
-}*/
+//система записування координат проходження
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--){
 		posX[i] = posX[i-1];

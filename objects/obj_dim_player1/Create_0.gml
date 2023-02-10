@@ -6,6 +6,12 @@ collisionSpeed = 4;
 lastmove = 0;
 s_walk = snd_walk;
 
+xsd = 0;
+ysd = 0;
+
+sprit = "ytopurok";
+
+
 
 //налаштування перемикання між персонажами 
 playernum = 1;
@@ -18,7 +24,8 @@ PASSIVE,
 state=PLAYERSTATE.FREE;
 enum PLAYERSTATE{
 FREE,
-BUY
+BUY,
+DIALOGUE
 }
 
 //Частина 1 системи слідкування за героєм
