@@ -26,7 +26,7 @@ gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
 take_damage = false;
-
+amount_hp_enemy = 279;
 	//damage = 0;
 
 amount_hp = 279;

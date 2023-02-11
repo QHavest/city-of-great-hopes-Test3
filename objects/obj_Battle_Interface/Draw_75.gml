@@ -1,18 +1,5 @@
 if(battle_start = true){	
-	switch(enemies){
-		case ENEMY.Narkomany :
-		draw_sprite_part(hp_narko_full, 0, 0, 0, amount_hp_enemy, 35, gui_W/1.2568, gui_H/2.112);
-		break;
-		case ENEMY.Kavkazci :
-		
-		break;
-		case ENEMY.Sectants :
 
-		break;
-		case ENEMY.Hopniki :
-	
-		break;
-		}
 
 	//draw_sprite(spr_screen, 0, gui_W/3.918, gui_H/1.928);
 	//draw_sprite(spr_hpRed, 0, gui_W/1.265, gui_H/1.223);
