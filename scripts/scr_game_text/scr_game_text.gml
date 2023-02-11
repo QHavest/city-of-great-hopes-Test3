@@ -698,6 +698,9 @@ scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Pulu
 scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
 break
 #endregion
+case "Muter with boi":
+scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,spr_ic_Krus,spr_ic_Mama_sun);
+break
 // жителі
 #region (Zinki)
 case"Zinki":

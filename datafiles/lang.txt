@@ -290,6 +290,8 @@
 		"Pulup_kalum1": "Young people! I accept and sell glass. There are still a couple of good sets.",
 		"Pulup_kalum2": "Who is interested, come. I buy expensive, sell cheap! Glass! Dishes. Sell and buy!",
 
+		"Muter with boi": "Let me  pas! Can't you see - I'm with a child!",
+
 		"Zinki1": "Can't you see my baby? Ah... Children! Children!!!",
 		"Zinki2": "Oh... Who are you? You look suspicious! Pedophiles? Leave me alone!",
 		"Zinki3": "Yes, don't forget to buy from the list... Please, don't bother me...",
@@ -850,6 +852,8 @@
 
 		"Pulup_kalum1": "Народ молодой. Приймаю та продаю стеклотару. Ще є гарних пару сервізів. Кого цікавить підходьте.",
 		"Pulup_kalum2": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
+
+		"Muter with boi": "Дай пройти! Не бачиш – я з дитиною!",
 
 		"Zinki1": "Ви не бачи мою малечу? Ах..Діти! Дітиии!!!",
 		"Zinki2": "Ох, ви… Ви хто? Якісь ви підозрілі? Педофіли? Залиште мене.",

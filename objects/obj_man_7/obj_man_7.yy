@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/Bazar/NPC.yy",
+    "name": "Active_NPC",
+    "path": "folders/Objects/Active_NPC.yy",
   },
   "parentObjectId": {
     "name": "obj_pr_NPC_move",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_man_3_L",
-    "path": "sprites/spr_man_3_L/spr_man_3_L.yy",
+    "name": "spr_man_7_L",
+    "path": "sprites/spr_man_7_L/spr_man_7_L.yy",
   },
   "spriteMaskId": null,
   "visible": true,

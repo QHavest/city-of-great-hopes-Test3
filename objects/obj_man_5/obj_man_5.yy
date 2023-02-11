@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/Bazar/NPC.yy",
+    "name": "Active_NPC",
+    "path": "folders/Objects/Active_NPC.yy",
   },
   "parentObjectId": {
     "name": "obj_pr_NPC_back",

@@ -29,8 +29,8 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"max_t","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":10.0,"rangeMin":2.0,"value":"4","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":5.0,"rangeMin":1.0,"value":"2.2","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"min_t","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1.5","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":5.0,"rangeMin":1.0,"value":"2.2","varType":0,},
   ],
   "solid": true,
   "spriteId": null,
