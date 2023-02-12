@@ -147,12 +147,12 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	obj_Battle_Interface.hpYtopyrok -= damage;
 	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
-	amount_hp_enemy = amount_hp_enemy - (damage/100*279);
+	
 	}
 	if (alarm[4] < 1){
 
 	amount_hp = amount_hp - (damage/100*279);
-	
+	obj_Battle_Interface.amount_hp_enemy = obj_Battle_Interface.amount_hp_enemy - (damage_enemy/100*96);
 	}
 	alarm[4]=40;
 	take_damage = false;
@@ -164,6 +164,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	take_damage = true;
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
+	obj_Battle_Interface.amount_hp_enemy = obj_Battle_Interface.amount_hp_enemy - (damage_enemy/100*96);
 	}
 	alarm[4]=40;
 	}

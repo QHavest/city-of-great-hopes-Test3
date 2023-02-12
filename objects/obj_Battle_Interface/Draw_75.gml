@@ -1,6 +1,10 @@
 if(battle_start = true){	
-
-
+	/*if (instance_exists(obj_mini_avatar)){
+		draw_sprite_part(hp_narko_full, 0, 0, 0,obj_mini_avatar.amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
+		}else {
+			draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
+			}*/
+	draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
 	//draw_sprite(spr_screen, 0, gui_W/3.918, gui_H/1.928);
 	//draw_sprite(spr_hpRed, 0, gui_W/1.265, gui_H/1.223);
 	draw_sprite(spr_darkarr, 0, gui_W/10.69, gui_H/1.203);

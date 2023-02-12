@@ -19,8 +19,8 @@ gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
 target_rm = room;
-amount_hp_enemy = 279;
-damage_enemy = 0;
+amount_hp_enemy = 96;
+//damage_enemy = 0;
 
 alarm[10] = 60;
 enemies = ENEMY.Noname;
