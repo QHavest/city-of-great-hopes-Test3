@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_nights",
+  "name": "obj_arka_tuhk",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Day_Night",
-    "path": "folders/Day_Night.yy",
+    "name": "South",
+    "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ranka_tuhk_night",
+    "path": "sprites/spr_ranka_tuhk_night/spr_ranka_tuhk_night.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

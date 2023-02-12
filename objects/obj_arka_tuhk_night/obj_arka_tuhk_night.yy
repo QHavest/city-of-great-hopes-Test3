@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_nights",
+  "name": "obj_arka_tuhk_night",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Day_Night",
-    "path": "folders/Day_Night.yy",
+    "name": "South",
+    "path": "folders/Objects/Tykhlianka/South.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -23,9 +26,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"variable_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ranka_tuhk",
+    "path": "sprites/spr_ranka_tuhk/spr_ranka_tuhk.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
