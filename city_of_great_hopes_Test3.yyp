@@ -296,6 +296,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ytopurok","folderPath":"folders/Sprites/Ytopurok.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Others","folderPath":"folders/Sprites/Others.yy","order":0,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"savedata_eng.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -342,6 +343,7 @@
     {"id":{"name":"spr_prilavok_bicycle","path":"sprites/spr_prilavok_bicycle/spr_prilavok_bicycle.yy",},"order":9,},
     {"id":{"name":"sp_shwarc_eng","path":"sprites/sp_shwarc_eng/sp_shwarc_eng.yy",},"order":4,},
     {"id":{"name":"spr_ic_Yana","path":"sprites/spr_ic_Yana/spr_ic_Yana.yy",},"order":4,},
+    {"id":{"name":"sp_zone_interest","path":"sprites/sp_zone_interest/sp_zone_interest.yy",},"order":0,},
     {"id":{"name":"obj_language","path":"objects/obj_language/obj_language.yy",},"order":4,},
     {"id":{"name":"spr_seller_tech_active","path":"sprites/spr_seller_tech_active/spr_seller_tech_active.yy",},"order":12,},
     {"id":{"name":"spr_taburet","path":"sprites/spr_taburet/spr_taburet.yy",},"order":30,},
@@ -1009,6 +1011,7 @@
     {"id":{"name":"obj_woi_invisible_bush","path":"objects/obj_woi_invisible_bush/obj_woi_invisible_bush.yy",},"order":2,},
     {"id":{"name":"Font_for_language2","path":"fonts/Font_for_language2/Font_for_language2.yy",},"order":6,},
     {"id":{"name":"spr_Tarantino_stay","path":"sprites/spr_Tarantino_stay/spr_Tarantino_stay.yy",},"order":7,},
+    {"id":{"name":"obj_interest","path":"objects/obj_interest/obj_interest.yy",},"order":0,},
     {"id":{"name":"spr_secretar","path":"sprites/spr_secretar/spr_secretar.yy",},"order":2,},
     {"id":{"name":"spr_ledi_L","path":"sprites/spr_ledi_L/spr_ledi_L.yy",},"order":16,},
     {"id":{"name":"sp_korop_eng","path":"sprites/sp_korop_eng/sp_korop_eng.yy",},"order":7,},
