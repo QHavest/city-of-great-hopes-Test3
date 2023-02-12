@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_bench_1",
-  "bbox_bottom": 33,
+  "bbox_bottom": 29,
   "bbox_left": 0,
   "bbox_right": 59,
   "bbox_top": 0,
