@@ -98,10 +98,8 @@
     {"name":"inst_7F7CB95C","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_6FDD6947","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_5514F823","path":"rooms/rm_south/rm_south.yy",},
-    {"name":"inst_76414AD6","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_41B45159","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_5B95966B","path":"rooms/rm_south/rm_south.yy",},
-    {"name":"inst_74E16684","path":"rooms/rm_south/rm_south.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -115,8 +113,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FDD6947","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.21,"scaleY":0.35999998,"x":2236.5,"y":197.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5514F823","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.23,"scaleY":0.42000002,"x":13.5,"y":196.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F3B38FB","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":256.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76414AD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woman_11","path":"objects/obj_woman_11/obj_woman_11.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":325.0,"y":208.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74E16684","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woman_7","path":"objects/obj_woman_7/obj_woman_7.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj_night","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D7072D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_entrance_south_night2","path":"objects/obj_entrance_south_night2/obj_entrance_south_night2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":70.0,"y":140.0,},

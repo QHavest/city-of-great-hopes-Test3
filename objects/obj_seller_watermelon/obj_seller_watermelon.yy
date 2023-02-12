@@ -31,7 +31,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_seller_watermelon",
     "path": "sprites/spr_seller_watermelon/spr_seller_watermelon.yy",

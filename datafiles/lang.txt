@@ -301,7 +301,7 @@
 		"Worksman1": "Falling off my feet. Guys,  let me go, or I'll lie right here.",
 		"Worksman2": "I'd like to drink some vodka. Can't you guys find a pair of karbovanets in your wallet?",
 		"Worksman3": "Yes, I have to pick up the children, but where is the kindergarten? Wait, how many children do I have? Ugh…",
-		"Worksman4": "My wife, it's better to send me on dick than for groceries. I've been  <<on you>> with a dick since I was 13, but groceries only when they're ready to eat.",
+		"Worksman4": "My wife, it's better to send me on dick than for groceries. I've been with a dick since 13, but groceries only when eat.",
 		"Worksman5": "Twenty-five again, salary in goods, not cash. Damn, this barter take me to the grave soon",
 
 		"Boi1": "Uncles, you some kind of strange? And smell like hooligans.",

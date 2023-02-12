@@ -57,6 +57,7 @@ if acepted_key
 if keyboard_check_pressed(vk_escape) acepted_key=0;
 	
 // телепортація
+if pos <2
 if keyboard_check(vk_enter) and acepted_key and t == 1
 		{ global.map = 0;
 		global.contact = 0;
