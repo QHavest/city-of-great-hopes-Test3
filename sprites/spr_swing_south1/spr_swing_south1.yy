@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9fd0567b-c8ff-419f-9169-59b5ebd3ddcf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"939f2f5e-7e35-4a17-956f-04fe73d2b432",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 71,
+  "height": 79,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5c3c4879-456f-4822-af7b-f5c32716878e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8fe2e1a-52a7-4d5e-8378-d1f9f03ea007","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9fd0567b-c8ff-419f-9169-59b5ebd3ddcf","path":"sprites/spr_swing_south1/spr_swing_south1.yy",},},},"Disabled":false,"id":"5e8593f9-5ef2-4951-9ea4-c77f1351833d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"939f2f5e-7e35-4a17-956f-04fe73d2b432","path":"sprites/spr_swing_south1/spr_swing_south1.yy",},},},"Disabled":false,"id":"97d8f5f0-d70c-4b98-bb25-a307451065fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 28,
-    "yorigin": 35,
+    "xorigin": 33,
+    "yorigin": 39,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 56,
+  "width": 66,
 }
