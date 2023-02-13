@@ -4,6 +4,9 @@ acepted_key = 0;
 rah =0;
 t=0;
 
+// плата за проїзд
+feee = 1;
+
 // масштабні коефіцієнти для редагування розміру районів
 kof_b = 0.8;
 kof_r = 0.8;
@@ -225,10 +228,19 @@ player_x[0][3] = 145;
 player_y[0][3] = 255;
 }
 
+// перемикання спрайтів через мову
+switch (global.LANGUAGE){
+case "eng": lang_im=0; 
+//var act_back = layer_get_id("Back_eng")
+layer_set_visible("Back_eng",true);
+break;
+case "ua" : lang_im=1; 
+//act_back = layer_get_id("Back_ua")
+layer_set_visible("Back_ua",true);
+break;
+}
 
-
-
-
+// позиції камери для слідуванням за контуром
 sprite_index = imaga[pos];
 x = pos_x[pos];
 y = pos_y[pos];

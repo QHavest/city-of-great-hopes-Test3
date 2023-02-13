@@ -9,11 +9,15 @@ but_map = keyboard_check_pressed(ord("M"));
 
 if (global.map)
 {
-	if (room != rm_mapa)	room_goto(rm_mapa);
-
+	// перехід у кімнату мапи
+	if (room != rm_mapa)	
+	{
+		room_goto(rm_mapa);	
+	}
 		if (but_map) 
 	{	
 		global.map = !global.map;
+		obj_inventory.visible = 1;
 		room_goto(target_rm);
 		obj_dim_player1.x = target_x;
 		obj_dim_player1.y = target_y;
@@ -21,7 +25,7 @@ if (global.map)
 		obj_dim_player2.y = target_y;
 		obj_dim_player1.visible = 1;
 		obj_dim_player2.visible = 1;
-		//obj_inventory.visible = 1;
+		
 		if ac_pl =1
 		{
 		obj_dim_player1.status = STATUS.ACTIVE;	

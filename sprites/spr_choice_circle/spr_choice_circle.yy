@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Mapa",
-    "path": "folders/Mapa.yy",
+    "name": "Other",
+    "path": "folders/Mapa/mp_sprites/Other.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
