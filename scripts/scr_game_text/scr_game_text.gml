@@ -142,11 +142,21 @@ case "Kasa":
 		scr_option(scr_json_lang(global.LANGUAGE,"Kasa7"),"4");
 		
 break
-			case "bying_tiket":
-			//scr_text("BY_IT");
-	// скрипт покупокупок
-			break
-	#endregion
+case "bying_tiket":
+	if(global.money >= 5) {
+for (var i = 0; i < 11; i++){
+	if(global.ds_inventory[# 0, i] = 0){
+		global.ds_inventory[# 0, i] = 53;
+		global.money -= 5;
+		audio_play_sound(snd_op_accept,5,0,global.System_gain);
+		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
+		break;
+		}
+	}
+}	
+break
+#endregion
+
 #region (Lotereia)
 case "Lotereia":
 	scr_text(scr_json_lang(global.LANGUAGE,"Loto0"),2,spr_ic_Krus,spr_ic_Loto);
