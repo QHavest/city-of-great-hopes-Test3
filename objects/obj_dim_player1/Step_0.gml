@@ -17,11 +17,11 @@ switch(status){
 }
 
 ///////////////////////////////////////////////////////////////////////////////
-if(place_meeting(x, y, obj_dialog_start) and keyboard_check_pressed(ord("Q")) or global.dialogue_move = true){
-	global.dialogue_move = true;
-	xsd = inst_28953189.x+20;
-	ysd = inst_28953189.y+2;
-}
+//if(place_meeting(x, y, obj_dialog_start) and keyboard_check_pressed(ord("Q")) or global.dialogue_move = true){
+//	global.dialogue_move = true;
+//	xsd = inst_28953189.x+20;
+//	ysd = inst_28953189.y+2;
+//}
 if (global.dialogue_move = true){
 	status = STATUS.PASSIVE;
 	mp_linear_step(xsd, ysd, 2, false);	

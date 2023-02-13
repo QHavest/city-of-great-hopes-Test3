@@ -4,7 +4,6 @@
 		taxofon = obj_mp_open.Tax
 		global.map = !global.map;
 		// Вимиккаєм всі об'єкти
-		instance_deactivate_all(true);
 		// вмикаєм те що має працювати коли відкрита мапа
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);

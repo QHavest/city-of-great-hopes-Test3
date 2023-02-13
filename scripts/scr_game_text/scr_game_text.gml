@@ -499,8 +499,12 @@ scr_text (scr_json_lang(global.LANGUAGE,"Bufet1"),2,spr_ic_Krus,spr_ic_bufet);
 				scr_option(scr_json_lang(global.LANGUAGE,"Bufet3"),"4");
 break
 case "by_in_byfet":
-//відкриття бувфеу
+// ЗАПУСК МАГАЗА
+instance_create_depth(obj_dim_player1.x,90,-9999,obj_bakery)
+obj_bakery.shopOpen = true;
+global.shop = true;
 break
+
 #endregion
 #region(Tarantino)
 case "Tarantino":
