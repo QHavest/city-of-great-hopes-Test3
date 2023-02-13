@@ -3,6 +3,7 @@ if event_data [? "event_type"] == "sequence event"
   switch (event_data[? "message"])
   {
     case "camera1":
+	//audio_stop_all();
 	obj_dim_player1.x = obj_player_1.x;
 	obj_dim_player1.y = obj_player_1.y;
 	
@@ -21,7 +22,8 @@ if event_data [? "event_type"] == "sequence event"
     break;
   
     case "delete":
-	global.shop = false;
+	global.task = 1;
+	global.sequence_play = false;
     layer_sequence_destroy(seq1);
 	scr_music_fon_change(room);
     break;

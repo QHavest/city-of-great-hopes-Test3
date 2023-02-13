@@ -15,9 +15,19 @@ var y_buffer_menu = 56;
 
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 var start_y2 = (gheight/2) - ((((ds_height2-1)/2) * y_buffer))
+
 //Малювання меню паузи
-//draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,start_x+x_buffer+300,300,0,c_black,0.5);
-draw_sprite(spr_pause_h, 0, gwidth+500, gheight+310);
+
+switch(global.task)
+{
+	case 0: pause_spr = spr_pause_h; break;
+	case 1: 
+	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
+	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr;
+	break;
+	
+}
+draw_sprite(pause_spr, 0, gwidth+500, gheight+310);
 //draw_sprite_ext(spr_ukraine, 0, gwidth+850, gheight+310,1.2,1.2,0,c_white,1);
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
@@ -26,8 +36,6 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
 var ltx = start_x - x_buffer+30, lty; //Розташування на екрані
-
-
 
 //draw_set_alpha(0.25);
 //draw_rectangle_color(-50, -50, gwidth + 50, gheight + 50, c_black, c_black, c_black, c_black, 0);

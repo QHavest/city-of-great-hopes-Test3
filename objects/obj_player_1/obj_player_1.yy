@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Sequences/scena 6/Objects.yy",
+    "path": "folders/Story/Cutscenes/scena 6/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

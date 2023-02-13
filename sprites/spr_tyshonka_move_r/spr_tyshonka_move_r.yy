@@ -33,7 +33,7 @@
   "origin": 7,
   "parent": {
     "name": "Main",
-    "path": "folders/Sequences/scena 9/Sprites/Main.yy",
+    "path": "folders/Story/Cutscenes/scena 9/Sprites/Main.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

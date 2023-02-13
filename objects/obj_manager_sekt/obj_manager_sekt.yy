@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Sequences/sektants/objects.yy",
+    "path": "folders/Story/Cutscenes/sektants/objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -7,16 +7,13 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_environment_sounds","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"propertyId":{"name":"useSound","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"value":"snd_fountain",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":null,"propertyId":{"name":"useSound","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"value":"snd_fountain",},
   ],
   "parent": {
     "name": "Left",
     "path": "folders/Objects/Center/Left.yy",
   },
-  "parentObjectId": {
-    "name": "obj_environment_sounds",
-    "path": "objects/obj_environment_sounds/obj_environment_sounds.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

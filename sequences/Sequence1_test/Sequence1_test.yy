@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "Day_2",
-    "path": "folders/Cutscene/Day_2.yy",
+    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
   },
   "playback": 0,
   "playbackSpeed": 5.0,

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cutscene",
-    "path": "folders/Cutscene.yy",
+    "name": "scena 5",
+    "path": "folders/Story/Cutscenes/scena 5.yy",
   },
   "parentObjectId": null,
   "persistent": false,

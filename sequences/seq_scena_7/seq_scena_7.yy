@@ -72,8 +72,8 @@
     "Keyframes": [],
   },
   "parent": {
-    "name": "snena 7",
-    "path": "folders/Sequences/snena 7.yy",
+    "name": "scena 7",
+    "path": "folders/Story/Cutscenes/scena 7.yy",
   },
   "playback": 1,
   "playbackSpeed": 5.0,

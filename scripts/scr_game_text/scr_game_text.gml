@@ -1392,6 +1392,37 @@ case "scena_5_5":
 break
 #endregion
 
+#region task1
+
+case "task1_npc1":
+	scr_text("Hallo cyka",1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+case "task1_npc2":
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_npc2_1"),2,spr_ic_afroYvasia_na, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_npc2_2"),1,spr_ic_afroYvasia_na, spr_ic_Ytopurok);
+break
+
+case "task1_babka1":
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_1, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka1"),1,spr_ic_Seller_1, spr_ic_Ytopurok);
+break
+
+case "task1_babka2":
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_2, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka2"),1,spr_ic_Seller_2, spr_ic_Ytopurok);
+break
+
+case "task1_babka3":
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_3, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka3"),1,spr_ic_Seller_3, spr_ic_Ytopurok);
+break
+
+case "task1_npc3":
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Anton, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_npc3"),1,spr_ic_Anton, spr_ic_Ytopurok);
+break
+#endregion
 
 
 case "4":

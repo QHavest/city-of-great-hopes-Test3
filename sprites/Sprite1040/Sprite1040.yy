@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Other",
-    "path": "folders/Sequences/scena 9/Sprites/Other.yy",
+    "path": "folders/Story/Cutscenes/scena 9/Sprites/Other.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

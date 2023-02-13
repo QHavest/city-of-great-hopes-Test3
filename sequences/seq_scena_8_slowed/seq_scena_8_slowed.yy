@@ -53,7 +53,7 @@
   },
   "parent": {
     "name": "scena 8",
-    "path": "folders/Sequences/scena 8.yy",
+    "path": "folders/Story/Cutscenes/scena 8.yy",
   },
   "playback": 0,
   "playbackSpeed": 4.0,

@@ -9,3 +9,4 @@ global.rezolution = 2;
 global.master = 0.5;
 global.LANGUAGE = "eng";
 global.sequence = 0;
+global.task = 0;
