@@ -2,7 +2,7 @@
 if(battle_start = true){
 	instance_deactivate_object(obj_inventory);
 	draw_sprite_ext(Sprite1041, 0, 0, 0,0.1,1.5,0,c_black,1);
-	draw_sprite(spr_battleI, 0, gui_W/100, gui_H/100);
+	draw_sprite(spr_battleI, 0, gui_W/100, gui_H/107);
 
 	var maxs = global.MaxHp;
 	draw_text(0,0,maxs)
@@ -84,7 +84,7 @@ if(battle_start = true){
 	}
 	///////////////Діалоги
 	if(BDialogue = true){
-		if(enemies = ENEMY.Torchky){
+		if(enemies = ENEMY.Narkomany){
 		draw_set_font(font_azariya_textbox)
 		draw_text_ext_color(gui_W/3.6, gui_H/1.65, dia_torchky[1][0], stringHeight_torchky, 800, varcol[1], varcol[1], varcol[1], varcol[1], 1);
 		draw_text_ext_color(gui_W/3.6, gui_H/1.40, dia_torchky[2][0], stringHeight_torchky, 800, varcol[2], varcol[2], varcol[2], varcol[2], 1);

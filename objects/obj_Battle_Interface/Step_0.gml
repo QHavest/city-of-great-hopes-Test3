@@ -279,7 +279,7 @@ if(system = 2) {
 ///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
 
 if(BDialogue = true){
-
+	instance_destroy(obj_wait);
 	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down) and alarm[2] < 1){
 		button_c++;
 		varcol[button_c-1] = c_gray;
@@ -306,7 +306,7 @@ if(BDialogue = true){
 		button[2] = "D";
 	}
 	///////ШАНСИ НА РІШЕННЯ В ДІАЛОЗІ
-	if(enemies = ENEMY.Torchky){
+	if(enemies = ENEMY.Narkomany){
 		if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
