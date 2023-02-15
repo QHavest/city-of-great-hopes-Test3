@@ -19,9 +19,7 @@
     {"name":"inst_655A2424","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_6FDEF1B2","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_4B5C8359","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
-    {"name":"inst_6CBB391C","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_70E9F36D","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
-    {"name":"inst_600388C1","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_345F0B16","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_20D5F690","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_718F4EDE","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
@@ -50,6 +48,9 @@
     {"name":"inst_63690E2D","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_CDBD1B4","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_1EC8228F","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_A0D62C1","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_600388C1","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_6CBB391C","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -91,6 +92,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B588C05","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"properties":[],"rotation":0.0,"scaleX":0.625,"scaleY":0.625,"x":386.0,"y":99.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CDBD1B4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mp_open","path":"objects/obj_mp_open/obj_mp_open.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":945.0,"y":114.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EC8228F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[],"rotation":0.0,"scaleX":1.375,"scaleY":1.3125,"x":301.0,"y":166.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A0D62C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bomz_lavka","path":"objects/obj_bomz_lavka/obj_bomz_lavka.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":424.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23422B2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rival_seller1","path":"objects/obj_rival_seller1/obj_rival_seller1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":813.0,"y":83.0,},
