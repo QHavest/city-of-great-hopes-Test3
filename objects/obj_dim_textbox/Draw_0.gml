@@ -220,7 +220,7 @@ if snd_count < snd_delay{
 				global.dialog_end = 1;
 				if please_shop_open=1 	scr_shop_open(shop_name);
 			}
-			instance_destroy(obj_pauser);
+			//instance_destroy(obj_pauser);
 			instance_destroy();}
 		}	
 	else {

@@ -15,10 +15,10 @@ if(status = STATUS.ACTIVE){
 	hsp = directx*spd;
 	vsp = directy*walkspd*0.5;
 	
-	if instance_exists(obj_pauser){
-		hsp = 0;
-		vsp = 0;
-	}
+//	if instance_exists(obj_pauser){
+//		hsp = 0;
+//		vsp = 0;
+//	}
 	if (!in_sequence){
 	x += hsp
 	y -= vsp

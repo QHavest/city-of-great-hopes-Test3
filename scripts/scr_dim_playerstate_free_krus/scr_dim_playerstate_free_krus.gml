@@ -12,10 +12,10 @@ if(status = STATUS.ACTIVE){
 
 	hsp = directx*spd;
 	vsp = directy*spd*0.5;
-	if instance_exists(obj_pauser){
-		hsp = 0;
-		vsp = 0;
-	}
+//	if instance_exists(obj_pauser){
+//		hsp = 0;
+//		vsp = 0;
+//	}
 	x += hsp
 	y -= vsp
 

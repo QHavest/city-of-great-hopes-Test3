@@ -19,7 +19,7 @@ ysd = 0;
 audio_play_sound(sound,1,1);*/
 
 state=PLAYERSTATE.FREE;
-hitByAttack = ds_list_create();
+//hitByAttack = ds_list_create();
 
 
 //Частина 1 системи слідкування за героєм
