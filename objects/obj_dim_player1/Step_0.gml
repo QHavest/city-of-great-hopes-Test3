@@ -6,6 +6,7 @@ if (global.shop or !global.dialog_end or global.map or !global.dialogue_move) {
 	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
+	global.dialogue_move = false;
 } 
 //система зміни статусу гравця
 if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
@@ -17,11 +18,11 @@ switch(status){
 }
 
 ///////////////////////////////////////////////////////////////////////////////
-//if(place_meeting(x, y, obj_dialog_start) and keyboard_check_pressed(ord("Q")) or global.dialogue_move = true){
-//	global.dialogue_move = true;
-//	xsd = inst_28953189.x+20;
-//	ysd = inst_28953189.y+2;
-//}
+if(place_meeting(x, y, obj_dialog_start) and !global.dialog_end or global.dialogue_move = true){
+	global.dialogue_move = true;
+	xsd = inst_28953189.x+20;
+	ysd = inst_28953189.y+2;
+}
 if (global.dialogue_move = true){
 	status = STATUS.PASSIVE;
 	mp_linear_step(xsd, ysd, 2, false);	

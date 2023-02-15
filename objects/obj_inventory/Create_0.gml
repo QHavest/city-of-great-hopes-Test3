@@ -101,12 +101,13 @@ enum item{
 	zolotoi_certificat	= 50,
 	platynovui_certificat = 51,
 	diamantovyi_certificat = 52,
-	ticket_kasa			=	54,
+	ticket_kasa			=	53,
+	ticket_loto			=	54,
 	height				= 55,
 }
 	
 global.ds_inventory[# 0, 1] = 1;
-global.ds_inventory[# 0, 2] = 39;
+global.ds_inventory[# 0, 2] = 54;
 global.ds_inventory[# 0, 9] = 53;
 
 #endregion

@@ -164,7 +164,17 @@ case "Lotereia":
 		scr_option(scr_json_lang(global.LANGUAGE,"Loto2"),"4");
 break	
 		case "Yes_loto":
-		// скрипт покупки лотерейних квитків
+		if(global.money >= 0.5) {
+for (var i = 0; i < 11; i++){
+	if(global.ds_inventory[# 0, i] = 0){
+		global.ds_inventory[# 0, i] = 54;
+		global.money -= 0.5;
+		audio_play_sound(snd_op_accept,5,0,global.System_gain);
+		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
+		break;
+		}
+	}
+}	
 		break
 #endregion
 #region (Vasia) 
