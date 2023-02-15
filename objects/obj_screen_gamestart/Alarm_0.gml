@@ -44,6 +44,8 @@ switch(obj_Battle_Interface.phase_battle){
 				instance_create_depth(480,416,-300,obj_mini_krus);
 				obj_background_mini.index_minigame_back = 3;
 				instance_activate_object(obj_mini_avatar);
+				obj_mini_avatar.x = 960;
+				obj_mini_avatar.y = 900;
 				obj_mini_avatar.index_avatar = 4;
 			break;
 			case ALIES.Ytopurok_mini:
@@ -57,20 +59,7 @@ switch(obj_Battle_Interface.phase_battle){
 			}	
 	break;
 }
-/*
-	case ENEMY.Ytopurok_mini :
-		instance_activate_object(obj_mini_ytopur);
-		obj_background_mini.index_minigame_back = 3;
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 3;
-	break;
-	case ENEMY.Krus_mini :
-		instance_create_depth(480,416,-300,obj_mini_krus);
-		obj_background_mini.index_minigame_back = 3;
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 4;
-	break;*/
-		
+
 		
 		
 	

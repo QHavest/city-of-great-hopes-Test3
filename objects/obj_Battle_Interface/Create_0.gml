@@ -18,6 +18,9 @@ luck = irandom_range(0, 100);
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
+target_x = 0;
+target_y = 0;
+
 target_rm = room;
 amount_hp_enemy = 96;
 //damage_enemy = 0;

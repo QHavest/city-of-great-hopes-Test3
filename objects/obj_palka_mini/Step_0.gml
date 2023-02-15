@@ -5,6 +5,6 @@ if (place_meeting(x,y-5,obj_mini_avatar)){
 instance_destroy();
 } 
 
-if (y = 1025){
+if (y = 1010){
 instance_destroy();
 }

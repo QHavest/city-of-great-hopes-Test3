@@ -13,10 +13,10 @@ y += spd
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+//vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 x += hInput * 15;
-y += vInput * 15;
+//y += vInput * 15;
 }
 #region ходьба по клітинкам СРСР Кавказці
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci and obj_Battle_Interface.phase_battle = PHASES.Atack){

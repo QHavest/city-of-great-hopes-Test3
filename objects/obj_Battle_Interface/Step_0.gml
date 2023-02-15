@@ -4,60 +4,51 @@ if(keyboard_check_pressed(ord("B"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Kavkazci
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
-	if (room != Room61) room_goto(Room61);
-
 }
-/*if(keyboard_check_pressed(ord("Q")) and battle_start = true){
-	//instance_activate_object(obj_dim_player1);
-	//instance_activate_object(obj_dim_player2);
-	battle_start = !battle_start;
-	room_goto(rm_street_first_side);
-	instance_deactivate_object(obj_Battle_Interface);
-	}*/
-//alarm[1] -= 1;
-
 if(keyboard_check_pressed(ord("C"))){
-	battle_start = !battle_start;
+	battle_start = true;;
 	enemies = ENEMY.Narkomany
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	audio_play_sound(dor_sound,5,0,global.player_gain);
 	room_goto(Room61);
-} else if (!battle_start = battle_start)
-{room_goto(rm_south);}
+}
 
 if(keyboard_check_pressed(ord("P"))){
 	battle_start = !battle_start;
 	enemies = ENEMY.Sectants
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
-} else if (!battle_start = battle_start)
-{room_goto(rm_south);}
+}
 if(keyboard_check_pressed(ord("O"))){
 	battle_start = !battle_start;
-	//mini_game = true;
 	enemies = ENEMY.Hopniki
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
-} else if (!battle_start = battle_start)
-{room_goto(rm_south);}
+}
 
 if(mini_game = true){
 	dialogue_was = false;
 }
 if (!battle_start) exit;
 if (battle_start = true and mini_game = false){
-		//mini_game = true;
-	
 		}else if (battle_start = false and mini_game = false){
 			instance_activate_object(obj_dim_player1);
 			instance_activate_object(obj_dim_player2);
-		}/*else if (mini_game = true and battle_start = true){
-		instance_activate_object(obj_mini_avatar);
-		obj_mini_avatar.index_avatar = 0;
-		instance_activate_object(obj_sssr);
-		}*/
-//alarm[1] -= 1;
-
+		}
+if (battle_start = true and keyboard_check_pressed(ord("F")))
+{		room_goto(target_rm);
+		battle_start = false;
+		if obj_dim_player1.status = STATUS.ACTIVE
+		{
+			target_x = obj_dim_player1.x;
+			target_y = obj_dim_player1.y;
+		}
+		else
+		{
+			target_x = obj_dim_player2.x;
+			target_y = obj_dim_player2.y;
+		}
+	}
 
 alarm[1] -= 1;
 alarm[2] -= 2;
