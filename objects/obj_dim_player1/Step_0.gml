@@ -7,6 +7,7 @@ if (global.shop or !global.dialog_end or global.map or !global.dialogue_move) {
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 	global.dialogue_move = false;
+	in_place = 0;
 } 
 //система зміни статусу гравця
 if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
@@ -20,15 +21,31 @@ switch(status){
 ///////////////////////////////////////////////////////////////////////////////
 
 if (global.dialogue_move = true){
-	status = STATUS.PASSIVE;
-	mp_linear_step(xsd, ysd, 2, false);	
-	if ( x = xsd and y = ysd  ) {    
-	if sprite_index != spr_dim_Ytopurok_stay_l 
+	if status = STATUS.ACTIVE
 	{
-		scr_create_textbox(global.text_id);
-	}	
-	sprite_index = spr_dim_Ytopurok_stay_l;
-	} 
+	status = STATUS.PASSIVE;
+	last_active=true;
+	}
+	mp_linear_step(xsd, ysd, 2, false);	
+		if ( x = xsd and y = ysd  )
+		{    
+		if in_place = 0	{
+		in_place = 1;
+		// x = xsd;
+		// y = ysd;
+		//napriam = obj_dialog_start.n1
+		}
+		//поки чекає іншого
+		if napriam = "r" lastmove=0;
+		else lastmove=1;
+		sprite_index = asset_get_index("spr_dim_Ytopurok_stay_"+napriam);//spr_dim_Ytopurok_stay_l;
+}
+			
+}
+else if last_active = true and global.dialog_end
+{
+status = STATUS.ACTIVE;
+last_active = 0;
 }
 
 

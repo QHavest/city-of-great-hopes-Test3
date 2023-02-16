@@ -10,6 +10,8 @@ status = STATUS.PASSIVE;
 s_walk = snd_walk;
 
 sprit = "Krus";
+in_place = 0;
+last_active = 0;
 
 xsd = 0;
 ysd = 0;

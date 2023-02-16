@@ -56,7 +56,7 @@
     ],
     "top": 0,
   },
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "Ytopurok",
     "path": "folders/Sprites/Ytopurok.yy",
@@ -102,7 +102,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 13,
+    "xorigin": 11,
     "yorigin": 58,
   },
   "swatchColours": null,

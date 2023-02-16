@@ -10,6 +10,8 @@ xsd = 0;
 ysd = 0;
 
 sprit = "ytopurok";
+in_place = 0;
+last_active = 0;
 
 
 

@@ -29,7 +29,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"n1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"l\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"n2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"r\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"x1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"20","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"x2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-20","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"y1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"2","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"y2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"2","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_woi_invisible_wall_1",
