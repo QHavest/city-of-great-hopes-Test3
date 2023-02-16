@@ -349,7 +349,6 @@
     {"name":"spr_trigger_perm","order":13,"path":"sprites/spr_trigger_perm/spr_trigger_perm.yy",},
     {"name":"spr_lamp_home2","order":4,"path":"sprites/spr_lamp_home2/spr_lamp_home2.yy",},
     {"name":"obj_trucks_open","order":7,"path":"objects/obj_trucks_open/obj_trucks_open.yy",},
-    {"name":"obj_pauser","order":23,"path":"objects/obj_pauser/obj_pauser.yy",},
     {"name":"spr_home_gg_inside_bad","order":7,"path":"sprites/spr_home_gg_inside_bad/spr_home_gg_inside_bad.yy",},
     {"name":"spr_tree_south3","order":3,"path":"sprites/spr_tree_south3/spr_tree_south3.yy",},
     {"name":"spr_suvenir_night","order":2,"path":"sprites/spr_suvenir_night/spr_suvenir_night.yy",},

@@ -3,7 +3,6 @@
 if(status = STATUS.ACTIVE){
 	if (move == 0 ) spd = walkspd;
 	else spd = runspd;
-
 	directx = keyr - keyl; 
 	directy = keyup - keydown;
 	//directxy -= directxy - directx ;

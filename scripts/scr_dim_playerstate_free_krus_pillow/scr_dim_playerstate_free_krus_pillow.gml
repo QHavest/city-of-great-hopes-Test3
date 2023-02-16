@@ -12,10 +12,7 @@
 
 	hsps = directxs*spds;
 	vsps = directys*spds*0.5;
-	/*if instance_exists(obj_pauser){
-		hsps = 0;
-		vsps = 0;
-	}*/
+
 	x += hsps
 	y -= vsps
 

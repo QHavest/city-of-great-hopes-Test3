@@ -406,7 +406,6 @@
     {"id":{"name":"spr_kitchen_bath","path":"sprites/spr_kitchen_bath/spr_kitchen_bath.yy",},"order":0,},
     {"id":{"name":"spr_lamp_home2","path":"sprites/spr_lamp_home2/spr_lamp_home2.yy",},"order":4,},
     {"id":{"name":"obj_trucks_open","path":"objects/obj_trucks_open/obj_trucks_open.yy",},"order":7,},
-    {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},"order":23,},
     {"id":{"name":"spr_home_gg_inside_bad","path":"sprites/spr_home_gg_inside_bad/spr_home_gg_inside_bad.yy",},"order":7,},
     {"id":{"name":"spr_tree_south3","path":"sprites/spr_tree_south3/spr_tree_south3.yy",},"order":3,},
     {"id":{"name":"spr_suvenir_night","path":"sprites/spr_suvenir_night/spr_suvenir_night.yy",},"order":2,},

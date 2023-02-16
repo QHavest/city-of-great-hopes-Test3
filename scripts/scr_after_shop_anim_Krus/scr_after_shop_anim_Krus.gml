@@ -6,7 +6,7 @@ if lastmove = 0 sprite_index = spr_buy_Krus_bakery_R;
 else sprite_index = spr_buy_Krus_bakery;
 x = posX[0];
 y = posY[0];
-if (image_index >= image_number - 1){
+if (image_index >= image_number - 2){
 	global.item_bought = false;
 	state = PLAYERSTATE.FREE;
 	status = STATUS.ACTIVE;
