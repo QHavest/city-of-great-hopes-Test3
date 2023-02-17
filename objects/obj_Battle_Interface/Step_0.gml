@@ -50,23 +50,7 @@ if (battle_start = true and keyboard_check_pressed(ord("F")))
 			target_y = obj_dim_player2.y;
 		}
 	}
-	if (battle_start = false and game_over_mini = true)
-	{	
-		show_debug_message("Test huinni")
-		room_goto(target_rm);
-		//battle_start = false;
-		game_over_mini = false;
-		if obj_dim_player1.status = STATUS.ACTIVE
-		{
-			target_x = obj_dim_player1.x;
-			target_y = obj_dim_player1.y;
-		}
-		else
-		{
-			target_x = obj_dim_player2.x;
-			target_y = obj_dim_player2.y;
-		}
-	}
+	
 	
 
 alarm[1] -= 1;
