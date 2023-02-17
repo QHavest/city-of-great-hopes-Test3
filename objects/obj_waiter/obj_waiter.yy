@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_waiter",
-    "path": "sprites/spr_waiter/spr_waiter.yy",
+    "name": "spr_waiter_wait_L",
+    "path": "sprites/spr_waiter_wait_L/spr_waiter_wait_L.yy",
   },
   "spriteMaskId": null,
   "visible": true,

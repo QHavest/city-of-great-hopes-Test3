@@ -34,7 +34,7 @@
   "origin": 7,
   "parent": {
     "name": "NPC",
-    "path": "folders/Sprites/Center/Left/Hotel/NPC.yy",
+    "path": "folders/Sprites/Center/NPC.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
