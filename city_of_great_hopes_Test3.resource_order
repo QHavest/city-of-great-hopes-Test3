@@ -164,6 +164,7 @@
     {"name":"Shaders","order":2,"path":"folders/Shaders.yy",},
     {"name":"Sequences","order":1,"path":"folders/Shaders/Sequences.yy",},
     {"name":"Shopping","order":22,"path":"folders/Shopping.yy",},
+    {"name":"Animation","order":3,"path":"folders/Shopping/Animation.yy",},
     {"name":"Shopping_spr_ENG","order":1,"path":"folders/Shopping/Shopping_spr_ENG.yy",},
     {"name":"bakery","order":1,"path":"folders/Shopping/Shopping_spr_ENG/bakery.yy",},
     {"name":"dinery","order":2,"path":"folders/Shopping/Shopping_spr_ENG/dinery.yy",},
@@ -263,7 +264,6 @@
     {"name":"Weather","order":25,"path":"folders/Sprites/Weather.yy",},
     {"name":"Ytopurok","order":3,"path":"folders/Sprites/Ytopurok.yy",},
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
-    {"name":"Animation","order":3,"path":"folders/Shopping/Animation.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},

@@ -27,4 +27,5 @@ else if(playernum == 1){
 	if (move == 1) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, obj_invisiblewall);
 
 }
+
 }

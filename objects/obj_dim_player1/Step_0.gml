@@ -1,12 +1,11 @@
 //УТОПИРОК
 //якщо магазин або діалог відкритий, гравець нерухомий
 
-if (global.shop or !global.dialog_end or global.map or !global.dialogue_move) {
-	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+if (global.shop or !global.dialog_end or global.map) {
+	//if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+	//else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
-	global.dialogue_move = false;
 	in_place = 0;
 } 
 //система зміни статусу гравця
@@ -20,28 +19,38 @@ switch(status){
 
 ///////////////////////////////////////////////////////////////////////////////
 
+///////?//////////////////////////////?///////////////////
 if (global.dialogue_move = true){
+	// зпам'ятовування статуса + звуки
 	if status = STATUS.ACTIVE
 	{
 	status = STATUS.PASSIVE;
-	last_active=true;
+	last_active=true;	
 	}
-	mp_linear_step(xsd, ysd, 2, false);	
-		if ( x = xsd and y = ysd  )
-		{    
-		if in_place = 0	{
-		in_place = 1;
-		// x = xsd;
-		// y = ysd;
-		//napriam = obj_dialog_start.n1
+	// переміщення у задані координати із заданою швидкістю
+	mp_linear_step(xsd, ysd, 2, false);
+	// при досягненні визначеної координати
+	if ( x = xsd and y = ysd  ) 
+	{
+		if in_place = 0
+		{
+			in_place = 1;
+			xprevious = x; // для коректної анімації стояння
 		}
-		//поки чекає іншого
+		
+		// задання напрямку стояння
 		if napriam = "r" lastmove=0;
 		else lastmove=1;
-		sprite_index = asset_get_index("spr_dim_Ytopurok_stay_"+napriam);//spr_dim_Ytopurok_stay_l;
-}
-			
-}
+	}
+	// звуки ходьби
+	else if !in_place
+	{
+		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
+		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	}
+	
+}	
+// відновлення ативного статусу після закінчення діалогу
 else if last_active = true and global.dialog_end
 {
 status = STATUS.ACTIVE;
@@ -50,6 +59,10 @@ last_active = 0;
 
 
 ///////////////////////////////////////////////////////////////////////////////
+switch(state){
+	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();			break;
+ } 
 
 
 //анімація покупки
@@ -59,10 +72,8 @@ if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false
 	status = STATUS.PASSIVE;
 }
 
-switch(state){
-	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
-	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();			break;
- } 
+
+
 
 
 //система записування координат проходження

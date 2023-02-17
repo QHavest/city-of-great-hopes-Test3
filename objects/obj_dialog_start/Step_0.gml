@@ -4,10 +4,9 @@ if  ((place_meeting(x, y, obj_dim_player1) or place_meeting(x, y, obj_dim_player
 }
 else drowings = false;
 
-if obj_dim_player1.in_place and obj_dim_player2.in_place and global.dialog_end and !global.shop
-{
-scr_create_textbox(global.text_id);
-}
+
+
+
 //запуск переіщення
 	if keyboard_check_pressed(ord("E")) and global.dialog_end and !global.shop  and  drowings = true
 	{

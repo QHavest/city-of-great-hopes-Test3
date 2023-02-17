@@ -52,7 +52,7 @@ if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("s
 lastmove = 1;}
 
 //if(global.dialogue_move = false){
-//	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-//	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 //}	
 }
