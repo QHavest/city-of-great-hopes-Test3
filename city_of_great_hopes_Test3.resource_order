@@ -265,6 +265,7 @@
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
     {"name":"Enemy","order":9,"path":"folders/Battle_system/MiniGames/Enemy.yy",},
     {"name":"HP_Bar","order":1,"path":"folders/Battle_system/MiniGames/Enemy/HP_Bar.yy",},
+    {"name":"WC","order":28,"path":"folders/Sprites/Rival Station/Indoor/WC.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},
@@ -1464,6 +1465,7 @@
     {"name":"spr_contyr_1","order":1,"path":"sprites/spr_contyr_1/spr_contyr_1.yy",},
     {"name":"spr_dumb_s_h","order":11,"path":"sprites/spr_dumb_s_h/spr_dumb_s_h.yy",},
     {"name":"sp_homunkul_eng","order":1,"path":"sprites/sp_homunkul_eng/sp_homunkul_eng.yy",},
+    {"name":"rm_wc_rival","order":8,"path":"rooms/rm_wc_rival/rm_wc_rival.yy",},
     {"name":"obj_woi_invisible_dumb2","order":12,"path":"objects/obj_woi_invisible_dumb2/obj_woi_invisible_dumb2.yy",},
     {"name":"spr_Police_Boss_drink","order":1,"path":"sprites/spr_Police_Boss_drink/spr_Police_Boss_drink.yy",},
     {"name":"spr_settings2_eng","order":17,"path":"sprites/spr_settings2_eng/spr_settings2_eng.yy",},

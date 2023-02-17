@@ -298,6 +298,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Battle_system/MiniGames/Enemy.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HP_Bar","folderPath":"folders/Battle_system/MiniGames/Enemy/HP_Bar.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WC","folderPath":"folders/Sprites/Rival Station/Indoor/WC.yy","order":0,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"savedata_eng.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -1693,6 +1694,7 @@
     {"id":{"name":"spr_dumb_s_h","path":"sprites/spr_dumb_s_h/spr_dumb_s_h.yy",},"order":11,},
     {"id":{"name":"obj_lamp_scena_9","path":"objects/obj_lamp_scena_9/obj_lamp_scena_9.yy",},"order":0,},
     {"id":{"name":"sp_homunkul_eng","path":"sprites/sp_homunkul_eng/sp_homunkul_eng.yy",},"order":1,},
+    {"id":{"name":"rm_wc_rival","path":"rooms/rm_wc_rival/rm_wc_rival.yy",},"order":0,},
     {"id":{"name":"obj_woi_invisible_dumb2","path":"objects/obj_woi_invisible_dumb2/obj_woi_invisible_dumb2.yy",},"order":12,},
     {"id":{"name":"spr_Police_Boss_drink","path":"sprites/spr_Police_Boss_drink/spr_Police_Boss_drink.yy",},"order":1,},
     {"id":{"name":"spr_settings2_eng","path":"sprites/spr_settings2_eng/spr_settings2_eng.yy",},"order":17,},
@@ -1846,6 +1848,7 @@
     {"id":{"name":"spr_truck_closeds_night","path":"sprites/spr_truck_closeds_night/spr_truck_closeds_night.yy",},"order":2,},
     {"id":{"name":"obj_menu_backgraund_1","path":"objects/obj_menu_backgraund_1/obj_menu_backgraund_1.yy",},"order":6,},
     {"id":{"name":"spr_great_hopes_city_eng","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},"order":7,},
+    {"id":{"name":"spr_wc_rival","path":"sprites/spr_wc_rival/spr_wc_rival.yy",},"order":0,},
     {"id":{"name":"obj_telephone_budka","path":"objects/obj_telephone_budka/obj_telephone_budka.yy",},"order":13,},
     {"id":{"name":"obj_warp_block_1","path":"objects/obj_warp_block_1/obj_warp_block_1.yy",},"order":26,},
     {"id":{"name":"spr_man_6_walk_L","path":"sprites/spr_man_6_walk_L/spr_man_6_walk_L.yy",},"order":0,},
@@ -2783,6 +2786,7 @@
     {"roomId":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
     {"roomId":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
     {"roomId":{"name":"Room61","path":"rooms/Room61/Room61.yy",},},
+    {"roomId":{"name":"rm_wc_rival","path":"rooms/rm_wc_rival/rm_wc_rival.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":1,"compressFormat":"png","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},

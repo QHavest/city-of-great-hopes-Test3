@@ -50,6 +50,7 @@
     {"name":"inst_63690E2D","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_CDBD1B4","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_1EC8228F","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_2C933397","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -101,6 +102,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_128F8CB4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.65,"scaleY":0.16000001,"x":652.5,"y":101.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A79BB31","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.66,"scaleY":0.16999999,"x":654.0,"y":174.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BDEC0B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door_to_indor_rival","path":"objects/obj_door_to_indor_rival/obj_door_to_indor_rival.yy",},"properties":[],"rotation":0.0,"scaleX":0.71,"scaleY":0.15,"x":651.5,"y":97.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C933397","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.79,"scaleY":0.16,"x":1251.5,"y":141.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_indoor_rival","path":"sprites/spr_indoor_rival/spr_indoor_rival.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

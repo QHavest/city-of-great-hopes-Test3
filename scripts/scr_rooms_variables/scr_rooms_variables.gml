@@ -65,6 +65,15 @@ case rm_indoor_rival_station :
 	case 4: break
 	}
 break
+case rm_wc_rival :
+	switch(name)
+	{	
+	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
 case rm_street_first_side :	
 	switch(name)
 	{	
