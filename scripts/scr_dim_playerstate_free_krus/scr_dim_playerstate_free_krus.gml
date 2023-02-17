@@ -11,13 +11,16 @@ if(status = STATUS.ACTIVE){
 
 	hsp = directx*spd;
 	vsp = directy*spd*0.5;
+	
 //	if instance_exists(obj_pauser){
 //		hsp = 0;
 //		vsp = 0;
 //	}
+
+	if (!in_sequence){
 	x += hsp
 	y -= vsp
-
+	}
 	//горизонтальна колізія
 	if(place_meeting(x + hsp, y, obj_invisiblewall)){
 		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
@@ -48,8 +51,8 @@ if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_lef
 if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
 lastmove = 1;}
 
-if(global.dialogue_move = false){
-	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
-}	
+//if(global.dialogue_move = false){
+//	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+//	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+//}	
 }
