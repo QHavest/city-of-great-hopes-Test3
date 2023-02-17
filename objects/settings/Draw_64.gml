@@ -3,6 +3,8 @@
 esc_pau = keyboard_check_pressed(vk_escape);
 
 if (global.pause){
+	
+draw_sprite(screenshot, 0, 0, 0);
 var gwidth = global.view_width, gheight = global.view_height;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
@@ -240,12 +242,23 @@ switch(menu_pages[page])
 	break;
 }
 
-if(menu_pages[page] == ds_settings or menu_pages[page] == ds_savings)
+if(menu_pages[page] == ds_savings)
+{
+		var yy2 = 0; repeat (ds_height2){
+		lty = start_y2 + (yy2*y_buffer_menu);
+		if(yy2 == 1) {a = scr_buttons(ds_grid2[# 0, yy2]);}
+		else {a = ds_grid2[# 0, yy2];}
+		draw_sprite_ext(a,0,ltx+242,lty+319,1,1,0,c_white,1); //кнопки menu
+		yy2++;
+
+	}
+}
+
+if(menu_pages[page] == ds_settings)
 {
 		var yy2 = 0; repeat (ds_height2){
 		lty = start_y2 + (yy2*y_buffer_menu);
 		if(yy2 == 2) {a = scr_buttons(ds_grid2[# 0, yy2]);}
-		if(yy2 == 1) {a = scr_buttons(ds_grid2[# 0, yy2]);}
 		else {a = ds_grid2[# 0, yy2];}
 		draw_sprite_ext(a,0,ltx+242,lty+319,1,1,0,c_white,1); //кнопки menu
 		yy2++;
@@ -336,6 +349,8 @@ if (esc_pau) and !global.map and !global.shop
 		global.pause = !global.pause;
 		inputting = false;
 		//if(!global.pause) exit;
+		screenshot = sprite_create_from_surface(application_surface,0,0,
+														global.screen_width,global.screen_height,0,0,0,0);
 		instance_deactivate_all(true);
 		instance_activate_object(obj_loading);
 		instance_activate_object(music_room);

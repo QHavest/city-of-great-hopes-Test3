@@ -4,13 +4,14 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	//scr_music_fon_change()
-	with(music_room)
-	{
-		audio_stop_sound(snd_center);
-		new_sound = noone;
-	}
-	audio_play_sound(snd_street, 1, 1);
+	start = 1;
+	scr_music_fon_change("snd_street");
+	//with(music_room)
+	//{
+	//	audio_stop_sound(snd_center);
+	//	new_sound = noone;
+	//}
+	//audio_play_sound(snd_street, 1, 1);
 	volume = 0;
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
@@ -49,6 +50,8 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog2":
 	pause = true;
 	scr_create_textbox("scena_7_2");
+	audio_stop_sound(snd_svust);
+	instance_deactivate_object(obj_svust);
 	
 	break;
 	
@@ -61,6 +64,7 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog4":
 	pause = true;
 	scr_create_textbox("scena_7_4");
+	scr_music_fon_change("snd_mandarun");
 	
 	break;
 	
@@ -85,7 +89,7 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog6":
 	pause = true;
 	scr_create_textbox("scena_7_6");
-	
+	scr_music_fon_change(noone);
 	break;
 	
 	case "mandarun_stop_sound":

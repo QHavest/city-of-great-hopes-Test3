@@ -141,3 +141,4 @@ var i = 0, array_len = array_length_1d(menu_pages);
 rez_act = global.rezolution;
 fullscreen = global.fullscreen;
 settings_savings = true;
+screenshot = 0;

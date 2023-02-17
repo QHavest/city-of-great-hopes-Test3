@@ -31,7 +31,7 @@ var yy = 0; repeat (ds_height){
 		xo = -(x_buffer/2);
 		//draw_sprite_ext(spr_pause_menu,0,ltx+200/*-90*/, lty+450,1.3,1.1,0,c_white,1);
 	}
-	draw_sprite_ext(spr_pause_menu,0,ltx+140/*-90*/, lty+365,2.3,2.3,0,c_white,1); //кнопки
+	draw_sprite_ext(spr_pause_menu_new,0,ltx+140/*-90*/, lty+365,2.3,2.3,0,c_white,1); //кнопки
 	draw_text_color(ltx+xo+425, lty+365, ds_grid[# 0, yy], c, c, c, c, 1);
 	yy++;
 }

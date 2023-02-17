@@ -2,4 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function scr_change_music_vol(){
 	global.Fon_sound_gain = argument0;
+	with(music_room)
+	{
+		audio_sound_gain(new_sound, global.Fon_sound_gain, gain_increase);
+	}
 }

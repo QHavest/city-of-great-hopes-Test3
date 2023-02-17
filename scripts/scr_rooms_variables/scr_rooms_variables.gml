@@ -10,6 +10,37 @@
 function scr_rooms_variables(r, name){
 switch(r)
 		{
+			
+case noone:	
+	switch(name)
+	{	
+	case 1: return noone  break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
+
+case "snd_street":	
+	switch(name)
+	{	
+	case 1: return snd_street  break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
+
+case "snd_mandarun":	
+	switch(name)
+	{	
+	case 1: return snd_street  break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
+
 case rm_main_menu:	
 	switch(name)
 	{	

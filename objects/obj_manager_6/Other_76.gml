@@ -4,7 +4,7 @@ if event_data [? "event_type"] == "sequence event"
   {
     case "camera1":
 	instance_deactivate_object(obj_sound_emmiter_3d);
-	//audio_stop_all();
+	scr_music_fon_change(noone);
 	obj_dim_player1.x = obj_player_1.x;
 	obj_dim_player1.y = obj_player_1.y;
 	
