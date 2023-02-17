@@ -12,7 +12,7 @@ if(pause == true)
 	}
 }
 
-if(in_sequence) audio_listener_set_position(0, obj_player_1_7.x, obj_player_1_7.y, 0);
+//if(in_sequence) audio_listener_set_position(0, obj_player_1_7.x, obj_player_1_7.y, 0);
 
 
 

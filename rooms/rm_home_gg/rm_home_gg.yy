@@ -62,7 +62,6 @@
     {"name":"inst_353882CA","path":"rooms/rm_home_gg/rm_home_gg.yy",},
     {"name":"inst_149F0D19","path":"rooms/rm_home_gg/rm_home_gg.yy",},
     {"name":"inst_307871C9","path":"rooms/rm_home_gg/rm_home_gg.yy",},
-    {"name":"inst_5CC300D9","path":"rooms/rm_home_gg/rm_home_gg.yy",},
     {"name":"inst_772A1C64","path":"rooms/rm_home_gg/rm_home_gg.yy",},
   ],
   "isDnd": false,
@@ -73,7 +72,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npc","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37150C89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sheva_alkash","path":"objects/obj_sheva_alkash/obj_sheva_alkash.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":816.0,"y":209.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_307871C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_task1_npc1","path":"objects/obj_task1_npc1/obj_task1_npc1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1674.0,"y":239.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5CC300D9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[],"rotation":0.0,"scaleX":1.6875,"scaleY":1.375,"x":1674.5,"y":239.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_772A1C64","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[],"rotation":0.0,"scaleX":5.104698,"scaleY":1.0625,"x":813.8376,"y":239.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

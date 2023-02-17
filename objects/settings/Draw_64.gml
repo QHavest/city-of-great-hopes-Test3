@@ -23,7 +23,15 @@ switch(global.task)
 	case 0: pause_spr = spr_pause_h; break;
 	case 1: 
 	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
-	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr;
+	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr
+	break;
+	case 2: 
+	if(global.LANGUAGE = "eng") pause_spr = spr_task2_eng;
+	if(global.LANGUAGE = "ua") pause_spr = spr_task2_ukr;
+	break;
+	case 3: 
+	if(global.LANGUAGE = "eng") pause_spr = spr_task3_eng;
+	if(global.LANGUAGE = "ua") pause_spr = spr_task3_ukr;
 	break;
 	
 }

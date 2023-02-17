@@ -101,6 +101,9 @@ if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 //if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
 //else time_pause = false;
 
+if(global.shop) time_pause = true;
+else time_pause = false;
+
 if(time_pause == true)
 {
 	instance_deactivate_object(obj_clock);
@@ -184,6 +187,8 @@ if (draw_daylight){
 		global.darknes = 0;
 		
 		image_index += 1;
+		with(obj_manager_8) {start = true;}
+		
 		
 	}else if (hours > phase.sunset and hours <= phase.sunset1 /*and visability = true*/){//захід
 		darks = [0.2, max_darkness]; 
@@ -202,6 +207,7 @@ if (draw_daylight){
 		image_index += 1;
 		
 		//seqDark = sequence_create(seq_dark);
+		with(obj_manager_8) {start = false;}
 		
 		
 	}else if (hours > phase.sunset1 and hours <= phase.nighttime/*and visability = true*/){//захід

@@ -122,12 +122,8 @@ if event_data [? "event_type"] == "sequence event"
 	//break;
 	
     case "delete":
-	audio_stop_sound(snd_street);
-	with(music_room)
-	{
-		new_sound = snd_center;
-		//audio_play_sound(snd_center, 1, 1);
-	}
+	global.task = 2;
+	//audio_stop_sound(snd_street);
 	//audio_stop_sound(snd_fountain);
 	//audio_stop_sound(snd_street);
 	obj_center_fontan.x = x1;
@@ -138,7 +134,7 @@ if event_data [? "event_type"] == "sequence event"
 	global.shop = false;
     layer_sequence_destroy(seq2);
 	scr_music_fon_change(room);
-	instance_destroy(obj_mandarun_sound);
+	//instance_destroy(obj_mandarun_sound);
 	room_restart();
     break;
   }

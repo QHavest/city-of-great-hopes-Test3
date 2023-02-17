@@ -8,7 +8,7 @@ var objInst5 = instance_find(obj_garage_4,0);
 var sequence = seq_scena_6;
 var layerName = "Instances_obj";
 
-global.sequence_play = true;
+global.shop = true;
 
 scr_music_fon_change(seq_scena_6);
 

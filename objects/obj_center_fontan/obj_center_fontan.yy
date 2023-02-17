@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":null,"propertyId":{"name":"useSound","path":"objects/obj_environment_sounds/obj_environment_sounds.yy",},"value":"snd_fountain",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":null,"propertyId":null,"value":"snd_fountain",},
   ],
   "parent": {
     "name": "Left",

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "sprites",
-    "path": "folders/Main Menu/Pause/sprites.yy",
+    "name": "Tasks",
+    "path": "folders/Story/Tasks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
