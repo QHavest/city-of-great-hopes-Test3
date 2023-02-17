@@ -119,7 +119,8 @@ switch(obj_Battle_Interface.enemies){
 	damage = 20;
 	break;
 	case ENEMY.Narkomany :
-	damage = 10;
+	//damage = 10;
+	damage = 50;
 
 	break;
 }
@@ -181,6 +182,12 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	
 	audio_play_sound(snd_defeat_sound,5,false);
 	instance_create_depth(490,570,-600,obj_gameover);
+	instance_destroy(obj_shprutz_dow1);
+	instance_destroy(obj_shprutz_up1);
+	instance_deactivate_object(obj_mini_avatar);
+	instance_deactivate_object(wall);
+	instance_destroy(obj_shprutz_parent);
+	obj_Battle_Interface.mini_game = false;
 	global.MaxHp = 100;
 }
 if (take_damage = true){

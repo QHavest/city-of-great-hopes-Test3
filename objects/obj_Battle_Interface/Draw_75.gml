@@ -14,7 +14,7 @@ if(battle_start = true){
 	draw_sprite(spr_red_l,  light_bi, gui_W/1.222, gui_H/2.40);
 	//instance_create_depth(0,0,-99999,obj_shprutz_dow1);
 	//кнопки
-	draw_sprite(spr_krus_zelen, 0, gui_W/1.41, gui_H/2.40);
+	//draw_sprite(spr_krus_zelen, 0, gui_W/1.41, gui_H/2.40);
 	
 }
 

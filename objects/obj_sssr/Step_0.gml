@@ -2,7 +2,7 @@
 alarm[0] -= 1;
 //alarm[1] -= 1;
 if (alarm[0] < 1){
-alarm[0] = random_range(60,120);
+alarm[0] = 60;
 val = irandom_range(0,3);
 strax = 1570;
 if (phases = 0){
