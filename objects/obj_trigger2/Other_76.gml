@@ -76,6 +76,7 @@ if event_data [? "event_type"] == "sequence event"
     obj_dim_player1.y = 250;
     obj_dim_player2.y = 250;
     global.shop = false;
+	global.task = 0.5;
     //global.sequence = 5;
     room_goto(rm_home_gg);
     break;

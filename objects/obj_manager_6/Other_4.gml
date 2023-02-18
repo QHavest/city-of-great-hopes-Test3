@@ -1,4 +1,4 @@
-if(global.sequence == 5)
+if(global.task == 0.5)
 {
 
 var playerInst1 = instance_find(obj_dim_player1,0);
