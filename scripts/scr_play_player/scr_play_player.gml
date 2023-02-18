@@ -48,9 +48,8 @@ view_set_visible(1, true);
 		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 		}
 	}
-
-if(!keyr and !keyl and !keyup and !keydown){
 // стап звуків коли стоїш 
+if(!keyr and !keyl and !keyup and !keydown){
 if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 }

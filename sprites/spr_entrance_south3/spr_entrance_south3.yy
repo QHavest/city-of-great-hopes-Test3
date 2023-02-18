@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a278c27b-9c7c-4307-a3d1-3187ed516def",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51f2fe84-3f0e-49cc-b05f-a79e865d8101",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 101,
+  "height": 104,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb18f9a5-dbe3-4706-8040-0f9891e8a899","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a278c27b-9c7c-4307-a3d1-3187ed516def","path":"sprites/spr_entrance_south3/spr_entrance_south3.yy",},},},"Disabled":false,"id":"11769a20-9d41-4182-99f5-8f3e0b4c1e06","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"51f2fe84-3f0e-49cc-b05f-a79e865d8101","path":"sprites/spr_entrance_south3/spr_entrance_south3.yy",},},},"Disabled":false,"id":"31c5b22f-dc7f-499c-bb7c-87cda0a204a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 89,
-    "yorigin": 50,
+    "xorigin": 98,
+    "yorigin": 52,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 179,
+  "width": 197,
 }

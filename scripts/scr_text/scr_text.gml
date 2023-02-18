@@ -11,7 +11,7 @@ op_sprw=0;
 last_free_space = 0;
 //please_shop_open =0;
 }
-
+//______________________________
 
 ///@param text
 ///@param active_speaker
@@ -33,6 +33,7 @@ if argument_count=5
 	shop_name=argument[4];
 }
 }
+//_____________________________
 
 ///@param option
 ///@param link_id
@@ -42,13 +43,14 @@ option_link_id[option_number] = _link_id;
 option_number++;
 
 }
+//_____________________________
 function scr_shop_open(name){
 instance_create_depth(obj_dim_player1.x,90,-9999,name)
 	name.shopOpen = true;
 	global.shop = true;
 
 }
-
+//_______________________________
 /// @param text_id
 function scr_create_textbox (_text_id){
 	

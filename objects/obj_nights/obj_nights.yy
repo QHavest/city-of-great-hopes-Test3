@@ -9,10 +9,7 @@
     "name": "Day_Night",
     "path": "folders/Day_Night.yy",
   },
-  "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

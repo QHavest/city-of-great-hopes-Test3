@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_swing_south3",
   "bbox_bottom": 29,
-  "bbox_left": 0,
-  "bbox_right": 87,
-  "bbox_top": 22,
+  "bbox_left": -1,
+  "bbox_right": 66,
+  "bbox_top": 26,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16987693-0e2a-4004-ba0f-3ca9abdd3d07",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54233ec5-14cd-4f0a-9e14-b8bfd6a14fc2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 30,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0fc5aa61-8fc2-434f-be17-c33b0ec6e1dc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2ac6c7a9-ec03-47db-8b8b-5c7ca4f26f51","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"16987693-0e2a-4004-ba0f-3ca9abdd3d07","path":"sprites/spr_swing_south3/spr_swing_south3.yy",},},},"Disabled":false,"id":"5404c7eb-b2b6-4fa3-8810-811904cdfe59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54233ec5-14cd-4f0a-9e14-b8bfd6a14fc2","path":"sprites/spr_swing_south3/spr_swing_south3.yy",},},},"Disabled":false,"id":"73292658-352c-42da-ba7a-eb81adacf5d7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

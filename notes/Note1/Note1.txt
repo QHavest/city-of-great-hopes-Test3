@@ -3,3 +3,15 @@
 "msg_hello"	: "Hello",
 "msg_intro"	: "This is English."
 }
+
+
+If(global.doalogue_move = true){
+if(status = Active){
+zminna = 1; 
+}
+}
+else if zminna = 1
+{
+status = active
+zminna = 0;
+}

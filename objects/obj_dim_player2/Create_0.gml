@@ -7,14 +7,21 @@ lastmove = 0
 //налаштування перемикання між персонажами 
 playernum = 2;
 status = STATUS.PASSIVE;
-sprit="Krus";
 s_walk = snd_walk;
+
+sprit = "Krus";
+in_place = 0;
+last_active = 0;
+
+xsd = 0;
+ysd = 0;
+
 
 /*sound = snd_rivalstation;
 audio_play_sound(sound,1,1);*/
 
 state=PLAYERSTATE.FREE;
-hitByAttack = ds_list_create();
+//hitByAttack = ds_list_create();
 
 
 //Частина 1 системи слідкування за героєм

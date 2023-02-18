@@ -56,7 +56,7 @@
     ],
     "top": 0,
   },
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "Krus",
     "path": "folders/Sprites/Krus.yy",
@@ -102,7 +102,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 10,
+    "xorigin": 12,
     "yorigin": 53,
   },
   "swatchColours": null,
