@@ -7,7 +7,7 @@ if string_length(text[page]) == 0
 {
 	global.dialog_end = 1;
 	global.dialogue_move = false;
-//	instance_destroy(obj_pauser);
+	//instance_destroy(obj_pauser);
 	instance_destroy();
 }
 
