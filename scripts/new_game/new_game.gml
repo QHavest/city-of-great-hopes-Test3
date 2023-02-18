@@ -6,4 +6,6 @@ function new_game(){
 	//room_goto(rm_home_gg_cut)
 	global.gameStart = 1;
 	
+	show_debug_message("scr_newgame")
+	
 }

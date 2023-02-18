@@ -31,7 +31,7 @@
   "origin": 9,
   "parent": {
     "name": "sprites",
-    "path": "folders/Sequences/sektants/sprites.yy",
+    "path": "folders/Story/Cutscenes/sektants/sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

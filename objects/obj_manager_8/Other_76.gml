@@ -50,6 +50,7 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(0, regCam1);
 	view_set_camera(1, regCam2);
 	global.shop = false;
+	global.task = 3;
     layer_sequence_destroy(seq3);
 	obj_seller_posyda.depth = obj_prilavok_posyda.depth - 40;
 	//obj_prilavok_posyda.depth = num2;

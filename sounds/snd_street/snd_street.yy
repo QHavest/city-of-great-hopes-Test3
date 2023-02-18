@@ -13,11 +13,11 @@
   "duration": 28.043264,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sequences/snena 7/Sounds.yy",
+    "path": "folders/Story/Cutscenes/scena 7/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "snd_street.wav",
   "type": 0,
-  "volume": 0.06,
+  "volume": 0.02,
 }

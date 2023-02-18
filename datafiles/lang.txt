@@ -557,7 +557,16 @@
   		"Scena97": "Відмовитися",
   		"Scena98": "Ладно. Ти це й во, охороняй, а я пішов, а от гегну зараз. Тримайся. А то я за вами маю дивитись обома, глаз да глаз.",
   		"Scena99": "Та бля, нє!!!",
-		"Scena910": "Уголька?"
+		"Scena910": "Уголька?",
+
+		"task1_npc2_1": "We need Vitya Tang…", 
+		"task1_npc2_2": "Get out of here - I'm not fit to try. On the Market there, oldies are scratching their tongues - like stales, they know something.",
+		"task1_babka": "Have you seen a man? Such a weirdo - he whistles and eats tangerines.",
+		"task1_babka1": "God, what a moron. It's clear that he's an orphan and unbaptized yet! The lost soul, don't mess with him. Better buy something from me.",
+		"task1_babka2": "I am a woman from the village. Why do I need to know local dudes?",
+		"task1_babka3": "I know those whistling idiots. They often go to the center to beg for alms. Maybe you will find your friend there.",
+  		"task1_npc3": "I know those whistling idiots. They often go to the center to beg for alms. Maybe you will find your friend there."
+
 
 
 		},
@@ -1114,7 +1123,15 @@
   		"Scena97": "Відмовитися",
   		"Scena98": "Ладно. Ти це й во, охороняй, а я пішов, а от гегну зараз. Тримайся. А то я за вами маю дивитись обома, глаз да глаз.",
   		"Scena99": "Та бля, нє!!!",
-  		"Scena910": "Уголька?"
+  		"Scena910": "Уголька?",
+
+		"task1_npc2_1": "Нам треба Вітька Манда…", 
+		"task1_npc2_2": "Шуруй звідси - я не годен триндіти. На Ринку там бабки чешуть язиками - як мимри, мож що і знають.",
+		"task1_babka": "Ви бачили одного чоловіка? Чудак такий - свистить і мандарини жере.",
+		"task1_babka1": "Боже, яке кончене. Видно що сирітка та й нехрещений ще! То душа пропаща, не водіться із ним. Краще ось в мене щось та і прикупіть.",
+		"task1_babka2": "Я баба з села. То до холери мені місцевих фраєрів знавати?",
+		"task1_babka3": "Знаю я тих придурків-свистунів. Вони часто в центрі збираються милостиню просити. Може там і свого друга здибаєте.",
+  		"task1_npc3": "Мандарини кажете? А я мандарини їв хіба що на Новий Рік. Криза як не як"
 
 }
 }

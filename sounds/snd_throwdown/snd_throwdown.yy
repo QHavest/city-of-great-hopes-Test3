@@ -13,7 +13,7 @@
   "duration": 1.730771,
   "parent": {
     "name": "Sound",
-    "path": "folders/Cutscene/Day_2/Sound.yy",
+    "path": "folders/Story/Cutscenes/scena 5/Day_2/Sound.yy",
   },
   "preload": false,
   "sampleRate": 44100,

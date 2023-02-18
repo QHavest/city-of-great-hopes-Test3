@@ -11,11 +11,11 @@ if(pause == true)
 		pause = false;
 	}
 }
-
-if(in_sequence) audio_listener_set_position(0, obj_player_1_7.x, obj_player_1_7.y, 0);
-
-
-
+if start
+{
+	audio_listener_set_position(0, obj_camera.x, obj_camera.y, 0);
+	//show_debug_message("x: " + string(obj_player_1_7.x) + "y: " + string(obj_player_1_7.y));
+}
 
 //if(a == 1){
 //obj_dim_player1.x = obj_player_1_7.x;

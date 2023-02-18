@@ -1,5 +1,10 @@
 if new_sound!= noone
 {
+	//var gain = global.Fon_sound_gain;
+	//if(gain != global.Fon_sound_gain)
+	//{
+	//	audio_sound_gain(new_sound, global.Fon_sound_gain, gain_increase);
+	//}
 	// у випадку якщо старий звук затишився при переході на локацію
 	if old_sound!=noone and audio_sound_get_gain(old_sound) == 0 
 	{

@@ -32,7 +32,7 @@
   },
   "parent": {
     "name": "sektants",
-    "path": "folders/Sequences/sektants.yy",
+    "path": "folders/Story/Cutscenes/sektants.yy",
   },
   "playback": 0,
   "playbackSpeed": 10.0,

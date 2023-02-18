@@ -2,14 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_sheva_alkash",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Home",
-    "path": "folders/Objects/Tykhlianka/Home.yy",
+    "name": "Tasks",
+    "path": "folders/Story/Tasks.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -24,7 +29,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_sheva_alkash",
     "path": "sprites/spr_sheva_alkash/spr_sheva_alkash.yy",

@@ -38,7 +38,7 @@ enum menu_element_types {
 
 var rezolution = global.rezolution;
 var screenmode = global.fullscreen;
-show_debug_message(string(screenmode) + " = screen")
+//show_debug_message(string(screenmode) + " = screen")
 //створення сторінок меню
 var lang;
 if(global.LANGUAGE == "ua") lang = 1;

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Cutscene",
-    "path": "folders/Cutscene.yy",
+    "name": "scena 5",
+    "path": "folders/Story/Cutscenes/scena 5.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

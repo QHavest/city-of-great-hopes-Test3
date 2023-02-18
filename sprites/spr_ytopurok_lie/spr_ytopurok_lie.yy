@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_ytopurok_lie",
-  "bbox_bottom": 65,
-  "bbox_left": 0,
-  "bbox_right": 53,
-  "bbox_top": 0,
+  "bbox_bottom": 72,
+  "bbox_left": 2,
+  "bbox_right": 92,
+  "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a36e924-742a-476d-aed6-8734583724b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57c1cf85-72d6-4212-b103-3db2af3c45ca",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 66,
+  "height": 73,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"61d474d8-2ce9-418a-966b-8285088416a2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d14efaa8-3ae0-4f81-b268-667475c8ae13","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
     "name": "Day_2",
-    "path": "folders/Cutscene/Day_2.yy",
+    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4a36e924-742a-476d-aed6-8734583724b5","path":"sprites/spr_ytopurok_lie/spr_ytopurok_lie.yy",},},},"Disabled":false,"id":"faec8230-e78e-4123-8673-5a70a3e75093","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"57c1cf85-72d6-4212-b103-3db2af3c45ca","path":"sprites/spr_ytopurok_lie/spr_ytopurok_lie.yy",},},},"Disabled":false,"id":"c536c45a-f7e0-4235-9ce7-f10272a3e2be","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 54,
+  "width": 93,
 }

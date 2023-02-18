@@ -13,8 +13,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-
-draw_sprite_ext(spr_fon_settings,0,gwidth-1000, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
+draw_sprite_ext(spr_fon_settings,0,gwidth-960, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
 
 //draw_sprite(spr_pause_h, 0, 0, 0);
 var c = c_black;
@@ -22,9 +21,9 @@ var c = c_black;
 //draw_text_color(gwidth-1160, gheight-800,"Settings", c, c, c, c, 1);
 //draw_sprite_ext(spr_button_menu, 0, gwidth - 1130, gheight - 650, 1.25, 1.25, 0, 0, 1);
 //draw_sprite(spr_button_menu, 0, gwidth - 960, gheight - 790)
-draw_sprite_ext(spr_button_menu, 0, gwidth - 992, gheight - 830, 1.45, 1.45, 0, c_white, 1);
-if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth - 992, gheight - 830, 1.45, 1.45, 0, c_white, 1);
-else draw_sprite_ext(spr_settings_ukr, 0, gwidth - 992, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+draw_sprite_ext(spr_button_menu, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+else draw_sprite_ext(spr_settings_ukr, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_left);
@@ -47,8 +46,8 @@ var yy = 0; repeat (ds_height){
 		xo = -(x_buffer/2);
 		//draw_sprite_ext(spr_pause_menu,0,ltx+200/*-90*/, lty+450,1.3,1.1,0,c_white,1);
 	}
-	if(ds_grid[# 0, yy] == "<<< Назад" or ds_grid[# 0, yy] == "<<< Back") draw_text_color(ltx+xo-545, lty+25, ds_grid[# 0, yy], c, c, c, c, 1);
-	else draw_text_color(ltx+xo-537, lty, ds_grid[# 0, yy], c, c, c, c, 1);
+	if(ds_grid[# 0, yy] == "<<< Назад" or ds_grid[# 0, yy] == "<<< Back") draw_text_color(ltx+xo-505, lty+25, ds_grid[# 0, yy], c, c, c, c, 1);
+	else draw_text_color(ltx+xo-497, lty, ds_grid[# 0, yy], c, c, c, c, 1);
 	
 	//draw_sprite_ext(spr_pause_menu,0,ltx-200, lty,1.3,1.1,0,c_white,1); //кнопки
 	//draw_sprite_ext(ds_grid[# 0, yy], 0, ltx+xo-530, lty, 1.65, 1.65, 0, c, 1);
@@ -99,7 +98,7 @@ yy = 0; repeat(ds_height){
 			var cout = current_array[current_val];
 		//}
 		
-		draw_text_color(rtx+155, rty, cout, c,c,c,c, 1)
+		draw_text_color(rtx+195, rty, cout, c,c,c,c, 1)
 		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
 		break;
 		
@@ -112,9 +111,9 @@ yy = 0; repeat(ds_height){
 		
 		if(inputting and yy == menu_option[page]){ c = c_orange; }
 		//draw_line_width(rtx, rty, rtx +len, rty, 2);
-		draw_sprite_ext(spr_slider_menu, 0, rtx+160, rty, 0.65, 1, 0, c, 1);
+		draw_sprite_ext(spr_slider_menu, 0, rtx+200, rty, 0.65, 1, 0, c, 1);
 		//draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c, false);
-		draw_sprite_ext(spr_slider_mini_menu, 0, rtx+160 + (circle_pos*len), rty, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_slider_mini_menu, 0, rtx+200 + (circle_pos*len), rty, 1, 1, 0, c_white, 1);
 		//draw_text_color(rtx + (len * 1.2), rty,string(floor(circle_pos*100)), c,c,c,c, 1);
 	break;
 	
