@@ -36,6 +36,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr[2]","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_babka_3","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr[3]","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_kav_3","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr[4]","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_child_1","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"time_chek","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"8","varType":0,},
   ],
   "solid": true,
   "spriteId": null,
