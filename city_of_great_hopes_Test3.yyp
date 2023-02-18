@@ -2141,6 +2141,7 @@
     {"id":{"name":"spr_dumbbells3","path":"sprites/spr_dumbbells3/spr_dumbbells3.yy",},"order":3,},
     {"id":{"name":"spr_Makedon_L","path":"sprites/spr_Makedon_L/spr_Makedon_L.yy",},"order":11,},
     {"id":{"name":"spr_main_menu_eng_l","path":"sprites/spr_main_menu_eng_l/spr_main_menu_eng_l.yy",},"order":20,},
+    {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},"order":30,},
     {"id":{"name":"spr_bomz_1","path":"sprites/spr_bomz_1/spr_bomz_1.yy",},"order":27,},
     {"id":{"name":"sp_keksiki_eng","path":"sprites/sp_keksiki_eng/sp_keksiki_eng.yy",},"order":1,},
     {"id":{"name":"spr_curb1","path":"sprites/spr_curb1/spr_curb1.yy",},"order":11,},
