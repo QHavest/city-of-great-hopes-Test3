@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_barmen",
+  "name": "obj_batnui_taburet",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,8 +12,8 @@
     "path": "folders/Objects/Center/Left/Hotel.yy",
   },
   "parentObjectId": {
-    "name": "obj_woi_invisible_wall",
-    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,10 +29,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_barmen",
-    "path": "sprites/spr_barmen/spr_barmen.yy",
+    "name": "spr_barnui_taburet",
+    "path": "sprites/spr_barnui_taburet/spr_barnui_taburet.yy",
   },
   "spriteMaskId": null,
   "visible": true,
