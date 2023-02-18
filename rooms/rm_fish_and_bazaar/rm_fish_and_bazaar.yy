@@ -58,8 +58,6 @@
     {"name":"inst_61FE9525","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_501B493A","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_136237C5","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
-    {"name":"inst_762FF689","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
-    {"name":"inst_446F7322","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_6D96E116","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_1C895E1A","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},
     {"name":"inst_6AF2407D","path":"rooms/rm_fish_and_bazaar/rm_fish_and_bazaar.yy",},

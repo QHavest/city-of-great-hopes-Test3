@@ -2640,7 +2640,7 @@
     {"id":{"name":"spr_rez3_l","path":"sprites/spr_rez3_l/spr_rez3_l.yy",},"order":11,},
     {"id":{"name":"spr_bookshelf2","path":"sprites/spr_bookshelf2/spr_bookshelf2.yy",},"order":3,},
     {"id":{"name":"snd_walk_inside_5","path":"sounds/snd_walk_inside_5/snd_walk_inside_5.yy",},"order":4,},
-    {"id":{"name":"obj_reception","path":"objects/obj_reception/obj_reception.yy",},"order":0,},
+    {"id":{"name":"obj_reception","path":"objects/obj_reception/obj_reception.yy",},"order":1,},
     {"id":{"name":"obj_turniki2","path":"objects/obj_turniki2/obj_turniki2.yy",},"order":9,},
     {"id":{"name":"scr_player_and_objects","path":"scripts/scr_player_and_objects/scr_player_and_objects.yy",},"order":18,},
     {"id":{"name":"sp_seyf_broniovanyi_eng","path":"sprites/sp_seyf_broniovanyi_eng/sp_seyf_broniovanyi_eng.yy",},"order":3,},
