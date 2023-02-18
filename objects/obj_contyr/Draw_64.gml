@@ -57,7 +57,7 @@ if acepted_key
 if keyboard_check_pressed(vk_escape) acepted_key=0;
 	
 // телепортація
-if pos <2 //лише для демки ПОТІМ ПРИБЕРІТЬ ЦЕ!!!! 
+if pos <2 or obj_mp_manager.taxofon = 1//лише для демки ПОТІМ ПРИБЕРІТЬ ЦЕ!!!! 
 if keyboard_check(vk_enter) and acepted_key and t == 1 and global.money>feee
 		{ global.map = 0;
 		global.contact = 0;
