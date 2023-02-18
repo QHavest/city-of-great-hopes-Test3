@@ -614,6 +614,11 @@ case"Dilnuchui":
 scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_Dilnuchui);
 break
 #endregion
+#region ("Barmen")
+case "Barmen":
+obj_barmen.a=2;
+break
+#endregion
 
 // Bazarrrrr
 #region(Anton)
