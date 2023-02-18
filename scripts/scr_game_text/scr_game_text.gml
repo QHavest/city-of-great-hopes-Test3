@@ -638,6 +638,11 @@ case"Dilnuchui":
 scr_text (scr_json_lang(global.LANGUAGE,"Dilnuchui1"),2,spr_ic_Krus,spr_ic_Dilnuchui);
 break
 #endregion
+#region ("Barmen")
+case "Barmen":
+obj_barmen.a=2;
+break
+#endregion
 
 // Bazarrrrr
 #region(Anton)
@@ -722,24 +727,27 @@ scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Pulu
 scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
 break
 #endregion
+case "Muter with boi":
+scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,spr_ic_Krus,spr_ic_Mama_sun);
+break
 // жителі
 #region (Zinki)
 case"Zinki":
 switch(irandom_range(1,5)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,spr_ic_Krus,spr_ic_sekta_2);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,spr_ic_Krus,argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki2"),2,spr_ic_Krus,spr_ic_sekta_2);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki2"),2,spr_ic_Krus,argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki3"),2,spr_ic_Krus,spr_ic_sekta_2);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki3"),2,spr_ic_Krus,argument[1]);
 			break
 			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Zinki4"),2,spr_ic_Krus,spr_ic_sekta_2);
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki4"),2,spr_ic_Krus,argument[1]);
 			break
 			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Zinki5"),2,spr_ic_Krus,spr_ic_sekta_2);
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki5"),2,spr_ic_Krus,argument[1]);
 			break
 }	
 break
@@ -748,19 +756,19 @@ break
 case"Worksman":
 switch(irandom_range(1,5)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman1"),2,spr_ic_Krus,spr_ic_Arcadii);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman1"),2,spr_ic_Krus,argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman2"),2,spr_ic_Krus,spr_ic_Arcadii);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman2"),2,spr_ic_Krus,argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman3"),2,spr_ic_Krus,spr_ic_Arcadii);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman3"),2,spr_ic_Krus,argument[1]);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman4"),2,spr_ic_Krus,spr_ic_Arcadii);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman4"),2,spr_ic_Krus,argument[1]);
 			break
 			case 5:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman5"),2,spr_ic_Krus,spr_ic_Arcadii);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman5"),2,spr_ic_Krus,argument[1]);
 			break
 }	
 break

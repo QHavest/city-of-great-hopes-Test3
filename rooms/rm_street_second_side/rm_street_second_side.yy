@@ -75,12 +75,11 @@
     {"name":"inst_50BE9D04","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_45731A07","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_12EDA5F6","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_76412CF","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_7960E4EB","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_4283F90D","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_43CA304A","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_2730875E","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_3886D1B8","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_511014E8","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_244A051F","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -141,6 +140,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7960E4EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gop_3","path":"objects/obj_gop_3/obj_gop_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3285.0,"y":244.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2730875E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pr_spr_change_outside_viewport","path":"objects/obj_pr_spr_change_outside_viewport/obj_pr_spr_change_outside_viewport.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3231.0,"y":260.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3886D1B8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_water_buy","path":"objects/obj_water_buy/obj_water_buy.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":582.0,"y":244.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_511014E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_man_4","path":"objects/obj_man_4/obj_man_4.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3327.0,"y":292.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_244A051F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_man_7","path":"objects/obj_man_7/obj_man_7.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":291.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Other","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E67AB15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1984.0,"y":-96.0,},

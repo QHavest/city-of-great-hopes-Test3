@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Bazar",
-    "path": "folders/Dialogs/speaker_icon/Bazar.yy",
+    "name": "Milk_veget_sellers",
+    "path": "folders/Dialogs/speaker_icon/Bazar/Milk_veget_sellers.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,58 +1,11 @@
-/*switch (obj_mp_manager.target_rm){
-case rm_bakery :				pos = 0; break
-case rm_food_shop :				pos = 0; break
-case rm_indoor_rival_station :	pos = 0; break
-case rm_street_first_side :		pos = 0; break
-case rm_street_second_side :	pos = 0; break
-case rm_tri_kalynky :			pos = 0; break
-case rm_tri_kalynky_boss :		pos = 0; break
-case rm_fishing :						pos = 1; break
-case rm_zoomagazine :					pos = 1; break
-case rm_okorochok_indoor :				pos = 1; break
-case rm_storage :						pos = 1; break
-case rm_tech :							pos = 1; break
-case rm_fish_and_bazaar :				pos = 1; break
-case rm_street_container :				pos = 1; break
-case rm_street_magazine_tech_storage :	pos = 1; break
-case rm_garage_gg :						pos = 1; break
-case rm_home_gg :						pos = 1; break
-case rm_home_gg_inside :				pos = 1; break
-case rm_home_gg_inside_kitchen :		pos = 1; break
-case rm_cinema_inside :			pos = 2; break
-case rm_cinema_l :				pos = 2; break
-case rm_cinema_r :				pos = 2; break
-case rm_hotel_inside :			pos = 2; break
-case rm_hotel_rooms :			pos = 2; break
-case rm_kitchen :				pos = 2; break
-case rm_restraunt :				pos = 2; break
-case rm_room22 :				pos = 2; break
-case rm_police :				pos = 2; break
-case rm_police_inside :			pos = 2; break
-case rm_police_inside_boss :	pos = 2; break
-case rm_culture_hall_l :		pos = 2; break
-case rm_culture_hall_r :		pos = 2; break
-case rm_culture_inside :		pos = 2; break
-case rm_fasfood :				pos = 2; break
-case rm_center :				pos = 2; break
-case rm_center_left :			pos = 2; break
-case rm_center_right :			pos = 2; break
-case rm_home_manda :	pos = 3; break
-case rm_home_entrance :	pos = 3; break
-case rm_ieghova_inside :pos = 3; break
-case rm_south :			pos = 3; break
-case rm_box_inside :	pos = 3; break
-case rm_sport_centre :	pos = 3; break
-case rm_sport_inside :	pos = 3; break
-case rm_bibliotheka :	pos = 3; break
-case rm_hastronom_tukh :pos = 3; break
-case rm_north :			pos = 3; break
-case rm_school :		pos = 3; break
-}*/
-pos = scr_rooms_variables(obj_mp_manager.target_rm,2) // район
+pos = scr_rooms_variables(obj_mp_manager.target_rm,2) // район з якого відбувається вхід в мапу
 spot=0;
 acepted_key = 0;
 rah =0;
 t=0;
+
+// плата за проїзд
+feee = 1;
 
 // масштабні коефіцієнти для редагування розміру районів
 kof_b = 0.8;
@@ -104,9 +57,8 @@ pos_y[2] = 1344;
 pos_x[3] = 910;
 pos_y[3] = 665;
 
-if obj_mp_manager.taxofon = 1{
-	
-	// при поїздці на таксі (виклик через таксофон)
+// при поїздці на таксі (виклик через таксофон)
+if obj_mp_manager.taxofon = 1{	
 // масив кількості точок для телепортації
 spot_num[0]=0; //було значення 1: 2 точки телепортації для вокзалу (0 та 1)
 spot_num[1]=2; //було значення 3: 4 точки телепортації для Ринку 
@@ -245,7 +197,7 @@ spot_y[0][0] = 285*kof_r + bord_y_r ;
 
 
 // координати покажчиків телепортації для Базару
-
+// гараж ГГ
 spot_x[0][1] = 730*kof_b + bord_x_b ;
 spot_y[0][1] = 380*kof_b + bord_y_b ;
 
@@ -276,10 +228,19 @@ player_x[0][3] = 145;
 player_y[0][3] = 255;
 }
 
+// перемикання спрайтів через мову
+switch (global.LANGUAGE){
+case "eng": lang_im=0; 
+//var act_back = layer_get_id("Back_eng")
+layer_set_visible("Back_eng",true);
+break;
+case "ua" : lang_im=1; 
+//act_back = layer_get_id("Back_ua")
+layer_set_visible("Back_ua",true);
+break;
+}
 
-
-
-
+// позиції камери для слідуванням за контуром
 sprite_index = imaga[pos];
 x = pos_x[pos];
 y = pos_y[pos];
