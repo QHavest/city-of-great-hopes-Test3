@@ -63,6 +63,7 @@
 		"Kasa5": "Well, now if that's all, then you pay 5 karbovanets.",
 		"Kasa6": "Give 5 karbovanets.",
 		"Kasa7": "Sorry, we changed our minds.",
+		"Kasa8": "We don't need strangers here. Go yourself!",
 
 		"Loto0": "Children-flowers, don't you want to buy a ticket, catch your fate? Who knows how lucky you will be this time?",
 		"Loto1": "Yeah, give. (Give 50 kopecks)",
@@ -93,6 +94,7 @@
 		"Vasia8": "No, no, no. I lived there last year. Almaz no longer endures me. So you better gonna the forest.",
 		"Vasia9": "Um, okay. Forget about it. We changed our minds.",
 		"Vasia10": "Sure, brow. Look and come again.",
+		"Vasia11": "Stop rambling. Let me flower sell a little.",
 
 
 		"Yana0": "Hello! Would you like to become a shareholders of LLC Three Virginity?",
@@ -126,6 +128,7 @@
 		"sovenir3": "Unless? And who to be? If you have already come, then buy something.",
 		"sovenir4": "Look at the assortment",
 		"sovenir5": "Refuse",
+		"sovenir6": "Are we buying? If not - then out!",
 
 		"Ninel1":"Good afternoon! And to you too, Boris.",
 		"Ninel2":"А?",
@@ -194,6 +197,7 @@
 		"Bufet2": "Trade",
 		"Bufet3": "No, nothing is needed.",
 
+		"Taranrino0": "Boys - I'll see you again - but for now, take a walk, maybe go to a movie. I didn't like it very much - but it's just suitable for you.",
 		"Taranrino1": "Hello guys. What for what? Have you come to me for the cassettes?",
 		"Taranrino2": "Well, kind of that, man. Tell me who you are.",
 		"Taranrino3": "Yeah, a bored man. I've been working here since I was a teenager, watching movies and selling cassettes. Watched all the Soviet classics.",
@@ -331,7 +335,7 @@
 		"Panton4": "Nothing, thanks.",
 		"Panton5": "А. Did you come to joke with me? Whether you decide to buy something, then come again!",
 
-
+		"Stiopa0": "Mutters something (in Hutsul).",	
 		"Stiopa1": "Boys-boys, how are you? What are you doing here?",
 		"Stiopa22": "Came to visit",
 		"Stiopa2": "Nothing special, came to visit you, uncle.",
@@ -637,6 +641,7 @@
 		"Kasa5": "Ну а тепер якщо це всьо, то з вас 5 карбованців.",
 		"Kasa6": "Дати 5 карбованців.",
 		"Kasa7": "Вибачте, ми передумали.",
+		"Kasa8": "Нам тут зівак не треба. Йдіть собі!",
 
 		"Loto0": "Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?",
 		"Loto1": "Да, давайте. (Дать 50 копійок)",
@@ -667,6 +672,7 @@
 		"Vasia8": "Нє, нє, нє. Я лиш недавно там жив. Алмаз уже мене не переварює. Так що лучше ви лесом.",
 		"Vasia9": "Ем, ладно. Забей. Ми передумали шось.",
 		"Vasia10": "Ну ладно лоб. Тоді подивитесь – подходіть.",
+		"Vasia11": "Хватить швендяти. Дай цвіточок продать троха.",
 
 		"Yana0": "Доброго дня! Бажаєте стати акціонером компанії ООО Три Калинки? ",
 		"Yana1": "Прошу звернути увагу на послуги.",
@@ -699,6 +705,8 @@
 		"sovenir3": "Хіба? А ви ким будете? Коль уже прийшли, то купіть якусь забавку.",
 		"sovenir4": "Переглянуть асортимент",
 		"sovenir5": "Відмовитись",
+		"sovenir6": "Купляєм? Якщо ні - то киш!",
+
 
 
 		"Ninel1":"Добрий день і тобі Утопирок тоже.",
@@ -766,6 +774,7 @@
 		"Bufet2": "Торгуватися",
 		"Bufet3": "Ні, нічого не треба.",
 
+		"Taranrino0": "Пацанчики - ще побачимось - а поки пройдіться, може на фільм сходіть. Мені не дуже зайшов - а вам в самий раз.",
 		"Taranrino1": "Здоров пацани. Що по чом? Невже пришли за кассетами до мене?",
 		"Taranrino2": "Ну тип того мужик. Розкажи ким будеш?",
 		"Taranrino3": "Та так, скучающий мужичок. Я тут з підліткового віку працюю, вот дивлюсь фільми й продаю кассети. Всю радянську класику передивився.",
@@ -903,7 +912,7 @@
 		"Panton4": "Нічого не потрібно, дякую.",
 		"Panton5": "А. Ну ладно, посміяться над роботягой рішили. Ну ви як щось розумне удумаєте, підходьте.",
 
-
+		"Stiopa0": "Щось бурмотить (по-гуцульськи).",
 		"Stiopa1": "Хлопци хлопци, як ви? Що ви тут забули?",
 		"Stiopa22": "Прийши провідати",
 		"Stiopa2": "Та так, вас провідать прийшли.",

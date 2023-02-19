@@ -132,6 +132,8 @@ break
 #endregion
 #region (Kasa)
 case "Kasa":
+if global.zn_Kasa = 0{
+
 	scr_text(scr_json_lang(global.LANGUAGE,"Kasa0"),2,spr_ic_Krus,spr_ic_kasa);
 	scr_text(scr_json_lang(global.LANGUAGE,"Kasa1"),1,spr_ic_Krus,spr_ic_kasa);
 	scr_text(scr_json_lang(global.LANGUAGE,"Kasa2"),2,spr_ic_Krus,spr_ic_kasa);
@@ -140,9 +142,13 @@ case "Kasa":
 	scr_text(scr_json_lang(global.LANGUAGE,"Kasa5"),2,spr_ic_Krus,spr_ic_kasa);
 		scr_option(scr_json_lang(global.LANGUAGE,"Kasa6"),"bying_tiket");
 		scr_option(scr_json_lang(global.LANGUAGE,"Kasa7"),"4");
-		
+}
+
+else scr_text(scr_json_lang(global.LANGUAGE,"Kasa8"),2,spr_ic_Krus,spr_ic_kasa);
+
 break
 case "bying_tiket":
+	global.zn_Kasa = 1;
 	if(global.money >= 5) {
 for (var i = 0; i < 11; i++){
 	if(global.ds_inventory[# 0, i] = 0){
@@ -179,6 +185,8 @@ for (var i = 0; i < 11; i++){
 #endregion
 #region (Vasia) 
 case "Vasia":
+if global.zn_Yvasia_na=0{
+	global.zn_Yvasia_na=1;
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia1"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia2"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia3"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
@@ -188,8 +196,9 @@ case "Vasia":
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia7"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia8"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia9"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);}
+else
+scr_text(scr_json_lang(global.LANGUAGE,"Vasia11"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
 break
 #endregion
 #region (Gogi)
@@ -299,9 +308,16 @@ case "Boss":
 #endregion
 #region (Souvenir)
 case "Souvenir":
+if global.zn_souvenir
+scr_text (scr_json_lang(global.LANGUAGE,"sovenir6"),2,spr_ic_Krus,spr_ic_souvenir);
+
+else{
+	global.zn_souvenir=1;
 	scr_text (scr_json_lang(global.LANGUAGE,"sovenir1"),2,spr_ic_Krus,spr_ic_souvenir);
 	scr_text (scr_json_lang(global.LANGUAGE,"sovenir2"),1,spr_ic_Krus,spr_ic_souvenir);
 	scr_text (scr_json_lang(global.LANGUAGE,"sovenir3"),2,spr_ic_Krus,spr_ic_souvenir);
+	}
+	
 		scr_option(scr_json_lang(global.LANGUAGE,"sovenir4"),"by_souvenir")
 		scr_option(scr_json_lang(global.LANGUAGE,"sovenir5"),"4")
 break
@@ -501,10 +517,10 @@ break
 case "Docha_alladina":
 scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad1"),2,spr_ic_Krus,spr_ic_docha_alada);
 	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad2"),"film1");
-	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad3"),"film1");
-	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad4"),"film1");
+//	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad3"),"film1");
+//	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad4"),"film1");
 	scr_option(scr_json_lang(global.LANGUAGE,"docha_Alad5"),"no_film");
-break
+break	
 case "no_film":
 scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad6"),2,spr_ic_Krus,spr_ic_docha_alada);
 break
@@ -528,6 +544,10 @@ break
 #endregion
 #region(Tarantino)
 case "Tarantino":
+if global.zn_Tarantino
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino0"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+else {
+	global.zn_Tarantino=1;
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino1"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino2"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino3"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
@@ -541,6 +561,7 @@ scr_text (scr_json_lang(global.LANGUAGE,"Taranrino9"),1,spr_ic_Krus,spr_ic_Taran
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino10"),2,spr_ic_Krus,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino11"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
+}
 	break		
 #endregion
 // тут я не хотів розбиратись тому спрайти співрозмовників хтось попідставляє 
@@ -851,10 +872,16 @@ break
 #endregion
 #region (Stiopa)
 case"Stiopa":
+if global.zn_Stiop
+scr_text(scr_json_lang(global.LANGUAGE,"Stiopa0"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+
+else{
+	global.zn_Stiop=1;
+	
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa22"),"Provodu_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
-	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");}
 break
 	case"Provodu_Stiopa":
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa2"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
@@ -1080,6 +1107,24 @@ if global.zn_bibl = 0{
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	scr_text(scr_json_lang(global.LANGUAGE,"Bibiliothekar8"),2,spr_ic_Ytopurok,spr_ic_bibliothekar);
 	}
+break
+#endregion
+#region(Didu)
+case"Didu":
+switch(choose(1,2,3,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,spr_ic_Krus,spr_ic_Spurodon);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,spr_ic_Krus,spr_ic_Petrovuch);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,spr_ic_Krus,spr_ic_Spurodon);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,spr_ic_Krus,spr_ic_Petrovuch);
+			break
+}	
 break
 #endregion
 #region(Tyrnikman)
