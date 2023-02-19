@@ -28,6 +28,7 @@ if event_data [? "event_type"] == "sequence event"
 	global.shop = false;
     layer_sequence_destroy(seq1);
 	scr_music_fon_change(room);
+	room_restart();
     break;
   }
 }
