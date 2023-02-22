@@ -54,6 +54,7 @@ switch(obj_Battle_Interface.phase_battle){
 				instance_activate_object(obj_mini_avatar);
 				obj_mini_avatar.x = 941.5;
 				obj_mini_avatar.y = 755;
+				obj_ytopur_battle.phasese = PHASESE.Battle
 				obj_mini_avatar.index_avatar = 3;
 			break;	
 			}	

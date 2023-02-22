@@ -1,1 +1,8 @@
-phasese = 0;
+
+phasese = PHASESE.Noone;
+enum PHASESE{
+Noone,
+Battle,
+Idle,
+Hit,
+}
