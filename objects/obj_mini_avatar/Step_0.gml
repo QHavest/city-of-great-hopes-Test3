@@ -120,7 +120,7 @@ switch(obj_Battle_Interface.enemies){
 	break;
 	case ENEMY.Narkomany :
 	//damage = 10;
-	damage = 50;
+	damage = 20;
 
 	break;
 }
