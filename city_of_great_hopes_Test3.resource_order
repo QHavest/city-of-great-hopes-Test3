@@ -2325,6 +2325,7 @@
     {"name":"spr_table_restraunt","order":5,"path":"sprites/spr_table_restraunt/spr_table_restraunt.yy",},
     {"name":"spr_shprutz_dow1","order":3,"path":"sprites/spr_shprutz_dow1/spr_shprutz_dow1.yy",},
     {"name":"spr_Schveicar_L","order":13,"path":"sprites/spr_Schveicar_L/spr_Schveicar_L.yy",},
+    {"name":"link","order":27,"path":"scripts/link/link.yy",},
     {"name":"spr_platforms","order":1,"path":"sprites/spr_platforms/spr_platforms.yy",},
     {"name":"hp_narko_full","order":2,"path":"sprites/hp_narko_full/hp_narko_full.yy",},
     {"name":"spr_koliia","order":22,"path":"sprites/spr_koliia/spr_koliia.yy",},

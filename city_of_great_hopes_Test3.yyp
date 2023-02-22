@@ -2626,6 +2626,7 @@
     {"id":{"name":"spr_table_restraunt","path":"sprites/spr_table_restraunt/spr_table_restraunt.yy",},"order":5,},
     {"id":{"name":"spr_shprutz_dow1","path":"sprites/spr_shprutz_dow1/spr_shprutz_dow1.yy",},"order":3,},
     {"id":{"name":"spr_Schveicar_L","path":"sprites/spr_Schveicar_L/spr_Schveicar_L.yy",},"order":13,},
+    {"id":{"name":"link","path":"scripts/link/link.yy",},"order":27,},
     {"id":{"name":"spr_platforms","path":"sprites/spr_platforms/spr_platforms.yy",},"order":1,},
     {"id":{"name":"hp_narko_full","path":"sprites/hp_narko_full/hp_narko_full.yy",},"order":2,},
     {"id":{"name":"spr_koliia","path":"sprites/spr_koliia/spr_koliia.yy",},"order":22,},
