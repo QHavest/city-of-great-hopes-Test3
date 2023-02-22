@@ -49,6 +49,7 @@
     {"name":"inst_6B15DA1D","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_6BB1CFD4","path":"rooms/Room61/Room61.yy",},
     {"name":"inst_4E1FF3D8","path":"rooms/Room61/Room61.yy",},
+    {"name":"inst_79C1F83A","path":"rooms/Room61/Room61.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -99,6 +100,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6B15DA1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hopnik","path":"objects/obj_hopnik/obj_hopnik.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":969.0,"y":373.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BB1CFD4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shprutz_dow1","path":"objects/obj_shprutz_dow1/obj_shprutz_dow1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1284.0,"y":929.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E1FF3D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shprutz_up1","path":"objects/obj_shprutz_up1/obj_shprutz_up1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1284.0,"y":572.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79C1F83A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ytopur_battle","path":"objects/obj_ytopur_battle/obj_ytopur_battle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":544.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_2","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7882D2DA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":true,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_background_narko","path":"sprites/spr_background_narko/spr_background_narko.yy",},"x":490.0,"y":570.0,},
