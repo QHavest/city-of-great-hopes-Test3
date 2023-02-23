@@ -278,6 +278,13 @@
 		"Anton20": "Because you slept with sows, you didn't have enough imagination to come up with something..",
 		"Anton21": "We are probably going out from here.",
 
+		"Barugi_fur1": "I have a lot! And what is missing -  will deliver soon.",
+		"Barugi_fur2": "Wide choice as my soul!",
+		"Barugi_fur3": "You have to buy -  while everyone wanders and stares!",
+		"Barugi_fur4": "Oh, young people - will sell a mother for a little!!",
+		"Barugi_fur5": "My joys - I'm a happy seller from noon til ... fuck, forgot what next!",
+		"Barugi_fur6": "They live according to ideas, not according to the law! What times go on, can tell me?",
+
 		"Barugi1": "You come to me, take the vegetable almost for free!",
 		"Barugi2": "Guests and residents, taste my apples and dance!",
 		"Barugi3": "A pumpkin for a one-two, and when you'll take mine - for long!",
@@ -860,6 +867,13 @@
 		"Anton19": "Та бля, задрав ваш дядя по горло. Бач, навіть легенди говорять про сирєн, а в нас таких монстров нема.",
 		"Anton20": "Бо ви злягалися з свиноматками, у вас фантазії невистачило, щоб щось придумать.",
 		"Anton21": "Ми пожалуй потопаєм отсюдаво.",
+
+		"Barugi_fur1": "В мене много є! А чого нема - скоро завезуть.",
+		"Barugi_fur2": "Широкий вибір як моя душа!",
+		"Barugi_fur3": "Купляти треба - а то все ходять придивляються!",
+		"Barugi_fur4": "Ох молодьож - продасть маму за мідний грош!",
+		"Barugi_fur5": "Мої вітання - я щасливий продавець з вечора до… сука забув як там далі!",
+		"Barugi_fur6": "Живуть по поняттях, а не по закону! Що за часи пішли, може підкажете?",
 
 		"Barugi1": "Ви до мене підходіть, овочєй свящку возьміть!",
 		"Barugi2": "Гості й жителі скуштуйте моїх яблочок й танцюйте!",

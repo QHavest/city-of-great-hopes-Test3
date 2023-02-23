@@ -703,22 +703,46 @@ case"Anton":
 case "Barugi":
 switch(irandom_range(1,6)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,spr_ic_Krus,spr_ic_Barugi);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,spr_ic_Krus,argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,spr_ic_Krus,spr_ic_Barugi);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,spr_ic_Krus,argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,spr_ic_Krus,spr_ic_Barugi);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,spr_ic_Krus,argument[1]);
 			break
 			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,spr_ic_Krus,spr_ic_Barugi);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,spr_ic_Krus,argument[1]);
 			break
 			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,spr_ic_Krus,spr_ic_Barugi);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,spr_ic_Krus,argument[1]);
 			break
 			case 6:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,spr_ic_Krus,spr_ic_Barugi);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,spr_ic_Krus,argument[1]);
+			break
+}	
+break
+#endregion
+#region (Barugi_fur)
+case "Barugi_fur":
+switch(irandom_range(1,6)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur1"),2,spr_ic_Krus,argument[1]);
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur2"),2,spr_ic_Krus,argument[1]);
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur3"),2,spr_ic_Krus,argument[1]);
+			break
+			case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur4"),2,spr_ic_Krus,argument[1]);
+			break
+			case 5:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur5"),2,spr_ic_Krus,argument[1]);
+			break
+			case 6:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur6"),2,spr_ic_Krus,argument[1]);
 			break
 }	
 break

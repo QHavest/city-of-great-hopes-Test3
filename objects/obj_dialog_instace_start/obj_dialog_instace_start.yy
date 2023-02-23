@@ -14,7 +14,10 @@
     "name": "Dialogs",
     "path": "folders/Dialogs.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +31,10 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ind_ic_in_group","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"name_ic","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":4,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_woi_invisible_wall_1",

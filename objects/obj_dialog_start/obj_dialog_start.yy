@@ -16,7 +16,10 @@
     "name": "Dialogs",
     "path": "folders/Dialogs.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -44,5 +47,5 @@
     "path": "sprites/spr_woi_invisible_wall_1/spr_woi_invisible_wall_1.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
