@@ -427,6 +427,12 @@
 		"Bibiliothekar8": "Good day, how can I help? We have many books and newspapers here. Go through and read but you can't take them with you.",
 		"Bibiliothekar9": "We have an equipped room where you can sit. When leaving, put books back. If you understand, you can enter.",
 
+		"Didu1": "Well, little goats - let's play on chessboards!",
+		"Didu2": "Moonshine and chess - what's not a pension for you... but first, live long enough to fuck around veterans for no reason!",
+		"Didu3": "I would play with you... but you are shitty amateurs.	",
+		"Didu4": "Kasparov is the champion! What a man - a golden thinker!",
+
+
 		"Tyrnikman1": "It has never happened that a person died from the sport. Your examples are examples of a person who started too late.",
 		"Tyrnikman2": "The cult of health must defeat the cult of drugs. Only then we will have peace and a happy future.",
 		"Tyrnikman3": "I dream of living life in leotards and becoming an athlete like Klitschko...",
@@ -1008,6 +1014,11 @@
 		"Tyrnikman2": "Культ здоров’я має побороти культ наркотиків. Лиш тоді буде мир та майбутнє.",
 		"Tyrnikman3": "Мечтать жизнь провести в трико и стать спортсменом як Кличко…",
 		"Tyrnikman4": "Давай зроби, подтянись, зроби жизнь свою лучше!",
+
+		"Didu1": "Нумо, малі козлята - гайда в шахмати зіграти!",
+		"Didu2": "Самогон і шахи - чим вам не пенсія… але спочатку доживіть, щоб без причини на ветеранів пиздіть!",
+		"Didu3": "Я з вами б зіграв… але знову срані аматори.",
+		"Didu4": "Каспаров чемпіон! Ось це людина - золотий мислитель!",
 
 		"Schoolman1": "Дяді, ви так стоїте впритул до мене, як батюшка на ранковій службі.",
 		"Schoolman2": "Дяді, можу я додому піти. Мене вже на тому тижні незнайомі дядьки спиняли. Мені не сподобалось. Все боліло.",
