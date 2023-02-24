@@ -101,6 +101,7 @@ if (mini_game == true){
 if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W"))/* or keyboard_check_released(vk_enter)*/){
 			games = true;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
+			aliens = ALIES.Noone;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
 if(alarm[2] > 150) exit;
@@ -178,32 +179,33 @@ if(system = 1) {
 		instance_destroy(obj_wait);
 		switch(phase_battle){
 			case PHASES.Atack:
+			obj_ytopur_battle.phasese = PHASESE.Battle;
 				switch(enemies){
 					case ENEMY.Narkomany :
 					aliens = ALIES.Noone;
-					obj_ytopur_battle.phasese = PHASESE.Battle;
+					//obj_ytopur_battle.phasese = PHASESE.Battle;
 					instance_create_depth(490,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Kavkazci :
 					aliens = ALIES.Noone;
-					obj_ytopur_battle.phasese = PHASESE.Battle;
+				//	obj_ytopur_battle.phasese = PHASESE.Battle;
 					instance_create_depth(490,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Sectants :
 					aliens = ALIES.Noone;
-					obj_ytopur_battle.phasese = PHASESE.Battle;
+					//obj_ytopur_battle.phasese = PHASESE.Battle;
 					instance_create_depth(490,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Hopniki :
 					aliens = ALIES.Noone;
-					obj_ytopur_battle.phasese = PHASESE.Battle;
+					//obj_ytopur_battle.phasese = PHASESE.Battle;
 					instance_create_depth(490,570,-600,obj_screen_gamestart)	
 					break;
 					}
 			break;
 			case PHASES.Defence:
-				aliens = ALIES.Ytopurok_mini;
 				obj_ytopur_battle.phasese = PHASESE.Battle;
+				aliens = ALIES.Ytopurok_mini;
 				instance_create_depth(490,570,-600,obj_screen_gamestart)
 			break;
 			}

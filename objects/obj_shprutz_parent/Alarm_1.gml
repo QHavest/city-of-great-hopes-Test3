@@ -5,4 +5,5 @@ instance_deactivate_object(obj_mini_avatar);
 instance_deactivate_object(wall);
 obj_Battle_Interface.phase_battle = PHASES.Defence;
 instance_destroy(obj_shprutz_parent);
+obj_ytopur_battle.phasese = PHASESE.Battle_down;
 //obj_Battle_Interface.enemies = ENEMY.Noname;
