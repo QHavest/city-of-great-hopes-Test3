@@ -1,5 +1,5 @@
-phasese = PHASESE.Idle;
-enum PHASESE{
+phasese_krus = PHASESE_KRUS.Idle;
+enum PHASESE_KRUS{
 Noone,
 Battle,
 Battle_down,

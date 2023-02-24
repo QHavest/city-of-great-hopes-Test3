@@ -101,6 +101,7 @@ if (mini_game == true){
 if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W"))/* or keyboard_check_released(vk_enter)*/){
 			games = true;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
+			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 			aliens = ALIES.Noone;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
 		}
@@ -180,6 +181,7 @@ if(system = 1) {
 		switch(phase_battle){
 			case PHASES.Atack:
 			obj_ytopur_battle.phasese = PHASESE.Battle;
+			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 				switch(enemies){
 					case ENEMY.Narkomany :
 					aliens = ALIES.Noone;
@@ -205,6 +207,7 @@ if(system = 1) {
 			break;
 			case PHASES.Defence:
 				obj_ytopur_battle.phasese = PHASESE.Battle;
+				obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 				aliens = ALIES.Ytopurok_mini;
 				instance_create_depth(490,570,-600,obj_screen_gamestart)
 			break;

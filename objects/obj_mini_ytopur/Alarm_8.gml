@@ -12,3 +12,4 @@ instance_deactivate_object(obj_mini_avatar);
 obj_Battle_Interface.phase_battle = PHASES.Atack;
 obj_Battle_Interface.enemies = ENEMY.Narkomany;
 obj_ytopur_battle.phasese = PHASESE.Battle_down;
+obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle_down;

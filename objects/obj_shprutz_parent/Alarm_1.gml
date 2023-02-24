@@ -6,4 +6,5 @@ instance_deactivate_object(wall);
 obj_Battle_Interface.phase_battle = PHASES.Defence;
 instance_destroy(obj_shprutz_parent);
 obj_ytopur_battle.phasese = PHASESE.Battle_down;
+obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle_down;
 //obj_Battle_Interface.enemies = ENEMY.Noname;

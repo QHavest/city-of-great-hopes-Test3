@@ -1,1 +1,1 @@
-scr_ytopur_battle();
+scr_krus_battle();

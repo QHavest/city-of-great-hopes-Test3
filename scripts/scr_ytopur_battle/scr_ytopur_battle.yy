@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "GG",
-    "path": "folders/Battle_system/MiniGames/Animations/GG.yy",
+    "name": "Ytopyrok",
+    "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok.yy",
   },
 }
