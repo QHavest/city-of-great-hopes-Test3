@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_truck_first",
-    "path": "sprites/spr_truck_first/spr_truck_first.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

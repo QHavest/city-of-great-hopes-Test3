@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_lamp_fish",
-    "path": "sprites/spr_lamp_fish/spr_lamp_fish.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
