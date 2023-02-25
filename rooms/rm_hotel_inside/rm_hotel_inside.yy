@@ -14,7 +14,6 @@
     {"name":"inst_27CFF9E6","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
     {"name":"inst_128C2262","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
     {"name":"inst_3347060C","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
-    {"name":"inst_7CAE1B67","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
     {"name":"inst_4B6A6B66","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
     {"name":"inst_1459AF0B","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
     {"name":"inst_374D6D3C","path":"rooms/rm_hotel_inside/rm_hotel_inside.yy",},
@@ -39,7 +38,6 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3347060C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.64000005,"scaleY":0.07,"x":178.0,"y":118.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CAE1B67","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":-46.538895,"scaleX":0.1,"scaleY":0.29,"x":16.64758,"y":108.35468,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B6A6B66","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":48.427605,"scaleX":0.099999994,"scaleY":0.38,"x":345.10532,"y":110.90525,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_reception","path":"sprites/spr_reception/spr_reception.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

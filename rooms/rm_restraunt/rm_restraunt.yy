@@ -15,7 +15,6 @@
     {"name":"inst_7B3D89E4","path":"rooms/rm_restraunt/rm_restraunt.yy",},
     {"name":"inst_4350543D","path":"rooms/rm_restraunt/rm_restraunt.yy",},
     {"name":"inst_2DD48B69","path":"rooms/rm_restraunt/rm_restraunt.yy",},
-    {"name":"inst_65643EAD","path":"rooms/rm_restraunt/rm_restraunt.yy",},
     {"name":"inst_7DB9310E","path":"rooms/rm_restraunt/rm_restraunt.yy",},
     {"name":"inst_120BC616","path":"rooms/rm_restraunt/rm_restraunt.yy",},
     {"name":"inst_3CC93C1F","path":"rooms/rm_restraunt/rm_restraunt.yy",},
@@ -90,7 +89,6 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_door","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DD48B69","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.4,"scaleY":0.07,"x":53.0,"y":82.5,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65643EAD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.4,"scaleY":0.07,"x":858.0,"y":79.5,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_restraunt","path":"sprites/spr_restraunt/spr_restraunt.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
