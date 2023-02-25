@@ -53,6 +53,7 @@
     {"name":"inst_45D24ED1","path":"rooms/rm_center_left/rm_center_left.yy",},
     {"name":"inst_6FA062ED","path":"rooms/rm_center_left/rm_center_left.yy",},
     {"name":"inst_73BA9AF8","path":"rooms/rm_center_left/rm_center_left.yy",},
+    {"name":"inst_4132A820","path":"rooms/rm_center_left/rm_center_left.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -79,6 +80,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_animations","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74C84C59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_center_fontan","path":"objects/obj_center_fontan/obj_center_fontan.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1057.0,"y":273.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4132A820","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_golubu_fontana_den","path":"objects/obj_golubu_fontana_den/obj_golubu_fontana_den.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1065.0,"y":168.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45C2C985_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":7.1875,"x":2252.0,"y":247.5,},
