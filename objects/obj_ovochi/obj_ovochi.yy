@@ -9,7 +9,10 @@
     "name": "fish_ovochi_puzzle",
     "path": "folders/Objects/Bazar/Fish and Bazar/fish_ovochi_puzzle.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

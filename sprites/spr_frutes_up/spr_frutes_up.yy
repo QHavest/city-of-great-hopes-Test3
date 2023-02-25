@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_frutes_up",
-  "bbox_bottom": 74,
+  "bbox_bottom": 48,
   "bbox_left": 0,
   "bbox_right": 472,
   "bbox_top": 0,

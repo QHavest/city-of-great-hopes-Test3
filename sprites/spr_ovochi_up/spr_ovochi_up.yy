@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_ovochi_up",
-  "bbox_bottom": 76,
+  "bbox_bottom": 46,
   "bbox_left": 0,
   "bbox_right": 461,
   "bbox_top": 0,
