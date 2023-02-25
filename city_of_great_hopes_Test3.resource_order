@@ -8,6 +8,7 @@
     {"name":"MiniGames","order":12,"path":"folders/Battle_system/MiniGames.yy",},
     {"name":"Animations","order":10,"path":"folders/Battle_system/MiniGames/Animations.yy",},
     {"name":"GG","order":1,"path":"folders/Battle_system/MiniGames/Animations/GG.yy",},
+    {"name":"Krus","order":2,"path":"folders/Battle_system/MiniGames/Animations/GG/Krus.yy",},
     {"name":"Enemy","order":9,"path":"folders/Battle_system/MiniGames/Enemy.yy",},
     {"name":"HP_Bar","order":1,"path":"folders/Battle_system/MiniGames/Enemy/HP_Bar.yy",},
     {"name":"GG","order":8,"path":"folders/Battle_system/MiniGames/GG.yy",},
@@ -275,7 +276,6 @@
     {"name":"objects","order":4,"path":"folders/Story/Cutscenes/sektants/objects.yy",},
     {"name":"Tasks","order":1,"path":"folders/Story/Tasks.yy",},
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
-    {"name":"Krus","order":2,"path":"folders/Battle_system/MiniGames/Animations/GG/Krus.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},
