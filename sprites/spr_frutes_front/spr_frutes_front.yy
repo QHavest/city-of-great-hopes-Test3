@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_frutes_front",
-  "bbox_bottom": 77,
+  "bbox_bottom": 70,
   "bbox_left": 0,
   "bbox_right": 532,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 78,
+  "height": 71,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be9f30e7-159d-445a-9f91-fc8fab5fc76a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "fish_puzzle",
-    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/fish_puzzle.yy",
+    "path": "folders/Sprites/Bazar_new/fish_puzzle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

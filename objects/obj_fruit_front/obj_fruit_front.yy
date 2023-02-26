@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lamp_centre",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_fruit_front",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Right",
-    "path": "folders/Objects/Center/Right.yy",
+    "name": "fish_ovochi_puzzle",
+    "path": "folders/Objects/Bazar/Fish and Bazar/fish_ovochi_puzzle.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr__lamp_centre",
-    "path": "sprites/spr__lamp_centre/spr__lamp_centre.yy",
+    "name": "spr_fruit_front",
+    "path": "sprites/spr_fruit_front/spr_fruit_front.yy",
   },
   "spriteMaskId": null,
   "visible": true,

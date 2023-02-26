@@ -4,7 +4,7 @@
   "name": "spr_dim_Ytopurok_move_left",
   "bbox_bottom": 57,
   "bbox_left": 6,
-  "bbox_right": 25,
+  "bbox_right": 28,
   "bbox_top": 52,
   "bboxMode": 2,
   "collisionKind": 2,

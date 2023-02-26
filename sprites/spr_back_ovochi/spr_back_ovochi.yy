@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "fish_puzzle",
-    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/fish_puzzle.yy",
+    "path": "folders/Sprites/Bazar_new/fish_puzzle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

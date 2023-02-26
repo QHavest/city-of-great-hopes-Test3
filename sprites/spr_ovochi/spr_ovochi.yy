@@ -2,11 +2,11 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_ovochi",
-  "bbox_bottom": 40,
-  "bbox_left": -1,
+  "bbox_bottom": 33,
+  "bbox_left": 0,
   "bbox_right": 508,
   "bbox_top": 0,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 0,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "fish_puzzle",
-    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/fish_puzzle.yy",
+    "path": "folders/Sprites/Bazar_new/fish_puzzle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

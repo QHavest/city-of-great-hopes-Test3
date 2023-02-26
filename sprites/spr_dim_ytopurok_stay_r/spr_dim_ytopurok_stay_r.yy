@@ -4,7 +4,7 @@
   "name": "spr_dim_Ytopurok_stay_r",
   "bbox_bottom": 57,
   "bbox_left": 4,
-  "bbox_right": 23,
+  "bbox_right": 25,
   "bbox_top": 53,
   "bboxMode": 2,
   "collisionKind": 2,
