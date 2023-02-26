@@ -284,6 +284,11 @@
     {"name":"Hopnik","order":9,"path":"folders/Battle_system/MiniGames/Animations/GG/Krus/Hopnik.yy",},
     {"name":"Kavkazci","order":10,"path":"folders/Battle_system/MiniGames/Animations/GG/Krus/Kavkazci.yy",},
     {"name":"Narkoman","order":11,"path":"folders/Battle_system/MiniGames/Animations/GG/Krus/Narkoman.yy",},
+    {"name":"Enemy","order":2,"path":"folders/Battle_system/MiniGames/Animations/Enemy.yy",},
+    {"name":"Hopniki","order":1,"path":"folders/Battle_system/MiniGames/Animations/Enemy/Hopniki.yy",},
+    {"name":"Kavkazci","order":2,"path":"folders/Battle_system/MiniGames/Animations/Enemy/Kavkazci.yy",},
+    {"name":"Narkomani","order":3,"path":"folders/Battle_system/MiniGames/Animations/Enemy/Narkomani.yy",},
+    {"name":"Sectant","order":4,"path":"folders/Battle_system/MiniGames/Animations/Enemy/Sectant.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},
