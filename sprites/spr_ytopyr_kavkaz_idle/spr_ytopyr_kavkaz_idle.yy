@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Ytopyrok",
-    "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok.yy",
+    "name": "Kavkaz",
+    "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok/Kavkaz.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
