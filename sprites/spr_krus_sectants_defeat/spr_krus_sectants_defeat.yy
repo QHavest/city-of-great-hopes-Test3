@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Krus",
-    "path": "folders/Battle_system/MiniGames/Animations/GG/Krus.yy",
+    "name": "Sectants",
+    "path": "folders/Battle_system/MiniGames/Animations/GG/Krus/Sectants.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
