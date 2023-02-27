@@ -59,7 +59,7 @@
   "origin": 9,
   "parent": {
     "name": "Krus",
-    "path": "folders/Sprites/Krus.yy",
+    "path": "folders/Sprites/Player_spr/Krus.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
