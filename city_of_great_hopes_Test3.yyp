@@ -1316,7 +1316,7 @@
     {"id":{"name":"spr_background_narko","path":"sprites/spr_background_narko/spr_background_narko.yy",},"order":0,},
     {"id":{"name":"sp_konyk_horbunok_eng","path":"sprites/sp_konyk_horbunok_eng/sp_konyk_horbunok_eng.yy",},"order":8,},
     {"id":{"name":"obj_bottle_mini","path":"objects/obj_bottle_mini/obj_bottle_mini.yy",},"order":4,},
-    {"id":{"name":"spr_ytopyr_kavkazci__idle","path":"sprites/spr_ytopyr_kavkazci__idle/spr_ytopyr_kavkazci__idle.yy",},"order":5,},
+    {"id":{"name":"spr_ytopyr_kavkazci_idle","path":"sprites/spr_ytopyr_kavkazci_idle/spr_ytopyr_kavkazci_idle.yy",},"order":5,},
     {"id":{"name":"spr_seller_posyda","path":"sprites/spr_seller_posyda/spr_seller_posyda.yy",},"order":7,},
     {"id":{"name":"hp_hopnik_empty","path":"sprites/hp_hopnik_empty/hp_hopnik_empty.yy",},"order":7,},
     {"id":{"name":"spr_woman_5_R","path":"sprites/spr_woman_5_R/spr_woman_5_R.yy",},"order":30,},

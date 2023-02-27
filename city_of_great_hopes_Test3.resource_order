@@ -1160,7 +1160,7 @@
     {"name":"spr_Hamon_active","order":10,"path":"sprites/spr_Hamon_active/spr_Hamon_active.yy",},
     {"name":"sp_konyk_horbunok_eng","order":8,"path":"sprites/sp_konyk_horbunok_eng/sp_konyk_horbunok_eng.yy",},
     {"name":"obj_bottle_mini","order":4,"path":"objects/obj_bottle_mini/obj_bottle_mini.yy",},
-    {"name":"spr_ytopyr_kavkazci__idle","order":5,"path":"sprites/spr_ytopyr_kavkazci__idle/spr_ytopyr_kavkazci__idle.yy",},
+    {"name":"spr_ytopyr_kavkazci_idle","order":5,"path":"sprites/spr_ytopyr_kavkazci_idle/spr_ytopyr_kavkazci_idle.yy",},
     {"name":"spr_seller_posyda","order":7,"path":"sprites/spr_seller_posyda/spr_seller_posyda.yy",},
     {"name":"hp_hopnik_empty","order":7,"path":"sprites/hp_hopnik_empty/hp_hopnik_empty.yy",},
     {"name":"spr_woman_5_R","order":30,"path":"sprites/spr_woman_5_R/spr_woman_5_R.yy",},
