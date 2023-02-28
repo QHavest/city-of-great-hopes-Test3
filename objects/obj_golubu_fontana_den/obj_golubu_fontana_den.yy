@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fountain_2",
-    "path": "sprites/spr_fountain_2/spr_fountain_2.yy",
+    "name": "spr_golybu_fountain_2",
+    "path": "sprites/spr_golybu_fountain_2/spr_golybu_fountain_2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
