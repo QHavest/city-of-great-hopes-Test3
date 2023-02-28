@@ -39,7 +39,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8d1ddec7-9234-454d-b7e0-f363b2807c7b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Hopnik",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Krus/Hopnik.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 13,
     "yorigin": 0,
   },
   "swatchColours": null,

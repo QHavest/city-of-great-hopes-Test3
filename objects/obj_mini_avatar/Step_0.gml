@@ -161,6 +161,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	take_damage = false;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
+		
 	obj_Battle_Interface.hpKrys -= damage;
 	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
@@ -173,11 +174,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	}
 	alarm[4]=40;
 	}
-	
 	take_damage = false;
-	//Вставлено з обєкта маргарити
-	//obj_Battle_Interface.battle_start = false;
-//	obj_Battle_Interface.mini_game = false;
 } else if (global.MaxHp = 0){
 	
 	audio_play_sound(snd_defeat_sound,5,false);
@@ -188,6 +185,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	instance_deactivate_object(wall);
 	instance_destroy(obj_shprutz_parent);
 	obj_Battle_Interface.mini_game = false;
+	
 	global.MaxHp = 100;
 }
 if (take_damage = true){
@@ -197,3 +195,6 @@ if (take_damage = true){
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;
 	}
+if (global.MaxHp <= 50){
+		obj_ytopur_battle.phasese = PHASESE.Defeat;
+		}

@@ -39,7 +39,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2e283450-c707-416d-a322-b1b4af16d778","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Kavkazci",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Krus/Kavkazci.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 13,
     "yorigin": 0,
   },
   "swatchColours": null,

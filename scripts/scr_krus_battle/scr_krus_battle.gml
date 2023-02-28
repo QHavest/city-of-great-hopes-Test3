@@ -1,69 +1,68 @@
 function scr_krus_battle(){
-switch(obj_Battle_Interface.phase_battle){
-	case  PHASES.Atack :
-		switch(phasese_krus){
-					case PHASESE_KRUS.Battle:					
-					sprite_index = spr_krus_kavkazci_battle;
-					image_speed = 0;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese_krus = PHASESE_KRUS.Battle_idle;
+switch(obj_Battle_Interface.enemies){
+		case ENEMY.Hopniki:
+			switch(phasese_krus){
+						case PHASESE_KRUS.Battle:	
+						sprite_index = spr_krus_hopnik_battle;
+						break;
+						case PHASESE_KRUS.Battle_down:
+						sprite_index = spr_krus_hopnik_battle_down;
+						break;
+						case PHASESE_KRUS.Battle_idle:
+						sprite_index = spr_krus_hopnik_battle_idle;	
+						break;
+						case PHASESE_KRUS.Idle:
+						sprite_index = spr_krus_hopnik_idle;	
+						break;
 					}
-					break;
-					case PHASESE_KRUS.Battle_down:
-					sprite_index = spr_krus_kavkazci_battle_down;
-					image_speed = 0;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese_krus = PHASESE_KRUS.Idle;
+		break;
+		case ENEMY.Kavkazci:
+			switch(phasese_krus){
+						case PHASESE_KRUS.Battle:	
+						sprite_index = spr_krus_kavkazci_battle;
+						break;
+						case PHASESE_KRUS.Battle_down:
+						sprite_index = spr_krus_kavkazci_battle_down;
+						break;
+						case PHASESE_KRUS.Battle_idle:
+						sprite_index = spr_krus_kavkazci_battle_idle;	
+						break;
+						case PHASESE_KRUS.Idle:
+						sprite_index = spr_krus_kavkazci_idle;	
+						break;
 					}
-					break;
-					case PHASESE_KRUS.Battle_idle:
-					sprite_index = spr_krus_kavkazci_battle_idle;	
-					image_speed = 0;
-					image_speed = 1;
-					break;
-					case PHASESE_KRUS.Idle:
-					sprite_index = spr_krus_kavkazci_idle;	
-					image_speed = 0;
-					image_speed = 1;
-					break;
-				}
-	break;
-	
-	case  PHASES.Defence :
-				switch(phasese_krus){
-					case PHASESE_KRUS.Battle:
-					sprite_index = spr_krus_kavkazci_battle;
-					image_speed = 0;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese_krus = PHASESE_KRUS.Battle_idle;
-					//sprite_index = spr_ytopyr_kavkaz_battle_idle;	
+		break;
+		case ENEMY.Narkomany:
+			switch(phasese_krus){
+						case PHASESE_KRUS.Battle:	
+						sprite_index = spr_krus_narkoman_battle;
+						break;
+						case PHASESE_KRUS.Battle_down:
+						sprite_index = spr_krus_narkoman_battle_down;
+						break;
+						case PHASESE_KRUS.Battle_idle:
+						sprite_index = spr_krus_narkoman_battle_idle;	
+						break;
+						case PHASESE_KRUS.Idle:
+						sprite_index = spr_krus_narkoman_idle;	
+						break;
 					}
-					break;
-					case PHASESE_KRUS.Battle_down:
-					sprite_index = spr_krus_kavkazci_battle_down;
-					image_speed = 0;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese_krus = PHASESE_KRUS.Idle;
-					//sprite_index = spr_ytopyr_kavkaz_battle_idle;	
+		break;
+		case ENEMY.Sectants:
+			switch(phasese_krus){
+						case PHASESE_KRUS.Battle:	
+						sprite_index = spr_krus_sectants_battle;
+						break;
+						case PHASESE_KRUS.Battle_down:
+						sprite_index = spr_krus_sectants_battle_down;
+						break;
+						case PHASESE_KRUS.Battle_idle:
+						sprite_index = spr_krus_sectants_battle_idle;	
+						break;
+						case PHASESE_KRUS.Idle:
+						sprite_index = spr_krus_sectants_idle;	
+						break;
 					}
-					break;
-					case PHASESE_KRUS.Battle_idle:
-					sprite_index = spr_krus_kavkazci_battle_idle;	
-					image_speed = 0;
-					image_speed = 1;
-					break;
-					case PHASESE_KRUS.Idle:
-					sprite_index = spr_krus_kavkazci_idle;	
-					image_speed = 0;
-					image_speed = 1;
-					break;
-				}	
-		//break;
-		//}
-	break;
-}
+		break;
+	}
 }

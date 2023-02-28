@@ -14,6 +14,9 @@ function scr_ytopur_battle(){
 						case PHASESE.Idle:
 						sprite_index = spr_ytopyr_hopnik_idle;	
 						break;
+						case PHASESE.Defeat:
+						sprite_index = spr_ytopyr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Kavkazci:
@@ -29,6 +32,9 @@ function scr_ytopur_battle(){
 						break;
 						case PHASESE.Idle:
 						sprite_index = spr_ytopyr_kavkazci_idle;	
+						break;
+						case PHASESE.Defeat:
+						sprite_index = spr_ytopyr_kavkazci_defeat;	
 						break;
 					}
 		break;
@@ -46,6 +52,9 @@ function scr_ytopur_battle(){
 						case PHASESE.Idle:
 						sprite_index = spr_ytopyr_narkoman_idle;	
 						break;
+						case PHASESE.Defeat:
+						sprite_index = spr_ytopyr_narkoman_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Sectants:
@@ -61,6 +70,9 @@ function scr_ytopur_battle(){
 						break;
 						case PHASESE.Idle:
 						sprite_index = spr_ytopyr_sectants_idle;	
+						break;
+						case PHASESE.Defeat:
+						sprite_index = spr_ytopyr_sectants_defeat;	
 						break;
 					}
 		break;

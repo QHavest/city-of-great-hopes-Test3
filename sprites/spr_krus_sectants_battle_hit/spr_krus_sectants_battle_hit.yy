@@ -39,7 +39,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c39cf3ba-e9a3-4679-94b9-fa33f0f6df2b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Sectants",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Krus/Sectants.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 13,
     "yorigin": 0,
   },
   "swatchColours": null,

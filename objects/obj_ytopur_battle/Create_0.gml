@@ -6,4 +6,5 @@ Battle_down,
 Battle_idle,
 Idle,
 Hit,
+Defeat,
 }
