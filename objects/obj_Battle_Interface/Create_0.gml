@@ -34,7 +34,6 @@ Noname,
 Narkomany,
 Kavkazci,
 Sectants,
-
 Hopniki,
 Torchky,
 Sect,

@@ -1,13 +1,13 @@
 //В степ івент треба внести всі умови при яких починається боротьба
 
 if(keyboard_check_pressed(ord("B"))){
-	battle_start = !battle_start;
+	battle_start = true;
 	enemies = ENEMY.Kavkazci
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 }
 if(keyboard_check_pressed(ord("C"))){
-	battle_start = true;;
+	battle_start = true;
 	enemies = ENEMY.Narkomany
 	//instance_create_depth(900,780,-300,obj_ytopur_battle).sprite_index = spr_ytopyr_kavkaz_idle;
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
@@ -16,13 +16,13 @@ if(keyboard_check_pressed(ord("C"))){
 }
 
 if(keyboard_check_pressed(ord("P"))){
-	battle_start = !battle_start;
+	battle_start = true;
 	enemies = ENEMY.Sectants
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
 }
 if(keyboard_check_pressed(ord("O"))){
-	battle_start = !battle_start;
+	battle_start = true;
 	enemies = ENEMY.Hopniki
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
@@ -93,12 +93,8 @@ if (mini_game == true){
 	dialogue_was = false;
 	}
 	
-} /*else if(mini_game == false and instance_exists(obj_wait)){
-	
-	button[button_c] = "L";
 }
-*/
-if (mini_game = true and games = false and battle_start = true and /*enemies = ENEMY.Narkomany and*/ keyboard_check_released(ord("W"))/* or keyboard_check_released(vk_enter)*/){
+if (mini_game = true and games = false and battle_start = true and keyboard_check_released(ord("W"))){
 			games = true;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;

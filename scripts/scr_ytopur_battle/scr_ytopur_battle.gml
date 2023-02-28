@@ -1,34 +1,70 @@
 function scr_ytopur_battle(){
-		switch(phasese){
-					case PHASESE.Battle:	
-					image_speed = 0;
-					sprite_index = spr_ytopyr_kavkazci_battle;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese = PHASESE.Battle_idle;
-					image_speed = 0;
+	switch(obj_Battle_Interface.enemies){
+		case ENEMY.Hopniki:
+			switch(phasese){
+						case PHASESE.Battle:	
+						sprite_index = spr_ytopyr_hopnik_battle;
+						break;
+						case PHASESE.Battle_down:
+						sprite_index = spr_ytopyr_hopnik_battle_down;
+						break;
+						case PHASESE.Battle_idle:
+						sprite_index = spr_ytopyr_hopnik_battle_idle;	
+						break;
+						case PHASESE.Idle:
+						sprite_index = spr_ytopyr_hopnik_idle;	
+						break;
 					}
-					break;
-					case PHASESE.Battle_down:
-					image_speed = 0;
-					sprite_index = spr_ytopyr_kavkazci_battle_down;
-					image_speed = 1;
-					if (image_index >= image_number - 1){
-					phasese = PHASESE.Idle;
-					image_speed = 0;
+		break;
+		case ENEMY.Kavkazci:
+			switch(phasese){
+						case PHASESE.Battle:	
+						sprite_index = spr_ytopyr_kavkazci_battle;
+						break;
+						case PHASESE.Battle_down:
+						sprite_index = spr_ytopyr_kavkazci_battle_down;
+						break;
+						case PHASESE.Battle_idle:
+						sprite_index = spr_ytopyr_kavkazci_battle_idle;	
+						break;
+						case PHASESE.Idle:
+						sprite_index = spr_ytopyr_kavkazci_idle;	
+						break;
 					}
-					break;
-					case PHASESE.Battle_idle:
-					image_speed = 0;
-					sprite_index = spr_ytopyr_kavkazci_battle_idle;	
-					image_speed = 1;
-					break;
-					case PHASESE.Idle:
-					image_speed = 0;
-					sprite_index = spr_ytopyr_kavkazci_idle;	
-					image_speed = 1;
-					break;
-				}
+		break;
+		case ENEMY.Narkomany:
+			switch(phasese){
+						case PHASESE.Battle:	
+						sprite_index = spr_ytopyr_narkoman_battle;
+						break;
+						case PHASESE.Battle_down:
+						sprite_index = spr_ytopyr_narkoman_battle_down;
+						break;
+						case PHASESE.Battle_idle:
+						sprite_index = spr_ytopyr_narkoman_battle_idle;	
+						break;
+						case PHASESE.Idle:
+						sprite_index = spr_ytopyr_narkoman_idle;	
+						break;
+					}
+		break;
+		case ENEMY.Sectants:
+			switch(phasese){
+						case PHASESE.Battle:	
+						sprite_index = spr_ytopyr_sectants_battle;
+						break;
+						case PHASESE.Battle_down:
+						sprite_index = spr_ytopyr_sectants_battle_down;
+						break;
+						case PHASESE.Battle_idle:
+						sprite_index = spr_ytopyr_sectants_battle_idle;	
+						break;
+						case PHASESE.Idle:
+						sprite_index = spr_ytopyr_sectants_idle;	
+						break;
+					}
+		break;
+	}
 }
 
 

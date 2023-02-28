@@ -34,7 +34,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ca88a148-fe8e-45ee-b4a0-4e673263327b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Sectants",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok/Sectants.yy",
@@ -81,7 +81,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 2,
     "yorigin": 0,
   },
   "swatchColours": null,

@@ -34,7 +34,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e4c19b8-b4af-470a-8efa-1d5102f40788","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Narkoman",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok/Narkoman.yy",
@@ -81,7 +81,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 2,
     "yorigin": 0,
   },
   "swatchColours": null,
