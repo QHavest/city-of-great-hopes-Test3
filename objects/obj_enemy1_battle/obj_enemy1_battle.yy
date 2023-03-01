@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hopnik_idle",
-    "path": "sprites/spr_hopnik_idle/spr_hopnik_idle.yy",
+    "name": "spr_narkoman_idle",
+    "path": "sprites/spr_narkoman_idle/spr_narkoman_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

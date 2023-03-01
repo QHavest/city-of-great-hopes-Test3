@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Honik1",
-    "path": "folders/Battle_system/MiniGames/Animations/Enemy/Hopniki/Honik1.yy",
+    "name": "Hopnik1",
+    "path": "folders/Battle_system/MiniGames/Animations/Enemy/Hopniki/Hopnik1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

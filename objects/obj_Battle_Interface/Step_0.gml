@@ -103,8 +103,14 @@ if (mini_game = true and games = false and battle_start = true and keyboard_chec
 			obj_krus_battle.image_speed = 0;
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 			
+			obj_enemy1_battle.image_index = 0;
+			obj_enemy1_battle.image_speed = 0;
 			obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+			obj_enemy2_battle.image_index = 0;
+			obj_enemy2_battle.image_speed = 0;
 			obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+			obj_enemy3_battle.image_index = 0;
+			obj_enemy3_battle.image_speed = 0;
 			obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
 			aliens = ALIES.Noone;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
@@ -187,6 +193,12 @@ if(system = 1) {
 		obj_ytopur_battle.image_index = 0;
 		obj_ytopur_battle.phasese = PHASESE.Battle;
 		}
+		obj_enemy1_battle.image_index = 0;
+		obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+		obj_enemy2_battle.image_index = 0;
+		obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+		obj_enemy3_battle.image_index = 0;
+		obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 		switch(phase_battle){
 			case PHASES.Atack:
