@@ -30,5 +30,13 @@ function scr_krus_phases(){
 						scr_krus_battle();
 						image_speed = 1;
 						break;
+						case PHASESE_KRUS.Defeat:
+						image_speed = 0;
+						scr_krus_battle();
+						image_speed = 1;
+						if (image_index >= image_number - 1){
+						image_speed = 0;
+						}
+						break;
 					}
 }

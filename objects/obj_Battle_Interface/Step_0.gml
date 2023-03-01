@@ -96,7 +96,11 @@ if (mini_game == true){
 }
 if (mini_game = true and games = false and battle_start = true and keyboard_check_released(ord("W"))){
 			games = true;
+			obj_ytopur_battle.image_index = 0;
+			obj_ytopur_battle.image_speed = 0;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
+			obj_krus_battle.image_index = 0;
+			obj_krus_battle.image_speed = 0;
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 			aliens = ALIES.Noone;
 			instance_create_depth(490,570,-600,obj_screen_gamestart)
@@ -174,8 +178,14 @@ if(system = 1) {
 		mini_game = true;
 		games = true;
 		instance_destroy(obj_wait);
+		
+		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat){
 		obj_ytopur_battle.image_index = 0;
 		obj_ytopur_battle.phasese = PHASESE.Battle;
+		} else if (global.MaxHp <= 50){
+	//	obj_ytopur_battle.phasese = PHASESE.Defeat;
+		//obj_ytopur_battle.image_index = 5;
+		}
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 		switch(phase_battle){
 			case PHASES.Atack:

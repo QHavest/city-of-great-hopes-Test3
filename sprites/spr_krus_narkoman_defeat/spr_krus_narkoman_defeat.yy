@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ed964071-841c-459d-934f-18609d11fd54","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Narkoman",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Krus/Narkoman.yy",
@@ -69,7 +69,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 44,
     "yorigin": 0,
   },
   "swatchColours": null,

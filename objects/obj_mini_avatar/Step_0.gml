@@ -165,6 +165,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	obj_Battle_Interface.hpKrys -= damage;
 	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
+	
 	take_damage = true;
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
@@ -176,7 +177,10 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	}
 	take_damage = false;
 } else if (global.MaxHp = 0){
-	
+	if (global.MaxHp <= 0 and obj_krus_battle.phasese_krus != PHASESE_KRUS.Defeat){
+		obj_krus_battle.image_index = 0;
+		obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
+		}
 	audio_play_sound(snd_defeat_sound,5,false);
 	instance_create_depth(490,570,-600,obj_gameover);
 	instance_destroy(obj_shprutz_dow1);
@@ -185,16 +189,16 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	instance_deactivate_object(wall);
 	instance_destroy(obj_shprutz_parent);
 	obj_Battle_Interface.mini_game = false;
-	
+
 	global.MaxHp = 100;
 }
 if (take_damage = true){
 	
 	}
-
+	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat){
+	obj_ytopur_battle.image_index = 0;
+	obj_ytopur_battle.phasese = PHASESE.Defeat;
+	}
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;
 	}
-if (global.MaxHp <= 50){
-		obj_ytopur_battle.phasese = PHASESE.Defeat;
-		}
