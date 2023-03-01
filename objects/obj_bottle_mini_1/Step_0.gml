@@ -1,5 +1,5 @@
 image_index = im;
-y -= spd;
+y += spd;
 if (place_meeting(x,y-5,obj_mini_avatar)){
 instance_destroy();
 }

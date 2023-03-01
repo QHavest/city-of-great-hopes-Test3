@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fd2eedf1-0cda-4925-aed4-edd127e5fa83","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 1,
   "parent": {
     "name": "Hopnik",
     "path": "folders/Battle_system/MiniGames/Animations/GG/Ytopyrok/Hopnik.yy",
@@ -67,7 +67,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 20,
     "yorigin": 0,
   },
   "swatchColours": null,

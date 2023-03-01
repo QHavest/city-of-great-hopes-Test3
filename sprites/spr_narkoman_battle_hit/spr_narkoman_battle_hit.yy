@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ffe178d1-769a-4dcc-b3d0-f40894ef41f3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Narkoman1",
     "path": "folders/Battle_system/MiniGames/Animations/Enemy/Narkomani/Narkoman1.yy",
@@ -65,7 +65,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 4,
     "yorigin": 0,
   },
   "swatchColours": null,

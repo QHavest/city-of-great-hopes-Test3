@@ -130,11 +130,9 @@ if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or
 	power_hit += 3;
 	damage_enemy = 10;
 	
-	} else
-	if (place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4)){
+	} else if (place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4)){
 	damage = 5;
-	damage_enemy = 10;
-	
+	damage_enemy = 0;
 	}
 }
  alarm[1] -= 1;
