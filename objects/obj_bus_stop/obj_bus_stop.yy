@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "General_objects",
+    "path": "folders/Objects/General_objects.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

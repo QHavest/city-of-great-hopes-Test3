@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "South",
-    "path": "folders/Objects/Tykhlianka/South.yy",
+    "name": "General_objects",
+    "path": "folders/Objects/General_objects.yy",
   },
   "parentObjectId": {
     "name": "obj_woi_invisible_wall",

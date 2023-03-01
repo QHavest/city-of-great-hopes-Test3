@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Night",
-    "path": "folders/Objects/Center/Police/Night.yy",
+    "name": "Police",
+    "path": "folders/Objects/Center/Police.yy",
   },
   "parentObjectId": {
     "name": "obj_nights",

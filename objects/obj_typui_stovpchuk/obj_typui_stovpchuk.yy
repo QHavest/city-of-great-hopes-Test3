@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_typui_stovpchuk",
     "path": "sprites/spr_typui_stovpchuk/spr_typui_stovpchuk.yy",
