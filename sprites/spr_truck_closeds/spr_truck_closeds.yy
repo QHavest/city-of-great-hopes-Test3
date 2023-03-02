@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0cf3fd8e-bb92-4c2a-a503-4f349efda974",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0d5c9d6-a4d6-4f18-8876-e1edb165347e",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 103,
+  "height": 177,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3cce75cf-dfc2-47d2-8828-8d3ae49aa252","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3e06180-f180-4355-9d75-88db56424d35","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0cf3fd8e-bb92-4c2a-a503-4f349efda974","path":"sprites/spr_truck_closeds/spr_truck_closeds.yy",},},},"Disabled":false,"id":"e1873ce1-c518-4cc5-9de5-366dbbfed9de","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f0d5c9d6-a4d6-4f18-8876-e1edb165347e","path":"sprites/spr_truck_closeds/spr_truck_closeds.yy",},},},"Disabled":false,"id":"0ce8d576-b865-4792-861a-df162d260884","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 43,
-    "yorigin": 51,
+    "xorigin": 406,
+    "yorigin": 88,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 87,
+  "width": 812,
 }

@@ -1,4 +1,4 @@
-target_x = 1260;
-target_y = 280;
-target_rm=rm_street_container;
+target_x = 1372;
+target_y = 220;
+target_rm= rm_street_container;
 dor_sound = noone;
