@@ -34,19 +34,19 @@ function scr_enemy1_battle(){
 		case ENEMY.Kavkazci:
 			switch(phasese_enemy1){
 						case PHASESE_ENEMY1.Battle:	
-						sprite_index = spr_ytopyr_kavkazci_battle;
+						sprite_index = spr_kavkaz_battle0;
 						break;
 						case PHASESE_ENEMY1.Battle_down:
-						sprite_index = spr_ytopyr_kavkazci_battle_down;
+						sprite_index = spr_kavkaz_battle_down0;
 						break;
 						case PHASESE_ENEMY1.Battle_idle:
-						sprite_index = spr_ytopyr_kavkazci_battle_idle;	
+						sprite_index = spr_kavkaz_battle_idle;	
 						break;
 						case PHASESE_ENEMY1.Idle:
-						sprite_index = spr_ytopyr_kavkazci_idle;	
+						sprite_index = spr_kavkaz_idle;	
 						break;
 						case PHASESE_ENEMY1.Defeat:
-						sprite_index = spr_ytopyr_kavkazci_defeat;	
+						sprite_index = spr_kavkaz_defeat;	
 						break;
 					}
 		break;
@@ -72,19 +72,19 @@ function scr_enemy1_battle(){
 		case ENEMY.Sectants:
 			switch(phasese_enemy1){
 						case PHASESE_ENEMY1.Battle:	
-						sprite_index = spr_ytopyr_sectants_battle;
+						sprite_index = spr_sectant_battle0;
 						break;
 						case PHASESE_ENEMY1.Battle_down:
-						sprite_index = spr_ytopyr_sectants_battle_down;
+						sprite_index = spr_sectant_battle_down0;
 						break;
 						case PHASESE_ENEMY1.Battle_idle:
-						sprite_index = spr_ytopyr_sectants_battle_idle;	
+						sprite_index = spr_sectant_battle_idle;	
 						break;
 						case PHASESE_ENEMY1.Idle:
-						sprite_index = spr_ytopyr_sectants_idle;	
+						sprite_index = spr_sectant_idle;	
 						break;
 						case PHASESE_ENEMY1.Defeat:
-						sprite_index = spr_ytopyr_sectants_defeat;	
+						sprite_index = spr_sectant_defeat;	
 						break;
 					}
 		break;
@@ -118,19 +118,19 @@ function scr_enemy2_battle(){
 		case ENEMY.Kavkazci:
 			switch(phasese_enemy2){
 						case PHASESE_ENEMY2.Battle:	
-						sprite_index = spr_ytopyr_kavkazci_battle;
+						sprite_index = spr_kavkaz2_battle0;
 						break;
 						case PHASESE_ENEMY2.Battle_down:
-						sprite_index = spr_ytopyr_kavkazci_battle_down;
+						sprite_index = spr_kavkaz2_battle_down0;
 						break;
 						case PHASESE_ENEMY2.Battle_idle:
-						sprite_index = spr_ytopyr_kavkazci_battle_idle;	
+						sprite_index = spr_kavkaz2_battle_idle;	
 						break;
 						case PHASESE_ENEMY2.Idle:
-						sprite_index = spr_ytopyr_kavkazci_idle;	
+						sprite_index = spr_kavkaz2_idle;	
 						break;
 						case PHASESE_ENEMY2.Defeat:
-						sprite_index = spr_ytopyr_kavkazci_defeat;	
+						sprite_index = spr_kavkaz2_defeat;	
 						break;
 					}
 		break;
@@ -156,19 +156,19 @@ function scr_enemy2_battle(){
 		case ENEMY.Sectants:
 			switch(phasese_enemy2){
 						case PHASESE_ENEMY2.Battle:	
-						sprite_index = spr_ytopyr_sectants_battle;
+						sprite_index = spr_sectant2_battle0;
 						break;
 						case PHASESE_ENEMY2.Battle_down:
-						sprite_index = spr_ytopyr_sectants_battle_down;
+						sprite_index = spr_sectant2_battle_down0;
 						break;
 						case PHASESE_ENEMY2.Battle_idle:
-						sprite_index = spr_ytopyr_sectants_battle_idle;	
+						sprite_index = spr_sectant2_battle_idle;	
 						break;
 						case PHASESE_ENEMY2.Idle:
-						sprite_index = spr_ytopyr_sectants_idle;	
+						sprite_index = spr_sectant2_idle;	
 						break;
 						case PHASESE_ENEMY2.Defeat:
-						sprite_index = spr_ytopyr_sectants_defeat;	
+						sprite_index = spr_sectant2_defeat;	
 						break;
 					}
 		break;
@@ -205,19 +205,19 @@ function scr_enemy3_battle(){
 		case ENEMY.Kavkazci:
 			switch(phasese_enemy3){
 						case PHASESE_ENEMY3.Battle:	
-						sprite_index = spr_ytopyr_kavkazci_battle;
+						sprite_index = spr_kavkaz3_battle0;
 						break;
 						case PHASESE_ENEMY3.Battle_down:
-						sprite_index = spr_ytopyr_kavkazci_battle_down;
+						sprite_index = spr_kavkaz3_battle_down0;
 						break;
 						case PHASESE_ENEMY3.Battle_idle:
-						sprite_index = spr_ytopyr_kavkazci_battle_idle;	
+						sprite_index = spr_kavkaz3_battle_idle;	
 						break;
 						case PHASESE_ENEMY3.Idle:
-						sprite_index = spr_ytopyr_kavkazci_idle;	
+						sprite_index = spr_kavkaz3_idle;	
 						break;
 						case PHASESE_ENEMY3.Defeat:
-						sprite_index = spr_ytopyr_kavkazci_defeat;	
+						sprite_index = spr_kavkaz3_defeat;	
 						break;
 					}
 		break;
@@ -243,19 +243,19 @@ function scr_enemy3_battle(){
 		case ENEMY.Sectants:
 			switch(phasese_enemy3){
 						case PHASESE_ENEMY3.Battle:	
-						sprite_index = spr_ytopyr_sectants_battle;
+						sprite_index = spr_sectant3_battle0;
 						break;
 						case PHASESE_ENEMY3.Battle_down:
-						sprite_index = spr_ytopyr_sectants_battle_down;
+						sprite_index = spr_sectant3_battle_down0;
 						break;
 						case PHASESE_ENEMY3.Battle_idle:
-						sprite_index = spr_ytopyr_sectants_battle_idle;	
+						sprite_index = spr_sectant3_battle_idle;	
 						break;
 						case PHASESE_ENEMY3.Idle:
-						sprite_index = spr_ytopyr_sectants_idle;	
+						sprite_index = spr_sectant3_idle;	
 						break;
 						case PHASESE_ENEMY3.Defeat:
-						sprite_index = spr_ytopyr_sectants_defeat;	
+						sprite_index = spr_sectant3_defeat;	
 						break;
 					}
 		break;

@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_mini_screen",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_green_screen",
-    "path": "sprites/spr_green_screen/spr_green_screen.yy",
+    "name": "spr_grey_screen",
+    "path": "sprites/spr_grey_screen/spr_grey_screen.yy",
   },
   "spriteMaskId": null,
   "visible": true,
