@@ -62,7 +62,7 @@ last_active = 0;
 switch(state){
 	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();    break;
 	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();			break;
-	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka2();			break;
+	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka2();			break; //
  } 
 
 

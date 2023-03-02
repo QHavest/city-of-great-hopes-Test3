@@ -1,9 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dim_playerstate_Lavka2(){
-
+//якщо ГГ сів то анімація дихання на лавці
 if ( sprite_index=asset_get_index("spr_"+sprit+"_sit_lav_4") and scr_dim_animation_end(sprite_index) )sprite_index=asset_get_index("spr_"+sprit+"_lavka_4");;
+//щоб запустити анімацію вставання
 if keyboard_check(ord("Q")) sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_4");
+// коли встали з лавки даєм свободу гравцю
 if sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_4") and scr_dim_animation_end(sprite_index) 
 {
 state=PLAYERSTATE.FREE;
