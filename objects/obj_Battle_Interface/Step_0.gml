@@ -40,6 +40,7 @@ if (battle_start = true and mini_game = false){
 if (battle_start = true and keyboard_check_pressed(ord("F")))
 {		room_goto(target_rm);
 		battle_start = false;
+		//instance_activate_object(daycycle);
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{
 			target_x = obj_dim_player1.x;
@@ -79,6 +80,7 @@ if (mini_game = true and games = false){
 		instance_deactivate_object(obj_sects);
 		instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
+		//instance_deactivate_object(daycycle);
 		//instance_deactivate_object(obj_mini_ytopur);
 		//instance_deactivate_object(obj_mini_krus);
 		instance_deactivate_object(obj_hopnik);

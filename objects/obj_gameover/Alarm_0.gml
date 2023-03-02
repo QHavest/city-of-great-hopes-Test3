@@ -8,6 +8,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		obj_Battle_Interface.game_over_mini = false;
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);
+		instance_activate_object(daycycle);
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{
 			obj_dim_player1.x = 1795

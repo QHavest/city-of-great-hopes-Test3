@@ -104,6 +104,12 @@ if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 if(global.shop) time_pause = true;
 else time_pause = false;
 
+if(obj_Battle_Interface.battle_start = true){
+	time_pause = true;
+} else if (obj_Battle_Interface.battle_start = false){
+	time_pause = false;
+}
+
 if(time_pause == true)
 {
 	instance_deactivate_object(obj_clock);
