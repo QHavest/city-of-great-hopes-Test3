@@ -4,7 +4,7 @@
   "name": "spr_street_second_side",
   "bbox_bottom": 303,
   "bbox_left": 0,
-  "bbox_right": 3674,
+  "bbox_right": 3749,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6cb6e267-29ae-4f13-a851-a865a88f011b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96a7a4b7-3ca8-44ab-b143-baf6c08e18c3",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 304,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4d186b28-e813-410a-87fa-91ca33354da9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a278843b-7984-43af-a5c4-3ec6d3562518","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,12 +54,12 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6cb6e267-29ae-4f13-a851-a865a88f011b","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},},},"Disabled":false,"id":"eb0d84e7-2d0e-4c3b-aadb-08c17e64ec19","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"96a7a4b7-3ca8-44ab-b143-baf6c08e18c3","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},},},"Disabled":false,"id":"597fd182-37c3-48a9-96ca-2c9896385530","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 1837,
+    "xorigin": 1875,
     "yorigin": 152,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 3675,
+  "width": 3750,
 }

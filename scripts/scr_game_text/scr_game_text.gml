@@ -1383,8 +1383,6 @@ case "scena_9_4":
   break;
   
   case "Krus_dont_smok":
-  
-  //seq4_2 = layer_sequence_create("Cutscenes2", 0,0, seq_scena_9_2);
   instance_create_depth(0, 0, 1000, obj_seq_delete);
   break;
   
@@ -1456,6 +1454,78 @@ case "task1_npc3":
 break
 #endregion
 
+#region Ресторан, катсцена
+
+case "Doorman1": // якщо ми заходимо
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_1"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+case "Doorman2": // якщо не заходимо
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_2"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+case "waiter": // офіціант
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_3"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	    scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_4"),"booking");
+		scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_5"),"no_booking");
+break
+
+case "booking": // з бронюванням
+	
+	with(obj_manager_restoraunt)
+	{
+		booking = true;
+	}
+	
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_6"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_7"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+case "booking2": // ругається офіціант
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_8"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+case "no_booking": // без бронювання
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_9"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+//case "no_booking2": // після паузи
+//	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),1,spr_ic_Krus, spr_ic_Ytopurok);
+//break
+
+case "barmen": // біля барної стійки
+	obj_trigger_barmen_2.x = 0;
+	obj_trigger_barmen_2.y = 0;
+	instance_activate_object(obj_trigger_barmen);
+	instance_destroy(obj_trigger_barmen_2);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_11"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	    scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_12"),"beer");
+		scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_13"),"4");
+break
+
+case "barmen2": // біля барної стійки
+	scr_text("Повторити?",1,spr_ic_Krus, spr_ic_Ytopurok);
+	    scr_option("Так","beer");
+		scr_option("Ні","4");
+break
+
+case "beer":
+	with(obj_manager_barmen)
+	{
+		start = true;
+	}
+	with(obj_trigger_barmen)
+	{
+		number2 = number2+1;
+	}
+break
+
+case "go_home_alcoholics": // бармен вигяняє
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_14"),1,spr_ic_Krus, spr_ic_Ytopurok);
+break
+
+#endregion
 
 case "4":
 	

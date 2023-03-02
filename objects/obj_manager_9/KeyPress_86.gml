@@ -1,5 +1,6 @@
-if(a == 1)
+if(a == 1 and start = 1)
 {
+	start = 0;
 	var playerInst1 = instance_find(obj_dim_player2,0);
 	var objInst1 = instance_find(obj_lotki_night2,0);
 	var objInst2 = instance_find(obj_lamp_fish_and_bazaar_night,0);

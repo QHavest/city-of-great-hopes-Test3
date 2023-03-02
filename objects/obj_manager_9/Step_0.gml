@@ -14,6 +14,7 @@ if(pause == true)
 
 if(a == 1 and global.task == 3)
 {
+	global.task = 0;
 	var playerInst1 = instance_find(obj_dim_player2,0);
 	var objInst1 = instance_find(obj_lotki_night2,0);
 	var objInst2 = instance_find(obj_lamp_fish_and_bazaar_night,0);
