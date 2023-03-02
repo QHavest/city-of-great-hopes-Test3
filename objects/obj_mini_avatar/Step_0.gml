@@ -135,9 +135,18 @@ if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or
 	damage_enemy = 0;
 	}
 }
+if (obj_Battle_Interface.aliens = ALIES.Ytopurok_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
+if (keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true){
+	damage = 0;
+	damage_enemy = 10;
+	} else if (keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = false){
+	damage = 5;
+	damage_enemy = 0;
+	}
+}
  alarm[1] -= 1;
  alarm[4] -= 1;
-if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_shprutz_up1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz) or place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini) or place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) and alarm[4] < 1  {
+if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_shprutz_up1) or place_meeting(x, y, obj_sssrs) or place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz) or place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini) or place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4) or place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert)) or (keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true) and alarm[4] < 1  {
 	alarm[1] = 30;
 	obj_Battle_Interface.light_bi = 1;
 	if(global.MaxHp > 51){
@@ -146,7 +155,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	obj_Battle_Interface.hpYtopyrok -= damage;
 	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
-	
+	scr_enemy_hit();
 	}
 	if (alarm[4] < 1){
 
@@ -163,7 +172,7 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 	obj_Battle_Interface.hpKrys -= damage;
 	audio_play_sound(snd_lose_XP,5,false,global.System_gain);
 	global.MaxHp = obj_Battle_Interface.hpKrys+obj_Battle_Interface.hpYtopyrok;
-	
+	scr_enemy_hit();
 	take_damage = true;
 	if (alarm[4] < 1){
 	amount_hp = amount_hp - (damage/100*279);
@@ -190,9 +199,11 @@ if(global.MaxHp > 0  and place_meeting(x, y, obj_shprutz_dow1) or place_meeting(
 
 	global.MaxHp = 100;
 }
-if (take_damage = true){
-	
+
+	if (take_damage == true){
+	obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Hit;
 	}
+	
 	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat){
 	obj_ytopur_battle.image_index = 0;
 	obj_ytopur_battle.phasese = PHASESE.Defeat;

@@ -1,20 +1,33 @@
 if(battle_start = true){	
-	/*if (instance_exists(obj_mini_avatar)){
-		draw_sprite_part(hp_narko_full, 0, 0, 0,obj_mini_avatar.amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
-		}else {
-			draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
-			}*/
-	draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
-	//draw_sprite(spr_screen, 0, gui_W/3.918, gui_H/1.928);
-	//draw_sprite(spr_hpRed, 0, gui_W/1.265, gui_H/1.223);
+	//draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/1.2568, gui_H/2.112);
+	switch(enemies){
+		case ENEMY.Hopniki:
+		draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/7.312);
+		draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068, gui_H/7.312);
+		draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
+		break;
+		case ENEMY.Kavkazci:
+		draw_sprite_part(hp_kavkaz_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/7.312);
+		draw_sprite_part(hp_kavkaz_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068, gui_H/7.312);
+		draw_sprite_part(hp_kavkaz_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
+		break;
+		case ENEMY.Narkomany:
+		draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/7.312);
+		draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068, gui_H/7.312);
+		draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
+		break;
+		case ENEMY.Sectants:
+		draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/7.312);
+		draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068, gui_H/7.312);
+		draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
+		break;
+	}
+	
+	
+	//draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2368, gui_H/3.112);
+	
 	draw_sprite(spr_darkarr, 0, gui_W/10.69, gui_H/1.203);
-	//полоска хп
-	//draw_sprite_part(spr_hpGreen, 0, 0, 0,  obj_mini_avatar.amount_hp, 35, gui_W/1.2568, gui_H/1.112);
 	//мерехтілка
 	draw_sprite(spr_red_l,  light_bi, gui_W/1.222, gui_H/2.40);
-	//instance_create_depth(0,0,-99999,obj_shprutz_dow1);
-	//кнопки
-	//draw_sprite(spr_krus_zelen, 0, gui_W/1.41, gui_H/2.40);
-	
 }
 

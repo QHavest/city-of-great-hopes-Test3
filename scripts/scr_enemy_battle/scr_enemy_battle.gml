@@ -29,6 +29,9 @@ function scr_enemy1_battle(){
 						case PHASESE_ENEMY1.Defeat:
 						sprite_index = spr_hopnik_defeat;	
 						break;
+						case PHASESE_ENEMY1.Hit:
+						sprite_index = spr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Kavkazci:
@@ -47,6 +50,9 @@ function scr_enemy1_battle(){
 						break;
 						case PHASESE_ENEMY1.Defeat:
 						sprite_index = spr_kavkaz_defeat;	
+						break;
+						case PHASESE_ENEMY1.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;
@@ -67,6 +73,9 @@ function scr_enemy1_battle(){
 						case PHASESE_ENEMY1.Defeat:
 						sprite_index = spr_narkoman_defeat;	
 						break;
+						case PHASESE_ENEMY1.Hit:
+						sprite_index = spr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Sectants:
@@ -85,6 +94,9 @@ function scr_enemy1_battle(){
 						break;
 						case PHASESE_ENEMY1.Defeat:
 						sprite_index = spr_sectant_defeat;	
+						break;
+						case PHASESE_ENEMY1.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;
@@ -113,6 +125,9 @@ function scr_enemy2_battle(){
 						case PHASESE_ENEMY2.Defeat:
 						sprite_index = spr_hopnik2_defeat;	
 						break;
+						case PHASESE_ENEMY2.Hit:
+						sprite_index = spr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Kavkazci:
@@ -131,6 +146,9 @@ function scr_enemy2_battle(){
 						break;
 						case PHASESE_ENEMY2.Defeat:
 						sprite_index = spr_kavkaz2_defeat;	
+						break;
+						case PHASESE_ENEMY2.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;
@@ -151,6 +169,9 @@ function scr_enemy2_battle(){
 						case PHASESE_ENEMY2.Defeat:
 						sprite_index = spr_narkoman2_defeat;	
 						break;
+						case PHASESE_ENEMY2.Hit:
+						sprite_index = spr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Sectants:
@@ -169,6 +190,9 @@ function scr_enemy2_battle(){
 						break;
 						case PHASESE_ENEMY2.Defeat:
 						sprite_index = spr_sectant2_defeat;	
+						break;
+						case PHASESE_ENEMY2.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;
@@ -200,6 +224,9 @@ function scr_enemy3_battle(){
 						case PHASESE_ENEMY3.Defeat:
 						sprite_index = spr_hopnik3_defeat;	
 						break;
+						case PHASESE_ENEMY3.Hit:
+						sprite_index = spr_hopnik_defeat;	
+						break;
 					}
 		break;
 		case ENEMY.Kavkazci:
@@ -218,6 +245,9 @@ function scr_enemy3_battle(){
 						break;
 						case PHASESE_ENEMY3.Defeat:
 						sprite_index = spr_kavkaz3_defeat;	
+						break;
+						case PHASESE_ENEMY3.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;
@@ -238,6 +268,9 @@ function scr_enemy3_battle(){
 						case PHASESE_ENEMY3.Defeat:
 						sprite_index = spr_narkoman3_defeat;	
 						break;
+						case PHASESE_ENEMY3.Hit:
+						sprite_index = spr_narkoman3_battle_hit;	
+						break;
 					}
 		break;
 		case ENEMY.Sectants:
@@ -256,6 +289,9 @@ function scr_enemy3_battle(){
 						break;
 						case PHASESE_ENEMY3.Defeat:
 						sprite_index = spr_sectant3_defeat;	
+						break;
+						case PHASESE_ENEMY3.Hit:
+						sprite_index = spr_hopnik_defeat;	
 						break;
 					}
 		break;

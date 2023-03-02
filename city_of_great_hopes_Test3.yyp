@@ -1298,6 +1298,7 @@
     {"id":{"name":"obj_punchball_s2","path":"objects/obj_punchball_s2/obj_punchball_s2.yy",},"order":5,},
     {"id":{"name":"spr_refrigerator_fastfood","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},"order":8,},
     {"id":{"name":"spr_hotel","path":"sprites/spr_hotel/spr_hotel.yy",},"order":3,},
+    {"id":{"name":"scr_battle_hit","path":"scripts/scr_battle_hit/scr_battle_hit.yy",},"order":11,},
     {"id":{"name":"spr_fox","path":"sprites/spr_fox/spr_fox.yy",},"order":1,},
     {"id":{"name":"sp_platynovui_certificat01","path":"sprites/sp_platynovui_certificat01/sp_platynovui_certificat01.yy",},"order":8,},
     {"id":{"name":"obj_sign_sport_1","path":"objects/obj_sign_sport_1/obj_sign_sport_1.yy",},"order":1,},
