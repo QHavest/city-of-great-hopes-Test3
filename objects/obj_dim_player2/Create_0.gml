@@ -13,6 +13,8 @@ sprit = "Krus";
 in_place = 0;
 last_active = 0;
 
+start =0;
+
 xsd = 0;
 ysd = 0;
 

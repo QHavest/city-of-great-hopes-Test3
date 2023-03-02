@@ -37,6 +37,7 @@ if (global.dialogue_move = true){
 	{
 		if in_place = 0
 		{
+			if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
@@ -66,6 +67,7 @@ last_active = 0;
 switch(state){
 	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
 	case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();		break;
+	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka2();			break;
  } 
 
 

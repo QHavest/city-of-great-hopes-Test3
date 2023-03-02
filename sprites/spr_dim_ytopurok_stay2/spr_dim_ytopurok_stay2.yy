@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_dim_Ytopurok_stay2",
   "bbox_bottom": 57,
-  "bbox_left": 6,
+  "bbox_left": 5,
   "bbox_right": 25,
   "bbox_top": 53,
   "bboxMode": 2,
