@@ -101,24 +101,25 @@ if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 //if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
 //else time_pause = false;
 
-if(global.shop) time_pause = true;
-else time_pause = false;
+/*if(global.shop) time_pause = true;
+else time_pause = false;*/
 
-if(obj_Battle_Interface.battle_start = true){
+
+
+
+if(obj_Battle_Interface.battle_start = true or global.dialog_end = 0 or global.shop == true){
 	time_pause = true;
-} else if (obj_Battle_Interface.battle_start = false){
+} else if (obj_Battle_Interface.battle_start = false or global.dialog_end = 1 or global.shop == false){
 	time_pause = false;
 }
-
+/*
 if(time_pause == true)
 {
 	instance_deactivate_object(obj_clock);
-}
-
-if(time_pause == false)
+} else if(time_pause == false)
 {
 	instance_activate_object(obj_clock);
-}
+}*/
 
 if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
 if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
