@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"94f94cdd-e951-4d5b-a996-e80af465d279","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 6,
   "parent": {
     "name": "Sectant3",
     "path": "folders/Battle_system/MiniGames/Animations/Enemy/Sectant/Sectant3.yy",
@@ -66,7 +66,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
-    "yorigin": 0,
+    "yorigin": 38,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

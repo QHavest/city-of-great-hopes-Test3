@@ -2433,6 +2433,7 @@
     {"id":{"name":"obj_dumbbell_sport3","path":"objects/obj_dumbbell_sport3/obj_dumbbell_sport3.yy",},"order":3,},
     {"id":{"name":"sp_kasetnyk01","path":"sprites/sp_kasetnyk01/sp_kasetnyk01.yy",},"order":6,},
     {"id":{"name":"rm_home_manda","path":"rooms/rm_home_manda/rm_home_manda.yy",},"order":3,},
+    {"id":{"name":"scr_damage_mini_avatar","path":"scripts/scr_damage_mini_avatar/scr_damage_mini_avatar.yy",},"order":12,},
     {"id":{"name":"snd_diary_open","path":"sounds/snd_diary_open/snd_diary_open.yy",},"order":4,},
     {"id":{"name":"spr_woman_1_R","path":"sprites/spr_woman_1_R/spr_woman_1_R.yy",},"order":14,},
     {"id":{"name":"obj_sekt_2","path":"objects/obj_sekt_2/obj_sekt_2.yy",},"order":1,},

@@ -2154,6 +2154,7 @@
     {"name":"obj_dumbbell_sport3","order":3,"path":"objects/obj_dumbbell_sport3/obj_dumbbell_sport3.yy",},
     {"name":"sp_kasetnyk01","order":6,"path":"sprites/sp_kasetnyk01/sp_kasetnyk01.yy",},
     {"name":"rm_home_manda","order":3,"path":"rooms/rm_home_manda/rm_home_manda.yy",},
+    {"name":"scr_damage_mini_avatar","order":12,"path":"scripts/scr_damage_mini_avatar/scr_damage_mini_avatar.yy",},
     {"name":"snd_diary_open","order":4,"path":"sounds/snd_diary_open/snd_diary_open.yy",},
     {"name":"spr_woman_1_R","order":14,"path":"sprites/spr_woman_1_R/spr_woman_1_R.yy",},
     {"name":"obj_sekt_2","order":1,"path":"objects/obj_sekt_2/obj_sekt_2.yy",},

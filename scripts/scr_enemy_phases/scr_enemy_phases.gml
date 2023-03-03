@@ -122,7 +122,7 @@ function scr_enemy2_phases(){
 						break;
 						case PHASESE_ENEMY2.Hit:
 						image_speed = 0;
-						scr_enemy1_battle();
+						scr_enemy2_battle();	
 						image_speed = 1;
 						if (image_index >= image_number - 1){
 						phasese_enemy2 = PHASESE_ENEMY2.Battle_idle;
