@@ -65,9 +65,10 @@ last_active = 0;
 //////////////////////////////////////////////////////////////////////////////
 
 switch(state){
-	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
-	case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();		break;
-	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka2();			break;
+	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();		  break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();			break;
+	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break;
+	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break;
  } 
 
 

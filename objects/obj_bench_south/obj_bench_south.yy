@@ -1,8 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bench_south1",
-  "eventList": [],
+  "name": "obj_bench_south",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +15,8 @@
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
   "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

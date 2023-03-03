@@ -29,7 +29,8 @@ enum PLAYERSTATE{
 FREE,
 BUY,
 DIALOGUE,
-LAVKA2
+LAVKA3,
+LAVKA4
 }
 
 //Частина 1 системи слідкування за героєм
