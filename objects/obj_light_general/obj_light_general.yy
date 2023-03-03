@@ -29,7 +29,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_light_general",
     "path": "sprites/spr_light_general/spr_light_general.yy",

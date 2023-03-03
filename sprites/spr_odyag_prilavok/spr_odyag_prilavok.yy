@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_odyag_prilavok",
   "bbox_bottom": 27,
-  "bbox_left": 0,
+  "bbox_left": 5,
   "bbox_right": 144,
   "bbox_top": 0,
   "bboxMode": 0,
