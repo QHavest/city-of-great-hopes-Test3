@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bench1",
+  "name": "obj_chair_outdor",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "General_objects",
-    "path": "folders/Objects/General_objects.yy",
+    "name": "Manda",
+    "path": "folders/Objects/Tykhlianka/South/Manda.yy",
   },
   "parentObjectId": {
-    "name": "obj_woi_invisible_wall",
-    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+    "name": "obj_invisiblewall",
+    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_bench_1",
-    "path": "sprites/spr_bench_1/spr_bench_1.yy",
+    "name": "spr_chair_outdor",
+    "path": "sprites/spr_chair_outdor/spr_chair_outdor.yy",
   },
   "spriteMaskId": null,
   "visible": true,
