@@ -56,6 +56,6 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 	instance_destroy(obj_shprutz_parent);
 	obj_Battle_Interface.mini_game = false;
 
-	global.MaxHp = 100;
+	//global.MaxHp = 100;
 }
 }

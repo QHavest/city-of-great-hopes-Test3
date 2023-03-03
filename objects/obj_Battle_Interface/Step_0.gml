@@ -1,5 +1,5 @@
 //В степ івент треба внести всі умови при яких починається боротьба
-
+global.MaxHp = hpKrys+hpYtopyrok
 if(keyboard_check_pressed(ord("B"))){
 	battle_start = true;
 	enemies = ENEMY.Kavkazci
