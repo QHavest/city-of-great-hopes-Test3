@@ -80,6 +80,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Dialogs/Sounds.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"speaker_icon","folderPath":"folders/Dialogs/speaker_icon.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bazar","folderPath":"folders/Dialogs/speaker_icon/Bazar.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Barugi","folderPath":"folders/Dialogs/speaker_icon/Bazar/Barugi.yy","order":34,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Magaz","folderPath":"folders/Dialogs/speaker_icon/Bazar/Magaz.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Milk_veget_sellers","folderPath":"folders/Dialogs/speaker_icon/Bazar/Milk_veget_sellers.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Center","folderPath":"folders/Dialogs/speaker_icon/Center.yy","order":4,},
@@ -346,7 +347,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tasks","folderPath":"folders/Story/Tasks.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Barugi","folderPath":"folders/Dialogs/speaker_icon/Bazar/Barugi.yy","order":34,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

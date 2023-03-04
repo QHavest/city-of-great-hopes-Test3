@@ -64,6 +64,7 @@
     {"name":"Sounds","order":13,"path":"folders/Dialogs/Sounds.yy",},
     {"name":"speaker_icon","order":5,"path":"folders/Dialogs/speaker_icon.yy",},
     {"name":"Bazar","order":5,"path":"folders/Dialogs/speaker_icon/Bazar.yy",},
+    {"name":"Barugi","order":34,"path":"folders/Dialogs/speaker_icon/Bazar/Barugi.yy",},
     {"name":"Magaz","order":5,"path":"folders/Dialogs/speaker_icon/Bazar/Magaz.yy",},
     {"name":"Milk_veget_sellers","order":12,"path":"folders/Dialogs/speaker_icon/Bazar/Milk_veget_sellers.yy",},
     {"name":"Center","order":4,"path":"folders/Dialogs/speaker_icon/Center.yy",},
@@ -310,7 +311,6 @@
     {"name":"objects","order":4,"path":"folders/Story/Cutscenes/sektants/objects.yy",},
     {"name":"Tasks","order":1,"path":"folders/Story/Tasks.yy",},
     {"name":"Timelines","order":4,"path":"folders/Timelines.yy",},
-    {"name":"Barugi","order":34,"path":"folders/Dialogs/speaker_icon/Bazar/Barugi.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_dumb_big_h","order":1,"path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},
