@@ -567,7 +567,23 @@
 		"task1_babka1": "God, what a moron. It's clear that he's an orphan and unbaptized yet! The lost soul, don't mess with him. Better buy something from me.",
 		"task1_babka2": "I am a woman from the village. Why do I need to know local dudes?",
 		"task1_babka3": "I know those whistling idiots. They often go to the center to beg for alms. Maybe you will find your friend there.",
-  		"task1_npc3": "I know those whistling idiots. They often go to the center to beg for alms. Maybe you will find your friend there."
+  		"task1_npc3": "I know those whistling idiots. They often go to the center to beg for alms. Maybe you will find your friend there.",
+
+
+		"Restoraunt_1": "Come in, I hope you will have a good time in our building.", 
+		"Restoraunt_2": "I'm sorry, but the entrance is only for distinguished guests and friends of Ashot Aristarkhovich.",
+		"Restoraunt_3": "I wish you good health, gentlemen! I have not seen you before here. Have you reserved a table?",
+		"Restoraunt_4": "For sure.",
+		"Restoraunt_5": "No.",
+		"Restoraunt_6": "Alright - just give me a second! I'll check the guest list now. You are?",
+  		"Restoraunt_7": "Cudgel and Ratsy.",
+  		"Restoraunt_8": "Ah, you lying assholes! Do you want to lie to a decent person? Get the hell out of here!",
+  		"Restoraunt_9": "Sorry, but we work only with reservations!",
+  		"Restoraunt_10": "But you can sit at the bar - there is a good drink and a talkative bartender.",
+  		"Restoraunt_11": "Oh, the workers. I can offer you a beer!",
+  		"Restoraunt_12": "Give us 2 mugs. My friend too.",
+  		"Restoraunt_13": "No, thanks.",
+  		"Restoraunt_14": "Enough of you, workers. Go to your wives and mothers - and come to us tomorrow."
 
 
 
@@ -1135,7 +1151,23 @@
 		"task1_babka1": "Боже, яке кончене. Видно що сирітка та й нехрещений ще! То душа пропаща, не водіться із ним. Краще ось в мене щось та і прикупіть.",
 		"task1_babka2": "Я баба з села. То до холери мені місцевих фраєрів знавати?",
 		"task1_babka3": "Знаю я тих придурків-свистунів. Вони часто в центрі збираються милостиню просити. Може там і свого друга здибаєте.",
-  		"task1_npc3": "Мандарини кажете? А я мандарини їв хіба що на Новий Рік. Криза як не як"
+  		"task1_npc3": "Мандарини кажете? А я мандарини їв хіба що на Новий Рік. Криза як не як", 
+
+
+		"Restoraunt_1": "Заходьте, сподіваюся ви гарно проведете час у нашому закладі.", 
+		"Restoraunt_2": "Вибачте, але вхід тільки для поважних гостей і друзів Ашота Арістарховича.",
+		"Restoraunt_3": "Здоров’ячка бажаю, панове! Я вас раніше не бачив в нашому закладі. Ви бронювали столик?",
+		"Restoraunt_4": "Так.",
+		"Restoraunt_5": "Ні.",
+		"Restoraunt_6": "Добре - секундочку! Я зараз перевірю список гостей. Ви?",
+  		"Restoraunt_7": "Утопирок і Крис.",
+  		"Restoraunt_8": "Ах ви брехливі засранці! Хочете кинути порядну людину? Звалили нахер звідси!",
+  		"Restoraunt_9": "Вибачте, але в нас тільки по броні!",
+  		"Restoraunt_10": "Гаразд, можете сісти за барну стійку - там хороша випивка та говіркий бармен.",
+  		"Restoraunt_11": "О,роботяги. Можу запропонувати вам пива!",
+  		"Restoraunt_12": "Давайте нам 2 кухля. Мій друг також буде.",
+  		"Restoraunt_13": "Ні, дякую.",
+  		"Restoraunt_14": "З вас досить, роботяги. Ідіть до дружин та матерів - а до нас приходьте ще завтра."
 
 }
 }
