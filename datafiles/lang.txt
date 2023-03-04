@@ -63,6 +63,7 @@
 		"Kasa5": "Well, now if that's all, then you pay 5 karbovanets.",
 		"Kasa6": "Give 5 karbovanets.",
 		"Kasa7": "Sorry, we changed our minds.",
+		"Kasa8": "We don't need strangers here. Go yourself!",
 
 		"Loto0": "Children-flowers, don't you want to buy a ticket, catch your fate? Who knows how lucky you will be this time?",
 		"Loto1": "Yeah, give. (Give 50 kopecks)",
@@ -93,6 +94,7 @@
 		"Vasia8": "No, no, no. I lived there last year. Almaz no longer endures me. So you better gonna the forest.",
 		"Vasia9": "Um, okay. Forget about it. We changed our minds.",
 		"Vasia10": "Sure, brow. Look and come again.",
+		"Vasia11": "Stop rambling. Let me flower sell a little.",
 
 
 		"Yana0": "Hello! Would you like to become a shareholders of LLC Three Virginity?",
@@ -126,6 +128,7 @@
 		"sovenir3": "Unless? And who to be? If you have already come, then buy something.",
 		"sovenir4": "Look at the assortment",
 		"sovenir5": "Refuse",
+		"sovenir6": "Are we buying? If not - then out!",
 
 		"Ninel1":"Good afternoon! And to you too, Boris.",
 		"Ninel2":"А?",
@@ -194,6 +197,7 @@
 		"Bufet2": "Trade",
 		"Bufet3": "No, nothing is needed.",
 
+		"Taranrino0": "Boys - I'll see you again - but for now, take a walk, maybe go to a movie. I didn't like it very much - but it's just suitable for you.",
 		"Taranrino1": "Hello guys. What for what? Have you come to me for the cassettes?",
 		"Taranrino2": "Well, kind of that, man. Tell me who you are.",
 		"Taranrino3": "Yeah, a bored man. I've been working here since I was a teenager, watching movies and selling cassettes. Watched all the Soviet classics.",
@@ -274,6 +278,13 @@
 		"Anton20": "Because you slept with sows, you didn't have enough imagination to come up with something..",
 		"Anton21": "We are probably going out from here.",
 
+		"Barugi_fur1": "I have a lot! And what is missing -  will deliver soon.",
+		"Barugi_fur2": "Wide choice as my soul!",
+		"Barugi_fur3": "You have to buy -  while everyone wanders and stares!",
+		"Barugi_fur4": "Oh, young people - will sell a mother for a little!!",
+		"Barugi_fur5": "My joys - I'm a happy seller from noon til ... fuck, forgot what next!",
+		"Barugi_fur6": "They live according to ideas, not according to the law! What times go on, can tell me?",
+
 		"Barugi1": "You come to me, take the vegetable almost for free!",
 		"Barugi2": "Guests and residents, taste my apples and dance!",
 		"Barugi3": "A pumpkin for a one-two, and when you'll take mine - for long!",
@@ -331,7 +342,7 @@
 		"Panton4": "Nothing, thanks.",
 		"Panton5": "А. Did you come to joke with me? Whether you decide to buy something, then come again!",
 
-
+		"Stiopa0": "Mutters something (in Hutsul).",	
 		"Stiopa1": "Boys-boys, how are you? What are you doing here?",
 		"Stiopa22": "Came to visit",
 		"Stiopa2": "Nothing special, came to visit you, uncle.",
@@ -422,6 +433,12 @@
 		"Bibiliothekar7": "And you're fucking liar. You are strong only on words. But in reality...",
 		"Bibiliothekar8": "Good day, how can I help? We have many books and newspapers here. Go through and read but you can't take them with you.",
 		"Bibiliothekar9": "We have an equipped room where you can sit. When leaving, put books back. If you understand, you can enter.",
+
+		"Didu1": "Well, little goats - let's play on chessboards!",
+		"Didu2": "Moonshine and chess - what's not a pension for you... but first, live long enough to fuck around veterans for no reason!",
+		"Didu3": "I would play with you... but you are shitty amateurs.	",
+		"Didu4": "Kasparov is the champion! What a man - a golden thinker!",
+
 
 		"Tyrnikman1": "It has never happened that a person died from the sport. Your examples are examples of a person who started too late.",
 		"Tyrnikman2": "The cult of health must defeat the cult of drugs. Only then we will have peace and a happy future.",
@@ -653,6 +670,7 @@
 		"Kasa5": "Ну а тепер якщо це всьо, то з вас 5 карбованців.",
 		"Kasa6": "Дати 5 карбованців.",
 		"Kasa7": "Вибачте, ми передумали.",
+		"Kasa8": "Нам тут зівак не треба. Йдіть собі!",
 
 		"Loto0": "Діти-квіти, не хочете білет купить, долю наздогнать? Хтозна-як вам повезе на цей раз?",
 		"Loto1": "Да, давайте. (Дать 50 копійок)",
@@ -683,6 +701,7 @@
 		"Vasia8": "Нє, нє, нє. Я лиш недавно там жив. Алмаз уже мене не переварює. Так що лучше ви лесом.",
 		"Vasia9": "Ем, ладно. Забей. Ми передумали шось.",
 		"Vasia10": "Ну ладно лоб. Тоді подивитесь – подходіть.",
+		"Vasia11": "Хватить швендяти. Дай цвіточок продать троха.",
 
 		"Yana0": "Доброго дня! Бажаєте стати акціонером компанії ООО Три Калинки? ",
 		"Yana1": "Прошу звернути увагу на послуги.",
@@ -715,6 +734,8 @@
 		"sovenir3": "Хіба? А ви ким будете? Коль уже прийшли, то купіть якусь забавку.",
 		"sovenir4": "Переглянуть асортимент",
 		"sovenir5": "Відмовитись",
+		"sovenir6": "Купляєм? Якщо ні - то киш!",
+
 
 
 		"Ninel1":"Добрий день і тобі Утопирок тоже.",
@@ -782,6 +803,7 @@
 		"Bufet2": "Торгуватися",
 		"Bufet3": "Ні, нічого не треба.",
 
+		"Taranrino0": "Пацанчики - ще побачимось - а поки пройдіться, може на фільм сходіть. Мені не дуже зайшов - а вам в самий раз.",
 		"Taranrino1": "Здоров пацани. Що по чом? Невже пришли за кассетами до мене?",
 		"Taranrino2": "Ну тип того мужик. Розкажи ким будеш?",
 		"Taranrino3": "Та так, скучающий мужичок. Я тут з підліткового віку працюю, вот дивлюсь фільми й продаю кассети. Всю радянську класику передивився.",
@@ -862,6 +884,13 @@
 		"Anton20": "Бо ви злягалися з свиноматками, у вас фантазії невистачило, щоб щось придумать.",
 		"Anton21": "Ми пожалуй потопаєм отсюдаво.",
 
+		"Barugi_fur1": "В мене много є! А чого нема - скоро завезуть.",
+		"Barugi_fur2": "Широкий вибір як моя душа!",
+		"Barugi_fur3": "Купляти треба - а то все ходять придивляються!",
+		"Barugi_fur4": "Ох молодьож - продасть маму за мідний грош!",
+		"Barugi_fur5": "Мої вітання - я щасливий продавець з вечора до… сука забув як там далі!",
+		"Barugi_fur6": "Живуть по поняттях, а не по закону! Що за часи пішли, може підкажете?",
+
 		"Barugi1": "Ви до мене підходіть, овочєй свящку возьміть!",
 		"Barugi2": "Гості й жителі скуштуйте моїх яблочок й танцюйте!",
 		"Barugi3": "Гарбуза на раза два, а мого возьмеш – толпа!",
@@ -919,7 +948,7 @@
 		"Panton4": "Нічого не потрібно, дякую.",
 		"Panton5": "А. Ну ладно, посміяться над роботягой рішили. Ну ви як щось розумне удумаєте, підходьте.",
 
-
+		"Stiopa0": "Щось бурмотить (по-гуцульськи).",
 		"Stiopa1": "Хлопци хлопци, як ви? Що ви тут забули?",
 		"Stiopa22": "Прийши провідати",
 		"Stiopa2": "Та так, вас провідать прийшли.",
@@ -1015,6 +1044,11 @@
 		"Tyrnikman2": "Культ здоров’я має побороти культ наркотиків. Лиш тоді буде мир та майбутнє.",
 		"Tyrnikman3": "Мечтать жизнь провести в трико и стать спортсменом як Кличко…",
 		"Tyrnikman4": "Давай зроби, подтянись, зроби жизнь свою лучше!",
+
+		"Didu1": "Нумо, малі козлята - гайда в шахмати зіграти!",
+		"Didu2": "Самогон і шахи - чим вам не пенсія… але спочатку доживіть, щоб без причини на ветеранів пиздіть!",
+		"Didu3": "Я з вами б зіграв… але знову срані аматори.",
+		"Didu4": "Каспаров чемпіон! Ось це людина - золотий мислитель!",
 
 		"Schoolman1": "Дяді, ви так стоїте впритул до мене, як батюшка на ранковій службі.",
 		"Schoolman2": "Дяді, можу я додому піти. Мене вже на тому тижні незнайомі дядьки спиняли. Мені не сподобалось. Все боліло.",

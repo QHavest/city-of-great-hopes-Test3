@@ -8,6 +8,10 @@ global.zn_Yana = false;
 global.zn_Yvasia_na = 0;
 global.cher_quest = 0;
 global.zn_bibl = 0;
+global.zn_Kasa = 0;
+global.zn_souvenir=0;
+global.zn_Tarantino = 0;
+global.zn_Stiop= 0;
 #endregion
 
 }
