@@ -5,17 +5,11 @@ if(status = STATUS.ACTIVE){
 	else spd = runspd;
 	directx = keyr - keyl; 
 	directy = keyup - keydown;
-	//directxy -= directxy - directx ;
+
 	// змешення швидкості ходьби по діагоналі
 	if( directy !=0 && directx !=0 ) spd=spd*0.8; 
-
 	hsp = directx*spd;
 	vsp = directy*walkspd*0.5;
-	
-//	if instance_exists(obj_pauser){
-//		hsp = 0;
-//		vsp = 0;
-//	}
 
 	if (!in_sequence){
 	x += hsp
@@ -45,12 +39,16 @@ sprit="Ytopurok";
 if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
 if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
 
-// рух вправо
+// ХОДЬБА вправо і вліво
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
  lastmove = 0;}
-if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
 
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
+
+// БІГ вправо і вліво
+
+if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
+
 if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
 lastmove = 1;}
 

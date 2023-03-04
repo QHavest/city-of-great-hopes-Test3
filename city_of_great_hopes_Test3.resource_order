@@ -1428,6 +1428,7 @@
     {"name":"sp_shwarc01","order":2,"path":"sprites/sp_shwarc01/sp_shwarc01.yy",},
     {"name":"obj_dumbbell_sport6","order":6,"path":"objects/obj_dumbbell_sport6/obj_dumbbell_sport6.yy",},
     {"name":"spr_Patrylnui","order":16,"path":"sprites/spr_Patrylnui/spr_Patrylnui.yy",},
+    {"name":"no_run_in_room","order":25,"path":"scripts/no_run_in_room/no_run_in_room.yy",},
     {"name":"spr_DEscape","order":1,"path":"sprites/spr_DEscape/spr_DEscape.yy",},
     {"name":"spr_mishky","order":6,"path":"sprites/spr_mishky/spr_mishky.yy",},
     {"name":"spr_Ytopurok_stand_lav_3","order":11,"path":"sprites/spr_Ytopurok_stand_lav_3/spr_Ytopurok_stand_lav_3.yy",},

@@ -1622,6 +1622,7 @@
     {"id":{"name":"sp_shwarc01","path":"sprites/sp_shwarc01/sp_shwarc01.yy",},"order":2,},
     {"id":{"name":"obj_dumbbell_sport6","path":"objects/obj_dumbbell_sport6/obj_dumbbell_sport6.yy",},"order":6,},
     {"id":{"name":"spr_Patrylnui","path":"sprites/spr_Patrylnui/spr_Patrylnui.yy",},"order":16,},
+    {"id":{"name":"no_run_in_room","path":"scripts/no_run_in_room/no_run_in_room.yy",},"order":25,},
     {"id":{"name":"spr_DEscape","path":"sprites/spr_DEscape/spr_DEscape.yy",},"order":1,},
     {"id":{"name":"spr_ieghova_ins","path":"sprites/spr_ieghova_ins/spr_ieghova_ins.yy",},"order":0,},
     {"id":{"name":"spr_mishky","path":"sprites/spr_mishky/spr_mishky.yy",},"order":6,},
