@@ -156,11 +156,12 @@ switch (obj_Battle_Interface.phase_battle){
 						}
 			break;
 			case ALIES.Ytopurok_mini:
-				if (keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true){
+				if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = true) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = true) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = true)){
 					damage = 0;
-					damage_enemy = 10;
+					//damage_enemy = 10;
+					damage_enemy = 35;
 					scr_damage_mini_avatar();
-					} else if (keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = false){
+					} else if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = false) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = false) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = false) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = false)){
 						damage = 5;
 						damage_enemy = 0;
 						scr_damage_mini_avatar();

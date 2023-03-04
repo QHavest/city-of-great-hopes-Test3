@@ -10,6 +10,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		obj_Battle_Interface.games = false
 		obj_Battle_Interface.hpKrys = 50;
 		obj_Battle_Interface.hpYtopyrok = 50;
+		obj_Battle_Interface.amount_hp_enemy = 96;
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);
 		if obj_dim_player1.status = STATUS.ACTIVE
