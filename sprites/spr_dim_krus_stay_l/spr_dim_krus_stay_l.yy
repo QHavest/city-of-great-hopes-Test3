@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_dim_Krus_stay_l",
   "bbox_bottom": 52,
-  "bbox_left": 2,
-  "bbox_right": 18,
-  "bbox_top": 49,
+  "bbox_left": 0,
+  "bbox_right": 15,
+  "bbox_top": 48,
   "bboxMode": 2,
   "collisionKind": 2,
   "collisionTolerance": 0,
@@ -59,7 +59,7 @@
   "origin": 9,
   "parent": {
     "name": "Krus",
-    "path": "folders/Sprites/Krus.yy",
+    "path": "folders/Sprites/Player_spr/Krus.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

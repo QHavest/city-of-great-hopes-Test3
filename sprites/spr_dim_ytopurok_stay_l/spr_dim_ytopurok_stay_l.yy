@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_dim_Ytopurok_stay_l",
   "bbox_bottom": 57,
-  "bbox_left": 4,
-  "bbox_right": 23,
+  "bbox_left": 2,
+  "bbox_right": 20,
   "bbox_top": 53,
   "bboxMode": 2,
   "collisionKind": 2,
@@ -59,7 +59,7 @@
   "origin": 9,
   "parent": {
     "name": "Ytopurok",
-    "path": "folders/Sprites/Ytopurok.yy",
+    "path": "folders/Sprites/Player_spr/Ytopurok.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

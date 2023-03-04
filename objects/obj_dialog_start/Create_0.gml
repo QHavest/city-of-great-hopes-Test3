@@ -1,5 +1,4 @@
 depth= -99999;
-
 help_sprite = spr_help
 ///переменная отвечающая за рисование подсказки
 drowings = false

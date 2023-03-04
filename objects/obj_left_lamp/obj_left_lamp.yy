@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Left",
-    "path": "folders/Objects/Center/Left.yy",
+    "name": "General_objects",
+    "path": "folders/Objects/General_objects.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_left_lamp",
-    "path": "sprites/spr_left_lamp/spr_left_lamp.yy",
+    "name": "spr_right_lamp",
+    "path": "sprites/spr_right_lamp/spr_right_lamp.yy",
   },
   "spriteMaskId": null,
   "visible": true,

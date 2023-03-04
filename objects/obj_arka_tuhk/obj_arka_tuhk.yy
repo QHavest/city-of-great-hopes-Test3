@@ -10,8 +10,8 @@
     "path": "folders/Objects/Tykhlianka/South.yy",
   },
   "parentObjectId": {
-    "name": "obj_woi_invisible_wall",
-    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+    "name": "obj_days",
+    "path": "objects/obj_days/obj_days.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

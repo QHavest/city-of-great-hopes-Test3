@@ -4,8 +4,8 @@
   "name": "spr_dim_Ytopurok_run_right",
   "bbox_bottom": 55,
   "bbox_left": 9,
-  "bbox_right": 28,
-  "bbox_top": 50,
+  "bbox_right": 29,
+  "bbox_top": 51,
   "bboxMode": 2,
   "collisionKind": 2,
   "collisionTolerance": 0,
@@ -34,7 +34,7 @@
   "origin": 7,
   "parent": {
     "name": "Ytopurok",
-    "path": "folders/Sprites/Ytopurok.yy",
+    "path": "folders/Sprites/Player_spr/Ytopurok.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

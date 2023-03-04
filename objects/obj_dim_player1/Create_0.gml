@@ -5,6 +5,7 @@ runspd  = 6;
 collisionSpeed = 4;
 lastmove = 0;
 s_walk = snd_walk;
+InRoomMode = false;
 
 xsd = 0;
 ysd = 0;
@@ -13,6 +14,7 @@ sprit = "Ytopurok";
 in_place = 0;
 last_active = 0;
 
+start =0;
 
 
 //налаштування перемикання між персонажами 
@@ -27,7 +29,10 @@ state=PLAYERSTATE.FREE;
 enum PLAYERSTATE{
 FREE,
 BUY,
-DIALOGUE
+DIALOGUE,
+LAVKA2,
+LAVKA3,
+LAVKA4
 }
 
 //Частина 1 системи слідкування за героєм

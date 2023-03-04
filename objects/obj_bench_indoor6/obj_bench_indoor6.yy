@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_bench_indoor6",
-    "path": "sprites/spr_bench_indoor6/spr_bench_indoor6.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

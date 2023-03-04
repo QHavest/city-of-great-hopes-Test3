@@ -7,6 +7,7 @@ if string_length(text[page]) == 0
 {
 	global.dialog_end = 1;
 	global.dialogue_move = false;
+	global.zaniatui = false;
 	//instance_destroy(obj_pauser);
 	instance_destroy();
 }
@@ -220,6 +221,7 @@ if snd_count < snd_delay{
 			else {
 				global.dialog_end = 1;
 				global.dialogue_move = false;
+				global.zaniatui = false;
 				if please_shop_open=1 	scr_shop_open(shop_name);
 			}
 			//instance_destroy(obj_pauser);

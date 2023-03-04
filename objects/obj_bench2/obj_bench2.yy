@@ -2,12 +2,18 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_bench2",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_invisiblewall","path":"objects/obj_invisiblewall/obj_invisiblewall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "South",
-    "path": "folders/Objects/Tykhlianka/South.yy",
+    "name": "General_objects",
+    "path": "folders/Objects/General_objects.yy",
   },
   "parentObjectId": {
     "name": "obj_woi_invisible_wall",
@@ -29,8 +35,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_bench_2",
-    "path": "sprites/spr_bench_2/spr_bench_2.yy",
+    "name": "spr_bench_1",
+    "path": "sprites/spr_bench_1/spr_bench_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

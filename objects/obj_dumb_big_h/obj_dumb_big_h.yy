@@ -33,5 +33,5 @@
     "path": "sprites/spr_dumb_big_h/spr_dumb_big_h.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

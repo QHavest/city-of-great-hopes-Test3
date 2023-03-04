@@ -21,5 +21,5 @@ else drowings = false;
 		obj_dim_player2.ysd = y+y2;
 		obj_dim_player1.napriam=n1;
 		obj_dim_player2.napriam=n2;
-
+		global.zaniatui = true;
 	}

@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_vegetables",
-    "path": "sprites/spr_vegetables/spr_vegetables.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

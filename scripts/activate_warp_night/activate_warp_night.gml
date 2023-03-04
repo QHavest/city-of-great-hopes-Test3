@@ -18,8 +18,6 @@ function activate_warp_night(){
 	instance_activate_object(inst_4A1F96E0);
 	instance_activate_object(inst_5F940E90);
 	instance_activate_object(inst_2DE789BB);
-	instance_activate_object(inst_3B7B9C34);
-	instance_activate_object(inst_7D34F904);
 	instance_activate_object(inst_314E0508);
 	instance_activate_object(inst_2F45B376);
 }

@@ -8,18 +8,19 @@ if (global.shop or !global.dialog_end or global.map) {
 	in_place = 0;
 }
 
-//система зміни статусу гравця or !global.dialogue_move
-
+//система зміни статусу гравця
+if global.dialog_end and !global.map and !global.shop and !global.dialogue_move{
 if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;
 if(keyboard_check(ord("2"))) status = STATUS.ACTIVE;
+}
+//if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;
+//if(keyboard_check(ord("2"))) status = STATUS.ACTIVE;
 
 
 switch(status){
 	case STATUS.ACTIVE : scr_play_player()   ; break;
 	case STATUS.PASSIVE: scr_passive_player(); break;
 }
-
-
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -37,6 +38,7 @@ if (global.dialogue_move = true){
 	{
 		if in_place = 0
 		{
+			if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
@@ -54,18 +56,24 @@ if (global.dialogue_move = true){
 	
 }	
 // відновлення ативного статусу після закінчення діалогу
-else if last_active = true and global.dialog_end
+else 
+{
+if last_active = true and global.dialog_end
 {
 status = STATUS.ACTIVE;
 last_active = 0;
+}
 }
 
 
 //////////////////////////////////////////////////////////////////////////////
 
 switch(state){
-	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();    break;
-	case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();		break;
+	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();		  break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_Krus();			break;
+	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka("2");		break; 
+	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break;
+	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break;
  } 
 
 
