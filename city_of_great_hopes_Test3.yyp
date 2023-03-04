@@ -2297,7 +2297,6 @@
     {"id":{"name":"spr_Petrovuch","path":"sprites/spr_Petrovuch/spr_Petrovuch.yy",},"order":18,},
     {"id":{"name":"obj_player_1_8","path":"objects/obj_player_1_8/obj_player_1_8.yy",},"order":1,},
     {"id":{"name":"spr_DDialog","path":"sprites/spr_DDialog/spr_DDialog.yy",},"order":1,},
-    {"id":{"name":"spr_bench_indoor1","path":"sprites/spr_bench_indoor1/spr_bench_indoor1.yy",},"order":7,},
     {"id":{"name":"spr_barmen_take_cup","path":"sprites/spr_barmen_take_cup/spr_barmen_take_cup.yy",},"order":3,},
     {"id":{"name":"spr_rezol_eng","path":"sprites/spr_rezol_eng/spr_rezol_eng.yy",},"order":15,},
     {"id":{"name":"spr_dim_Ytopurok_stay_r","path":"sprites/spr_dim_Ytopurok_stay_r/spr_dim_Ytopurok_stay_r.yy",},"order":3,},
