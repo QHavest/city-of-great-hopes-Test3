@@ -8,6 +8,7 @@ lastmove = 0
 playernum = 2;
 status = STATUS.PASSIVE;
 s_walk = snd_walk;
+InRoomMode = false;
 
 sprit = "Krus";
 in_place = 0;
