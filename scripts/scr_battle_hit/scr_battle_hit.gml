@@ -20,5 +20,21 @@ function scr_enemy_hit(){
 }
 
 function scr_gg_hit(){
-
+/*if (obj_ytopur_battle.phasese != PHASESE.Defeat){
+		obj_ytopur_battle.phasese = PHASESE.Hit;
+		obj_ytopur_battle.image_index = 0;
+	} else if (obj_ytopur_battle.phasese = PHASESE.Defeat){
+		obj_krus_battle.phasese_krus = PHASESE_KRUS.Hit;
+		obj_krus_battle.image_index = 0;
+		}*/
+		switch (obj_Battle_Interface.aliens){
+			case ALIES.Krus_mini:
+				obj_krus_battle.phasese_krus = PHASESE_KRUS.Hit;
+				obj_krus_battle.image_index = 0;
+			break;
+			case ALIES.Ytopurok_mini:
+				obj_ytopur_battle.phasese = PHASESE.Hit;
+				obj_ytopur_battle.image_index = 0;
+			break;
+		}
 }

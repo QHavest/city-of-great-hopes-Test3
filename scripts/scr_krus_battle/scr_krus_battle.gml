@@ -17,6 +17,9 @@ switch(obj_Battle_Interface.enemies){
 						case PHASESE_KRUS.Defeat:
 						sprite_index = spr_krus_hopnik_defeat;	
 						break;
+						case PHASESE_KRUS.Hit:
+						sprite_index = spr_krus_hopnik_battle_hit;	
+						break;
 					}
 		break;
 		case ENEMY.Kavkazci:
@@ -35,6 +38,9 @@ switch(obj_Battle_Interface.enemies){
 						break;
 						case PHASESE_KRUS.Defeat:
 						sprite_index = spr_krus_kavkazci_defeat;	
+						break;
+						case PHASESE_KRUS.Hit:
+						sprite_index = spr_krus_kavkazci_battle_hit;	
 						break;
 					}
 		break;
@@ -55,6 +61,9 @@ switch(obj_Battle_Interface.enemies){
 						case PHASESE_KRUS.Defeat:
 						sprite_index = spr_krus_narkoman_defeat;	
 						break;
+						case PHASESE_KRUS.Hit:
+						sprite_index = spr_krus_narkoman_battle_hit;	
+						break;
 					}
 		break;
 		case ENEMY.Sectants:
@@ -73,6 +82,9 @@ switch(obj_Battle_Interface.enemies){
 						break;
 						case PHASESE_KRUS.Defeat:
 						sprite_index = spr_krus_sectants_idle;	
+						break;
+						case PHASESE_KRUS.Hit:
+						sprite_index = spr_krus_sectants_battle_hit;	
 						break;
 					}
 		break;

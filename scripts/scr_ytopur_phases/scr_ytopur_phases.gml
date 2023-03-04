@@ -39,5 +39,14 @@ function scr_ytopur_phases(){
 						image_speed = 0;
 						}
 						break;
+						case PHASESE.Hit:
+						image_speed = 0;
+						scr_ytopur_battle()	
+						image_speed = 1;
+						if (image_index >= image_number - 1){
+						phasese = PHASESE.Battle_idle;
+						image_speed = 0;
+						}
+						break;
 					}
 }
