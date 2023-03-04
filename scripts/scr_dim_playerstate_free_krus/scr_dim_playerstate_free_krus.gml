@@ -1,26 +1,38 @@
 	function scr_dim_playerstate_free_krus(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
 if(status = STATUS.ACTIVE){
-	if (move == 0 ) spd = walkspd;
-	else spd = runspd;
+	if (run == 0 or InRoomMode = true) spd = walkspd;
+	else if (InRoomMode = false) spd = runspd;
+	
 	directx = keyr - keyl; 
 	directy = keyup - keydown;
-	//directxy -= directxy - directx ;
+	
 	// змешення швидкості ходьби по діагоналі
-	if( directy !=0 && directx !=0 ) spd=spd*0.8; 
-
+	if( directy !=0 && directx !=0 ) spd = spd*0.8; 
 	hsp = directx*spd;
 	vsp = directy*spd*0.5;
 	
-//	if instance_exists(obj_pauser){
-//		hsp = 0;
-//		vsp = 0;
-//	}
-
 	if (!in_sequence){
 	x += hsp
 	y -= vsp
 	}
+	
+	//////////ЗВУКИ ХОДЬБИ//////////////
+	if (hsp!= 0 or vsp != 0){
+	if (run == false or InRoomMode = true){ 
+			if !audio_is_playing(snd_walk) audio_play_sound(snd_walk,0,0,global.player_gain);
+			if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+	} 
+	else if(run == true and InRoomMode = false){
+		if !audio_is_playing(snd_run) audio_play_sound(snd_run,0,0,global.player_gain);
+		if audio_is_playing(snd_walk) audio_stop_sound(snd_walk);
+	}
+	}else{
+		audio_stop_sound(snd_walk);
+		audio_stop_sound(snd_run);
+	}
+	
+	//////////////////////////////////////
 	//горизонтальна колізія
 	if(place_meeting(x + hsp, y, obj_invisiblewall)){
 		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
@@ -44,12 +56,19 @@ if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + s
 if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
 
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
- lastmove = 0;}
-if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;}
- 
+lastmove = 0;}
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;}	
 lastmove = 1;}
+
+// БІГ вправо і вліво
+
+if(InRoomMode = false){
+if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;
+lastmove = 0;}
+
+if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;
+lastmove = 1;}
+}
 
 //if(global.dialogue_move = false){
 	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");

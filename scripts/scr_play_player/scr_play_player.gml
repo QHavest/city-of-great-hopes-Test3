@@ -1,7 +1,7 @@
 function scr_play_player(){
 event_inherited();
 if (!in_sequence){
-move     =  keyboard_check(vk_space);
+run     =  keyboard_check(vk_space);
 keyr     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
 keyl     =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
 keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
@@ -25,34 +25,5 @@ ch = camera_get_view_height(cam);
 view_set_visible(0, false);
 view_set_visible(1, true);
 }
-
-
-	if(move = true)
-	{
-		if(keyr or keyl)
-		{
-		if !audio_is_playing(snd_run) audio_play_sound(snd_run,0,0,global.player_gain);
-		if audio_is_playing(s_walk) audio_stop_sound(s_walk);
-		}
-		else if ( keyup or keydown)
-		{
-		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
-		}
-	}
-	else 
-	{
-		if(keyr or keyl or keyup or keydown)
-		{
-		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
-		}
-	}
-// стап звуків коли стоїш 
-if(!keyr and !keyl and !keyup and !keydown){
-if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
-if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
-}
-
 
 }
