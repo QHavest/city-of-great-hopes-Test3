@@ -11,7 +11,10 @@
     "name": "Night",
     "path": "folders/Objects/Rival Station/Second Side/Night.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
