@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_hastronom",
-  "bbox_bottom": 155,
+  "bbox_bottom": 147,
   "bbox_left": 33,
   "bbox_right": 345,
   "bbox_top": 0,
