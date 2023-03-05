@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 137.68991,
+  "duration": 114.285706,
   "parent": {
     "name": "Night",
     "path": "folders/Sounds/Fon_snd/Night.yy",

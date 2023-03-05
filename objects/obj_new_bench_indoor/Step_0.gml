@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 // Inherit the parent event
 event_inherited();
@@ -7,7 +5,7 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 {
 	drowings = true;
 }
-else drowings = false;
+else if drowings  drowings= false;
 
 
 
