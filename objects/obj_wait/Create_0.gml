@@ -1,4 +1,4 @@
-if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat){
+if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
 		obj_ytopur_battle.image_index = 0;
 		obj_ytopur_battle.phasese = PHASESE.Battle_down;
 	}

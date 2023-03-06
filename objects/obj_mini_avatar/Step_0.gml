@@ -178,9 +178,10 @@ switch (obj_Battle_Interface.phase_battle){
 	obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Hit;
 	}
 	
-	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat){
-	obj_ytopur_battle.image_index = 0;
+	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+
 	obj_ytopur_battle.phasese = PHASESE.Defeat;
+	//obj_ytopur_battle.image_index = 0;
 	}
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;

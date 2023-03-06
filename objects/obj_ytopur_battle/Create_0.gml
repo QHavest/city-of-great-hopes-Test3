@@ -7,4 +7,5 @@ Battle_idle,
 Idle,
 Hit,
 Defeat,
+Defeat2,
 }
