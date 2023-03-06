@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bus_yellow",
+  "name": "Object773",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Second Side",
-    "path": "folders/Objects/Rival Station/Second Side.yy",
+    "name": "Tukhlianka",
+    "path": "folders/Rooms/Tukhlianka.yy",
   },
-  "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,11 +24,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": {
-    "name": "spr_bus_yellow",
-    "path": "sprites/spr_bus_yellow/spr_bus_yellow.yy",
-  },
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_rival_station_first",
-  "bbox_bottom": 320,
+  "name": "spr_street_second_side_night",
+  "bbox_bottom": 303,
   "bbox_left": 0,
-  "bbox_right": 3750,
+  "bbox_right": 3749,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0814bf78-6406-490d-baed-876525859398",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"429e66e8-d4ca-4d26-a7ef-380e606b9963",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 321,
+  "height": 304,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1cab4821-62a5-4229-8cd4-4633f397ecc5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75422c1a-082f-4460-a43c-c6b37b2c7718","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_rival_station_first",
+    "name": "spr_street_second_side_night",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0814bf78-6406-490d-baed-876525859398","path":"sprites/spr_rival_station_first/spr_rival_station_first.yy",},},},"Disabled":false,"id":"de0135ef-0d10-4ee5-9c70-82248d9f65e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"429e66e8-d4ca-4d26-a7ef-380e606b9963","path":"sprites/spr_street_second_side_night/spr_street_second_side_night.yy",},},},"Disabled":false,"id":"f589cf2e-8330-4fca-b5bc-ac5e49cd7f7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 1875,
-    "yorigin": 160,
+    "yorigin": 152,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 3751,
+  "width": 3750,
 }
