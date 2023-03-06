@@ -1638,6 +1638,7 @@
     {"id":{"name":"spr_children_play","path":"sprites/spr_children_play/spr_children_play.yy",},"order":7,},
     {"id":{"name":"sp_nostalgia01","path":"sprites/sp_nostalgia01/sp_nostalgia01.yy",},"order":9,},
     {"id":{"name":"obj_mini_screen","path":"objects/obj_mini_screen/obj_mini_screen.yy",},"order":4,},
+    {"id":{"name":"obj_woi_invisible_wall_day","path":"objects/obj_woi_invisible_wall_day/obj_woi_invisible_wall_day.yy",},"order":34,},
     {"id":{"name":"spr_narkoman3_idle","path":"sprites/spr_narkoman3_idle/spr_narkoman3_idle.yy",},"order":4,},
     {"id":{"name":"sp_doc_wall","path":"sprites/sp_doc_wall/sp_doc_wall.yy",},"order":0,},
     {"id":{"name":"obj_seller_watermelon","path":"objects/obj_seller_watermelon/obj_seller_watermelon.yy",},"order":14,},

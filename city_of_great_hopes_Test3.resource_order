@@ -1449,6 +1449,7 @@
     {"name":"spr_children_play","order":7,"path":"sprites/spr_children_play/spr_children_play.yy",},
     {"name":"sp_nostalgia01","order":9,"path":"sprites/sp_nostalgia01/sp_nostalgia01.yy",},
     {"name":"obj_mini_screen","order":4,"path":"objects/obj_mini_screen/obj_mini_screen.yy",},
+    {"name":"obj_woi_invisible_wall_day","order":34,"path":"objects/obj_woi_invisible_wall_day/obj_woi_invisible_wall_day.yy",},
     {"name":"spr_narkoman3_idle","order":4,"path":"sprites/spr_narkoman3_idle/spr_narkoman3_idle.yy",},
     {"name":"obj_seller_watermelon","order":14,"path":"objects/obj_seller_watermelon/obj_seller_watermelon.yy",},
     {"name":"spr_dumb_magazine_big","order":2,"path":"sprites/spr_dumb_magazine_big/spr_dumb_magazine_big.yy",},

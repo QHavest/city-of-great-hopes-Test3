@@ -9,7 +9,7 @@ switch (direct){
 case 1 : hsp=spd; break;
 case 2 : hsp=-spd;break;
 case 3 : break; // stay
-case 4 : if place_meeting(x,y,obj_interest) lastmove =-1; 
+//case 4 : if place_meeting(x,y,obj_interest) lastmove =-1; 
 break;
 }
 alarm[1]=random_range(min_t,max_t)*room_speed;

@@ -2,8 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function activate_obj_day(){
 	instance_activate_object(obj_days);
-	instance_activate_object(inst_6B53F2AC);
-	instance_activate_object(inst_578EAA3F);
 /*instance_activate_object(obj_container);
 instance_activate_object(obj_trucks_open);
 instance_activate_object(obj_orange);
