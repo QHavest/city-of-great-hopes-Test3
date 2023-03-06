@@ -43,8 +43,7 @@ if   place_meeting(x+zone_x, y+zone_y, obj_dim_player2) or  place_meeting(x-zone
 		obj_dim_player2.ysd = y+y1;
 		obj_dim_player2.napriam=n2;
 		if obj_dim_player1.lastmove =0 { obj_dim_player1.napriam="r";}
-			else obj_dim_player1.napriam="l";
-
+		else obj_dim_player1.napriam="l";
 	}	
 }
 }
