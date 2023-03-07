@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script89",
+  "name": "scr_anim_start",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

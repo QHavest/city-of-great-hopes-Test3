@@ -57,7 +57,7 @@ if (global.dialogue_move = true){
 // відновлення ативного статусу після закінчення діалогу
 else 
 {
-if last_active = true and global.dialog_end
+if last_active = true and global.dialog_end and !global.shop
 {
 status = STATUS.ACTIVE;
 last_active = 0;
@@ -67,7 +67,7 @@ last_active = 0;
 ///////////////////////////////////////////////////////////////////////////////
 switch(state){
 	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();	break;
-	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur();			break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur(buing_spr,seller_spr_default,seller_spr,seller_obj);			break;
 	case	PLAYERSTATE.VODA	: scr_dim_playerstate_voda();			break;
 	case	PLAYERSTATE.LAVKA1	: scr_dim_playerstate_Lavka("1");		break; 
 	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka("2");		break; 
@@ -76,7 +76,8 @@ switch(state){
  } 
 
 
-//анімація покупки
+//анімація покупки пілся магазину
+// страт анімації покупки квитків та іншого без магазину прописані у scr_game_text.
 if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
 	image_index = 0;
 	state = PLAYERSTATE.BUY;

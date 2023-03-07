@@ -11,6 +11,8 @@ if in_place and start =0 and global.zaniatui = false
 	image_index	=	0;
 	sprite_index=	spr_dim_Ytopurok_voda;
 	obj_water.visible=false;
+	obj_water.alarm[1]=25;
+
 }
 }
 if pl=2
