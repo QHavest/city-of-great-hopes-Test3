@@ -71,8 +71,8 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENE
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-x += hInput * 15;
-y += vInput * 15;
+x += hInput * 20;
+y += vInput * 20;
 }
 #endregion
 
