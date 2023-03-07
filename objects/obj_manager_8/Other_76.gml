@@ -7,7 +7,8 @@ if event_data [? "event_type"] == "sequence event"
 	audio_play_sound(snd_Bazar, 1, true);
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
-	var cam1 = camera_create_view(1890, 112, 425, 240, 0, obj_camera, -1, -1, 250, 150);
+	//var cam1 = camera_create_view(1890, 112, 425, 240, 0, obj_camera, -1, -1, 250, 150);
+	var cam1 = camera_create_view(1890, 112, 370, 210, 0, obj_camera, -1, -1, 250, 150);
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
 	break;
@@ -52,22 +53,22 @@ if event_data [? "event_type"] == "sequence event"
 	global.shop = false;
 	global.task = 3;
     layer_sequence_destroy(seq3);
-	obj_seller_posyda.depth = obj_prilavok_posyda.depth - 40;
+	//obj_seller_posyda.depth = obj_prilavok_posyda.depth - 40;
 	//obj_prilavok_posyda.depth = num2;
 	//obj_box_posyda.depth = num3;
 	audio_stop_all();
 	scr_music_fon_change(room);
 	
-	x1 = obj_dim_player1.x;
-	y1 = obj_dim_player1.y;
-	x2 = obj_dim_player2.x;
-	y2 = obj_dim_player2.y;
-	room_goto(rm_fishing);
-	room_goto(rm_street_container);
-	obj_dim_player1.x = x1;
-	obj_dim_player1.y = y1;
-	obj_dim_player2.x = x2;
-	obj_dim_player2.y = y2;
+	//x1 = obj_dim_player1.x;
+	//y1 = obj_dim_player1.y;
+	//x2 = obj_dim_player2.x;
+	//y2 = obj_dim_player2.y;
+	//room_goto(rm_fishing);
+	//room_goto(rm_street_container);
+	//obj_dim_player1.x = x1;
+	obj_dim_player1.y += 20;
+	//obj_dim_player2.x = x2;
+	obj_dim_player2.y += 20;
     break;
   }
 }
