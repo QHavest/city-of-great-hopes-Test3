@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Night",
-    "path": "folders/Objects/Bazar/Container/Night.yy",
+    "path": "folders/Bazar/Container/Night.yy",
   },
   "parentObjectId": {
     "name": "obj_nights",

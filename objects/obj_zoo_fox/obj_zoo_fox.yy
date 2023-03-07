@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Zoomagazine",
-    "path": "folders/Objects/Bazar/Zoomagazine.yy",
+    "path": "folders/Bazar/Zoomagazine.yy",
   },
   "parentObjectId": null,
   "persistent": false,

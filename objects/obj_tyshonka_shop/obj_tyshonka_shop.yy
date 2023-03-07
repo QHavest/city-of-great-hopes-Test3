@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Fish",
-    "path": "folders/Objects/Bazar/Fish and Bazar/Fish.yy",
+    "path": "folders/Bazar/Fish and Bazar/Fish.yy",
   },
   "parentObjectId": null,
   "persistent": false,

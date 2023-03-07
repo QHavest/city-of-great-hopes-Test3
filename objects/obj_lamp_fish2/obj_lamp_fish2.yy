@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Fish and Bazar",
-    "path": "folders/Objects/Bazar/Fish and Bazar.yy",
+    "path": "folders/Bazar/Fish and Bazar.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

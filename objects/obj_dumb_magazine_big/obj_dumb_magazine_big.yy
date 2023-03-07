@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Magazine",
-    "path": "folders/Objects/Bazar/Magazine.yy",
+    "path": "folders/Bazar/Magazine.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

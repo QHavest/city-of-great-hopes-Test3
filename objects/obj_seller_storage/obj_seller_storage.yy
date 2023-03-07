@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Inside_magazine",
-    "path": "folders/Objects/Bazar/Magazine/Inside_magazine.yy",
+    "path": "folders/Bazar/Magazine/Inside_magazine.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",
