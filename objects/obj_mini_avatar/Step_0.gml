@@ -118,7 +118,7 @@ switch(obj_Battle_Interface.enemies){
 	}
 	break;
 	case ENEMY.Sectants :
-	damage = 20;
+	damage = 10;
 	if (place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz))
 	{
 		scr_damage_mini_avatar();

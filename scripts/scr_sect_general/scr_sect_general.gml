@@ -145,8 +145,5 @@ break;
 case 13:
 instance_create_depth(1245,hrestyy,-300,obj_helps_sec_horiz);
 break;
-default :
-	instance_create_depth(1257,581,-400,obj_hrest);
-	break;
 }
 }

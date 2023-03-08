@@ -2,34 +2,31 @@ alarm[0] -= 1;
 
 if (alarm[0] < 1){
 
-alarm[0] = random_range(100,120);
+alarm[0] = random_range(75,80);
 
 hresty = 579;
 hrestyy = 991;
-if (phases == 0){
-	/*var object_hrest_r = irandom_range(0,1);
-	var object_hrest = 0;
-	
-	switch(object_hrest_r){
+switch (phases){
 	case 0:
-	object_hrest = obj_helps_sec;
+	scr_sect_general();
 	break;
 	case 1:
-	object_hrest = obj_helps_sec_horiz;
+	scr_sect_general();
+	if (alarm[1] == -1){
+	alarm[1] = 70;
+	}
 	break;
-	}*/
-scr_sect_general();
+	case 2:
+	scr_sect_general();
+	if (alarm[2] == -1){
+	alarm[2] = 65;
+	}
+	break;
+	case 3:
+	alarm[1] = -1;
+	alarm[2] = -1;
+	break;
 }
 
-if (phases == 1){
-scr_sect_general();
-scr_sect_general2();
-}
-
-if (phases == 2){
-scr_sect_general();
-scr_sect_general2();
-scr_sect_general3();
-}
 
 }
