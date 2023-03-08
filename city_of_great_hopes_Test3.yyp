@@ -1334,6 +1334,7 @@
     {"id":{"name":"spr_music_ukr_l","path":"sprites/spr_music_ukr_l/spr_music_ukr_l.yy",},},
     {"id":{"name":"scr_after_shop_anim_ytopur","path":"scripts/scr_after_shop_anim_ytopur/scr_after_shop_anim_ytopur.yy",},},
     {"id":{"name":"spr_Aperkot_grusha","path":"sprites/spr_Aperkot_grusha/spr_Aperkot_grusha.yy",},},
+    {"id":{"name":"scr_sect_general","path":"scripts/scr_sect_general/scr_sect_general.yy",},},
     {"id":{"name":"obj_punchball_s2","path":"objects/obj_punchball_s2/obj_punchball_s2.yy",},},
     {"id":{"name":"spr_refrigerator_fastfood","path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},},
     {"id":{"name":"spr_hotel","path":"sprites/spr_hotel/spr_hotel.yy",},},

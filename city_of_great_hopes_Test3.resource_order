@@ -1172,6 +1172,7 @@
     {"name":"spr_music_ukr_l","order":4,"path":"sprites/spr_music_ukr_l/spr_music_ukr_l.yy",},
     {"name":"scr_after_shop_anim_ytopur","order":6,"path":"scripts/scr_after_shop_anim_ytopur/scr_after_shop_anim_ytopur.yy",},
     {"name":"spr_Aperkot_grusha","order":2,"path":"sprites/spr_Aperkot_grusha/spr_Aperkot_grusha.yy",},
+    {"name":"scr_sect_general","order":12,"path":"scripts/scr_sect_general/scr_sect_general.yy",},
     {"name":"obj_punchball_s2","order":5,"path":"objects/obj_punchball_s2/obj_punchball_s2.yy",},
     {"name":"spr_refrigerator_fastfood","order":8,"path":"sprites/spr_refrigerator_fastfood/spr_refrigerator_fastfood.yy",},
     {"name":"spr_hotel","order":3,"path":"sprites/spr_hotel/spr_hotel.yy",},
