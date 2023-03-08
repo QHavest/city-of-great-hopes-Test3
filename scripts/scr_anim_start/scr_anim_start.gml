@@ -1,6 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_anim_start(spr_buy,obj_sel,spr_sel_def,spr_sel){
+/// @pararm shop_name
+/// @pararm seller_spr
+/// @pararm seller_spr_breath
+/// @pararm seller_obj
+// визначає останнього активного персонажа і задає змінні для зміни анімацій
+// використовується ддля запуску анімацій без магазинів
+function scr_anim_start(shop_name,spr_sel,spr_sel_def,obj_sel){
 	if obj_dim_player1.last_active
 	{
 		with(obj_dim_player1){
@@ -8,10 +12,16 @@ function scr_anim_start(spr_buy,obj_sel,spr_sel_def,spr_sel){
 		seller_spr_default=spr_sel_def;
 		seller_spr=spr_sel;
 		seller_obj=obj_sel;
-		buing_spr = spr_buy;
+		switch (shop_name)
+		{
+		case "Lotereia"	: buing_spr = spr_buy_Ytopur_tiket_1; break;
+		case "Kasa"		: buing_spr = spr_buy_Ytopur_tiket_2; break;
+		case "Souvenir"	: buing_spr = spr_buy_Ytopur_souvenir; break;
+		case "Ninel"	: buing_spr = spr_buy_Ytopur_garbage; break;
+		}
 }
 	}
-if obj_dim_player2.last_active
+	if obj_dim_player2.last_active
 	{
 		with(obj_dim_player2)
 		{
@@ -19,9 +29,19 @@ if obj_dim_player2.last_active
 		seller_spr_default=spr_sel_def;
 		seller_spr=spr_sel;
 		seller_obj=obj_sel;
-		buing_spr = spr_buy;
+		switch (shop_name)
+		{
+		case "Lotereia"	: buing_spr = spr_buy_Krus_tiket_1_R; break;
+		case "Kasa"		: buing_spr = spr_buy_Krus_tiket_2_R; break;
+		case "Souvenir"	: buing_spr = spr_buy_Krus_soyvenir; break;
+		case "Ninel"	: buing_spr = spr_buy_Krus_potato; break;
+		}
 }
 }
+	if spr_sel!=noone
+	{
 		obj_sel.image_index=0;
 		obj_sel.sprite_index=spr_sel;
+	}
+//show_debug_message("yaiii")
 }

@@ -157,13 +157,18 @@ for (var i = 0; i < 11; i++){
 		audio_play_sound(snd_op_accept,5,0,global.System_gain);
 		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
 		//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
-		obj_rival_seller2.image_index=0;
+	scr_anim_start("Kasa",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
+	
+	/*obj_rival_seller2.image_index=0;
 		obj_rival_seller2.sprite_index=spr_rival_seller2_sell;
 		obj_dim_player1.state=PLAYERSTATE.BUY;
 		obj_dim_player1.seller_spr_default=spr_rival_seller2;
 		obj_dim_player1.seller_spr=spr_rival_seller2_sell;
 		obj_dim_player1.seller_obj=obj_rival_seller2;
-		obj_dim_player1.buing_spr = spr_buy_Ytopur_tiket_2;
+		obj_dim_player1.buing_spr = spr_buy_Ytopur_tiket_2;*/
+		
+		
+		obj_kassa_tickets.image_index=1;
 		break;
 		}
 	}
@@ -185,7 +190,7 @@ for (var i = 0; i < 11; i++){
 		global.money -= 0.5;
 		audio_play_sound(snd_op_accept,5,0,global.System_gain);
 		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
-		scr_anim_start(spr_buy_Ytopur_tiket_1,obj_rival_seller1,spr_rival_seller1,spr_rival_seller1_sell)
+		scr_anim_start("Lotereia",spr_rival_seller1_sell,spr_rival_seller1,obj_rival_seller1)
 		/*
 		obj_rival_seller1.image_index=0;
 		obj_rival_seller1.sprite_index=spr_rival_seller1_sell;

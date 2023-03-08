@@ -47,10 +47,14 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 		audio_play_sound(snd_not_enough_money,5,0,global.System_gain);
 	}
 }
-if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+if shopOpen && (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+		if global.item_bought{
+			scr_anim_start("Souvenir",noone,noone,noone);
+		}
 		ds_list_destroy(items_suvenir);
 		ds_list_destroy(items_suvenir01);
 		instance_destroy(obj_suvenirnyi);
 		shopOpen = false;
 		global.shop = false;
+		
 }

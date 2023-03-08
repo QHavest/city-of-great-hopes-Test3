@@ -48,7 +48,10 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 	}
 }
 
-if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+if shopOpen && (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+		if global.item_bought{
+			scr_anim_start("Souvenir",spr_riv_seller_sell1, spr_riv_seller_stay,obj_foodshop_seller);
+		}
 		shopOpen = false;
 		global.shop = false;
 		ds_list_destroy(items_hastronom);

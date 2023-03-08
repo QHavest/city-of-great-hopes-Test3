@@ -67,6 +67,7 @@
     {"name":"inst_23D3957A","path":"rooms/rm_home_gg/rm_home_gg.yy",},
     {"name":"inst_7B508A9E","path":"rooms/rm_home_gg/rm_home_gg.yy",},
     {"name":"inst_3A3E402D","path":"rooms/rm_home_gg/rm_home_gg.yy",},
+    {"name":"inst_6319862D","path":"rooms/rm_home_gg/rm_home_gg.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -79,6 +80,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1030E144","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_light_wide_m","path":"objects/obj_light_wide_m/obj_light_wide_m.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1484.0,"y":121.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A2B7C76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_light_wide_m","path":"objects/obj_light_wide_m/obj_light_wide_m.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1309.0,"y":120.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F3E4D6A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_light_wide_m","path":"objects/obj_light_wide_m/obj_light_wide_m.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1137.0,"y":120.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6319862D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_smoking","path":"objects/obj_smoking/obj_smoking.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":537.0,"y":130.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npc","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37150C89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sheva_alkash","path":"objects/obj_sheva_alkash/obj_sheva_alkash.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":744.0,"y":211.0,},

@@ -1,18 +1,25 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_after_shop_anim_ytopur(GG_spr,sel_spr_def,sel_spr,sel_obj){
+/// @param GG_sprite_bying
+/// @param seller_sprite
+/// @param <seller_spr_breathe>
+/// @param <seller_obj>
+function scr_after_shop_anim_ytopur(GG_spr,sel_spr,sel_spr_def,sel_obj){
 
-if sel_spr=noone
+if sel_spr=noone  
 {
+	if sprite_index!=GG_spr
+	{
 	// start GG animation
 	image_index=0;
 	sprite_index=GG_spr;
+	}
 }
+
 else
 {
 	//check the end of seller animation - than start GG anim
-	if scr_dim_animation_end(sel_spr,sel_obj.image_index)
+	if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.image_index)
 	{
+		sel_obj.image_index=0;
 		sel_obj.sprite_index=sel_spr_def;
 		image_index=0;
 		sprite_index=GG_spr;
