@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tires_south4",
+  "name": "obj_curb_south_2",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_tires_south4",
-    "path": "sprites/spr_tires_south4/spr_tires_south4.yy",
+    "name": "spr_curb_south_1",
+    "path": "sprites/spr_curb_south_1/spr_curb_south_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
