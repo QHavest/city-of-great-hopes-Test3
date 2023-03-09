@@ -45,5 +45,5 @@
     "path": "sprites/Spr_dialog_zone/Spr_dialog_zone.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
