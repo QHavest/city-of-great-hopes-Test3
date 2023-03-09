@@ -8,9 +8,11 @@ var objInst2 = instance_find(obj_stairs_gg,0);
 var objInst3 = instance_find(obj_dumb_small_h,0);
 var objInst4 = instance_find(obj_garage_gg,0);
 var objInst5 = instance_find(obj_garage_4,0);
-var objInst6 = instance_find(obj_bench2,0);
+var objInst6 = instance_find(inst_F377C1A,0);
+
 var sequence = seq_scena_6;
-var layerName = "Instances_obj";
+layer_create(-9999, "Cutcenes");
+var layerName = "Cutcenes";
 
 global.shop = true;
 

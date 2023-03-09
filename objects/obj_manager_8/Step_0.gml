@@ -27,7 +27,6 @@ var objInst4 = instance_find(obj_zabor_front,0);
 var objInst5 = instance_find(obj_right_lamp,0);
 var objInst6 = instance_find(obj_trucks_open,0);
 var objInst7 = instance_find(inst_59C7E628,0); // мусорка
-var objInst21 = instance_find(inst_792B6559,0); // мусорка2
 var objInst8 = instance_find(obj_container,0);
 //var objInst9 = instance_find(obj_dumb_container,0);
 //var objInst10 = instance_find(obj_box_posyda,0);
@@ -59,7 +58,6 @@ sequence_instance_override_object(seqInst, obj_zabor_front,  objInst4);
 sequence_instance_override_object(seqInst, obj_right_lamp,  objInst5);
 sequence_instance_override_object(seqInst, obj_trucks_open,  objInst6);
 sequence_instance_override_object(seqInst, obj_trash,  objInst7);
-sequence_instance_override_object(seqInst, obj_trash,  objInst21);
 sequence_instance_override_object(seqInst, obj_container,  objInst8);
 //sequence_instance_override_object(seqInst, obj_dumb_container,  objInst9);
 //sequence_instance_override_object(seqInst, obj_box_posyda,  objInst10);

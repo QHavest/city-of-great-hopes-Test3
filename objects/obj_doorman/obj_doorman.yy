@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gop_4",
-    "path": "sprites/spr_gop_4/spr_gop_4.yy",
+    "name": "spr_doorman",
+    "path": "sprites/spr_doorman/spr_doorman.yy",
   },
   "spriteMaskId": null,
   "visible": true,

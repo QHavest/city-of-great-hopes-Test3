@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_sheva_alkash",
-  "bbox_bottom": 68,
+  "bbox_bottom": 59,
   "bbox_left": 0,
   "bbox_right": 85,
   "bbox_top": 0,

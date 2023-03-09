@@ -15,7 +15,7 @@ if event_data [? "event_type"] == "sequence event"
 	volume = 0;
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
-	var cam1 = camera_create_view(1890, 112, 533, 300, 0, obj_camera, -1, -1, 250, 150);
+	var cam1 = camera_create_view(1890, 112, 480, 270, 0, obj_camera, -1, -1, 250, 150);
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
 	
@@ -62,9 +62,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "dialog4":
-	pause = true;
 	scr_create_textbox("scena_7_4");
-	scr_music_fon_change("snd_mandarun");
 	
 	break;
 	
@@ -79,6 +77,10 @@ if event_data [? "event_type"] == "sequence event"
 	
 	
 	
+	break;
+	
+	case "mandarun_music":
+	scr_music_fon_change("snd_mandarun");
 	break;
 	
 	case "pause1":
