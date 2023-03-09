@@ -36,6 +36,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 			if(global.ds_inventory[# 0, i] = 0){
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
+				global.item_bought = true;
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
 				audio_play_sound(snd_sound_buy,5,0,global.System_gain)
 				break;
@@ -47,6 +48,9 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 }
 
 if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+	if global.item_bought{
+			scr_anim_start("Fshery",spr_tyshonka_sell,spr_tyshonka_stay_straight,obj_tyshonka);
+		}
 		shopOpen = false;
 		global.shop = false;
 		ds_list_destroy(items_fishery);

@@ -31,7 +31,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_seller_melon_active",
     "path": "sprites/spr_seller_melon_active/spr_seller_melon_active.yy",

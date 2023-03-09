@@ -33,8 +33,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_seller_watermelon",
-    "path": "sprites/spr_seller_watermelon/spr_seller_watermelon.yy",
+    "name": "spr_seller_watermelon_active",
+    "path": "sprites/spr_seller_watermelon_active/spr_seller_watermelon_active.yy",
   },
   "spriteMaskId": null,
   "visible": true,

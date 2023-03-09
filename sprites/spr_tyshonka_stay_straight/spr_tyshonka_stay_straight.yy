@@ -34,7 +34,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7e1e9a4-ced7-4ef2-abd8-b25abf3929d3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "Main",
     "path": "folders/Story/Cutscenes/scena 9/Sprites/Main.yy",
@@ -82,7 +82,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 11,
-    "yorigin": 54,
+    "yorigin": 9,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

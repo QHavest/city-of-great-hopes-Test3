@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_seller_potato_stay",
     "path": "sprites/spr_seller_potato_stay/spr_seller_potato_stay.yy",

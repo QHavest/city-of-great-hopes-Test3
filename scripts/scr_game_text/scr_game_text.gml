@@ -919,8 +919,10 @@ break
 #region (Stiopa)
 case"Stiopa":
 if global.zn_Stiop
+{
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa0"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-
+scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
+	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");}
 else{
 	global.zn_Stiop=1;
 	
@@ -1025,19 +1027,19 @@ break
 case"Muter_with_childcar":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,spr_ic_Krus,spr_ic_Hostes);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,spr_ic_Krus,spr_ic_Hostes);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,spr_ic_Krus,spr_ic_Hostes);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,spr_ic_Krus,spr_ic_Hostes);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
 			break
 
 }	

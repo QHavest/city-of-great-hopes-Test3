@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/Tukhlianka/NPC.yy",
+    "name": "Tyhlyanka",
+    "path": "folders/Dialogs/speaker_icon/Tyhlyanka.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
