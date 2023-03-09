@@ -9,6 +9,12 @@ InRoomMode = false;
 
 xsd = 0;
 ysd = 0;
+// спрайти для покупок
+seller_spr_default = noone;
+seller_spr=noone;
+seller_obj=noone;
+buing_spr = spr_buy_Ytopur_tiket_2;
+
 
 sprit = "Ytopurok";
 in_place = 0;

@@ -41,5 +41,5 @@
     "path": "sprites/spr_woi_invisible_wall_1/spr_woi_invisible_wall_1.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

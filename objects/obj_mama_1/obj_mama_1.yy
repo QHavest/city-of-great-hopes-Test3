@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_mama_kolyaska",
     "path": "sprites/spr_mama_kolyaska/spr_mama_kolyaska.yy",

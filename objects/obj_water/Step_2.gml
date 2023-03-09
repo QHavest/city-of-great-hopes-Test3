@@ -8,10 +8,11 @@ if in_place and start =0 and global.zaniatui = false
 {	
 	start =1; //потрібно для нормального виходу з анімації (інакше йде зациклення бо ГГ завжди in_place)
 	if state!=PLAYERSTATE.VODA state=PLAYERSTATE.VODA;
-	image_index=0;
-	sprite_index=spr_dim_Ytopurok_voda;
+	image_index	=	0;
+	sprite_index=	spr_dim_Ytopurok_voda;
 	obj_water.visible=false;
-	obj_dim_player2.in_place=0;
+	obj_water.alarm[1]=25;
+
 }
 }
 if pl=2
@@ -19,12 +20,13 @@ with (obj_dim_player2){
 if in_place and start =0 and global.zaniatui = false 
 {
 	// покупка води
+	obj_water.alarm[0]=80;
 	
 	start =1;
-	image_index=0;
 	if state!=PLAYERSTATE.VODA state=PLAYERSTATE.VODA;
-	sprite_index=spr_dim_Krus_voda;
-	obj_dim_player1.in_place=0;
+	image_index = 0;
+	sprite_index = spr_dim_Krus_voda;
+	obj_water.visible=false;
 }
 }
 

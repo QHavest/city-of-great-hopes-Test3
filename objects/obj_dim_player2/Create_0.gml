@@ -14,6 +14,11 @@ sprit = "Krus";
 in_place = 0;
 last_active = 0;
 
+seller_spr_default = noone;
+seller_spr=noone;
+seller_obj=noone;
+buing_spr = spr_buy_Krus_tiket_2_R;
+
 start =0;
 
 xsd = 0;

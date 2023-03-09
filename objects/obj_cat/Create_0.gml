@@ -1,0 +1,12 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+switch (num)
+{
+case 1: text_num="1"  break;	
+case 2: text_num="2" break;
+case 3: text_num="3" break;
+case 4: text_num="4"  break;
+}
