@@ -1383,7 +1383,7 @@
     {"id":{"name":"obj_pisok","path":"objects/obj_pisok/obj_pisok.yy",},},
     {"id":{"name":"obj_kletka_papygu","path":"objects/obj_kletka_papygu/obj_kletka_papygu.yy",},},
     {"id":{"name":"spr_AfroYvasia_active","path":"sprites/spr_AfroYvasia_active/spr_AfroYvasia_active.yy",},},
-	{"id":{"name":"spr_buy_Ytopur_garbage","path":"sprites/spr_buy_Ytopur_garbage/spr_buy_Ytopur_garbage.yy",},},
+    {"id":{"name":"spr_buy_Ytopur_garbage","path":"sprites/spr_buy_Ytopur_garbage/spr_buy_Ytopur_garbage.yy",},},
     {"id":{"name":"spr_rival_second_night","path":"sprites/spr_rival_second_night/spr_rival_second_night.yy",},},
     {"id":{"name":"spr_Police_Boss","path":"sprites/spr_Police_Boss/spr_Police_Boss.yy",},},
     {"id":{"name":"sp_zolotoi_certificat_eng01","path":"sprites/sp_zolotoi_certificat_eng01/sp_zolotoi_certificat_eng01.yy",},},
