@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Indoor",
-    "path": "folders/Bazar/Fish and Bazar/Indoor.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

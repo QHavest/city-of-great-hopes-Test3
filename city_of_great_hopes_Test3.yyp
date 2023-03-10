@@ -86,6 +86,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Center","folderPath":"folders/Dialogs/speaker_icon/Center.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Kavkazci","folderPath":"folders/Dialogs/speaker_icon/Center/Kavkazci.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mysora","folderPath":"folders/Dialogs/speaker_icon/Center/Mysora.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cutscenes","folderPath":"folders/Dialogs/speaker_icon/Cutscenes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rival_station","folderPath":"folders/Dialogs/speaker_icon/Rival_station.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gopopotam","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Gopopotam.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pohoron","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Pohoron.yy",},
@@ -348,7 +349,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tasks","folderPath":"folders/Story/Tasks.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cutscenes","folderPath":"folders/Dialogs/speaker_icon/Cutscenes.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -3156,7 +3156,6 @@
     {"id":{"name":"spr_ytopyr_narkoman_idle","path":"sprites/spr_ytopyr_narkoman_idle/spr_ytopyr_narkoman_idle.yy",},},
     {"id":{"name":"spr_ic_Paiicicicii","path":"sprites/spr_ic_Paiicicicii/spr_ic_Paiicicicii.yy",},},
     {"id":{"name":"spr_ic_man_4","path":"sprites/spr_ic_man_4/spr_ic_man_4.yy",},},
-    {"id":{"name":"spr_rival_station_first467","path":"sprites/spr_rival_station_first467/spr_rival_station_first467.yy",},},
     {"id":{"name":"spr_pause_test","path":"sprites/spr_pause_test/spr_pause_test.yy",},},
     {"id":{"name":"spr_ic_Krus_l","path":"sprites/spr_ic_Krus_l/spr_ic_Krus_l.yy",},},
     {"id":{"name":"spr_lamp_night_container","path":"sprites/spr_lamp_night_container/spr_lamp_night_container.yy",},},

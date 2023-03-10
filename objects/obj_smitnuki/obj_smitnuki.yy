@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Bazar/Boxes.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

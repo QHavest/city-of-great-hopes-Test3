@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Fish",
-    "path": "folders/Bazar/Fish and Bazar/Fish.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
   "parentObjectId": {
     "name": "obj_woi_invisible_wall",

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Inside_magazine",
-    "path": "folders/Bazar/Magazine/Inside_magazine.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
   "parentObjectId": null,
   "persistent": false,

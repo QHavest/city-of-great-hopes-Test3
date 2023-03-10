@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Fish and Bazar",
-    "path": "folders/Bazar/Fish and Bazar.yy",
+    "name": "city_of_great_hopes_Test3",
+    "path": "city_of_great_hopes_Test3.yyp",
   },
   "parentObjectId": null,
   "persistent": false,
