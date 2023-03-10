@@ -16,8 +16,8 @@ switch(obj_Battle_Interface.phase_battle){
 				instance_create_depth(480,416,-300,obj_sects);
 				//instance_activate_object(obj_sects);
 				instance_activate_object(obj_mini_avatar);
-				obj_mini_avatar.x = 531;
-				obj_mini_avatar.y = 702;
+				obj_mini_avatar.x = 950;
+				obj_mini_avatar.y = 807;
 				instance_activate_object(obj_wall_sect);
 				obj_mini_avatar.index_avatar = 2;
 			break;

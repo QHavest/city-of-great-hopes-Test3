@@ -3,14 +3,14 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 0){
-	instance_create_depth(1504, 608, -300, obj_nozh);
+	instance_create_depth(1504, 608, 150, obj_nozh);
 	turn += 1;
 }else if(instance_exists(obj_nozh) and turn = 1){
 	obj_nozh.x -= knife_spd;
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 1){
-	instance_create_depth(32, 896, -300, obj_nozh);
+	instance_create_depth(32, 896, 150, obj_nozh);
 	turn += 1;
 	obj_nozh.image_index = 1; 
 }else if(instance_exists(obj_nozh) and turn = 2){
@@ -18,17 +18,17 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 1){
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 2){
-	instance_create_depth(736, 1088, -300, obj_nozh_vert);
-	instance_create_depth(1152, 1088, -300, obj_nozh_vert);
+	instance_create_depth(736, 1088, 150, obj_nozh_vert);
+	instance_create_depth(1152, 1088, 150, obj_nozh_vert);
 	turn += 1;
 }else if(instance_exists(obj_nozh_vert) and turn = 3){
 	obj_nozh_vert.y -= knife_spd;
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 3){
-	instance_create_depth(576, 64, -300, obj_nozh_vert);
-	instance_create_depth(928, 64, -300, obj_nozh_vert);
-	instance_create_depth(1280, 64, -300, obj_nozh_vert);
+	instance_create_depth(576, 64, 150, obj_nozh_vert);
+	instance_create_depth(928, 64, 150, obj_nozh_vert);
+	instance_create_depth(1280, 64, 150, obj_nozh_vert);
 	obj_nozh_vert.image_index = 3;
 	turn += 1;
 }else if(instance_exists(obj_nozh_vert) and turn = 4){
@@ -36,7 +36,7 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 3){
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 4){
-	instance_create_depth(1440, 448, -300, obj_nozh);
+	instance_create_depth(1440, 448, 150, obj_nozh);
 	obj_nozh.image_angle = point_direction(1440, 448, 1760, 768);
 	turn += 1;
 }else if(instance_exists(obj_nozh) and turn = 5){
@@ -45,7 +45,7 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 4){
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 5){
-	instance_create_depth(608, 480, -300, obj_nozh);
+	instance_create_depth(608, 480, 150, obj_nozh);
 	obj_nozh.image_angle = point_direction(608, 480, 352, 768);
 	obj_nozh.image_index = 3;
 	turn += 1;
@@ -59,10 +59,10 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 5){
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 6 and alarm[0] < 1){
 	knife_spd = 15;
-	first = instance_create_depth(1248, 312, -300, obj_nozh);
-	second = instance_create_depth(310, 1200, -300, obj_nozh);
-	third = instance_create_depth(1504, 800, -300, obj_nozh_vert);
-	forth = instance_create_depth(416, 362, -300, obj_nozh_vert);
+	first = instance_create_depth(1248, 312, 150, obj_nozh);
+	second = instance_create_depth(310, 1200, 150, obj_nozh);
+	third = instance_create_depth(1504, 800, 150, obj_nozh_vert);
+	forth = instance_create_depth(416, 362, 150, obj_nozh_vert);
 	first_id = instance_id_get(first);
 	turn += 1;
 	alarm[6] = 100;
@@ -100,7 +100,7 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
 
 if (random_attack = 1){
 	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-		instance_create_depth(1504, 608, -300, obj_nozh);
+		instance_create_depth(1504, 608, 150, obj_nozh);
 		}else if(instance_exists(obj_nozh)){
 		obj_nozh.x -= knife_spd;
 		}
@@ -108,7 +108,7 @@ if (random_attack = 1){
 }
 if (random_attack = 2){
 	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-		instance_create_depth(32, 896, -300, obj_nozh);
+		instance_create_depth(32, 896, 150, obj_nozh);
 		turn += 1;
 		obj_nozh.image_index = 1; 
 	}else if(instance_exists(obj_nozh)){
@@ -118,8 +118,8 @@ if (random_attack = 2){
 
 if (random_attack = 3){
 	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-		instance_create_depth(736, 1088, -300, obj_nozh_vert);
-		instance_create_depth(1152, 1088, -300, obj_nozh_vert);
+		instance_create_depth(736, 1088, 150, obj_nozh_vert);
+		instance_create_depth(1152, 1088, 150, obj_nozh_vert);
 		}else if(instance_exists(obj_nozh_vert)){
 			obj_nozh_vert.y -= knife_spd;
 		}
@@ -127,9 +127,9 @@ if (random_attack = 3){
 
 if (random_attack = 4){
 	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-	instance_create_depth(576, 64, -300, obj_nozh_vert);
-	instance_create_depth(928, 64, -300, obj_nozh_vert);
-	instance_create_depth(1248, 64, -300, obj_nozh_vert);
+	instance_create_depth(576, 64, 150, obj_nozh_vert);
+	instance_create_depth(928, 64, 150, obj_nozh_vert);
+	instance_create_depth(1248, 64, 150, obj_nozh_vert);
 	obj_nozh_vert.image_index = 3;
 	}else if(instance_exists(obj_nozh_vert)){
 	obj_nozh_vert.y += knife_spd;
@@ -138,7 +138,7 @@ if (random_attack = 4){
 
 if (random_attack = 5){
 	if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-		instance_create_depth(1440, 448, -300, obj_nozh);
+		instance_create_depth(1440, 448, 150, obj_nozh);
 		obj_nozh.image_angle = point_direction(1440, 448, 1760, 768);
 	}else if(instance_exists(obj_nozh)){
 		obj_nozh.x -= knife_spd;
@@ -147,7 +147,7 @@ if (random_attack = 5){
 }
 if (random_attack = 5){
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-	instance_create_depth(608, 480, -300, obj_nozh);
+	instance_create_depth(608, 480, 150, obj_nozh);
 	obj_nozh.image_angle = point_direction(608, 480, 352, 768);
 	obj_nozh.image_index = 3;
 }else if(instance_exists(obj_nozh)){

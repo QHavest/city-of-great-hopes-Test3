@@ -71,8 +71,8 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENE
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-x += hInput * 15;
-y += vInput * 15;
+x += hInput * 20;
+y += vInput * 20;
 }
 #endregion
 
@@ -118,7 +118,7 @@ switch(obj_Battle_Interface.enemies){
 	}
 	break;
 	case ENEMY.Sectants :
-	damage = 20;
+	damage = 10;
 	if (place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz))
 	{
 		scr_damage_mini_avatar();
@@ -178,9 +178,10 @@ switch (obj_Battle_Interface.phase_battle){
 	obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Hit;
 	}
 	
-	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat){
-	obj_ytopur_battle.image_index = 0;
+	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+
 	obj_ytopur_battle.phasese = PHASESE.Defeat;
+	//obj_ytopur_battle.image_index = 0;
 	}
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;

@@ -1,1 +1,0 @@
-//obj_mini_avatar.damage = 1;

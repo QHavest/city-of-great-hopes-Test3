@@ -191,7 +191,7 @@ if(system = 1) {
 		games = true;
 		instance_destroy(obj_wait);
 		
-		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat){
+		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
 		obj_ytopur_battle.image_index = 0;
 		obj_ytopur_battle.phasese = PHASESE.Battle;
 		}
@@ -251,7 +251,7 @@ if(system = 1) {
 		mini_game = true;
 		games = true;
 		instance_destroy(obj_wait);
-		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat){
+		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
 		obj_ytopur_battle.image_index = 0;
 		obj_ytopur_battle.phasese = PHASESE.Battle;
 		}

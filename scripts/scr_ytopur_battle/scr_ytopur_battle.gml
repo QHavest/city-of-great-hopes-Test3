@@ -61,6 +61,9 @@ function scr_ytopur_battle(){
 						case PHASESE.Defeat:
 						sprite_index = spr_ytopyr_narkoman_defeat;	
 						break;
+						case PHASESE.Defeat2:
+						sprite_index = spr_ytopyr_narkoman_defeat_2;	
+						break;
 						case PHASESE.Hit:
 						sprite_index = spr_ytopyr_narkoman_battle_hit;	
 						break;
