@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "fish_ovochi_puzzle",
-    "path": "folders/Objects/Bazar/Fish and Bazar/fish_ovochi_puzzle.yy",
+    "path": "folders/Bazar/Fish and Bazar/fish_ovochi_puzzle.yy",
   },
   "parentObjectId": {
     "name": "obj_days",

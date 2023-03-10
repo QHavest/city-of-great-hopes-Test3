@@ -77,11 +77,10 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(0, regCam1);
 	view_set_camera(1, regCam2);
 	global.shop = false;
-	room_goto(rm_street_container);
 	obj_dim_player2.x = obj_player_2_9.x;
     layer_sequence_destroy(seq4);
-	audio_stop_all();
 	scr_music_fon_change(room);
+	room_goto(rm_street_container);
     break;
 	
 

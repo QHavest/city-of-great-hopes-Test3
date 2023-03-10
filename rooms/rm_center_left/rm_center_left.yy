@@ -56,7 +56,6 @@
     {"name":"inst_32CDBDAA","path":"rooms/rm_center_left/rm_center_left.yy",},
     {"name":"inst_5159486B","path":"rooms/rm_center_left/rm_center_left.yy",},
     {"name":"inst_C738885","path":"rooms/rm_center_left/rm_center_left.yy",},
-    {"name":"inst_1B4EA076","path":"rooms/rm_center_left/rm_center_left.yy",},
   ],
   "isDnd": false,
   "layers": [
