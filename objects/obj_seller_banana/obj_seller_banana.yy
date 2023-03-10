@@ -31,7 +31,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_seller_banana_active",
     "path": "sprites/spr_seller_banana_active/spr_seller_banana_active.yy",

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_seller_clothes",
-    "path": "sprites/spr_seller_clothes/spr_seller_clothes.yy",
+    "name": "spr_seller_clothes_1",
+    "path": "sprites/spr_seller_clothes_1/spr_seller_clothes_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
