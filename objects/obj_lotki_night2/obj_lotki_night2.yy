@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "Night",
+    "path": "folders/Objects/Bazar/Fish and Bazar/Night.yy",
   },
   "parentObjectId": {
     "name": "obj_nights",

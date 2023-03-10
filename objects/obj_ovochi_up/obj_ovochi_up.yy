@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "fish_ovochi_puzzle",
+    "path": "folders/Objects/Bazar/Fish and Bazar/fish_ovochi_puzzle.yy",
   },
   "parentObjectId": {
     "name": "obj_days",

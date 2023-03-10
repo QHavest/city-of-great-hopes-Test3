@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "Zoomagazine",
+    "path": "folders/Objects/Bazar/Zoomagazine.yy",
   },
   "parentObjectId": null,
   "persistent": false,

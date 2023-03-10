@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "Bazar",
+    "path": "folders/Objects/Bazar.yy",
   },
   "parentObjectId": null,
   "persistent": true,
