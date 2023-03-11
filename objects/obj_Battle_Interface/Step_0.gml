@@ -74,16 +74,16 @@ if (mini_game = true and games = false){
 		//instance_deactivate_object(obj_dim_player1);
 		//instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
-		instance_deactivate_object(obj_sssr);
+		//instance_deactivate_object(obj_sssr);
 		//instance_deactivate_object(obj_background_mini);
 		//instance_deactivate_object(obj_shprutz_parent);
-		instance_deactivate_object(obj_sects);
-		instance_deactivate_object(wall);
+		//instance_deactivate_object(obj_sects);
+		//instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
 		//instance_deactivate_object(daycycle);
 		//instance_deactivate_object(obj_mini_ytopur);
 		//instance_deactivate_object(obj_mini_krus);
-		instance_deactivate_object(obj_hopnik);
+		//instance_deactivate_object(obj_hopnik);
 }
 //mini-game
 if (mini_game == true){
@@ -208,10 +208,13 @@ if(system = 1) {
 				obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
 				obj_enemy2_battle.image_index = 0;
 				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-				}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat){
+				}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat){
 				obj_enemy2_battle.image_index = 0;
 				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-					}
+					}	/*else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat){
+				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
+				obj_enemy2_battle.image_index = 0;
+					}*/
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 		switch(phase_battle){
 			case PHASES.Atack:

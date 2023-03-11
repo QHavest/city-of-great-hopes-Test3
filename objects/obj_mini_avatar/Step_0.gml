@@ -132,8 +132,8 @@ switch(obj_Battle_Interface.enemies){
 	}
 	break;
 	case ENEMY.Narkomany :
-	//damage = 10;
-	damage = 20;
+	damage = 10;
+	//damage = 20;
 	if (place_meeting(x, y, obj_shprutz_dow1) or place_meeting(x, y, obj_shprutz_up1))
 	{
 		scr_damage_mini_avatar();

@@ -1,7 +1,3 @@
-alarm[0] = 150;
-obj_Battle_Interface.game_over_mini = true;
-obj_Battle_Interface.mini_game = false;
-//obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 switch(obj_Battle_Interface.enemies){
 case ENEMY.Hopniki:
 break;
