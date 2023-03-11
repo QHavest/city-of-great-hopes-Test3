@@ -462,14 +462,14 @@ case ("Ninel"):
 	{ 
 		global.zn_Nin = 1;
 		scr_text(scr_json_lang(global.LANGUAGE,"Ninel2"),1,spr_ic_Krus,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel3"),1,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel4"),2,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel5"),1,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel6"),2,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel7"),1,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel8"),2,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel3"),2,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel4"),1,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel5"),2,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel6"),1,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel7"),2,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel8"),1,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
 		scr_text(scr_json_lang(global.LANGUAGE,"Ninel9"),1,spr_ic_Krus,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel10"),1,spr_ic_Ytopurok,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel10"),2,spr_ic_Ninel_r,spr_ic_Ytopurok_l)
 		scr_text(scr_json_lang(global.LANGUAGE,"Ninel11"),2,spr_ic_Krus,spr_ic_Ninel)
 			scr_option(scr_json_lang(global.LANGUAGE,"Ninel12"),"ninel_maga")
 			scr_option(scr_json_lang(global.LANGUAGE,"Ninel13"),"4")
@@ -477,8 +477,8 @@ case ("Ninel"):
 	}
 	else 
 	{
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel10"),1,spr_ic_Ytopurok,spr_ic_Ninel)
-		scr_text(scr_json_lang(global.LANGUAGE,"Ninel11"),2,spr_ic_Krus,spr_ic_Ninel)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel10"),2,spr_ic_Ninel,spr_ic_Ytopurok_l)
+		scr_text(scr_json_lang(global.LANGUAGE,"Ninel11"),1,spr_ic_Ninel,spr_ic_Ytopurok_l)
 			scr_option(scr_json_lang(global.LANGUAGE,"Ninel12"),"ninel_maga")
 			scr_option(scr_json_lang(global.LANGUAGE,"Ninel13"),"4")
 	break

@@ -34,7 +34,7 @@ function scr_anim_start(shop_name,spr_sel,spr_sel_def,obj_sel){
 		{
 		case "Lotereia"	: buing_spr = spr_buy_Krus_tiket_1_R; break;
 		case "Kasa"		: buing_spr = spr_buy_Krus_tiket_2_R; break;
-		case "Souvenir"	: buing_spr = spr_buy_Krus_soyvenir; break;
+		case "Souvenir"	: buing_spr = spr_buy_Krus_soyvenir_R; break;
 		case "Ninel"	: buing_spr = spr_buy_Krus_potato; break;
 		case "Fshery"	: buing_spr = spr_buy_Krus_bakery_R; break;
 		}

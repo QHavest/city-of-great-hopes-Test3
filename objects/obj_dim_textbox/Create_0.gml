@@ -3,10 +3,18 @@ instance_create_depth(0,0,0,obj_pauser);
 please_shop_open =0;
 
 Y_op = 0;
-cam_w = camera_get_view_width(view_camera[view_current]) ;
-cam_h = camera_get_view_height(view_camera[view_current]);
-cam_y = camera_get_view_y(view_camera[view_current]);
-
+if obj_dim_player1.status=STATUS.ACTIVE
+{
+cam_w = camera_get_view_width(view_camera[0]) ;
+cam_h = camera_get_view_height(view_camera[0]);
+cam_y = camera_get_view_y(view_camera[0]);
+}
+else
+{
+cam_w = camera_get_view_width(view_camera[1]) ;
+cam_h = camera_get_view_height(view_camera[1]);
+cam_y = camera_get_view_y(view_camera[1]);
+}
 border = 0.02*cam_w;
 o_b = border/2
 ic_b = 0.015*cam_w;

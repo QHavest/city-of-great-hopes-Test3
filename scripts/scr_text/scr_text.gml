@@ -57,14 +57,14 @@ function scr_create_textbox (_text_id){
 	if argument_count=2 
 	{
 		var spr_ic =  argument[1];
-	with (instance_create_depth(0,0,-99999,obj_dim_textbox))
+	with (instance_create_depth(0,0,-99999,obj_dim_textbox_gui))
 		{	
 			scr_game_text(_text_id,spr_ic);
 		}
 	}	
 	else
 	{
-	with (instance_create_depth(0,0,-99999,obj_dim_textbox))
+	with (instance_create_depth(0,0,-99999,obj_dim_textbox_gui))
 		{	
 			scr_game_text(_text_id);
 		}
