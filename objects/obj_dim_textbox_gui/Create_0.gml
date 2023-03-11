@@ -19,6 +19,7 @@ line_sep = 2;
 
 line_widt[0] = 0;
 txtb_sprite = spr_textbox;
+contyr = 4; // ширина контуру
 txtb_img = 0;
 txtb_img_spd = 6/30;
 color=c_black;
