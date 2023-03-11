@@ -31,7 +31,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_seller_agro_stay",
     "path": "sprites/spr_seller_agro_stay/spr_seller_agro_stay.yy",

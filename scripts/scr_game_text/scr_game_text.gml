@@ -1,4 +1,6 @@
 ///@param text_id	
+///@param [spr_ic_npc]	
+///@param [spr_ic_GG]	
 
 function scr_game_text(_text_id){
  // чи били ми черку?
@@ -292,15 +294,16 @@ obj_tryKalynky.shopOpen = true;
 global.shop = true;
 	// скрипт покупокупок
 		break
-	
+	#endregion
+#region (Security) ins
 	case "Security1":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,argument[2],spr_ic_Security);
 	break
 	case "Security2":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,argument[2],spr_ic_Security);
 	break
 	case "Security3":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,spr_ic_Krus,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,argument[2],spr_ic_Security);
 	break
 #endregion
 #region (Boss)
@@ -721,50 +724,50 @@ case"Anton":
 			scr_text (scr_json_lang(global.LANGUAGE,"Anton20"),1,spr_ic_stiopa_tyshonka,spr_ic_Anton);
 		break		
 #endregion
-#region (Barugi)
+#region (Barugi) ins
 case "Barugi":
 switch(irandom_range(1,6)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,argument[2],argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,argument[2],argument[1]);
 			break
 			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,argument[2],argument[1]);
 			break
 			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,argument[2],argument[1]);
 			break
 			case 6:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,argument[2],argument[1]);
 			break
 }	
 break
 #endregion
-#region (Barugi_fur)
+#region (Barugi_fur) ins
 case "Barugi_fur":
 switch(irandom_range(1,6)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur1"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur2"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur2"),2,argument[2],argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur3"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur3"),2,argument[2],argument[1]);
 			break
 			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur4"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur4"),2,argument[2],argument[1]);
 			break
 			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur5"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur5"),2,argument[2],argument[1]);
 			break
 			case 6:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur6"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi_fur6"),2,argument[2],argument[1]);
 			break
 }	
 break
@@ -788,54 +791,63 @@ switch(irandom_range(1,4)){
 }	
 break
 #endregion
-#region(Pulup_kalum)
+#region(Pulup_kalum) ins
 case"Pulup_kalum":
-scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
-scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,spr_ic_Krus,spr_ic_Pulup_kalum);
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum1"),2,argument[2],spr_ic_Pulup_kalum);
+scr_text(scr_json_lang(global.LANGUAGE,"Pulup_kalum2"),2,argument[2],spr_ic_Pulup_kalum);
+break
+#endregion
+#region(Velo_seller)
+case"Velo_seller":
+scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller1"),2,spr_ic_Krus,spr_ic_seller_cont_3);
+scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller2"),1,spr_ic_Krus,spr_ic_seller_cont_3);
+scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller3"),1,spr_ic_Krus,spr_ic_seller_cont_3);
+scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller4"),2,spr_ic_Krus,spr_ic_seller_cont_3);
+scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller5"),1,spr_ic_Krus,spr_ic_seller_cont_3);
 break
 #endregion
 case "Muter with boi":
-scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,spr_ic_Krus,spr_ic_Mama_sun);
+scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,argument[2],spr_ic_Mama_sun);
 break
 // жителі
-#region (Zinki)
+#region (Zinki) ins
 case"Zinki":
 switch(irandom_range(1,5)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki2"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki2"),2,argument[2],argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Zinki3"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Zinki3"),2,argument[2],argument[1]);
 			break
 			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Zinki4"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki4"),2,argument[2],argument[1]);
 			break
 			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Zinki5"),2,spr_ic_Krus,argument[1]);
+			scr_text(scr_json_lang(global.LANGUAGE,"Zinki5"),2,argument[2],argument[1]);
 			break
 }	
 break
 #endregion
-#region(Worksman)
+#region(Worksman) ins
 case"Worksman":
 switch(irandom_range(1,5)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman1"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman2"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman2"),2,argument[2],argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman3"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman3"),2,argument[2],argument[1]);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman4"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman4"),2,argument[2],argument[1]);
 			break
 			case 5:
-		scr_text(scr_json_lang(global.LANGUAGE,"Worksman5"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Worksman5"),2,argument[2],argument[1]);
 			break
 }	
 break
@@ -1023,57 +1035,57 @@ switch(irandom_range(1,5)){
 
 break
 #endregion
-#region (Muter_with_childcar)
+#region (Muter_with_childcar) ins
 case"Muter_with_childcar":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,argument[2],spr_ic_mama_kolyaska);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,argument[2],spr_ic_mama_kolyaska);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,argument[2],spr_ic_mama_kolyaska);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,spr_ic_Krus,spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,argument[2],spr_ic_mama_kolyaska);
 			break
 
 }	
 
 break
 #endregion
-#region(Muter)
+#region(Muter) ins
 case"Muter":
-scr_text(scr_json_lang(global.LANGUAGE,"Muter1"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+scr_text(scr_json_lang(global.LANGUAGE,"Muter1"),2,argument[2],spr_ic_Kelt_kasa);
 	scr_option(scr_json_lang(global.LANGUAGE,"Muter2"),"Yes_muter");
 	scr_option(scr_json_lang(global.LANGUAGE,"Muter4"),"Nein_muter");
 break
 	case"Yes_muter":
-	scr_text(scr_json_lang(global.LANGUAGE,"Muter3"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Muter3"),2,argument[2],spr_ic_Kelt_kasa);
 	break
 	case"Nein_muter":
-	scr_text(scr_json_lang(global.LANGUAGE,"Muterr5"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
-	scr_text(scr_json_lang(global.LANGUAGE,"Muter6"),2,spr_ic_Krus,spr_ic_Kelt_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Muterr5"),2,argument[2],spr_ic_Kelt_kasa);
+	scr_text(scr_json_lang(global.LANGUAGE,"Muter6"),2,argument[2],spr_ic_Kelt_kasa);
 	break
 
 
 #endregion
-#region (Babyli)
+#region (Babyli) ins
 case"Babyli":
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,spr_ic_Krus,spr_ic_Babulia);
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,spr_ic_Krus,argument[1]);
 switch(irandom_range(1,2)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,spr_ic_Krus,spr_ic_Babulia);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,spr_ic_Krus,argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,spr_ic_Krus,spr_ic_Babulia);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,spr_ic_Krus,argument[1]);
 			break
 }	
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,spr_ic_Krus,spr_ic_Babulia);
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,spr_ic_Krus,argument[1]);
 break
 #endregion
 
@@ -1157,20 +1169,20 @@ if global.zn_bibl = 0{
 	}
 break
 #endregion
-#region(Didu)
+#region(Didu) ins
 case"Didu":
 switch(choose(1,2,3,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,spr_ic_Krus,spr_ic_Spurodon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,argument[2],spr_ic_Spurodon);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,spr_ic_Krus,spr_ic_Petrovuch);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,argument[2],spr_ic_Petrovuch);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,spr_ic_Krus,spr_ic_Spurodon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,argument[2],spr_ic_Spurodon);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,spr_ic_Krus,spr_ic_Petrovuch);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,argument[2],spr_ic_Petrovuch);
 			break
 }	
 break

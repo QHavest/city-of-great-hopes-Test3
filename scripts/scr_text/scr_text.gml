@@ -52,14 +52,16 @@ instance_create_depth(obj_dim_player1.x,90,-9999,name)
 }
 //_______________________________
 /// @param text_id
+/// @param [spr_speak_GG]
 /// @param [spr_speak_2]
 function scr_create_textbox (_text_id){
-	if argument_count=2 
+	if argument_count=3 
 	{
 		var spr_ic =  argument[1];
+		var spr_ic_npc =  argument[2];
 	with (instance_create_depth(0,0,-99999,obj_dim_textbox_gui))
 		{	
-			scr_game_text(_text_id,spr_ic);
+			scr_game_text(_text_id,spr_ic_npc,spr_ic,);
 		}
 	}	
 	else

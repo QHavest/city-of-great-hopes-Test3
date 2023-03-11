@@ -301,6 +301,12 @@
 		"Pulup_kalum1": "Young people! I accept and sell glass. There are still a couple of good sets.",
 		"Pulup_kalum2": "Who is interested, come. I buy expensive, sell cheap! Glass! Dishes. Sell and buy!",
 
+		"Velo_seller1":"Oh, hi!",
+		"Velo_seller2":"Sorry? Hello!",
+		"Velo_seller3":"Cudgel, he’s kind of strange.",
+		"Velo_seller4":"SELLER_5 A few soothing words. Changing the subject. The proposal is to buy bicycles. Pretending that you can ride a bicycle. Bravado.",
+		"Velo_seller5":"Uph.",
+
 		"Muter with boi": "Let me  pas! Can't you see - I'm with a child!",
 
 		"Zinki1": "Can't you see my baby? Ah... Children! Children!!!",
@@ -906,6 +912,12 @@
 
 		"Pulup_kalum1": "Народ молодой. Приймаю та продаю стеклотару. Ще є гарних пару сервізів. Кого цікавить підходьте.",
 		"Pulup_kalum2": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
+
+		"Velo_seller1":"Привітання.",
+		"Velo_seller2":"Вибачаюсь? Й вам доброгодня.",
+		"Velo_seller3":"Утопирок, якись він дивний.",
+		"Velo_seller4":"SELLER_5 Декілька строк заспокійливих слів. Зміна теми. Пропозиція все ж купити велосипеди. Вдавання що на велосипеді можна поїздити. Бравада.",
+		"Velo_seller5":"Уф.",
 
 		"Muter with boi": "Дай пройти! Не бачиш – я з дитиною!",
 
