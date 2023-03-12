@@ -118,7 +118,7 @@ switch(obj_Battle_Interface.enemies){
 	}
 	break;
 	case ENEMY.Sectants :
-	damage = 10;
+	damage = 20;
 	if (place_meeting(x, y, obj_hrest) or place_meeting(x, y, obj_hrest_horiz))
 	{
 		scr_damage_mini_avatar();
@@ -182,6 +182,8 @@ switch (obj_Battle_Interface.phase_battle){
 
 	obj_ytopur_battle.phasese = PHASESE.Defeat;
 	//obj_ytopur_battle.image_index = 0;
+	}else if (global.MaxHp <= 0 and obj_ytopur_battle.phasese == PHASESE.Defeat2 and obj_krus_battle.phasese_krus != PHASESE_KRUS.Defeat2){
+	obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
 	}
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;

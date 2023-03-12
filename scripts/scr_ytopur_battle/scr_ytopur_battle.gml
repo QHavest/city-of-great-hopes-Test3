@@ -39,6 +39,9 @@ function scr_ytopur_battle(){
 						case PHASESE.Defeat:
 						sprite_index = spr_ytopyr_kavkazci_defeat;	
 						break;
+						case PHASESE.Defeat2:
+						sprite_index = spr_ytopyr_kavkazci_defeat_2;	
+						break;
 						case PHASESE.Hit:
 						sprite_index = spr_ytopyr_kavkazci_battle_hit;	
 						break;
@@ -85,6 +88,9 @@ function scr_ytopur_battle(){
 						break;
 						case PHASESE.Defeat:
 						sprite_index = spr_ytopyr_sectants_defeat;	
+						break;
+						case PHASESE.Defeat2:
+						sprite_index = spr_ytopyr_sectants_defeat_2;	
 						break;
 						case PHASESE.Hit:
 						sprite_index = spr_ytopyr_sectants_battle_hit;	

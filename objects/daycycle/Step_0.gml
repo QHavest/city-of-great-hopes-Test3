@@ -121,12 +121,13 @@ if(time_pause == true)
 	instance_activate_object(obj_clock);
 }*/
 
-if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
-if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
-if(keyboard_check_pressed(ord("J"))){time_increment = 5;}
-event_inherited()
+
+//event_inherited()
 
 if(time_pause) exit;
+if(keyboard_check_pressed(ord("Z"))){time_pause = true}
+if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("J"))){time_increment = 5;}
 //збільошуємо час за секунду
 seconds += time_increment;
 minutes = seconds/60;
