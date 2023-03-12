@@ -9,11 +9,11 @@ depth = -bbox_bottom;
 	//hsp = direct*spd;
 	//vsp = directy*walkspd*0.5;
 	
-	if instance_exists(obj_pauser)
+/*	if instance_exists(obj_pauser)
 	{
 		hsp = 0;
 		vsp = 0;
-	}
+	}*/
 	//горизонтальна колізія
 
 	// діалог з зважаючим ГГ

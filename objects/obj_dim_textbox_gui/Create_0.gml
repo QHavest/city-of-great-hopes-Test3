@@ -4,7 +4,7 @@ gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
 cam_y=0;
 cam_x=0;
-instance_create_depth(0,0,0,obj_pauser);
+//instance_create_depth(0,0,0,obj_pauser);
 please_shop_open =0;
 
 Y_op = 0;

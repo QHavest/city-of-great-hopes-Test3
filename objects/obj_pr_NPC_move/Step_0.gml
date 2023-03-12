@@ -8,7 +8,7 @@ depth = -bbox_bottom;
 	//hsp = direct*spd;
 	//vsp = directy*walkspd*0.5;
 	
-	if instance_exists(obj_pauser)
+	if !global.dialog_end
 	{
 		hsp = 0;
 		vsp = 0;
