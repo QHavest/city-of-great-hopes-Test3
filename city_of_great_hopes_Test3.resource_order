@@ -2765,6 +2765,7 @@
     {"name":"obj_dumb_indoor1","order":9,"path":"objects/obj_dumb_indoor1/obj_dumb_indoor1.yy",},
     {"name":"spr_Mascot_move_r","order":10,"path":"sprites/spr_Mascot_move_r/spr_Mascot_move_r.yy",},
     {"name":"spr_plant_culture","order":2,"path":"sprites/spr_plant_culture/spr_plant_culture.yy",},
+    {"name":"scr_dim_playerstate_SMOKE","order":8,"path":"scripts/scr_dim_playerstate_SMOKE/scr_dim_playerstate_SMOKE.yy",},
     {"name":"obj_inventory","order":1,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"scr_windowmode","order":25,"path":"scripts/scr_windowmode/scr_windowmode.yy",},
     {"name":"spr_arrow_hrs","order":12,"path":"sprites/spr_arrow_hrs/spr_arrow_hrs.yy",},

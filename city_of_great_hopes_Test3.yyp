@@ -3104,6 +3104,7 @@
     {"id":{"name":"obj_dumb_indoor1","path":"objects/obj_dumb_indoor1/obj_dumb_indoor1.yy",},},
     {"id":{"name":"spr_Mascot_move_r","path":"sprites/spr_Mascot_move_r/spr_Mascot_move_r.yy",},},
     {"id":{"name":"spr_plant_culture","path":"sprites/spr_plant_culture/spr_plant_culture.yy",},},
+    {"id":{"name":"scr_dim_playerstate_SMOKE","path":"scripts/scr_dim_playerstate_SMOKE/scr_dim_playerstate_SMOKE.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"scr_windowmode","path":"scripts/scr_windowmode/scr_windowmode.yy",},},
     {"id":{"name":"spr_arrow_hrs","path":"sprites/spr_arrow_hrs/spr_arrow_hrs.yy",},},

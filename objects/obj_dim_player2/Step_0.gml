@@ -74,6 +74,7 @@ switch(state){
 	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka("2");		break; 
 	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break;
 	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break;
+	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
  } 
 
 //анімація покупки
