@@ -39,7 +39,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 			if(global.ds_inventory[# 0, i] = 0){
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
-				global.item_bought = 1;
+				item_bought = 1;
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
 				audio_play_sound(snd_sound_buy,5,0,global.System_gain)
 				break;
@@ -50,8 +50,9 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 }
 
 if shopOpen && (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
-		if global.item_bought{
+		if item_bought{
 			scr_anim_start("Souvenir",spr_riv_seller_sell1, spr_riv_seller_stay,obj_foodshop_seller);
+			item_bought = 0;
 		}
 		shopOpen = false;
 		global.shop = false;

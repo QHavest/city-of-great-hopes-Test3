@@ -38,6 +38,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 			if(global.ds_inventory[# 0, i] = 0){
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
+				item_bought = 1;
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
 				break;
 		}
@@ -51,5 +52,9 @@ if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("
 		global.shop = false;
 		ds_list_destroy(items_try_kalynky);
 		ds_list_destroy(items_try_kalynky01);
+		if item_bought{
+			scr_anim_start("tryKalynky",noone, noone,noone);
+			item_bought = 0;
+		}
 		instance_destroy(obj_tryKalynky);
 }

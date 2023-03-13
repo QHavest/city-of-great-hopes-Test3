@@ -19,6 +19,7 @@ function scr_anim_start(shop_name,spr_sel,spr_sel_def,obj_sel){
 		case "Souvenir"	: buing_spr = spr_buy_Ytopur_souvenir; break;
 		case "Ninel"	: buing_spr = spr_buy_Ytopur_garbage; break;
 		case "Fshery"	: buing_spr = spr_buy_Ytopur_garbage; break;
+		case "tryKalynky"	: buing_spr = spr_buy_Ytopur_blood_pakage; break;
 		}
 }
 	}
@@ -37,6 +38,7 @@ function scr_anim_start(shop_name,spr_sel,spr_sel_def,obj_sel){
 		case "Souvenir"	: buing_spr = spr_buy_Krus_soyvenir_R; break;
 		case "Ninel"	: buing_spr = spr_buy_Krus_potato; break;
 		case "Fshery"	: buing_spr = spr_buy_Krus_bakery_R; break;
+		case "tryKalynky"	: buing_spr = spr_buy_Krus_blood_pakage; break;
 		}
 }
 }
