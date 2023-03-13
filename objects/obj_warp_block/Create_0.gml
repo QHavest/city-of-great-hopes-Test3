@@ -11,8 +11,8 @@ new_help_sprite = spr_help
 ///переменная отвечающая за рисование подсказки
 drowings = false
 ///координаты на которых от игрока находится подсказка
-help_x = -10
-help_y = -70
+help_x = -5
+help_y = -75
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false
 new_side = false
