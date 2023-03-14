@@ -12,13 +12,10 @@ if(status = STATUS.ACTIVE){
 	hsp = directx*spd;
 	vsp = directy*spd*0.5;
 
-
-
 	if (!in_sequence){
 	x += hsp
 	y -= vsp
 	}
-	
 	
 	if (hsp!= 0 or vsp != 0){
 	if (run == false){ 
