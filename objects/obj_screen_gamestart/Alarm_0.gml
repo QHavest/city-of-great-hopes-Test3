@@ -24,7 +24,7 @@ switch(obj_Battle_Interface.phase_battle){
 			case ENEMY.Hopniki :
 				obj_background_mini.index_minigame_back = 3;
 				instance_activate_object(obj_mini_avatar);
-				instance_activate_object(obj_hopnik);
+				instance_create_depth(480,416,-300,obj_hopnik);
 				obj_mini_avatar.index_avatar = 4;
 			break;
 			case ENEMY.Narkomany :

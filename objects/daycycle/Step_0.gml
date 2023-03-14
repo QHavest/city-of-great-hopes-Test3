@@ -107,9 +107,9 @@ else time_pause = false;*/
 
 
 
-if(obj_Battle_Interface.battle_start = true or global.dialog_end = 0 or global.shop == true){
+if(obj_Battle_Interface.battle_start = true or global.dialog_end = 0 or global.shop == true or time_pauses == true){
 	time_pause = true;
-} else if (obj_Battle_Interface.battle_start = false or global.dialog_end = 1 or global.shop == false){
+} else if (obj_Battle_Interface.battle_start = false or global.dialog_end = 1 or global.shop == false or time_pauses == false){
 	time_pause = false;
 }
 /*
@@ -121,12 +121,13 @@ if(time_pause == true)
 	instance_activate_object(obj_clock);
 }*/
 
-if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;}
-if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
-if(keyboard_check_pressed(ord("J"))){time_increment = 5;}
-event_inherited()
+
+//event_inherited()
 
 if(time_pause) exit;
+if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;time_pauses = true}
+if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
+if(keyboard_check_pressed(ord("J"))){time_increment = 5;}
 //збільошуємо час за секунду
 seconds += time_increment;
 minutes = seconds/60;

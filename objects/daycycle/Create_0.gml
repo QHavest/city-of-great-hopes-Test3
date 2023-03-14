@@ -20,6 +20,7 @@ year = 1;
 
 time_increment = 5;
 time_pause = false;
+time_pauses = false;
 
 max_darkness = 0.2;
 darkness = 0;

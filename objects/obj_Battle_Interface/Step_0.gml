@@ -74,16 +74,16 @@ if (mini_game = true and games = false){
 		//instance_deactivate_object(obj_dim_player1);
 		//instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
-		instance_deactivate_object(obj_sssr);
+		//instance_deactivate_object(obj_sssr);
 		//instance_deactivate_object(obj_background_mini);
 		//instance_deactivate_object(obj_shprutz_parent);
-		instance_deactivate_object(obj_sects);
-		instance_deactivate_object(wall);
+		//instance_deactivate_object(obj_sects);
+		//instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
 		//instance_deactivate_object(daycycle);
 		//instance_deactivate_object(obj_mini_ytopur);
 		//instance_deactivate_object(obj_mini_krus);
-		instance_deactivate_object(obj_hopnik);
+		//instance_deactivate_object(obj_hopnik);
 }
 //mini-game
 if (mini_game == true){
@@ -147,11 +147,34 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
 	//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
-	if(global.LANGUAGE = "eng"){
-	obj_background_mini.index_minigame_back = 2;
-	} else if(global.LANGUAGE = "ua"){
-	obj_background_mini.index_minigame_back = 3;
-	}
+		battle_start = false;
+		//	global.money -= 30;
+		room_goto(obj_Battle_Interface.target_rm);
+		//battle_start = false;
+		battle_turn_down = true;
+		battle_start = false;
+		game_over_mini = false;
+		mini_game = true
+		games = false
+		hpKrys = 50;
+		hpYtopyrok = 50;
+		amount_hp_enemy = 96;
+		instance_activate_object(obj_dim_player1);
+		instance_activate_object(obj_dim_player2);
+		if obj_dim_player1.status = STATUS.ACTIVE
+		{
+			obj_dim_player1.x = 1795
+			obj_dim_player1.y = 260
+			obj_dim_player2.x = 1795
+			obj_dim_player2.y = 260
+		}
+		else
+		{
+			obj_dim_player1.x = 1795
+			obj_dim_player1.y = 260
+			obj_dim_player2.x = 1795
+			obj_dim_player2.y = 260
+		}
 	} 
 	if(button[3] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	button_c = 1;
@@ -208,10 +231,13 @@ if(system = 1) {
 				obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
 				obj_enemy2_battle.image_index = 0;
 				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-				}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat){
+				}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat){
 				obj_enemy2_battle.image_index = 0;
 				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-					}
+					}	/*else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat){
+				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
+				obj_enemy2_battle.image_index = 0;
+					}*/
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
 		switch(phase_battle){
 			case PHASES.Atack:
@@ -311,8 +337,9 @@ if(system = 2) {
 		button[1] = "L";
 		system = 1;
 	} 
-	if(button[2] = "L" and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
+		global.money -= 30;
 	} 
 	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
 		system = 0;
@@ -354,7 +381,7 @@ if(BDialogue = true){
 			luck = irandom_range(0,100);
 			alarm[2] = 200;
 			//(Торчки відберають всю їжу у персонажей та йдуть. Бій закінчується).
-			if(luck > 29){
+			if(luck >= 31){
 			repeat(7){
 				for(var i = 0; i < 11; i++){
 					if(!global.ds_inventory[# 0, i] = 0){
@@ -363,14 +390,65 @@ if(BDialogue = true){
 					}
 				}
 			}	
-				battle_turn_down = true;
-			} else if (luck > 9 and luck < 30){
+			battle_start = false;
+			global.money -= 30;
+		room_goto(obj_Battle_Interface.target_rm);
+		//battle_start = false;
+		battle_turn_down = true;
+		battle_start = false;
+		game_over_mini = false;
+		mini_game = true
+		games = false
+		hpKrys = 50;
+		hpYtopyrok = 50;
+		amount_hp_enemy = 96;
+		instance_activate_object(obj_dim_player1);
+		instance_activate_object(obj_dim_player2);
+		if obj_dim_player1.status = STATUS.ACTIVE
+		{
+			obj_dim_player1.x = 1795
+			obj_dim_player1.y = 260
+			obj_dim_player2.x = 1795
+			obj_dim_player2.y = 260
+		}
+		else
+		{
+			obj_dim_player1.x = 1795
+			obj_dim_player1.y = 260
+			obj_dim_player2.x = 1795
+			obj_dim_player2.y = 260
+		}
+				
+			} else if (luck > 9 and luck <= 30){
 				//починається міні-гра
 				mini_game = true;
 				system = 0;
 			} else{
 				//бійка закінчується
-				battle_turn_down = true;
+					battle_turn_down = true;
+					battle_start = false;
+					game_over_mini = false;
+					mini_game = true
+					games = false
+					hpKrys = 50;
+					hpYtopyrok = 50;
+					amount_hp_enemy = 96;
+					instance_activate_object(obj_dim_player1);
+					instance_activate_object(obj_dim_player2);
+					if obj_dim_player1.status = STATUS.ACTIVE
+					{
+						obj_dim_player1.x = 1795
+						obj_dim_player1.y = 260
+						obj_dim_player2.x = 1795
+						obj_dim_player2.y = 260
+					}
+					else
+					{
+						obj_dim_player1.x = 1795
+						obj_dim_player1.y = 260
+						obj_dim_player2.x = 1795
+						obj_dim_player2.y = 260
+					}
 				}
 			}
 		if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
@@ -504,153 +582,155 @@ if(BDialogue = true){
 	}
 		
 		
+	if(enemies = ENEMY.Sectants){	
+	//якщо сектанти!!!!!!!!!!!!!
+		if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			alarm[2] = 200;
+			luck = irandom_range(30,100);
+			if(luck > 29){
+				mini_game = true;
+			}	
+			else if (luck > 9 and luck < 30){
+				//завжди потрібно давати людям шанс
+				//бійка закінчується
+				battle_turn_down = true;
+				system = 0;
+			} else{
+				//бійка закінчується
+				battle_turn_down = true;
+				system = 0;
+			}
+		}
+		if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			answer = 2;
+			alarm[2] = 200;
+			luck = irandom_range(0,100);
+			if(luck > 29){
+				//Далі повертає в попереднє меню й в у персонажів збільщений шанс до втечі. В разі продовження бою, персонажі мають на одну атаку збільшене пошкодження по ворогу.)
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			} else{
+				//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по по собі.
+				mini_game = true;
+				system = 0;
+			}	
+		}
+		if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			luck = irandom_range(0,100);
+			if(luck > 50){
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+				global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
+			} else if(luck < 11){
+				//(Герой до кінця міні-гри буде повільнішим на 15%)
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			} else {
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			}
+		}
 		
-	////якщо сектанти!!!!!!!!!!!!!
-	//	if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		alarm[2] = 200;
-	//		luck = irandom_range(30,100);
-	//		if(luck > 29){
-	//			mini_game = true;
-	//		}	
-	//		else if (luck > 9 and luck < 30){
-	//			//завжди потрібно давати людям шанс
-	//			//бійка закінчується
-	//			battle_turn_down = true;
-	//			system = 0;
-	//		} else{
-	//			//бійка закінчується
-	//			battle_turn_down = true;
-	//			system = 0;
-	//		}
-	//	}
-	//	if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		answer = 2;
-	//		alarm[2] = 200;
-	//		luck = irandom_range(0,100);
-	//		if(luck > 29){
-	//			//Далі повертає в попереднє меню й в у персонажів збільщений шанс до втечі. В разі продовження бою, персонажі мають на одну атаку збільшене пошкодження по ворогу.)
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		} else{
-	//			//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по по собі.
-	//			mini_game = true;
-	//			system = 0;
-	//		}	
-	//	}
-	//	if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		luck = irandom_range(0,100);
-	//		if(luck > 50){
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//			global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
-	//		} else if(luck < 11){
-	//			//(Герой до кінця міні-гри буде повільнішим на 15%)
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		} else {
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		}
-	//	}
-		
-		
+	}
+	if(enemies = ENEMY.Kavkazci){
 	////якщо кавказці!!!!!!!!!!!!!!1
-	//	if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		alarm[2] = 200;
-	//		luck = irandom_range(30,100);
-	//		if(luck > 89){
-	//			mini_game = true;
-	//			system = 0;
-	//		} else {
-	//			//бійка закінчується
-	//			battle_turn_down = true;
-	//		}
-	//	}
-	//	if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		answer = 2;
-	//		alarm[2] = 200;
-	//		luck = irandom_range(0,100);
-	//		if(luck > 50){
-	//			//Далі повертає в попереднє меню й в у персонажів збільшений шанс до втечі. В разі продовження бою, персонажі мають на одну атаку збільшене пошкодження по ворогу.)
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		} else{
-	//			//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по собі.
-	//			mini_game = true;
-	//			system = 0;
-	//		}	
-	//	}
-	//	if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-	//		luck = irandom_range(0,100);
-	//		if(luck > 50){
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-	//			global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		} else if(luck < 11){
-	//			//(Герой до кінця міні-гри буде повільнішим на 15%)
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		} else {
-	//			system = 0;
-	//			screen = 0;
-	//			BDialogue = false;
-	//			butt_invis = 1;
-	//			button_c = 1;
-	//			button[button_c] = "L";
-				//button[4] = "D";
-				//button[3] = "D";
-				//button[2] = "D";
-	//		}
-	//	}		
+		if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			alarm[2] = 200;
+			luck = irandom_range(30,100);
+			if(luck > 89){
+				mini_game = true;
+				system = 0;
+			} else {
+				//бійка закінчується
+				battle_turn_down = true;
+			}
+		}
+		if(button_c = 2 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			answer = 2;
+			alarm[2] = 200;
+			luck = irandom_range(0,100);
+			if(luck > 50){
+				//Далі повертає в попереднє меню й в у персонажів збільшений шанс до втечі. В разі продовження бою, персонажі мають на одну атаку збільшене пошкодження по ворогу.)
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			} else{
+				//Далі повертає в попереднє меню й бій продовжується. Персонажі отримують на одну атаку збільшене пошкодження по собі.
+				mini_game = true;
+				system = 0;
+			}	
+		}
+		if(button_c = 3 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
+			luck = irandom_range(0,100);
+			if(luck > 50){
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				global.MaxHp = global.MaxHp + (global.MaxHp*0.15)
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			} else if(luck < 11){
+				//(Герой до кінця міні-гри буде повільнішим на 15%)
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			} else {
+				system = 0;
+				screen = 0;
+				BDialogue = false;
+				butt_invis = 1;
+				button_c = 1;
+				button[button_c] = "L";
+				button[4] = "D";
+				button[3] = "D";
+				button[2] = "D";
+			}
+		}
+	}
 } 
 	
 
