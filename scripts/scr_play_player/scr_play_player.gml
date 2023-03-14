@@ -8,6 +8,7 @@ keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
 keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"));
 key_diary = keyboard_check(ord("N")) or keyboard_check(ord("T"));
+key_smoke =  keyboard_check(ord("Y"));
 }
 
 if (playernum = 1)
@@ -25,5 +26,11 @@ ch = camera_get_view_height(cam);
 view_set_visible(0, false);
 view_set_visible(1, true);
 }
-
+// smoking
+if key_smoke
+{
+	obj_dim_player1.state=PLAYERSTATE.SMOKE;
+	obj_dim_player2.state=PLAYERSTATE.SMOKE;
+	
+}
 }

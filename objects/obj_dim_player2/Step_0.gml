@@ -1,8 +1,8 @@
 //КРИС
 //якщо магазин відкритий, гравець нерухомий
 if (global.shop or !global.dialog_end or global.map) {
-//	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-//	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
+	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 	in_place = 0;
@@ -13,8 +13,6 @@ if global.dialog_end and !global.map and !global.shop and !global.dialogue_move{
 if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;
 if(keyboard_check(ord("2"))) status = STATUS.ACTIVE;
 }
-//if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;
-//if(keyboard_check(ord("2"))) status = STATUS.ACTIVE;
 
 
 switch(status){
@@ -70,12 +68,13 @@ last_active = 0;
 
 switch(state){
 	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_krus();		  break;
-	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur(buing_spr,seller_spr,seller_spr_default,seller_obj);			break;
+	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur(buing_spr,seller_spr,seller_spr_default,seller_obj); break;
 	case	PLAYERSTATE.VODA	: scr_dim_playerstate_voda();			break;
 	case	PLAYERSTATE.LAVKA1	: scr_dim_playerstate_Lavka("1");		break;
 	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka("2");		break; 
 	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break;
 	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break;
+	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
  } 
 
 //анімація покупки

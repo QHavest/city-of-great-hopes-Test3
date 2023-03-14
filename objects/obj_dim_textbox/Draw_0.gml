@@ -13,9 +13,9 @@ if string_length(text[page]) == 0
 }
 
 //setup
-if setup == false
-{
-	setup = true;
+//if setup == false
+//{
+//	setup = true;
 	cam_x = camera_get_view_x(view_camera[view_current]);
 	#region (if room_high...)
 /*
@@ -67,15 +67,6 @@ if setup == false
 	icobx1 = txtb_x - (20*ico_scale)-ic_b*2;
 	icobx2 = txtb_x + txtb_width;
 	
-	/* Змінні для розрахунків у великій кімнаті
-	cam_w = 425
-	text_width = 212.5
-	border = 8.5
-	line_hi = 9.6
-	line sep = 2
-	hi_txtb = 61.4
-	ico_scale = 52.9/20=2.65
-	*/
 	//цикл для "листання" сторінок,
 for(var p=0; p<page_number; p++)
 	{
@@ -156,7 +147,7 @@ for(var p=0; p<page_number; p++)
 			
 		}
 	}	
-}
+//}
 	 
 	 // розмір шрифту під кімнату and зміна параметрів виведення
 //	draw_set_font(font_for_math)
@@ -363,8 +354,8 @@ for (var c=0; c<draw_char; c++){
 	{
 		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
 		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
-		draw_sprite_ext(speaker1[page],0,icobx1+border, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
-		draw_sprite_ext(speaker2[page],0,icobx2+border, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker1[page],0,icobx1+ic_b, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
+		draw_sprite_ext(speaker2[page],0,icobx2+ic_b, txt_y+ border-1,ico_scale,ico_scale,0,c_white,1);
 	}
 
 // вивід рамки під текст (щоб вона була перед рамками під іконки)

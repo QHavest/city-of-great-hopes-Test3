@@ -1,6 +1,6 @@
 
 shopOpen = false; // цеймагазин відкритий?
-
+item_bought = 0;
 selected = 0;
 notselected = 0;
 

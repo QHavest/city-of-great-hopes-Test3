@@ -8,7 +8,7 @@ depth = -bbox_bottom;
 	//hsp = direct*spd;
 	//vsp = directy*walkspd*0.5;
 	
-	if instance_exists(obj_pauser)
+	if !global.dialog_end
 	{
 		hsp = 0;
 		vsp = 0;
@@ -24,12 +24,12 @@ if (!place_meeting(x,y,obj_dim_player1) and !place_meeting(x,y,obj_dim_player2))
 }
 
 if place_meeting(x+hsp, y, obj_dim_player1) and global.dialog_end and !global.shop and obj_dim_player1.status=STATUS.ACTIVE  and start_counter=0 and time_res=0
-{scr_create_textbox(text_id,spr_ic);
+{scr_create_textbox(text_id,spr_ic_Ytopurok,spr_ic);
 	start_counter=1;
 	time_res=pause_time_S*room_speed;
 }
 if place_meeting(x+hsp, y, obj_dim_player2) and  global.dialog_end and !global.shop and obj_dim_player2.status=STATUS.ACTIVE and start_counter=0 and time_res=0
-{scr_create_textbox(text_id,spr_ic);
+{scr_create_textbox(text_id,spr_ic_Krus,spr_ic);
 	start_counter=1;
 	time_res=pause_time_S*room_speed;
 }	

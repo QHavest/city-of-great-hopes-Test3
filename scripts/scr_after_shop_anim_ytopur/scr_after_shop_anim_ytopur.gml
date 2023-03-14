@@ -28,10 +28,17 @@ else
 // chek end GG animation
 if sprite_index=GG_spr and scr_dim_animation_end(sprite_index) 
 {
+	with (obj_dim_player1){
 state=PLAYERSTATE.FREE;
-global.dialogue_move = false;
 start=0;
 in_place=0;
+	}
+	with (obj_dim_player2){
+state=PLAYERSTATE.FREE;
+start=0;
+in_place=0;
+	}
+	//global.dialogue_move = false;
 }
 /*
 if lastmove = 0 sprite_index = spr_buy_Ytopur_bakery_R;

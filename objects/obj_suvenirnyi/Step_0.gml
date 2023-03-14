@@ -49,6 +49,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 }
 if shopOpen && (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
 		if global.item_bought{
+			global.item_bought=0;
 			scr_anim_start("Souvenir",noone,noone,noone);
 		}
 		ds_list_destroy(items_suvenir);

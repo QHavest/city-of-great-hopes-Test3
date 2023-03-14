@@ -40,7 +40,8 @@ DIALOGUE,
 LAVKA1,
 LAVKA2,
 LAVKA3,
-LAVKA4
+LAVKA4,
+SMOKE
 }
 
 //Частина 1 системи слідкування за героєм
