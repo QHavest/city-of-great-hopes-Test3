@@ -27,7 +27,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0c81318e-d677-46d0-a154-8e4decd4b571","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 6,
   "parent": {
     "name": "Kavkaz2",
     "path": "folders/Battle_system/MiniGames/Animations/Enemy/Kavkazci/Kavkaz2.yy",
@@ -67,7 +67,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 9,
+    "xorigin": 0,
     "yorigin": 15,
   },
   "swatchColours": null,

@@ -148,7 +148,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
 	//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
 		battle_start = false;
-			global.money -= 30;
+		//	global.money -= 30;
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
 		battle_turn_down = true;
@@ -378,7 +378,7 @@ if(BDialogue = true){
 	///////ШАНСИ НА РІШЕННЯ В ДІАЛОЗІ
 	if(enemies = ENEMY.Narkomany){
 		if(button_c = 1 and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")))){
-			luck = 40;
+			luck = irandom_range(0,100);
 			alarm[2] = 200;
 			//(Торчки відберають всю їжу у персонажей та йдуть. Бій закінчується).
 			if(luck >= 31){

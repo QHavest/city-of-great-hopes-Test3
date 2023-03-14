@@ -55,8 +55,17 @@ function scr_enemy1_phases(){
 						scr_enemy1_battle();
 						image_speed = 1;
 						if (image_index >= image_number - 1){
+						phasese_enemy1 = PHASESE_ENEMY1.Defeat2;
 						image_speed = 0;
 						}
+						case PHASESE_ENEMY1.Defeat2:
+						image_speed = 0;
+						scr_enemy1_battle();
+						image_speed = 1;
+						if (image_index >= image_number - 1){
+						image_speed = 0;
+						}
+						break;
 						break;
 						case PHASESE_ENEMY1.Hit:
 						image_speed = 0;
@@ -115,6 +124,14 @@ function scr_enemy2_phases(){
 						case PHASESE_ENEMY2.Defeat:
 						image_speed = 0;
 						scr_enemy2_battle();	
+						image_speed = 1;
+						if (image_index >= image_number - 1){
+						phasese_enemy2 = PHASESE_ENEMY2.Defeat2;
+						image_speed = 0;
+						}
+						case PHASESE_ENEMY2.Defeat2:
+						image_speed = 0;
+						scr_enemy2_battle();
 						image_speed = 1;
 						if (image_index >= image_number - 1){
 						image_speed = 0;
@@ -184,6 +201,15 @@ function scr_enemy3_phases(){
 						case PHASESE_ENEMY3.Defeat:
 						image_speed = 0;
 						scr_enemy3_battle();	
+						image_speed = 1;
+						if (image_index >= image_number - 1){
+						phasese_enemy3 = PHASESE_ENEMY3.Defeat2;
+						image_speed = 0;
+						}
+						break;
+						case PHASESE_ENEMY3.Defeat2:
+						image_speed = 0;
+						scr_enemy3_battle();
 						image_speed = 1;
 						if (image_index >= image_number - 1){
 						image_speed = 0;
