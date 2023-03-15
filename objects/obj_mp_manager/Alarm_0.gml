@@ -13,6 +13,7 @@
 		instance_activate_object(obj_inventory);
 		instance_activate_object(music_room);
 		instance_activate_object(obj_Battle_Interface);
+		instance_activate_object(obj_manager_bus);
 		// status check
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{

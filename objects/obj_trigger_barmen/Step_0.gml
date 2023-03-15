@@ -15,9 +15,8 @@ else drowings = false;
 		show_debug_message(number2);
 		show_debug_message(number2);
 		show_debug_message(number2);
-		if(number2 >= 3) scr_create_textbox("go_home_alcoholics");
-		if(number2 < 3)	scr_create_textbox("barmen2");
+		if(number2 >= 4 or global.noRest == 2) scr_create_textbox("go_home_alcoholics");
+		if(number2 < 3 and global.noRest != 2)	scr_create_textbox("barmen2");
 	}
-	
 if(instance_exists(obj_dim_textbox)) {start = false; global.shop = true}
 else {start = true; global.shop = false}

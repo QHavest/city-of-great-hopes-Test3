@@ -94,6 +94,7 @@
     {"name":"inst_26135445","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_7ABDFDA2","path":"rooms/rm_south/rm_south.yy",},
     {"name":"inst_215E9A2D","path":"rooms/rm_south/rm_south.yy",},
+    {"name":"inst_9903372","path":"rooms/rm_south/rm_south.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -190,6 +191,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33FD8B72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_babka_5","path":"objects/obj_babka_5/obj_babka_5.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":612.0,"y":190.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F8CA3F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mama_1","path":"objects/obj_mama_1/obj_mama_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":191.0,"y":202.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DA6CA7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"properties":[],"rotation":-2.9505234,"scaleX":-0.117058575,"scaleY":1.7741187,"x":1835.109,"y":265.9383,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9903372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_manager_sekt","path":"objects/obj_manager_sekt/obj_manager_sekt.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1519.0,"y":274.87387,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj_night","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_706601E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_arka_tuhk_night","path":"objects/obj_arka_tuhk_night/obj_arka_tuhk_night.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":867.0,"y":-35.0,},

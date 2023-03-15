@@ -58,6 +58,8 @@ if(start)
 	sequence_instance_override_object(seqInst, obj_barmen,  objInst11);
 }
 
+if(instance_exists(obj_trigger_barmen_2) and global.noRest == 2) instance_destroy(obj_trigger_barmen_2);
+
 //if(phase_seq == 1)
 //{
 //	instance_deactivate_object(obj_trigger_barmen);

@@ -5,7 +5,7 @@ if event_data [? "event_type"] == "sequence event"
     
 	case "start":
 	//a = 1;
-	audio_stop_all();
+	scr_music_fon_change(noone);
 	//audio_play_sound(snd_bazar_2, 1, true);
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
@@ -72,6 +72,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
     case "delete":
+	audio_stop_sound(snd_viter);
 	obj_dim_player2.x = obj_player_2_9_2.x;
 	obj_dim_player2.y = obj_player_2_9_2.y;
 	view_set_camera(0, regCam1);

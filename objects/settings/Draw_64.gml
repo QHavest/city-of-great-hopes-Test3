@@ -45,7 +45,8 @@ var c = c_black;
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer+30, lty; //Розташування на екрані
+var ltx = start_x - x_buffer+50, lty; //Розташування на екрані
+
 
 //draw_set_alpha(0.25);
 //draw_rectangle_color(-50, -50, gwidth + 50, gheight + 50, c_black, c_black, c_black, c_black, 0);

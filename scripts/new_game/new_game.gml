@@ -7,5 +7,9 @@ function new_game(){
 	global.gameStart = 1;
 	
 	show_debug_message("scr_newgame")
+	with(obj_loading)
+	{
+		alarm[0] = 1;
+	}
 	
 }

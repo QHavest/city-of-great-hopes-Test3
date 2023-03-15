@@ -3,4 +3,18 @@ bus_position = 0;
 busX = 0;
 busY = 0;
 bus = 1;
+mp_open = 0;
+start = true;
+start2 = true;
+start3 = false;
+seq_num = seq_bus;
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+show_debug_message("create_bus");
+
 alarm[0] = 1;

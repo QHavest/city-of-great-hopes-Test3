@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Main",
-    "path": "folders/Story/Cutscenes/scena 9/Sprites/Main.yy",
+    "name": "Indoor",
+    "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/Indoor.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

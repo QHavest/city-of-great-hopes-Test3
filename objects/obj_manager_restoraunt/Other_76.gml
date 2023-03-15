@@ -60,10 +60,11 @@ if event_data [? "event_type"] == "sequence event"
 		layer_destroy("Cutcenes");
 		scr_music_fon_change(room);
 		obj_dim_player1.x = 1970;
-		obj_dim_player1.y = 260;
+		obj_dim_player1.y = 280;
 		obj_dim_player2.x = 1990;
-		obj_dim_player2.y = 265;
+		obj_dim_player2.y = 285;
 		room_goto(rm_center_left);
+		global.noRest = -1;
 		//room_restart();
 		
     break;

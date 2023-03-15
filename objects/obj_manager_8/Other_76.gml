@@ -69,6 +69,9 @@ if event_data [? "event_type"] == "sequence event"
 	obj_dim_player1.y += 20;
 	//obj_dim_player2.x = x2;
 	obj_dim_player2.y += 20;
+	instance_activate_object(obj_pr_NPC_back);
+	instance_activate_object(obj_pr_NPC_move);
+	instance_activate_object(obj_pr_spr_change_outside_viewport);
     break;
   }
 }

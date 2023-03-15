@@ -124,6 +124,10 @@ if !is_string(_roomStruct) {exit;};
 
 //////////////////////////////////////////////////////////////////
 function save_game(_fileNum = 0){
+	if(global.pause or global.map) 
+	{
+		exit;
+	}
 	
 	saveHour = current_hour;
 	saveMin = current_minute;
@@ -179,6 +183,7 @@ function save_game(_fileNum = 0){
 	buffer_write(_buffer, buffer_string, _json);
 	buffer_save(_buffer, _filename);
 	buffer_delete(_buffer);
+	
 }
 
 function load_game(_fileNum = 0){

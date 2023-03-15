@@ -1,10 +1,3 @@
-alarm_set(0, 25 * 30);
-if(bus)
-{
-	show_debug_message("Bus is ready");
-	layer_create(-9999, "Cutcenes");
-	var layerName = "Cutcenes";
-	var seqName = seq_bus;
+alarm_set(0, 25 * 5);
 
-	seq_buses = layer_sequence_create(layerName, busX, busY, seqName);
-}
+bus_position = irandom_range(1, 2);
