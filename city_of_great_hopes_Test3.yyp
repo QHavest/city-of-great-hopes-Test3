@@ -363,7 +363,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"obj_dumb_big_h","path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},},
@@ -1665,6 +1665,7 @@
     {"id":{"name":"obj_south_home","path":"objects/obj_south_home/obj_south_home.yy",},},
     {"id":{"name":"spr_audio2_ukr_l","path":"sprites/spr_audio2_ukr_l/spr_audio2_ukr_l.yy",},},
     {"id":{"name":"spr_dim_Krus_cut_idle_l","path":"sprites/spr_dim_Krus_cut_idle_l/spr_dim_Krus_cut_idle_l.yy",},},
+    {"id":{"name":"obj_bus_stay","path":"objects/obj_bus_stay/obj_bus_stay.yy",},},
     {"id":{"name":"obj_plant_indoor2","path":"objects/obj_plant_indoor2/obj_plant_indoor2.yy",},},
     {"id":{"name":"snd_text_words","path":"sounds/snd_text_words/snd_text_words.yy",},},
     {"id":{"name":"scr_LoadSave","path":"scripts/scr_LoadSave/scr_LoadSave.yy",},},
@@ -1842,6 +1843,7 @@
     {"id":{"name":"obj_seq_delete","path":"objects/obj_seq_delete/obj_seq_delete.yy",},},
     {"id":{"name":"sp_konyk_horbunok_eng01","path":"sprites/sp_konyk_horbunok_eng01/sp_konyk_horbunok_eng01.yy",},},
     {"id":{"name":"spr_press2","path":"sprites/spr_press2/spr_press2.yy",},},
+    {"id":{"name":"spr_bus_yellow_stay2","path":"sprites/spr_bus_yellow_stay2/spr_bus_yellow_stay2.yy",},},
     {"id":{"name":"spr_swing_south7","path":"sprites/spr_swing_south7/spr_swing_south7.yy",},},
     {"id":{"name":"rm_sport_centre","path":"rooms/rm_sport_centre/rm_sport_centre.yy",},},
     {"id":{"name":"obj_shaurma","path":"objects/obj_shaurma/obj_shaurma.yy",},},

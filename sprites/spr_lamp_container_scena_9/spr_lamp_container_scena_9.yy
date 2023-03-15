@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_lamp_container_scena_9",
-  "bbox_bottom": 157,
+  "bbox_bottom": 158,
   "bbox_left": 0,
   "bbox_right": 98,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c30e5048-c657-4894-af10-16e9641a4fd6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7afb265-d52c-4f97-9663-cf9943376971",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 158,
+  "height": 159,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e9c9d573-18c8-4fbf-9997-5710f786218a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1955c6fc-3efe-4ba4-a0e4-8811cfef1222","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c30e5048-c657-4894-af10-16e9641a4fd6","path":"sprites/spr_lamp_container_scena_9/spr_lamp_container_scena_9.yy",},},},"Disabled":false,"id":"e0b47bc9-8567-4357-924b-0dea1ffefdf2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d7afb265-d52c-4f97-9663-cf9943376971","path":"sprites/spr_lamp_container_scena_9/spr_lamp_container_scena_9.yy",},},},"Disabled":false,"id":"5e009dd9-6e29-4e15-b56b-20dd5d94d202","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

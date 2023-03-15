@@ -1,12 +1,36 @@
-if(bus == true and start == true)
+if(bus == true and start == true and global.map == false)
 {
 	start = false;
 	show_debug_message("Bus is ready and start = " + string(start));
 	layer_create(-9999, "Cutcenes");
 	var layerName = "Cutcenes";
-	//var seqName = seq_bus;
+	seq_buses = layer_sequence_create(layerName, busX, busY, seq_num);
+}
 
-	seq_buses = layer_sequence_create(layerName, busX, busY, seq_bus);
+if(global.map == true and start2 == true)
+{
+	show_debug_message("first IF");
+	start2 = false;
+	//layer_create(-9999, "Cutcenes");
+	//var layerName = "Cutcenes";
+	////var seqName = seq_bus;
+
+	//seq_buses2 = layer_sequence_create(layerName, busX, busY, seq_bus2);
+	//layer_sequence_pause(seq_buses2);
+	start3 = true;
+}
+
+if(start3 == true and global.map == false)
+{
+	show_debug_message("sekond IF");
+	layer_create(-9999, "Cutcenes");
+	var layerName = "Cutcenes";
+	//var seqName = seq_bus;
+	instance_create_layer(busX, busY, "Cutcenes", obj_bus_stay);
+	seq_buses2 = layer_sequence_create(layerName, busX, busY, seq_bus2);
+	start2 = true;
+	//layer_sequence_play(seq_buses2);
+	start3 = false;
 }
 
 switch(room)
@@ -48,8 +72,3 @@ switch(room)
 		bus = 0;
 	break;
 }
-
-//if(mp_open and (room == rm_street_container or room == rm_school))
-//{
-//	instance_activate_object(obj_mp_open);
-//}

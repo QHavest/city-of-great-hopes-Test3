@@ -1,8 +1,8 @@
 
 	var playerInst2 = instance_find(obj_dim_player2,0);
 	var playerInst1= instance_find(obj_dim_player1, 0);
-	var objInst1 = instance_find(obj_school_h,0);
-	var objInst2 = instance_find(obj_clumbe_school,0);
+	//var objInst1 = instance_find(obj_school_h,0);
+	//var objInst2 = instance_find(obj_clumbe_school,0);
 	//var objInst3 = instance_find(obj_dumb_bazaar_night,0);
 	//var objInst5 = instance_find(obj_closed_containers,0);
 	//var objInst6 = instance_find(obj_lotki_night1,0);
@@ -17,18 +17,18 @@
 
 
 	var sequence = seq_sektants
-	var layerName = "Cutscenes";
+	layer_create(-9999, "Cutscenes2");
+	var layerName = "Cutscenes2";
 
 	global.shop = true;
-	//audio_stop_all();
 
-	seq5= layer_sequence_create(layerName, 0,0, sequence);
+	seq5= layer_sequence_create(layerName, x,y, sequence);
 	var seqInst = layer_sequence_get_instance(seq5);
 
 	sequence_instance_override_object(seqInst, obj_dim_player2,  playerInst2);
 	sequence_instance_override_object(seqInst, obj_dim_player1,  playerInst1);
-	sequence_instance_override_object(seqInst, obj_school_h,  objInst1);
-	sequence_instance_override_object(seqInst, obj_clumbe_school,  objInst2);
+	//sequence_instance_override_object(seqInst, obj_school_h,  objInst1);
+	//sequence_instance_override_object(seqInst, obj_clumbe_school,  objInst2);
 	//sequence_instance_override_object(seqInst, obj_dumb_bazaar_night,  objInst3);
 	//sequence_instance_override_object(seqInst, obj_closed_containers,  objInst5);
 	//sequence_instance_override_object(seqInst, obj_lotki_night1,  objInst6);
