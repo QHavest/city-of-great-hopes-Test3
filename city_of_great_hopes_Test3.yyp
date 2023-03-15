@@ -364,7 +364,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"obj_dumb_big_h","path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},},
