@@ -1,2 +1,2 @@
-layer_sequence_destroy(seq_buses);
-layer_sequence_destroy(seq_buses2);
+layer_sequence_destroy(seq_bus);
+layer_sequence_destroy(seq_bus2);

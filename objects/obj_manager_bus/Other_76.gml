@@ -10,21 +10,21 @@ if event_data [? "event_type"] == "sequence event"
     break;
 
     case "destroy_bus":
-		layer_sequence_destroy(seq_buses);
+		layer_sequence_destroy(seq_bus);
 		layer_destroy("Cutcenes");
 		//start = true;
 		show_debug_message("destroy");
     break;
 
     case "mp_open":
-	obj_mp_open.start = true;
+	if (instance_exists(obj_mp_open)){obj_mp_open.start = true;}
 		//mp_open = 1;
 		//if room==rm_street_container instance_activate_object(inst_3011B2F9);
 		//else instance_activate_object(inst_3011B2F9);
     break;
 	
     case "mp_close":
-	obj_mp_open.start = false;
+	if (instance_exists(obj_mp_open)){obj_mp_open.start = false;}
 		//mp_open = 0;
 		//if room==rm_street_container instance_deactivate_object(inst_3011B2F9);
 		//else instance_deactivate_object(inst_3011B2F9);
