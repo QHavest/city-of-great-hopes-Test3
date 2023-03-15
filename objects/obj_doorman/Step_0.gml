@@ -1,0 +1,1 @@
+if(global.noRest == -1) instance_destroy(inst_73BA9AF8);

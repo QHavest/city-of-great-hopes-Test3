@@ -34,7 +34,7 @@ if event_data [? "event_type"] == "sequence event"
 		obj_dim_player2.sprite_index = spr_dim_Krus_stay_l;
 		
 		layer_sequence_destroy(seq_rest_bar);
-		room_restart();
+		//room_restart();
     break;
   }
 }

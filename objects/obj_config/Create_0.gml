@@ -10,3 +10,4 @@ global.master = 0.5;
 global.LANGUAGE = "eng";
 global.sequence = 0;
 global.task = 0;
+global.noRest = 0;

@@ -84,7 +84,7 @@ global.levelData =
 	room_58: 0,
 }
 
-alarm[0] = 25 * 60;
+alarm[0] = 10;
 
 _saveInv = 1;
 

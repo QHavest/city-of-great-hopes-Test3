@@ -1319,15 +1319,15 @@ break
 
 #region (scena 6)
 case "scena_6":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena61"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena62"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena63"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena64"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena65"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena66"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena67"),1,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena68"),2,spr_ic_Krus,spr_ic_Ytopurok);
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena69"),1,spr_ic_Krus,spr_ic_Ytopurok);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena61"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena62"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena63"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena64"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena65"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena66"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena67"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena68"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena69"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 #endregion
@@ -1498,7 +1498,7 @@ break
 // кидає подушку, стукають по батареї
 
 case "scena_5_2":
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena52"),1,spr_ic_Krus, spr_ic_blank);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena52"),1,spr_ic_Krus_5scena, spr_ic_blank);
 break
 
 case "scena_5_3":
@@ -1549,16 +1549,16 @@ break
 
 #region Ресторан, катсцена
 
-case "Doorman1": // якщо ми заходимо
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_1"),1,spr_ic_Krus, spr_ic_Ytopurok);
+case "doorman1": // якщо ми заходимо
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_1"),2,spr_ic_Krus, spr_ic_Doorman);
 break
 
-case "Doorman2": // якщо не заходимо
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_2"),1,spr_ic_Krus, spr_ic_Ytopurok);
+case "doorman2": // якщо не заходимо
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_2"),1,spr_ic_Krus, spr_ic_Doorman);
 break
 
 case "waiter": // офіціант
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_3"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_3"),2,spr_ic_Krus, spr_ic_officiante);
 	    scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_4"),"booking");
 		scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_5"),"no_booking");
 break
@@ -1570,17 +1570,17 @@ case "booking": // з бронюванням
 		booking = true;
 	}
 	
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_6"),1,spr_ic_Krus, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_7"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_6"),2,spr_ic_Krus, spr_ic_officiante);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_7"),1,spr_ic_Krus, spr_ic_officiante);
 break
 
 case "booking2": // ругається офіціант
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_8"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_8"),2,spr_ic_Krus, spr_ic_officiante);
 break
 
 case "no_booking": // без бронювання
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_9"),1,spr_ic_Krus, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_9"),2,spr_ic_Krus, spr_ic_officiante);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),2,spr_ic_Krus, spr_ic_officiante);
 break
 
 //case "no_booking2": // після паузи
@@ -1592,15 +1592,23 @@ case "barmen": // біля барної стійки
 	obj_trigger_barmen_2.y = 0;
 	instance_activate_object(obj_trigger_barmen);
 	instance_destroy(obj_trigger_barmen_2);
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_11"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_11"),2,spr_ic_Krus, spr_ic_Barman);
 	    scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_12"),"beer");
 		scr_option(scr_json_lang(global.LANGUAGE,"Restoraunt_13"),"4");
 break
 
 case "barmen2": // біля барної стійки
-	scr_text("Повторити?",1,spr_ic_Krus, spr_ic_Ytopurok);
-	    scr_option("Так","beer");
-		scr_option("Ні","4");
+	scr_text("Повторити?",1,spr_ic_Krus, spr_ic_Barman);
+		if(global.Language == "ua")
+		{
+			scr_option("Так","beer");
+			scr_option("Ні","4");
+		}
+		else
+		{
+			scr_option("Yes","beer");
+			scr_option("No","4");
+		}
 break
 
 case "beer":
@@ -1615,7 +1623,8 @@ case "beer":
 break
 
 case "go_home_alcoholics": // бармен вигяняє
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_14"),1,spr_ic_Krus, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_14"),2,spr_ic_Krus, spr_ic_Barman);
+	global.noRest = 2;
 break
 
 #endregion

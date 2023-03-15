@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Story/Cutscenes/scena 9/Objects.yy",
+    "name": "Fish",
+    "path": "folders/Objects/Bazar/Fish and Bazar/Fish.yy",
   },
   "parentObjectId": {
     "name": "obj_woi_invisible_wall",

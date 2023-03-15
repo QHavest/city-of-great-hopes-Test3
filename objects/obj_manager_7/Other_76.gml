@@ -4,6 +4,7 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
+	
 	start = 1;
 	scr_music_fon_change("snd_street");
 	//with(music_room)
@@ -50,8 +51,9 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog2":
 	pause = true;
 	scr_create_textbox("scena_7_2");
-	audio_stop_sound(snd_svust);
-	instance_deactivate_object(obj_svust);
+	audio_sound_gain(snd_svust2, 0, 1);
+	audio_stop_sound(snd_svust2);
+	instance_destroy(obj_svust);
 	
 	break;
 	
@@ -71,7 +73,6 @@ if event_data [? "event_type"] == "sequence event"
 	scr_create_textbox("scena_7_5");
 	
 	volume = 0;
-	
 	//audio_play_sound(snd_mandarun, 1, false);
 	//audio_sound_gain(snd_svust, 0.06, 2500);
 	
@@ -100,15 +101,9 @@ if event_data [? "event_type"] == "sequence event"
 	
 	break;
 	
-	case "stop_svust":
-	
-	//while(volume <= 0)
-	//{
-	//	audio_sound_gain(snd_svust, volume, 2500);
-	//	volume -= 0.05;
-	//	alarm[0] = 60;
-	//}
-	break;
+	//case "stop_svust":
+	//	audio_sound_gain(snd_svust, 0, 1);
+	//break;
 	
 	//case "room_goto1":
 	////room_goto(rm_center);
@@ -141,6 +136,13 @@ if event_data [? "event_type"] == "sequence event"
     layer_sequence_destroy(seq2);
 	scr_music_fon_change(room);
 	//instance_destroy(obj_mandarun_sound);
+	obj_dim_player1.y += 10;
+	obj_dim_player2.y += 10;
+	instance_activate_object(obj_pr_NPC_back);
+	instance_activate_object(obj_doorman);
+	instance_activate_object(obj_pr_NPC_move);
+	instance_activate_object(obj_pr_spr_change_outside_viewport);
+	instance_activate_object(obj_left_lamp_night);
 	room_restart();
     break;
   }
