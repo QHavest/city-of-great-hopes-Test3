@@ -75,7 +75,6 @@
     {"name":"inst_32A646E8","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_45560CAF","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_2F4B2243","path":"rooms/rm_street_container/rm_street_container.yy",},
-    {"name":"inst_60F036F7","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_3011B2F9","path":"rooms/rm_street_container/rm_street_container.yy",},
   ],
   "isDnd": false,
