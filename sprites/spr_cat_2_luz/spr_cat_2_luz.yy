@@ -37,7 +37,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"30219460-9602-448e-ba52-26adf0e767e6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Animals",
     "path": "folders/Sprites/Animals.yy",
@@ -87,7 +87,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 9,
+    "xorigin": 11,
     "yorigin": 9,
   },
   "swatchColours": null,
