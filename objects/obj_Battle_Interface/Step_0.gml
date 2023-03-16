@@ -176,35 +176,6 @@ if(system == 0 and mini_game == false and BDialogue == false){
 				instance_create_depth(490,570,-600,obj_screen_gamestart)	
 		        break;
 		}
-			//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
-		/*battle_start = false;
-		//	global.money -= 30;
-		room_goto(obj_Battle_Interface.target_rm);
-		//battle_start = false;
-		battle_turn_down = true;
-		battle_start = false;
-		game_over_mini = false;
-		mini_game = true
-		games = false
-		hpKrys = 50;
-		hpYtopyrok = 50;
-		amount_hp_enemy = 96;
-		instance_activate_object(obj_dim_player1);
-		instance_activate_object(obj_dim_player2);
-		if obj_dim_player1.status = STATUS.ACTIVE
-		{
-			obj_dim_player1.x = 1795
-			obj_dim_player1.y = 260
-			obj_dim_player2.x = 1795
-			obj_dim_player2.y = 260
-		}
-		else
-		{
-			obj_dim_player1.x = 1795
-			obj_dim_player1.y = 260
-			obj_dim_player2.x = 1795
-			obj_dim_player2.y = 260
-		}*/
 	} 
 	if(button[3] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	button_c = 1;
