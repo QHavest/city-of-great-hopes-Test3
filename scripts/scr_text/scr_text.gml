@@ -61,7 +61,17 @@ function scr_create_textbox (_text_id){
 		var spr_ic_npc =  argument[2];
 	with (instance_create_depth(0,0,-99999,obj_dim_textbox_gui))
 		{	
-			scr_game_text(_text_id,spr_ic_npc,spr_ic,);
+			scr_game_text(_text_id,spr_ic_npc,spr_ic);
+		}
+	}	
+	else
+		if argument_count=2 
+	{
+		var spr_ic =  argument[1];
+		//var spr_ic_npc =  argument[2];
+	with (instance_create_depth(0,0,-99999,obj_dim_textbox_gui))
+		{	
+			scr_game_text(_text_id,spr_ic);
 		}
 	}	
 	else

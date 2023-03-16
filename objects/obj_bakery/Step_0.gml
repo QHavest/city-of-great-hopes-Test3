@@ -47,6 +47,10 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 	}
 }
 if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
+		if item_bought{
+			scr_anim_start("Backary",noone, noone,noone);
+			item_bought = 0;
+		}
 		shopOpen = false;
 		global.shop = false;
 		ds_list_destroy(items_bakery);

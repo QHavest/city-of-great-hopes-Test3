@@ -4,6 +4,9 @@
   "name": "obj_madam_2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,8 +34,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_madam_2",
-    "path": "sprites/spr_madam_2/spr_madam_2.yy",
+    "name": "spr_madam_2_active",
+    "path": "sprites/spr_madam_2_active/spr_madam_2_active.yy",
   },
   "spriteMaskId": null,
   "visible": true,

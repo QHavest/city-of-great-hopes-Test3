@@ -159,8 +159,8 @@ player_y[0][2] = 245;
 //player_y[3][2] = 280;
 
 room_pos[0][3] = rm_south;
-player_x[0][3] = 1120;
-player_y[0][3] = 255;
+player_x[0][3] = 1180;
+player_y[0][3] = 230;
 
 //room_pos[1][3] = rm_sport_centre;
 //player_x[1][3] = 470
