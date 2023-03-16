@@ -40,6 +40,7 @@ if (battle_start = true and mini_game = false){
 if (battle_start = true and keyboard_check_pressed(ord("F")))
 {		room_goto(target_rm);
 		battle_start = false;
+		instance_deactivate_object(obj_mini_avatar);
 		//instance_activate_object(daycycle);
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{
@@ -146,8 +147,37 @@ if(system == 0 and mini_game == false and BDialogue == false){
 	} 
 	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
-	//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
-		battle_start = false;
+	// Визначення значень шансів	
+   // var chance = true
+		var random_number = random(100);
+		var chance_option1 = random_number < 30;
+		var chance_option2 = random_number < 100;
+		//var chance_option3 = 20;
+		switch (random_number < 100) {
+		    case (chance_option1):
+				show_debug_message("test 1 vasriant");
+			        //draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
+				instance_destroy(obj_wait);
+				instance_create_depth(490,570,-600,obj_success);
+				instance_destroy(obj_shprutz_dow1);
+				instance_destroy(obj_shprutz_up1);
+				instance_deactivate_object(obj_mini_avatar);
+				instance_deactivate_object(wall);
+				instance_destroy(obj_shprutz_parent);
+				obj_Battle_Interface.mini_game = false;
+		        break;
+		    case (chance_option2):
+				show_debug_message("test 2 vasriant");
+				mini_game = true;
+				games = true;
+				phase_battle = PHASES.Atack;
+				//aliens = ALIES.Ytopurok_mini;
+				instance_destroy(obj_wait);
+				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+		        break;
+		}
+			//draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
+		/*battle_start = false;
 		//	global.money -= 30;
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
@@ -174,7 +204,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 			obj_dim_player1.y = 260
 			obj_dim_player2.x = 1795
 			obj_dim_player2.y = 260
-		}
+		}*/
 	} 
 	if(button[3] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
 	button_c = 1;

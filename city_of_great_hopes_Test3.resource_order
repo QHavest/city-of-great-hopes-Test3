@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_success","order":1,"path":"objects/obj_success/obj_success.yy",},
+  ],
 }

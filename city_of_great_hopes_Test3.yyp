@@ -2297,6 +2297,7 @@
     {"id":{"name":"obj_player_1_rest","path":"objects/obj_player_1_rest/obj_player_1_rest.yy",},},
     {"id":{"name":"spr_Aperkot","path":"sprites/spr_Aperkot/spr_Aperkot.yy",},},
     {"id":{"name":"spr_golub_fly_L","path":"sprites/spr_golub_fly_L/spr_golub_fly_L.yy",},},
+    {"id":{"name":"obj_success","path":"objects/obj_success/obj_success.yy",},},
     {"id":{"name":"sp_proletarskyi_hostinec01","path":"sprites/sp_proletarskyi_hostinec01/sp_proletarskyi_hostinec01.yy",},},
     {"id":{"name":"spr_krus_kavkazci_defeat","path":"sprites/spr_krus_kavkazci_defeat/spr_krus_kavkazci_defeat.yy",},},
     {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},},
