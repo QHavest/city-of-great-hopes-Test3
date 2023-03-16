@@ -182,7 +182,7 @@ switch (obj_Battle_Interface.phase_battle){
 
 	obj_ytopur_battle.phasese = PHASESE.Defeat;
 	//obj_ytopur_battle.image_index = 0;
-	}else if (global.MaxHp <= 0 and obj_ytopur_battle.phasese == PHASESE.Defeat2 and obj_krus_battle.phasese_krus != PHASESE_KRUS.Defeat2){
+	}else if (global.MaxHp <= 0 and obj_ytopur_battle.phasese == PHASESE.Defeat2){
 	obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
 	}
 if(alarm[1] < 1){
