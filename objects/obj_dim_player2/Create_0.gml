@@ -10,6 +10,7 @@ status = STATUS.PASSIVE;
 s_walk = snd_walk;
 InRoomMode = false;
 
+
 sprit = "Krus";
 in_place = 0;
 last_active = 0;

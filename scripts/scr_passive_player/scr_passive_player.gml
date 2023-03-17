@@ -15,29 +15,29 @@ if(global.item_bought or global.dialogue_move or !global.dialog_end) exit;
 
 if (playernum == 2) {
 	//walk
-	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, false);
+	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_potential_step(obj_dim_player1.posX[12], obj_dim_player1.posY[7], 4, false);
 	//run
-	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, false);
+	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player1.posX[12], obj_dim_player1.posY[7], 9, false);
 	}
 else if(playernum == 1){
 	//walk
-	if (run == 0 and distance_to_object(obj_dim_player2) > 30) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, false);
+	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_potential_step(obj_dim_player1.posX[12], obj_dim_player1.posY[7], 4, false);
 	//run
-	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, false);
-
+	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player1.posX[12], obj_dim_player1.posY[7], 9, false);
 }
+
 
 //if (playernum == 2) {
 //	//walk
-//	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, false);
+//	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, false);
 //	//run
-//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_linear_step_object(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, false);
+//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, false);
 //	}
 //else if(playernum == 1){
 //	//walk
-//	if (run == 0 and distance_to_object(obj_dim_player2) > 30) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, false);
+//	if (run == 0 and distance_to_object(obj_dim_player2) > 30) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, false);
 //	//run
-//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_linear_step_object(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, false);
+//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, false);
 
 //}
 
