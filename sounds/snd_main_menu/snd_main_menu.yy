@@ -16,7 +16,7 @@
     "path": "folders/Sounds.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_main_menu.wav",
   "type": 1,
   "volume": 0.23,

@@ -228,6 +228,7 @@ function load_game(_fileNum = 0){
 	
 	var _loadRoom = asset_get_index(global.statData.save_rm);
 	room_goto(_loadRoom);
+	scr_music_fon_change(_loadRoom);
 		obj_loading.SkipRoomSave = true;
 	
 	//create the player object

@@ -16,7 +16,7 @@
     "path": "folders/Sounds/Fon_snd/Night.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_riv_stat_night.wav",
   "type": 0,
   "volume": 0.11,

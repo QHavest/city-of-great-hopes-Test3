@@ -16,7 +16,7 @@
     "path": "folders/Sounds/Player_snd.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_close_dor.wav",
   "type": 0,
   "volume": 0.25,

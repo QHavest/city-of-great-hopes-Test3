@@ -2262,6 +2262,7 @@
     {"id":{"name":"obj_kav_1","path":"objects/obj_kav_1/obj_kav_1.yy",},},
     {"id":{"name":"spr_AfroYvasia_na","path":"sprites/spr_AfroYvasia_na/spr_AfroYvasia_na.yy",},},
     {"id":{"name":"obj_prilavok_fish","path":"objects/obj_prilavok_fish/obj_prilavok_fish.yy",},},
+    {"id":{"name":"setup","path":"notes/setup/setup.yy",},},
     {"id":{"name":"sp_shaurma_eng01","path":"sprites/sp_shaurma_eng01/sp_shaurma_eng01.yy",},},
     {"id":{"name":"seq_restoraunt","path":"sequences/seq_restoraunt/seq_restoraunt.yy",},},
     {"id":{"name":"spr_ic_Security","path":"sprites/spr_ic_Security/spr_ic_Security.yy",},},

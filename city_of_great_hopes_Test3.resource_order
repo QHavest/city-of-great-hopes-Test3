@@ -52,6 +52,7 @@
     {"name":"spr_ic_bibliothekar","order":3,"path":"sprites/spr_ic_bibliothekar/spr_ic_bibliothekar.yy",},
     {"name":"spr_truck_closeds_night","order":1,"path":"sprites/spr_truck_closeds_night/spr_truck_closeds_night.yy",},
     {"name":"spr_balkon_1","order":1,"path":"sprites/spr_balkon_1/spr_balkon_1.yy",},
+    {"name":"setup","order":1,"path":"notes/setup/setup.yy",},
     {"name":"spr_gastroseller_active","order":2,"path":"sprites/spr_gastroseller_active/spr_gastroseller_active.yy",},
     {"name":"spr_bomz_ssuklo","order":7,"path":"sprites/spr_bomz_ssuklo/spr_bomz_ssuklo.yy",},
     {"name":"spr_Petrovuch","order":1,"path":"sprites/spr_Petrovuch/spr_Petrovuch.yy",},

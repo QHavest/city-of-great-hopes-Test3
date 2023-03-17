@@ -8,7 +8,7 @@
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 1,
+  "compression": 3,
   "conversionMode": 0,
   "duration": 0.394667,
   "parent": {
@@ -16,7 +16,7 @@
     "path": "folders/Sounds.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_inventory.wav",
   "type": 0,
   "volume": 0.5,
