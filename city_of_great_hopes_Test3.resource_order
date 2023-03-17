@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_goodbyemoney","order":2,"path":"objects/obj_goodbyemoney/obj_goodbyemoney.yy",},
     {"name":"obj_success","order":1,"path":"objects/obj_success/obj_success.yy",},
   ],
 }

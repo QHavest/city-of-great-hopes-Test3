@@ -22,7 +22,7 @@ target_x = 0;
 target_y = 0;
 
 game_over_mini = false
-
+amount_hp = 279;
 target_rm = room;
 amount_hp_enemy = 96;
 //damage_enemy = 0;

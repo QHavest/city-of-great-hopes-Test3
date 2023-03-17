@@ -1561,6 +1561,7 @@
     {"id":{"name":"spr_menu_backgraund","path":"sprites/spr_menu_backgraund/spr_menu_backgraund.yy",},},
     {"id":{"name":"obj_dumbbell_sport2","path":"objects/obj_dumbbell_sport2/obj_dumbbell_sport2.yy",},},
     {"id":{"name":"spr_swing_south1","path":"sprites/spr_swing_south1/spr_swing_south1.yy",},},
+    {"id":{"name":"obj_goodbyemoney","path":"objects/obj_goodbyemoney/obj_goodbyemoney.yy",},},
     {"id":{"name":"spr_food_shop","path":"sprites/spr_food_shop/spr_food_shop.yy",},},
     {"id":{"name":"obj_swing_south9","path":"objects/obj_swing_south9/obj_swing_south9.yy",},},
     {"id":{"name":"obj_frutes_front","path":"objects/obj_frutes_front/obj_frutes_front.yy",},},
