@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_fish_and_bazaar",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_fish_and_bazaar/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
