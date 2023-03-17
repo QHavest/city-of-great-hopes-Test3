@@ -15,7 +15,7 @@ var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху �
 
 var y_buffer_menu = 56;
 
-var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
+var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)) + 15, start_x = gwidth/2;
 var start_y2 = (gheight/2) - ((((ds_height2-1)/2) * y_buffer))
 
 //Малювання меню паузи
@@ -45,7 +45,7 @@ var c = c_black;
 draw_set_valign(fa_middle);
 draw_set_halign(fa_right);
 
-var ltx = start_x - x_buffer+50, lty; //Розташування на екрані
+var ltx = start_x - x_buffer+60, lty; //Розташування на екрані
 
 
 //draw_set_alpha(0.25);
@@ -78,24 +78,24 @@ switch(menu_pages[page])
 	}
 	
 	break;
-	
 	case ds_settings:
+	var num4 = 20;
 	//show_debug_message(start_y);
 	if(global.LANGUAGE == "ua")
 	{
-		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
-		draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
-		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
-		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-		draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715+num4, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_ukr, 0, ltx+910+num4, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910+num4, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910+num4, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_ukr, 0, ltx+910+num4, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
 	}
 	if(global.LANGUAGE == "eng")
 	{
-		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
-		draw_sprite_ext(spr_audio_eng, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
-		draw_sprite_ext(spr_graphics_eng, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
-		draw_sprite_ext(spr_rezolution_eng, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-		draw_sprite_ext(spr_screen_eng2, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715+num4, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_eng, 0, ltx+910+num4, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_eng, 0, ltx+910+num4, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_eng, 0, ltx+910+num4, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_eng2, 0, ltx+910+num4, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
 	}
 	var yy = 0; repeat (ds_height){
 	

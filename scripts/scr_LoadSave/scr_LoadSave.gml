@@ -128,7 +128,7 @@ function save_game(_fileNum = 0){
 	{
 		exit;
 	}
-	
+	mainTask = global.task;
 	saveHour = current_hour;
 	saveMin = current_minute;
 	
@@ -202,7 +202,6 @@ function load_game(_fileNum = 0){
 	var _loadArray = json_parse(_json);
 	
 	//Встановити дані
-	
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
 	var saveInv = array_create(9);
@@ -212,6 +211,7 @@ function load_game(_fileNum = 0){
 		{
 			saveInv[i] = _saveInv[i];
 		}
+		global.task = mainTask;
 	}
 	
 	with(daycycle)

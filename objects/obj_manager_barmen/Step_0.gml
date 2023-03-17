@@ -1,7 +1,7 @@
 //if(pause == true)
 //{
 //	layer_sequence_pause(seq_rest_bar);
-//	if(instance_exists(obj_dim_textbox))
+//	if(instance_exists(obj_dim_textbox_gui))
 //	{
 //		exit;
 //	}

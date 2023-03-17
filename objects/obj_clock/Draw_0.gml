@@ -9,7 +9,7 @@ with(daycycle)
 	a = true;
 }
 
-if(instance_exists(obj_dim_textbox)) a = true;
+if(instance_exists(obj_dim_textbox_gui)) a = true;
 
 if(a == true) exit;
 

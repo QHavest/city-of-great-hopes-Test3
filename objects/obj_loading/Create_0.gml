@@ -9,7 +9,7 @@ saveMonth = 0;
 hours2 = 0;
 minutes2 = 0;
 sekonds2 = 0;
-
+mainTask = 0;
 //місце для збережння статусу (здоров'я і т.д)
 global.statData =
 

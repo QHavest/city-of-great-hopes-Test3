@@ -1,16 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_trigger",
+  "name": "obj_manager_TK",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":76,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "scena 5",
-    "path": "folders/Story/Cutscenes/scena 5.yy",
+    "name": "Objects",
+    "path": "folders/Story/Cutscenes/Tru Kalunku/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,5 +32,5 @@
   "solid": false,
   "spriteId": null,
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

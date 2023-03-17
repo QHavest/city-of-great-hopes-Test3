@@ -35,7 +35,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e7278e4a-05da-4f5d-8bb1-8fa6ef57c429","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "NPC",
     "path": "folders/Sprites/Rival Station/NPC.yy",
@@ -83,7 +83,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 20,
+    "xorigin": 21,
     "yorigin": 60,
   },
   "swatchColours": null,

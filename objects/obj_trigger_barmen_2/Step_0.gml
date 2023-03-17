@@ -1,7 +1,7 @@
 //if(pause == true)
 //{
 //	global.shop = 1;
-//	if(instance_exists(obj_dim_textbox))
+//	if(instance_exists(obj_dim_textbox_gui))
 //	{
 //		exit;
 //	}

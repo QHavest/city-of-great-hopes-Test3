@@ -1,7 +1,7 @@
 if(pause == true)
 {
   layer_sequence_pause(_seqElms);
-  if(instance_exists(obj_dim_textbox))
+  if(instance_exists(obj_dim_textbox_gui))
   {
     exit;
   }

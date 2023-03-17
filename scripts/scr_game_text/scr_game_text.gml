@@ -314,6 +314,7 @@ case "Boss":
 		scr_option(scr_json_lang(global.LANGUAGE,"Boss3"),"4")
 	break
 		case "1_yes_kal":
+		global.boss = true;
 	scr_text (scr_json_lang(global.LANGUAGE,"Boss4"),2,spr_ic_Krus,spr_ic_boss);
 	scr_text (scr_json_lang(global.LANGUAGE,"Boss5"),2,spr_ic_Krus,spr_ic_boss);
 	scr_text (scr_json_lang(global.LANGUAGE,"Boss6"),2,spr_ic_Krus,spr_ic_boss);

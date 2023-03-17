@@ -41,7 +41,7 @@ if event_data [? "event_type"] == "sequence event"
     //break;
     
     case "pause":
-    instance_destroy(obj_dim_textbox);
+    instance_destroy(obj_dim_textbox_gui);
     break;
     
     case "Ytopur":

@@ -1,5 +1,6 @@
 if(bus == true and start == true and global.map == false)
 {
+	bus = 0;
 	start = false;
 	show_debug_message("Bus is ready and start = " + string(start));
 	layer_create(-9999, "Cutcenes");
@@ -27,7 +28,7 @@ if(start3 == true and global.map == false)
 	var layerName = "Cutcenes";
 	//var seqName = seq_bus;
 	instance_create_layer(busX, busY, "Cutcenes", obj_bus_stay);
-	seq_buses2 = layer_sequence_create(layerName, busX, busY, seq_bus2);
+	seq_buses = layer_sequence_create(layerName, busX, busY, seq_bus2);
 	start2 = true;
 	//layer_sequence_play(seq_buses2);
 	start3 = false;
@@ -54,7 +55,7 @@ switch(room)
 	
 	case rm_home_gg:
 		busX = 357;
-		busY = 265;
+		busY = 273;
 		bus = 1;
 		
 		//if(mp_open)
@@ -72,3 +73,5 @@ switch(room)
 		bus = 0;
 	break;
 }
+
+if(number) {seq_buses = seq_bus;}

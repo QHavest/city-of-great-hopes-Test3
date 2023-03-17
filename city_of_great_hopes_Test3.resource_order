@@ -1,4 +1,26 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Day_night","order":11,"path":"folders/Scripts/Day_night.yy",},
+    {"name":"Players_obj","order":13,"path":"folders/Scripts/Players_obj.yy",},
+    {"name":"State","order":12,"path":"folders/Scripts/State.yy",},
+    {"name":"Tru Kalunku","order":1,"path":"folders/Story/Cutscenes/Tru Kalunku.yy",},
+    {"name":"Objects","order":2,"path":"folders/Story/Cutscenes/Tru Kalunku/Objects.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Story/Cutscenes/Tru Kalunku/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"scr_dim_animation_end","order":10,"path":"scripts/scr_dim_animation_end/scr_dim_animation_end.yy",},
+    {"name":"scr_warp_door_to_another_room","order":9,"path":"scripts/scr_warp_door_to_another_room/scr_warp_door_to_another_room.yy",},
+    {"name":"updatelayer","order":8,"path":"scripts/updatelayer/updatelayer.yy",},
+    {"name":"scr_centering","order":7,"path":"scripts/scr_centering/scr_centering.yy",},
+    {"name":"scr_rooms_variables","order":6,"path":"scripts/scr_rooms_variables/scr_rooms_variables.yy",},
+    {"name":"spr_Krus_scenaTK","order":1,"path":"sprites/spr_Krus_scenaTK/spr_Krus_scenaTK.yy",},
+    {"name":"scr_dim_damage","order":5,"path":"scripts/scr_dim_damage/scr_dim_damage.yy",},
+    {"name":"scr_seq_play","order":4,"path":"scripts/scr_seq_play/scr_seq_play.yy",},
+    {"name":"macros","order":3,"path":"scripts/macros/macros.yy",},
+    {"name":"no_run_in_room","order":2,"path":"scripts/no_run_in_room/no_run_in_room.yy",},
+    {"name":"obj_Krus_scenaTK","order":1,"path":"objects/obj_Krus_scenaTK/obj_Krus_scenaTK.yy",},
+    {"name":"scr_woi_door_to_another_room","order":1,"path":"scripts/scr_woi_door_to_another_room/scr_woi_door_to_another_room.yy",},
+    {"name":"seq_tru_kalunku","order":3,"path":"sequences/seq_tru_kalunku/seq_tru_kalunku.yy",},
+    {"name":"obj_manager_TK","order":2,"path":"objects/obj_manager_TK/obj_manager_TK.yy",},
+  ],
 }

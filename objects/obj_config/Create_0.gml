@@ -11,3 +11,4 @@ global.LANGUAGE = "eng";
 global.sequence = 0;
 global.task = 0;
 global.noRest = 0;
+global.boss = 0;

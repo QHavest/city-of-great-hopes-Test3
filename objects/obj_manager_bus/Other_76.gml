@@ -4,23 +4,23 @@ if event_data [? "event_type"] == "sequence event"
 {
   switch (event_data[? "message"])
   {
-	case "start2":
+	case "start_bus":
 		//layer_sequence_pause(seq_buses2);
 		instance_destroy(obj_bus_stay);
     break;
 
-    case "destroy_bus":
+    case "delete_bus":
 		layer_sequence_destroy(seq_bus);
 		layer_destroy("Cutcenes");
 		//start = true;
 		show_debug_message("destroy");
+		number = 1;
+		bus = 1;
     break;
 
     case "mp_open":
 	if (instance_exists(obj_mp_open)){obj_mp_open.start = true;}
-		//mp_open = 1;
-		//if room==rm_street_container instance_activate_object(inst_3011B2F9);
-		//else instance_activate_object(inst_3011B2F9);
+
     break;
 	
     case "mp_close":

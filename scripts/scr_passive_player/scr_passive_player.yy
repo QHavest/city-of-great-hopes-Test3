@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Players_obj",
-    "path": "folders/Players_obj.yy",
+    "path": "folders/Scripts/Players_obj.yy",
   },
 }

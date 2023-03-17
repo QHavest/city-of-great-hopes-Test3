@@ -15,16 +15,13 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "mp_open",
-            ],},},"Disabled":false,"id":"a0071259-402e-49d6-a029-f9bf7eb05515","IsCreationKey":false,"Key":239.0,"Length":1.0,"Stretch":false,},
-      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "pause",
-            ],},},"Disabled":false,"id":"c06119a6-e7de-4a1c-8a29-ad0886cd2ff6","IsCreationKey":false,"Key":276.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"a1329f5b-c3b8-4301-b24e-91c5d8ae2d72","IsCreationKey":false,"Key":239.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "mp_close",
-            ],},},"Disabled":false,"id":"651ed01e-82e3-4c51-8f99-58439b72e195","IsCreationKey":false,"Key":617.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"2d8ae560-5d38-461a-82d6-54be3187a159","IsCreationKey":false,"Key":617.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "destroy_bus",
-            ],},},"Disabled":false,"id":"2fc931e7-b06d-40d7-83f0-71c4a26298eb","IsCreationKey":false,"Key":813.0,"Length":1.0,"Stretch":false,},
+              "delete_bus",
+            ],},},"Disabled":false,"id":"b42295fb-1641-47cf-b676-3abb9c594577","IsCreationKey":false,"Key":813.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

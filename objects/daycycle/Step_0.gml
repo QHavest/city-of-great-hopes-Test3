@@ -98,7 +98,7 @@ if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 
 #region day_night
 
-//if(instance_exists(obj_dim_textbox) or global.shop == true) time_pause = true;
+//if(instance_exists(obj_dim_textbox_gui) or global.shop == true) time_pause = true;
 //else time_pause = false;
 
 /*if(global.shop) time_pause = true;
