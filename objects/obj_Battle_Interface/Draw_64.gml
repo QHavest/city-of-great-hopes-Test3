@@ -81,6 +81,11 @@ if(battle_start = true){
 		break;
 	}
 	
+	} else if (mini_game == false){
+		//if (pay < global.money){
+		draw_set_font(font_azariya_textbox)
+		draw_text_ext(gui_W/1.233, gui_H/1.80,("   Money   "+string(global.money)), stringHeight_torchky, 238);
+		/*} /*else {draw_text_ext(gui_W/1.233, gui_H/1.80,("   Money  kjhkg "), stringHeight_torchky, 238);}*/
 	}
 	///////////////Діалоги
 	if(BDialogue = true){

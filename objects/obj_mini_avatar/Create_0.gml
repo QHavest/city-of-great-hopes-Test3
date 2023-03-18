@@ -30,7 +30,7 @@ amount_hp_enemy = 96;
 	//damage = 0;
 	damage_enemy = 0;
 
-amount_hp = 279;
+//amount_hp = 279;
 //light_bi = 0;
 power_hit = 0;
 ////Гопніки

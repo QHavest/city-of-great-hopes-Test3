@@ -22,7 +22,7 @@ target_x = 0;
 target_y = 0;
 
 game_over_mini = false
-
+amount_hp = 279;
 target_rm = room;
 amount_hp_enemy = 96;
 //damage_enemy = 0;
@@ -63,7 +63,7 @@ button[3] = "D";
 button[4] = "D";
 
 //ДІАЛОГИ
-
+pay = 10;
 //text_torchky = "Натисніть “W” або “Стрілочка вгору”, щоб почати бійку. Ухиляйтеся від шприців за допомогою відштовхування в повітрі на кнопку “W” або “Стрілочка вгору”."
 st_text_torchky = "Press 'W' or 'Arrow UP' to start a fight. Dodge syringes flapping between them."
 stringHeight_torchky = string_height(st_text_torchky);
