@@ -1,11 +1,7 @@
-if  ((place_meeting(x, y, obj_dim_player1) or place_meeting(x, y, obj_dim_player2)) and global.dialog_end)
-{
-	drowings = true;
-}
-else drowings = false;
+
 
 //запуск переіщення
-	if keyboard_check_pressed(ord("E")) and global.dialog_end and !global.shop  and  drowings = true
+/*	if keyboard_check_pressed(ord("E")) and !global.shop  and  drowings = true
 	{
 		global.text_id=text_id;
 		drowings = false;
@@ -18,3 +14,4 @@ else drowings = false;
 		obj_dim_player2.napriam=n2;
 		global.zaniatui = true;
 	}
+	*/

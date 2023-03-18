@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-//запуск анімацію коли ГГ приходить у щадану координату
+/// @desc
+//запуск анімацію коли ГГ приходить у задану координату
 with (obj_dim_player1){
 	//новий глобал для відмежування діалогу (dialog end трохи не там змінюється)
 if in_place and start =0 and global.zaniatui = false

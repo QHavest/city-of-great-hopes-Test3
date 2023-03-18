@@ -4,7 +4,7 @@ shopOpen = false; // цеймагазин відкритий?
 
 selected = 0;
 notselected = 0;
-global.item_bought = false;
+item_bought = false;
 
 //items to buy
 if(global.LANGUAGE = "ua"){
