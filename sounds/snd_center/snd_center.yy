@@ -16,7 +16,7 @@
     "path": "folders/Sounds/Fon_snd/Day.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_center.mp3",
   "type": 0,
   "volume": 0.1,

@@ -11,17 +11,16 @@ function scr_game_text(_text_id){
 // text test
 #region (Cherka)
 case "Cherka":
-randomise();
-	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),2,spr_ic_Krus,spr_ic_cher);
-	scr_text(scr_json_lang(global.LANGUAGE,"Cherka1"),1,spr_ic_Krus,spr_ic_cher);
-	scr_text(scr_json_lang(global.LANGUAGE,"Cherka2"),2,spr_ic_Krus,spr_ic_cher);
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka0"),1,spr_ic_cher,spr_ic_Krus_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka1"),2,spr_ic_cher,spr_ic_Krus_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Cherka2"),1,spr_ic_cher,spr_ic_Krus_l);
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka3"),"give_money_cher");
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
 		scr_option(scr_json_lang(global.LANGUAGE,"Cherka55"),"4");
 break
 		case "give_money_cher":
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka6"),2,spr_ic_Krus,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka6"),1,spr_ic_cher,spr_ic_Krus_l);
 			scr_option(scr_json_lang(global.LANGUAGE,"Cherka3"),"give_money_cher");
 			scr_option(scr_json_lang(global.LANGUAGE,"Cherka4"),"move_sholder_cher");
 			scr_option(scr_json_lang(global.LANGUAGE,"Cherka5"),"hit_cher1");
@@ -32,14 +31,14 @@ break
 		if global.cher_quest = 0
 		{
 			obj_globals.hit_cher = 1;
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),2,spr_ic_Krus,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka7"),1,spr_ic_cher,spr_ic_Krus_l);
 		scr_text(" ",0,spr_ic_Krus,spr_ic_Ytopurok_l);	
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),1,spr_ic_Krus,spr_ic_cher);	
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka8"),2,spr_ic_cher,spr_ic_Krus_l);	
 			if (obj_globals.hit_cher=0 and global.certificate >0) 
 			{
-				scr_text(scr_json_lang(global.LANGUAGE,"Cherka88"),1,spr_ic_Krus,spr_ic_cher);	
-				scr_text(scr_json_lang(global.LANGUAGE,"Cherka9"),2,spr_ic_Krus,spr_ic_cher);
-				scr_text(scr_json_lang(global.LANGUAGE,"Cherka10"),1,spr_ic_Krus,spr_ic_cher);
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka88"),2,spr_ic_cher,spr_ic_Krus_l);	
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka9"),1,spr_ic_cher,spr_ic_Krus_l);
+				scr_text(scr_json_lang(global.LANGUAGE,"Cherka10"),2,spr_ic_cher,spr_ic_Krus_l);
 	//	scr_text(scr_json_lang(global.LANGUAGE,"Cherka11"),2,spr_ic_Krus,spr_ic_cher);
 
 	//		scr_option(scr_json_lang(global.LANGUAGE,"Cherka12"),"yes_siga_cher");
@@ -60,22 +59,22 @@ break
 			case "yes_siga_cher":
 			
 			// if siga>=300 and 
-			scr_text(scr_json_lang(global.LANGUAGE,"Cherka13"),2,spr_ic_Krus,spr_ic_cher);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka13"),1,spr_ic_cher,spr_ic_Krus_l);
 			// -300 сигарет Біля Черки зявляється зв’язка сигарет.
-			scr_text(scr_json_lang(global.LANGUAGE,"Cherka14"),2,spr_ic_Krus,spr_ic_cher);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka14"),1,spr_ic_cher,spr_ic_Krus_l);
 			
 			// +11 сертифікатів Черки Григоровича.
-			scr_text(scr_json_lang(global.LANGUAGE,"Cherka15"),2,spr_ic_Krus,spr_ic_cher);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka15"),1,spr_ic_cher,spr_ic_Krus_l);
 			break
 		
 			case "no_siga_cher":
-			scr_text(scr_json_lang(global.LANGUAGE,"Cherka17"),1,spr_ic_Krus,spr_ic_cher);
-			scr_text(scr_json_lang(global.LANGUAGE,"Cherka18"),2,spr_ic_Krus,spr_ic_cher);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka17"),2,spr_ic_cher,spr_ic_Krus_l);
+			scr_text(scr_json_lang(global.LANGUAGE,"Cherka18"),1,spr_ic_cher,spr_ic_Krus_l);
 			break
 		
 		case "hit_cher2":// перша глава
 		obj_globals.hit_cher +=1;
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka20"),1,spr_ic_cher,spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka20"),2,spr_ic_cher,spr_ic_Security);
 		// Мусор ком ін
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka21"),2,spr_ic_Ytopurok,spr_ic_Security);
 			scr_option(scr_json_lang(global.LANGUAGE,"Cherka22"),"fight_cher");
@@ -86,16 +85,16 @@ break
 		obj_globals.hit_cher +=1;
 		switch(irandom_range(1,3)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka101"),2,spr_ic_Ytopurok,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka101"),1,spr_ic_cher,spr_ic_Ytopurok_l);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka102"),2,spr_ic_Ytopurok,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka102"),1,spr_ic_cher,spr_ic_Ytopurok_l);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Cherka103"),2,spr_ic_Ytopurok,spr_ic_cher);
+		scr_text(scr_json_lang(global.LANGUAGE,"Cherka103"),1,spr_ic_cher,spr_ic_Ytopurok_l);
 			break}
 		//скрипт випадковості
-		if obj_globals.hit_cher >=2{ // фрази мєнта
+	/*	if obj_globals.hit_cher >=2{ // фрази мєнта
 		switch(irandom_range(1,3)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka25"),2,spr_ic_Ytopurok,spr_ic_Security);
@@ -105,10 +104,11 @@ break
 			break
 			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Cherka27"),2,spr_ic_Ytopurok,spr_ic_Security);
-			break}}
+			break}}*/
 				scr_option(scr_json_lang(global.LANGUAGE,"Cherka29"),"4");
-				if obj_globals.hit_cher =3 scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher3");
-				else scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher1");
+			//	if obj_globals.hit_cher =3 scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher3");
+				//else
+				scr_option(scr_json_lang(global.LANGUAGE,"Cherka30"),"hit_cher1");
 			break
 			
 			case "hit_cher3":
@@ -211,18 +211,18 @@ for (var i = 0; i < 11; i++){
 case "Vasia":
 if global.zn_Yvasia_na=0{
 	global.zn_Yvasia_na=1;
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia1"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia2"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia3"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia4"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia5"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia6"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia7"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia8"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia9"),1,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);}
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia1"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia2"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia3"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia4"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia5"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia6"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia7"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia8"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia9"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);}
 else
-scr_text(scr_json_lang(global.LANGUAGE,"Vasia11"),2,spr_ic_Ytopurok,spr_ic_afroYvasia_na);
+scr_text(scr_json_lang(global.LANGUAGE,"Vasia11"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
 break
 #endregion
 #region (Gogi)
@@ -583,8 +583,8 @@ scr_text (scr_json_lang(global.LANGUAGE,"Taranrino5"),1,spr_ic_Ytopurok,spr_ic_T
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino6"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino7"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino8"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
-scr_text (scr_json_lang(global.LANGUAGE,"Taranrino9"),1,spr_ic_Krus,spr_ic_Tarantino);
-scr_text (scr_json_lang(global.LANGUAGE,"Taranrino10"),2,spr_ic_Krus,spr_ic_Tarantino);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino9"),2,spr_ic_Tarantino,spr_ic_Krus);
+scr_text (scr_json_lang(global.LANGUAGE,"Taranrino10"),1,spr_ic_Tarantino,spr_ic_Krus);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino11"),1,spr_ic_Ytopurok,spr_ic_Tarantino);
 scr_text (scr_json_lang(global.LANGUAGE,"Taranrino12"),2,spr_ic_Ytopurok,spr_ic_Tarantino);
 }
@@ -808,7 +808,7 @@ scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller5"),1,spr_ic_Krus,spr_ic_sell
 break
 #endregion
 case "Muter with boi":
-scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,argument[2],spr_ic_Mama_sun);
+scr_text(scr_json_lang(global.LANGUAGE,"Muter with boi"),2,spr_ic_mama,argument[1]);
 break
 // жителі
 #region (Zinki) ins
@@ -958,9 +958,9 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),1,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),2,spr_ic_Ytopurok,spr_ic_stiopa_tyshonka,obj_fishery);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),2,spr_ic_Krus,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok,obj_fishery);
 	//scr_option("","By_Stiopa");
 	//break
 //	case "By_Stiopa":
@@ -1040,19 +1040,19 @@ break
 case"Muter_with_childcar":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,argument[2],spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,argument[2],spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar1"),2,argument[1],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar2"),2,argument[1],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar3"),2,argument[1],spr_ic_mama_kolyaska);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar4"),2,argument[1],spr_ic_mama_kolyaska);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,argument[2],spr_ic_mama_kolyaska);
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar5"),2,argument[1],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar6"),2,argument[1],spr_ic_mama_kolyaska);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,argument[2],spr_ic_mama_kolyaska);
+		scr_text(scr_json_lang(global.LANGUAGE,"Muter_with_childcar7"),2,argument[1],spr_ic_mama_kolyaska);
 			break
 
 }	
@@ -1077,16 +1077,16 @@ break
 #endregion
 #region (Babyli) ins
 case"Babyli":
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,spr_ic_Krus,argument[1]);
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,argument[1],argument[2]);
 switch(irandom_range(1,2)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,argument[1],argument[2]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,spr_ic_Krus,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[1],argument[2]);
 			break
 }	
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,spr_ic_Krus,argument[1]);
+scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,argument[1],argument[2]);
 break
 #endregion
 
@@ -1174,16 +1174,16 @@ break
 case"Didu":
 switch(choose(1,2,3,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,argument[2],spr_ic_Spurodon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,spr_ic_Spurodon,argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,argument[2],spr_ic_Petrovuch);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,spr_ic_Petrovuch,argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,argument[2],spr_ic_Spurodon);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,spr_ic_Spurodon,argument[1]);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,argument[2],spr_ic_Petrovuch);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,spr_ic_Petrovuch,argument[1]);
 			break
 }	
 break

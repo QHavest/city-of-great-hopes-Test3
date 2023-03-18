@@ -39,6 +39,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 				global.ds_inventory[# 0, i] = item_num;
 				global.money -= price;
 				item_bought = 1;
+				global.certificate+=1;
 				audio_play_sound(snd_op_accept,5,0,global.System_gain)
 				break;
 		}

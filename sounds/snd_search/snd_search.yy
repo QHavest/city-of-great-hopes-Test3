@@ -8,7 +8,7 @@
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 0,
+  "compression": 1,
   "conversionMode": 0,
   "duration": 0.152948,
   "parent": {
@@ -16,7 +16,7 @@
     "path": "folders/Dialogs/Sounds.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_search.wav",
   "type": 0,
   "volume": 0.15,

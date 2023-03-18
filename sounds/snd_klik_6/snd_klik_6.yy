@@ -16,7 +16,7 @@
     "path": "folders/Dialogs/Sounds.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "snd_klik_6.wav",
   "type": 0,
   "volume": 0.05,

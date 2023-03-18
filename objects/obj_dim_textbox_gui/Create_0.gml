@@ -57,5 +57,5 @@ char_y[0,0] =0;
 snd_count=4;
 snd_delay = 4;
 
-
+scr_setup()
 scr_set_defaults_for_text()
