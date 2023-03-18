@@ -364,9 +364,42 @@ if(system = 2) {
 	} 
 	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
 		//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
-		
+		if (pay < global.money){
 		instance_destroy(obj_wait);
 		instance_create_depth(490,570,-600,obj_goodbyemoney)
+		} else 
+			{
+				mini_game = true;
+				games = true;
+				phase_battle = PHASES.Atack;
+				//aliens = ALIES.Ytopurok_mini;
+				instance_destroy(obj_wait);
+				if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+					obj_ytopur_battle.image_index = 0;
+					obj_ytopur_battle.phasese = PHASESE.Battle;
+					}
+				aliens = ALIES.Noone;
+				obj_krus_battle.image_index = 0;
+				obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
+					if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
+						obj_enemy1_battle.image_index = 0;
+						obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+						obj_enemy2_battle.image_index = 0;
+						obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+						obj_enemy3_battle.image_index = 0;
+						obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
+						} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+							obj_enemy1_battle.image_index = 0;
+							obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+							obj_enemy2_battle.image_index = 0;
+							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+							}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
+							obj_enemy2_battle.image_index = 0;
+							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+								}
+				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+		        system = 0;
+			}
 	} 
 	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
 		system = 0;
