@@ -3,10 +3,10 @@ draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
 
 // Якщо текстово поле пусте, то текст бокс не виводиться і діалог закінчується
-if string_length(text[page]) == 0 
+if string_length(text[page]) == 0 and please_shop_open!=1
 {
 	global.dialog_end = 1;
-	global.dialogue_move = false;
+	//global.dialogue_move = false;
 	global.zaniatui = false;
 	//instance_destroy(obj_pauser);
 	instance_destroy();
@@ -207,10 +207,14 @@ if snd_count < snd_delay{
 			}
 			else {
 				global.dialog_end = 1;
-				global.dialogue_move = false;
-				global.zaniatui = false;
+				
 				if please_shop_open=1 	scr_shop_open(shop_name);
+				else {
+				global.zaniatui = false;
+				//global.dialogue_move = false;
+				}
 			}
+			
 			//instance_destroy(obj_pauser);
 			instance_destroy();}
 		}	
