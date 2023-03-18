@@ -11,17 +11,8 @@ if(battle_start = true){
 			draw_sprite_part(hp_hopnik_empty, 0, 0, 0,96, 16, gui_W/2.7068, gui_H/4.512);
 			draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068,gui_H/4.512);
 			} else {
-				var xu = gui_W/2.7068;
-				var yu = gui_H/4.512;
-
-				// Встановлюємо швидкість руху спрайту
-				var speedu = 20;
-
-				// Оновлюємо позицію спрайту
-				yu -= speedu;
-				draw_sprite_part(hp_hopnik_empty, 0, 0, 0,96, 16, xu, motion_set(1,5));
-				
-			draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068,lerp(gui_H/4.512,gui_H/4.512+7.312,0.1));}
+				draw_sprite_part(hp_hopnik_empty, 0, 0, 0,96, 16,	gui_W/2.7068, gui_H/7.312);
+			draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068,gui_H/7.312);}
 			draw_sprite_part(hp_hopnik_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
 			draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
 				if (amount_hp_enemy <= 0)
@@ -129,12 +120,12 @@ if(battle_start = true){
 		break;
 		case ENEMY.Sectants:
 		if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-			draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/2.2268, gui_H/7.312);
-			draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/7.312);
+			draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/2.2268,gui_H/4.612);
+			draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2268, gui_H/4.612);
 			draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/2.7068, gui_H/7.312);
 			draw_sprite_part(hp_sects_full, 0, 0, 0,96, 16, gui_W/2.7068, gui_H/7.312);
-			draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
-			draw_sprite_part(hp_sects_full, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
+			draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/4.612);
+			draw_sprite_part(hp_sects_full, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/4.612);
 				if (amount_hp_enemy <= 0)
 				{
 					obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat
@@ -144,8 +135,8 @@ if(battle_start = true){
 			} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
 					draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/2.7068, gui_H/7.312);
 					draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.7068, gui_H/7.312);
-					draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
-					draw_sprite_part(hp_sects_full, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
+					draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/4.612);
+					draw_sprite_part(hp_sects_full, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/4.612);
 					if (amount_hp_enemy <= 0)
 						{
 						obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat
@@ -153,8 +144,8 @@ if(battle_start = true){
 						amount_hp_enemy = 0.1;
 						}
 					}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-					draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/7.312);
-					draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/7.312);
+					draw_sprite_part(hp_sects_empty, 0, 0, 0,96, 16, gui_W/3.3968, gui_H/4.612);
+					draw_sprite_part(hp_sects_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/3.3968, gui_H/4.612);
 						if (amount_hp_enemy <= 0)
 							{
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
