@@ -7,6 +7,7 @@ lastmove = 0;
 s_walk = snd_walk;
 InRoomMode = false;
 
+
 xsd = 0;
 ysd = 0;
 // спрайти для покупок
