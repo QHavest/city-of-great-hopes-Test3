@@ -9,6 +9,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		obj_Battle_Interface.amount_hp = 279;
 		obj_Battle_Interface.game_over_mini = false;
 		obj_Battle_Interface.mini_game = true
+		obj_Battle_Interface.hp_enemies = false;
 		obj_Battle_Interface.games = false
 		obj_Battle_Interface.hpKrys = 50;
 		obj_Battle_Interface.hpYtopyrok = 50;

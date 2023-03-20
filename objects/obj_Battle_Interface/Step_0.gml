@@ -98,6 +98,7 @@ if (mini_game == true){
 	
 }
 if (mini_game = true and games = false and battle_start = true and keyboard_check_released(ord("W"))){
+			hp_enemies = true;//включення хп полосок ворогів
 			games = true;
 			obj_ytopur_battle.image_index = 0;
 			obj_ytopur_battle.image_speed = 0;
@@ -116,7 +117,7 @@ if (mini_game = true and games = false and battle_start = true and keyboard_chec
 			obj_enemy3_battle.image_speed = 0;
 			obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
 			aliens = ALIES.Noone;
-			instance_create_depth(490,570,-600,obj_screen_gamestart)
+			instance_create_depth(466,570,-600,obj_screen_gamestart)
 		}
 if(alarm[2] > 150) exit;
 /*if (battle_start = true){
@@ -158,7 +159,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 				show_debug_message("test 1 vasriant");
 			        //draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
 				instance_destroy(obj_wait);
-				instance_create_depth(490,570,-600,obj_success);
+				instance_create_depth(466,570,-600,obj_success);
 				instance_destroy(obj_shprutz_dow1);
 				instance_destroy(obj_shprutz_up1);
 				instance_deactivate_object(obj_mini_avatar);
@@ -196,7 +197,7 @@ if(system == 0 and mini_game == false and BDialogue == false){
 							obj_enemy2_battle.image_index = 0;
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
 								}
-				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+				instance_create_depth(466,570,-600,obj_screen_gamestart)	
 		        break;
 		}
 	} 
@@ -270,29 +271,29 @@ if(system = 1) {
 					case ENEMY.Narkomany :
 					aliens = ALIES.Noone;
 					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Kavkazci :
 					aliens = ALIES.Noone;
 				//	obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Sectants :
 					aliens = ALIES.Noone;
 					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Hopniki :
 					aliens = ALIES.Noone;
 					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					}
 			break;
 			case PHASES.Defence:
 				
 				aliens = ALIES.Ytopurok_mini;
-				instance_create_depth(490,570,-600,obj_screen_gamestart)
+				instance_create_depth(466,570,-600,obj_screen_gamestart)
 			break;
 			}
 		system = 0;
@@ -312,25 +313,25 @@ if(system = 1) {
 				switch(enemies){
 					case ENEMY.Narkomany :
 					aliens = ALIES.Noone;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Kavkazci :
 					aliens = ALIES.Noone;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Sectants :
 					aliens = ALIES.Noone;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					case ENEMY.Hopniki :
 					aliens = ALIES.Noone;
-					instance_create_depth(490,570,-600,obj_screen_gamestart)	
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
 					break;
 					}
 			break;
 			case PHASES.Defence:
 				aliens = ALIES.Krus_mini;
-				instance_create_depth(490,570,-600,obj_screen_gamestart)
+				instance_create_depth(466,570,-600,obj_screen_gamestart)
 			break;
 			}
 		
@@ -366,7 +367,7 @@ if(system = 2) {
 		//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
 		if (pay < global.money){
 		instance_destroy(obj_wait);
-		instance_create_depth(490,570,-600,obj_goodbyemoney)
+		instance_create_depth(466,570,-600,obj_goodbyemoney)
 		} else 
 			{
 				mini_game = true;
@@ -397,7 +398,7 @@ if(system = 2) {
 							obj_enemy2_battle.image_index = 0;
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
 								}
-				instance_create_depth(490,570,-600,obj_screen_gamestart)	
+				instance_create_depth(466,570,-600,obj_screen_gamestart)	
 		        system = 0;
 			}
 	} 

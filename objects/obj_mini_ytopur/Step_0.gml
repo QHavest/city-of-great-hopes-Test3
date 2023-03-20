@@ -130,21 +130,21 @@
 
 	if (keyboard_check_pressed(vk_down) and hits_grusha_down = true) {
 	obj_grusha_sml_down.idx = 0;
-	instance_create_depth(1025, 900,-300,obj_score_ytopur);
+	instance_create_depth(1015, 900,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
 	obj_mini_avatar.damage_enemy = 5;
 	hits_grusha_down = false;
 	power_hit += 5;
 	} else if(keyboard_check_pressed(vk_down) and hits_grusha_down = false and !instance_exists(obj_score_ytopur)){
 	obj_grusha_sml_down.idx = 0;
-	instance_create_depth(1025, 900,-300,obj_score_min_ytopur);
+	instance_create_depth(1015, 900,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
 	power_hit -= 1;
 	}
 	
 	if (keyboard_check_pressed(vk_up) and hits_grusha_up = true){
 	obj_grusha_sml_up.idx = 0;
-	instance_create_depth(1025, 595,-300,obj_score_ytopur);
+	instance_create_depth(1005, 595,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
 	obj_mini_avatar.damage_enemy = 5;
 	hits_grusha_up = false;
@@ -152,14 +152,14 @@
 	} else if(keyboard_check_pressed(vk_up) and hits_grusha_up = false and !instance_exists(obj_score_ytopur)){
 	power_hit -= 1;
 	obj_grusha_sml_up.idx = 0;
-	instance_create_depth(1025, 595,-300,obj_score_min_ytopur);
+	instance_create_depth(1005, 595,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
 	}
 	
 	
 	if (keyboard_check_pressed(vk_right) and hits_grusha_right = true){
 	obj_grusha_right.idx = 0;
-	instance_create_depth(1190, 750,-300,obj_score_ytopur);
+	instance_create_depth(1170, 750,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
 	obj_mini_avatar.damage_enemy = 5;
 	hits_grusha_right = false;
@@ -167,14 +167,14 @@
 	} else if(keyboard_check_pressed(vk_right) and hits_grusha_right = false and !instance_exists(obj_score_ytopur)){
 	power_hit -= 1;
 	obj_grusha_right.idx = 0;
-	instance_create_depth(1190, 750,-300,obj_score_min_ytopur);
+	instance_create_depth(1170, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
 	}
 	
 	
 	if (keyboard_check_pressed(vk_left) and hits_grusha_left = true){
 	obj_grusha_left.idx = 0;
-	instance_create_depth(675, 750,-300,obj_score_ytopur);
+	instance_create_depth(655, 750,-300,obj_score_ytopur);
 	obj_score_ytopur.idxx = 0;
 	obj_mini_avatar.damage_enemy = 5;
 	hits_grusha_left = false;
@@ -182,7 +182,7 @@
 	}else if(keyboard_check_pressed(vk_left) and hits_grusha_left = false and !instance_exists(obj_score_ytopur)){
 	power_hit -= 1;
 	obj_grusha_left.idx = 0;
-	instance_create_depth(675, 750,-300,obj_score_min_ytopur);
+	instance_create_depth(655, 750,-300,obj_score_min_ytopur);
 	obj_score_min_ytopur.idxx = 0;
 	}
 

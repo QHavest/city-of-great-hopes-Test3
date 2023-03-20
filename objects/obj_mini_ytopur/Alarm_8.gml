@@ -1,4 +1,4 @@
-instance_create_depth(490,570,-600,obj_wait);
+instance_create_depth(466,570,-600,obj_wait);
 instance_destroy(obj_mini_ytopur);
 instance_destroy(obj_grusha_sml_up);
 instance_destroy(obj_grusha_sml_down);

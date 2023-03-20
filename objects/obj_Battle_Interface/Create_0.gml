@@ -26,6 +26,7 @@ amount_hp = 279;
 target_rm = room;
 amount_hp_enemy = 96;
 //damage_enemy = 0;
+hp_enemies = false;
 
 alarm[10] = 60;
 enemies = ENEMY.Noname;

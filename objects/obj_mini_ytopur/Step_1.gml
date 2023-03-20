@@ -1,9 +1,9 @@
-if (!instance_exists(obj_grusha_sml_up)){instance_create_depth(941.5,577,-300,obj_grusha_sml_up);}
-if (!instance_exists(obj_grusha_sml_down)){instance_create_depth(941.5,887,-300,obj_grusha_sml_down);}
-if (!instance_exists(obj_grusha_right)){instance_create_depth(1101,661,-300,obj_grusha_right);}
-if (!instance_exists(obj_grusha_left)){instance_create_depth(782,661,-300,obj_grusha_left);}
+if (!instance_exists(obj_grusha_sml_up)){instance_create_depth(921.5,577,-300,obj_grusha_sml_up);}
+if (!instance_exists(obj_grusha_sml_down)){instance_create_depth(921.5,887,-300,obj_grusha_sml_down);}
+if (!instance_exists(obj_grusha_right)){instance_create_depth(1081,661,-300,obj_grusha_right);}
+if (!instance_exists(obj_grusha_left)){instance_create_depth(762,661,-300,obj_grusha_left);}
 //Трикутні кнопки 
-if (!instance_exists(obj_romb_up)){instance_create_depth(938.5,693,-300,obj_romb_up);}
-if (!instance_exists(obj_romb_left)){instance_create_depth(885,743.5,-300,obj_romb_left);}
-if (!instance_exists(obj_romb_right)){instance_create_depth(1016,743.5,-300,obj_romb_right);}
-if (!instance_exists(obj_romb_down)){instance_create_depth(938.5,818,-300,obj_romb_down);}
+if (!instance_exists(obj_romb_up)){instance_create_depth(918.5,693,-300,obj_romb_up);}
+if (!instance_exists(obj_romb_left)){instance_create_depth(865,743.5,-300,obj_romb_left);}
+if (!instance_exists(obj_romb_right)){instance_create_depth(996,743.5,-300,obj_romb_right);}
+if (!instance_exists(obj_romb_down)){instance_create_depth(918.5,818,-300,obj_romb_down);}

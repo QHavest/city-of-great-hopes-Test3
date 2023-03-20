@@ -1,7 +1,7 @@
 randomize();
 var val2 = irandom_range(0,3);
 var randomisers2 = irandom_range(0,3);
-var strax2 = 1760;
+var strax2 = 1740;
 switch(randomisers2){
 	case 0 :
 	randomisers2 = 578;
