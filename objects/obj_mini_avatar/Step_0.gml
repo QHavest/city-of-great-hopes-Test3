@@ -15,7 +15,7 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIE
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 //vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-x += hInput * 15;
+x += hInput * 19;
 //y += vInput * 15;
 }
 #region ходьба по клітинкам СРСР Кавказці
