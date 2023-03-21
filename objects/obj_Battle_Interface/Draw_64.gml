@@ -62,13 +62,13 @@ if(battle_start = true){
 	draw_set_color(c_gray);
 	switch (enemies){
 		case ENEMY.Narkomany :
-		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
+		draw_text_ext(gui_W/1.253, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
 		break;
 		case ENEMY.Kavkazci :
-		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'W' or 'Arrow S' and 'Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 238);
+		draw_text_ext(gui_W/1.253, gui_H/1.80, "Press 'W' or 'Arrow S' and 'Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 238);
 		break;
 		case ENEMY.Sectants :
-		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 238);
+		draw_text_ext(gui_W/1.253, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 238);
 		break;
 		/*case ENEMY.Ytopurok_mini :
 		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
@@ -77,14 +77,14 @@ if(battle_start = true){
 		draw_text_ext(gui_W/1.233, gui_H/1.80, st_text_torchky, stringHeight_torchky, 238);
 		break;*/
 		case ENEMY.Hopniki :
-		draw_text_ext(gui_W/1.233, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 238);
+		draw_text_ext(gui_W/1.253, gui_H/1.80, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 238);
 		break;
 	}
 	
 	} else if (mini_game == false){
 		//if (pay < global.money){
 		draw_set_font(font_azariya_textbox)
-		draw_text_ext(gui_W/1.233, gui_H/1.80,("   Money   "+string(global.money)), stringHeight_torchky, 238);
+		draw_text_ext(gui_W/1.253, gui_H/1.80,("   Money   "+string(global.money)), stringHeight_torchky, 238);
 		/*} /*else {draw_text_ext(gui_W/1.233, gui_H/1.80,("   Money  kjhkg "), stringHeight_torchky, 238);}*/
 	}
 	///////////////Діалоги
