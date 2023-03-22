@@ -145,13 +145,13 @@ switch (obj_Battle_Interface.phase_battle){
 		switch (obj_Battle_Interface.aliens){
 			case ALIES.Krus_mini:
 				if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini)){
-					take_damage = false;
+					light_ambient = true;
 					damage = 0;
 					power_hit += 3;
 					damage_enemy = 10;
 					scr_damage_mini_avatar();
 					} else if (place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4)){
-						take_damage = true;
+						light_ambient = false;
 						damage = 5;
 						damage_enemy = 0;
 						scr_damage_mini_avatar();
@@ -159,13 +159,13 @@ switch (obj_Battle_Interface.phase_battle){
 			break;
 			case ALIES.Ytopurok_mini:
 				if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = true) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = true) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = true)){
-					take_damage = false;
+					light_ambient = true;
 					damage = 0;
 					//damage_enemy = 10;
 					damage_enemy = 35;
 					scr_damage_mini_avatar();
 					} else if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = false) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = false) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = false) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = false)){
-						take_damage = true;
+						light_ambient = false;
 						damage = 5;
 						damage_enemy = 0;
 						scr_damage_mini_avatar();
