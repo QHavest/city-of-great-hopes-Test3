@@ -1593,8 +1593,8 @@ case "barmen": // біля барної стійки
 break
 
 case "barmen2": // біля барної стійки
-	scr_text("Повторити?",1,spr_ic_Krus, spr_ic_Barman);
-		if(global.Language == "ua")
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_15"),1,spr_ic_Krus, spr_ic_Barman);
+		if(global.LANGUAGE == "ua")
 		{
 			scr_option("Так","beer");
 			scr_option("Ні","4");
