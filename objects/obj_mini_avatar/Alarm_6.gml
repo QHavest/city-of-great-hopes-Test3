@@ -1,0 +1,1 @@
+obj_Battle_Interface.light_bi = 4;

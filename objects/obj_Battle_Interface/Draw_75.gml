@@ -208,7 +208,6 @@ if(battle_start = true){
 	//draw_sprite_part(hp_hopnik_full, 0, 0, 0,amount_hp_enemy, 16, gui_W/2.2368, gui_H/3.112);
 	
 	draw_sprite(spr_darkarr, 0, gui_W/12.28, gui_H/1.203);
-	//мерехтілка
-	draw_sprite(spr_red_l,  light_bi, gui_W/1.222, gui_H/2.40);
+	
 }
 

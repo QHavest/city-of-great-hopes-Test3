@@ -68,9 +68,9 @@ if(battle_turn_down = true and alarm[2] < 1){
 }
 
 
-if(alarm[1] < 1){
+/*if(alarm[1] < 1){
 	light_bi = 0;
-	}
+	}*/
 if (mini_game = true and games = false){
 		//instance_deactivate_object(obj_dim_player1);
 		//instance_deactivate_object(obj_dim_player2);

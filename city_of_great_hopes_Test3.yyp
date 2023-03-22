@@ -2222,6 +2222,7 @@
     {"id":{"name":"obj_sekt_3","path":"objects/obj_sekt_3/obj_sekt_3.yy",},},
     {"id":{"name":"spr_krus_sectants_idle","path":"sprites/spr_krus_sectants_idle/spr_krus_sectants_idle.yy",},},
     {"id":{"name":"back_menu_from_settings","path":"scripts/back_menu_from_settings/back_menu_from_settings.yy",},},
+    {"id":{"name":"spr_battleI2","path":"sprites/spr_battleI2/spr_battleI2.yy",},},
     {"id":{"name":"snd_viter","path":"sounds/snd_viter/snd_viter.yy",},},
     {"id":{"name":"snd_door_scena5","path":"sounds/snd_door_scena5/snd_door_scena5.yy",},},
     {"id":{"name":"obj_receptions_tech","path":"objects/obj_receptions_tech/obj_receptions_tech.yy",},},

@@ -2,8 +2,10 @@
 if(battle_start = true){
 	instance_deactivate_object(obj_inventory);
 	draw_sprite_ext(Sprite1041, 0, 0, 0,0.1,1.5,0,c_black,1);
-	draw_sprite(spr_battleI, 0, gui_W/(-400), gui_H/107);
-
+	draw_sprite(spr_battleI2, 0, gui_W/(-400), gui_H/107);
+	//мерехтілка
+	draw_sprite(spr_red_l,  light_bi, gui_W/1.242, gui_H/2.405);
+	
 	var maxs = global.MaxHp;
 	draw_text(0,0,maxs)
 	//draw_sprite(spr_screen, 0, gui_W/4, gui_H/2);
