@@ -192,3 +192,6 @@ switch (obj_Battle_Interface.phase_battle){
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;
 	}
+if (damage_timer > 0) {
+    damage_timer -= 1;
+}
