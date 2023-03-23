@@ -108,7 +108,7 @@ if(battle_start = true){
 		var xhp1 = gui_W/2.2968;
 		var xhp2 = gui_W/2.7968;
 		var xhp3 = gui_W/3.5368;
-			if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
+			if (hp_one == 0){
 				if(obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat)
 				{
 					draw_sprite_part(hp_narko_empty, 0, 0, 0,96, 16, xhp1, gui_H/7.312);
@@ -118,13 +118,14 @@ if(battle_start = true){
 			draw_sprite_part(hp_narko_full, 0, 0, 0,96, 16, xhp2, gui_H/7.312);
 			draw_sprite_part(hp_narko_empty, 0, 0, 0,96, 16, xhp3, gui_H/7.312);
 			draw_sprite_part(hp_narko_full, 0, 0, 0,96, 16, xhp3, gui_H/7.312);
-				if (amount_hp_enemy <= 0)
+				if (amount_hp_enemy <= 0 and hp_one == 0)
 				{
 					obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat
 					obj_enemy3_battle.image_index = 0;
-					amount_hp_enemy = 0.0001;
+					amount_hp_enemy = 96;
+					hp_one += 1;
 				}
-			} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+			} else if (hp_one == 1){
 					if(obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat)
 					{
 						draw_sprite_part(hp_narko_empty, 0, 0, 0,96, 16, xhp2, gui_H/7.312);
@@ -132,23 +133,24 @@ if(battle_start = true){
 					draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, xhp2, gui_H/7.312);
 					draw_sprite_part(hp_narko_empty, 0, 0, 0,96, 16, xhp3, gui_H/7.312);
 					draw_sprite_part(hp_narko_full, 0, 0, 0,96, 16, xhp3, gui_H/7.312);
-					if (amount_hp_enemy <= 0)
+					if (amount_hp_enemy <= 0 and hp_one == 1)
 						{
 						obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat
 						obj_enemy1_battle.image_index = 0;
-						amount_hp_enemy = 0.0001;
+						amount_hp_enemy = 96;
+						hp_one += 1;
 						}
-					}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
+					}	else if (hp_one == 2){
 					if(obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat)
 					{
 						draw_sprite_part(hp_narko_empty, 0, 0, 0,96, 16, xhp3, gui_H/7.312);
 					}
 					draw_sprite_part(hp_narko_full, 0, 0, 0,amount_hp_enemy, 16, xhp3, gui_H/7.312);
-						if (amount_hp_enemy <= 0)
+						if (amount_hp_enemy <= 0 and hp_one == 2)
 							{
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 							obj_enemy2_battle.image_index = 0;
-							amount_hp_enemy = 0.0001;
+							hp_one += 1;
 							instance_create_depth(466,570,-600,obj_youwon);
 							}
 						}	

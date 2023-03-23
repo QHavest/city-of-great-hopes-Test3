@@ -40,7 +40,7 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 			scr_gg_hit();
 			}
 	}
-	alarm[4]=40;
+	alarm[4]=30;
 	take_damage = false;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
@@ -73,7 +73,7 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 			//scr_gg_hit();
 			}
 	}
-	alarm[4]=40;
+	alarm[4]=30;
 	}
 	take_damage = false;
 } else if (global.MaxHp = 0){

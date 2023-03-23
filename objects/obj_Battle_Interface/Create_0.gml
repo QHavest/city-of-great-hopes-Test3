@@ -27,7 +27,7 @@ target_rm = room;
 amount_hp_enemy = 96;
 //damage_enemy = 0;
 hp_enemies = false;
-
+hp_one = 0; //відповідає за премикання полоски хп
 alarm[10] = 60;
 enemies = ENEMY.Noname;
 enum ENEMY{
