@@ -7,3 +7,4 @@ instance_destroy();
 if (y = 1010){
 instance_destroy();
 }
+/// Step event
