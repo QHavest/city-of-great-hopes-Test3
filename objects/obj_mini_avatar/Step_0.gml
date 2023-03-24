@@ -144,13 +144,13 @@ switch (obj_Battle_Interface.phase_battle){
 	case PHASES.Defence:
 		switch (obj_Battle_Interface.aliens){
 			case ALIES.Krus_mini:
-				if (place_meeting(x,y,obj_bottle_mini) or place_meeting(x,y,obj_kirpich_mini) or place_meeting(x,y,obj_palka_mini) or place_meeting(x,y,obj_rock_mini)){
+				if (place_meeting(x,y,obj_positive_hit)){
 					light_ambient = true;
 					damage = 0;
 					power_hit += 3;
 					damage_enemy = 10;
 					scr_damage_mini_avatar();
-					} else if (place_meeting(x,y,obj_bottle_mini_1) or place_meeting(x,y,obj_kirpich_mini_2) or place_meeting(x,y,obj_palka_mini_3) or place_meeting(x,y,obj_rock_mini_4)){
+					} else if (place_meeting(x,y,obj_negative_hit)){
 						light_ambient = false;
 						damage = 5;
 						damage_enemy = 0;
