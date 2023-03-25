@@ -6,8 +6,7 @@ var _objInst2 = instance_find(obj_mebli_gg_b,0);
 var _objInst3 = instance_find(obj_bed_cut,0);
 var _objInst4 = instance_find(obj_bottle_gg,0);
 
-
-var _sequence = Sequence1_test;
+var _sequence = Sequence1;
 var _layerName = "Instances_obj";
 
 global.shop = true;

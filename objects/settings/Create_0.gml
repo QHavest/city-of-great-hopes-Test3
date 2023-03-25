@@ -32,31 +32,52 @@ enum menu_element_type {
 	input, 
 }
 
-//створення сторінок меню
-//	var fnt2 = draw_get_font()
-//var sz2=draw_set_font(menu_font)
-//if(1 + 1 == 2)
-//{
-//	ds_menu_main = create_menu_page(
-//	 ["Продовжити", menu_element_type.script_runner, resume_game],
-//	 ["Збереження", menu_element_type.page_transfer, menu_page.savings],
-//	 ["Налаштування", menu_element_type.page_transfer, menu_page.settings],
-//	 ["Головне меню", menu_element_type.script_runner, back_menu],
-//	 ["Вихід", menu_element_type.script_runner, exit_game]
-//	);
+if(global.LANGUAGE == "ua")
+{
+	//ds_menu_main = create_menu_page(
+	// [spr_continue_ukr_d, menu_element_type.script_runner, resume_game],
+	// [spr_savings_ukr_d, menu_element_type.page_transfer, menu_page.settings],
+	// [spr_settings_ukr_d, menu_element_type.page_transfer, menu_page.settings],
+	// [spr_main_menu_ukr_d, menu_element_type.script_runner, back_menu],
+	// [spr_exit_ukr_d, menu_element_type.script_runner, exit_game]
+	//);
 
-//	ds_settings = create_menu_page(
-//	 ["Загальне аудіо", menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
-//	 ["Звуки", menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
-//	 ["Музика", menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
+	//ds_settings = create_menu_page(
+	// [spr_audio2_ukr_d, menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
+	// [spr_sounds_ukr_d, menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
+	// [spr_music_ukr_d, menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
  
-//	 ["1280х1024", menu_element_type.script_runner, scr_rezolution_1], 
-//	 ["1680x1050", menu_element_type.script_runner, scr_rezolution_2], 
-//	 ["1920x1080", menu_element_type.script_runner, scr_rezolution_3],
-//	 ["Повноекранний режим", menu_element_type.script_runner, scr_fullscreen],
-//	 ["Режим вікна", menu_element_type.script_runner, scr_windowmode]
-//	);
-//}
+	// [spr_rez1_l, menu_element_type.script_runner, scr_rezolution_1], 
+	// [spr_rez2_l, menu_element_type.script_runner, scr_rezolution_2], 
+	// [spr_rez3_l, menu_element_type.script_runner, scr_rezolution_3],
+	// [spr_fullscreen_ukr_l, menu_element_type.script_runner, scr_fullscreen],
+	// [spr_windowmode_ukr_l, menu_element_type.script_runner, scr_windowmode]
+	//);
+}
+if(global.LANGUAGE == "eng")
+{
+	//ds_menu_main = create_menu_page(
+	// [spr_continue_eng_d, menu_element_type.script_runner, resume_game],
+	// [spr_savings_eng_d, menu_element_type.page_transfer, menu_page.savings],
+	// [spr_settings_eng_d, menu_element_type.page_transfer, menu_page.settings],
+	// [spr_main_menu_eng_d, menu_element_type.script_runner, back_menu],
+	// [spr_exit_eng_d, menu_element_type.script_runner, exit_game]
+	//);
+
+	//ds_settings = create_menu_page(
+	// [spr_audio2_eng_d, menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
+	// [spr_sound_eng_d, menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
+	// [spr_music_eng_d, menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
+ 
+	// [spr_rez1_l, menu_element_type.script_runner, scr_rezolution_1], 
+	// [spr_rez2_l, menu_element_type.script_runner, scr_rezolution_2], 
+	// [spr_rez3_l, menu_element_type.script_runner, scr_rezolution_3],
+	// [spr_fullscreen_eng_l, menu_element_type.script_runner, scr_fullscreen],
+	// [spr_windowmode_eng_l, menu_element_type.script_runner, scr_windowmode]
+	//);
+}
+
+// text
 
 if(global.LANGUAGE == "ua")
 {
@@ -69,18 +90,17 @@ if(global.LANGUAGE == "ua")
 	);
 
 	ds_settings = create_menu_page(
-	 [spr_audio2_ukr_d, menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
-	 [spr_sounds_ukr_d, menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
-	 [spr_music_ukr_d, menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
+	 ["Загальне аудіо", menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
+	 ["Звуки", menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
+	 ["Музика", menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
  
-	 [spr_rez1_l, menu_element_type.script_runner, scr_rezolution_1], 
-	 [spr_rez2_l, menu_element_type.script_runner, scr_rezolution_2], 
-	 [spr_rez3_l, menu_element_type.script_runner, scr_rezolution_3],
-	 [spr_fullscreen_ukr_l, menu_element_type.script_runner, scr_fullscreen],
-	 [spr_windowmode_ukr_l, menu_element_type.script_runner, scr_windowmode]
+	 ["1280х1024", menu_element_type.script_runner, scr_rezolution_1], 
+	 ["1680х1050", menu_element_type.script_runner, scr_rezolution_2], 
+	 ["1920х1080", menu_element_type.script_runner, scr_rezolution_3],
+	 ["Повноекранний режим", menu_element_type.script_runner, scr_fullscreen],
+	 ["Віконний режим", menu_element_type.script_runner, scr_windowmode]
 	);
 }
-
 if(global.LANGUAGE == "eng")
 {
 	ds_menu_main = create_menu_page(
@@ -92,15 +112,15 @@ if(global.LANGUAGE == "eng")
 	);
 
 	ds_settings = create_menu_page(
-	 [spr_audio2_eng_d, menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
-	 [spr_sound_eng_d, menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
-	 [spr_music_eng_d, menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
+	 ["General audio", menu_element_type.slider, change_volume, global.master, [0,1]], // кнопка "загальне аудіо"
+	 ["Sounds", menu_element_type.slider, change_volume, global.System_gain, [0,1]], // кнопка "звуки"
+	 ["Music", menu_element_type.slider, change_volume, global.Fon_sound_gain, [0,1]], // кнопка "музика"
  
-	 [spr_rez1_l, menu_element_type.script_runner, scr_rezolution_1], 
-	 [spr_rez2_l, menu_element_type.script_runner, scr_rezolution_2], 
-	 [spr_rez3_l, menu_element_type.script_runner, scr_rezolution_3],
-	 [spr_fullscreen_eng_l, menu_element_type.script_runner, scr_fullscreen],
-	 [spr_windowmode_eng_l, menu_element_type.script_runner, scr_windowmode]
+	 ["1280х1024", menu_element_type.script_runner, scr_rezolution_1], 
+	 ["1680х1050", menu_element_type.script_runner, scr_rezolution_2], 
+	 ["1920х1080", menu_element_type.script_runner, scr_rezolution_3],
+	 ["Fullscreen", menu_element_type.script_runner, scr_fullscreen],
+	 ["In window", menu_element_type.script_runner, scr_windowmode]
 	);
 }
 
