@@ -11,7 +11,7 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(1, cams2);
 	
 	instance_deactivate_object(obj_sound_emmiter_3d);
-	scr_music_fon_change(noone);
+	scr_music_fon_change("snd_nature");
 	obj_dim_player1.x = obj_player_1.x;
 	obj_dim_player1.y = obj_player_1.y;
 	

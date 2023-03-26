@@ -3,7 +3,7 @@ if event_data [? "event_type"] == "sequence event"
 	switch (event_data[? "message"])
 	{
 		case "start":
-		
+		scr_music_fon_change(noone);
 		global.shop = 1;
 		regCam1 = view_get_camera(0);
 		regCam2 = view_get_camera(1);

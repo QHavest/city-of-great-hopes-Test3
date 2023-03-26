@@ -45,7 +45,7 @@ var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_middle);
-draw_set_halign(fa_right);
+draw_set_halign(fa_middle);
 
 var ltx = start_x - x_buffer + 37, lty; //Розташування на екрані
 
@@ -71,6 +71,7 @@ switch(menu_pages[page])
 		if( yy = menu_option[page]){
 			//xo = -(x_buffer/2);
 			a = scr_buttons(ds_grid[# 0, yy], 1);
+			//a = ds_grid[# 0, yy];
 			//c = c_black;
 		}
 		draw_sprite_ext(a,0,ltx+242/*-90*/, lty+279,1,1,0,c_white,1); //кнопки
@@ -81,23 +82,22 @@ switch(menu_pages[page])
 	
 	break;
 	case ds_settings:
-	var num4 = 20;
 	//show_debug_message(start_y);
 	if(global.LANGUAGE == "ua")
 	{
-		draw_sprite_ext(spr_bg_settings, 0, ltx+715+num4, 55+355, 1, 1, 0, c_white, 1); // bg settings
-		draw_sprite_ext(spr_audio_ukr, 0, ltx+910+num4, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
-		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910+num4, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
-		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910+num4, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-		draw_sprite_ext(spr_screen_ukr, 0, ltx+910+num4, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
 	}
 	if(global.LANGUAGE == "eng")
 	{
-		draw_sprite_ext(spr_bg_settings, 0, ltx+715+num4, 55+355, 1, 1, 0, c_white, 1); // bg settings
-		draw_sprite_ext(spr_audio_eng, 0, ltx+910+num4, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
-		draw_sprite_ext(spr_graphics_eng, 0, ltx+910+num4, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
-		draw_sprite_ext(spr_rezolution_eng, 0, ltx+910+num4, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-		draw_sprite_ext(spr_screen_eng2, 0, ltx+910+num4, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_eng, 0, ltx+910, 55+390, 1, 1, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_eng, 0, ltx+910, 55+650, 1, 1, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_eng, 0, ltx+910, 55+680, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_eng2, 0, ltx+910, 55+775, 1, 1, 0, c_white, 1); // напис "Режим екрану"
 	}
 	var yy = 0; repeat (ds_height){
 	
@@ -106,7 +106,8 @@ switch(menu_pages[page])
 		lty = start_y + (yy*y_buffer)
 		var xP = 0, yP = 0;
 		
-		if(ds_grid[# 0, yy] == spr_rez1_l or ds_grid[# 0, yy] == spr_rez1_d) 
+		//if(ds_grid[# 0, yy] == spr_rez1_l or ds_grid[# 0, yy] == spr_rez1_d) 
+		if(ds_grid[# 0, yy] == "1280х1024") 
 		{
 			xP = 955; yP = 763; // координати
 			if(rez_act == 1) 
@@ -118,7 +119,7 @@ switch(menu_pages[page])
 			}
 		}
 		
-		if(ds_grid[# 0, yy] == spr_rez2_l or ds_grid[# 0, yy] == spr_rez2_d)
+		if(ds_grid[# 0, yy] == "1680х1050")
 		{
 			xP = 955; yP = 788; // координати
 			if(rez_act == 2) 
@@ -129,7 +130,7 @@ switch(menu_pages[page])
 			}
 		}
 		
-		if(ds_grid[# 0, yy] == spr_rez3_l or ds_grid[# 0, yy] == spr_rez3_d)
+		if(ds_grid[# 0, yy] == "1920х1080")
 		{
 			xP = 1150; yP = 763; // координати
 			if(rez_act == 3) 
@@ -144,7 +145,8 @@ switch(menu_pages[page])
 		
 		if(global.LANGUAGE == "ua")
 		{
-			if(ds_grid[# 0, yy] == spr_fullscreen_ukr_l or ds_grid[# 0, yy] == spr_fullscreen_ukr_d)
+			//if(ds_grid[# 0, yy] == spr_fullscreen_ukr_l or ds_grid[# 0, yy] == spr_fullscreen_ukr_d)
+			if(ds_grid[# 0, yy] == "Повноекранний режим")
 			{
 				xP = 955; yP = 845; // координати
 				if(fullscreen == true) 
@@ -156,6 +158,7 @@ switch(menu_pages[page])
 			}
 		
 			if(ds_grid[# 0, yy] == spr_windowmode_ukr_l or ds_grid[# 0, yy] == spr_windowmode_ukr_d)
+			if(ds_grid[# 0, yy] == "Віконний режим")
 			{
 				xP = 955; yP = 865; // координати
 				if(fullscreen == false) 
@@ -175,7 +178,8 @@ switch(menu_pages[page])
 		
 		if(global.LANGUAGE == "eng")
 		{
-			if(ds_grid[# 0, yy] == spr_fullscreen_eng_l or ds_grid[# 0, yy] == spr_fullscreen_eng_d)
+			//if(ds_grid[# 0, yy] == spr_fullscreen_eng_l or ds_grid[# 0, yy] == spr_fullscreen_eng_d)
+			if(ds_grid[# 0, yy] == "Fullscreen")
 			{
 				xP = 955; yP = 845; // координати
 				if(fullscreen == true) 
@@ -186,7 +190,8 @@ switch(menu_pages[page])
 			
 			}
 		
-			if(ds_grid[# 0, yy] == spr_windowmode_eng_l or ds_grid[# 0, yy] == spr_windowmode_eng_d)
+			//if(ds_grid[# 0, yy] == spr_windowmode_eng_l or ds_grid[# 0, yy] == spr_windowmode_eng_d)
+			if(ds_grid[# 0, yy] == "In window")
 			{
 				xP = 955; yP = 865; // координати
 				if(fullscreen == false) 
@@ -205,14 +210,18 @@ switch(menu_pages[page])
 		}
 		
 		
-		
-		
+		draw_set_font(Font_for_draw_mazur3);
+		c = make_color_rgb(68, 68, 46);
 		if( yy = menu_option[page]){
-			a = scr_buttons(ds_grid[# 0, yy], 2);
+			//a = scr_buttons(ds_grid[# 0, yy], 2);
+			//a = ds_grid[# 0, yy]
+			//c = c_black;
+			//show_debug_message(ds_grid[# 0, yy]);
+			var b = scr_buttons(ds_grid[# 0, yy], 2);
+			draw_sprite_ext(b,0,xP,yP,1,1,0,c_white,1);
 		}
-		//show_debug_message(string(xP) + " /// " + string(yP));
-		draw_sprite_ext(a,0,xP,yP,1,1,0,c_white,1); //кнопки settings
-		
+		//draw_sprite_ext(a,0,xP,yP,1,1,0,c_white,1); //кнопки settings
+		draw_text_color(xP, yP, a, c, c, c, c, 1);
 		
 		yy++;
 	}
@@ -224,6 +233,7 @@ switch(menu_pages[page])
 	draw_sprite_ext(spr_bg_savings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg savings
 	
 	draw_set_font(Font_for_draw_mazur2);
+
 	
 	with(obj_loading)
 	{

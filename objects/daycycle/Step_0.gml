@@ -196,6 +196,7 @@ if (draw_daylight){
 		
 		image_index += 1;
 		with(obj_manager_8) {start = true;}
+		with(obj_manager_9) {start_scena8 = true;}
 		
 		
 	}else if (hours > phase.sunset and hours <= phase.sunset1 /*and visability = true*/){//захід
