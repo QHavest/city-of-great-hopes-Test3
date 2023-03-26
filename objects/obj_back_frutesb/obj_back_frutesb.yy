@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fruit_front",
+  "name": "obj_back_frutesb",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Objects/Bazar/Boxes.yy",
+    "name": "Bazar",
+    "path": "folders/Objects/Bazar.yy",
   },
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_nights",
+    "path": "objects/obj_nights/obj_nights.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_fruit_front",
-    "path": "sprites/spr_fruit_front/spr_fruit_front.yy",
+    "name": "spr_back_frutesb",
+    "path": "sprites/spr_back_frutesb/spr_back_frutesb.yy",
   },
   "spriteMaskId": null,
   "visible": true,

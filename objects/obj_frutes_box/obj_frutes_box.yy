@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fruit_front",
+  "name": "obj_frutes_box",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Boxes",
-    "path": "folders/Objects/Bazar/Boxes.yy",
+    "name": "Bazar",
+    "path": "folders/Objects/Bazar.yy",
   },
   "parentObjectId": {
     "name": "obj_days",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_fruit_front",
-    "path": "sprites/spr_fruit_front/spr_fruit_front.yy",
+    "name": "spr_frutes_box",
+    "path": "sprites/spr_frutes_box/spr_frutes_box.yy",
   },
   "spriteMaskId": null,
   "visible": true,
