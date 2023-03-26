@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_gop_1",
-  "bbox_bottom": 37,
+  "bbox_bottom": 49,
   "bbox_left": 4,
   "bbox_right": 23,
   "bbox_top": 29,

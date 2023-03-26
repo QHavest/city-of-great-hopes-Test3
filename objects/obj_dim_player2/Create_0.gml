@@ -1,7 +1,7 @@
 mask_index = sprite_index;
 move = 1; // Mazur
-walkspd = 4;
-runspd  = 15;
+walkspd = 2;
+runspd  = 4;
 collisionSpeed = 4;
 lastmove = 0
 //налаштування перемикання між персонажами 

@@ -13,7 +13,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Players_obj",
-    "path": "folders/Scripts/Players_obj.yy",
+    "path": "folders/Players_obj.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

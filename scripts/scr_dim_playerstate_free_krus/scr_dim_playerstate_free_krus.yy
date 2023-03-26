@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "States",
-    "path": "folders/Scripts/Players_obj/States.yy",
+    "path": "folders/Players_obj/States.yy",
   },
 }
