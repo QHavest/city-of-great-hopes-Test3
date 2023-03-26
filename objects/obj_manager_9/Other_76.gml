@@ -48,6 +48,7 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "pause2":
 	pause = true;
+	scr_music_fon_change("snd_viter")
 	break;
 	
 	case "pause3":

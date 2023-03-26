@@ -35,8 +35,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_Petrovuch",
-    "path": "sprites/spr_Petrovuch/spr_Petrovuch.yy",
+    "name": "spr_svust",
+    "path": "sprites/spr_svust/spr_svust.yy",
   },
   "spriteMaskId": null,
   "visible": true,

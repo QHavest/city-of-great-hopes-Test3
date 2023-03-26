@@ -21,6 +21,26 @@ case noone:
 	}
 break
 
+case "snd_nature":	
+	switch(name)
+	{	
+	case 1: return snd_nature  break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
+
+case "snd_viter":	
+	switch(name)
+	{	
+	case 1: return snd_viter  break
+	case 2: return 0 break
+	case 3: return 1 break
+	case 4: break
+	}
+break
+
 case "snd_street":	
 	switch(name)
 	{	

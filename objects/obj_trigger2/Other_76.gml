@@ -68,6 +68,7 @@ if event_data [? "event_type"] == "sequence event"
     break;
     
     case "stops":
+	scr_music_fon_change(room);
     layer_sequence_destroy(_seqElms);
     view_set_camera(0, regCam1);
     view_set_camera(1, regCam2);
