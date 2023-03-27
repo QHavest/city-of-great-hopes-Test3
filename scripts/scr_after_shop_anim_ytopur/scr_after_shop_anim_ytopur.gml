@@ -13,18 +13,15 @@ if sel_spr=noone
 	sprite_index=GG_spr;
 	}
 }
-
-else
-{
 	//check the end of seller animation - than start GG anim
-	if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.image_index)
+else if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.image_index)
 	{
 		sel_obj.image_index=0;
 		sel_obj.sprite_index=sel_spr_def;
 		image_index=0;
 		sprite_index=GG_spr;
 	}
-}
+
 // chek end GG animation
 if sprite_index=GG_spr and scr_dim_animation_end(sprite_index) 
 {

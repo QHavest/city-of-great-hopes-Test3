@@ -11,7 +11,7 @@ keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"))
 }
 
-if(global.item_bought or global.dialogue_move or !global.dialog_end) exit;
+if(global.item_bought or global.dialogue_move or !global.dialog_end or global.shop) exit;
 
 if (playernum == 2) {
 	//walk
@@ -21,9 +21,9 @@ if (playernum == 2) {
 	}
 else if(playernum == 1){
 	//walk
-	if (run == 0 and distance_to_object(obj_dim_player2.posX[12]) > 30 ) mp_potential_step(obj_dim_player2.posX[12], obj_dim_player1.posY[7], 4, false);
+	if (run == 0 and distance_to_object(obj_dim_player2.posX[12]) > 30 ) mp_potential_step(obj_dim_player2.posX[12], obj_dim_player2.posY[7], 4, false);
 	//run
-	if (run == 1 and distance_to_object(obj_dim_player2.posX[12]) > 20) mp_potential_step(obj_dim_player2.posX[12], obj_dim_player1.posY[7], 9, false);
+	if (run == 1 and distance_to_object(obj_dim_player2.posX[12]) > 20) mp_potential_step(obj_dim_player2.posX[12], obj_dim_player2.posY[7], 9, false);
 }
 
 
