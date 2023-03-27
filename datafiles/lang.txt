@@ -466,10 +466,13 @@
 
 		"Torchok1": "Hehe, my mother still thinks I work at the post office. This is what it means to hear without context.",
 		"Torchok2": "Go further. I was released from prison on the program, and who will think about selling it again? I don't sell, I consume! Remember this!",
+		"Torchok6": "Go away",
+		"Torchok7": "Fight",
 		"Torchok3": "Bald guys are kind of fussy. They would be purely backgrounded for us if they didn't get into our affairs and tell us what to do and what to smoke.",
 		"Torchok31": "What the hell?",
 		"Torchok4": "Men, remember, the main thing is to take it on time. You won't be suspected when it's inside, but if you haven't finished it, you'll already dealer.",
 		"Torchok5": "So smoke a puff and a full LSD! The main thing isn't to catch a squirrel.",
+		"Torchok8": "take it on",
 
 		"Sekta1": "Good day, God bless you!",
 		"Sekta2": "Let's pray for the righteousness of our actions and thoughts!",
@@ -1078,9 +1081,14 @@
 
 		"Torchok1": "Хе-хе, моя мать досі думає шо я на почті работаю. Вот шо значить подслушать без контекста.",
 		"Torchok2": "Проходьте дальше. Я вийшов по УДО, а ще подумає хто шо знов продаю. Я не продаю, я споживаю! Зарубать собі на носу.",
-		"Torchok3": "Лисікі якісь суєтливі. Вони нам би були чисто фоном, якби не лізли в наші справи й не казали що нам колоть й що нам курить. Що за хуйня?",
+		"Torchok6": "Йти далі",
+		"Torchok7": "Битись",
+		"Torchok3": "Лисікі якісь суєтливі. Вони нам би були чисто фоном, якби не лізли в наші справи й не казали що нам колоть й що нам курить.",
+		"Torchok3": "Що за хуйня?",
 		"Torchok4": "Мужики помніть, головне вчасно прийнять. Коли воно внутрі, то доєбаться не вийде, а вот недоїв – то уже роздаєш.",
 		"Torchok5": "Того куріть затяжкой й повну марку! Головне не зловити білочку. По собі кажу.",
+		"Torchok8": "Принять",
+
 
 		"Sekta1": "Доброго дня, вас Бозя вітає!",
 		"Sekta2": "Будемо молитися ми за правледність наших дій та помислів!",
