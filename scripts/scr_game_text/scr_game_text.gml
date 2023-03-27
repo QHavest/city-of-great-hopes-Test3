@@ -401,9 +401,9 @@ break
 	break
 	case "fight":
 	with obj_Battle_Interface{
-	battle_start = !battle_start;
-	mini_game = true;
+	battle_start = true;
 	enemies = ENEMY.Hopniki
+	scr_music_fon_change(Room61);
 	room_goto(Room61);
 	}
 	//Почнеться бійка Утопирка та Криса проти трьох гопніків. Якщо програти, то вони заберуть всі гроші
@@ -1237,18 +1237,33 @@ switch(irandom_range(1,5)){
 			break
 			case 2:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok2"),2,spr_ic_Krus,spr_ic_Pank);
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok6"),"4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
 			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok3"),2,spr_ic_Krus,spr_ic_Pank);
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok31"),2,spr_ic_Krus,spr_ic_Pank);
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok6"),"4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
 			case 4:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok4"),2,spr_ic_Krus,spr_ic_Pank);
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok8"),"4");
+		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
 			case 5:
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok5"),2,spr_ic_Krus,spr_ic_Pank);
 			break
 }	
+break
+case "fight_torch":
+	with obj_Battle_Interface{
+	battle_start = true;
+	enemies = ENEMY.Narkomany
+	scr_music_fon_change(Room61);
+	room_goto(Room61);
+	}
+
 break
 #endregion
 #region(Sekta)
