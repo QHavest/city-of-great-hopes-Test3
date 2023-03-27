@@ -6,6 +6,7 @@ if (global.shop or !global.dialog_end or global.map) {
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 	in_place = 0;
+	exit;
 }
 
 //система зміни статусу гравця
