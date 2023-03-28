@@ -358,6 +358,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fone","folderPath":"folders/Battle_system/Fone.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -1990,6 +1991,7 @@
     {"id":{"name":"obj_table2","path":"objects/obj_table2/obj_table2.yy",},},
     {"id":{"name":"obj_man_7","path":"objects/obj_man_7/obj_man_7.yy",},},
     {"id":{"name":"spr_mp_Bazar","path":"sprites/spr_mp_Bazar/spr_mp_Bazar.yy",},},
+    {"id":{"name":"spr_battle_fones","path":"sprites/spr_battle_fones/spr_battle_fones.yy",},},
     {"id":{"name":"spr_rez2_l_act","path":"sprites/spr_rez2_l_act/spr_rez2_l_act.yy",},},
     {"id":{"name":"scr_string","path":"scripts/scr_string/scr_string.yy",},},
     {"id":{"name":"spr_seller_storage_stay","path":"sprites/spr_seller_storage_stay/spr_seller_storage_stay.yy",},},

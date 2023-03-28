@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Battle_system",
-    "path": "folders/Battle_system.yy",
+    "name": "Fone",
+    "path": "folders/Battle_system/Fone.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

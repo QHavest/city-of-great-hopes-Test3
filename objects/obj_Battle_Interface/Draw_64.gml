@@ -2,7 +2,22 @@
 if(battle_start = true){
 	instance_deactivate_object(obj_inventory);
 	draw_sprite_ext(Sprite1041, 0, 0, 0,0.1,1.5,0,c_black,1);
-	draw_sprite(spr_battleI2, 0, gui_W/(-400), gui_H/107);
+	
+	switch(enemies){
+		case ENEMY.Hopniki:
+		draw_sprite(spr_battle_fones, 0, gui_W/(-400), gui_H/107);
+		break;
+		case ENEMY.Kavkazci:
+			draw_sprite(spr_battle_fones, 2, gui_W/(-400), gui_H/107);
+		break;
+		case ENEMY.Narkomany:
+			draw_sprite(spr_battle_fones, 1, gui_W/(-400), gui_H/107);
+		break;
+		case ENEMY.Sectants:
+			draw_sprite(spr_battleI2, 0, gui_W/(-400), gui_H/107);
+		break;
+	}
+	
 	//мерехтілка
 	draw_sprite(spr_red_l,  light_bi, gui_W/1.242, gui_H/2.405);
 	

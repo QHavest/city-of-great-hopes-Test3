@@ -33,6 +33,7 @@
     {"name":"Tile Sets","order":30,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":31,"path":"folders/Timelines.yy",},
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
+    {"name":"Fone","order":2,"path":"folders/Battle_system/Fone.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
@@ -138,6 +139,7 @@
     {"name":"spr_myzuka_2","order":7,"path":"sprites/spr_myzuka_2/spr_myzuka_2.yy",},
     {"name":"spr_negative_hit","order":3,"path":"sprites/spr_negative_hit/spr_negative_hit.yy",},
     {"name":"obj_pr_NPC_move","order":1,"path":"objects/obj_pr_NPC_move/obj_pr_NPC_move.yy",},
+    {"name":"spr_battle_fones","order":2,"path":"sprites/spr_battle_fones/spr_battle_fones.yy",},
     {"name":"obj_manager_kino","order":3,"path":"objects/obj_manager_kino/obj_manager_kino.yy",},
     {"name":"spr_ic_mama","order":14,"path":"sprites/spr_ic_mama/spr_ic_mama.yy",},
     {"name":"spr_Bibliothekar","order":3,"path":"sprites/spr_Bibliothekar/spr_Bibliothekar.yy",},
