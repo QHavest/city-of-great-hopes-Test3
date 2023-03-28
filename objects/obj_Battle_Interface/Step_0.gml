@@ -792,6 +792,7 @@ if(BDialogue = true){
 			}
 		}
 	}
-} 
+}
+
 	
 

@@ -17,6 +17,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Battle_system/buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogue","folderPath":"folders/Battle_system/buttons/Dialogue.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"english","folderPath":"folders/Battle_system/buttons/Dialogue/english.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fone","folderPath":"folders/Battle_system/Fone.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MiniGames","folderPath":"folders/Battle_system/MiniGames.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animations","folderPath":"folders/Battle_system/MiniGames/Animations.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Battle_system/MiniGames/Animations/Enemy.yy",},
@@ -358,7 +359,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fone","folderPath":"folders/Battle_system/Fone.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -1911,6 +1911,7 @@
     {"id":{"name":"spr_krus_narkoman_defeat_2","path":"sprites/spr_krus_narkoman_defeat_2/spr_krus_narkoman_defeat_2.yy",},},
     {"id":{"name":"sp_oseledec_eng","path":"sprites/sp_oseledec_eng/sp_oseledec_eng.yy",},},
     {"id":{"name":"spr_seller_watermelon","path":"sprites/spr_seller_watermelon/spr_seller_watermelon.yy",},},
+    {"id":{"name":"spr_money_battle","path":"sprites/spr_money_battle/spr_money_battle.yy",},},
     {"id":{"name":"spr_clumbe_school","path":"sprites/spr_clumbe_school/spr_clumbe_school.yy",},},
     {"id":{"name":"spr_shtory_gg","path":"sprites/spr_shtory_gg/spr_shtory_gg.yy",},},
     {"id":{"name":"spr_graphics_ukr","path":"sprites/spr_graphics_ukr/spr_graphics_ukr.yy",},},

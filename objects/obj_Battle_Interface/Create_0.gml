@@ -18,6 +18,10 @@ luck = irandom_range(0, 100);
 gui_H = display_get_gui_height();
 gui_W = display_get_gui_width();
 
+//мигання тексту
+flash_state = false;
+flash_timer = 0;
+
 target_x = 0;
 target_y = 0;
 
