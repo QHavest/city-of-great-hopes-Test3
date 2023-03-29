@@ -86,6 +86,7 @@ if (mini_game == true or game_over_mini = true){
 	}
 	
 }
+#region ЗАПУСК МІНІ ГРИ ПРИ ПЕРШОМУ ЗАПУСКУ
 if (mini_game = true and games = false and battle_start = true and keyboard_check_released(ord("W"))){
 			hp_enemies = true;//включення хп полосок ворогів
 			games = true;
@@ -95,7 +96,6 @@ if (mini_game = true and games = false and battle_start = true and keyboard_chec
 			obj_krus_battle.image_index = 0;
 			obj_krus_battle.image_speed = 0;
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-			
 			obj_enemy1_battle.image_index = 0;
 			obj_enemy1_battle.image_speed = 0;
 			obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
@@ -108,6 +108,7 @@ if (mini_game = true and games = false and battle_start = true and keyboard_chec
 			aliens = ALIES.Noone;
 			instance_create_depth(466,570,-600,obj_screen_gamestart)
 		}
+#endregion
 if(alarm[2] > 150) exit;
 /*if (battle_start = true){
 amount_hp_enemy = amount_hp_enemy - (damage_enemy/100*279);
@@ -116,24 +117,24 @@ amount_hp_enemy = amount_hp_enemy - (damage_enemy/100*279);
 if(system == 0 and mini_game == false and BDialogue == false and game_over_mini == false){
 	butt_invis = 1;
 	button[button_c] = "L";
-	if( keyboard_check_pressed(vk_down)){
-		button_c++;
-		if(button_c == 4){ button[3] = "D";}////<<<<тут потрібно button_c == 5 і button[4], щоб вибрати варіант діалоги
-		if(button_c == 4){ button_c = 1}	////<<<<тут потрібно встановити button_c == 5 , щоб вибрати варіант діалоги
-		button[button_c] = "L";
-		button[button_c-1] = "D";
-	}
-	if(keyboard_check_pressed(vk_up)){
-		button_c--;
-		if(button_c == 0){ button[1] = "D"}	
-		if(button_c == 0){ button_c = 3}////<<<<тут потрібно встановити (4), щоб вибрати варіант діалоги
-		button[button_c] = "L";	
-		button[button_c+1] = "D";
-	}
-	if(button[1] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
-	system = 1;
+		if( keyboard_check_pressed(vk_down)){
+			button_c++;
+			if(button_c == 4){ button[3] = "D";}////<<<<тут потрібно button_c == 5 і button[4], щоб вибрати варіант діалоги
+			if(button_c == 4){ button_c = 1}	////<<<<тут потрібно встановити button_c == 5 , щоб вибрати варіант діалоги
+			button[button_c] = "L";
+			button[button_c-1] = "D";
+		}
+		if(keyboard_check_pressed(vk_up)){
+			button_c--;
+			if(button_c == 0){ button[1] = "D"}	
+			if(button_c == 0){ button_c = 3}////<<<<тут потрібно встановити (4), щоб вибрати варіант діалоги
+			button[button_c] = "L";	
+			button[button_c+1] = "D";
+		}
+	if(button[1] = "L" and keyboard_check_released(vk_enter)){
+		alarm[3] = 1;//system = 1;
 	} 
-	if(button[2] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
+	if(button[2] = "L" and keyboard_check_released(vk_enter)){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
 	// Визначення значень шансів	
    // var chance = true
@@ -186,14 +187,13 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 		        break;
 		}
 	} 
-	if(button[3] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
+	if(button[3] = "L" and keyboard_check_released(vk_enter)){
 	button_c = 1;
 	button[1] = "L";
 	button[3] = "D";
-	system = 2;
-	
+	alarm[4] = 1;//system = 2;
 	} 
-	if(button[4] = "L" and keyboard_check_pressed(vk_enter) or  keyboard_check_pressed(ord("E"))){
+	if(button[4] = "L" and keyboard_check_released(vk_enter)){
 		if(dialogue_was = false){
 			butt_invis = 0.5;
 			screen = 1;
@@ -205,197 +205,197 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 	} 
 }
 
-if(system = 1) {
-	if(keyboard_check_pressed(vk_down)){
-		button_c++;
-		button[button_c-1] = "D";
-		if(button_c = 3){ button_c = 1}	
-		button[button_c] = "L";
-	}
-	//To left
-	if(keyboard_check_pressed(vk_up)){
-		button_c--;
-		if(button_c = 0){ button[1] = "D"}
-		if(button_c = 0){ button_c = 2}		
-		button[button_c] = "L";	
-		button[button_c+1] = "D";
-	}
-	if(button[1] = "L" and (keyboard_check_released(vk_alt) or keyboard_check_pressed(ord("E")))){
-		mini_game = true;
-		games = true;
-		instance_destroy(obj_wait);
-		
-		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
-		obj_ytopur_battle.image_index = 0;
-		obj_ytopur_battle.phasese = PHASESE.Battle;
+switch(system)
+{
+	case 1:
+		if( keyboard_check_pressed(vk_down)){
+			button_c++;
+			button[button_c-1] = "D";
+			if(button_c = 3){ button_c = 1}	
+			button[button_c] = "L";
 		}
+		if(keyboard_check_pressed(vk_up)){
+			button_c--;
+			if(button_c = 0){ button[1] = "D"}
+			if(button_c = 0){ button_c = 2}		
+			button[button_c] = "L";	
+			button[button_c+1] = "D";
+		}
+		//кнопка відповідає за запуск міні гри за утопирка//
+		if(button[1] = "L" and keyboard_check_released(vk_enter)){
+			mini_game = true;
+			games = true;
+			instance_destroy(obj_wait);
 		
-		if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-			obj_enemy1_battle.image_index = 0;
-			obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-			obj_enemy2_battle.image_index = 0;
-			obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-			obj_enemy3_battle.image_index = 0;
-			obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
-			} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+			if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+			obj_ytopur_battle.image_index = 0;
+			obj_ytopur_battle.phasese = PHASESE.Battle;
+			}
+		
+			if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
 				obj_enemy1_battle.image_index = 0;
 				obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
 				obj_enemy2_battle.image_index = 0;
 				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-				}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-				obj_enemy2_battle.image_index = 0;
-				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-					}	/*else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat){
-				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
-				obj_enemy2_battle.image_index = 0;
-					}*/
-		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-		switch(phase_battle){
-			case PHASES.Atack:
-				switch(enemies){
-					case ENEMY.Narkomany :
-					aliens = ALIES.Noone;
-					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Kavkazci :
-					aliens = ALIES.Noone;
-				//	obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Sectants :
-					aliens = ALIES.Noone;
-					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Hopniki :
-					aliens = ALIES.Noone;
-					//obj_ytopur_battle.phasese = PHASESE.Battle;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					}
-			break;
-			case PHASES.Defence:
+				obj_enemy3_battle.image_index = 0;
+				obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
+				} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+					obj_enemy1_battle.image_index = 0;
+					obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+					obj_enemy2_battle.image_index = 0;
+					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+					}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
+					obj_enemy2_battle.image_index = 0;
+					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+						}	/*else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat){
+					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
+					obj_enemy2_battle.image_index = 0;
+						}*/
+			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
+			switch(phase_battle){
+				case PHASES.Atack:
+					switch(enemies){
+						case ENEMY.Narkomany :
+						aliens = ALIES.Noone;
+						//obj_ytopur_battle.phasese = PHASESE.Battle;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Kavkazci :
+						aliens = ALIES.Noone;
+					//	obj_ytopur_battle.phasese = PHASESE.Battle;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Sectants :
+						aliens = ALIES.Noone;
+						//obj_ytopur_battle.phasese = PHASESE.Battle;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Hopniki :
+						aliens = ALIES.Noone;
+						//obj_ytopur_battle.phasese = PHASESE.Battle;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						}
+				break;
+				case PHASES.Defence:
 				
-				aliens = ALIES.Ytopurok_mini;
-				instance_create_depth(466,570,-600,obj_screen_gamestart)
-			break;
+					aliens = ALIES.Ytopurok_mini;
+					instance_create_depth(466,570,-600,obj_screen_gamestart)
+				break;
+				}
+			system = 0;
+			// почалася бійка за Утопирка
+		} 
+		if(button[2] = "L" and keyboard_check_released(vk_enter)){
+			mini_game = true;
+			games = true;
+			instance_destroy(obj_wait);
+			if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+			obj_ytopur_battle.image_index = 0;
+			obj_ytopur_battle.phasese = PHASESE.Battle;
 			}
-		system = 0;
-		// почалася бійка за Утопирка
-	} 
-	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
-		mini_game = true;
-		games = true;
-		instance_destroy(obj_wait);
-		if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
-		obj_ytopur_battle.image_index = 0;
-		obj_ytopur_battle.phasese = PHASESE.Battle;
+			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
+			switch(phase_battle){
+				case PHASES.Atack:
+					switch(enemies){
+						case ENEMY.Narkomany :
+						aliens = ALIES.Noone;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Kavkazci :
+						aliens = ALIES.Noone;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Sectants :
+						aliens = ALIES.Noone;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						case ENEMY.Hopniki :
+						aliens = ALIES.Noone;
+						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						break;
+						}
+				break;
+				case PHASES.Defence:
+					aliens = ALIES.Krus_mini;
+					instance_create_depth(466,570,-600,obj_screen_gamestart)
+				break;
+				}
+		
+		
+			system = 0;
+			// почалася бійка за Криса
+		} 
+		if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
+			system = 0;
 		}
-		obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-		switch(phase_battle){
-			case PHASES.Atack:
-				switch(enemies){
-					case ENEMY.Narkomany :
-					aliens = ALIES.Noone;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Kavkazci :
-					aliens = ALIES.Noone;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Sectants :
-					aliens = ALIES.Noone;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					case ENEMY.Hopniki :
-					aliens = ALIES.Noone;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
-					break;
-					}
-			break;
-			case PHASES.Defence:
-				aliens = ALIES.Krus_mini;
-				instance_create_depth(466,570,-600,obj_screen_gamestart)
-			break;
+	break;
+	case 2:
+			if( keyboard_check_pressed(vk_down)){
+				button_c++;
+				button[button_c-1] = "D";
+				if(button_c = 3){ button_c = 1}	
+				button[button_c] = "L";
 			}
-		
-		
-		system = 0;
-		// почалася бійка за Криса
-	} 
-	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
-		system = 0;
-	}
-}	
-
-if(system = 2) {
-	if(keyboard_check_pressed(vk_down)){
-		button_c++;
-		button[button_c-1] = "D";
-		if(button_c = 3){ button_c = 1}	
-		button[button_c] = "L";
-	}
-	//To left
-	if(keyboard_check_pressed(vk_up)){
-		button_c--;
-		if(button_c = 0){ button[1] = "D"}
-		if(button_c = 0){ button_c = 2}		
-		button[button_c] = "L";	
-		button[button_c+1] = "D";
-	}
-	if(button[1] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
-		button[1] = "L";
-		system = 1;
-	} 
-	if(button[2] = "L" and (keyboard_check_pressed(vk_alt) or keyboard_check_pressed(ord("E")))){
-		//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
-		if (pay < global.money){
-		instance_destroy(obj_wait);
-		mini_game = false;
-		system = 0;
-		instance_create_depth(466,570,-600,obj_goodbyemoney)
-		} else 
-			{
-				mini_game = true;
-				games = true;
-				phase_battle = PHASES.Atack;
-				//aliens = ALIES.Ytopurok_mini;
-				instance_destroy(obj_wait);
-				if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
-					obj_ytopur_battle.image_index = 0;
-					obj_ytopur_battle.phasese = PHASESE.Battle;
-					}
-				aliens = ALIES.Noone;
-				obj_krus_battle.image_index = 0;
-				obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-					if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-						obj_enemy1_battle.image_index = 0;
-						obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-						obj_enemy2_battle.image_index = 0;
-						obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-						obj_enemy3_battle.image_index = 0;
-						obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
-						} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+			if(keyboard_check_pressed(vk_up)){
+				button_c--;
+				if(button_c = 0){ button[1] = "D"}
+				if(button_c = 0){ button_c = 2}		
+				button[button_c] = "L";	
+				button[button_c+1] = "D";
+			}
+		if(button[1] = "L" and keyboard_check_released(vk_enter)){
+			button[1] = "L";
+			alarm[3] = 1;
+		} 
+		if(button[2] = "L" and keyboard_check_released(vk_enter)){
+			//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
+			if (pay < global.money){
+			instance_destroy(obj_wait);
+			mini_game = false;
+			system = 0;
+			instance_create_depth(466,570,-600,obj_goodbyemoney)
+			} else 
+				{
+					mini_game = true;
+					games = true;
+					phase_battle = PHASES.Atack;
+					//aliens = ALIES.Ytopurok_mini;
+					instance_destroy(obj_wait);
+					if (global.MaxHp >= 51 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
+						obj_ytopur_battle.image_index = 0;
+						obj_ytopur_battle.phasese = PHASESE.Battle;
+						}
+					aliens = ALIES.Noone;
+					obj_krus_battle.image_index = 0;
+					obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
+						if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
 							obj_enemy1_battle.image_index = 0;
 							obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
 							obj_enemy2_battle.image_index = 0;
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-							}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-							obj_enemy2_battle.image_index = 0;
-							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-								}
-				instance_create_depth(466,570,-600,obj_screen_gamestart)	
-		        system = 0;
-			}
-	} 
-	if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
-		system = 0;
-	}
-}	
-
+							obj_enemy3_battle.image_index = 0;
+							obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
+							} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
+								obj_enemy1_battle.image_index = 0;
+								obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
+								obj_enemy2_battle.image_index = 0;
+								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+								}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
+								obj_enemy2_battle.image_index = 0;
+								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
+									}
+					instance_create_depth(466,570,-600,obj_screen_gamestart)	
+			        system = 0;
+				}
+		} 
+		if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
+			system = 0;
+		}
+	break;
+}
 ///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
-
+/*
 if(BDialogue = true){
 	instance_destroy(obj_wait);
 	if(keyboard_check_pressed(vk_down) and alarm[2] < 1){

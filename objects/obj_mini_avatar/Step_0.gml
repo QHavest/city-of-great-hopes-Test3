@@ -1,28 +1,17 @@
 //if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany and obj_Battle_Interface.phase_battle = PHASES.Atack){
-//hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-//vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-//x += hInput * spd;
-//y += vInput * spd;
-
 	spd += grv
 	y += spd;
-
-
-if (keyboard_check_pressed(vk_space)){
-	spd = -10;
-}
-y = clamp(y,570.5,940.5)
-//x++
+	if (keyboard_check_pressed(vk_space)){
+		spd = -10;
+	}
+	y = clamp(y,570.5,940.5)
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-//vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-
 x += hInput * 19;
-//y += vInput * 15;
+x = clamp(x,486.5,1369.5)
 }
 #region ходьба по клітинкам СРСР Кавказці
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci and obj_Battle_Interface.phase_battle = PHASES.Atack){
@@ -87,22 +76,18 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIE
 switch (keyboard_key)
 {
 	case vk_left:
-    case ord("A"):
         mp_linear_step(908,748,5,false);
     break;
 
     case vk_right:
-    case ord("D"):
         mp_linear_step(940,748,5,false);
     break;
 
     case vk_up:
-    case ord("W"):
         mp_linear_step(925,736,5,false);
     break;
 
     case vk_down:
-    case ord("S"):
         mp_linear_step(925,768,5,false);
     break;
 	default:
