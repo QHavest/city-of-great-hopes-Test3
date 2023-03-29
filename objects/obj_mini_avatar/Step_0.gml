@@ -7,20 +7,14 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENE
 //x += hInput * spd;
 //y += vInput * spd;
 
-
-if (place_meeting(x,y-10,invis_wall))
-{
-	spd = 0;
-	y += spd;
-} else 
-	{	
 	spd += grv
 	y += spd;
-	}
+
 
 if (keyboard_check_pressed(vk_space)){
 	spd = -10;
 }
+y = clamp(y,570.5,940.5)
 //x++
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
