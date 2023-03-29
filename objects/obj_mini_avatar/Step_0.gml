@@ -1,14 +1,26 @@
 //if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany and obj_Battle_Interface.phase_battle = PHASES.Atack){
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+//hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+//vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-x += hInput * spd;
-y += vInput * spd;
+//x += hInput * spd;
+//y += vInput * spd;
 
-spd += grv
-y += spd
+
+if (place_meeting(x,y-10,invis_wall))
+{
+	spd = 0;
+	y += spd;
+} else 
+	{	
+	spd += grv
+	y += spd;
+	}
+
+if (keyboard_check_pressed(vk_space)){
+	spd = -10;
+}
 //x++
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
@@ -104,9 +116,7 @@ switch (keyboard_key)
 }
 }
 #endregion
-if (keyboard_check_pressed(vk_space)){
-	spd = -10;
-}
+
 alarm[1] -= 1;
 alarm[4] -= 1;
 switch(obj_Battle_Interface.enemies){
