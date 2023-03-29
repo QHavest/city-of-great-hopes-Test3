@@ -164,6 +164,7 @@
     {"name":"spr_continue_eng_l","order":6,"path":"sprites/spr_continue_eng_l/spr_continue_eng_l.yy",},
     {"name":"snd_pillow","order":1,"path":"sounds/snd_pillow/snd_pillow.yy",},
     {"name":"spr_leftarr","order":1,"path":"sprites/spr_leftarr/spr_leftarr.yy",},
+    {"name":"scr_help_minigame","order":7,"path":"scripts/scr_help_minigame/scr_help_minigame.yy",},
     {"name":"spr_gastroseller_active","order":2,"path":"sprites/spr_gastroseller_active/spr_gastroseller_active.yy",},
     {"name":"obj_success","order":1,"path":"objects/obj_success/obj_success.yy",},
     {"name":"spr_bomz_ssuklo","order":7,"path":"sprites/spr_bomz_ssuklo/spr_bomz_ssuklo.yy",},

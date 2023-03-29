@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_money_battle",
-  "bbox_bottom": 62,
+  "bbox_bottom": 53,
   "bbox_left": 0,
   "bbox_right": 236,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1326a6f-8ee0-435c-98df-1df8692e3441",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"965b6646-ff0a-4d21-845f-941672e25b3a",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 63,
+  "height": 54,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"21833f8b-842d-4160-86eb-f71be44e02ef","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a8274cb-2491-4b82-a9b0-b8e141c462fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d1326a6f-8ee0-435c-98df-1df8692e3441","path":"sprites/spr_money_battle/spr_money_battle.yy",},},},"Disabled":false,"id":"022adbe5-8acd-4e05-b859-3ebbc7087c69","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"965b6646-ff0a-4d21-845f-941672e25b3a","path":"sprites/spr_money_battle/spr_money_battle.yy",},},},"Disabled":false,"id":"df9e3655-e9c7-442b-b149-b70725e31aed","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

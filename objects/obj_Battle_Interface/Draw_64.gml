@@ -34,44 +34,55 @@ if(battle_start = true){
 	// полоска hp ворогів
 	
 	//кнопки
-	if (system = 0){
-		if(global.LANGUAGE == "eng"){
-			draw_sprite_ext(asset_get_index("spr_" + button[1] + "Fight"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[2] + "Escape"), 0,  gui_W/12.95, gui_H/1.640, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, butt_invis);
-		} else if(global.LANGUAGE == "ua"){
-			draw_sprite_ext(asset_get_index("spr_" + button[1] + "Biy"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[2] + "Vtecha"), 0,  gui_W/12.95, gui_H/1.640, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, butt_invis);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, butt_invis);	
-		}
-	}
-	if(system = 1){
-	if(global.LANGUAGE == "eng"){
-			draw_sprite(asset_get_index("spr_" + button[1] + "Ratsy"), 0,  gui_W/12.95, gui_H/1.865);
-			draw_sprite(asset_get_index("spr_" + button[2] + "Cudgel"), 0,  gui_W/12.95, gui_H/1.640);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
-	} else if(global.LANGUAGE == "ua"){
-			draw_sprite(asset_get_index("spr_" + button[1] + "Krys"), 0,  gui_W/12.95, gui_H/1.865);
-			draw_sprite(asset_get_index("spr_" + button[2] + "Ytopurok"), 0,  gui_W/12.95, gui_H/1.640);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);	
-		}
-	}
-	if(system = 2){
-	if(global.LANGUAGE == "eng"){
-			draw_sprite(asset_get_index("spr_" + button[1] + "Fight"), 0,  gui_W/12.95, gui_H/1.865);
-			draw_sprite(asset_get_index("spr_" + button[2] + "Pay"), 0,  gui_W/12.95, gui_H/1.640);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
-	} else if(global.LANGUAGE == "ua"){
-			draw_sprite(asset_get_index("spr_" + button[1] + "Biy"), 0,  gui_W/12.95, gui_H/1.865);
-			draw_sprite(asset_get_index("spr_" + button[2] + "Viddaty"), 0,  gui_W/12.95, gui_H/1.640);
-			draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
-			draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);	
-		}
+switch(global.LANGUAGE)
+	{
+		case "eng":
+			switch(system)
+			{
+				case 0:
+				    draw_sprite_ext(asset_get_index("spr_" + button[1] + "Fight"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[2] + "Escape"), 0,  gui_W/12.95, gui_H/1.640, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
+				break;
+				case 1:
+					draw_sprite(asset_get_index("spr_" + button[1] + "Ratsy"), 0,  gui_W/12.95, gui_H/1.865);
+					draw_sprite(asset_get_index("spr_" + button[2] + "Cudgel"), 0,  gui_W/12.95, gui_H/1.640);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
+				break;
+				case 2:
+					draw_sprite(asset_get_index("spr_" + button[1] + "Fight"), 0,  gui_W/12.95, gui_H/1.865);
+					draw_sprite(asset_get_index("spr_" + button[2] + "Pay"), 0,  gui_W/12.95, gui_H/1.640);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
+				break;
+			}
+		break;
+		case "ua":
+			switch(system)
+			{
+				case 0:
+					draw_sprite_ext(asset_get_index("spr_" + button[1] + "Biy"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[2] + "Vtecha"), 0,  gui_W/12.95, gui_H/1.640, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, butt_invis);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);	
+				break;
+				case 1:
+					draw_sprite(asset_get_index("spr_" + button[1] + "Krys"), 0,  gui_W/12.95, gui_H/1.865);
+					draw_sprite(asset_get_index("spr_" + button[2] + "Ytopurok"), 0,  gui_W/12.95, gui_H/1.640);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
+				break;
+				case 2:
+					draw_sprite(asset_get_index("spr_" + button[1] + "Biy"), 0,  gui_W/12.95, gui_H/1.865);
+					draw_sprite(asset_get_index("spr_" + button[2] + "Viddaty"), 0,  gui_W/12.95, gui_H/1.640);
+					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
+					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
+				break;
+			}
+		break;
+		
 	}
 	/////////////////////////ДОПОМОГА З МІНІІГРАМИ/////////////////////////////////////
 	switch(games)
@@ -79,19 +90,7 @@ if(battle_start = true){
 		case true:
 			draw_set_font(font_azariya_textbox_2)
 			draw_set_color(c_gray);
-			switch (enemies){
-				case ENEMY.Narkomany :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, st_text_torchky, stringHeight_torchky, 250);
-				break;
-				case ENEMY.Kavkazci :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrow Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Sectants :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 250);
-				case ENEMY.Hopniki :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 250);
-				break;
-			}
+			scr_help_minigame()
 		break;
 		
 		case false:
@@ -101,43 +100,43 @@ if(battle_start = true){
 				case ENEMY.Narkomany :
 					if (flash_state) {
 					draw_set_alpha(0.5); 
-					draw_text_ext(gui_W/1.257, gui_H/1.66, st_text_torchky, stringHeight_torchky, 250);
+					scr_help_minigame_wait();
 					draw_set_alpha(1);
 					} else 
 						{
-							draw_text_ext(gui_W/1.257, gui_H/1.66, st_text_torchky, stringHeight_torchky, 250);
+							scr_help_minigame_wait();
 							draw_set_alpha(1);
 						}
 				break;
 				case ENEMY.Kavkazci :
 					if (flash_state) {
 					draw_set_alpha(0.5); 
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'W' or 'Arrow S' and 'Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 250);
+					scr_help_minigame_wait();
 					draw_set_alpha(1);
 					} else 
 						{
-							draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'W' or 'Arrow S' and 'Up' or 'Arrow Down' to start the fight. Dodge USSR symbolic.", stringHeight_torchky, 250);
+							scr_help_minigame_wait();
 							draw_set_alpha(1);
 						}
 				break;
 				case ENEMY.Sectants :
 					if (flash_state) {
 					draw_set_alpha(0.5); 
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 250);
+					scr_help_minigame_wait();
 					draw_set_alpha(1);
 					} else 
 						{
-							draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'WASD' or 'Arrows' to start the fight. Dodge crosses that falls from the sky.", stringHeight_torchky, 250);
+							scr_help_minigame_wait();
 							draw_set_alpha(1);
 						}
 				case ENEMY.Hopniki :
 					if (flash_state) {
 					draw_set_alpha(0.5); 
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 250);
+					scr_help_minigame_wait();
 					draw_set_alpha(1);
 					} else 
 						{
-							draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'WASD' or 'Arrows' to start the fight. Dodge knives.", stringHeight_torchky, 250);
+							scr_help_minigame_wait();
 							draw_set_alpha(1);
 						}
 		
@@ -150,12 +149,10 @@ if(battle_start = true){
 				}
 		break;
 	}
-	if(mini_game = true){
-	
-	}
+
 	
 	//відмалювання грошей на екрані
-		draw_sprite(spr_money_battle,0,gui_W/1.260, gui_H/1.88);
+		draw_sprite(spr_money_battle,0,gui_W/1.260, gui_H/1.86);
 		draw_set_font(font_azariya_textbox)
 		draw_text_ext(gui_W/1.18, gui_H/1.80,global.money, stringHeight_torchky, 238);
 		

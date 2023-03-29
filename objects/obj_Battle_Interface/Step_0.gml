@@ -72,22 +72,11 @@ if(battle_turn_down = true and alarm[2] < 1){
 	light_bi = 0;
 	}*/
 if (mini_game = true and games = false){
-		//instance_deactivate_object(obj_dim_player1);
-		//instance_deactivate_object(obj_dim_player2);
 		instance_deactivate_object(obj_mini_avatar);
-		//instance_deactivate_object(obj_sssr);
-		//instance_deactivate_object(obj_background_mini);
-		//instance_deactivate_object(obj_shprutz_parent);
-		//instance_deactivate_object(obj_sects);
-		//instance_deactivate_object(wall);
 		instance_deactivate_object(obj_wall_sect);
-		//instance_deactivate_object(daycycle);
-		//instance_deactivate_object(obj_mini_ytopur);
-		//instance_deactivate_object(obj_mini_krus);
-		//instance_deactivate_object(obj_hopnik);
 }
 //mini-game
-if (mini_game == true){
+if (mini_game == true or game_over_mini = true){
 	BDialogue = false;	
 	
 	for(i = 1; i < 5; i++){
@@ -124,22 +113,20 @@ if(alarm[2] > 150) exit;
 amount_hp_enemy = amount_hp_enemy - (damage_enemy/100*279);
 }*/
 //button
-if(system == 0 and mini_game == false and BDialogue == false){
-	//instance_activate_object(obj_background_mini);
-	//obj_background_mini.index_minigame_back = 2;
+if(system == 0 and mini_game == false and BDialogue == false and game_over_mini == false){
 	butt_invis = 1;
-
-	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
+	button[button_c] = "L";
+	if( keyboard_check_pressed(vk_down)){
 		button_c++;
-		if(button_c == 5){ button[4] = "D";}
-		if(button_c == 5){ button_c = 1}	
+		if(button_c == 4){ button[3] = "D";}////<<<<тут потрібно button_c == 5 і button[4], щоб вибрати варіант діалоги
+		if(button_c == 4){ button_c = 1}	////<<<<тут потрібно встановити button_c == 5 , щоб вибрати варіант діалоги
 		button[button_c] = "L";
 		button[button_c-1] = "D";
 	}
-	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
+	if(keyboard_check_pressed(vk_up)){
 		button_c--;
 		if(button_c == 0){ button[1] = "D"}	
-		if(button_c == 0){ button_c = 4}	
+		if(button_c == 0){ button_c = 3}////<<<<тут потрібно встановити (4), щоб вибрати варіант діалоги
 		button[button_c] = "L";	
 		button[button_c+1] = "D";
 	}
@@ -155,9 +142,8 @@ if(system == 0 and mini_game == false and BDialogue == false){
 		var chance_option2 = random_number < 100;
 		//var chance_option3 = 20;
 		switch (random_number < 100) {
-		    case (chance_option1):
-				show_debug_message("test 1 vasriant");
-			        //draw_sprite(spr_successENG, 0,  gui_W/4.918, gui_H/1.928);
+		    case (chance_option1)://ВТЕЧА ВДАЛАСЯ
+
 				instance_destroy(obj_wait);
 				instance_create_depth(466,570,-600,obj_success);
 				instance_destroy(obj_shprutz_dow1);
@@ -165,10 +151,9 @@ if(system == 0 and mini_game == false and BDialogue == false){
 				instance_deactivate_object(obj_mini_avatar);
 				instance_deactivate_object(wall);
 				instance_destroy(obj_shprutz_parent);
-				obj_Battle_Interface.mini_game = false;
+				mini_game = false;
 		        break;
-		    case (chance_option2):
-				show_debug_message("test 2 vasriant");
+		    case (chance_option2)://ЙДЕМО БИТИСЯ
 				mini_game = true;
 				games = true;
 				phase_battle = PHASES.Atack;
@@ -221,14 +206,14 @@ if(system == 0 and mini_game == false and BDialogue == false){
 }
 
 if(system = 1) {
-	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
+	if(keyboard_check_pressed(vk_down)){
 		button_c++;
 		button[button_c-1] = "D";
 		if(button_c = 3){ button_c = 1}	
 		button[button_c] = "L";
 	}
 	//To left
-	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
+	if(keyboard_check_pressed(vk_up)){
 		button_c--;
 		if(button_c = 0){ button[1] = "D"}
 		if(button_c = 0){ button_c = 2}		
@@ -345,14 +330,14 @@ if(system = 1) {
 }	
 
 if(system = 2) {
-	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down)){
+	if(keyboard_check_pressed(vk_down)){
 		button_c++;
 		button[button_c-1] = "D";
 		if(button_c = 3){ button_c = 1}	
 		button[button_c] = "L";
 	}
 	//To left
-	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){
+	if(keyboard_check_pressed(vk_up)){
 		button_c--;
 		if(button_c = 0){ button[1] = "D"}
 		if(button_c = 0){ button_c = 2}		
@@ -367,6 +352,8 @@ if(system = 2) {
 		//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців
 		if (pay < global.money){
 		instance_destroy(obj_wait);
+		mini_game = false;
+		system = 0;
 		instance_create_depth(466,570,-600,obj_goodbyemoney)
 		} else 
 			{
@@ -411,14 +398,14 @@ if(system = 2) {
 
 if(BDialogue = true){
 	instance_destroy(obj_wait);
-	if(keyboard_check_pressed(ord("S")) ||  keyboard_check_pressed(vk_down) and alarm[2] < 1){
+	if(keyboard_check_pressed(vk_down) and alarm[2] < 1){
 		button_c++;
 		varcol[button_c-1] = c_gray;
 		if(button_c = 4){ button_c = 1 }	
 		varcol[button_c] = c_orange;
 	}
 	//To left
-	if(keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up) and alarm[2] < 1){
+	if(keyboard_check_pressed(vk_up) and alarm[2] < 1){
 		button_c--;
 		if(button_c = 0){ varcol[1] = c_gray }
 		if(button_c = 0){ button_c = 3 }

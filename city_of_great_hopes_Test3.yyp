@@ -2364,6 +2364,7 @@
     {"id":{"name":"spr_leftarr","path":"sprites/spr_leftarr/spr_leftarr.yy",},},
     {"id":{"name":"spr_komod1","path":"sprites/spr_komod1/spr_komod1.yy",},},
     {"id":{"name":"spr_ic_Myroslav_bilui","path":"sprites/spr_ic_Myroslav_bilui/spr_ic_Myroslav_bilui.yy",},},
+    {"id":{"name":"scr_help_minigame","path":"scripts/scr_help_minigame/scr_help_minigame.yy",},},
     {"id":{"name":"spr_krus_end_smok","path":"sprites/spr_krus_end_smok/spr_krus_end_smok.yy",},},
     {"id":{"name":"Font_for_draw_mazur2","path":"fonts/Font_for_draw_mazur2/Font_for_draw_mazur2.yy",},},
     {"id":{"name":"spr_gastroseller_active","path":"sprites/spr_gastroseller_active/spr_gastroseller_active.yy",},},

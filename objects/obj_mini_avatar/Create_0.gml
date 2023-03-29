@@ -35,7 +35,7 @@ damage_timer = 0;
 //light_bi = 0;
 power_hit = 0;
 ////Гопніки
-
+death_gg = 0;
 hsp = 15;
 vsp = 15;
 

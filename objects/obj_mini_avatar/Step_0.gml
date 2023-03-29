@@ -104,7 +104,7 @@ switch (keyboard_key)
 }
 }
 #endregion
-if (keyboard_check_pressed(ord("W"))){
+if (keyboard_check_pressed(vk_space)){
 	spd = -10;
 }
 alarm[1] -= 1;
@@ -182,12 +182,10 @@ switch (obj_Battle_Interface.phase_battle){
 	obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Hit;
 	}
 	
-	if (global.MaxHp <= 50 and obj_ytopur_battle.phasese != PHASESE.Defeat2){
-
-	obj_ytopur_battle.phasese = PHASESE.Defeat;
-	//obj_ytopur_battle.image_index = 0;
-	}else if (global.MaxHp <= 0 and obj_ytopur_battle.phasese == PHASESE.Defeat2){
-	obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
+	if (global.MaxHp <= 50 and death_gg == 0){
+		alarm[10] = 1;
+	}else if (global.MaxHp <= 0 and death_gg == 1){
+		alarm[11] = 1;
 	}
 if(alarm[1] < 1){
 	obj_Battle_Interface.light_bi = 0;
