@@ -4,6 +4,7 @@
     {"name":"Battle_system","order":11,"path":"folders/Battle_system.yy",},
     {"name":"Dialogue","order":5,"path":"folders/Battle_system/buttons/Dialogue.yy",},
     {"name":"Fone","order":2,"path":"folders/Battle_system/Fone.yy",},
+    {"name":"Obvodka","order":3,"path":"folders/Battle_system/Screen/Obvodka.yy",},
     {"name":"Day_Night","order":12,"path":"folders/Day_Night.yy",},
     {"name":"Dialogs","order":13,"path":"folders/Dialogs.yy",},
     {"name":"Diary","order":14,"path":"folders/Diary.yy",},
@@ -35,7 +36,6 @@
     {"name":"Tile Sets","order":30,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":31,"path":"folders/Timelines.yy",},
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
-    {"name":"Obvodka","order":3,"path":"folders/Battle_system/Screen/Obvodka.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
@@ -55,6 +55,7 @@
     {"name":"spr_stol_velosuped","order":9,"path":"sprites/spr_stol_velosuped/spr_stol_velosuped.yy",},
     {"name":"seq_kino","order":2,"path":"sequences/seq_kino/seq_kino.yy",},
     {"name":"spr_madam_1","order":2,"path":"sprites/spr_madam_1/spr_madam_1.yy",},
+    {"name":"spr_down_obvodka_wall","order":2,"path":"sprites/spr_down_obvodka_wall/spr_down_obvodka_wall.yy",},
     {"name":"spr_hero2_active","order":15,"path":"sprites/spr_hero2_active/spr_hero2_active.yy",},
     {"name":"updatelayer","order":8,"path":"scripts/updatelayer/updatelayer.yy",},
     {"name":"spr_hero1_3","order":5,"path":"sprites/spr_hero1_3/spr_hero1_3.yy",},

@@ -72,6 +72,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Battle_system/NPC/Torchiill/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Screen","folderPath":"folders/Battle_system/Screen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"English","folderPath":"folders/Battle_system/Screen/English.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obvodka","folderPath":"folders/Battle_system/Screen/Obvodka.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"screens","folderPath":"folders/Battle_system/screens.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mini_screen","folderPath":"folders/Battle_system/screens/Mini_screen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Battle_system/Sound.yy",},
@@ -359,7 +360,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obvodka","folderPath":"folders/Battle_system/Screen/Obvodka.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -705,6 +705,7 @@
     {"id":{"name":"spr_mebli_gg","path":"sprites/spr_mebli_gg/spr_mebli_gg.yy",},},
     {"id":{"name":"sp_okorochok01","path":"sprites/sp_okorochok01/sp_okorochok01.yy",},},
     {"id":{"name":"obj_kassa_tickets","path":"objects/obj_kassa_tickets/obj_kassa_tickets.yy",},},
+    {"id":{"name":"spr_down_obvodka_wall","path":"sprites/spr_down_obvodka_wall/spr_down_obvodka_wall.yy",},},
     {"id":{"name":"spr_ic_Krus_feelsBad","path":"sprites/spr_ic_Krus_feelsBad/spr_ic_Krus_feelsBad.yy",},},
     {"id":{"name":"spr_butcher_stay","path":"sprites/spr_butcher_stay/spr_butcher_stay.yy",},},
     {"id":{"name":"Font4","path":"fonts/Font4/Font4.yy",},},
