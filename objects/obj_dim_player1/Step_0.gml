@@ -94,12 +94,22 @@ if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false
 
 //система записування координат проходження
 if (x!= xprevious or y!= yprevious){
-	for(var i = array_size-1; i > 0; i--){
+	for(var i = array_size-1; i > 0; i--)
+	{
 		posX[i] = posX[i-1];
 		posY[i] = posY[i-1];
-		if status = STATUS.ACTIVE audio_listener_set_position(0,x,y,0);
 	}	
+					//для швидкості 2.5
+		
 	posX[0] = x;
 	posY[0] = y;
+	if status = STATUS.ACTIVE 
+	{
+		if krok krok = 0;
+		else krok = 1;
+		obj_dim_player2.krok = !krok;
+		audio_listener_set_position(0,x,y,0);
+	}
+	
 }
 
