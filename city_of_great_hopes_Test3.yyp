@@ -359,6 +359,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obvodka","folderPath":"folders/Battle_system/Screen/Obvodka.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -849,6 +850,7 @@
     {"id":{"name":"sp_cukor_eng","path":"sprites/sp_cukor_eng/sp_cukor_eng.yy",},},
     {"id":{"name":"spr_LPay","path":"sprites/spr_LPay/spr_LPay.yy",},},
     {"id":{"name":"obj_Gastseller_Tyhlya","path":"objects/obj_Gastseller_Tyhlya/obj_Gastseller_Tyhlya.yy",},},
+    {"id":{"name":"spr_up_obvodka","path":"sprites/spr_up_obvodka/spr_up_obvodka.yy",},},
     {"id":{"name":"obj_sectants","path":"objects/obj_sectants/obj_sectants.yy",},},
     {"id":{"name":"spr_container_scena_9","path":"sprites/spr_container_scena_9/spr_container_scena_9.yy",},},
     {"id":{"name":"obj_krus_pillow_scena5","path":"objects/obj_krus_pillow_scena5/obj_krus_pillow_scena5.yy",},},
@@ -1560,6 +1562,7 @@
     {"id":{"name":"spr_sektant_stay_right","path":"sprites/spr_sektant_stay_right/spr_sektant_stay_right.yy",},},
     {"id":{"name":"spr_wait","path":"sprites/spr_wait/spr_wait.yy",},},
     {"id":{"name":"spr_box_container","path":"sprites/spr_box_container/spr_box_container.yy",},},
+    {"id":{"name":"spr_down_obvodka","path":"sprites/spr_down_obvodka/spr_down_obvodka.yy",},},
     {"id":{"name":"spr_golub_ide_R","path":"sprites/spr_golub_ide_R/spr_golub_ide_R.yy",},},
     {"id":{"name":"scr_change_sound_vol","path":"scripts/scr_change_sound_vol/scr_change_sound_vol.yy",},},
     {"id":{"name":"obj_culture_column_1l","path":"objects/obj_culture_column_1l/obj_culture_column_1l.yy",},},

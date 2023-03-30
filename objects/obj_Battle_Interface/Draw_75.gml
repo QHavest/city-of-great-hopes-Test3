@@ -1,4 +1,19 @@
 if(battle_start = true){
+	switch(obj_Battle_Interface.enemies){
+		case ENEMY.Narkomany :
+			draw_sprite(spr_up_obvodka, 0, gui_W/4.21, gui_H/12.00);
+		break;
+		case ENEMY.Kavkazci :
+			draw_sprite(spr_up_obvodka, 1, gui_W/4.21, gui_H/1.928);
+		break;
+		case ENEMY.Sectants :
+			draw_sprite(spr_up_obvodka, 2, gui_W/4.21, gui_H/1.928);
+		break;
+		case ENEMY.Hopniki :
+			draw_sprite(spr_up_obvodka, 3, gui_W/4.21, gui_H/1.928);
+		break;
+		}
+	
 	obj_dim_player1.visible = false;
 	obj_dim_player2.visible = false;
 	draw_sprite(spr_hpRed, 0, gui_W/1.283, gui_H/1.223);

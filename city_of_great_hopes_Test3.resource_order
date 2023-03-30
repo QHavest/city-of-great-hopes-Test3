@@ -35,6 +35,7 @@
     {"name":"Tile Sets","order":30,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":31,"path":"folders/Timelines.yy",},
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
+    {"name":"Obvodka","order":3,"path":"folders/Battle_system/Screen/Obvodka.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
@@ -119,6 +120,7 @@
     {"name":"obj_balkon_2","order":2,"path":"objects/obj_balkon_2/obj_balkon_2.yy",},
     {"name":"spr_main_menu_ukr_d","order":19,"path":"sprites/spr_main_menu_ukr_d/spr_main_menu_ukr_d.yy",},
     {"name":"spr_settings_eng_l","order":9,"path":"sprites/spr_settings_eng_l/spr_settings_eng_l.yy",},
+    {"name":"spr_down_obvodka","order":1,"path":"sprites/spr_down_obvodka/spr_down_obvodka.yy",},
     {"name":"pth_mam_sun2","order":3,"path":"paths/pth_mam_sun2/pth_mam_sun2.yy",},
     {"name":"Sprite1802","order":8,"path":"sprites/Sprite1802/Sprite1802.yy",},
     {"name":"par_depthobject","order":4,"path":"objects/par_depthobject/par_depthobject.yy",},

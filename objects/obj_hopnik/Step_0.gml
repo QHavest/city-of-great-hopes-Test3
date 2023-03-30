@@ -58,7 +58,7 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 5){
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 6 and alarm[0] < 1){
-	knife_spd = 15;
+	knife_spd = 40;
 	first = instance_create_depth(1248, 312, 150, obj_nozh);
 	second = instance_create_depth(310, 1200, 150, obj_nozh);
 	third = instance_create_depth(1504, 800, 150, obj_nozh_vert);
@@ -94,7 +94,7 @@ randomiser = true;
 
 if(randomiser = true){
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert)){
-	knife_spd = 20;
+	knife_spd = 40;
 	random_attack = irandom_range(1, 6);
 }
 
