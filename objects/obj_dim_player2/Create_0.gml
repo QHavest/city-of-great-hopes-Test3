@@ -9,7 +9,7 @@ playernum = 2;
 status = STATUS.PASSIVE;
 s_walk = snd_walk;
 InRoomMode = false;
-
+krok=0;
 
 sprit = "Krus";
 in_place = 0;
@@ -34,7 +34,7 @@ state=PLAYERSTATE.FREE;
 
 
 //Частина 1 системи слідкування за героєм
-array_size = 15;
+array_size = 20;
 for(var i = array_size-1; i >= 0; i--){
 	posX[i] = x;
 	posY[i] = y;
