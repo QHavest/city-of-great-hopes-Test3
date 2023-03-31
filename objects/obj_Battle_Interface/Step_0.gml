@@ -87,7 +87,7 @@ if (mini_game == true or game_over_mini = true){
 	
 }
 #region ЗАПУСК МІНІ ГРИ ПРИ ПЕРШОМУ ЗАПУСКУ
-if (mini_game = true and games = false and battle_start = true and keyboard_check_released(ord("W"))){
+if (mini_game = true and games = false and battle_start = true and (keyboard_check_released(vk_enter) or keyboard_check_released(vk_up) or keyboard_check_released(vk_down))){
 			hp_enemies = true;//включення хп полосок ворогів
 			games = true;
 			obj_ytopur_battle.image_index = 0;
