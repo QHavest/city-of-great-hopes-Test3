@@ -6,7 +6,11 @@ if ( sprite_index=asset_get_index("spr_"+sprit+"_sit_lav_"+lav_num) and scr_dim_
 	sprite_index=asset_get_index("spr_"+sprit+"_lavka_"+lav_num);;
 }
 //щоб запустити анімацію вставання
-if keyboard_check(ord("Q")) sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num);
+if keyboard_check(ord("Q"))
+{
+image_index=0;
+sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num);
+}
 // коли встали з лавки даєм свободу гравцю
 if sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num) and scr_dim_animation_end(sprite_index) 
 {

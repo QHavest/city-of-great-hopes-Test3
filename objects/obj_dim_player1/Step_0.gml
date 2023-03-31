@@ -105,9 +105,9 @@ if (x!= xprevious or y!= yprevious){
 	posY[0] = y;
 	if status = STATUS.ACTIVE 
 	{
-		if krok krok = 0;
-		else krok = 1;
-		obj_dim_player2.krok = !krok;
+		//if krok krok = 0;
+		//else krok = 1;
+		//obj_dim_player2.krok = !krok;
 		audio_listener_set_position(0,x,y,0);
 	}
 	
