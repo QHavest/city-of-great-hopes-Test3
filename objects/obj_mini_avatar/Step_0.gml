@@ -1,5 +1,49 @@
 //if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
+switch(obj_Battle_Interface.phase_battle){
+	case PHASES.Atack:
+		switch(obj_Battle_Interface.enemies){
+			case ENEMY.Kavkazci :
+			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
+			{
+				obj_mini_avatar.index_avatar = 2;
+			} else {obj_mini_avatar.index_avatar = 3;}
+			break;
+			case ENEMY.Sectants :
+			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
+			{
+				obj_mini_avatar.index_avatar = 4;
+			} else {obj_mini_avatar.index_avatar = 5;}
+			break;
+			case ENEMY.Hopniki :
+			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
+			{
+				obj_mini_avatar.index_avatar = 6;
+			} else {obj_mini_avatar.index_avatar = 7;}
+			break;
+			case ENEMY.Narkomany :
+			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
+			{
+				obj_mini_avatar.index_avatar = 0;
+			} else {obj_mini_avatar.index_avatar = 1;}
+				
+			break;
+			}
+	break;
+	case PHASES.Defence:
+		switch(obj_Battle_Interface.aliens){
+			case ALIES.Krus_mini:
+				obj_mini_avatar.index_avatar = 7;
+			break;
+			case ALIES.Ytopurok_mini:
+				obj_mini_avatar.index_avatar = 6;
+			break;	
+			}	
+	break;
+}
+		
+
+
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany and obj_Battle_Interface.phase_battle = PHASES.Atack){
 	spd += grv
 	y += spd;

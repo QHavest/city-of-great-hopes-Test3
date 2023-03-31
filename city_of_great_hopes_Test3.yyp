@@ -76,6 +76,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"screens","folderPath":"folders/Battle_system/screens.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mini_screen","folderPath":"folders/Battle_system/screens/Mini_screen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Battle_system/Sound.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Battle_system/UI.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Health","folderPath":"folders/Battle_system/UI/Health.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Day_Night","folderPath":"folders/Day_Night.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lighting","folderPath":"folders/Day_Night/Lighting.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogs","folderPath":"folders/Dialogs.yy",},
@@ -360,8 +362,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Battle_system/UI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Health","folderPath":"folders/Battle_system/UI/Health.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
