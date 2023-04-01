@@ -27,16 +27,26 @@ if sprite_index=GG_spr and scr_dim_animation_end(sprite_index)
 {
 	global.zaniatui = false;
 	with (obj_dim_player1){
-state=PLAYERSTATE.FREE;
-start=0;
-in_place=0;
-	status=STATUS.ACTIVE
+		state=PLAYERSTATE.FREE;
+		start=0;
+		in_place=0;
+		if last_active = true
+		{	
+			status = STATUS.ACTIVE;
+			last_active = 0;
+		}
+		else status = STATUS.PASSIVE;
 	}
 	with (obj_dim_player2){
-state=PLAYERSTATE.FREE;
-start=0;
-in_place=0;
-status=STATUS.PASSIVE
+		state=PLAYERSTATE.FREE;
+		start=0;
+		in_place=0;
+		if last_active = true
+		{
+			status = STATUS.ACTIVE;
+			last_active = 0;
+		}
+		else status = STATUS.PASSIVE;
 	}
 	//global.dialogue_move = false;
 }

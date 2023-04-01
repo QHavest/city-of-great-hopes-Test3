@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// Inherit the parent event
-event_inherited();
-depth=0;
-an=false;
+if sprite_index=spr_tyshonka_sell 
+{
+	depth=-3;
+	an=1;	
+}

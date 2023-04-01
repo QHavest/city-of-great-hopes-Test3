@@ -9,5 +9,20 @@ start=0;
 obj_dim_player1.in_place=0;
 obj_dim_player2.in_place=0;
 obj_water.visible=true
+with (obj_dim_player1)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+last_active = 0;
+}}
+
+with (obj_dim_player2)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+last_active = 0;
+}}
 }
 }
