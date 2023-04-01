@@ -23,6 +23,7 @@ if(keyboard_check_pressed(ord("P"))){
 }
 if(keyboard_check_pressed(ord("O"))){
 	battle_start = true;
+
 	enemies = ENEMY.Hopniki
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
@@ -132,7 +133,16 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 			button[button_c+1] = "D";
 		}
 	if(button[1] = "L" and keyboard_check_released(vk_enter)){
-		alarm[3] = 1;//system = 1;
+		
+		switch(phase_battle)
+		{
+			case PHASES.Atack:
+				alarm[5] = 1;//start_fight
+			break;
+			case PHASES.Defence:
+				alarm[3] = 1;//system = 1;
+			break;
+		}
 	} 
 	if(button[2] = "L" and keyboard_check_released(vk_enter)){
 	//!!!!!!!!!!!!!!!!Тут будуть розписані шанси на втечу!!!!!!!!!!!!!!!!!!!!!111
@@ -208,10 +218,11 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 switch(system)
 {
 	case 1:
+	if (obj_ytopur_battle.phasese != PHASESE.Defeat2){
 		if( keyboard_check_pressed(vk_down)){
 			button_c++;
 			button[button_c-1] = "D";
-			if(button_c = 3){ button_c = 1}	
+			if(button_c = 3){ button_c = 1}	//button_c = 1
 			button[button_c] = "L";
 		}
 		if(keyboard_check_pressed(vk_up)){
@@ -220,6 +231,10 @@ switch(system)
 			if(button_c = 0){ button_c = 2}		
 			button[button_c] = "L";	
 			button[button_c+1] = "D";
+		}
+	} else 
+		{
+				button[2] = "L";
 		}
 		//кнопка відповідає за запуск міні гри за утопирка//
 		if(button[1] = "L" and keyboard_check_released(vk_enter)){
@@ -257,28 +272,23 @@ switch(system)
 					switch(enemies){
 						case ENEMY.Narkomany :
 						aliens = ALIES.Noone;
-						//obj_ytopur_battle.phasese = PHASESE.Battle;
 						instance_create_depth(466,570,-600,obj_screen_gamestart)	
 						break;
 						case ENEMY.Kavkazci :
 						aliens = ALIES.Noone;
-					//	obj_ytopur_battle.phasese = PHASESE.Battle;
 						instance_create_depth(466,570,-600,obj_screen_gamestart)	
 						break;
 						case ENEMY.Sectants :
 						aliens = ALIES.Noone;
-						//obj_ytopur_battle.phasese = PHASESE.Battle;
 						instance_create_depth(466,570,-600,obj_screen_gamestart)	
 						break;
 						case ENEMY.Hopniki :
 						aliens = ALIES.Noone;
-						//obj_ytopur_battle.phasese = PHASESE.Battle;
 						instance_create_depth(466,570,-600,obj_screen_gamestart)	
 						break;
 						}
 				break;
 				case PHASES.Defence:
-				
 					aliens = ALIES.Ytopurok_mini;
 					instance_create_depth(466,570,-600,obj_screen_gamestart)
 				break;
@@ -328,6 +338,7 @@ switch(system)
 		} 
 		if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("Q"))){
 			system = 0;
+			button[button_c] = "L";	
 		}
 	break;
 	case 2:

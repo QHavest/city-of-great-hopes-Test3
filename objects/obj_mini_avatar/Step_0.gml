@@ -16,10 +16,11 @@ switch(obj_Battle_Interface.phase_battle){
 			} else {obj_mini_avatar.index_avatar = 5;}
 			break;
 			case ENEMY.Hopniki :
-			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
+			obj_mini_avatar.index_avatar = 7;
+			/*if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
 			{
 				obj_mini_avatar.index_avatar = 6;
-			} else {obj_mini_avatar.index_avatar = 7;}
+			} else {obj_mini_avatar.index_avatar = 7;}*/
 			break;
 			case ENEMY.Narkomany :
 			if (obj_ytopur_battle.phasese != PHASESE.Defeat2)
@@ -50,7 +51,7 @@ if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENE
 	if (keyboard_check_pressed(vk_space)){
 		spd = -10;
 	}
-	y = clamp(y,570.5,940.5)
+	y = clamp(y,578,932)
 }
 if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);

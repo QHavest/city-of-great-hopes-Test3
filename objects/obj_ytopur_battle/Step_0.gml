@@ -3,7 +3,7 @@ switch(obj_Battle_Interface.enemies){
 			scr_ytopur_phases()		
 		break;
 		case ENEMY.Hopniki:
-			scr_ytopur_phases()
+			//scr_ytopur_phases()
 		break;
 		case ENEMY.Sectants:
 			scr_ytopur_phases()

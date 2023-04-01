@@ -46,7 +46,9 @@ switch(global.LANGUAGE)
 					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
 				break;
 				case 1:
+				if (obj_ytopur_battle.phasese != PHASESE.Defeat2){
 					draw_sprite(asset_get_index("spr_" + button[1] + "Cudgel"), 0,  gui_W/12.95, gui_H/1.865);
+				} else {draw_sprite_ext(asset_get_index("spr_" + button[1] + "Cudgel"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, 0.5);}
 					draw_sprite(asset_get_index("spr_" + button[2] + "Ratsy"), 0,  gui_W/12.95, gui_H/1.640);
 					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Trade"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
 					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialogue"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
@@ -69,7 +71,9 @@ switch(global.LANGUAGE)
 					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);	
 				break;
 				case 1:
+				if (obj_ytopur_battle.phasese != PHASESE.Defeat2){
 					draw_sprite(asset_get_index("spr_" + button[1] + "Ytopurok"), 0,  gui_W/12.95, gui_H/1.865);
+				} else {draw_sprite_ext(asset_get_index("spr_" + button[1] + "Ytopurok"), 0,  gui_W/12.95, gui_H/1.865, 1, 1, 0, c_white, 0.5);}
 					draw_sprite(asset_get_index("spr_" + button[2] + "Krys"), 0,  gui_W/12.95, gui_H/1.640);
 					draw_sprite_ext(asset_get_index("spr_" + button[3] + "Torg"), 0,  gui_W/12.95, gui_H/1.465, 1, 1, 0, c_white, 0.5);
 					draw_sprite_ext(asset_get_index("spr_" + button[4] + "Dialog"), 0, gui_W/12.95, gui_H/1.320, 1, 1, 0, c_white, 0.5);
