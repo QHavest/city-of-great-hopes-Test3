@@ -1,3 +1,7 @@
+	if (obj_ytopur_battle.phasese == PHASESE.Defeat2)
+	{
+		alarm[9] = 1;
+	}
 	alarm [4] -= 1
 	if (alarm [4] < 1){
 	

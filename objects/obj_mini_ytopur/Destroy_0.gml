@@ -1,0 +1,11 @@
+instance_create_depth(466,570,-600,obj_wait);
+instance_destroy(obj_grusha_sml_up);
+instance_destroy(obj_grusha_sml_down);
+instance_destroy(obj_grusha_right);
+instance_destroy(obj_grusha_left);
+instance_destroy(obj_romb_up);
+instance_destroy(obj_romb_left);
+instance_destroy(obj_romb_right);
+instance_destroy(obj_romb_down);
+instance_deactivate_object(obj_mini_avatar);
+obj_Battle_Interface.phase_battle = PHASES.Atack;

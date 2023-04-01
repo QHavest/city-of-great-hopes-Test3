@@ -1,5 +1,6 @@
 //if(obj_Battle_Interface.mini_game = false) exit;
 image_index = index_avatar;
+
 switch(obj_Battle_Interface.phase_battle){
 	case PHASES.Atack:
 		switch(obj_Battle_Interface.enemies){

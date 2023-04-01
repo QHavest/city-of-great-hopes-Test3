@@ -14,15 +14,15 @@ if(battle_start = true){
 			draw_sprite(spr_battle_fones, 1, gui_W/(-400), gui_H/107);
 		break;
 		case ENEMY.Sectants:
-			draw_sprite(spr_battleI2, 0, gui_W/(-400), gui_H/107);
+			draw_sprite(spr_battle_fones, 6, gui_W/(-400), gui_H/107);
 		break;
 	}
 	
 	//мерехтілка
 	draw_sprite(spr_red_l,  light_bi, gui_W/1.242, gui_H/2.405);
 	
-	var maxs = global.MaxHp;
-	draw_text(0,0,maxs)
+	//var maxs = global.MaxHp;
+	//draw_text(0,0,maxs)
 	//draw_sprite(spr_screen, 0, gui_W/4, gui_H/2);
 	//draw_sprite(spr_background_narko, 0, gui_W/4, gui_H/2);
 
