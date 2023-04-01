@@ -207,7 +207,6 @@ if snd_count < snd_delay{
 			}
 			else {
 				global.dialog_end = 1;
-				
 				if please_shop_open=1 	scr_shop_open(shop_name);
 				else {
 				global.zaniatui = false;

@@ -11,7 +11,7 @@ keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 key_room_go = keyboard_check(ord("E"))
 }
 
-if(global.item_bought or global.dialogue_move or !global.dialog_end or global.shop) exit;
+if(global.dialogue_move or global.zaniatui or global.shop) exit;
 
 if (playernum == 2) {
 	//walk

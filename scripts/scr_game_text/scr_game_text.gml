@@ -150,8 +150,8 @@ else scr_text(scr_json_lang(global.LANGUAGE,"Kasa8"),2,spr_ic_Krus,spr_ic_kasa);
 
 break
 case "bying_tiket":
-	global.zn_Kasa = 1;
 	if(global.money >= 5) {
+		global.zn_Kasa = 1;
 for (var i = 0; i < 11; i++){
 	if(global.ds_inventory[# 0, i] = 0){
 		global.ds_inventory[# 0, i] = 53;

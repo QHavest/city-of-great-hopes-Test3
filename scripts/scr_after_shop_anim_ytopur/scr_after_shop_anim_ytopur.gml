@@ -3,7 +3,7 @@
 /// @param <seller_spr_breathe>
 /// @param <seller_obj>
 function scr_after_shop_anim_ytopur(GG_spr,sel_spr,sel_spr_def,sel_obj){
-
+global.zaniatui = true;
 if sel_spr=noone  
 {
 	if sprite_index!=GG_spr
@@ -25,15 +25,18 @@ else if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.i
 // chek end GG animation
 if sprite_index=GG_spr and scr_dim_animation_end(sprite_index) 
 {
+	global.zaniatui = false;
 	with (obj_dim_player1){
 state=PLAYERSTATE.FREE;
 start=0;
 in_place=0;
+	status=STATUS.ACTIVE
 	}
 	with (obj_dim_player2){
 state=PLAYERSTATE.FREE;
 start=0;
 in_place=0;
+status=STATUS.PASSIVE
 	}
 	//global.dialogue_move = false;
 }
