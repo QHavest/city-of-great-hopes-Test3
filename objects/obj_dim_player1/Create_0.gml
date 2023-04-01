@@ -1,7 +1,7 @@
 scr_Znaiomstvo();
 mask_index = sprite_index;
 walkspd = 3;
-runspd  = 3.5;
+runspd  = 5;
 collisionSpeed = 4;
 lastmove = 0;
 s_walk = snd_walk;

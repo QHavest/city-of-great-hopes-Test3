@@ -6,7 +6,7 @@ if a = 1
 	if a = 2
 {
 	a=1;
-	if irandom_range(0,1)
+	if irandom(1) 
 	{	sprite_index = spr_seller_watermelon_active;
 		}
 	else 
