@@ -779,6 +779,7 @@
     {"id":{"name":"spr_gop_2","path":"sprites/spr_gop_2/spr_gop_2.yy",},},
     {"id":{"name":"spr_telephone_budka","path":"sprites/spr_telephone_budka/spr_telephone_budka.yy",},},
     {"id":{"name":"obj_secretar","path":"objects/obj_secretar/obj_secretar.yy",},},
+    {"id":{"name":"obj_mozg_ai","path":"objects/obj_mozg_ai/obj_mozg_ai.yy",},},
     {"id":{"name":"spr_jentel_man_1","path":"sprites/spr_jentel_man_1/spr_jentel_man_1.yy",},},
     {"id":{"name":"obj_task1_npc1","path":"objects/obj_task1_npc1/obj_task1_npc1.yy",},},
     {"id":{"name":"rm_mapa","path":"rooms/rm_mapa/rm_mapa.yy",},},

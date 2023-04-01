@@ -59,6 +59,7 @@
     {"name":"spr_mama_right","order":15,"path":"sprites/spr_mama_right/spr_mama_right.yy",},
     {"name":"spr_hero2_4","order":8,"path":"sprites/spr_hero2_4/spr_hero2_4.yy",},
     {"name":"obj_ryadu_zadb","order":3,"path":"objects/obj_ryadu_zadb/obj_ryadu_zadb.yy",},
+    {"name":"obj_mozg_ai","order":4,"path":"objects/obj_mozg_ai/obj_mozg_ai.yy",},
     {"name":"spr_jentel_man_1","order":3,"path":"sprites/spr_jentel_man_1/spr_jentel_man_1.yy",},
     {"name":"spr_ic_Makedon","order":7,"path":"sprites/spr_ic_Makedon/spr_ic_Makedon.yy",},
     {"name":"spr_container_main_night","order":5,"path":"sprites/spr_container_main_night/spr_container_main_night.yy",},
