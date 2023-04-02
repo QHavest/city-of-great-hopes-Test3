@@ -6,7 +6,8 @@ var _objInst2 = instance_find(obj_mebli_gg_b,0);
 var _objInst3 = instance_find(obj_bed_cut,0);
 var _objInst4 = instance_find(obj_bottle_gg,0);
 
-var _sequence = Sequence1;
+if(global.LANGUAGE == "ua")	{var _sequence = Sequence1;}
+else {var _sequence = Sequence1_eng;}
 var _layerName = "Instances_obj";
 
 global.shop = true;

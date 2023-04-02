@@ -1700,6 +1700,7 @@
     {"id":{"name":"sp_okorochok_eng","path":"sprites/sp_okorochok_eng/sp_okorochok_eng.yy",},},
     {"id":{"name":"obj_sign_school_baby","path":"objects/obj_sign_school_baby/obj_sign_school_baby.yy",},},
     {"id":{"name":"obj_komod","path":"objects/obj_komod/obj_komod.yy",},},
+    {"id":{"name":"spr_rez_new","path":"sprites/spr_rez_new/spr_rez_new.yy",},},
     {"id":{"name":"obj_negative_hit","path":"objects/obj_negative_hit/obj_negative_hit.yy",},},
     {"id":{"name":"sp_moloko_eng","path":"sprites/sp_moloko_eng/sp_moloko_eng.yy",},},
     {"id":{"name":"obj_woman_1","path":"objects/obj_woman_1/obj_woman_1.yy",},},
