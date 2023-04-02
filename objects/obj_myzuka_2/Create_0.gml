@@ -3,3 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
+audio_falloff_set_model(audio_falloff_linear_distance);
+audio_play_sound_at(snd_myzuki,x,y,0,100,500,1,1,3,global.Fon_sound_gain);

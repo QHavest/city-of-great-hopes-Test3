@@ -8,3 +8,4 @@ if sprite_index=spr_bufet_sel2_sell
 {
 	depth=-3;
 }
+else depth=0;
