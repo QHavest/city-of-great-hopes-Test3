@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_bufet_seller",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bufet_sel2",
-    "path": "sprites/spr_bufet_sel2/spr_bufet_sel2.yy",
+    "name": "spr_bufet_sel2_sell",
+    "path": "sprites/spr_bufet_sel2_sell/spr_bufet_sel2_sell.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -18,6 +18,7 @@ else if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.i
 	{
 		sel_obj.image_index=0;
 		sel_obj.sprite_index=sel_spr_def;
+		if sel_obj.depth=-3 sel_obj.depth=0;
 		image_index=0;
 		sprite_index=GG_spr;
 	}

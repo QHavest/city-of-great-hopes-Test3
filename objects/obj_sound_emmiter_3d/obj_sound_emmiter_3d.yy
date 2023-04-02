@@ -12,7 +12,10 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -1,6 +1,6 @@
 
-if x>xprevious sprite_index = spr_mama_right;
-if x<xprevious sprite_index = spr_mama_left;
+//if x>xprevious sprite_index = spr_mama_right;
+//if x<xprevious sprite_index = spr_mama_left;
 
 
 

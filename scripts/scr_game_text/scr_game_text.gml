@@ -941,8 +941,8 @@ break
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),2,spr_ic_Krus,spr_ic_Ytopurok_l);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok,obj_fishery);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l,obj_fishery);
 	//scr_option("","By_Stiopa");
 	//break
 //	case "By_Stiopa":

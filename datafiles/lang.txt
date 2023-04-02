@@ -442,7 +442,7 @@
 
 		"Didu1": "Well, little goats - let's play on chessboards!",
 		"Didu2": "Moonshine and chess - what's not a pension for you... but first, live long enough to fuck around veterans for no reason!",
-		"Didu3": "I would play with you... but you are shitty amateurs.	",
+		"Didu3": "I would play with you... but you are shitty amateurs.",
 		"Didu4": "Kasparov is the champion! What a man - a golden thinker!",
 
 
