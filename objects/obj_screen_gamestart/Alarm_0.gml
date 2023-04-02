@@ -7,7 +7,7 @@ switch(obj_Battle_Interface.phase_battle){
 				instance_activate_object(obj_mini_avatar);
 				obj_mini_avatar.x = 509;
 				obj_mini_avatar.y = 702;
-				obj_mini_avatar.index_avatar = 1;
+				//obj_mini_avatar.index_avatar = 1;
 				instance_create_depth(480,416,-300,obj_sssr);
 	
 			break;
@@ -19,7 +19,7 @@ switch(obj_Battle_Interface.phase_battle){
 				obj_mini_avatar.x = 930;
 				obj_mini_avatar.y = 807;
 				instance_activate_object(obj_wall_sect);
-				obj_mini_avatar.index_avatar = 2;
+				//obj_mini_avatar.index_avatar = 2;
 			break;
 			case ENEMY.Hopniki :
 				obj_background_mini.index_minigame_back = 3;
@@ -27,7 +27,7 @@ switch(obj_Battle_Interface.phase_battle){
 				obj_mini_avatar.x = 927;
 				obj_mini_avatar.y = 755;
 				instance_create_depth(480,416,-300,obj_hopnik);
-				obj_mini_avatar.index_avatar = 4;
+				//obj_mini_avatar.index_avatar = 4;
 			break;
 			case ENEMY.Narkomany :
 				obj_background_mini.index_minigame_back = 0;
@@ -36,7 +36,7 @@ switch(obj_Battle_Interface.phase_battle){
 				obj_mini_avatar.x = 527.5;
 				obj_mini_avatar.y = 755;
 				instance_activate_object(wall);
-				obj_mini_avatar.index_avatar = 0;
+				//obj_mini_avatar.index_avatar = 0;
 			break;
 			}
 	break;
@@ -48,7 +48,7 @@ switch(obj_Battle_Interface.phase_battle){
 				instance_activate_object(obj_mini_avatar);
 				obj_mini_avatar.x = 940;
 				obj_mini_avatar.y = 900;
-				obj_mini_avatar.index_avatar = 4;
+				//obj_mini_avatar.index_avatar = 4;
 			break;
 			case ALIES.Ytopurok_mini:
 				instance_create_depth(480,416,-300,obj_mini_ytopur);
@@ -57,7 +57,7 @@ switch(obj_Battle_Interface.phase_battle){
 				obj_mini_avatar.x = 921.5;
 				obj_mini_avatar.y = 755;
 				
-				obj_mini_avatar.index_avatar = 3;
+				//obj_mini_avatar.index_avatar = 3;
 			break;	
 			}	
 	break;

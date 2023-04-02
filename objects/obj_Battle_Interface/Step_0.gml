@@ -29,6 +29,8 @@ if(keyboard_check_pressed(ord("O"))){
 	room_goto(Room61);
 }
 
+
+
 if(mini_game = true){
 	dialogue_was = false;
 }
