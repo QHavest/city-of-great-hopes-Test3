@@ -19,5 +19,5 @@
   "sampleRate": 22050,
   "soundFile": "snd_fountain.wav",
   "type": 2,
-  "volume": 0.1,
+  "volume": 0.56,
 }

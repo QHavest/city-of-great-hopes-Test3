@@ -4,6 +4,8 @@
   "name": "obj_fountain",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
@@ -14,8 +16,8 @@
     "path": "folders/Objects/Center/Left.yy",
   },
   "parentObjectId": {
-    "name": "obj_sound_emmiter_3d",
-    "path": "objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",
+    "name": "obj_woi_invisible_wall",
+    "path": "objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
