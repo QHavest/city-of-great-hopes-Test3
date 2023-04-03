@@ -1,11 +1,12 @@
 scr_Znaiomstvo();
 mask_index = sprite_index;
-walkspd = 2;
-runspd  = 4;
+walkspd = 3;
+runspd  = 5;
 collisionSpeed = 4;
 lastmove = 0;
 s_walk = snd_walk;
 InRoomMode = false;
+krok=0;
 
 
 xsd = 0;
@@ -30,6 +31,7 @@ status = STATUS.ACTIVE
 enum STATUS{
 ACTIVE,
 PASSIVE,
+NONE,
 }
 
 state=PLAYERSTATE.FREE;
@@ -46,7 +48,7 @@ SMOKE
 }
 
 //Частина 1 системи слідкування за героєм
-array_size = 15; 
+array_size = 20; 
 for(var i = array_size-1; i >= 0; i--){
 	posX[i] = x; 
 	posY[i] = y;

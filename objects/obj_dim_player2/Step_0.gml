@@ -1,11 +1,12 @@
 //КРИС
 //якщо магазин відкритий, гравець нерухомий
-if (global.shop or !global.dialog_end or global.map) {
+if (global.shop or global.map or !global.dialog_end) {
 	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
 	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
 	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
 	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
 	in_place = 0;
+	exit;
 }
 
 //система зміни статусу гравця
@@ -54,14 +55,7 @@ if (global.dialogue_move = true){
 	
 }	
 // відновлення ативного статусу після закінчення діалогу
-else 
-{
-if last_active = true and global.dialog_end
-{
-status = STATUS.ACTIVE;
-last_active = 0;
-}
-}
+
 
 
 //////////////////////////////////////////////////////////////////////////////
@@ -79,21 +73,29 @@ switch(state){
 
 //анімація покупки
 
-if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
+/*if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
 	image_index = 0;
 	state = PLAYERSTATE.BUY;
 	status = STATUS.PASSIVE;
 }
-
+*/
 
 //система записування координат проходження
 	if (x!= xprevious or y!= yprevious){
-		for(var i = array_size-1; i > 0; i--){
+		for(var i = array_size-1; i > 0; i--)
+		{
 			posX[i] = posX[i-1];
-			posY[i] = posY[i-1];
-			if status = STATUS.ACTIVE audio_listener_set_position(0,x,y,0);
-		}	
+			posY[i] = posY[i-1];		
+		}
+				//для швидкості 2.5
+		
 		posX[0] = x;
 		posY[0] = y;
+	if status = STATUS.ACTIVE {
+	///	if krok krok = 0;
+	//	else krok = 1;
+	//obj_dim_player1.krok = krok;
+	audio_listener_set_position(0,x,y,0);
+	}
 	}
 

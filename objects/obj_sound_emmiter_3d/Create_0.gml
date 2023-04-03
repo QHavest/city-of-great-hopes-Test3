@@ -14,7 +14,7 @@ if useSound != noone
 		}
 		audio_play_sound_on(myEmitter,useSound,1,5);
 		audio_sound_gain(useSound,0,0);
-		audio_sound_gain(useSound,0.15,4000);
+		audio_sound_gain(useSound,global.Fon_sound_gain,4000);
 	}
 	
 }	

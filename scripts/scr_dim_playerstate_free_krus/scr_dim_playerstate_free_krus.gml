@@ -9,8 +9,8 @@ if(status = STATUS.ACTIVE){
 	
 	// змешення швидкості ходьби по діагоналі
 	if( directy !=0 && directx !=0 ) spd = spd*0.8; 
-	hsp = directx*spd;
-	vsp = directy*spd*0.5;
+	hsp = directx*(spd+krok);
+	vsp = directy*(spd+krok)*0.5;
 	
 	if (!in_sequence){
 	x += hsp
@@ -19,6 +19,8 @@ if(status = STATUS.ACTIVE){
 	
 	//////////ЗВУКИ ХОДЬБИ//////////////
 	if (hsp!= 0 or vsp != 0){
+		
+		
 	if (run == false or InRoomMode = true){ 
 			if !audio_is_playing(snd_walk) audio_play_sound(snd_walk,0,0,global.player_gain);
 			if audio_is_playing(snd_run) audio_stop_sound(snd_run);
@@ -63,10 +65,8 @@ lastmove = 1;}
 // БІГ вправо і вліво
 
 if(InRoomMode = false){
-if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");runspd =8;
-lastmove = 0;}
-if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");runspd = 8;
-lastmove = 1;}
+if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");lastmove = 0;}
+if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");lastmove = 1;}
 }
 
 //if(global.dialogue_move = false){

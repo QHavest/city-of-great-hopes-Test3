@@ -3,3 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
+depth=0;
+an=false;

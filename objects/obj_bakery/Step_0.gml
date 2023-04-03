@@ -48,7 +48,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 }
 if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
 		if item_bought{
-			scr_anim_start("Backary",noone, noone,noone);
+			scr_anim_start("Bufet",spr_bufet_sel2_sell, spr_bufet_sel2,obj_bufet_seller);
 			item_bought = 0;
 		}
 		shopOpen = false;

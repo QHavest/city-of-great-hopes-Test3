@@ -14,6 +14,7 @@
 		instance_activate_object(music_room);
 		instance_activate_object(obj_Battle_Interface);
 		instance_activate_object(obj_manager_bus);
+		instance_activate_object(obj_mozg_ai);
 		// status check
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{

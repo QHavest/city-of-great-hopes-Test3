@@ -48,7 +48,7 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E"))) and s
 }
 
 if(shopOpen && keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("Q"))){
-	if global.item_bought{
+	if item_bought{
 			scr_anim_start("Fshery",spr_tyshonka_sell,spr_tyshonka_stay_straight,obj_tyshonka);
 			item_bought=0;
 		}

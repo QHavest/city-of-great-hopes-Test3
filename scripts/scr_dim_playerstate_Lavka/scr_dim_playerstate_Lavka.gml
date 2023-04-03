@@ -6,13 +6,34 @@ if ( sprite_index=asset_get_index("spr_"+sprit+"_sit_lav_"+lav_num) and scr_dim_
 	sprite_index=asset_get_index("spr_"+sprit+"_lavka_"+lav_num);;
 }
 //щоб запустити анімацію вставання
-if keyboard_check(ord("Q")) sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num);
+if keyboard_check(ord("Q"))
+{
+image_index=0;
+sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num);
+}
 // коли встали з лавки даєм свободу гравцю
 if sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num) and scr_dim_animation_end(sprite_index) 
 {
+	
 state=PLAYERSTATE.FREE;
 global.dialogue_move = false;
 start=0;
 in_place=0;
+
+with (obj_dim_player1)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+last_active = 0;
+}}
+
+with (obj_dim_player2)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+last_active = 0;
+}}
 }
 }

@@ -6,9 +6,21 @@ accept_key=keyboard_check_pressed(vk_enter);
 if string_length(text[page]) == 0 and please_shop_open!=1
 {
 	global.dialog_end = 1;
-	//global.dialogue_move = false;
 	global.zaniatui = false;
-	//instance_destroy(obj_pauser);
+	with (obj_dim_player1)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+}}
+
+with (obj_dim_player2)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+}}
+	
 	instance_destroy();
 }
 
@@ -207,15 +219,24 @@ if snd_count < snd_delay{
 			}
 			else {
 				global.dialog_end = 1;
-				
 				if please_shop_open=1 	scr_shop_open(shop_name);
 				else {
 				global.zaniatui = false;
-				//global.dialogue_move = false;
+					with (obj_dim_player1)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+}}
+
+with (obj_dim_player2)
+{
+	if last_active = true
+{
+status = STATUS.ACTIVE;
+}}
 				}
 			}
-			
-			//instance_destroy(obj_pauser);
 			instance_destroy();}
 		}	
 	else {
