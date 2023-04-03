@@ -610,7 +610,11 @@
   		"Restoraunt_12": "Give us 2 mugs. My friend too.",
   		"Restoraunt_13": "No, thanks.",
   		"Restoraunt_14": "Enough of you, workers. Go to your wives and mothers - and come to us tomorrow.",
-  		"Restoraunt_15": "Repeat?"
+  		"Restoraunt_15": "Repeat?", 
+
+  		"scena9_battle1": "Hop-stop from the corner of this street, we stopped a dunce... what a shit?",
+  		"scena9_battle2": "Hello guys! Maybe we can agree?",
+  		"scena9_battle3": "What? You think I'm sucker? Shall we agree? Give me your wallet!"
 
 
 
@@ -990,8 +994,6 @@
 		"Panku4": "Ех, опять очередному скучно живеться.",
 		"Panku5": "Мене називають банкіром, знаєш чого? Хехе. Люблю рахувать чужі гроші.",
 
-
-
 		"Children1": "Дяді, мені кажется шо я вас десь бачилв. Знайомі рожи-лиця. Цікаво, не сусіди ви наші? Нє?",
 		"Children2": "Вот недавно бачила чоловіка здорового з клацалкой. Такий серйозний й в рожевом. Дів-ча!",
 		"Children3": "На-на-на, ти бода! Не знаєте шо таке бода? Квач по вашому. Ех, ці старигани…",
@@ -1023,7 +1025,6 @@
 		"Babyli2": "Шкура да кості. На вас мама взагалі не дивиться. Такі худі й бліді. ",
 		"Babyli3": "Ох молодьож, в церкву не ходить, спортом не займається, на заводі не працює.",
 		"Babyli4": "Ну всьо, просрали ми всьо. Із-за таких як ви Союз і розпався.",
-		
 
 		"Makedon1": "Може отстанеш, не бач чим занят?",
 		"Makedon2": "Та уйди.",
@@ -1223,7 +1224,11 @@
   		"Restoraunt_12": "Давайте нам 2 кухля. Мій друг також буде.",
   		"Restoraunt_13": "Ні, дякую.",
   		"Restoraunt_14": "З вас досить, роботяги. Ідіть до дружин та матерів - а до нас приходьте ще завтра.",
-  		"Restoraunt_15": "Повторити?"
+  		"Restoraunt_15": "Повторити?",
+
+  		"scena9_battle1": "Гоп-стоп із-за угла, остановили рагуля...",
+  		"scena9_battle2": "Привіт, хлопці! Може домовимся?",
+  		"scena9_battle3": "Що? Ти думаєш я попуск? Вот так просто й підем? Кошель жени!"
 
 }
 }

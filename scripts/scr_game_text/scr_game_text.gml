@@ -1498,6 +1498,28 @@ case "scena_9_6":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena99"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
+
+case "scena_9_battle":
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena9_battle1"),2,spr_ic_Krus,spr_ic_gopnik_1);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena9_battle2"),1,spr_ic_Krus,spr_ic_gopnik_1);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena9_battle3"),2,spr_ic_Krus,spr_ic_gopnik_1);
+  scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"battle");
+  
+  case "battle":
+  {
+	  obj_Battle_Interface.battle_start = true;
+	  obj_Battle_Interface.enemies = ENEMY.Hopniki;
+	  scr_music_fon_change(Room61);
+	  room_goto(Room61);
+  }
+  
+  //with(obj_Battle_Interface)
+  //{
+
+  //}
+  
+break;
+
 #endregion
 
 #region (scena 5)

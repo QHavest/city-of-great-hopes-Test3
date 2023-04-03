@@ -48,13 +48,13 @@ function scr_buttons(arg, num){
 			case spr_rez3_l: return spr_rez3_l_act;
 			case spr_rez3_d: return spr_rez3_d_act;
 		
-			case "1280х1024": return spr_rez1_l_act;
+			case "1280х1024": return spr_rez_new;
 			//case spr_rez1_d: return spr_rez1_d_act;
 		
-			case "1680х1050": return spr_rez2_l_act;
+			case "1680х1050": return spr_rez_new;
 			//case spr_rez2_d: return spr_rez2_d_act;
 		
-			case "1920х1080": return spr_rez3_l_act;
+			case "1920х1080": return spr_rez_new;
 			//case spr_rez3_d: return spr_rez3_d_act;
 		
 			case spr_fullscreen_ukr_l: return spr_fullscreen_ukr_l_act;
@@ -63,13 +63,16 @@ function scr_buttons(arg, num){
 			case spr_fullscreen_eng_d: return spr_fullscreen_eng_d_act;
 			
 			case "Fullscreen": return spr_fullscreen_eng_d_act;
+			case "Повноекранний режим": return spr_fullscreen_ukr_l_act;
 		
 			case spr_windowmode_ukr_l: return spr_windowmode_ukr_l_act;
 			case spr_windowmode_ukr_d: return spr_windowmode_ukr_d_act;
 			case spr_windowmode_eng_l: return spr_windowmode_eng_l_act;
 			case spr_windowmode_eng_d: return spr_windowmode_eng_d_act;
 			
-			case "In window": return spr_windowmode_eng_d_act;
+			//case "In window": return spr_windowmode_eng_d_act;
+			case "In window": return spr_windowmode_eng_l_act;
+			case "Віконний режим": return spr_windowmode_ukr_l_act;
 		}
 	}
 	

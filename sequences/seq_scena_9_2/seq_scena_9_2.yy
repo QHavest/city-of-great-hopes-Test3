@@ -41,7 +41,7 @@
   "showBackdrop": true,
   "showBackdropImage": false,
   "spriteId": null,
-  "timeUnits": 0,
+  "timeUnits": 1,
   "tracks": [
     {"resourceType":"GMGraphicTrack","resourceVersion":"1.0","name":"spr_dark","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"1.0","Keyframes":[],},"modifiers":[],"trackColour":4294068374,"tracks":[
         {"resourceType":"GMColourTrack","resourceVersion":"1.0","name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<ColourKeyframe>","resourceVersion":"1.0","Keyframes":[],},"modifiers":[],"trackColour":4294068374,"tracks":[],"traits":0,},
@@ -405,7 +405,10 @@
             ],},"modifiers":[],"trackColour":4294068374,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange": null,
+  "visibleRange": {
+    "x": 0.0,
+    "y": 78.9999,
+  },
   "volume": 1.0,
   "xorigin": -1125,
   "yorigin": -150,

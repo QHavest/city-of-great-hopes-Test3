@@ -137,6 +137,7 @@
     {"name":"spr_heart","order":7,"path":"sprites/spr_heart/spr_heart.yy",},
     {"name":"spr_dim_Ytopurok_move_right_new","order":1,"path":"sprites/spr_dim_Ytopurok_move_right_new/spr_dim_Ytopurok_move_right_new.yy",},
     {"name":"spr_stol_chai","order":7,"path":"sprites/spr_stol_chai/spr_stol_chai.yy",},
+    {"name":"spr_rez_new","order":1,"path":"sprites/spr_rez_new/spr_rez_new.yy",},
     {"name":"obj_negative_hit","order":4,"path":"objects/obj_negative_hit/obj_negative_hit.yy",},
     {"name":"spr_cinema_peoples","order":21,"path":"sprites/spr_cinema_peoples/spr_cinema_peoples.yy",},
     {"name":"spr_hero1_stay","order":13,"path":"sprites/spr_hero1_stay/spr_hero1_stay.yy",},

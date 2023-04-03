@@ -5,7 +5,7 @@ if event_data [? "event_type"] == "sequence event"
     
 	case "start":
 	//a = 1;
-	scr_music_fon_change(noone);
+	scr_music_fon_change("snd_viter");
 	//audio_play_sound(snd_bazar_2, 1, true);
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
@@ -13,7 +13,6 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
 	//obj_dim_player2.image_index = spr_dim_Krus_stay_r;
-	
 	break;
 	
 	case "dialog1":
@@ -44,11 +43,15 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "pause1":
 	pause = true;
+	global.Fon_sound_gain -= 0.3;
+	break;
+	
+	case "viter_gain":
+	global.Fon_sound_gain += 0.45;
 	break;
 	
 	case "pause2":
 	pause = true;
-	scr_music_fon_change("snd_viter")
 	break;
 	
 	case "pause3":
@@ -69,7 +72,11 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
 	case "viter":
-	audio_play_sound(snd_viter, 2, true);
+		audio_play_sound(snd_viter, 2, true);
+	break;
+	
+	case "battle":
+		scr_create_textbox("scena_9_battle");
 	break;
 
     case "delete":
