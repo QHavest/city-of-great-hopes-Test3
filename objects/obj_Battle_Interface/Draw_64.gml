@@ -86,7 +86,16 @@ if(battle_start = true){
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 							obj_enemy2_battle.image_index = 0;
 							hp_one += 1;
-							instance_create_depth(466,570,-600,obj_youwon);
+							switch(global.LANGUAGE)
+							{
+								case "eng":
+								instance_create_depth(466,570,-600,obj_youwon);
+								break;
+								case "ua":
+								instance_create_depth(466,570,-600,obj_youwon).sprite_index = spr_youwonUA;
+								break;
+							}
+							
 							}
 			break;
 		}
@@ -144,7 +153,15 @@ if(battle_start = true){
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 							obj_enemy2_battle.image_index = 0;
 							hp_one += 1;
-							instance_create_depth(466,570,-600,obj_youwon);
+							switch(global.LANGUAGE)
+							{
+								case "eng":
+								instance_create_depth(466,570,-600,obj_youwon);
+								break;
+								case "ua":
+								instance_create_depth(466,570,-600,obj_youwon).sprite_index = spr_youwonUA;
+								break;
+							}
 							}
 						
 			break;
@@ -201,7 +218,15 @@ if(battle_start = true){
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 							obj_enemy2_battle.image_index = 0;
 							hp_one += 1;
-							instance_create_depth(466,570,-600,obj_youwon);
+							switch(global.LANGUAGE)
+							{
+								case "eng":
+								instance_create_depth(466,570,-600,obj_youwon);
+								break;
+								case "ua":
+								instance_create_depth(466,570,-600,obj_youwon).sprite_index = spr_youwonUA;
+								break;
+							}
 							}
 			break;
 		}
@@ -258,7 +283,15 @@ if(battle_start = true){
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
 							obj_enemy2_battle.image_index = 0;
 								hp_one += 1;
-							instance_create_depth(466,570,-600,obj_youwon);
+							switch(global.LANGUAGE)
+							{
+								case "eng":
+								instance_create_depth(466,570,-600,obj_youwon);
+								break;
+								case "ua":
+								instance_create_depth(466,570,-600,obj_youwon).sprite_index = spr_youwonUA;
+								break;
+							}
 							}
 				break;
 			}

@@ -82,7 +82,15 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
 		}
 	audio_play_sound(snd_defeat_sound,5,false);
-	instance_create_depth(466,570,-600,obj_gameover);
+	switch(global.LANGUAGE)
+		{
+			case "eng":
+			instance_create_depth(466,570,-600,obj_gameover);
+			break;
+			case "ua":
+			instance_create_depth(466,570,-600,obj_gameover).sprite_index = spr_gameoverUA;
+			break;
+		}
 	instance_destroy(obj_shprutz_dow1);
 	instance_destroy(obj_shprutz_up1);
 	instance_deactivate_object(obj_mini_avatar);

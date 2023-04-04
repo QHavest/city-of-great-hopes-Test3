@@ -109,7 +109,15 @@ if (mini_game = true and games = false and battle_start = true and (keyboard_che
 			obj_enemy3_battle.image_speed = 0;
 			obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
 			aliens = ALIES.Noone;
-			instance_create_depth(466,570,-600,obj_screen_gamestart)
+			switch(global.LANGUAGE)
+				{
+					case "eng":
+					instance_create_depth(466,570,-600,obj_screen_gamestart)
+					break;
+					case "ua":
+					instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+					break;
+				}
 		}
 #endregion
 if(alarm[2] > 150) exit;
@@ -158,7 +166,16 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 		    case (chance_option1)://ВТЕЧА ВДАЛАСЯ
 
 				instance_destroy(obj_wait);
-				instance_create_depth(466,570,-600,obj_success);
+				switch(global.LANGUAGE)
+				{
+					case "eng":
+					instance_create_depth(466,570,-600,obj_success);
+					break;
+					case "ua":
+					instance_create_depth(466,570,-600,obj_success).sprite_index = spr_successUA;
+					break;
+				}
+				
 				instance_destroy(obj_shprutz_dow1);
 				instance_destroy(obj_shprutz_up1);
 				instance_deactivate_object(obj_mini_avatar);
@@ -195,7 +212,15 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 							obj_enemy2_battle.image_index = 0;
 							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
 								}
-				instance_create_depth(466,570,-600,obj_screen_gamestart)	
+				switch(global.LANGUAGE)
+				{
+					case "eng":
+					instance_create_depth(466,570,-600,obj_screen_gamestart)
+					break;
+					case "ua":
+					instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+					break;
+				}
 		        break;
 		}
 	} 
@@ -274,25 +299,65 @@ switch(system)
 					switch(enemies){
 						case ENEMY.Narkomany :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}	
 						break;
 						case ENEMY.Kavkazci :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						case ENEMY.Sectants :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}	
 						break;
 						case ENEMY.Hopniki :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						}
 				break;
 				case PHASES.Defence:
 					aliens = ALIES.Ytopurok_mini;
+					switch(global.LANGUAGE)
+				{
+					case "eng":
 					instance_create_depth(466,570,-600,obj_screen_gamestart)
+					break;
+					case "ua":
+					instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+					break;
+				}
 				break;
 				}
 			system = 0;
@@ -312,25 +377,65 @@ switch(system)
 					switch(enemies){
 						case ENEMY.Narkomany :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						case ENEMY.Kavkazci :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						case ENEMY.Sectants :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						case ENEMY.Hopniki :
 						aliens = ALIES.Noone;
-						instance_create_depth(466,570,-600,obj_screen_gamestart)	
+						switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}		
 						break;
 						}
 				break;
 				case PHASES.Defence:
 					aliens = ALIES.Krus_mini;
-					instance_create_depth(466,570,-600,obj_screen_gamestart)
+					switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}	
 				break;
 				}
 		
@@ -367,7 +472,15 @@ switch(system)
 			instance_destroy(obj_wait);
 			mini_game = false;
 			system = 0;
-			instance_create_depth(466,570,-600,obj_goodbyemoney)
+			switch(global.LANGUAGE)
+				{
+					case "eng":
+					instance_create_depth(466,570,-600,obj_goodbyemoney);
+					break;
+					case "ua":
+					instance_create_depth(466,570,-600,obj_goodbyemoney).sprite_index = spr_goodbyemoneyUA;
+					break;
+				}
 			} else 
 				{
 					mini_game = true;
@@ -398,7 +511,15 @@ switch(system)
 								obj_enemy2_battle.image_index = 0;
 								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
 									}
-					instance_create_depth(466,570,-600,obj_screen_gamestart)	
+					switch(global.LANGUAGE)
+						{
+							case "eng":
+							instance_create_depth(466,570,-600,obj_screen_gamestart)
+							break;
+							case "ua":
+							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+							break;
+						}	
 			        system = 0;
 				}
 		} 

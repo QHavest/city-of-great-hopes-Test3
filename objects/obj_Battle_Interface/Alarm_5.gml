@@ -32,15 +32,39 @@
 			switch(enemies){
 				case ENEMY.Narkomany :
 				aliens = ALIES.Noone;
-				instance_create_depth(466,570,-600,obj_screen_gamestart)	
+				switch(global.LANGUAGE)
+					{
+						case "eng":
+						instance_create_depth(466,570,-600,obj_screen_gamestart)
+						break;
+						case "ua":
+						instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+						break;
+					}		
 				break;
 				case ENEMY.Kavkazci :
 				aliens = ALIES.Noone;
-				instance_create_depth(466,570,-600,obj_screen_gamestart)	
+				switch(global.LANGUAGE)
+					{
+						case "eng":
+						instance_create_depth(466,570,-600,obj_screen_gamestart)
+						break;
+						case "ua":
+						instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+						break;
+					}	
 				break;
 				case ENEMY.Sectants :
 				aliens = ALIES.Noone;
-				instance_create_depth(466,570,-600,obj_screen_gamestart)	
+				switch(global.LANGUAGE)
+					{
+						case "eng":
+						instance_create_depth(466,570,-600,obj_screen_gamestart)
+						break;
+						case "ua":
+						instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+						break;
+					}	
 				break;
 				case ENEMY.Hopniki :
 				aliens = ALIES.Noone;
@@ -50,7 +74,15 @@
 		break;
 		case PHASES.Defence:
 			aliens = ALIES.Ytopurok_mini;
-			instance_create_depth(466,570,-600,obj_screen_gamestart)
+			switch(global.LANGUAGE)
+					{
+						case "eng":
+						instance_create_depth(466,570,-600,obj_screen_gamestart)
+						break;
+						case "ua":
+						instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+						break;
+					}
 		break;
 		}
 	system = 0;

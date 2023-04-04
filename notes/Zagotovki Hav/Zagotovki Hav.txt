@@ -1,0 +1,7 @@
+switch(global.LANGUAGE)
+				{
+					case "eng":
+					break;
+					case "ua":
+					break;
+				}
