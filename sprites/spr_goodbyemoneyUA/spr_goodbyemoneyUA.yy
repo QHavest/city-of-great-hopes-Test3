@@ -13,7 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb0db8a3-e72b-41eb-9b82-a35ac32e00c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d3a5fc2-31d1-405b-9762-515bc9d5fe18",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab6995cf-bfd4-4e37-94d3-a22ff96b689b",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -25,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Screen",
-    "path": "folders/Battle_system/Screen.yy",
+    "name": "UA",
+    "path": "folders/Battle_system/Screen/UA.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -43,18 +44,19 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.5,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb0db8a3-e72b-41eb-9b82-a35ac32e00c1","path":"sprites/spr_goodbyemoneyUA/spr_goodbyemoneyUA.yy",},},},"Disabled":false,"id":"44343441-b717-48b5-97fd-4863c3f28351","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3d3a5fc2-31d1-405b-9762-515bc9d5fe18","path":"sprites/spr_goodbyemoneyUA/spr_goodbyemoneyUA.yy",},},},"Disabled":false,"id":"e8e06537-a8f1-43f8-8e9a-15adae50a1f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab6995cf-bfd4-4e37-94d3-a22ff96b689b","path":"sprites/spr_goodbyemoneyUA/spr_goodbyemoneyUA.yy",},},},"Disabled":false,"id":"57601da8-6f94-4448-8c6f-179e5d0b907a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

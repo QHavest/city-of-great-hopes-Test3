@@ -5,6 +5,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		show_debug_message("Test huinni")
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
+		
 		obj_Battle_Interface.hp_one = 0;
 		obj_Battle_Interface.amount_hp = 279;
 		obj_Battle_Interface.game_over_mini = false;
@@ -14,6 +15,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		obj_Battle_Interface.hpKrys = 50;
 		obj_Battle_Interface.hpYtopyrok = 50;
 		obj_Battle_Interface.amount_hp_enemy = 96;
+		instance_destroy(obj_screen_up_destr);
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);
 		if obj_dim_player1.status = STATUS.ACTIVE

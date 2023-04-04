@@ -18,17 +18,22 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 1){
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 2){
-	instance_create_depth(736, 1088, 150, obj_nozh_vert);
-	instance_create_depth(1152, 1088, 150, obj_nozh_vert);
+	var xx = irandom_range(700,736)
+	var xx1 = irandom_range(1100,1152)
+	instance_create_depth(xx, 1088, 150, obj_nozh_vert);
+	instance_create_depth(xx1, 1088, 150, obj_nozh_vert);
 	turn += 1;
 }else if(instance_exists(obj_nozh_vert) and turn = 3){
 	obj_nozh_vert.y -= knife_spd;
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 3){
-	instance_create_depth(576, 64, 150, obj_nozh_vert);
-	instance_create_depth(928, 64, 150, obj_nozh_vert);
-	instance_create_depth(1280, 64, 150, obj_nozh_vert);
+	var xx = irandom_range(515,576)
+	var xx1 = irandom_range(920,928)
+	var xx2 = irandom_range(1200,1280)
+	instance_create_depth(xx, 64, 150, obj_nozh_vert);
+	instance_create_depth(xx1, 64, 150, obj_nozh_vert);
+	instance_create_depth(xx2, 64, 150, obj_nozh_vert);
 	obj_nozh_vert.image_index = 3;
 	turn += 1;
 }else if(instance_exists(obj_nozh_vert) and turn = 4){
@@ -36,6 +41,7 @@ if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 3){
 }
 
 if(!instance_exists(obj_nozh) and !instance_exists(obj_nozh_vert) and turn = 4){
+	var xx = irandom_range(1400,1440)
 	instance_create_depth(1440, 448, 150, obj_nozh);
 	obj_nozh.image_angle = point_direction(1440, 448, 1760, 768);
 	turn += 1;

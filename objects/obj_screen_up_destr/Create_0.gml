@@ -1,0 +1,1 @@
+obj_Battle_Interface.hp_enemies = false;
