@@ -18,8 +18,8 @@ if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
 }
 
 switch(status){
-	case STATUS.ACTIVE : scr_play_player()   ; break;
-	case STATUS.PASSIVE: scr_passive_player(); break;
+	case STATUS.ACTIVE	: scr_play_player()   ; break;
+	case STATUS.PASSIVE	: scr_passive_player(); break;
 	case STATUS.NONE	: break;
 }
 

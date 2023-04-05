@@ -33,4 +33,6 @@ if key_smoke
 	obj_dim_player2.state=PLAYERSTATE.SMOKE;
 	
 }
+// movement sound
+scr_move_sound()
 }

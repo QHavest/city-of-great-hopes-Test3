@@ -1,38 +1,29 @@
 function scr_dim_playerstate_free_ytopurok(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
 if(status = STATUS.ACTIVE){
-	if (run == 0 or InRoomMode = true) spd = walkspd;
-	else if (InRoomMode = false) spd = runspd;
+	if (run == 0 or InRoomMode = true) {spd = walkspd;}
+	else if (InRoomMode = false) {spd = runspd;}
 	
 	directx = keyr - keyl; 
 	directy = keyup - keydown;
 
 	// змешення швидкості ходьби по діагоналі
-	if( directy !=0 && directx !=0 ) spd=spd*0.8; 
+	if( directy !=0 && directx !=0 ) {spd=spd*0.8; }
+	
 	hsp = directx*(spd+krok);
 	vsp = directy*(spd+krok)*0.5;
+	if ((s_ind = false) and (hsp!=0 or vsp!=0))
+	{
+		s_ind=true;
+		image_index=0;
+	}
 
 	if (!in_sequence){
 		x += hsp;
 		y -= vsp;
 	}
+	// move sound was here
 	
-	if (hsp!= 0 or vsp != 0){
-		//для швидкості 2.5
-		
-		//музика
-	if (run == false){ 
-			if !audio_is_playing(snd_walk) audio_play_sound(snd_walk,0,0,global.player_gain);
-			if audio_is_playing(snd_run) audio_stop_sound(snd_run);
-	} 
-	else if(run == true and InRoomMode = false){
-		if !audio_is_playing(snd_run) audio_play_sound(snd_run,0,0,global.player_gain);
-		if audio_is_playing(snd_walk) audio_stop_sound(snd_walk);
-	}
-	}else{
-		audio_stop_sound(snd_walk);
-		audio_stop_sound(snd_run);
-	}
 	
 	
 	//горизонтальна колізія
@@ -56,11 +47,11 @@ sprit="Ytopurok";
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
 
 
-if (y!=yprevious && lastmove==0 ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right_new1");
-if (y!=yprevious && lastmove==1 ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left_new1");
+if (y!=yprevious && lastmove==0 ) {sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right_new1");}
+if (y!=yprevious && lastmove==1 ) {sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left_new1");}
 
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right_new1");
-lastmove = 0;}
+lastmove = 0; }
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left_new1");
 lastmove = 1;}	
 
@@ -75,8 +66,6 @@ lastmove = 1;}
 }
 
 // без руху
-//if(global.dialogue_move = true){
-	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
-//}
+	if (x==xprevious && y==yprevious && lastmove ==0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); s_ind=0;}
+	if (x==xprevious && y==yprevious && lastmove ==1) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); s_ind=0;}
 }

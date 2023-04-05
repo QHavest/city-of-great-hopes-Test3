@@ -4,6 +4,7 @@ walkspd = 3;
 runspd  = 5;
 collisionSpeed = 4;
 lastmove = 0;
+s_ind=false;
 s_walk = snd_walk;
 InRoomMode = false;
 krok=0;
