@@ -3,20 +3,20 @@ draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
 
 // Якщо текстово поле пусте, то текст бокс не виводиться і діалог закінчується
-if string_length(text[page]) == 0 and please_shop_open!=1
+if (string_length(text[page]) == 0 and please_shop_open!=1)
 {
 	global.dialog_end = 1;
 	global.zaniatui = false;
 	with (obj_dim_player1)
 {
-	if last_active = true
+	if (last_active = true)
 {
 status = STATUS.ACTIVE;
 }}
 
 with (obj_dim_player2)
 {
-	if last_active = true
+	if (last_active = true)
 {
 status = STATUS.ACTIVE;
 }}
@@ -25,44 +25,10 @@ status = STATUS.ACTIVE;
 }
 
 //setup
-	if setup == false
+	if (setup == false)
 {
 	setup = true;
 	//cam_x =0;
-	#region (if room_high...)
-/*
-	if room_height >=300 
-	{	
-//		line_hight = 12;
-//		line_sep	= 3;// відстань між строками 
-	//	border      = 4// відступи від краю
-		offsett_kof = 1;
-		scale = 0.08;
-		draw_set_font(for_large);
-		font_for_math = for_large;
-	}
-	if room_height <300 && room_height>=150
-	{
-//		border    = 3;
-//		line_hight = 6;
-//		line_sep  = 2;
-		offsett_kof = 0.4;
-		scale = 0.05;
-		draw_set_font(for_normal);
-		font_for_math = for_normal;
-	}
-	if room_height <150
-	{
-//		border     = 2;
-//		line_hight = 4
-//		line_sep   = 2;
-		offsett_kof = 0.4;
-		scale = 0.04;
-		draw_set_font(for_small);
-		font_for_math = for_small;
-	}
-//	*/
-	#endregion
 
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
@@ -97,14 +63,14 @@ for(var p=0; p<page_number; p++)
 			var _current_txt_w = (string_width(txt_up_to_char) - string_width(char[c,p]))*scale;
 			
 			// визначення залишеного вільного місця
-			if char [c,p] ==" " and c>0
+			if (char [c,p] ==" " and c>0)
 			{ 
-				if char [c-1,p] == " " line_break_offset[p] = -999
-				else last_free_space = _char_pos+1;
+				if (char [c-1,p] == " ") { line_break_offset[p] = -999;}
+				else {last_free_space = _char_pos+1;}
 			}
 								
 			// розділення тексту на рядки
-			if _current_txt_w - line_break_offset[p] > text_width
+			if (_current_txt_w - line_break_offset[p] > text_width)
 				{
 				line_break_pos[ line_break_num[p], p] = last_free_space;
 				//line_widt[line_break_num[p]] = _current_txt_w - line_break_offset[p];
@@ -143,7 +109,7 @@ for(var p=0; p<page_number; p++)
 			// розділення на лінії
 				for (var lb=0; lb<line_break_num[p]; lb++)
 				{
-				if _char_pos >=line_break_pos[lb, p]
+				if (_char_pos >=line_break_pos[lb, p])
 					{
 					var _str_copy = string_copy(text[p], line_break_pos[lb,p], _char_pos-line_break_pos[lb,p]);
 					//line_widt[lb+1] = _current_txt_w;
@@ -152,26 +118,21 @@ for(var p=0; p<page_number; p++)
 					_txt_line = lb + 1;
 					}
 				}
-				
 			// додамо координати
 			char_x [c, p] = midle_x + _current_txt_w*scale - line_widt[_txt_line]/2;
-			char_y [c, p] = textbox_y + first_y + _txt_line*(line_hight+line_sep);
-			
+			char_y [c, p] = textbox_y + first_y + _txt_line*(line_hight+line_sep);	
 		}
 	}	
 }
 // друкування тексту
-if draw_char < text_length[page] 
+if (draw_char < text_length[page] )
 {
 	draw_char += text_spd;
-	draw_char = clamp(draw_char, 0, text_length[page]); // останнцй символ який виводиться в даний фрейм
-	// звук друквання як загальна доріжка на фон тексту
-//	if !audio_is_playing(snd_taping) audio_play_sound(snd_taping,5,false);
-//	if audio_is_paused(snd_taping) audio_resume_sound(snd_taping)
+	// останнцй символ який виводиться в даний фрейм
+	draw_char = clamp(draw_char, 0, text_length[page]); 
     //  під індивідуальні натиски
 	#region (manual_sound)
-if snd_count < snd_delay{
-	snd_count++;}
+if (snd_count < snd_delay) {snd_count++;}
 	else{
 		//випадковий проміжок часу між натисканнями
 	snd_delay = irandom_range(2,5);
@@ -202,39 +163,39 @@ if snd_count < snd_delay{
 //else audio_pause_sound(snd_taping) 
 
 //  заповнення сторіник текстом + перелистування сторінки
-	if accept_key
+	if (accept_key)
 {
-	if draw_char == text_length[page]	
+	if (draw_char == text_length[page])	
 		{
-		if page < page_number-1
+		if (page < page_number-1)
 			{
 			page++;
 			draw_char = 0;
 			}
 		else{
 		//переключення гілки діалогу після вибору репліки
-			if option_number>0{
+			if (option_number>0)
+			{
 			scr_create_textbox(option_link_id[option_pos])	
 			audio_play_sound(snd_op_accept,3,false,global.System_gain);
 			}
 			else {
 				global.dialog_end = 1;
-				if please_shop_open=1 	scr_shop_open(shop_name);
+				if (please_shop_open=1) {scr_shop_open(shop_name);}
 				else {
 				global.zaniatui = false;
 					with (obj_dim_player1)
-{
-	if last_active = true
-{
-status = STATUS.ACTIVE;
-}}
-
-with (obj_dim_player2)
-{
-	if last_active = true
-{
-status = STATUS.ACTIVE;
-}}
+					{
+						if last_active = true
+						{
+							status = STATUS.ACTIVE;
+						}}
+					with (obj_dim_player2)
+					{
+						if last_active = true
+						{
+						status = STATUS.ACTIVE;
+					}}
 				}
 			}
 			instance_destroy();}
@@ -250,7 +211,7 @@ status = STATUS.ACTIVE;
 	txt_spr_h = sprite_get_height(txtb_sprite);
 
 // вивід варіантів відповідей
-	if draw_char == text_length[page] and page == page_number-1
+	if (draw_char == text_length[page] and page == page_number-1)
 	{
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
@@ -263,51 +224,48 @@ status = STATUS.ACTIVE;
 	var _o_w = sec - o_b*2;
 	//координати відповідей
 	
-	if option_number<=3 
+	if (option_number<=3)
 		{   
 			var sec = gui_W/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
 			var _o_w = sec - o_b*2;
 			op_spr = op_sprite[option_number];
 			for(var i=0; i<option_number; i++)
 			{ 
-
-			Y_op[i] = gui_H - o_b*1 - line_hight*2;
-			X_op[i] = cam_x + sec*i + o_b;
+				Y_op[i] = gui_H - o_b*1 - line_hight*2;
+				X_op[i] = cam_x + sec*i + o_b;
 			}
 		}
-		else 
+	else 
 		{  
-			secondY = gui_H - o_b*1 - line_hight*2;
-			firstY  = secondY - line_hight - o_b*3;
-			if option_number == 4 
-			{		var sec = gui_W/2; 
-					op_spr = op_sprite[2];
-					var _o_w = sec - o_b*2;
-					X_op[0]=cam_x + o_b; X_op[2]=X_op[0];
-					X_op[1]=cam_x + sec*1 + o_b; X_op[3]=X_op[1];
-					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
+		secondY = gui_H - o_b*1 - line_hight*2;
+		firstY  = secondY - line_hight - o_b*3;
+		if (option_number == 4 )
+			{		
+				var sec = gui_W/2; 
+				op_spr = op_sprite[2];
+				var _o_w = sec - o_b*2;
+				X_op[0]=cam_x + o_b; X_op[2]=X_op[0];
+				X_op[1]=cam_x + sec*1 + o_b; X_op[3]=X_op[1];
+				Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY;
 			}
-			if option_number == 5
+		if (option_number == 5)
 			{
-					var sec = gui_W/3; 
-					op_spr = op_sprite[3];
-					var _o_w = sec - o_b*2;
-					X_op[0]=cam_x + sec/2 -o_b;     X_op[1]=cam_x + sec*2 - sec/2 - o_b;
-					
-					X_op[2]=cam_x + sec*0 + o_b; X_op[3]=cam_x + sec*1 + o_b;  X_op[4]=cam_x + sec*2 + o_b
-					
-					Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY; Y_op[4]=secondY;
-			
+				var sec = gui_W/3; 
+				op_spr = op_sprite[3];
+				var _o_w = sec - o_b*2;
+				X_op[0]=cam_x + sec/2 -o_b;     X_op[1]=cam_x + sec*2 - sec/2 - o_b;
+				X_op[2]=cam_x + sec*0 + o_b; X_op[3]=cam_x + sec*1 + o_b;  X_op[4]=cam_x + sec*2 + o_b
+				Y_op[0]=firstY; Y_op[2]=secondY; Y_op[1]=firstY; Y_op[3]=secondY; Y_op[4]=secondY;
 			}
 		}
 		// визначення параметрів картинок для варіантів відповіді
-			op_sprh = sprite_get_height(op_spr);
-			op_sprw = sprite_get_width(op_spr);
-		//безпосередно вивід
+op_sprh = sprite_get_height(op_spr);
+op_sprw = sprite_get_width(op_spr);
+		//безпосередно вивід варіантів 
 	for(var op=0; op<option_number; op++)
 		{	
 		// виділення вибраного варіанту
-		if option[op] == option[option_pos] {color = c_yellow; opt_img = 0;}
+		if (option[op] == option[option_pos]) {color = c_yellow; opt_img = 0;}
 		else {opt_img = 1; color=c_black;}
 		// центр варіанту відповіді
 		var _o_c = (_o_w - string_width(option[op])*scale)/2;
@@ -357,21 +315,21 @@ for (var c=0; c<draw_char; c++){
 
 //draw_sprite_ext(spr_textbox_big, txtb_img, txtb_x - border - (20*ico_scale) , textbox_y, (40*ico_scale+border*2+txtb_width)/sprite_get_width (spr_textbox_big), hi_txtb/txt_spr_h, 0, c_white, 1);
 
-	if speaker[page] == 1 // ГГ
+	if (speaker[page] == 1) // ГГ
 	{
 		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
 		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
 		draw_sprite_ext(speaker1[page],0,icobx1+ic_b, txt_y + ic_b+contyr+1,ico_scale,ico_scale,0,c_white,1);
 		draw_sprite_ext(speaker2[page],0,icobx2+ic_b, txt_y + ic_b+contyr+1,ico_scale,ico_scale,0,c_gray,1);
 	}
-	if speaker[page] == 2 // не ГГ
+	if (speaker[page] == 2) // не ГГ
 	{
 		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
 		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+ic_b*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
 		draw_sprite_ext(speaker1[page],0,icobx1+ic_b, txt_y+ ic_b+contyr+1,ico_scale,ico_scale,0,c_gray,1);
 		draw_sprite_ext(speaker2[page],0,icobx2+ic_b, txt_y+ ic_b+contyr+1,ico_scale,ico_scale,0,c_white,1);
 	}
-	if speaker[page] == 0 // нема спікера (можна у вільні місця помістити іконки сценаристів)
+	if (speaker[page] == 0) // нема спікера (можна у вільні місця помістити іконки сценаристів)
 	{
 		draw_sprite_ext(spr_textbox_small, 0, icobx2, textbox_y, (20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1);
 		draw_sprite_ext(spr_textbox_small, 0, icobx1, textbox_y,(20*ico_scale+border*2)/sprite_get_width (spr_textbox_small), hi_txtb/txt_spr_h, 0, c_white, 1)
