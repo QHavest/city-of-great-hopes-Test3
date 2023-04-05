@@ -3,7 +3,7 @@ instance_create_depth(0,0,0,obj_pauser);
 please_shop_open =0;
 
 Y_op = 0;
-if obj_dim_player1.status=STATUS.ACTIVE
+if (obj_dim_player1.status=STATUS.ACTIVE)
 {
 cam_w = camera_get_view_width(view_camera[0]) ;
 cam_h = camera_get_view_height(view_camera[0]);
