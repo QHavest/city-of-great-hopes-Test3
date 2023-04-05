@@ -27,6 +27,7 @@ function scr_krus_phases(){
 						break;
 						case PHASESE_KRUS.Idle:
 						image_speed = 0;
+						death_krus = false;
 						scr_krus_battle();
 						image_speed = 1;
 						break;
@@ -45,6 +46,8 @@ function scr_krus_phases(){
 						image_speed = 1;
 						if (image_index >= image_number - 1){
 						image_speed = 0;
+						instance_create_depth(506,101,0,obj_screen_up_destr)
+						death_krus = true;
 						}
 						break;
 						case PHASESE_KRUS.Hit:

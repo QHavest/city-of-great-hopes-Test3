@@ -5,6 +5,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		show_debug_message("Test huinni")
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
+		obj_Battle_Interface.another_fone = false;
 		obj_Battle_Interface.hp_one = 0;
 		obj_Battle_Interface.amount_hp = 279;
 		obj_Battle_Interface.game_over_mini = false;

@@ -1,0 +1,1 @@
+obj_Battle_Interface.another_fone = true;

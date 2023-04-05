@@ -1,3 +1,4 @@
+death_krus = false;
 phasese_krus = PHASESE_KRUS.Idle;
 enum PHASESE_KRUS{
 Noone,

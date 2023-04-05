@@ -81,6 +81,9 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 		obj_krus_battle.image_index = 0;
 		obj_krus_battle.phasese_krus = PHASESE_KRUS.Defeat;
 		}
+	if (obj_krus_battle.death_krus == true){
+	instance_create_depth(506,101,0,obj_screen_up_destr)
+	}
 	audio_play_sound(snd_defeat_sound,5,false);
 	switch(global.LANGUAGE)
 		{
