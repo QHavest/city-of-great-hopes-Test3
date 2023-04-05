@@ -1,5 +1,6 @@
 //Інтерфейс
 if(battle_start = true){
+	instance_deactivate_object(Settings);
 	instance_deactivate_object(obj_inventory);
 	draw_sprite_ext(Sprite1041, 0, 0, 0,0.1,1.5,0,c_black,1);
 	
@@ -512,5 +513,8 @@ switch(global.LANGUAGE)
 			break;
 		}
 	}
-} else {instance_activate_object(obj_inventory);}
+} else {
+	instance_activate_object(obj_inventory);
+	instance_activate_object(Settings);
+	}
 

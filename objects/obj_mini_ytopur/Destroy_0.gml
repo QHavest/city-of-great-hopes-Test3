@@ -8,4 +8,5 @@ instance_destroy(obj_romb_left);
 instance_destroy(obj_romb_right);
 instance_destroy(obj_romb_down);
 instance_deactivate_object(obj_mini_avatar);
+obj_Battle_Interface.light_bi = 0;
 obj_Battle_Interface.phase_battle = PHASES.Atack;

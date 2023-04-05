@@ -1,4 +1,5 @@
 alarm[0] = 200;
+obj_Battle_Interface.light_bi = 0;
 obj_Battle_Interface.game_over_mini = true;
 obj_Battle_Interface.mini_game = false;
 //obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
@@ -7,7 +8,7 @@ case ENEMY.Hopniki:
 break;
 case ENEMY.Kavkazci:
 instance_deactivate_object(obj_mini_avatar);
-obj_Battle_Interface.phase_battle = PHASES.Defence;
+obj_Battle_Interface.phase_battle = PHASES.Atack;
 instance_destroy(obj_sssr);
 instance_destroy(obj_sssrs);
 break;
