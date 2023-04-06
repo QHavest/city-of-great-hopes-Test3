@@ -3,7 +3,7 @@ draw_set_font(Font_for_draw);
 accept_key=keyboard_check_pressed(vk_enter);
 
 // Якщо текстово поле пусте, то текст бокс не виводиться і діалог закінчується
-if string_length(text[page]) == 0 
+if (string_length(text[page]) == 0 )
 {
 	global.dialog_end = 1;
 	global.dialogue_move = false;

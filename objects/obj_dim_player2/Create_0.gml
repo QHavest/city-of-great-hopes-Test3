@@ -7,6 +7,7 @@ lastmove = 0
 //налаштування перемикання між персонажами 
 playernum = 2;
 status = STATUS.PASSIVE;
+s_ind = false;
 s_walk = snd_walk;
 InRoomMode = false;
 krok=0;

@@ -27,7 +27,7 @@ speaker[page_number] = active_speaker;
 speaker1[page_number] =argument[2];
 speaker2[page_number] =argument[3];	
 page_number++;
-if argument_count=5
+if (argument_count=5)
 {
 	please_shop_open=1;
 	shop_name=argument[4];
@@ -55,7 +55,7 @@ instance_create_depth(obj_dim_player1.x,90,-9999,name)
 /// @param [spr_speak_GG]
 /// @param [spr_speak_2]
 function scr_create_textbox (_text_id){
-	if argument_count=3 
+	if (argument_count=3)
 	{
 		var spr_ic =  argument[1];
 		var spr_ic_npc =  argument[2];
@@ -65,7 +65,7 @@ function scr_create_textbox (_text_id){
 		}
 	}	
 	else
-		if argument_count=2 
+		if (argument_count=2)
 	{
 		var spr_ic =  argument[1];
 		//var spr_ic_npc =  argument[2];

@@ -12,13 +12,19 @@ if(status = STATUS.ACTIVE){
 	hsp = directx*(spd+krok);
 	vsp = directy*(spd+krok)*0.5;
 	
+	if ((s_ind = false) and (hsp!=0 or vsp!=0))
+	{
+		s_ind=true;
+		image_index=0;
+	}
+	
 	if (!in_sequence){
 	x += hsp
 	y -= vsp
 	}
 	
 	//////////ЗВУКИ ХОДЬБИ//////////////
-	if (hsp!= 0 or vsp != 0){
+/*	if (hsp!= 0 or vsp != 0){
 		
 		
 	if (run == false or InRoomMode = true){ 
@@ -33,7 +39,7 @@ if(status = STATUS.ACTIVE){
 		audio_stop_sound(snd_walk);
 		audio_stop_sound(snd_run);
 	}
-	
+	*/
 	//////////////////////////////////////
 	//горизонтальна колізія
 	if(place_meeting(x + hsp, y, obj_invisiblewall)){
@@ -70,7 +76,7 @@ if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("s
 }
 
 //if(global.dialogue_move = false){
-	if (x==xprevious && y==yprevious && lastmove ==0) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	if (x==xprevious && y==yprevious && lastmove ==1) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
+	if (x==xprevious && y==yprevious && lastmove ==0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); s_ind=0;}
+	if (x==xprevious && y==yprevious && lastmove ==1) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); s_ind=0;}
 //}	
 }
