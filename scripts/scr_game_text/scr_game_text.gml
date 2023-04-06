@@ -1344,7 +1344,7 @@ break;
 
 #region (scena 7)
 case "scena_7_1":
-scr_text("Стоять!",1,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena728"),1,spr_ic_Krus,spr_ic_Ytopurok);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena71"),"4");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena72"),"4");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena73"),"4");

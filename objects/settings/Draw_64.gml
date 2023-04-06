@@ -24,7 +24,10 @@ var start_y2 = (gheight/2) - ((((ds_height2-1)/2) * y_buffer))
 var pause_spr = 0;
 switch(global.task)
 {
-	case 0: pause_spr = spr_pause_h; break;
+	case 0:
+	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
+	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr
+	break;
 	case 1: 
 	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
 	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr
@@ -37,7 +40,6 @@ switch(global.task)
 	if(global.LANGUAGE = "eng") pause_spr = spr_task3_eng;
 	if(global.LANGUAGE = "ua") pause_spr = spr_task3_ukr;
 	break;
-	
 }
 draw_sprite(pause_spr, 0, global.screen_width/2, global.screen_height/2);
 //draw_sprite_ext(spr_ukraine, 0, gwidth+850, gheight+310,1.2,1.2,0,c_white,1);

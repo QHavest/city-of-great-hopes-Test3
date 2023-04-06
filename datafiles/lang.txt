@@ -537,7 +537,7 @@
   		"Scena711": "How’re you doing?",
   		"Scena712": "Little by little.",
   		"Scena713": "Yeah. You've released a few weeks ago. Rumors fly fast… Extra in Station.",
-  		"Scena714": "Taste of freedom! And you still smoke that shit - “Ugolek”? Live like shit - die like shit…",
+  		"Scena714": "Taste of freedom! And you still smoke that shit - Ugolek? Live like shit - die like shit…",
   		"Scena715": "Yeah…yeah. Sport is a grave!",
   		"Scena716": "What the lad? Fuck, Cudg…",
   		"Scena717": "Ratsy, my old friend - Vitya Tangerine.",
@@ -551,6 +551,7 @@
   		"Scena725": "Well… Come to the Market two hours later. Now, I’ve to go. My greetings to Ilya Stepanovich…",
   		"Scena726": "Whom?",
   		"Scena727": "Finish",
+  		"Scena728": "Stop!", 
 
 		"Scena81": "Chap, are you OK?",
   		"Scena82": "...",
@@ -1165,6 +1166,7 @@
   		"Scena725": "Та чо... Приходьте обідом на Ринок. А зараз я маю топать. Передасте Іллі Степановичу прівєт...",
   		"Scena726": "Кому?",
   		"Scena727": "Закінчити", 
+  		"Scena728": "Стоять!", 
 
 		"Scena81": "Поц, з тобой все хорошо?",
   		"Scena82": "...",
@@ -1221,7 +1223,7 @@
   		"Restoraunt_9": "Вибачте, але в нас тільки по броні!",
   		"Restoraunt_10": "Гаразд, можете сісти за барну стійку - там хороша випивка та говіркий бармен.",
   		"Restoraunt_11": "О,роботяги. Можу запропонувати вам пива!",
-  		"Restoraunt_12": "Давайте нам 2 кухля. Мій друг також буде.",
+  		"Restoraunt_12": "Давайте нам 2 кухля.",
   		"Restoraunt_13": "Ні, дякую.",
   		"Restoraunt_14": "З вас досить, роботяги. Ідіть до дружин та матерів - а до нас приходьте ще завтра.",
   		"Restoraunt_15": "Повторити?",

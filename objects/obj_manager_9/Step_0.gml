@@ -31,7 +31,7 @@ if(a == 1 and global.task == 3)
 
 }
 
-if(global.task == 2 and start_scena8 == true)
-{
-	room_goto(rm_street_container);
-}
+//if(global.task == 2 and start_scena8 == true)
+//{
+//	room_goto(rm_street_container);
+//}
