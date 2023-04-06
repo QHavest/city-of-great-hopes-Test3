@@ -3,7 +3,7 @@
 function scr_move_sound(){
 if ((s_ind) and (image_index=2 or image_index=6)){
 	if (run == false){ 
-			if !audio_is_playing(snd_step) audio_play_sound(snd_step,0,0,global.player_gain);
+			audio_play_sound(snd_step,0,0,global.player_gain);
 			if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 	} 
 	else// if run = true
@@ -15,7 +15,8 @@ if ((s_ind) and (image_index=2 or image_index=6)){
 		}
 		else  // if in room = true
 		{
-			if !audio_is_playing(snd_step) audio_play_sound(snd_step,0,0,global.player_gain);
+			//if !audio_is_playing(snd_step) 
+			audio_play_sound(snd_step,0,0,global.player_gain);
 			if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 		}
 	
