@@ -159,7 +159,7 @@ for (var i = 0; i < 11; i++){
 		audio_play_sound(snd_op_accept,5,0,global.System_gain);
 		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
 		//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
-	scr_anim_start("Kasa",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
+	scr_anim_start("Lotereia",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
 		obj_kassa_tickets.image_index=1;
 		break;
 		}

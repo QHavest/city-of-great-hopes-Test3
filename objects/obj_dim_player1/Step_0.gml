@@ -33,7 +33,8 @@ if (global.dialogue_move = true){
 	last_active=true;	
 	}
 	// переміщення у задані координати із заданою швидкістю
-	mp_linear_step(xsd, ysd, 2, false);
+	//mp_linear_step(xsd, ysd, 2, false);
+	mp_potential_step(xsd,ysd, 2, false);
 	// при досягненні визначеної координати
 	if ( x = xsd and y = ysd  ) 
 	{
