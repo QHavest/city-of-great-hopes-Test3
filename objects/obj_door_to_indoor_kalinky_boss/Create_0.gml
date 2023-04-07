@@ -9,12 +9,12 @@ new_y = 116
 old_x = 310
 old_y = 115
 ///ссылкифвыавыф на название спрайтвой подсказок
-old_help_sprite = spr_help
-new_help_sprite = spr_help
+old_help_sprite = spr_butt_E
+new_help_sprite = spr_butt_E
 ///переменная отвечающая за рисование подсказки
 drowing = false
 ///координаты на которых от игрока находится подсказка
-help_x = -10
+help_x = -6
 help_y = -80
 ///подсказка с лева или с права | true = left | false = right |
 old_side = false

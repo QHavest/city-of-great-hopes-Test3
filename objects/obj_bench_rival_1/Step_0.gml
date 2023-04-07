@@ -5,7 +5,7 @@
 event_inherited();
 if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, obj_dim_player2)) and !global.dialogue_move)
 {
-	drowings= true
+	drowings = true
 		if keyboard_check_pressed(ord("E"))
 	{
 		drowings = false;
@@ -20,5 +20,5 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 	}
 
 }
-else if drowings  drowings= false;
+else if (drowings = true){  drowings = false };
 

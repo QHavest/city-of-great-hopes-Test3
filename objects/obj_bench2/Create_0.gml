@@ -10,12 +10,12 @@ event_inherited();
 // Inherit the parent event
 event_inherited();
 
-help_sprite = spr_help
+help_sprite = spr_butt_E
 ///переменная отвечающая за рисование подсказки
 drowings = false
 ///координаты на которых от игрока находится подсказка
 
-help_x = -10
+help_x = -6
 help_y = -70
 // розташування зони активації сідання: розмір такий як в колізії лавки,
 //але розташована зона нижче на вказану кількість пікселів
