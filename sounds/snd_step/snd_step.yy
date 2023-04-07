@@ -19,5 +19,5 @@
   "sampleRate": 22050,
   "soundFile": "snd_step.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.3,
 }

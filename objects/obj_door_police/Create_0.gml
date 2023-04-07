@@ -8,8 +8,8 @@ new_y = 224
 old_x = 1460
 old_y = 235
 ///ссылки на название спрайтвой подсказок
-old_help_sprite = spr_butt_E
-new_help_sprite = spr_butt_E
+old_help_sprite = spr_butt_E_small
+new_help_sprite = spr_butt_E_small
 ///переменная отвечающая за рисование подсказки
 drowing = false
 ///координаты на которых от игрока находится подсказка

@@ -33,10 +33,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_romb472",
-    "path": "sprites/spr_romb472/spr_romb472.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

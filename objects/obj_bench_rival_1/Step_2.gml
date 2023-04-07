@@ -13,7 +13,6 @@ if  (place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, o
 				}
 		}
 }
-
 	with (obj_dim_player2){
 		if (in_place and start =0 and global.zaniatui = false ) {
 			start =1;

@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-help_sprite = spr_butt_E
+help_sprite = spr_butt_E_small
 ///переменная отвечающая за рисование подсказки
 drowings = false
 ///координаты на которых от игрока находится подсказка

@@ -1,12 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-// Inherit the parent event
+///place_meeting(x, y+zone_y, obj_dim_player1)
+
 event_inherited();
+
+if (place_meeting(x,y+8,obj_dim_player1) and obj_dim_player1.status=STATUS.ACTIVE){
+	if(instance_exists(obj_help_buttony) = false){
+		instance_create_depth(x+5, y-40, -100, obj_E_button);
+	}
+
+}
+
 if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, obj_dim_player2)) and !global.dialogue_move)
 {
-	drowings = true
-		if keyboard_check_pressed(ord("E"))
+	drawings = true;
+		if (keyboard_check_pressed(ord("E")))
 	{
 		drowings = false;
 	//	global.dialog_end = false;
@@ -20,5 +27,5 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 	}
 
 }
-else if (drowings = true){  drowings = false };
+//else if (instance_exists(obj_help_buttony) == true){  instance_destroy(obj_help_buttony)};
 

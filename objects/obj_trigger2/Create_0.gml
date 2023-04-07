@@ -1,6 +1,6 @@
 ///ссылки на название спрайтвой подсказок
-old_help_sprite = spr_butt_E
-new_help_sprite = spr_butt_E
+old_help_sprite = spr_butt_E_small
+new_help_sprite = spr_butt_E_small
 ///переменная отвечающая за рисование подсказки
 drowings = true
 ///координаты на которых от игрока находится подсказка
