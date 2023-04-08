@@ -14,7 +14,7 @@ ic_b = 0.015*gui_W;
 
 line_hight = gui_H/25;
 scale = line_hight/110;
-line_sep = 2;
+line_sep = 10;
 // параметри вікна з текстом
 
 line_widt[0] = 0;
