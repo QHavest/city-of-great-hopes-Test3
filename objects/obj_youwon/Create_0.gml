@@ -1,4 +1,4 @@
-alarm[0] = 200;
+alarm[0] = 135;
 obj_Battle_Interface.light_bi = 0;
 obj_Battle_Interface.game_over_mini = true;
 obj_Battle_Interface.mini_game = false;

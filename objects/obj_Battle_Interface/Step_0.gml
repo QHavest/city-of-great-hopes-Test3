@@ -159,7 +159,7 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 	// Визначення значень шансів	
    // var chance = true
 		var random_number = random(100);
-		var chance_option1 = random_number < 30;
+		var chance_option1 = random_number < 15;
 		var chance_option2 = random_number < 100;
 		//var chance_option3 = 20;
 		switch (random_number < 100) {
@@ -215,10 +215,10 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 				switch(global.LANGUAGE)
 				{
 					case "eng":
-					instance_create_depth(466,570,-600,obj_screen_gamestart)
+					instance_create_depth(466,570,-600,obj_failed)
 					break;
 					case "ua":
-					instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
+					instance_create_depth(466,570,-600,obj_failed).sprite_index = spr_failedUA;
 					break;
 				}
 		        break;
@@ -512,14 +512,14 @@ switch(system)
 								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
 									}
 					switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}	
+					{
+						case "eng":
+						instance_create_depth(466,570,-600,obj_failed)
+						break;
+						case "ua":
+						instance_create_depth(466,570,-600,obj_failed).sprite_index = spr_failedUA;
+						break;
+					}	
 			        system = 0;
 				}
 		} 

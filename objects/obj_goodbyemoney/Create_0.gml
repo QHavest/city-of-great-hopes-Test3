@@ -1,5 +1,5 @@
 //alarm[0] = 100;
-alarm[0] = 200;
+alarm[0] = 135;
 target_x = 0;
 target_y = 0;
 obj_Battle_Interface.hp_enemies = false;
