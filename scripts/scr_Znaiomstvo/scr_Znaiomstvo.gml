@@ -12,6 +12,7 @@ global.zn_Kasa = 0;
 global.zn_souvenir=0;
 global.zn_Tarantino = 0;
 global.zn_Stiop= 0;
+global.zn_Stiop_by= 0;
 #endregion
 
 }
