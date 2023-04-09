@@ -168,10 +168,10 @@ if (snd_count < snd_delay) {snd_count++;}
 	if (draw_char == text_length[page])	
 		{
 		if (page < page_number-1)
-			{
+		{
 			page++;
 			draw_char = 0;
-			}
+		}
 		else{
 		//переключення гілки діалогу після вибору репліки
 			if (option_number>0)
@@ -183,16 +183,16 @@ if (snd_count < snd_delay) {snd_count++;}
 				global.dialog_end = 1;
 				if (please_shop_open=1) {scr_shop_open(shop_name);}
 				else {
-				global.zaniatui = false;
+					global.zaniatui = false;
 					with (obj_dim_player1)
 					{
-						if last_active = true
+						if (last_active = true)
 						{
 							status = STATUS.ACTIVE;
 						}}
 					with (obj_dim_player2)
 					{
-						if last_active = true
+						if (last_active = true)
 						{
 						status = STATUS.ACTIVE;
 					}}
