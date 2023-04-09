@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //запуск анімацію коли ГГ приходить у щадану координату
-if  (place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, obj_dim_player2)){
+if  (place_meeting(x,y+8, obj_dim_player1) or place_meeting(x,y+8, obj_dim_player2)){
 	with (obj_dim_player1){
 		//новий глобал для відмежування діалогу (dialog end трохи не там змінюється)
 		if (in_place and start =0 and global.zaniatui = false){

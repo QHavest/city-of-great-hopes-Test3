@@ -1,7 +1,8 @@
-depth= -99999;
-help_sprite = spr_butt_E_small
-///координаты на которых от игрока находится подсказка
-help_x = -6
-help_y = -72
+depth= -16000;
+help_button = obj_E_button;	
+help_x = x;
+help_y = y;
+zone_x = x;
+zone_y= y;
 // where activ GG contakt
 contakt=false;

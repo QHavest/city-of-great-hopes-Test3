@@ -8,8 +8,8 @@ if in_place and start =0 and global.zaniatui = false
 {	
 	start =1; //потрібно для нормального виходу з анімації (інакше йде зациклення бо ГГ завжди in_place)
 	if state!=PLAYERSTATE.VODA state=PLAYERSTATE.VODA;
-	image_index	=	0;
-	sprite_index=	spr_dim_Ytopurok_voda;
+	image_index	= 0;
+	sprite_index = spr_dim_Ytopurok_voda;
 	obj_water.visible=false;
 	obj_water.alarm[1]=25;
 

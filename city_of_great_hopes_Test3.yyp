@@ -368,6 +368,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/buttons.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -2596,6 +2597,7 @@
     {"id":{"name":"spr_stoluk2","path":"sprites/spr_stoluk2/spr_stoluk2.yy",},},
     {"id":{"name":"obj_kozel","path":"objects/obj_kozel/obj_kozel.yy",},},
     {"id":{"name":"spr_woman_8_walk_R","path":"sprites/spr_woman_8_walk_R/spr_woman_8_walk_R.yy",},},
+    {"id":{"name":"scr_help_button","path":"scripts/scr_help_button/scr_help_button.yy",},},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},},
     {"id":{"name":"spr_zoo_zabor","path":"sprites/spr_zoo_zabor/spr_zoo_zabor.yy",},},
     {"id":{"name":"sp_diamantovyi_certificat_eng01","path":"sprites/sp_diamantovyi_certificat_eng01/sp_diamantovyi_certificat_eng01.yy",},},
