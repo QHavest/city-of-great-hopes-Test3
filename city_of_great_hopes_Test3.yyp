@@ -516,7 +516,7 @@
     {"id":{"name":"spr_pisok","path":"sprites/spr_pisok/spr_pisok.yy",},},
     {"id":{"name":"spr_hrest_horiz","path":"sprites/spr_hrest_horiz/spr_hrest_horiz.yy",},},
     {"id":{"name":"spr_coop_mode_ua","path":"sprites/spr_coop_mode_ua/spr_coop_mode_ua.yy",},},
-    {"id":{"name":"obj_new_bench_indoor","path":"objects/obj_new_bench_indoor/obj_new_bench_indoor.yy",},},
+    {"id":{"name":"obj_bench_indoor_new","path":"objects/obj_bench_indoor_new/obj_bench_indoor_new.yy",},},
     {"id":{"name":"spr_komod","path":"sprites/spr_komod/spr_komod.yy",},},
     {"id":{"name":"scr_dim_playerstate_free_krus_pillow","path":"scripts/scr_dim_playerstate_free_krus_pillow/scr_dim_playerstate_free_krus_pillow.yy",},},
     {"id":{"name":"spr_fon_settings_old","path":"sprites/spr_fon_settings_old/spr_fon_settings_old.yy",},},
