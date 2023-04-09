@@ -1,6 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-depth = obj_kassa_tickets.depth + 10;
+depth = obj_rival_seller2.depth + 10;
 
 
 

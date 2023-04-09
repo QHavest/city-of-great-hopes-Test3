@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite594",
-    "path": "sprites/Sprite594/Sprite594.yy",
+    "name": "spr_com_1",
+    "path": "sprites/spr_com_1/spr_com_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
