@@ -5,6 +5,8 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		show_debug_message("Test huinni")
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
+		global.dialog_end = true;
+		global.zaniatui = false;
 		obj_Battle_Interface.another_fone = false;
 		obj_Battle_Interface.hp_one = 0;
 		obj_Battle_Interface.amount_hp = 279;
@@ -20,17 +22,22 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		if obj_dim_player1.status = STATUS.ACTIVE
 		{
 			obj_dim_player1.x = 1795
-			obj_dim_player1.y = 260
-			obj_dim_player2.x = 1795
-			obj_dim_player2.y = 260
+			obj_dim_player1.y = 270
+			obj_dim_player2.x = 1900
+			obj_dim_player2.y = 270
 		}
-		else
+		with (obj_dim_player1)
 		{
-			obj_dim_player1.x = 1795
-			obj_dim_player1.y = 260
-			obj_dim_player2.x = 1795
-			obj_dim_player2.y = 260
-		}
+		if (last_active = true)
+		{
+		status = STATUS.ACTIVE;
+		}}
+		with (obj_dim_player2)
+		{
+		if (last_active = true)
+		{
+		status = STATUS.ACTIVE;
+		}}
 		/*else if obj_dim_player2.status = STATUS.ACTIVE
 		{
 			obj_Battle_Interface.target_x = obj_dim_player2.x;

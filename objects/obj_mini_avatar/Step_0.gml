@@ -196,8 +196,8 @@ switch (obj_Battle_Interface.phase_battle){
 				if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = true) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = true) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = true) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = true)){
 					light_ambient = true;
 					damage = 0;
-					damage_enemy = 15;
-					//damage_enemy = 35;
+					//damage_enemy = 15;
+					damage_enemy = 35;
 					scr_damage_mini_avatar();
 					} else if ((keyboard_check_pressed(vk_up) and obj_mini_ytopur.hits_grusha_up = false) or (keyboard_check_pressed(vk_down) and obj_mini_ytopur.hits_grusha_down = false) or (keyboard_check_pressed(vk_right) and obj_mini_ytopur.hits_grusha_right = false) or (keyboard_check_pressed(vk_left) and obj_mini_ytopur.hits_grusha_left = false)){
 						light_ambient = false;

@@ -94,7 +94,7 @@
     {"name":"inst_27037EB9","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_7E53DC33","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_3F4342E5","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_6DB19E2B","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_5294AB15","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -201,11 +201,11 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Spawn_Enemy","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F4342E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawn_enemy","path":"objects/obj_spawn_enemy/obj_spawn_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":-0.375,"scaleY":0.390625,"x":2080.0,"y":-32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DB19E2B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5294AB15","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"propertyId":{"name":"x2","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"value":"30",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"propertyId":{"name":"n2","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"value":"\"l\"",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"propertyId":{"name":"y2","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"value":"25",},
-          ],"rotation":0.0,"scaleX":5.1875,"scaleY":1.4375,"x":1866.0,"y":223.0,},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"propertyId":{"name":"y2","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"value":"20",},
+          ],"rotation":0.0,"scaleX":2.0625,"scaleY":1.0625,"x":1872.0,"y":239.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Text","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28953189","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[
