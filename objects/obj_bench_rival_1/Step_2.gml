@@ -4,7 +4,7 @@
 if  (place_meeting(x,y+8, obj_dim_player1) or place_meeting(x,y+8, obj_dim_player2)){
 	with (obj_dim_player1){
 		//новий глобал для відмежування діалогу (dialog end трохи не там змінюється)
-		if (in_place and start =0 and global.zaniatui = false){
+		if (in_place and start =0 and global.zaniatui = false and obj_dim_player1.STATUS = STATUS.ACTIVE ){
 				start =1; //потрібно для нормального виходу з анімації (інакше йде зациклення бо ГГ завжди in_place)
 				//	image_index=0;
 			if (state != PLAYERSTATE.LAVKA1){
