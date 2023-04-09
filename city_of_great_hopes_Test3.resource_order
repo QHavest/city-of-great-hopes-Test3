@@ -26,6 +26,7 @@
     {"name":"Objects","order":21,"path":"folders/Objects.yy",},
     {"name":"Active_NPC","order":18,"path":"folders/Objects/Active_NPC.yy",},
     {"name":"Bazar","order":19,"path":"folders/Objects/Bazar.yy",},
+    {"name":"buttons","order":28,"path":"folders/Objects/buttons.yy",},
     {"name":"Center","order":20,"path":"folders/Objects/Center.yy",},
     {"name":"Left","order":10,"path":"folders/Objects/Center/Left.yy",},
     {"name":"Night","order":11,"path":"folders/Objects/Center/Night.yy",},
@@ -57,7 +58,6 @@
     {"name":"Tile Sets","order":30,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":31,"path":"folders/Timelines.yy",},
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
-    {"name":"buttons","order":28,"path":"folders/Objects/buttons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},

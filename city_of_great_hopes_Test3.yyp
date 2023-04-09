@@ -145,6 +145,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inside_magazine","folderPath":"folders/Objects/Bazar/Magazine/Inside_magazine.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Night","folderPath":"folders/Objects/Bazar/Magazine/Night.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zoomagazine","folderPath":"folders/Objects/Bazar/Zoomagazine.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Center","folderPath":"folders/Objects/Center.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Left","folderPath":"folders/Objects/Center/Left.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cinema","folderPath":"folders/Objects/Center/Left/Cinema.yy",},
@@ -368,7 +369,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/buttons.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

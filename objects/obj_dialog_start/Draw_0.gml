@@ -1,13 +1,12 @@
 // коли хтось наступив і діалог ще не початий
 if (place_meeting(x, y, obj_dim_player1) and obj_dim_player1.status=STATUS.ACTIVE){
-
-contakt=true;
+	contakt=true;
 }
-if (place_meeting(x, y, obj_dim_player2) and obj_dim_player2.status=STATUS.ACTIVE)
+else if (place_meeting(x, y, obj_dim_player2) and obj_dim_player2.status=STATUS.ACTIVE)
 {
-contakt=true;
+	contakt=true;
 }
-else {contakt=false;}
+	else {contakt=false;}
 if (global.dialog_end) 
 {
 	if (keyboard_check_pressed(ord("E")) and !global.shop and contakt = true)
