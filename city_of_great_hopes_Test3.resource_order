@@ -228,6 +228,7 @@
     {"name":"obj_manager_kino","order":3,"path":"objects/obj_manager_kino/obj_manager_kino.yy",},
     {"name":"spr_butt_M","order":2,"path":"sprites/spr_butt_M/spr_butt_M.yy",},
     {"name":"spr_spawn","order":1,"path":"sprites/spr_spawn/spr_spawn.yy",},
+    {"name":"spr_romb472","order":29,"path":"sprites/spr_romb472/spr_romb472.yy",},
     {"name":"obj_woi_invisible_dumb2","order":2,"path":"objects/obj_woi_invisible_dumb2/obj_woi_invisible_dumb2.yy",},
     {"name":"spr_butt_Q_small","order":3,"path":"sprites/spr_butt_Q_small/spr_butt_Q_small.yy",},
     {"name":"spr_ic_mama","order":14,"path":"sprites/spr_ic_mama/spr_ic_mama.yy",},

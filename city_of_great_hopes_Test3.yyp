@@ -2092,6 +2092,7 @@
     {"id":{"name":"obj_stolovka","path":"objects/obj_stolovka/obj_stolovka.yy",},},
     {"id":{"name":"sprt_bush_2","path":"sprites/sprt_bush_2/sprt_bush_2.yy",},},
     {"id":{"name":"spr_ranka_tuhk_night","path":"sprites/spr_ranka_tuhk_night/spr_ranka_tuhk_night.yy",},},
+    {"id":{"name":"spr_romb472","path":"sprites/spr_romb472/spr_romb472.yy",},},
     {"id":{"name":"spr_lamp_night_school","path":"sprites/spr_lamp_night_school/spr_lamp_night_school.yy",},},
     {"id":{"name":"obj_shtory","path":"objects/obj_shtory/obj_shtory.yy",},},
     {"id":{"name":"spr_woman_9_walk_L","path":"sprites/spr_woman_9_walk_L/spr_woman_9_walk_L.yy",},},
