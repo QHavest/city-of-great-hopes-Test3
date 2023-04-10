@@ -18,7 +18,7 @@ year = 1;
 
 //time_increment = 50; //секунди за крок
 
-time_increment = 5;
+time_increment = 1;
 time_pause = false;
 time_pauses = false;
 
