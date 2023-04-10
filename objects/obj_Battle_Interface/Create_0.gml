@@ -56,6 +56,9 @@ enum PHASES{
 Atack,
 Defence,
 }
+count = 0;
+lives_enemy = true;
+
 //for button array
 
 button_c = 1;
