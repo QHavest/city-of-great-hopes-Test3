@@ -111,7 +111,7 @@
 		"Boss2": "Perhaps. We don’t know…",
 		"Boss3": "No. I don't think we need it.",
 		"Boss4": "But I know!",
-		"Boss5": "We are an investment company engaged in banking, deposits, and deposits.",
+		"Boss5": "We are an investment company engaged in banking and deposits.",
 		"Boss6": "Every day, our client base increases by 2,000 people in 40 cities of the USSR and BSSR... Oh, Ukraine and Belarus.",
 		"Boss7": "Our company is developing rapidly, but we want to grow even faster and for this matter, we are attracting investors who can increase their capital.",
 		"Boss8": "Everything is easy. Just buy at least one certificate of the company and hold it",
@@ -613,11 +613,15 @@
   		"Restoraunt_14": "Enough of you, workers. Go to your wives and mothers - and come to us tomorrow.",
   		"Restoraunt_15": "Repeat?", 
 
-  		"scena9_battle1": "Hop-stop from the corner of this street, we stopped a dunce... what a shit?",
-  		"scena9_battle2": "Hello guys! Maybe we can agree?",
-  		"scena9_battle3": "What? You think I'm sucker? Shall we agree? Give me your wallet!"
+  		"Scena9_battle1": "Hop-stop from the corner of this street, we stopped a dunce... what a shit?",
+  		"Scena9_battle2": "Hello guys! Maybe we can agree?",
+  		"Scena9_battle3": "What? You think I'm sucker? Shall we agree? Give me your wallet!",
 
-
+  		"Sektants1": "Congratulations! Come to the House of Prayer. Marusia Denytsia-Christ will guide you along the path of truth and repentance.",
+  		"Sektants2": "Take a card.",
+  		"Sektants3": "Throw away.",
+  		"Sektants4": "Let's rejoice today!",
+  		"Sektants5": "We are in ruins because of people like you. It's time to change it! "
 
 		},
 		
@@ -1230,7 +1234,13 @@
 
   		"scena9_battle1": "Гоп-стоп із-за угла, остановили рагуля...",
   		"scena9_battle2": "Привіт, хлопці! Може домовимся?",
-  		"scena9_battle3": "Що? Ти думаєш я попуск? Вот так просто й підем? Кошель жени!"
+  		"scena9_battle3": "Що? Ти думаєш я попуск? Вот так просто й підем? Кошель жени!",
+
+  		"Sektants1": "Мої вітання! Приходьте в Дім Молитви. Маруся Дениця-Христос проведе вас шляхом істини та покаяння.",
+  		"Sektants2": "Взяти листівку.",
+  		"Sektants3": "Викинути.",
+  		"Sektants4": "О радіймо сьогоднішньому дню!",
+  		"Sektants5": "Із-за таких як ви, ми зараз й перебуваємо в руїні. Настав час це виправити!"
 
 }
 }
