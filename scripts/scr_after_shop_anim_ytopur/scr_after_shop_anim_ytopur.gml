@@ -14,13 +14,14 @@ if sel_spr=noone
 	}
 }
 	//check the end of seller animation - than start GG anim
-else if sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.image_index)
+else if (sel_obj.sprite_index=sel_spr and scr_dim_animation_end(sel_spr,sel_obj.image_index))
 	{
 		sel_obj.image_index=0;
 		sel_obj.sprite_index=sel_spr_def;
-		if sel_obj.depth=-3 sel_obj.depth=0;
 		image_index=0;
 		sprite_index=GG_spr;
+		if (sel_obj.depth=-3) {sel_obj.depth=0;}
+	//	if (instance_exists(obj_kassa_tickets)) {obj_kassa_tickets.image_index=0;}
 	}
 
 // chek end GG animation

@@ -1,10 +1,10 @@
 //КРИС
 //якщо магазин відкритий, гравець нерухомий
 if (global.shop or global.map or !global.dialog_end) {
-	if lastmove = 0 sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");
-	else sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");
-	if (audio_is_playing(s_walk)) audio_stop_sound(s_walk);
-	if (audio_is_playing(snd_run)) audio_stop_sound(snd_run);
+	if (lastmove = 0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");}
+	else {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");}
+//	if (audio_is_playing(s_walk)) {audio_stop_sound(s_walk);}
+//	if (audio_is_playing(snd_run)) {audio_stop_sound(snd_run);}
 	in_place = 0;
 	exit;
 }
@@ -31,13 +31,14 @@ if (global.dialogue_move = true){
 	last_active=true;	
 	}
 	// переміщення у задані координати із заданою швидкістю
-	mp_linear_step(xsd, ysd, 2, false);
+//	mp_linear_step(xsd, ysd, 2, false);
+mp_potential_step(xsd,ysd, 2, false);
 	// при досягненні визначеної координати
 	if ( x = xsd and y = ysd  ) 
 	{
 		if in_place = 0
 		{
-			if audio_is_playing(s_walk) audio_stop_sound(s_walk);
+		//	if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
@@ -49,8 +50,8 @@ if (global.dialogue_move = true){
 	// звуки ходьби
 	else if !in_place
 	{
-		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+//		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
+//		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 	}
 	
 }	
@@ -98,4 +99,3 @@ switch(state){
 	audio_listener_set_position(0,x,y,0);
 	}
 	}
-

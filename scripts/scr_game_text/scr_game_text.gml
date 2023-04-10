@@ -160,7 +160,7 @@ for (var i = 0; i < 11; i++){
 		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
 		//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
 	scr_anim_start("Kasa",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
-		obj_kassa_tickets.image_index=1;
+		//obj_kassa_tickets.image_index=1;
 		break;
 		}
 	}
@@ -919,14 +919,13 @@ scr_text(scr_json_lang(global.LANGUAGE,"Stiopa0"),2,spr_ic_Krus,spr_ic_stiopa_ty
 scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");}
 else{
-	global.zn_Stiop=1;
-	
 scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa22"),"Provodu_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa6"),"By_Stiopa");
 	scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");}
 break
 	case"Provodu_Stiopa":
+	global.zn_Stiop=1;
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa2"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa3"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa4"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
@@ -935,14 +934,22 @@ break
 		scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
 	break
 	case"By_Stiopa":
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa7"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa8"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),2,spr_ic_Krus,spr_ic_Ytopurok_l);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l,obj_fishery);
+	if (global.zn_Stiop_by){
+		instance_create_depth(obj_dim_player1.x,90,-9999,obj_fishery)
+		obj_fishery.shopOpen = true;
+		global.shop = true;
+	}
+	else{
+		global.zn_Stiop_by=1;
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa7"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa8"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);	
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa12"),2,spr_ic_Krus,spr_ic_Ytopurok_l);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa121"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l);
+		scr_text(scr_json_lang(global.LANGUAGE,"Stiopa13"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l,obj_fishery);
+	}
 	//scr_option("","By_Stiopa");
 	//break
 //	case "By_Stiopa":

@@ -52,7 +52,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1832f542-018e-4e43-8b63-4167c0370e4d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "NPC",
     "path": "folders/Sprites/Bazar/Day/FIsh and Bazar/NPC.yy",
@@ -117,7 +117,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 1,
     "yorigin": 0,
   },
   "swatchColours": null,
