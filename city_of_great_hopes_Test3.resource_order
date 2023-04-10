@@ -153,6 +153,7 @@
     {"name":"Sprite1802","order":8,"path":"sprites/Sprite1802/Sprite1802.yy",},
     {"name":"par_depthobject","order":4,"path":"objects/par_depthobject/par_depthobject.yy",},
     {"name":"settings","order":8,"path":"sprites/settings/settings.yy",},
+    {"name":"obj_svust_7","order":2,"path":"objects/obj_svust_7/obj_svust_7.yy",},
     {"name":"obj_goodbyemoney","order":2,"path":"objects/obj_goodbyemoney/obj_goodbyemoney.yy",},
     {"name":"spr_hpEmpty","order":2,"path":"sprites/spr_hpEmpty/spr_hpEmpty.yy",},
     {"name":"spr_get4_ua","order":1,"path":"sprites/spr_get4_ua/spr_get4_ua.yy",},

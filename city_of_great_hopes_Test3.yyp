@@ -1635,6 +1635,7 @@
     {"id":{"name":"spr_bordered","path":"sprites/spr_bordered/spr_bordered.yy",},},
     {"id":{"name":"obj_player_2_sekt","path":"objects/obj_player_2_sekt/obj_player_2_sekt.yy",},},
     {"id":{"name":"spr_waiter_walk_R","path":"sprites/spr_waiter_walk_R/spr_waiter_walk_R.yy",},},
+    {"id":{"name":"obj_svust_7","path":"objects/obj_svust_7/obj_svust_7.yy",},},
     {"id":{"name":"spr_krus_read","path":"sprites/spr_krus_read/spr_krus_read.yy",},},
     {"id":{"name":"spr_menu_backgraund","path":"sprites/spr_menu_backgraund/spr_menu_backgraund.yy",},},
     {"id":{"name":"obj_dumbbell_sport2","path":"objects/obj_dumbbell_sport2/obj_dumbbell_sport2.yy",},},

@@ -1504,7 +1504,7 @@ case "scena_9_battle":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena9_battle2"),1,spr_ic_Krus,spr_ic_gopnik_1);
   scr_text(scr_json_lang(global.LANGUAGE,"Scena9_battle3"),2,spr_ic_Krus,spr_ic_gopnik_1);
   scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"battle");
-  
+ break;
   case "battle":
   {
 	  obj_Battle_Interface.battle_start = true;
@@ -1559,18 +1559,18 @@ case "task1_npc2":
 break
 
 case "task1_babka1":
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_1, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka1"),1,spr_ic_Seller_1, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_seller_bazar_4, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka1"),1,spr_ic_seller_bazar_4, spr_ic_Ytopurok);
 break
 
 case "task1_babka2":
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_2, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka2"),1,spr_ic_Seller_2, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_seller_bazar_2, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka2"),1,spr_ic_seller_bazar_2, spr_ic_Ytopurok);
 break
 
 case "task1_babka3":
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_Seller_3, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka3"),1,spr_ic_Seller_3, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_seller_bazar_3, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka3"),1,spr_ic_seller_bazar_3, spr_ic_Ytopurok);
 break
 
 case "task1_npc3":
@@ -1646,7 +1646,7 @@ break
 case "beer":
 	with(obj_manager_barmen)
 	{
-		start = true;
+		start = _e;
 	}
 	with(obj_trigger_barmen)
 	{
@@ -1658,6 +1658,24 @@ case "go_home_alcoholics": // бармен вигяняє
 	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_14"),2,spr_ic_Krus, spr_ic_Barman);
 	global.noRest = 2;
 break
+
+#region sektants
+
+case "sektants":
+	scr_text(scr_json_lang(global.LANGUAGE,"Sektants1"),1,spr_ic_sekta_1, spr_ic_Krus_l);
+	    scr_option(scr_json_lang(global.LANGUAGE,"Sektants2"),"take");
+		scr_option(scr_json_lang(global.LANGUAGE,"Sektants3"),"dont_take");
+break
+
+case "take":
+	scr_text(scr_json_lang(global.LANGUAGE,"Sektants4"),1,spr_ic_sekta_1, spr_ic_Krus_l);
+break;
+
+case "dont_take":
+	scr_text(scr_json_lang(global.LANGUAGE,"Sektants5"),1,spr_ic_sekta_1, spr_ic_Krus_l);
+break;
+
+#endregion
 
 #endregion
 
