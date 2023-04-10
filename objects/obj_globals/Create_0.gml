@@ -11,3 +11,4 @@ global.gameStart = 0;
 global.item_bought = false;
 global.dialogue_move = false;
 global.zaniatui = false;
+

@@ -1,23 +1,20 @@
+if(obj_dim_player1.status = STATUS.ACTIVE and place_meeting(x, y, obj_dim_player1)){
+		draw_sprite_ext(help_sprite, img,  obj_dim_player1.x - 6, obj_dim_player1.y - 80, 0.5, 0.5, 0, -1, 1)
+}
+if(obj_dim_player2.status = STATUS.ACTIVE and place_meeting(x, y, obj_dim_player2)){
+
+		draw_sprite_ext(help_sprite, img,  obj_dim_player2.x - 6, obj_dim_player2.y - 80, 0.5, 0.5, 0, -1, 1)
+}
+///////////////////////////////////////////////////////////////////////////////////////
 // коли хтось наступив і діалог ще не початий
-if (global.dialog_end) 
+if ((place_meeting(x, y, obj_dim_player1) and obj_dim_player1.status=STATUS.ACTIVE) or (place_meeting(x, y, obj_dim_player2) and obj_dim_player2.status=STATUS.ACTIVE)){
+	contakt=true;
+}
+else { contakt=false;}
+
+if (global.dialog_end)
 {
-	// якщо керуєш утопироком
-	if (place_meeting(x, y, obj_dim_player1) and obj_dim_player1.status=STATUS.ACTIVE)
-	{	
-	draw_sprite_ext(help_sprite, -1,  obj_dim_player1.x + help_x, obj_dim_player1.y + help_y, 0.5, 0.5, 0, -1, 1)
-	contakt=true;
-	}
-	else{
-// якщо керуєш Кристофером
-	if (place_meeting(x, y, obj_dim_player2) and obj_dim_player2.status=STATUS.ACTIVE)
-	{
-	draw_sprite_ext(help_sprite, -1,  obj_dim_player2.x + help_x, obj_dim_player2.y + help_y, 0.5, 0.5, 0, -1, 1)
-	contakt=true;
-	}
-	// if nibody activw stay
-	else {contakt=false;}
-	}
-	if (keyboard_check_pressed(ord("E")) and !global.shop  and  contakt = true)
+	if (keyboard_check_pressed(ord("E")) and !global.shop and contakt = true)
 	{
 		global.text_id=text_id;
 		contakt = false;

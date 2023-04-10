@@ -5,7 +5,6 @@
 event_inherited();
 if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, obj_dim_player2)) and !global.dialogue_move)
 {
-	drowings = true;
 	// задання кооринат для переміщення
 	if keyboard_check_pressed(ord("E")) 
 	{
@@ -20,7 +19,4 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 
 	}	
 }
-else if drowings drowings= false;
-
-	
 
