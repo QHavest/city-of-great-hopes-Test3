@@ -100,6 +100,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rival_station","folderPath":"folders/Dialogs/speaker_icon/Rival_station.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Gopopotam","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Gopopotam.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pohoron","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Pohoron.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Torchky","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Torchky.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Siyzhet","folderPath":"folders/Dialogs/speaker_icon/Siyzhet.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Juish_mans","folderPath":"folders/Dialogs/speaker_icon/Siyzhet/Juish_mans.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tyhlyanka","folderPath":"folders/Dialogs/speaker_icon/Tyhlyanka.yy",},
@@ -368,7 +369,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Torchky","folderPath":"folders/Dialogs/speaker_icon/Rival_station/Torchky.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

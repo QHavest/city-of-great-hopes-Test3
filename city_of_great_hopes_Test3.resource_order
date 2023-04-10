@@ -22,6 +22,7 @@
     {"name":"Dialogs","order":13,"path":"folders/Dialogs.yy",},
     {"name":"Gopopotam","order":13,"path":"folders/Dialogs/speaker_icon/Rival_station/Gopopotam.yy",},
     {"name":"Pohoron","order":14,"path":"folders/Dialogs/speaker_icon/Rival_station/Pohoron.yy",},
+    {"name":"Torchky","order":15,"path":"folders/Dialogs/speaker_icon/Rival_station/Torchky.yy",},
     {"name":"Diary","order":14,"path":"folders/Diary.yy",},
     {"name":"Extensions","order":15,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":16,"path":"folders/Fonts.yy",},
@@ -51,7 +52,6 @@
     {"name":"Tile Sets","order":30,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":31,"path":"folders/Timelines.yy",},
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
-    {"name":"Torchky","order":15,"path":"folders/Dialogs/speaker_icon/Rival_station/Torchky.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
