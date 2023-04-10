@@ -3,8 +3,8 @@
 if (global.shop or global.map or !global.dialog_end) {
 	if (lastmove = 0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");}
 	else {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");}
-	if (audio_is_playing(s_walk)) {audio_stop_sound(s_walk);}
-	if (audio_is_playing(snd_run)) {audio_stop_sound(snd_run);}
+//	if (audio_is_playing(s_walk)) {audio_stop_sound(s_walk);}
+//	if (audio_is_playing(snd_run)) {audio_stop_sound(snd_run);}
 	in_place = 0;
 	exit;
 }
@@ -38,7 +38,7 @@ mp_potential_step(xsd,ysd, 2, false);
 	{
 		if in_place = 0
 		{
-			if audio_is_playing(s_walk) audio_stop_sound(s_walk);
+		//	if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
@@ -50,8 +50,8 @@ mp_potential_step(xsd,ysd, 2, false);
 	// звуки ходьби
 	else if !in_place
 	{
-		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+//		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
+//		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
 	}
 	
 }	
