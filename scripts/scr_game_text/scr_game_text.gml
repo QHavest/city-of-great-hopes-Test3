@@ -1236,18 +1236,18 @@ switch(irandom_range(1,5)){
 		scr_text(scr_json_lang(global.LANGUAGE,"Torchok1"),2,spr_ic_Krus,spr_ic_torch_1);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Torchok2"),2,spr_ic_Krus,spr_ic_torch_1);
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok2"),2,spr_ic_Krus,spr_ic_torch_2_r);
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok6"),"4");
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Torchok3"),2,spr_ic_Krus,spr_ic_torch_1);
-		scr_text(scr_json_lang(global.LANGUAGE,"Torchok31"),2,spr_ic_Krus,spr_ic_torch_1);
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok3"),2,spr_ic_Krus,spr_ic_torch_3);
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok31"),2,spr_ic_Krus,spr_ic_torch_3);
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok6"),"4");
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Torchok4"),2,spr_ic_Krus,spr_ic_torch_1);
+		scr_text(scr_json_lang(global.LANGUAGE,"Torchok4"),2,spr_ic_Krus,spr_ic_torch_2_r);
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok8"),"4");
 		scr_option(scr_json_lang(global.LANGUAGE,"Torchok7"),"fight_torch");
 			break
