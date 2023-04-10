@@ -97,7 +97,6 @@
     {"name":"inst_4534AAD6","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_68B14674","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_2973A851","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
-    {"name":"inst_6DB19E2B","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_64D51A0D","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
