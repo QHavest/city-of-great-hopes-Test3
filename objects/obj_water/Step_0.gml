@@ -3,14 +3,13 @@
 
 // Inherit the parent event
 event_inherited();
-if place_meeting(x+20, y+zone_y, obj_dim_player1) or place_meeting(x-20, y+zone_y, obj_dim_player1) 
+if (place_meeting(x+20, y+zone_y, obj_dim_player1) or place_meeting(x-29, y+zone_y, obj_dim_player1))
 {
 	if !global.dialogue_move and obj_dim_player1.status= STATUS.ACTIVE
 	{
 		// задання кооринат для переміщення
 		if keyboard_check_pressed(ord("E")) 
 		{
-			drowings = true;
 			pl=1;
 			global.dialogue_move = true;
 			obj_dim_player1.xsd = x+x1;
@@ -24,14 +23,13 @@ if place_meeting(x+20, y+zone_y, obj_dim_player1) or place_meeting(x-20, y+zone_
 		}	
 	}
 }
-else if place_meeting(x+10, y+zone_y, obj_dim_player2) or  place_meeting(x-10, y+zone_y, obj_dim_player2)
+else if (place_meeting(x+20, y+zone_y, obj_dim_player2) or  place_meeting(x-20, y+zone_y, obj_dim_player2))
 {
 	if !global.dialogue_move and obj_dim_player2.status= STATUS.ACTIVE
 {
 	// задання кооринат для переміщення
 	if (keyboard_check_pressed(ord("E")))
 	{
-		drowings = true;
 		pl=2;
 		global.dialogue_move = true;
 		obj_dim_player1.xsd = obj_dim_player1.x;
@@ -42,9 +40,6 @@ else if place_meeting(x+10, y+zone_y, obj_dim_player2) or  place_meeting(x-10, y
 		if obj_dim_player1.lastmove =0 { obj_dim_player1.napriam="r";}
 		else obj_dim_player1.napriam="l";
 	}	
-} else if(drowings = true) {
-	drowings = false;
 }
 }
-
 	

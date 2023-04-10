@@ -5,7 +5,6 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 	// задання кооринат для переміщення
 	if keyboard_check_pressed(ord("E")) 
 	{
-		drowings = false;
 		global.dialogue_move = true;
 		obj_dim_player1.xsd = x+x1;
 		obj_dim_player1.ysd = y+y1;
@@ -16,5 +15,4 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 
 	}	
 }
-else if drowings drowings = false;
 

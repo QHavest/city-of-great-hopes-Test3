@@ -6,4 +6,5 @@ if (img=1){
 else{ 
 	img=1;
 	}
-alarm[0]=20;
+	
+alarm[0]=20
