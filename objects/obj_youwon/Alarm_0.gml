@@ -5,7 +5,6 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		show_debug_message("Test huinni")
 		room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
-		obj_Battle_Interface.lives_enemy = false;
 		global.dialog_end = true;
 		global.zaniatui = false;
 		obj_Battle_Interface.another_fone = false;

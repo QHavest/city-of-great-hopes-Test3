@@ -1236,6 +1236,51 @@ switch(irandom_range(1,4)){
 }	
 break
 #endregion
+
+#region(Kavkaz)
+case"Kavkaz":
+switch(irandom_range(1,4)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz1"),2,spr_ic_Ytopurok,spr_ic_kavkaz2_r);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz7"),"supp_kavkaz");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz8"),"dissagree_kavkaz");
+			break
+			case 2:
+		scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz2"),2,spr_ic_Ytopurok,spr_ic_Kadur);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz7"),"supp_kavkaz");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz8"),"dissagree_kavkaz");
+			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz3"),2,spr_ic_Ytopurok,spr_ic_kavkaz1);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz7"),"supp_kavkaz");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz8"),"dissagree_kavkaz");
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz4"),2,spr_ic_Ytopurok,spr_ic_kavkaz2_r);
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz7"),"supp_kavkaz");
+		scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz8"),"dissagree_kavkaz");
+			break
+}	
+break
+case "supp_kavkaz":
+	scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz6"),1,spr_ic_Ytopurok,spr_ic_blank);
+	scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz10"),"4");
+break;
+case "dissagree_kavkaz":
+	scr_text(scr_json_lang(global.LANGUAGE,"Kavkaz5"),1,spr_ic_Ytopurok,spr_ic_blank);
+	scr_option(scr_json_lang(global.LANGUAGE,"Kavkaz9"),"fight_kavkaz");
+break;
+case "fight_kavkaz":
+	with obj_Battle_Interface{
+	battle_start = true;
+	enemies = ENEMY.Kavkazci
+	scr_music_fon_change(Room61);
+	room_goto(Room61);
+	}
+
+break
+#endregion
+
 #region(Torchok)
 case"Torchok":
 switch(irandom_range(1,5)){

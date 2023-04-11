@@ -1,7 +1,4 @@
-instance_deactivate_object(inst_68B14674);//sprava
-instance_deactivate_object(inst_4534AAD6);//centre
-instance_deactivate_object(inst_2973A851);//livo
-object_set_visible(inst_5294AB15,false)
+
 switch (randomizes){
 case 0://центр біля входу в вокзал
 //instance_create_depth(1836,232,100,obj_tor_3).sprite_index = spr_tor_1;

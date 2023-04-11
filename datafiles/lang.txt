@@ -472,7 +472,7 @@
 		"Torchok31": "What the hell?",
 		"Torchok4": "Men, remember, the main thing is to take it on time. You won't be suspected when it's inside, but if you haven't finished it, you'll already dealer.",
 		"Torchok5": "So smoke a puff and a full LSD! The main thing isn't to catch a squirrel.",
-		"Torchok8": "take it on",
+		"Torchok8": "Take it on",
 
 		"Sekta1": "Good day, God bless you!",
 		"Sekta2": "Let's pray for the righteousness of our actions and thoughts!",
@@ -482,6 +482,17 @@
 		"Sekta6": "In the temple, we really feel the closeness to God. It used to be ground, but now everyone has the opportunity to be in touch with Divinity.",
 		"Sekta7": "Let's rejoice today!",
 		"Sekta8": "Joy to you and your house!",
+
+		"Kavkaz1": "If there was communism now, then you would be kulaks. Everything costs something. And a partie gives everyone a price, not proletarians. You work for someone, not for yourself.",
+		"Kavkaz2": "May the flag of red hopes fly above you! Hammer and scythe will help to overcome war and famine!",
+		"Kavkaz3": "Live long oh Ukraine, beautiful and strong, You found happiness in the Soviet Union. Equal among equals, free among free, It bloomed like a flower under the sun of eternity",
+		"Kavkaz4": "Karl Marx and Engels told the truth but it was taken too literally!",
+		"Kavkaz5": "Fuck your party and leaders! 70 years of terror are finally over.",
+		"Kavkaz6": "And you not get sick, but prosper in your kolkhoz!",
+		"Kavkaz7": "Support",
+		"Kavkaz8": "Disagree",
+		"Kavkaz9": "Fight",
+		"Kavkaz10": "Go away",
 
 		"Myzukantu1": "People, throw some money at the development of art, be kind. Do you support Soviet art? Young blood!",
 		"Myzukantu20": "Ask",
@@ -1095,6 +1106,16 @@
 		"Torchok5": "Того куріть затяжкой й повну марку! Головне не зловити білочку. По собі кажу.",
 		"Torchok8": "Принять",
 
+		"Kavkaz1": "Вот би був зараз коммунізм, то ви були б куркулями. Все щось стоїть.  А ціну кожному дають дядьки, а не люд. Ви працюєте на когось, а не ради себе.",
+		"Kavkaz2": "Да хай майорить над вами флаг красних надєжд! Серп і молот поборять війну і голод!",
+		"Kavkaz3": "Живи, Україно, прекрасна і сильна, В Радянськім Союзі ти щастя знайшла. Між рівними рівна, між вільними вільна, Під сонцем свободи, як цвіт, розцвіла",
+		"Kavkaz4": "Карл Маркс і Енгельс правду казали - тільки її сприйняли надто буквально!",
+		"Kavkaz5": "В жопу вашу партію і вождей! 70 років терору нарешті скінчилися.",
+		"Kavkaz6": "І вам не хворіти, а процвітати у вашому колгоспі!",
+		"Kavkaz7": "Підтримати",
+		"Kavkaz8": "Критикувати",
+		"Kavkaz9": "Бій",
+		"Kavkaz10": "Йти далі",
 
 		"Sekta1": "Доброго дня, вас Бозя вітає!",
 		"Sekta2": "Будемо молитися ми за правледність наших дій та помислів!",

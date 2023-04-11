@@ -400,6 +400,7 @@ switch(global.LANGUAGE)
 							scr_help_minigame_wait();
 							draw_set_alpha(1);
 						}
+				break;
 				case ENEMY.Hopniki :
 					if (flash_state) {
 					draw_set_alpha(0.5); 

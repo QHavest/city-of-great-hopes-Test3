@@ -56,9 +56,12 @@ enum PHASES{
 Atack,
 Defence,
 }
+//торчки
 count = 0;
 lives_enemy = true;
-
+//кавказці
+count_kavkaz = 0;
+lives_enemy_kavkaz = true;
 //for button array
 
 button_c = 1;
