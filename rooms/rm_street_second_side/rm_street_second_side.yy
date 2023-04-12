@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_street_second_side",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_street_second_side/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

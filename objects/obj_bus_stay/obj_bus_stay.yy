@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Transport",
-    "path": "folders/Transport.yy",
+    "name": "Old",
+    "path": "folders/Transport/Old.yy",
   },
   "parentObjectId": null,
   "persistent": false,
