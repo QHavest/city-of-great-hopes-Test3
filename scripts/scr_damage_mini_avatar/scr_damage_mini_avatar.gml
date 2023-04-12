@@ -40,7 +40,35 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 			scr_gg_hit();
 			}
 	}
-	alarm[4]=30;
+	
+	switch (obj_Battle_Interface.phase_battle){
+		case PHASES.Atack:
+			switch (obj_Battle_Interface.enemies){
+				case ENEMY.Hopniki:
+					alarm[4]=20;
+				break;
+				case ENEMY.Sectants:
+					alarm[4]=65;
+				break;
+				case ENEMY.Kavkazci:
+					alarm[4]=1;
+				break;
+				case ENEMY.Narkomany:
+					alarm[4]=30;
+				break;
+			}
+		break;
+		case PHASES.Defence:
+			switch (obj_Battle_Interface.aliens){
+				case ALIES.Krus_mini:
+					alarm[4]=1;
+				break;
+				case ALIES.Ytopurok_mini:
+					alarm[4]=1;
+				break;
+			}
+		break;
+	}
 	take_damage = false;
 	}
 	else if(global.MaxHp > 0 and global.MaxHp < 51){
@@ -73,7 +101,34 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 			//scr_gg_hit();
 			}
 	}
-	alarm[4]=30;
+	switch (obj_Battle_Interface.phase_battle){
+		case PHASES.Atack:
+			switch (obj_Battle_Interface.enemies){
+				case ENEMY.Hopniki:
+					alarm[4]=20;
+				break;
+				case ENEMY.Sectants:
+					alarm[4]=65;
+				break;
+				case ENEMY.Kavkazci:
+					alarm[4]=1;
+				break;
+				case ENEMY.Narkomany:
+					alarm[4]=30;
+				break;
+			}
+		break;
+		case PHASES.Defence:
+			switch (obj_Battle_Interface.aliens){
+				case ALIES.Krus_mini:
+					alarm[4]=1;
+				break;
+				case ALIES.Ytopurok_mini:
+					alarm[4]=1;
+				break;
+			}
+		break;
+	}
 	}
 	take_damage = false;
 } else if (global.MaxHp = 0){

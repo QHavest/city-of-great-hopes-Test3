@@ -1,4 +1,4 @@
-	if (obj_ytopur_battle.phasese == PHASESE.Defeat2)
+	if (obj_ytopur_battle.phasese == PHASESE.Defeat)
 	{
 		alarm[9] = 1;
 	}

@@ -1632,6 +1632,7 @@
     {"id":{"name":"spr_ytopyr_narkoman_battle_hit","path":"sprites/spr_ytopyr_narkoman_battle_hit/spr_ytopyr_narkoman_battle_hit.yy",},},
     {"id":{"name":"spr_hopnik_defeat","path":"sprites/spr_hopnik_defeat/spr_hopnik_defeat.yy",},},
     {"id":{"name":"par_depthobject","path":"objects/par_depthobject/par_depthobject.yy",},},
+    {"id":{"name":"scr_end_minigame","path":"scripts/scr_end_minigame/scr_end_minigame.yy",},},
     {"id":{"name":"obj_home_podjezd_night1","path":"objects/obj_home_podjezd_night1/obj_home_podjezd_night1.yy",},},
     {"id":{"name":"spr_sektant_krus","path":"sprites/spr_sektant_krus/spr_sektant_krus.yy",},},
     {"id":{"name":"settings","path":"sprites/settings/settings.yy",},},

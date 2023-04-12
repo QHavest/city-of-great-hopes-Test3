@@ -1,0 +1,2 @@
+instance_destroy(obj_positive_hit);
+instance_destroy(obj_negative_hit);

@@ -6,7 +6,7 @@ if(battle_start = true){
 	
 	switch(enemies){
 		case ENEMY.Hopniki:
-		draw_sprite(spr_battle_fones, 0, gui_W/(-400), gui_H/107);
+		draw_sprite(spr_battle_fones, 7, gui_W/(-400), gui_H/107);
 		break;
 		case ENEMY.Kavkazci:
 			draw_sprite(spr_battle_fones, 2, gui_W/(-400), gui_H/107);

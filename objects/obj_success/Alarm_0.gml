@@ -4,7 +4,8 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 	{	
 		audio_play_sound(snd_victory_sound,5,false);
 		show_debug_message("Test huinni")
-		room_goto(obj_Battle_Interface.target_rm);
+		scr_end_minigame();
+		/*room_goto(obj_Battle_Interface.target_rm);
 		//battle_start = false;
 		obj_Battle_Interface.another_fone = false;
 		obj_Battle_Interface.hp_one = 0;

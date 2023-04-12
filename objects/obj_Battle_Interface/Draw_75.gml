@@ -60,6 +60,7 @@ if(battle_start = true){
 	
 } else 
 	{
+		
 		obj_dim_player1.visible = true;
 		obj_dim_player2.visible = true;
 	}

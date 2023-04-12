@@ -57,8 +57,16 @@ if (battle_start = true and keyboard_check_pressed(ord("F")))
 		}
 	}
 	
-	
+//відповідає за потрібну кімнату в яку маєи повертатися
+switch(enemies){
+case ENEMY.Kavkazci:
+target_rm = rm_center_left;
+break;
+case ENEMY.Torchky:
+target_rm = rm_street_second_side;
+break;
 
+}
 alarm[1] -= 1;
 alarm[2] -= 2;
 
