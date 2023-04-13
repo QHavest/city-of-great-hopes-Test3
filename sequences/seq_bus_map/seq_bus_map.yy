@@ -12,7 +12,17 @@
   "events": {
     "resourceType": "KeyframeStore<MessageEventKeyframe>",
     "resourceVersion": "1.0",
-    "Keyframes": [],
+    "Keyframes": [
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "map_create",
+            ],},},"Disabled":false,"id":"0869b766-0397-4b94-9c4f-da1a50592707","IsCreationKey":false,"Key":240.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "map_deact",
+            ],},},"Disabled":false,"id":"2df42b9b-a805-4001-bed8-31511bdc6093","IsCreationKey":false,"Key":400.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "seq_deletes",
+            ],},},"Disabled":false,"id":"dbf2e717-b102-4796-9536-33e9a6872052","IsCreationKey":false,"Key":536.0,"Length":1.0,"Stretch":false,},
+    ],
   },
   "eventStubScript": null,
   "eventToFunction": {},
