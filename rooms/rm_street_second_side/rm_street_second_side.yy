@@ -95,6 +95,7 @@
     {"name":"inst_3F4342E5","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_6DB19E2B","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_64D51A0D","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_6681DA75","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -121,6 +122,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50BE5D6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_light_2","path":"objects/obj_light_2/obj_light_2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1109.0,"y":71.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C4EABD7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_light_3","path":"objects/obj_light_3/obj_light_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3500.0,"y":223.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NPC","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6681DA75","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_babka_suvenir","path":"objects/obj_babka_suvenir/obj_babka_suvenir.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":985.0,"y":201.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B1284BF","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dim_player1","path":"objects/obj_dim_player1/obj_dim_player1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1862.5,"y":280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50BE9D04","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dim_player2","path":"objects/obj_dim_player2/obj_dim_player2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1905.0,"y":278.0,},

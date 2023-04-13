@@ -3,7 +3,6 @@
 global.player_gain = 1;
 global.Fon_sound_gain = 0.3;
 global.System_gain = 1;
-global.day = 1;
 
 global.settings_open = 0;
 old_sound = snd_main_menu;

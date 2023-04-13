@@ -1,7 +1,7 @@
 if(global.settings_open == 1) {exit;}
 //if(!global.pause) exit;
 //esc_pau = keyboard_check_pressed(vk_escape);
-	var fnt = draw_get_font()
+var fnt = draw_get_font()
 var sz=draw_set_font(main_menu_font)
 menu = true;
 if (menu){
@@ -85,37 +85,8 @@ yy = 0; repeat(ds_height){
 		draw_text_color(rtx,rty, "On ", c1,c1,c1,c1, 1);
 		draw_text_color(rtx + 32,rty, " Off", c2,c2,c2,c2, 1);
 	break;
-	
-	/*case menu_element_type.input:
-		var current_val = ds_grid[# 3, yy];
-		var string_val;
-		
-		switch(current_val){
-			case vk_up: string_val = "UP KEY"; break;
-		}
-	break;*/
 	}
 	yy++;
 }
-/*
-draw_set_valign(fa_top);
-if (esc_pau)
-	{
-		global.pause = !global.pause;
-		inputting = true;
-		page = 0;
-		// Снова включаем все объекты
-		instance_activate_all();
-	}
-} 
-else{
-if (esc_pau) and !global.map
-	{
-		global.pause = !global.pause;
-		inputting = false;
-		//if(!global.pause) exit;
-		// Снова включаем все объекты
-		instance_deactivate_all(true);
-	}*/
 }
 
