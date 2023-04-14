@@ -371,9 +371,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transport","folderPath":"folders/Transport.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"New","folderPath":"folders/Transport/New.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite","folderPath":"folders/Transport/New/Sprite.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Car","folderPath":"folders/Transport/New/Sprite/Car.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Transport/Old.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Old/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Car","folderPath":"folders/Transport/New/Sprite/Car.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

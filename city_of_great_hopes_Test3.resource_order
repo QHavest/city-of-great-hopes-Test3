@@ -69,8 +69,8 @@
     {"name":"Transport","order":32,"path":"folders/Transport.yy",},
     {"name":"New","order":3,"path":"folders/Transport/New.yy",},
     {"name":"Sprite","order":11,"path":"folders/Transport/New/Sprite.yy",},
-    {"name":"Old","order":1,"path":"folders/Transport/Old.yy",},
     {"name":"Car","order":10,"path":"folders/Transport/New/Sprite/Car.yy",},
+    {"name":"Old","order":1,"path":"folders/Transport/Old.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
