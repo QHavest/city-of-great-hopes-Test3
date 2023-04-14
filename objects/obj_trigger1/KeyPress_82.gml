@@ -1,3 +1,6 @@
+obj_dim_player1.x = 0;
+obj_dim_player2.x = 0;
+
 var _playerInst = instance_find(obj_dim_player1,0);
 var _playerInst2 = instance_find(obj_dim_player2,0);
 var _playerInst3 = instance_find(obj_dim_player2_cut,0);

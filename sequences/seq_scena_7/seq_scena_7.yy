@@ -15,49 +15,49 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "start",
-            ],},},"Disabled":false,"id":"622fc261-fc63-4aa3-9872-2800d8c2b101","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"1a32bcdb-bacc-4dcb-80fe-c8e61ed36d53","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "dialog1",
-            ],},},"Disabled":false,"id":"568fea90-24b0-4500-9e1e-9fe87217ca27","IsCreationKey":false,"Key":36.0,"Length":1.0,"Stretch":false,},
+              "dialog1_7",
+            ],},},"Disabled":false,"id":"dace3bbb-70a2-4c19-9be4-73c0813fd0af","IsCreationKey":false,"Key":36.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "dialog2",
-            ],},},"Disabled":false,"id":"756ad238-1bdb-4d65-8518-6842c0805ca4","IsCreationKey":false,"Key":54.0,"Length":1.0,"Stretch":false,},
+              "dialog2_7",
+            ],},},"Disabled":false,"id":"22279010-d48e-4663-aafd-b5e5e3ee4e7e","IsCreationKey":false,"Key":54.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "stop_svust",
-            ],},},"Disabled":false,"id":"9a3136dd-88d5-4273-a54e-38324fad0b4b","IsCreationKey":false,"Key":60.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"c81c2b70-9787-46a6-b966-de9fdb9f68f8","IsCreationKey":false,"Key":60.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog3",
-            ],},},"Disabled":false,"id":"dbc222a8-675d-4378-a666-62b0c4355f26","IsCreationKey":false,"Key":66.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"eeb9e710-4e7c-4dee-b454-24f6842b0b79","IsCreationKey":false,"Key":66.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog4",
-            ],},},"Disabled":false,"id":"2b296139-310b-457f-9534-de18a45a032f","IsCreationKey":false,"Key":74.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"a77ba973-a831-4874-aa07-f7f05956dfd6","IsCreationKey":false,"Key":74.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause1",
-            ],},},"Disabled":false,"id":"bff2e474-128f-4a9f-9cc0-96a40cedd240","IsCreationKey":false,"Key":79.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"9555196d-3d97-4434-8c77-77451b3dfb72","IsCreationKey":false,"Key":79.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "mandarun_music",
-            ],},},"Disabled":false,"id":"15045720-4392-4914-b992-8a462b6d743a","IsCreationKey":false,"Key":80.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"4a2c1ae1-824d-4ad6-90ce-306bcde1afb5","IsCreationKey":false,"Key":80.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog5",
-            ],},},"Disabled":false,"id":"7978963f-5de5-418b-a679-62ae1f12b939","IsCreationKey":false,"Key":89.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"daa8175a-5272-4e66-ac0c-429678d0b3e4","IsCreationKey":false,"Key":89.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause1",
-            ],},},"Disabled":false,"id":"ede67ee9-e655-49ff-b04e-29e985ca9ae8","IsCreationKey":false,"Key":104.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"03253fd1-accb-49a0-876e-8609dae7b013","IsCreationKey":false,"Key":104.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "mandarun_stop_sound",
-            ],},},"Disabled":false,"id":"44cd492a-4070-49dd-8f5c-cc318b7d9331","IsCreationKey":false,"Key":117.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"0c5b05f4-6d4e-402b-9019-f3bdb137a773","IsCreationKey":false,"Key":117.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog6",
-            ],},},"Disabled":false,"id":"4f39ac97-dcc7-458d-b6a9-904c45e75482","IsCreationKey":false,"Key":127.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"05435314-f9e7-47f2-aaee-ac2b137987ed","IsCreationKey":false,"Key":127.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "room_goto1",
-            ],},},"Disabled":false,"id":"5990b3c8-3634-4954-b987-ae5f4b3b5d99","IsCreationKey":false,"Key":139.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"0ab299c4-cdfa-4e5c-84d1-41213e273e35","IsCreationKey":false,"Key":139.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "delete",
-            ],},},"Disabled":false,"id":"1107c135-0b57-4949-a5c3-528d6ca76d07","IsCreationKey":false,"Key":140.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"66bccad6-e92d-4d41-882d-d4cd76273979","IsCreationKey":false,"Key":140.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "room_goto2",
-            ],},},"Disabled":false,"id":"5765726c-95ac-4999-aab7-dde7df3f43ce","IsCreationKey":false,"Key":143.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"f1737b2b-2407-40d5-8e72-a585bff9a817","IsCreationKey":false,"Key":143.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

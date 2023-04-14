@@ -69,28 +69,18 @@ if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == 
 
 #region fog
 
-if(keyboard_check_pressed(ord("C"))){num_fog = percent_fog};
+if(keyboard_check_pressed(ord("L"))){alarm[3] = 1; start_new = true};
+if(keyboard_check_pressed(ord("X"))){start_new = false};
 
-//if(num_fog == percent_fog) 
-//{
-//	alarm[3] = 1; 
-//	alarm[5] = time1 * 20; 
-//	//show_debug_message("Step 1");
-//	percent_fog++;
-	
-//}
-
-if(fogNum > 350 and fog_or_not == true)
+if(fogNum > 230 and fog_or_not == true)
 {
 	fog_or_not = false;
-	fogNum -= 70;
+	fogNum -= 50;
 	alarm[4] = 60;
 }
 
 if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
 if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
-
-//if(keyboard_check_pressed(ord("V"))){alarm[3] = 1; alarm[5] = time1 * 25;}
 
 #endregion
 

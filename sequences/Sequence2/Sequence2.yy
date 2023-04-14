@@ -46,8 +46,8 @@
     "Keyframes": [],
   },
   "parent": {
-    "name": "Day_2",
-    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
+    "name": "scena 5",
+    "path": "folders/Story/Cutscenes/scena 5.yy",
   },
   "playback": 0,
   "playbackSpeed": 60.0,

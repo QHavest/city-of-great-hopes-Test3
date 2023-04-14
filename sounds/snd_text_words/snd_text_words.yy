@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 7.131458,
   "parent": {
-    "name": "Day_2",
-    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
+    "name": "Sound",
+    "path": "folders/Story/Cutscenes/scena 5/Sound.yy",
   },
   "preload": false,
   "sampleRate": 44100,

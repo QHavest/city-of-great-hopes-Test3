@@ -24,7 +24,10 @@
             ],},},"Disabled":false,"id":"9a185e5d-6c8e-4d01-a059-7631c2de5c39","IsCreationKey":false,"Key":88.0,"Length":1.0,"Stretch":false,},
     ],
   },
-  "eventStubScript": null,
+  "eventStubScript": {
+    "name": "Sequence1_Events82",
+    "path": "scripts/Sequence1_Events82/Sequence1_Events82.yy",
+  },
   "eventToFunction": {
     "0": "Sequence1_event_create",
     "1": "Sequence1_event_destroy",
@@ -42,8 +45,8 @@
     "Keyframes": [],
   },
   "parent": {
-    "name": "Day_2",
-    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
+    "name": "scena 5",
+    "path": "folders/Story/Cutscenes/scena 5.yy",
   },
   "playback": 0,
   "playbackSpeed": 5.0,

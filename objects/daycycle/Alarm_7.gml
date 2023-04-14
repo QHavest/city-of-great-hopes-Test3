@@ -1,3 +1,6 @@
+
+// rain
+
 num_rain = irandom(percent_rain);
 
 if(num_rain == percent_rain) 

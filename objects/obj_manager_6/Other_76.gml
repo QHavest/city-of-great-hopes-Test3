@@ -21,12 +21,10 @@ if event_data [? "event_type"] == "sequence event"
   
     case "pause":
 	pause = true;
-  
     break;
   
     case "dial_start":
     scr_create_textbox("scena_6");
-  
     break;
   
     case "delete":
@@ -37,6 +35,8 @@ if event_data [? "event_type"] == "sequence event"
     view_set_camera(0, regCam1);
     view_set_camera(1, regCam2);
 	scr_music_fon_change(room);
+	obj_dim_player1.InRoomMode = false;
+	obj_dim_player2.InRoomMode = false;
 	room_restart();
     break;
   }
