@@ -5,7 +5,7 @@ rah =0;
 t=0;
 
 // new varibls
-image_speed=8;
+image_speed=10;
 
 // плата за проїзд
 feee = 1;
@@ -45,18 +45,18 @@ bord_x_t = (vew_w - t_w*kof_t)/2 ;
 bord_y_t = (vew_h - t_h*kof_t)/2 ;
 
 // спрайт контуру який обводить район
-imaga[0] = spr_an_rival;
-imaga[1] = spr_an_marker;
-imaga[2] = spr_an_centr;
-imaga[3] = spr_contyr_4;
+imaga[0] = spr_an_rival_eng;
+imaga[1] = spr_an_marker_ua;
+imaga[2] = spr_an_centr_eng;
+imaga[3] = spr_an_Tyhlia_eng;
 
 // координата контуру який обводить район
 pos_x[0] = 435;
 pos_y[0] = 1259;
 pos_x[1] = 469;
 pos_y[1] = 1012;
-pos_x[2] = 386;
-pos_y[2] = 620;
+pos_x[2] = 380;
+pos_y[2] = 610;
 pos_x[3] = 386;
 pos_y[3] = 276;
 

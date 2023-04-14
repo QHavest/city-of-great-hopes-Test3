@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_an_rival",
-    "path": "sprites/spr_an_rival/spr_an_rival.yy",
+    "name": "spr_an_rival_eng",
+    "path": "sprites/spr_an_rival_eng/spr_an_rival_eng.yy",
   },
   "spriteMaskId": null,
   "visible": true,

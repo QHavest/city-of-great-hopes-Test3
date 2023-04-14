@@ -9,9 +9,9 @@ but_map = keyboard_check_pressed(ord("M"));
 if (global.map)
 {
 	// перехід у кімнату мапи
-	if (room != rm_mapa)	
+	if (room != rm_mapa_new)	
 	{
-		room_goto(rm_mapa);	
+		room_goto(rm_mapa_new);	
 	}
 		if (but_map) 
 	{	

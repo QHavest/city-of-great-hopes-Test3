@@ -9,10 +9,11 @@ if !acepted_key{
 // зміна позиції та спрайту квадрату для обведення обраного району
 	if keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down)
 	{
+		image_index=0;
 		sprite_index = imaga[pos];
 		x = pos_x[pos];
 		y = pos_y[pos];
-		image_speed=8;
+		image_speed=10;
 	}
 // вибір району
 	if keyboard_check_released(vk_enter)
