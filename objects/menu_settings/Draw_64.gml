@@ -81,18 +81,7 @@ yy = 0; repeat(ds_height){
 		
 		if(inputting and yy == menu_option[page]){ c = c_orange; }
 		
-		//if(current_array[current_val] == "Fullscreen" or current_array[current_val] == "Window")
-		//{
-		//	if(global.fullscreen == 1)
-		//	{
-		//		var cout = "Fullscreen";
-		//	}
-		//	if(global.fullscreen == 0)
-		//	{
-		//		var cout = "Window";
-		//	}
-		//}
-		
+	
 		//if(current_array[current_val] != "Fullscreen" or current_array[current_val] != "Window")
 		//{
 			var cout = current_array[current_val];
