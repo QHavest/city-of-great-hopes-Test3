@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "city_of_great_hopes_Test3",
-    "path": "city_of_great_hopes_Test3.yyp",
+    "name": "rooms",
+    "path": "folders/Mapa/rooms.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

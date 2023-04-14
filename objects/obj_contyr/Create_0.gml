@@ -4,6 +4,9 @@ acepted_key = 0;
 rah =0;
 t=0;
 
+// new varibls
+image_speed=10;
+
 // плата за проїзд
 feee = 1;
 
@@ -42,20 +45,20 @@ bord_x_t = (vew_w - t_w*kof_t)/2 ;
 bord_y_t = (vew_h - t_h*kof_t)/2 ;
 
 // спрайт контуру який обводить район
-imaga[0] = spr_contyr_1;
-imaga[1] = spr_contyr_2;
-imaga[2] = spr_contyr_3;
-imaga[3] = spr_contyr_4;
+imaga[0] = spr_an_rival_eng;
+imaga[1] = spr_an_marker_ua;
+imaga[2] = spr_an_centr_eng;
+imaga[3] = spr_an_Tyhlia_eng;
 
 // координата контуру який обводить район
-pos_x[0] = 1074;
-pos_y[0] = 2883;
-pos_x[1] = 1070;
-pos_y[1] = 2215;
-pos_x[2] = 950;
-pos_y[2] = 1344;
-pos_x[3] = 910;
-pos_y[3] = 665;
+pos_x[0] = 435;
+pos_y[0] = 1259;
+pos_x[1] = 469;
+pos_y[1] = 1012;
+pos_x[2] = 380;
+pos_y[2] = 610;
+pos_x[3] = 386;
+pos_y[3] = 276;
 
 // при поїздці на таксі (виклик через таксофон)
 if obj_mp_manager.taxofon = 1{	
