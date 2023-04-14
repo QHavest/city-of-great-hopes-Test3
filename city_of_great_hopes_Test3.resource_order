@@ -90,6 +90,7 @@
     {"name":"obj_bench_tru_kalunku","order":31,"path":"objects/obj_bench_tru_kalunku/obj_bench_tru_kalunku.yy",},
     {"name":"spr_box_container_night","order":6,"path":"sprites/spr_box_container_night/spr_box_container_night.yy",},
     {"name":"spr_hero2_stay","order":16,"path":"sprites/spr_hero2_stay/spr_hero2_stay.yy",},
+    {"name":"spr_diary_page1","order":1,"path":"sprites/spr_diary_page1/spr_diary_page1.yy",},
     {"name":"obj_woi_invisible_police_centre","order":9,"path":"objects/obj_woi_invisible_police_centre/obj_woi_invisible_police_centre.yy",},
     {"name":"obj_golyb","order":20,"path":"objects/obj_golyb/obj_golyb.yy",},
     {"name":"spr_hpRed","order":1,"path":"sprites/spr_hpRed/spr_hpRed.yy",},
