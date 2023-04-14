@@ -10,7 +10,7 @@ if event_data[? "event_type"] == "sequence event" // or you can check "sprite ev
         break;
 		case "seq_deletes":
            	layer_sequence_destroy(sequence_id);
-			alarm[0] = irandom_range(60,120);
+			alarm[0] = irandom_range(60,90);
         break;
         /*case "destroy":
             sequence_destroy(event_data[? "element_id"]);
