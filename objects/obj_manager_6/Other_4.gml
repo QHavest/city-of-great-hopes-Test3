@@ -1,5 +1,9 @@
+
 if(global.task == 0.5)
 {
+daycycle.alarm[3] = 1;
+daycycle.alarm[5] = 25 * 30;
+daycycle.start_new = true;
 
 var playerInst1 = instance_find(obj_dim_player1,0);
 var playerInst2 = instance_find(obj_dim_player2,0);

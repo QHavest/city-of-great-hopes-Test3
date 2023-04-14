@@ -63,6 +63,8 @@ if event_data [? "event_type"] == "sequence event"
 		obj_dim_player1.y = 270;
 		obj_dim_player2.x = 1760;
 		obj_dim_player2.y = 275;
+		obj_dim_player1.InRoomMode = false;
+		obj_dim_player2.InRoomMode = false;
 		room_goto(rm_center_left);
 		global.noRest = -1;
 		//room_restart();

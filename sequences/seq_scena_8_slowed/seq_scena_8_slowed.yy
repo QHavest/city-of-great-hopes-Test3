@@ -39,10 +39,7 @@
             ],},},"Disabled":false,"id":"a1097725-f12f-4375-9335-2dd559b74587","IsCreationKey":false,"Key":223.0,"Length":1.0,"Stretch":false,},
     ],
   },
-  "eventStubScript": {
-    "name": "seq_scena_8_Events63",
-    "path": "scripts/seq_scena_8_Events63/seq_scena_8_Events63.yy",
-  },
+  "eventStubScript": null,
   "eventToFunction": {},
   "length": 300.0,
   "lockOrigin": false,

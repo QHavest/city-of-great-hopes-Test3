@@ -16,13 +16,13 @@ if event_data [? "event_type"] == "sequence event"
 	
 	break;
 	
-	case "dialog1":
+	case "dialog1_7":
 	pause = true;
 	scr_create_textbox("scena_7_1");
 	
 	break;
 	
-	case "dialog2":
+	case "dialog2_7":
 	pause = true;
 	scr_create_textbox("scena_7_2");
 	audio_sound_gain(snd_svust2, 0, 1);
@@ -80,6 +80,8 @@ if event_data [? "event_type"] == "sequence event"
 	instance_activate_object(obj_pr_NPC_move);
 	instance_activate_object(obj_pr_spr_change_outside_viewport);
 	instance_activate_object(obj_left_lamp_night);
+	obj_dim_player1.InRoomMode = false;
+	obj_dim_player2.InRoomMode = false;
 	room_restart();
     break;
   }

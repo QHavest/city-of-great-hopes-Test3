@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "scena 5",
-    "path": "folders/Story/Cutscenes/scena 5.yy",
+    "name": "Objects",
+    "path": "folders/Story/Cutscenes/scena 5/Objects.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

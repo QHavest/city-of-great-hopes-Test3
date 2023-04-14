@@ -1698,7 +1698,7 @@ break
 case "beer":
 	with(obj_manager_barmen)
 	{
-		start = _e;
+		start = true;
 	}
 	with(obj_trigger_barmen)
 	{
@@ -1716,15 +1716,21 @@ break
 case "sektants":
 	scr_text(scr_json_lang(global.LANGUAGE,"Sektants1"),1,spr_ic_sekta_1, spr_ic_Krus_l);
 	    scr_option(scr_json_lang(global.LANGUAGE,"Sektants2"),"take");
-		scr_option(scr_json_lang(global.LANGUAGE,"Sektants3"),"dont_take");
+		scr_option(scr_json_lang(global.LANGUAGE,"Sektants3"),"throw");
 break
 
 case "take":
 	scr_text(scr_json_lang(global.LANGUAGE,"Sektants4"),1,spr_ic_sekta_1, spr_ic_Krus_l);
+	obj_manager_sekt.take = 1;
 break;
 
-case "dont_take":
+case "throw":
+	layer_sequence_play(obj_manager_sekt.seq5);
+break;
+
+case "throw2":
 	scr_text(scr_json_lang(global.LANGUAGE,"Sektants5"),1,spr_ic_sekta_1, spr_ic_Krus_l);
+	layer_sequence_play(obj_manager_sekt.seq5);
 break;
 
 #endregion

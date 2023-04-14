@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Day_2",
-    "path": "folders/Story/Cutscenes/scena 5/Day_2.yy",
+    "name": "Sprites",
+    "path": "folders/Story/Cutscenes/scena 5/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
