@@ -3,42 +3,44 @@
 function scr_move_sound(){
 if ((s_ind) and (image_index=2 or image_index=6)){
 	if (run == false){ 
-		if (InRoomMode){audio_play_sound(snd_step_inside,0,false,global.player_gain);}
-		else {audio_play_sound(snd_step,0,false,global.player_gain);}
-	//	if audio_is_playing(snd_run) audio_stop_sound(snd_run);
+		if (InRoomMode)
+		{
+			audio_stop_sound(snd_step_inside);
+			audio_play_sound(snd_step_inside,0,false,global.player_gain);
+		}
+		else 
+		{
+			audio_stop_sound(snd_step);
+			audio_play_sound(snd_step,0,false,global.player_gain);
+		}
 	} 
 	else// if run = true
 	{	
 		if (InRoomMode = false)
 		{
 			if (hsp!=0){
-			//if (!audio_is_playing(snd_run)) {audio_play_sound(snd_run,0,0,global.player_gain);}
 				switch (irandom_range(1,4))
-			{ 
-				case 1 : audio_play_sound(snd_run_1,0,false,global.player_gain);
-				break
-				case 2 : audio_play_sound(snd_run_2,0,false,global.player_gain);
-				break
-				case 3 : audio_play_sound(snd_run_3,0,false,global.player_gain);
-				break
-				case 4 : audio_play_sound(snd_run_4,0,false,global.player_gain);
-				break
-			}}
-			else {audio_play_sound(snd_step,0,false,global.player_gain);}
+				{ 
+					case 1 : audio_play_sound(snd_run_1,0,false,global.player_gain);
+					break
+					case 2 : audio_play_sound(snd_run_2,0,false,global.player_gain);
+					break
+					case 3 : audio_play_sound(snd_run_3,0,false,global.player_gain);
+					break
+					case 4 : audio_play_sound(snd_run_4,0,false,global.player_gain);
+					break
+				}
+			}
+			else 
+			{
+				audio_stop_sound(snd_step);
+				audio_play_sound(snd_step,0,false,global.player_gain);
+			}	
 		}
-			//if (audio_is_playing(snd_step))	{ audio_stop_sound(snd_step);}
-		
 		else   
 		{
-			//if !audio_is_playing(snd_step) 
+			audio_stop_sound(snd_step_inside);
 			audio_play_sound(snd_step_inside,0,false,global.player_gain);
-			//if (audio_is_playing(snd_run)) { audio_stop_sound(snd_run);}
 		}
-	
-	}}
-//else{
-		
-//		audio_stop_sound(snd_step);
-//		audio_stop_sound(snd_run);
-//	}
-}
+	}
+}}

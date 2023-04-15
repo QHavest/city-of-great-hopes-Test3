@@ -6,4 +6,4 @@
 		audio_sound_gain(new_sound,global.Fon_sound_gain,gain_increase)
 		old_sound = new_sound;
 //}
-		show_debug_message("alarmed");
+//		show_debug_message("alarmed");

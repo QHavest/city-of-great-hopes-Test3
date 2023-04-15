@@ -4,7 +4,7 @@
   "name": "spr_mp_Bazar",
   "bbox_bottom": 1101,
   "bbox_left": 3,
-  "bbox_right": 1812,
+  "bbox_right": 1811,
   "bbox_top": 9,
   "bboxMode": 0,
   "collisionKind": 1,
