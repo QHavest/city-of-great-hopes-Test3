@@ -58,14 +58,7 @@ if (global.dialogue_move = true){
 	
 }	
 // відновлення ативного статусу після закінчення діалогу
-else 
-{
-//if last_active = true and global.dialog_end and !global.shop
-///{
-//status = STATUS.ACTIVE;
-//last_active = 0;
-//}
-}
+
 
 ///////////////////////////////////////////////////////////////////////////////
 switch(state){
@@ -79,20 +72,6 @@ switch(state){
 	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
  } 
 
-
-//анімація покупки пілся магазину
-// страт анімації покупки квитків та іншого без магазину прописані у scr_game_text.
-/*
-if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
-	image_index = 0;
-	state = PLAYERSTATE.BUY;
-	status = STATUS.PASSIVE;
-}*/
-
-
-
-
-
 //система записування координат проходження
 if (x!= xprevious or y!= yprevious){
 	for(var i = array_size-1; i > 0; i--)
@@ -100,8 +79,6 @@ if (x!= xprevious or y!= yprevious){
 		posX[i] = posX[i-1];
 		posY[i] = posY[i-1];
 	}	
-					//для швидкості 2.5
-		
 	posX[0] = x;
 	posY[0] = y;
 	if status = STATUS.ACTIVE 
@@ -111,5 +88,4 @@ if (x!= xprevious or y!= yprevious){
 		//obj_dim_player2.krok = !krok;
 		audio_listener_set_position(0,x,y,0);
 	}
-	
 }

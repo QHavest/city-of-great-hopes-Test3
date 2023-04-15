@@ -355,7 +355,7 @@
 		"Stiopa3": "Seriously. 15 months without any news, and here so frequently. You two naughty asses.",
 		"Stiopa4": "Uncle,  have you forgotten? I was in the army - Cudgel in prison. Sorry, but we couldn't go.",
 		"Stiopa5": "Oh, I'm sorry. OK. What did you come with?",
-		"Stiopa6": "By something",
+		"Stiopa6": "Buy something",
 		"Stiopa7": "Do we think to buy something for our home? Here, Cudgel and I don't fan of the fish.",
 		"Stiopa8": "And you eat fish now?",
 		"Stiopa9": "Seldom.",

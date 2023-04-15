@@ -23,15 +23,13 @@ if(status = STATUS.ACTIVE){
 		y -= vsp;
 	}
 	// move sound was here
-	
-	
-	
+
 	//горизонтальна колізія
-	if(place_meeting(x + hsp, y, obj_invisiblewall)){
-		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
-			x += sign(hsp);
+ /*	if(place_meeting(x + hsp, y, obj_invisiblewall)){
+	//	while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
+	//		x += sign(hsp);
 		hsp = 0;
-	}
+	}*/
 
 	//вертикальна колізія
 	if(place_meeting(x, y + vsp, obj_invisiblewall)){
