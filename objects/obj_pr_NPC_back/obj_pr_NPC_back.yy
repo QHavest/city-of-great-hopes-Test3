@@ -14,8 +14,8 @@
     "path": "folders/Objects/Parrents.yy",
   },
   "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
+    "name": "obj_pr_AI",
+    "path": "objects/obj_pr_AI/obj_pr_AI.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
