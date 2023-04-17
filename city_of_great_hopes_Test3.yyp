@@ -378,6 +378,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Old/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bus","folderPath":"folders/Transport/New/Sprite/Bus.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Transport/New/Music.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transition","folderPath":"folders/Rooms/Transition.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -2616,6 +2617,7 @@
     {"id":{"name":"spr_sausage","path":"sprites/spr_sausage/spr_sausage.yy",},},
     {"id":{"name":"spr_windowmode_ukr_d","path":"sprites/spr_windowmode_ukr_d/spr_windowmode_ukr_d.yy",},},
     {"id":{"name":"spr_ytopyr_hopnik_battle_down","path":"sprites/spr_ytopyr_hopnik_battle_down/spr_ytopyr_hopnik_battle_down.yy",},},
+    {"id":{"name":"trans_location","path":"sequences/trans_location/trans_location.yy",},},
     {"id":{"name":"spr_barmen_stay","path":"sprites/spr_barmen_stay/spr_barmen_stay.yy",},},
     {"id":{"name":"spr_menu_button_1","path":"sprites/spr_menu_button_1/spr_menu_button_1.yy",},},
     {"id":{"name":"spr_bg_savings","path":"sprites/spr_bg_savings/spr_bg_savings.yy",},},

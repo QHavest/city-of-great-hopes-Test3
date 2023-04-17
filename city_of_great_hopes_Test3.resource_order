@@ -98,6 +98,7 @@
     {"name":"Old","order":1,"path":"folders/Transport/Old.yy",},
     {"name":"Bus","order":11,"path":"folders/Transport/New/Sprite/Bus.yy",},
     {"name":"Music","order":13,"path":"folders/Transport/New/Music.yy",},
+    {"name":"Transition","order":9,"path":"folders/Rooms/Transition.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},
