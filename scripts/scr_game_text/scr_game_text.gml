@@ -150,20 +150,20 @@ else scr_text(scr_json_lang(global.LANGUAGE,"Kasa8"),2,spr_ic_Krus,spr_ic_kasa);
 
 break
 case "bying_tiket":
-	if(global.money >= 5) {
-		global.zn_Kasa = 1;
-for (var i = 0; i < 11; i++){
-	if(global.ds_inventory[# 0, i] = 0){
-		global.ds_inventory[# 0, i] = 53;
-		global.money -= 5;
-		audio_play_sound(snd_op_accept,5,0,global.System_gain);
-		audio_play_sound(snd_sound_buy,5,0,global.System_gain);
-		//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
-	scr_anim_start("Kasa",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
-		//obj_kassa_tickets.image_index=1;
-		break;
+if(global.money >= 5) {
+	global.zn_Kasa = 1;
+	for (var i = 0; i < 11; i++){
+		if(global.ds_inventory[# 0, i] = 0){
+			global.ds_inventory[# 0, i] = 53;
+			global.money -= 5;
+			audio_play_sound(snd_op_accept,5,0,global.System_gain);
+			audio_play_sound(snd_sound_buy,5,0,global.System_gain);
+			//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
+		scr_anim_start("Kasa",spr_rival_seller2_sell,spr_rival_seller2,obj_rival_seller2)
+			//obj_kassa_tickets.image_index=1;
+			break;
+			}
 		}
-	}
 }	
 break
 #endregion
@@ -534,6 +534,20 @@ scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad6"),2,spr_ic_Krus,spr_ic_doch
 break
 case "film1":
 scr_text (scr_json_lang(global.LANGUAGE,"docha_Alad7"),2,spr_ic_Krus,spr_ic_docha_alada);
+if(global.money >= 5) {
+	global.zn_Kasa = 1;
+	for (var i = 0; i < 11; i++){
+		if(global.ds_inventory[# 0, i] = 0){
+			global.ds_inventory[# 0, i] = 55;
+			global.money -= 5;
+			audio_play_sound(snd_op_accept,5,0,global.System_gain);
+			audio_play_sound(snd_sound_buy,5,0,global.System_gain);
+			//скрипт який запустить анімацію та перемикне стан гравця дляконтролю
+			//obj_kassa_tickets.image_index=1;
+			break;
+			}
+		}
+}
 break
 #endregion
 #region	(Byfet)
