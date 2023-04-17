@@ -11,6 +11,15 @@ function scr_rooms_variables(r, name){
 switch(r)
 		{
 			
+case rm_street_second_side :
+	switch(name)
+	{	
+	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
+	case 2: return 0 break
+	case 3: return 0 break
+	case 4: break
+	}
+break
 case noone:	
 	switch(name)
 	{	
@@ -144,15 +153,7 @@ case rm_street_first_side :
 	case 4: break
 	}
 break
-case rm_street_second_side :
-	switch(name)
-	{	
-	case 1: if global.day return snd_rivalstation else return snd_riv_stat_night break
-	case 2: return 0 break
-	case 3: return 0 break
-	case 4: break
-	}
-break
+
 case rm_tri_kalynky :		
 	switch(name)
 	{	

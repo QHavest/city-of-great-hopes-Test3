@@ -5,7 +5,7 @@ vsp=0;
 lastmove=0;
 pause_time_S=2;
 time_res = pause_time_S*room_speed;
-start_counter=0;
+start_counter=false;
 
 spr_move_r = spr_man_1_walk_R
 spr_move_l = spr_man_1_walk_L

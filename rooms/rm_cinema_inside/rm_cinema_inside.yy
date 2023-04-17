@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_cinema_inside",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_cinema_inside/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

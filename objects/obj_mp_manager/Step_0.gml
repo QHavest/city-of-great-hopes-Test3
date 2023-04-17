@@ -13,7 +13,7 @@ if (global.map)
 	{
 		room_goto(rm_mapa_new);	
 	}
-		if (but_map) 
+	if (but_map) 
 	{	
 		global.map = !global.map;
 		obj_inventory.visible = 1;
@@ -26,31 +26,31 @@ if (global.map)
 		obj_dim_player2.visible = 1;
 		if ac_pl =1
 		{
-		obj_dim_player1.status = STATUS.ACTIVE;	
+			obj_dim_player1.status = STATUS.ACTIVE;	
 		}
 		else
 		{
-		obj_dim_player2.status = STATUS.ACTIVE;	
+			obj_dim_player2.status = STATUS.ACTIVE;	
 		}
 	instance_activate_all();
 	}
 }
-/*else
+else
 {
 	if but_map
-	{	if object_exists(obj_mp_open)
-			with(obj_mp_open)
+	{
+		alarm[0]=1;				
+	}
+		/*	with(obj_mp_open)
 				{
 				if place_meeting(x,y,obj_dim_player1) or place_meeting(x,y,obj_dim_player2)
 					{global.contact = 1;}
 				else if global.contact!=0 global.contact=0;
 				}
 		if global.contact == 1{
-		
-		}
+		}*/
 	}
-}
-*/
+
 
 
 

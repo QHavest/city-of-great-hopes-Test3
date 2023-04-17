@@ -54,7 +54,7 @@ if acepted_key
 	}}
 
 // вихід до головної мапи
-if keyboard_check_pressed(vk_escape) acepted_key=0;
+if keyboard_check_pressed(ord("Q")) acepted_key=0;
 	
 // телепортація
 if pos <2 or obj_mp_manager.taxofon = 1//лише для демки ПОТІМ ПРИБЕРІТЬ ЦЕ!!!! 
