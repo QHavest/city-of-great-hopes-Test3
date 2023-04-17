@@ -12,10 +12,7 @@
     "name": "Krus",
     "path": "folders/Battle_system/MiniGames/GG/Krus.yy",
   },
-  "parentObjectId": {
-    "name": "obj_mini_krus",
-    "path": "objects/obj_mini_krus/obj_mini_krus.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

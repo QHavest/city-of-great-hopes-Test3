@@ -37,7 +37,7 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 			alarm[5] = 3;
 			alarm[7] = 2;
 			alarm[8] = 7;
-			scr_gg_hit();
+			//scr_gg_hit();
 			}
 	}
 	
