@@ -1,10 +1,12 @@
-layer_create(-9999, "Sequence_bus");
+layer_create(-999, "Sequence_bus");
 var layerName = "Sequence_bus";
-var seqname = irandom(5);
+var seqname = 0//irandom(5);
 var seqnames = noone;
 switch(seqname){
 case 0:
 	seqnames = seq_car_ride_blue;
+	//audio_falloff_set_model(audio_falloff_linear_distance);
+	//audio_play_sound_at(snd_car_ride,x,y,0,300,900,1,1,5,global.Fon_sound_gain);
 break;
 case 1:
 	seqnames = seq_car_ride_grey;

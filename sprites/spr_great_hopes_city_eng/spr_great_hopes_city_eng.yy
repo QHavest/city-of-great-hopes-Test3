@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_great_hopes_city_eng",
-  "bbox_bottom": 86,
+  "bbox_bottom": 88,
   "bbox_left": 0,
-  "bbox_right": 283,
+  "bbox_right": 277,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1065b800-c878-4593-92f2-36a1deb2021c",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 87,
+  "height": 89,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9e6abe19-303f-4145-ad00-76fbe9deacd4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8bbfaeda-dd5a-4850-b5d0-bec4bedfcc36","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,13 +77,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92aa4bff-37fa-4a3a-9ccd-839db5b0725e","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},},},"Disabled":false,"id":"0a2143cf-4b88-4fb2-857d-0798430db7e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1065b800-c878-4593-92f2-36a1deb2021c","path":"sprites/spr_great_hopes_city_eng/spr_great_hopes_city_eng.yy",},},},"Disabled":false,"id":"b956ebd1-9e6d-4c5f-9ee7-3d9c3f6df129","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 142,
-    "yorigin": 43,
+    "xorigin": 139,
+    "yorigin": 44,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 284,
+  "width": 278,
 }
