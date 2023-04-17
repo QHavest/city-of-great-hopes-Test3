@@ -4,56 +4,68 @@ function scr_help_minigame(){
 switch(global.LANGUAGE)
 	{
 		case "eng":
-			switch (enemies)
+		switch (phase_battle)
 			{
-				case ENEMY.Narkomany :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Space' to dodge syringes flapping between them.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Kavkazci :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows UP or Down' to dodge USSR symbolic.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Sectants :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to dodge crosses that falls from the sky.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Hopniki :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to dodge knives.", stringHeight_torchky, 250);
-				break;
-			}
-
-			switch (aliens)
-			{
-				case ALIES.Ytopurok_mini:
-				draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows'to punch the pears", stringHeight_torchky, 250);
-				break;
-				case ALIES.Krus_mini:
-				draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows Left or Right'. Catch objects with a white outline", stringHeight_torchky, 250);
-				break;
+			case PHASES.Atack:
+				switch (enemies)
+				{
+					case ENEMY.Narkomany :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Space' to dodge syringes flapping between them.", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Kavkazci :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows UP or Down' to dodge USSR symbolic.", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Sectants :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to dodge crosses that falls from the sky.", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Hopniki :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows' to dodge knives.", stringHeight_torchky, 250);
+					break;
+				}
+			break;
+			case PHASES.Defence:
+				switch (aliens)
+				{
+					case ALIES.Ytopurok_mini:
+					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows'to punch the pears", stringHeight_torchky, 250);
+					break;
+					case ALIES.Krus_mini:
+					draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows Left or Right'. Catch objects with a white outline", stringHeight_torchky, 250);
+					break;
+				}
+			break;
 			}
 		break;
 		case "ua":
-			switch (enemies)
+			switch (phase_battle)
 			{
-				case ENEMY.Narkomany :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Пробіл', щоб ухилятися від шприців, що пролітають.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Kavkazci :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки вгору чи вниз' щоб ухилятися від СРСР символів", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Sectants :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб ухлятися від хрестів які падають.", stringHeight_torchky, 250);
-				break;
-				case ENEMY.Hopniki :
-					draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб ухилятися ножів.", stringHeight_torchky, 250);
-				break;
-			}
-
-			switch (aliens)
-			{
-				case ALIES.Ytopurok_mini:
-				draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб бити по груші яка засвічуєтсья", stringHeight_torchky, 250);
-				break;
-				case ALIES.Krus_mini:
-				draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки вліво чи вправо'. Хапай об'єкти які з обводкою", stringHeight_torchky, 250);
+			case PHASES.Atack:
+				switch (enemies)
+				{
+					case ENEMY.Narkomany :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Пробіл', щоб ухилятися від шприців, що пролітають.", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Kavkazci :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки вгору чи вниз' щоб ухилятися від СРСР символів", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Sectants :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб ухлятися від хрестів які падають.", stringHeight_torchky, 250);
+					break;
+					case ENEMY.Hopniki :
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб ухилятися ножів.", stringHeight_torchky, 250);
+					break;
+				}
+			break;
+			case PHASES.Defence:
+					switch (aliens)
+					{
+						case ALIES.Ytopurok_mini:
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки' щоб бити по груші яка засвічуєтсья", stringHeight_torchky, 250);
+						break;
+						case ALIES.Krus_mini:
+						draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки вліво чи вправо'. Хапай об'єкти які з обводкою", stringHeight_torchky, 250);
+						break;
+					}
 				break;
 			}
 		break;
