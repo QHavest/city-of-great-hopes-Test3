@@ -58,7 +58,7 @@
   "origin": 9,
   "parent": {
     "name": "borcu",
-    "path": "folders/Sprites/Tukhlianka/NPC/borcu.yy",
+    "path": "folders/Sprites/NPC/NPC_Tukhlyanka/borcu.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

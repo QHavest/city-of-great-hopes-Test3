@@ -97,7 +97,7 @@
   "origin": 7,
   "parent": {
     "name": "children",
-    "path": "folders/Sprites/Tukhlianka/NPC/children.yy",
+    "path": "folders/Sprites/NPC/NPC_Tukhlyanka/children.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

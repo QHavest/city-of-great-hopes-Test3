@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/Rival Station/NPC.yy",
+    "name": "NPC_Rival_station",
+    "path": "folders/Sprites/NPC/NPC_Rival_station.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

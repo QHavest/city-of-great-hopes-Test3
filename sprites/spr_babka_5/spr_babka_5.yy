@@ -37,7 +37,7 @@
   "origin": 9,
   "parent": {
     "name": "Babki",
-    "path": "folders/Sprites/Tukhlianka/NPC/Babki.yy",
+    "path": "folders/Sprites/NPC/NPC_Tukhlyanka/Babki.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
