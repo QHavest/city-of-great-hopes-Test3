@@ -5,7 +5,8 @@ rah =0;
 t=0;
 
 // new varibls
-image_speed=10;
+image_speed = 1;
+image_index = 0;
 
 // плата за проїзд
 feee = 1;
@@ -44,11 +45,28 @@ bord_y_c = (vew_h - c_h*kof_c)/2 ;
 bord_x_t = (vew_w - t_w*kof_t)/2 ;
 bord_y_t = (vew_h - t_h*kof_t)/2 ;
 
+
+
+// перемикання спрайтів через мову
+switch (global.LANGUAGE){
+case "eng": lang_im=0; 
+// спрайт карти (фону кімнати)
+layer_set_visible("Back_eng",true);
 // спрайт контуру який обводить район
 imaga[0] = spr_an_rival_eng;
-imaga[1] = spr_an_marker_ua;
+imaga[1] = spr_an_marker_eng;
 imaga[2] = spr_an_centr_eng;
 imaga[3] = spr_an_Tyhlia_eng;
+break;
+case "ua" : lang_im=1; 
+layer_set_visible("Back_ua",true);
+imaga[0] = spr_an_rival_ua;
+imaga[1] = spr_an_marker_ua;
+imaga[2] = spr_an_centr_ua;
+imaga[3] = spr_an_Tyhlia_ua;
+break;
+}
+
 
 // координата контуру який обводить район
 pos_x[0] = 435;
@@ -231,26 +249,17 @@ player_x[0][3] = 145;
 player_y[0][3] = 255;
 }
 
-// перемикання спрайтів через мову
-switch (global.LANGUAGE){
-case "eng": lang_im=0; 
-//var act_back = layer_get_id("Back_eng")
-layer_set_visible("Back_eng",true);
-break;
-case "ua" : lang_im=1; 
-//act_back = layer_get_id("Back_ua")
-layer_set_visible("Back_ua",true);
-break;
-}
+
 
 // позиції камери для слідуванням за контуром
 sprite_index = imaga[pos];
 x = pos_x[pos];
 y = pos_y[pos];
-switch (pos) 
+/*switch (pos) 
 {
 	case 0: camera_set_view_pos(view_camera[0], x - 200 , 1700); break;
 	case 1: camera_set_view_pos(view_camera[0], x - 200 , 1400); break;
 	case 2: camera_set_view_pos(view_camera[0], x - 200 , 400); break;
 	case 3: camera_set_view_pos(view_camera[0], x - 200 , 0); break;
 }
+*/
