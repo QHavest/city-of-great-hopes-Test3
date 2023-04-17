@@ -45,7 +45,7 @@
   "origin": 0,
   "parent": {
     "name": "Animation",
-    "path": "folders/Mapa/mp_sprites/Animation.yy",
+    "path": "folders/Mapa/mp_sprites/Other/Animation.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

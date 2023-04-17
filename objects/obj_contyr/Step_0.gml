@@ -7,6 +7,7 @@ if (!acepted_key){
 		sprite_index = imaga[pos];
 		x = pos_x[pos];
 		y = pos_y[pos];
+		camera_set_view_pos(view_camera[0], 0 , y-300)
 		image_speed = 1;
 		image_index = 0;
 	}

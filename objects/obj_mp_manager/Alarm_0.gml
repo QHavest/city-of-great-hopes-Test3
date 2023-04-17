@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 		target_rm = room;
-		if (object_exists(obj_mp_open))
-		{
-			taxofon = obj_mp_open.Tax
-		}
+	///	if (object_exists(obj_mp_open))
+	//	{
+			taxofon = true;//obj_mp_open.Tax
+	//	}
 		global.map = !global.map;
 		// Вимиккаєм всі об'єкти
 		// вмикаєм те що має працювати коли відкрита мапа

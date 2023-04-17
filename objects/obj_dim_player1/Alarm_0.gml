@@ -1,4 +1,5 @@
 /// @description activity
+/*
 switch (state)
 {
 	case PLAYERSTATE.LAVKA1 : 

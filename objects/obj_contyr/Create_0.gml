@@ -90,29 +90,29 @@ spot_num[3]=0; // 4 точки телепортації для Тухлянки
 
 //spot_x[0][0] = 632*kof_r + bord_x_r ;
 //spot_y[0][0] = 538*kof_r + bord_y_r ;
-spot_x[0][0] = 243*kof_r + bord_x_r ;
-spot_y[0][0] = 285*kof_r + bord_y_r ;
+spot_x[0][0] = 260*kof_r + bord_x_r ;
+spot_y[0][0] = 412*kof_r + bord_y_r ;
 
 // кількість позицій показчиків для Вокзалу  -1 
 max_spot_n_r = 0
 
 // координати покажчиків телепортації для Базару
 
-spot_x[0][1] = 285*kof_b + bord_x_b ;
-spot_y[0][1] = 830*kof_b + bord_y_b ;
-spot_x[1][1] = 380*kof_b + bord_x_b ;
-spot_y[1][1] = 580*kof_b + bord_y_b ;
+spot_x[0][1] = 240*kof_b + bord_x_b ;
+spot_y[0][1] = 870*kof_b + bord_y_b ;
+spot_x[1][1] = 410*kof_b + bord_x_b ;
+spot_y[1][1] = 690*kof_b + bord_y_b ;
 //spot_x[2][1] = 380*kof_b + bord_x_b ;
 //spot_y[2][1] = 320*kof_b + bord_y_b ;
-spot_x[2][1] = 730*kof_b + bord_x_b ;
-spot_y[2][1] = 380*kof_b + bord_y_b ;
+spot_x[2][1] = 720*kof_b + bord_x_b ;
+spot_y[2][1] = 460*kof_b + bord_y_b ;
 // кількість позицій показчиків для Базару  -1 
 max_spot_n_b = 2
 
 // координати покажчиків телепортації для Центру
 
-spot_x[0][2] = 260*kof_c + bord_x_c ;
-spot_y[0][2] = 585*kof_c + bord_y_c ;
+spot_x[0][2] = 280*kof_c + bord_x_c ;
+spot_y[0][2] = 600*kof_c + bord_y_c ;
 //spot_x[1][2] = 511*kof_c + bord_x_c ;
 //spot_y[1][2] = 511*kof_c + bord_y_c ;
 //spot_x[2][2] = 812*kof_c + bord_x_c ;
@@ -255,11 +255,10 @@ player_y[0][3] = 255;
 sprite_index = imaga[pos];
 x = pos_x[pos];
 y = pos_y[pos];
-/*switch (pos) 
+switch (pos) 
 {
 	case 0: camera_set_view_pos(view_camera[0], x - 200 , 1700); break;
 	case 1: camera_set_view_pos(view_camera[0], x - 200 , 1400); break;
 	case 2: camera_set_view_pos(view_camera[0], x - 200 , 400); break;
 	case 3: camera_set_view_pos(view_camera[0], x - 200 , 0); break;
 }
-*/
