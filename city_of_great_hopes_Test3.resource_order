@@ -522,6 +522,7 @@
     {"name":"obj_plant_kalynky2","order":10,"path":"objects/obj_plant_kalynky2/obj_plant_kalynky2.yy",},
     {"name":"scr_help_button","order":13,"path":"scripts/scr_help_button/scr_help_button.yy",},
     {"name":"spr_svust","order":1,"path":"sprites/spr_svust/spr_svust.yy",},
+    {"name":"obj_warp_block_kino","order":30,"path":"objects/obj_warp_block_kino/obj_warp_block_kino.yy",},
     {"name":"spr_ic_Ninel","order":2,"path":"sprites/spr_ic_Ninel/spr_ic_Ninel.yy",},
     {"name":"spr_male_011_R","order":10,"path":"sprites/spr_male_011_R/spr_male_011_R.yy",},
     {"name":"spr_dim_Ytopurok_move_right_new1","order":4,"path":"sprites/spr_dim_Ytopurok_move_right_new1/spr_dim_Ytopurok_move_right_new1.yy",},
