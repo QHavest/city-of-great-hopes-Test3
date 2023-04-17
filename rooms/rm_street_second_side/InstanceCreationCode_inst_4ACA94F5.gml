@@ -3,3 +3,5 @@ target_y = 230;
 target_rm=rm_south;
 dor_sound = noone;
 InRoomMode = false;
+
+invis_door = false;
