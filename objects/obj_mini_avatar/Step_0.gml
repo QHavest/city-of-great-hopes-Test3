@@ -45,102 +45,101 @@ switch(obj_Battle_Interface.phase_battle){
 }
 		
 
-
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Narkomany and obj_Battle_Interface.phase_battle = PHASES.Atack){
-	spd += grv
-	y += spd;
-	if (keyboard_check_pressed(vk_space)){
-		spd = -10;
-	}
-	y = clamp(y,578,932)
-}
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Krus_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-x += hInput * 19;
-x = clamp(x,486.5,1369.5)
-}
-#region ходьба по клітинкам СРСР Кавказці
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Kavkazci and obj_Battle_Interface.phase_battle = PHASES.Atack){
-
-if place_snapped(G,G1){
-speed=0//остановка игрока
-
-if keyboard_check_pressed(vk_down) && Move[1,0]=true{
-//motion_set(270,S)//шагать вниз со скоростью S
-y += 105;
-}
-
-if keyboard_check_pressed(vk_up) && Move[1,1]=true{  
-//motion_set(90,S)//шагать наверх со скоростью S 
-y -= 105;
-}
-}
-}
-#endregion
-
-#region ходьба по клітинкам Сектанти Хрести
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Sectants and obj_Battle_Interface.phase_battle = PHASES.Atack){
-
-if place_snapped(G,G1){
-speed=0//остановка игрока
-
-if keyboard_check_pressed(vk_right) && Move[1,0]=true{  
-//motion_set(90,S)//шагать наверх со скоростью S 
-x += 105;
-}
-
-if keyboard_check_pressed(vk_left) && Move[1,1]=true{  
-//motion_set(90,S)//шагать наверх со скоростью S 
-x -= 105;
-}
-
-if keyboard_check_pressed(vk_down) && Move[1,2]=true{
-//motion_set(270,S)//шагать вниз со скоростью S
-y += 105;
-}
-
-if keyboard_check_pressed(vk_up) && Move[1,3]=true{  
-//motion_set(90,S)//шагать наверх со скоростью S 
-y -= 105;
-}
-}
-}
-#endregion
-
-#region ходьба по клітинкам Гопніки
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.enemies = ENEMY.Hopniki){
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-x += hInput * 20;
-y += vInput * 20;
-}
-#endregion
-
-#region короткий рух головой Міні гра за утопирка захист
-if (obj_Battle_Interface.mini_game = true and obj_Battle_Interface.aliens = ALIES.Ytopurok_mini and obj_Battle_Interface.phase_battle = PHASES.Defence){
-switch (keyboard_key)
+switch(obj_Battle_Interface.mini_game)
 {
-	case vk_left:
-        mp_linear_step(908,748,5,false);
-    break;
+	case true:
 
-    case vk_right:
-        mp_linear_step(940,748,5,false);
-    break;
+		switch(obj_Battle_Interface.phase_battle)
+		{
+			case PHASES.Atack:
+				switch(obj_Battle_Interface.enemies){
+					case ENEMY.Kavkazci ://Ходьба по клітинкам СРСР Кавказці
+						if place_snapped(G,G1)
+						{
+						speed=0//остановка игрока
+							if (keyboard_check_pressed(vk_down) && Move[1,0]=true)
+								{
+								y += 105;
+								}
+							if (keyboard_check_pressed(vk_up) && Move[1,1]=true)
+								{  
+								y -= 105;
+								}
+						}
+					break;
+					case ENEMY.Sectants ://ходьба по клітинкам Сектанти Хрести
+						if place_snapped(G,G1){
+						speed=0//остановка игрока
 
-    case vk_up:
-        mp_linear_step(925,736,5,false);
-    break;
+						if (keyboard_check_pressed(vk_right) && Move[1,0]=true){  
+						x += 105;
+						}
+						if (keyboard_check_pressed(vk_left) && Move[1,1]=true){  
+						x -= 105;
+						}
+						if (keyboard_check_pressed(vk_down) && Move[1,2]=true){
+						y += 105;
+						}
+						if (keyboard_check_pressed(vk_up) && Move[1,3]=true){  
+						y -= 105;
+						}
+						}
+					break;
+					case ENEMY.Hopniki ://ходьба по клітинкам Гопніки
+						hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+						vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-    case vk_down:
-        mp_linear_step(925,768,5,false);
-    break;
-	default:
-	 mp_linear_step(925,748,5,false);
+						x += hInput * 20;
+						y += vInput * 20;
+					break;
+					case ENEMY.Narkomany :
+						spd += grv
+						y += spd;
+						if (keyboard_check_pressed(vk_space))
+							{
+								spd = -10;
+							}
+						y = clamp(y,578,932)
+					break;
+					}
+			break;
+			case PHASES.Defence:
+				switch(obj_Battle_Interface.aliens){
+					case ALIES.Krus_mini:
+						hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+						x += hInput * 19;
+						x = clamp(x,486.5,1369.5)
+					break;
+					case ALIES.Ytopurok_mini://короткий рух головой Міні гра за утопирка захист
+						switch (keyboard_key)
+						{
+							case vk_left:
+						        mp_linear_step(908,748,5,false);
+						    break;
+
+						    case vk_right:
+						        mp_linear_step(940,748,5,false);
+						    break;
+
+						    case vk_up:
+						        mp_linear_step(925,736,5,false);
+						    break;
+
+						    case vk_down:
+						        mp_linear_step(925,768,5,false);
+						    break;
+							default:
+							 mp_linear_step(925,748,5,false);
+						}
+					break;	
+					}	
+			break;
+		}
+		
+	break;
 }
-}
-#endregion
+
+
 
 alarm[1] -= 1;
 alarm[4] -= 1;
