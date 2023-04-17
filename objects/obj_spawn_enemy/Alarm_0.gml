@@ -20,8 +20,8 @@ obj_Battle_Interface.count = 0;
 break;
 case 2://справа скйлеки вокзалу
 instance_create_depth(3364,266,100,obj_tor_3).sprite_index = spr_tor_1;
-instance_create_depth(3453,250,100,obj_tor_3).sprite_index = spr_tor_2;
-instance_create_depth(3385.661,253,100,obj_tor_3);
+instance_create_depth(3453,250,100,obj_tor_3);
+instance_create_depth(3385.661,253,100,obj_tor_3).sprite_index = spr_tor_2;
 instance_activate_object(inst_68B14674);//sprava
 obj_Battle_Interface.count = 1;
 break;
