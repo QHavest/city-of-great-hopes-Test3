@@ -78,10 +78,6 @@ if(battle_turn_down = true and alarm[2] < 1){
 	battle_turn_down = false;
 }
 
-
-/*if(alarm[1] < 1){
-	light_bi = 0;
-	}*/
 if (mini_game = true and games = false){
 		instance_deactivate_object(obj_mini_avatar);
 		instance_deactivate_object(obj_wall_sect);
@@ -98,7 +94,7 @@ if (mini_game == true or game_over_mini = true){
 	
 }
 #region ЗАПУСК МІНІ ГРИ ПРИ ПЕРШОМУ ЗАПУСКУ
-if (mini_game = true and games = false and battle_start = true and (keyboard_check_released(vk_enter) or keyboard_check_released(vk_up) or keyboard_check_released(vk_down))){
+if (mini_game and games = false and battle_start and (keyboard_check_released(vk_enter) or keyboard_check_released(vk_up) or keyboard_check_released(vk_down))){
 			hp_enemies = true;//включення хп полосок ворогів
 			games = true;
 			obj_ytopur_battle.image_index = 0;
@@ -129,10 +125,7 @@ if (mini_game = true and games = false and battle_start = true and (keyboard_che
 		}
 #endregion
 if(alarm[2] > 150) exit;
-/*if (battle_start = true){
-amount_hp_enemy = amount_hp_enemy - (damage_enemy/100*279);
-}*/
-//button
+
 if(system == 0 and mini_game == false and BDialogue == false and game_over_mini == false){
 	butt_invis = 1;
 	button[button_c] = "L";
@@ -204,22 +197,7 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 				aliens = ALIES.Noone;
 				obj_krus_battle.image_index = 0;
 				obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-					if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-						obj_enemy1_battle.image_index = 0;
-						obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-						obj_enemy2_battle.image_index = 0;
-						obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-						obj_enemy3_battle.image_index = 0;
-						obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
-						} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
-							obj_enemy1_battle.image_index = 0;
-							obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-							obj_enemy2_battle.image_index = 0;
-							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-							}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-							obj_enemy2_battle.image_index = 0;
-							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-								}
+					scr_battle_phases_enemy();//відповідає за перехід в бойову стійку ворогів
 				switch(global.LANGUAGE)
 				{
 					case "eng":
@@ -281,31 +259,11 @@ switch(system)
 			obj_ytopur_battle.image_index = 0;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
 			}
-		
-			if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-				obj_enemy1_battle.image_index = 0;
-				obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-				obj_enemy2_battle.image_index = 0;
-				obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-				obj_enemy3_battle.image_index = 0;
-				obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
-				} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
-					obj_enemy1_battle.image_index = 0;
-					obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-					obj_enemy2_battle.image_index = 0;
-					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-					}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-					obj_enemy2_battle.image_index = 0;
-					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-						}	/*else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat and obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat){
-					obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Defeat
-					obj_enemy2_battle.image_index = 0;
-						}*/
+			scr_battle_phases_enemy();//відповідає за перехід в бойову стійку ворогів
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-			switch(phase_battle){
+			switch(phase_battle)
+			{
 				case PHASES.Atack:
-					switch(enemies){
-						case ENEMY.Narkomany :
 						aliens = ALIES.Noone;
 						switch(global.LANGUAGE)
 						{
@@ -316,44 +274,7 @@ switch(system)
 							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
 							break;
 						}	
-						break;
-						case ENEMY.Kavkazci :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}		
-						break;
-						case ENEMY.Sectants :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}	
-						break;
-						case ENEMY.Hopniki :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}		
-						break;
-						}
+						
 				break;
 				case PHASES.Defence:
 					aliens = ALIES.Ytopurok_mini;
@@ -367,7 +288,7 @@ switch(system)
 					break;
 				}
 				break;
-				}
+			}
 			system = 0;
 			// почалася бійка за Утопирка
 		} 
@@ -379,11 +300,13 @@ switch(system)
 			obj_ytopur_battle.image_index = 0;
 			obj_ytopur_battle.phasese = PHASESE.Battle;
 			}
+			
+			scr_battle_phases_enemy()
+						
 			obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
+			
 			switch(phase_battle){
 				case PHASES.Atack:
-					switch(enemies){
-						case ENEMY.Narkomany :
 						aliens = ALIES.Noone;
 						switch(global.LANGUAGE)
 						{
@@ -393,44 +316,6 @@ switch(system)
 							case "ua":
 							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
 							break;
-						}		
-						break;
-						case ENEMY.Kavkazci :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}		
-						break;
-						case ENEMY.Sectants :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}		
-						break;
-						case ENEMY.Hopniki :
-						aliens = ALIES.Noone;
-						switch(global.LANGUAGE)
-						{
-							case "eng":
-							instance_create_depth(466,570,-600,obj_screen_gamestart)
-							break;
-							case "ua":
-							instance_create_depth(466,570,-600,obj_screen_gamestart).sprite_index = spr_gamestartUA;
-							break;
-						}		
-						break;
 						}
 				break;
 				case PHASES.Defence:
@@ -503,22 +388,7 @@ switch(system)
 					aliens = ALIES.Noone;
 					obj_krus_battle.image_index = 0;
 					obj_krus_battle.phasese_krus = PHASESE_KRUS.Battle;
-						if (obj_enemy3_battle.phasese_enemy3 != PHASESE_ENEMY3.Defeat2){
-							obj_enemy1_battle.image_index = 0;
-							obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-							obj_enemy2_battle.image_index = 0;
-							obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-							obj_enemy3_battle.image_index = 0;
-							obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Battle;
-							} else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 != PHASESE_ENEMY1.Defeat2){
-								obj_enemy1_battle.image_index = 0;
-								obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Battle;
-								obj_enemy2_battle.image_index = 0;
-								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-								}	else if (obj_enemy3_battle.phasese_enemy3 = PHASESE_ENEMY3.Defeat2 and obj_enemy1_battle.phasese_enemy1 = PHASESE_ENEMY1.Defeat2 and obj_enemy2_battle.phasese_enemy2 != PHASESE_ENEMY2.Defeat2){
-								obj_enemy2_battle.image_index = 0;
-								obj_enemy2_battle.phasese_enemy2 = PHASESE_ENEMY2.Battle;
-									}
+						scr_battle_phases_enemy();//відповідає за перехід в бойову стійку ворогів
 					switch(global.LANGUAGE)
 					{
 						case "eng":
@@ -536,7 +406,7 @@ switch(system)
 		}
 	break;
 }
-///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
+#region ///////ДІАЛОГИ, ТУТ ЖЕ ПРОПИСАНІ І ШАНСИ
 /*
 if(BDialogue = true){
 	instance_destroy(obj_wait);
@@ -921,7 +791,7 @@ if(BDialogue = true){
 			}
 		}
 	}
-}
-
+}*/
+#endregion
 	
 
