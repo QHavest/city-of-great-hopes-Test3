@@ -7,5 +7,5 @@ invis_door = true;
 door_y = 120
 door_x = 110
 door_sprite = spr_door_invis;
-door_num_in_sprite = 6;
+door_num_in_sprite = 5;
 

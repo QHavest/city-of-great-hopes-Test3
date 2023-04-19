@@ -7,4 +7,4 @@ invis_door = true;
 door_y = 145;
 door_x = 122;
 door_sprite = spr_door_invis;
-door_num_in_sprite = 4;
+door_num_in_sprite = 3;

@@ -11,7 +11,7 @@ if (!in_sequence){
 	key_room_go = keyboard_check(ord("E"))
 }
 
-if(global.dialogue_move or global.zaniatui or global.shop) exit;
+if(global.dialogue_move or global.zaniatui or global.shop or global.diary) exit;
 
 if (playernum == 2) {
 	//walk
