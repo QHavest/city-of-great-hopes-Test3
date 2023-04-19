@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_passenger_male_002_F",
-    "path": "sprites/spr_passenger_male_002_F/spr_passenger_male_002_F.yy",
+    "name": "spr_man_lavka_1",
+    "path": "sprites/spr_man_lavka_1/spr_man_lavka_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

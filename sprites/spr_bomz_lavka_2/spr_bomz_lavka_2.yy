@@ -33,8 +33,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "NPC_Center",
-    "path": "folders/Sprites/NPC/NPC_Center.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Center/NPC.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

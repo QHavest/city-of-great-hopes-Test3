@@ -103,8 +103,7 @@ enum item{
 	diamantovyi_certificat = 52,
 	ticket_kasa			=	53,
 	ticket_loto			=	54,
-	ticket_kino			=	55,
-	height				= 56,
+	height				= 55,
 }
 	
 global.ds_inventory[# 0, 1] = 1;

@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "children",
-    "path": "folders/Sprites/NPC/NPC_Tukhlyanka/children.yy",
+    "path": "folders/Sprites/Tukhlianka/NPC/children.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

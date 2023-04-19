@@ -32,8 +32,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "NPC_Tukhlyanka",
-    "path": "folders/Sprites/NPC/NPC_Tukhlyanka.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/Tukhlianka/NPC.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
