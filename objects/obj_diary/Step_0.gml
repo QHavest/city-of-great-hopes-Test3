@@ -14,12 +14,13 @@ if ((keyboard_check_pressed(ord("N")) or keyboard_check_pressed(ord("T"))) and !
 	audio_play_sound(snd_diary_close, 1, 0, global.System_gain);
 }
 
-if(keyboard_check_pressed(ord("D")) or keyboard_check_pressed(ord("A")) and show_diary = true){
-page =+ 1;
-	if(page = 2){
-		page = 0;
-	}
+if(keyboard_check_pressed(ord("D")) or keyboard_check_pressed(vk_right) and show_diary = true){
+page = 0;
 }
+if(keyboard_check_pressed(ord("A")) or keyboard_check_pressed(vk_left) and show_diary = true){
+page = 1;
+}
+
 
 if(keyboard_check_pressed(vk_escape) and show_diary){
 global.diary = false;

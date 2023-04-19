@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_smoke_man_2",
-    "path": "sprites/spr_smoke_man_2/spr_smoke_man_2.yy",
+    "name": "spr_male_015_S",
+    "path": "sprites/spr_male_015_S/spr_male_015_S.yy",
   },
   "spriteMaskId": null,
   "visible": true,
