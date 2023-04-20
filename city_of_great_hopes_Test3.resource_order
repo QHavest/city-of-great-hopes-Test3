@@ -7,6 +7,7 @@
     {"name":"Fone","order":18,"path":"folders/Battle_system/Fone.yy",},
     {"name":"MiniGames","order":11,"path":"folders/Battle_system/MiniGames.yy",},
     {"name":"NPC","order":12,"path":"folders/Battle_system/NPC.yy",},
+    {"name":"Other","order":20,"path":"folders/Battle_system/Other.yy",},
     {"name":"Screen","order":13,"path":"folders/Battle_system/Screen.yy",},
     {"name":"Karbovanci","order":7,"path":"folders/Battle_system/Screen/Karbovanci.yy",},
     {"name":"Get_UA","order":1,"path":"folders/Battle_system/Screen/Karbovanci/Get_UA.yy",},
@@ -112,7 +113,6 @@
     {"name":"Bus","order":11,"path":"folders/Transport/New/Sprite/Bus.yy",},
     {"name":"Car","order":10,"path":"folders/Transport/New/Sprite/Car.yy",},
     {"name":"Old","order":1,"path":"folders/Transport/Old.yy",},
-    {"name":"Other","order":20,"path":"folders/Battle_system/Other.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit_eng_d","order":12,"path":"sprites/spr_exit_eng_d/spr_exit_eng_d.yy",},

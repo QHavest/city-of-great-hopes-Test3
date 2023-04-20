@@ -70,6 +70,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Torchiill","folderPath":"folders/Battle_system/NPC/Torchiill.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Battle_system/NPC/Torchiill/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Battle_system/NPC/Torchiill/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Battle_system/Other.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Screen","folderPath":"folders/Battle_system/Screen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"English","folderPath":"folders/Battle_system/Screen/English.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Karbovanci","folderPath":"folders/Battle_system/Screen/Karbovanci.yy",},
@@ -379,7 +380,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Car","folderPath":"folders/Transport/New/Sprite/Car.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Old","folderPath":"folders/Transport/Old.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Transport/Old/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Battle_system/Other.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

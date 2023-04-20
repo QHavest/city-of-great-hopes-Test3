@@ -1,4 +1,6 @@
 /// @desc весь config
+global.res_width = 1920;
+global.res_height = 1080;
 
 global.screen_width = 1920
 global.screen_height = 1080
@@ -12,3 +14,4 @@ global.sequence = 0;
 global.task = 0;
 global.noRest = 0;
 global.boss = 0;
+texturegroup_load("Default");

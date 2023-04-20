@@ -8,11 +8,11 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_62F8427D","path":"rooms/testing_room/testing_room.yy",},
-    {"name":"inst_6CB8E203","path":"rooms/testing_room/testing_room.yy",},
     {"name":"inst_424CAD01","path":"rooms/testing_room/testing_room.yy",},
     {"name":"inst_2B5FC642","path":"rooms/testing_room/testing_room.yy",},
     {"name":"inst_25B0FB99","path":"rooms/testing_room/testing_room.yy",},
     {"name":"inst_4DC5DECE","path":"rooms/testing_room/testing_room.yy",},
+    {"name":"inst_6CB8E203","path":"rooms/testing_room/testing_room.yy",},
   ],
   "isDnd": false,
   "layers": [
