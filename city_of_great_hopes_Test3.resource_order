@@ -31,7 +31,7 @@
     {"name":"audio","order":13,"path":"folders/Main Menu/Pause/sprites/audio.yy",},
     {"name":"graphic","order":14,"path":"folders/Main Menu/Pause/sprites/graphic.yy",},
     {"name":"Mapa","order":19,"path":"folders/Mapa.yy",},
-    {"name":"Animation","order":8,"path":"folders/Mapa/mp_sprites/Other/Animation.yy",},
+    {"name":"Animation","order":1,"path":"folders/Mapa/mp_sprites/Animation.yy",},
     {"name":"Notes","order":20,"path":"folders/Notes.yy",},
     {"name":"Objects","order":21,"path":"folders/Objects.yy",},
     {"name":"Active_NPC","order":18,"path":"folders/Objects/Active_NPC.yy",},

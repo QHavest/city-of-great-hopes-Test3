@@ -128,7 +128,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mapa","folderPath":"folders/Mapa.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mp_sprites","folderPath":"folders/Mapa/mp_sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Mapa/mp_sprites/Other.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation","folderPath":"folders/Mapa/mp_sprites/Other/Animation.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation","folderPath":"folders/Mapa/mp_sprites/Animation.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"rooms","folderPath":"folders/Mapa/rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
