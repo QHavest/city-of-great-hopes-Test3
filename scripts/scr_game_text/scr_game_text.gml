@@ -1637,8 +1637,8 @@ case "task1_babka2":
 break
 
 case "task1_babka3":
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_seller_bazar_3, spr_ic_Ytopurok);
-	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka3"),1,spr_ic_seller_bazar_3, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka"),2,spr_ic_seller_bazar_1, spr_ic_Ytopurok);
+	scr_text(scr_json_lang(global.LANGUAGE,"task1_babka3"),1,spr_ic_seller_bazar_1, spr_ic_Ytopurok);
 break
 
 case "task1_npc3":
@@ -1682,10 +1682,6 @@ case "no_booking": // без бронювання
 	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_9"),2,spr_ic_Krus, spr_ic_officiante);
 	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),2,spr_ic_Krus, spr_ic_officiante);
 break
-
-//case "no_booking2": // після паузи
-//	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_10"),1,spr_ic_Krus, spr_ic_Ytopurok);
-//break
 
 case "barmen": // біля барної стійки
 	obj_trigger_barmen_2.x = 0;

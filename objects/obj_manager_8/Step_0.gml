@@ -12,7 +12,7 @@ if(pause == true)
 	}
 }
 
-if(start == 1 and global.task == 2)
+if(global.task == 2)
 {
 global.task = 0;
 //num1 = obj_seller_posyda.depth;

@@ -14,7 +14,15 @@ if(pause == true)
 	}
 	else
 	{
-		layer_sequence_play(seq5_2);
+		if(sequence_exists(seq5))
+		{
+			layer_sequence_play(seq5);
+		}
+		
+		if(sequence_exists(seq5_2))
+		{
+			layer_sequence_play(seq5_2);
+		}
 		pause = false;
 	}
 }
