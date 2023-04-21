@@ -1,6 +1,6 @@
 //КРИС
 //якщо магазин відкритий, гравець нерухомий
-if (global.shop or global.map or !global.dialog_end) {
+if (global.shop or global.map or !global.dialog_end or global.diary) {
 	if (lastmove = 0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r");}
 	else {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l");}
 //	if (audio_is_playing(s_walk)) {audio_stop_sound(s_walk);}

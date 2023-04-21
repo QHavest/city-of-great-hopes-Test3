@@ -5,6 +5,6 @@ InRoomMode = false;
 
 invis_door = true;
 door_y = 120
-door_x = 230
+door_x = 340
 door_sprite = spr_door_invis;
-door_num_in_sprite = 5;
+door_num_in_sprite = 4;

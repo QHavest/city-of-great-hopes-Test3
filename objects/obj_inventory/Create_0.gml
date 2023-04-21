@@ -108,7 +108,5 @@ enum item{
 }
 	
 global.ds_inventory[# 0, 1] = 1;
-global.ds_inventory[# 0, 2] = 54;
-global.ds_inventory[# 0, 9] = 53;
 
 #endregion
