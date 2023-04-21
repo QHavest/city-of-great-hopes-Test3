@@ -1080,16 +1080,20 @@ break
 #endregion
 #region (Babyli) ins
 case"Babyli":
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,argument[1],argument[2]);
-switch(irandom_range(1,2)){
+switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,argument[1],argument[2]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,argument[1],argument[2]);
 			break
 			case 2:
 		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[1],argument[2]);
 			break
+			case 3:
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[1],argument[2]);
+			break
+			case 4:
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,argument[1],argument[2]);
+			break
 }	
-scr_text(scr_json_lang(global.LANGUAGE,"Babyli4"),2,argument[1],argument[2]);
 break
 #endregion
 
