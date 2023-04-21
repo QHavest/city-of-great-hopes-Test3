@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mandarun",
+  "name": "obj_scena9_gop2",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Story/Cutscenes/scena 7/Objects.yy",
+    "path": "folders/Story/Cutscenes/scena 9/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mandarun_stay_l",
-    "path": "sprites/spr_mandarun_stay_l/spr_mandarun_stay_l.yy",
+    "name": "spr_gop_3",
+    "path": "sprites/spr_gop_3/spr_gop_3.yy",
   },
   "spriteMaskId": null,
   "visible": true,

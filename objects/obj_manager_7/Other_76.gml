@@ -4,7 +4,8 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	
+	instance_create_depth(282, 100, 0, obj_svust);
+	audio_sound_gain(snd_svust2, 1, 1);
 	start = 1;
 	scr_music_fon_change("snd_street");
 	volume = 0;

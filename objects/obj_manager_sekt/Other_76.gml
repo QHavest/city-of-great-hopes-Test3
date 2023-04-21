@@ -12,9 +12,9 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "dialog":
+	scr_create_textbox("sektants");
 	pause = true;
 	layer_sequence_pause(seq5);
-	scr_create_textbox("sektants");
 	break;
 	
 	case "dialog2":
