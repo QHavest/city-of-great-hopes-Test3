@@ -31,7 +31,7 @@ var yy = 0; repeat (ds_height){
 		draw_sprite_ext(spr_pause_menu_upd2,0,ltx+125/*-90*/, lty+365,2.3,2.3,0,c_white,1);
 		xo = -(x_buffer/2);
 	}
-	draw_text_color(ltx+xo+425, lty+365, ds_grid[# 0, yy], c, c, c, c, 1);
+	draw_text_color(ltx+xo+410, lty+365, ds_grid[# 0, yy], c, c, c, c, 1);
 	yy++;
 }
 

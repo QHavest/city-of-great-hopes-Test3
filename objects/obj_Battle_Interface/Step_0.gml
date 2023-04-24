@@ -1,6 +1,6 @@
 //В степ івент треба внести всі умови при яких починається боротьба
 global.MaxHp = hpKrys+hpYtopyrok
-if(keyboard_check_pressed(ord("B"))){
+/*if(keyboard_check_pressed(ord("B"))){
 	battle_start = true;
 	enemies = ENEMY.Kavkazci
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
@@ -27,7 +27,7 @@ if(keyboard_check_pressed(ord("O"))){
 	enemies = ENEMY.Hopniki
 	scr_music_fon_change(Room61); //Музика фонова в бойовій системі
 	room_goto(Room61);
-}
+}*/
 
 
 
@@ -40,7 +40,7 @@ if (battle_start = true and mini_game = false){
 			instance_activate_object(obj_dim_player1);
 			instance_activate_object(obj_dim_player2);
 		}
-if (battle_start = true and keyboard_check_pressed(ord("F")))
+/*if (battle_start = true and keyboard_check_pressed(ord("F")))
 {		room_goto(target_rm);
 		battle_start = false;
 		instance_deactivate_object(obj_mini_avatar);
@@ -55,7 +55,7 @@ if (battle_start = true and keyboard_check_pressed(ord("F")))
 			target_x = obj_dim_player2.x;
 			target_y = obj_dim_player2.y;
 		}
-	}
+	}*/
 	
 //відповідає за потрібну кімнату в яку маєи повертатися
 switch(enemies){
