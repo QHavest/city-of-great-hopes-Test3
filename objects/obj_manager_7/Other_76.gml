@@ -15,6 +15,9 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
 	
+	obj_seq_krus_stepBack.sprite_index = spr_clear;
+	obj_player_2_7_dial.sprite_index = spr_clear;
+	
 	break;
 	
 	case "dialog1_7":
