@@ -34,7 +34,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3f65714d-01bf-4f59-8a85-2c794fb30bc6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 7,
   "parent": {
     "name": "sprites",
     "path": "folders/Story/Cutscenes/sektants/sprites.yy",
@@ -81,7 +81,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 13,
+    "xorigin": 14,
     "yorigin": 58,
   },
   "swatchColours": null,

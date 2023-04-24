@@ -16,10 +16,18 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "rain":
-	scr_music_fon_change("snd_rain");
-	//instance_create_depth(0, 0, -9999, obj_rain);
+	//scr_music_fon_change("snd_rain");
+	audio_play_sound(snd_rain, 1, 1);
+	instance_create_depth(0, 0, 0, obj_rain);
 	break;
 	
+	case "rain2":
+	with(obj_rain)
+	{
+		part_system_depth(rain9, -9999)
+	}
+	break;
+
 	case "dialog1":
 	scr_create_textbox("scena_9_1");
 	break;

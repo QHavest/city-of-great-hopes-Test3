@@ -4,7 +4,7 @@ if(a == 1 and start = 1)
 	var playerInst1 = instance_find(obj_dim_player2,0);
 
 	var sequence = seq_scena_9_1;
-	layer_create(-9999, "Cutscenes2");
+	layer_create(-999, "Cutscenes2");
 	var layerName = "Cutscenes2";
 
 	global.shop = true;

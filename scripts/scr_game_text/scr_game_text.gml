@@ -1449,11 +1449,15 @@ break;
 
 case "scena_7_5":
 scr_text(scr_json_lang(global.LANGUAGE,"Scena717"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
-	scr_option(scr_json_lang(global.LANGUAGE,"Scena718"),"var1");
-	scr_option(scr_json_lang(global.LANGUAGE,"Scena719"),"var2");
-	scr_option(scr_json_lang(global.LANGUAGE,"Scena720"),"var3");
-	
+	scr_option(scr_json_lang(global.LANGUAGE,"Scena718"),"4");
+	scr_option(scr_json_lang(global.LANGUAGE,"Scena719"),"4");
+	scr_option(scr_json_lang(global.LANGUAGE,"Scena720"),"stepBack");
 break;
+
+case "stepBack":
+	obj_manager_7.variant = 2;
+break;
+
 
 case "scena_7_6":
 scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
@@ -1466,25 +1470,6 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Ytopurok,spr_ic_Krus
 	
 break;
 
-//case "var2":
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
-	
-//break;
-
-//case "var3":
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena721"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Krus,spr_ic_Ytopurok);
-//	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 #endregion
 
 #region (scena 8)
@@ -1540,16 +1525,16 @@ case "scena_9_1":
   break;
   // пакет літає
 case "scena_9_2":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena94"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena94"),2,spr_ic_stiopa_tyshonka,spr_ic_Krus_l);
   break;
   // пакет полетів
 case "scena_9_3":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena95"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena95"),1,spr_ic_stiopa_tyshonka,spr_ic_Krus_l);
   break;
   // складує руки на грудяї (змерз)
   // пропонує сигарету
 case "scena_9_4":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena910"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena910"),1,spr_ic_stiopa_tyshonka,spr_ic_Krus_l);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena96"),"Krus_smok");
     scr_option(scr_json_lang(global.LANGUAGE,"Scena97"),"Krus_dont_smok");
   break;
@@ -1563,11 +1548,11 @@ case "scena_9_4":
   
   
 case "scena_9_5":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena98"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena98"),1,spr_ic_stiopa_tyshonka,spr_ic_Krus_l);
 break;
 
 case "scena_9_6":
-  scr_text(scr_json_lang(global.LANGUAGE,"Scena99"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
+  scr_text(scr_json_lang(global.LANGUAGE,"Scena99"),1,spr_ic_Krus_l,spr_ic_blank);
     scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"4");
 break;
 
@@ -1579,6 +1564,11 @@ case "scena_9_battle":
  break;
   case "battle":
   {
+	  with(obj_rain)
+	  {
+		part_emitter_clear(rain9, em_rain);
+		part_emitter_destroy(rain9, em_rain);
+	  }
 	  obj_Battle_Interface.battle_start = true;
 	  obj_Battle_Interface.enemies = ENEMY.Hopniki;
 	  scr_music_fon_change(Room61);

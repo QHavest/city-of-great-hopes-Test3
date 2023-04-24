@@ -11,10 +11,18 @@ if(pause == true)
 		pause = false;
 	}
 }
-if start
+if(start)
 {
 	audio_listener_set_position(0, obj_camera.x, obj_camera.y, 0);
 	//show_debug_message("x: " + string(obj_player_1_7.x) + "y: " + string(obj_player_1_7.y));
+}
+
+if(variant = 2)
+{
+	variant = 1;
+	obj_seq_krus_stepBack.sprite_index = spr_seq_krus_stepBack;
+	obj_player_2_7_dial.sprite_index = spr_dim_Krus_stay_l;
+	obj_player_2_7.sprite_index = spr_clear;
 }
 
 //if(a == 1){
