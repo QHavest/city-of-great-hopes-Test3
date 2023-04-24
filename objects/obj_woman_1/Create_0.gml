@@ -8,3 +8,4 @@ spr_l = spr_woman_1_L
 
 text_id = "Zinki";
 spr_ic = spr_ic_woman_1
+
