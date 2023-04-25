@@ -10,12 +10,14 @@ if  (place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, o
 			state=PLAYERSTATE.LAVKA2;
 			image_index = 0;
 			sprite_index=spr_Ytopurok_sit_lav_2;
+			alarm[0]=room_speed*10;
 		}
 		with (obj_dim_player2){
 			start =1;
 			state=PLAYERSTATE.LAVKA2;
 			image_index = 0;
 			sprite_index=spr_Krus_sit_lav_2;
+			alarm[0]=room_speed*10;
 		}
 }
 }

@@ -5,13 +5,10 @@ if  ((place_meeting(x, y+zone_y, obj_dim_player1) or place_meeting(x, y+zone_y, 
 {
 	drowings = true;
 }
-else if drowings  drowings= false;
-
-
-
+else if (drowings) { drowings= false;}
 
 //запуск переіщення
-	if keyboard_check_pressed(ord("E"))  and  drowings = true
+	if (keyboard_check_pressed(ord("E"))  and  drowings = true)
 	{
 		drowings = false;
 	//	global.dialog_end = false;
