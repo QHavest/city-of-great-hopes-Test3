@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Eng",
-    "path": "folders/Rooms/Location_Other/Eng.yy",
+    "path": "folders/Rooms/Transition/Location_Other/Eng.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

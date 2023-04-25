@@ -99,6 +99,7 @@
     {"name":"inst_64D51A0D","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_6681DA75","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_7AAB213","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_238FA983","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -201,6 +202,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B954CC7","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Settings","path":"objects/Settings/Settings.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1955.0,"y":-48.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3660D888","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mp_manager","path":"objects/obj_mp_manager/obj_mp_manager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1888.0,"y":-96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_203E43AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Battle_Interface","path":"objects/obj_Battle_Interface/obj_Battle_Interface.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":-96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238FA983","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bus_map","path":"objects/obj_bus_map/obj_bus_map.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_bus_map","path":"objects/obj_bus_map/obj_bus_map.yy",},"propertyId":{"name":"seqname","path":"objects/obj_bus_map/obj_bus_map.yy",},"value":"2",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3744.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Spawn_Enemy","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F4342E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawn_enemy","path":"objects/obj_spawn_enemy/obj_spawn_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":-0.375,"scaleY":0.390625,"x":2080.0,"y":-32.0,},

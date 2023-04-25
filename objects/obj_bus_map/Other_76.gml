@@ -9,7 +9,6 @@ if event_data[? "event_type"] == "sequence event" // or you can check "sprite ev
            instance_deactivate_object(inst_CC005EA);
         break;
 		case "seq_deletes":
-			audio_emitter_free(obj_car_blue.myEmitter);
            	layer_sequence_destroy(sequence_id);
 			audio_stop_sound(snd_car_ride);
 			alarm[0] = irandom_range(60,90);
