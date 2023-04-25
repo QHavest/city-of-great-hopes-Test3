@@ -246,6 +246,7 @@
     {"name":"spr_male_009_WR","order":5,"path":"sprites/spr_male_009_WR/spr_male_009_WR.yy",},
     {"name":"scr_rooms_variables","order":6,"path":"scripts/scr_rooms_variables/scr_rooms_variables.yy",},
     {"name":"obj_jentel_man_2","order":2,"path":"objects/obj_jentel_man_2/obj_jentel_man_2.yy",},
+    {"name":"obj_transition_loc","order":2,"path":"objects/obj_transition_loc/obj_transition_loc.yy",},
     {"name":"spr_volga_black_001_R","order":18,"path":"sprites/spr_volga_black_001_R/spr_volga_black_001_R.yy",},
     {"name":"obj_warp_block_bezshow","order":13,"path":"objects/obj_warp_block_bezshow/obj_warp_block_bezshow.yy",},
     {"name":"spr_krus_throw_pillow3","order":15,"path":"sprites/spr_krus_throw_pillow3/spr_krus_throw_pillow3.yy",},

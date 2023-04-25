@@ -1020,6 +1020,7 @@
     {"id":{"name":"spr_gop_5","path":"sprites/spr_gop_5/spr_gop_5.yy",},},
     {"id":{"name":"obj_babka_1","path":"objects/obj_babka_1/obj_babka_1.yy",},},
     {"id":{"name":"spr_mebli1212","path":"sprites/spr_mebli1212/spr_mebli1212.yy",},},
+    {"id":{"name":"obj_transition_loc","path":"objects/obj_transition_loc/obj_transition_loc.yy",},},
     {"id":{"name":"obj_lamp_home_night","path":"objects/obj_lamp_home_night/obj_lamp_home_night.yy",},},
     {"id":{"name":"spr_volga_black_001_R","path":"sprites/spr_volga_black_001_R/spr_volga_black_001_R.yy",},},
     {"id":{"name":"sp_pan_fedir","path":"sprites/sp_pan_fedir/sp_pan_fedir.yy",},},
