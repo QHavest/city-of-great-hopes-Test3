@@ -30,6 +30,14 @@ if(status = STATUS.ACTIVE){
 	//		x += sign(hsp);
 		hsp = 0;
 	}*/
+	if(place_meeting(x + hsp, y, obj_pr_NPC_move) or place_meeting(x + hsp, y, obj_pr_NPC_back)){
+		if (status = STATUS.ACTIVE){last_active = true}
+		status = STATUS.NONE;
+		alarm[1]=10;
+		hsp = 0;
+	}
+	
+	
 
 	//вертикальна колізія
 	if(place_meeting(x, y + vsp, obj_invisiblewall)){

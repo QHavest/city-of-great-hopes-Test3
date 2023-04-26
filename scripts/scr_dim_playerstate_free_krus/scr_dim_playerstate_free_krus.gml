@@ -42,9 +42,10 @@ if(status = STATUS.ACTIVE){
 	*/
 	//////////////////////////////////////
 	//горизонтальна колізія
-	if(place_meeting(x + hsp, y, obj_invisiblewall)){
-		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
-			x += sign(hsp);
+	if(place_meeting(x + hsp, y, obj_pr_NPC_move) or place_meeting(x + hsp, y, obj_pr_NPC_back)){
+		if (status = STATUS.ACTIVE){last_active = true}
+		status = STATUS.NONE;
+		alarm[1]=10;
 		hsp = 0;
 	}
 

@@ -29,8 +29,8 @@ if (global.dialogue_move = true){
 	// зпам'ятовування статуса + звуки
 	if status = STATUS.ACTIVE
 	{
-	status = STATUS.PASSIVE;
-	last_active=true;	
+		status = STATUS.PASSIVE;
+		last_active=true;	
 	}
 	// переміщення у задані координати із заданою швидкістю
 	//mp_linear_step(xsd, ysd, 2, false);
@@ -44,7 +44,6 @@ if (global.dialogue_move = true){
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
-		
 		// задання напрямку стояння
 		if napriam = "r" lastmove=0;
 		else lastmove=1;
