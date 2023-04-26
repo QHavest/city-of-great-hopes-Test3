@@ -1105,7 +1105,6 @@
     {"id":{"name":"spr_home","path":"sprites/spr_home/spr_home.yy",},},
     {"id":{"name":"spr_larusa_look","path":"sprites/spr_larusa_look/spr_larusa_look.yy",},},
     {"id":{"name":"rm_pong","path":"rooms/rm_pong/rm_pong.yy",},},
-    {"id":{"name":"spr_Krus_lavka_2_a2024","path":"sprites/spr_Krus_lavka_2_a2024/spr_Krus_lavka_2_a2024.yy",},},
     {"id":{"name":"spr_ic_Seller_2","path":"sprites/spr_ic_Seller_2/spr_ic_Seller_2.yy",},},
     {"id":{"name":"spr_GameOver","path":"sprites/spr_GameOver/spr_GameOver.yy",},},
     {"id":{"name":"snd_klik_8","path":"sounds/snd_klik_8/snd_klik_8.yy",},},

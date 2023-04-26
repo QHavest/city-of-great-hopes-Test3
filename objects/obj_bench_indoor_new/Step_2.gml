@@ -37,7 +37,7 @@ if (global.zaniatui = false)
 			state=PLAYERSTATE.LAVKA4;
 			image_index = 0;
 			sprite_index=spr_Ytopurok_sit_lav_4;
-		//	alarm[0]=room_speed*10;
+			alarm[0]=room_speed*10;
 			
 		}
 		with (obj_dim_player2){

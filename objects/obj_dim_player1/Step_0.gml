@@ -65,10 +65,10 @@ switch(state){
 	case	PLAYERSTATE.FREE	: scr_dim_playerstate_free_ytopurok();	break;
 	case	PLAYERSTATE.BUY		: scr_after_shop_anim_ytopur(buing_spr,seller_spr,seller_spr_default,seller_obj);break;
 	case	PLAYERSTATE.VODA	: scr_dim_playerstate_voda();			break;
-	case	PLAYERSTATE.LAVKA1	: l="1";scr_dim_playerstate_Lavka("1");		break; 
-	case	PLAYERSTATE.LAVKA2	: l="2";scr_dim_playerstate_Lavka("2");		break; 
-	case	PLAYERSTATE.LAVKA3	: l="3";scr_dim_playerstate_Lavka("3");		break; 
-	case	PLAYERSTATE.LAVKA4	: l="4";scr_dim_playerstate_Lavka("4");		break; 
+	case	PLAYERSTATE.LAVKA1	: scr_dim_playerstate_Lavka("1");		break; 
+	case	PLAYERSTATE.LAVKA2	: scr_dim_playerstate_Lavka("2");		break; 
+	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break; 
+	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break; 
 	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
 	case	PLAYERSTATE.ACLAVKA	: scr_dim_playerstate_AcLavka(l)			break;
  } 
@@ -82,6 +82,8 @@ if (x!= xprevious or y!= yprevious){
 	}	
 	posX[0] = x;
 	posY[0] = y;
+	// активність
+	activity = activity_pause;
 	if status = STATUS.ACTIVE 
 	{
 		//if krok krok = 0;

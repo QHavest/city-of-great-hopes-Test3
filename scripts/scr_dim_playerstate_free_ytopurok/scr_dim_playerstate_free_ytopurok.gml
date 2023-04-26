@@ -64,6 +64,19 @@ lastmove = 1;}
 }
 
 // без руху
-	if (x==xprevious && y==yprevious && lastmove ==0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); s_ind=0;}
-	if (x==xprevious && y==yprevious && lastmove ==1) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); s_ind=0;}
+if (x==xprevious && y==yprevious)
+{
+	if (lastmove == 0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); }
+	else			{sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); }
+	s_ind=0;
+	if (!InRoomMode and global.dialog_end and !global.shop and !global.map and !global.diary)
+	{
+		activity--;
+		if activity=0 
+		{
+			activity = activity_pause;
+			state = PLAYERSTATE.SMOKE;
+		}
+	}
+}
 }

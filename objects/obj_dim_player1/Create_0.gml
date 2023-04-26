@@ -25,6 +25,9 @@ in_place = 0;
 last_active = 0;
 start =0;
 l=0;
+quit=false;
+activity_pause=room_speed*10;
+activity = activity_pause;
 
 
 //налаштування перемикання між персонажами 
