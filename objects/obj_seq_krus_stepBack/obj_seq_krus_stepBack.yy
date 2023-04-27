@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_seq_krus_stepBack",
-    "path": "sprites/spr_seq_krus_stepBack/spr_seq_krus_stepBack.yy",
+    "name": "spr_seq_krus_stepBack_new",
+    "path": "sprites/spr_seq_krus_stepBack_new/spr_seq_krus_stepBack_new.yy",
   },
   "spriteMaskId": null,
   "visible": true,

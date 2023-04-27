@@ -1416,7 +1416,7 @@ break;
 
 #region (scena 7)
 case "scena_7_1":
-scr_text(scr_json_lang(global.LANGUAGE,"Scena728"),1,spr_ic_Krus,spr_ic_Ytopurok);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena728"),1,spr_ic_Krus_l,spr_ic_Ytopurok_l);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena71"),"4");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena72"),"4");
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena73"),"4");
@@ -1425,7 +1425,7 @@ break;
 
 case "scena_7_2":
 scr_text(scr_json_lang(global.LANGUAGE,"Scena74"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
-scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
+//scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 break;
 
 case "scena_7_3":
@@ -1465,7 +1465,7 @@ scr_text(scr_json_lang(global.LANGUAGE,"Scena722"),2,spr_ic_Mandarun_r,spr_ic_Yt
 scr_text(scr_json_lang(global.LANGUAGE,"Scena723"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena724"),2,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
 scr_text(scr_json_lang(global.LANGUAGE,"Scena725"),1,spr_ic_Mandarun_r,spr_ic_Ytopurok_l);
-scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+scr_text(scr_json_lang(global.LANGUAGE,"Scena726"),2,spr_ic_Ytopurok_l,spr_ic_Krus_l);
 	scr_option(scr_json_lang(global.LANGUAGE,"Scena727"),"4");
 	
 break;
@@ -1566,8 +1566,11 @@ case "scena_9_battle":
   {
 	  with(obj_rain)
 	  {
-		part_emitter_clear(rain9, em_rain);
 		part_emitter_destroy(rain9, em_rain);
+		part_particles_clear(rain);
+		audio_stop_sound(snd_viter);
+		audio_stop_sound(snd_rain);
+		global.shop = false;
 	  }
 	  obj_Battle_Interface.battle_start = true;
 	  obj_Battle_Interface.enemies = ENEMY.Hopniki;

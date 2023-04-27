@@ -20,7 +20,7 @@ if(start)
 if(variant = 2)
 {
 	variant = 1;
-	obj_seq_krus_stepBack.sprite_index = spr_seq_krus_stepBack;
+	obj_seq_krus_stepBack.sprite_index = spr_seq_krus_stepBack_new;
 	obj_player_2_7_dial.sprite_index = spr_dim_Krus_stay_l;
 	obj_player_2_7.sprite_index = spr_clear;
 }

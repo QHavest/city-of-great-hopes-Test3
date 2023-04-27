@@ -7,9 +7,9 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"useSound","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"snd_svust2",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"maxDist","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"1200",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"fallStart","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"450",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"useSound","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"snd_svust",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"maxDist","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"800",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_sound_emmiter_3d","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"propertyId":{"name":"fallStart","path":"objects/obj_sound_emmiter_3d/obj_sound_emmiter_3d.yy",},"value":"250",},
   ],
   "parent": {
     "name": "Objects",

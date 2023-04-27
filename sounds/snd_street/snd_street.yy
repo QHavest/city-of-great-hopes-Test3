@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_street.wav",
   "type": 0,
-  "volume": 0.02,
+  "volume": 0.13,
 }

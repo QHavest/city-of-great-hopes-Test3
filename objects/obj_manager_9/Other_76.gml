@@ -16,8 +16,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "rain":
-	//scr_music_fon_change("snd_rain");
-	audio_play_sound(snd_rain, 1, 1);
+	scr_music_fon_change("snd_rain");
 	instance_create_depth(0, 0, 0, obj_rain);
 	break;
 	
@@ -90,11 +89,12 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "battle":
 	pause = true;
-		scr_create_textbox("scena_9_battle");
+	scr_create_textbox("scena_9_battle");
 	break;
 
     case "delete":
 	audio_stop_sound(snd_viter);
+	audio_stop_sound(snd_rain);
 	//obj_dim_player2.x = obj_player_2_9_2.x;
 	//obj_dim_player2.y = obj_player_2_9_2.y;
 	view_set_camera(0, regCam1);
@@ -104,7 +104,7 @@ if event_data [? "event_type"] == "sequence event"
     layer_sequence_destroy(seq4);
 	scr_music_fon_change(room);
 	//instance_destroy(obj_rain);
-	room_goto(rm_street_container);
+	//room_goto(rm_street_container);
     break;
 	
 

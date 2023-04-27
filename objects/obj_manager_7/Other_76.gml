@@ -4,11 +4,11 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	instance_create_depth(282, 100, 0, obj_svust);
-	audio_sound_gain(snd_svust2, 1, 1);
+	//instance_create_depth(282, 100, 0, obj_svust);
+	audio_sound_gain(snd_svust, 1, 0);
 	start = 1;
-	scr_music_fon_change("snd_street");
-	volume = 0;
+	//scr_music_fon_change("snd_street");
+	//audio_play_sound(snd_street, 1, 1);
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
 	var cam1 = camera_create_view(1890, 112, 480, 270, 0, obj_camera, -1, -1, 250, 150);
@@ -29,8 +29,8 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog2_7":
 	pause = true;
 	scr_create_textbox("scena_7_2");
-	audio_sound_gain(snd_svust2, 0, 1);
-	audio_stop_sound(snd_svust2);
+	audio_sound_gain(snd_svust, 0, 1);
+	audio_stop_sound(snd_svust);
 	instance_destroy(obj_svust);
 	
 	break;
@@ -54,7 +54,8 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "mandarun_music":
-	scr_music_fon_change("snd_mandarun");
+	audio_sound_gain(snd_street, 0.3, 0);
+	audio_play_sound(snd_mandarun, 2, 1);
 	break;
 	
 	case "pause1":
@@ -64,11 +65,14 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "dialog6":
 	pause = true;
+	audio_sound_gain(snd_mandarun, 0.2, 0);
 	scr_create_textbox("scena_7_6");
 	scr_music_fon_change(noone);
 	break;
-	
+
     case "delete":
+	audio_stop_sound(snd_street);
+	audio_stop_sound(snd_mandarun);
 	global.task = 2;
 	obj_center_fontan.x = x1;
 	obj_center_fontan.y = y1;

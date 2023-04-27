@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_mandarun.wav",
   "type": 0,
-  "volume": 0.075,
+  "volume": 0.155,
 }
