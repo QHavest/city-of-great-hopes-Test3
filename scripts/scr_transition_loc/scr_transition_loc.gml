@@ -11,5 +11,5 @@ function scr_transition_loc(){
 	break;
 	}
 	
-	sequence_id = layer_sequence_create(layerName,0,0, seqnames);
+	sequence_ids = layer_sequence_create(layerName,0,0, seqnames);
 }

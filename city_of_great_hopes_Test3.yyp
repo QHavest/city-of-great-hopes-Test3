@@ -2134,6 +2134,7 @@
     {"id":{"name":"spr_bicycle2","path":"sprites/spr_bicycle2/spr_bicycle2.yy",},},
     {"id":{"name":"sp_dyvan_zhytomyr_eng01","path":"sprites/sp_dyvan_zhytomyr_eng01/sp_dyvan_zhytomyr_eng01.yy",},},
     {"id":{"name":"spr_komod_small","path":"sprites/spr_komod_small/spr_komod_small.yy",},},
+    {"id":{"name":"tml_location_trans","path":"timelines/tml_location_trans/tml_location_trans.yy",},},
     {"id":{"name":"scr_other_minigame","path":"scripts/scr_other_minigame/scr_other_minigame.yy",},},
     {"id":{"name":"obj_chair_sport3","path":"objects/obj_chair_sport3/obj_chair_sport3.yy",},},
     {"id":{"name":"spr_YouWon_","path":"sprites/spr_YouWon_/spr_YouWon_.yy",},},

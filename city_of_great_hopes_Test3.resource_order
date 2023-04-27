@@ -471,6 +471,7 @@
     {"name":"spr_buy_Krus_potato_R","order":2,"path":"sprites/spr_buy_Krus_potato_R/spr_buy_Krus_potato_R.yy",},
     {"name":"obj_manager_kino","order":3,"path":"objects/obj_manager_kino/obj_manager_kino.yy",},
     {"name":"spr_butt_M","order":2,"path":"sprites/spr_butt_M/spr_butt_M.yy",},
+    {"name":"tml_location_trans","order":3,"path":"timelines/tml_location_trans/tml_location_trans.yy",},
     {"name":"obj_bus_map","order":12,"path":"objects/obj_bus_map/obj_bus_map.yy",},
     {"name":"spr_spawn","order":1,"path":"sprites/spr_spawn/spr_spawn.yy",},
     {"name":"spr_ic_kasa","order":5,"path":"sprites/spr_ic_kasa/spr_ic_kasa.yy",},

@@ -1,0 +1,1 @@
+global.room_trans_cont = true;

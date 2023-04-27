@@ -78,7 +78,6 @@
     {"name":"inst_CF59EED","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_4631BD1","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_35018161","path":"rooms/rm_street_container/rm_street_container.yy",},
-    {"name":"inst_6F3731BA","path":"rooms/rm_street_container/rm_street_container.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -96,7 +95,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35018161","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bus_map","path":"objects/obj_bus_map/obj_bus_map.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_bus_map","path":"objects/obj_bus_map/obj_bus_map.yy",},"propertyId":{"name":"seqname","path":"objects/obj_bus_map/obj_bus_map.yy",},"value":"1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":-96.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F3731BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_transition_loc","path":"objects/obj_transition_loc/obj_transition_loc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Boxes","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AB0F797","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_seller_posyda","path":"objects/obj_seller_posyda/obj_seller_posyda.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1082.0,"y":209.0,},

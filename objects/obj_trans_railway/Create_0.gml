@@ -1,7 +1,7 @@
 switch(room)
 {
 	case rm_street_second_side:
-	sprite_index = spr_loc_market_cont_ENG;
+	sprite_index = spr_loc_railway_ENG;
 	break;
 	case rm_street_container:
 	sprite_index = spr_loc_market_cont_ENG;
