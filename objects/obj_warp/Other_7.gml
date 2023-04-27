@@ -4,5 +4,6 @@ obj_dim_player1.y = target_y;
 obj_dim_player2.x = target_x;
 obj_dim_player2.y = target_y;
 draw_set_alpha(1);
+//audio_stop_sound(snd_sound_warp);
 		//obj_dim_player1.face = target_face;
 image_speed = -1;

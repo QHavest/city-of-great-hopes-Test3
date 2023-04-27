@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Eng",
-    "path": "folders/Rooms/Transition/Location_Other/Eng.yy",
+    "name": "Location_Other",
+    "path": "folders/Rooms/Transition/Location_Other.yy",
   },
 }

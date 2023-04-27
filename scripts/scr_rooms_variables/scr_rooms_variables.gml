@@ -562,7 +562,24 @@ break
 case Room61:	
 	switch(name)
 	{	
-	case 1: return snd_battle_music  break
+	case 1: 
+		switch(obj_Battle_Interface.enemies)
+		{
+			case ENEMY.Kavkazci :
+				return snd_kavkaz;  
+			break;
+			case ENEMY.Sectants :
+				return snd_sectants; 
+			break;
+			case ENEMY.Hopniki :
+				return snd_evrey; 
+			break;
+			case ENEMY.Narkomany :
+				return snd_narkoman; 
+			break;
+		}
+	//return snd_battle_music  
+	break;
 	case 2: return 3 break
 	case 3: return 0 break
 	case 4: break
