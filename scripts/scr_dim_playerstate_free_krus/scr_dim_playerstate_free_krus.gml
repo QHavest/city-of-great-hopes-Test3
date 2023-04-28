@@ -42,9 +42,10 @@ if(status = STATUS.ACTIVE){
 	*/
 	//////////////////////////////////////
 	//горизонтальна колізія
-	if(place_meeting(x + hsp, y, obj_invisiblewall)){
-		while(!place_meeting(x+sign(hsp), y, obj_invisiblewall))
-			x += sign(hsp);
+	if(place_meeting(x + hsp, y, obj_pr_NPC_move) or place_meeting(x + hsp, y, obj_pr_NPC_back)){
+		if (status = STATUS.ACTIVE){last_active = true}
+		status = STATUS.NONE;
+		alarm[1]=10;
 		hsp = 0;
 	}
 
@@ -76,7 +77,22 @@ if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("s
 }
 
 //if(global.dialogue_move = false){
-	if (x==xprevious && y==yprevious && lastmove ==0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); s_ind=0;}
-	if (x==xprevious && y==yprevious && lastmove ==1) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); s_ind=0;}
+//	if (x==xprevious && y==yprevious && lastmove ==0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); s_ind=0;}
+//	if (x==xprevious && y==yprevious && lastmove ==1) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); s_ind=0;}
 //}	
+if (x==xprevious && y==yprevious)
+{
+	if (lastmove == 0) {sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_r"); }
+	else			{sprite_index = asset_get_index("spr_dim_" + sprit + "_stay_l"); }
+	s_ind=0;
+	if (!InRoomMode and global.dialog_end and !global.shop and !global.map and !global.diary)
+	{
+		activity--;
+		if activity=0 
+		{
+			activity = activity_pause;
+			state = PLAYERSTATE.SMOKE;
+		}
+	}
+}
 }

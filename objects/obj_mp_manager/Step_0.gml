@@ -1,4 +1,4 @@
-but_map = keyboard_check_pressed(ord("M"));
+if ( !in_sequence ) {but_map = keyboard_check_pressed(ord("M"));}
 //if object_exists(obj_mp_open) and global.contact !=0 {global.contact =0; show_debug_message("zero");}
 //with(obj_mp_open){
 //if place_meeting(x,y,obj_dim_player1) or place_meeting(x,y,obj_dim_player2)
@@ -24,7 +24,7 @@ if (global.map)
 		obj_dim_player2.y = target_y;
 		obj_dim_player1.visible = 1;
 		obj_dim_player2.visible = 1;
-		if ac_pl =1
+		if (ac_pl =1)
 		{
 			obj_dim_player1.status = STATUS.ACTIVE;	
 		}
@@ -37,7 +37,7 @@ if (global.map)
 }
 else
 {
-	if but_map
+	if (but_map)
 	{
 		alarm[0]=1;				
 	}

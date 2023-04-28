@@ -29,8 +29,8 @@ if (global.dialogue_move = true){
 	// зпам'ятовування статуса + звуки
 	if status = STATUS.ACTIVE
 	{
-	status = STATUS.PASSIVE;
-	last_active=true;	
+		status = STATUS.PASSIVE;
+		last_active=true;	
 	}
 	// переміщення у задані координати із заданою швидкістю
 	//mp_linear_step(xsd, ysd, 2, false);
@@ -44,7 +44,6 @@ if (global.dialogue_move = true){
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
 		}
-		
 		// задання напрямку стояння
 		if napriam = "r" lastmove=0;
 		else lastmove=1;
@@ -70,7 +69,7 @@ switch(state){
 	case	PLAYERSTATE.LAVKA3	: scr_dim_playerstate_Lavka("3");		break; 
 	case	PLAYERSTATE.LAVKA4	: scr_dim_playerstate_Lavka("4");		break; 
 	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
-	case	PLAYERSTATE.ACLAVKA	: scr_dim_playerstate_AcLavka("1")			break;
+	case	PLAYERSTATE.ACLAVKA	: scr_dim_playerstate_AcLavka(l)			break;
  } 
 
 //система записування координат проходження
@@ -82,6 +81,8 @@ if (x!= xprevious or y!= yprevious){
 	}	
 	posX[0] = x;
 	posY[0] = y;
+	// активність
+	activity = activity_pause;
 	if status = STATUS.ACTIVE 
 	{
 		//if krok krok = 0;

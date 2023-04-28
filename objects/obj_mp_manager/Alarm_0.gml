@@ -19,7 +19,7 @@
 		instance_activate_object(obj_manager_bus);
 		instance_activate_object(obj_mozg_ai);
 		// status check
-		if obj_dim_player1.status = STATUS.ACTIVE
+		if (obj_dim_player1.status = STATUS.ACTIVE)
 		{
 			obj_dim_player1.status = STATUS.PASSIVE;
 			ac_pl=1;

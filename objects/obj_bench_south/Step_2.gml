@@ -9,11 +9,13 @@ if (obj_dim_player1.in_place and obj_dim_player1.start=0 and obj_dim_player2.in_
 		state=PLAYERSTATE.LAVKA3;
 		image_index = 0;
 		sprite_index=spr_Ytopurok_sit_lav_3;
+		//alarm[0]=room_speed*10;
 	}
 	with (obj_dim_player2){
 		start =1;
 		state=PLAYERSTATE.LAVKA3;
 		image_index = 0;
 		sprite_index=spr_Krus_sit_lav_3;
+		//alarm[0]=room_speed*10;
 	}
 }
