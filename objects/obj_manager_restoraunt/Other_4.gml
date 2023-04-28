@@ -18,7 +18,7 @@ var objInst10 = instance_find(obj_shtory,0);
 var objInst11 = instance_find(obj_barmen,0);
 
 var sequence = seq_restoraunt;
-layer_create(-9999, "Cutcenes");
+layer_create(-249, "Cutcenes");
 var layerName = "Cutcenes";
 
 global.shop = true;
