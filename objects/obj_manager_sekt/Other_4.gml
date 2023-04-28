@@ -7,7 +7,7 @@
 	var objInst3 = instance_find(obj_sekt_4,0);
 
 	var sequence = seq_sektants_throw;
-	layer_create(-9999, "Cutscenes2");
+	layer_create(-200, "Cutscenes2");
 	var layerName = "Cutscenes2";
 
 	global.shop = true;
@@ -24,4 +24,6 @@
 
 	obj_dim_player1.x = 0;
 	obj_dim_player2.x = 0;
+	
+	seq_num = 1;
 	

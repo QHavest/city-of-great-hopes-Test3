@@ -3,7 +3,8 @@ if event_data [? "event_type"] == "sequence event"
   switch (event_data[? "message"])
   {
     case "start":
-	scr_music_fon_change("kalunka");
+	//scr_music_fon_change("kalunka");
+		audio_play_sound(snd_tru_kalunku, 1, 1);
 		regCam1 = view_get_camera(0);
 		regCam2 = view_get_camera(1);
 		cams2 = camera_create_view(0,0, 213, 120, 0, obj_camera, -1, -1, 300, 50);
@@ -19,6 +20,8 @@ if event_data [? "event_type"] == "sequence event"
     break;
   
     case "delete":
+	audio_stop_sound(snd_tru_kalunku);
+		layer_destroy("CUT");
 		global.shop = false;
 	    layer_sequence_destroy(seq_TK);
 	    view_set_camera(0, regCam1);

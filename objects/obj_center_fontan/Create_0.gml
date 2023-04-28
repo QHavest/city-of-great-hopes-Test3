@@ -1,2 +1,2 @@
-depth = obj_fountain.depth - 10;
+depth = -300;
 

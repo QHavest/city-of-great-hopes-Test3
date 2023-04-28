@@ -8,4 +8,5 @@ function deactivate_obj_night(){
 	instance_deactivate_object(obj_nights);
 	//instance_deactivate_object(obj_box_container_night);
 	//instance_deactivate_object(obj_lamp_night_container);
+	start_scena9 = false;
 }

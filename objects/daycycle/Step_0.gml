@@ -325,3 +325,8 @@ if (hours >= 24){
 #endregion
 
 #endregion
+
+if(room != rm_fish_and_bazaar and start_scena9 == true and global.task == 3)
+{
+	room_goto(rm_fish_and_bazaar);
+}

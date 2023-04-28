@@ -4,19 +4,31 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
+	audio_channel_num(5);
 	//a = 1;
 	scr_music_fon_change("snd_viter");
 	//audio_play_sound(snd_bazar_2, 1, true);
+	//regCam1 = view_get_camera(0);
+	//regCam2 = view_get_camera(1);
+	//var cam1 = camera_create_view(1890, 112, 432, 243, 0, obj_camera, -1, -1, 250, 150);
+	//view_set_camera(0, cam1);
+	//view_set_camera(1, cam1);
+	//obj_dim_player2.image_index = spr_dim_Krus_stay_r;
+	break;
+	
+	case "start_2":
+	show_debug_message("ЗАСТАВКА!!!")
+	show_debug_message("ЗАСТАВКА!!!")
+	show_debug_message("ЗАСТАВКА!!!")
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
 	var cam1 = camera_create_view(1890, 112, 432, 243, 0, obj_camera, -1, -1, 250, 150);
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
-	//obj_dim_player2.image_index = spr_dim_Krus_stay_r;
 	break;
 	
 	case "rain":
-	scr_music_fon_change("snd_rain");
+	scr_music_fon_change(noone);
 	instance_create_depth(0, 0, 0, obj_rain);
 	break;
 	
@@ -75,16 +87,23 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
 	case "settings":
-	with(daycycle)
-	{
-		time_pause = !time_pause;
-		time_increment = 5;
-	}
-	alarm[1] = 10;
+	//with(daycycle)
+	//{
+	//	time_pause = !time_pause;
+	//	time_increment = 5;
+	//}
+	//alarm[1] = 10;
+	
+	audio_play_sound(snd_rain, 1, 1);
+	
+	var cam1 = camera_create_view(1890, 112, 368, 207, 0, obj_camera, -1, -1, 200, 120);
+	view_set_camera(0, cam1);
+	view_set_camera(1, cam1);
+	
 	break;
 
 	case "viter":
-		audio_play_sound(snd_viter, 2, true);
+		//audio_play_sound(snd_viter, 2, true);
 	break;
 	
 	case "battle":
@@ -107,7 +126,26 @@ if event_data [? "event_type"] == "sequence event"
 	//room_goto(rm_street_container);
     break;
 	
+	case "new_seq":
+	var playerInst1 = instance_find(obj_dim_player2,0);
 
+	var sequence = seq_scena_9_1;
+	layer_create(-200, "Cutscenes2");
+	var layerName = "Cutscenes2";
 
+	global.shop = true;
+	audio_stop_all();
+
+	seq4 = layer_sequence_create(layerName, 0,0, sequence);
+	var seqInst = layer_sequence_get_instance(seq4);
+
+	sequence_instance_override_object(seqInst, obj_dim_player2,  playerInst1);
+	
+	break;
+	
+	case "end":
+	layer_sequence_destroy(seq_start);
+	break;
+	
   }
 }

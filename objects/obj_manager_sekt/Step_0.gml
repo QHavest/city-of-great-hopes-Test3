@@ -4,6 +4,7 @@ if(take)
 	seq5_2 = layer_sequence_create("Cutscenes2", x, y, seq_sektants_take);
 	layer_sequence_pause(seq5_2);
 	alarm[0] = 10;
+	seq_num = 2;
 }
 
 if(pause == true)
@@ -14,12 +15,14 @@ if(pause == true)
 	}
 	else
 	{
-		if(sequence_exists(seq5))
+		if(global.shop == false) exit;
+		
+		if(seq_num == 1)
 		{
 			layer_sequence_play(seq5);
 		}
 		
-		if(sequence_exists(seq5_2))
+		if(seq_num == 2)
 		{
 			layer_sequence_play(seq5_2);
 		}
