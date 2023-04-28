@@ -24,7 +24,8 @@ var objInst9 = instance_find(obj_hotel,0);
 //var objInst10 = instance_find(obj_sound_emmiter_3d,0);
 
 var sequence = seq_scena_7;
-var layerName = "Instances_obj";
+layer_create(-200, "CUT")
+var layerName = "CUT";
 
 global.shop = true;
 

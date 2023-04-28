@@ -4,7 +4,7 @@ function activate_obj_night(){
 	//instance_activate_object(obj_container_night);
 	instance_activate_object(obj_nights);
 	deactivate_warp_night(); //деактивація порталів вночі
-	//global.warp_night = false;	
+	//global.warp_night = false;
 	//instance_deactivate_object(inst_4D291E2E)
 	//instance_activate_object(obj_truck_closeds_night);
 	//instance_activate_object(obj_truck_closeds_night2);
@@ -16,4 +16,6 @@ function activate_obj_night(){
 	{
 		a = 1;
 	}
+	
+	start_scena9 = true;
 }

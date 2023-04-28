@@ -50,6 +50,8 @@ enum phase {
 	nighttime4 = 0.5,
 }
 
+
+
 weather = part_system_create();
 part_system_depth(weather, -1000);
 
@@ -69,7 +71,7 @@ rain_or_not_1 = true;
 
 timer_rain = true;
 
-//alarm[7] = 1;
+start_scena9 = 0;
 
 
 #region fog

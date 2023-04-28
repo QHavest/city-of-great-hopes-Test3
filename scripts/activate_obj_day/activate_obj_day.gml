@@ -17,4 +17,6 @@ instance_activate_object(obj_box_container);*/
 	{
 		a = 0;
 	}
+	
+	start_scena9 = false;
 }

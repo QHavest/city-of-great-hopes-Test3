@@ -32,7 +32,7 @@ if(start)
 	var objInst11 = instance_find(obj_barmen,0);
 
 	var sequence = seq_restoraunt_barmen;
-	layer_create(-999999, "Cutcenes");
+	layer_create(-249, "Cutcenes");
 	var layerName = "Cutcenes";
 
 	global.shop = true;

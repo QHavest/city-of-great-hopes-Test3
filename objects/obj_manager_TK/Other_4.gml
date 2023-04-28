@@ -4,8 +4,8 @@ if(room == rm_tri_kalynky_boss)
 	var playerInst5 = instance_find(obj_dim_player2,0);
 
 	var sequence = seq_tru_kalunku;
-	layer_create(-9999, "Cutcenes");
-	var layerName = "Cutcenes";
+	layer_create(-200, "CUT");
+	var layerName = "CUT";
 
 	global.shop = true;
 

@@ -46,7 +46,7 @@ var playerInst2 = instance_find(obj_dim_player2,0);
 //var objInst20 = instance_find(obj_mishky,0);
 
 var sequence = seq_scena_8_slowed;
-layer_create(-9999, "Cutscenes2");
+layer_create(-300, "Cutscenes2");
 var layerName = "Cutscenes2";
 
 global.shop = true;
