@@ -45,7 +45,7 @@ if(global.MaxHp > 0  and /*place_meeting(x, y, obj_shprutz_dow1) or place_meetin
 		case PHASES.Atack:
 			switch (obj_Battle_Interface.enemies){
 				case ENEMY.Hopniki:
-					alarm[4]=20;
+					alarm[4]=40;
 				break;
 				case ENEMY.Sectants:
 					alarm[4]=65;

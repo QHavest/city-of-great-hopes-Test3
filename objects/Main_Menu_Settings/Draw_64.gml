@@ -18,7 +18,7 @@ var c = c_black;
 draw_set_valign(fa_middle);
 draw_set_halign(fa_middle);
 
-var ltx = start_x - x_buffer+80, lty, xo; //Розташування на екрані
+var ltx = start_x - x_buffer/*-50*/, lty, xo; //Розташування на екрані || +80 це наскільки відступ вправо має бути
 
 var yy = 0; repeat (ds_height){
 	lty = start_y + (yy*y_buffer);

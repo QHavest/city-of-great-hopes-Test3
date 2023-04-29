@@ -13,7 +13,7 @@ var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_fon_settings,0,gwidth-960, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
+draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
 
 //draw_sprite(spr_pause_h, 0, 0, 0);
 var c = c_black;
@@ -21,9 +21,9 @@ var c = c_black;
 //draw_text_color(gwidth-1160, gheight-800,"Settings", c, c, c, c, 1);
 //draw_sprite_ext(spr_button_menu, 0, gwidth - 1130, gheight - 650, 1.25, 1.25, 0, 0, 1);
 //draw_sprite(spr_button_menu, 0, gwidth - 960, gheight - 790)
-draw_sprite_ext(spr_button_menu, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
-if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
-else draw_sprite_ext(spr_settings_ukr, 0, gwidth - 952, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+draw_sprite_ext(spr_button_menu, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
+else draw_sprite_ext(spr_settings_ukr, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_left);
@@ -31,7 +31,7 @@ draw_set_halign(fa_left);
 
 
 
-var ltx = start_x - x_buffer+80, lty, xo; //Розташування на екрані
+var ltx = start_x - x_buffer+10, lty, xo; //Розташування на екрані
 
 
 draw_set_font(Font_for_draw_mazur);
@@ -62,7 +62,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_left);
 draw_set_font(Font_for_draw_mazur2)
 
-var rtx = start_x + x_buffer-50, rty; //Розташування на екрані
+var rtx = start_x + x_buffer-205, rty; //Розташування на екрані
 
 yy = 0; repeat(ds_height){
 	rty = start_y + (yy*y_buffer);

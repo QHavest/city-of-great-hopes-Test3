@@ -2081,6 +2081,7 @@
     {"id":{"name":"spr_male_014_R","path":"sprites/spr_male_014_R/spr_male_014_R.yy",},},
     {"id":{"name":"spr_hopnik_battle_down1","path":"sprites/spr_hopnik_battle_down1/spr_hopnik_battle_down1.yy",},},
     {"id":{"name":"obj_woman_3","path":"objects/obj_woman_3/obj_woman_3.yy",},},
+    {"id":{"name":"aspect_ratio","path":"scripts/aspect_ratio/aspect_ratio.yy",},},
     {"id":{"name":"spr_lizard_2_stay","path":"sprites/spr_lizard_2_stay/spr_lizard_2_stay.yy",},},
     {"id":{"name":"spr_romb_up","path":"sprites/spr_romb_up/spr_romb_up.yy",},},
     {"id":{"name":"spr_sekt_2","path":"sprites/spr_sekt_2/spr_sekt_2.yy",},},

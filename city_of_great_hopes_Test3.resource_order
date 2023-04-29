@@ -463,6 +463,7 @@
     {"name":"spr_negative_hit","order":3,"path":"sprites/spr_negative_hit/spr_negative_hit.yy",},
     {"name":"spr_male_014_R","order":26,"path":"sprites/spr_male_014_R/spr_male_014_R.yy",},
     {"name":"obj_woman_3","order":6,"path":"objects/obj_woman_3/obj_woman_3.yy",},
+    {"name":"aspect_ratio","order":10,"path":"scripts/aspect_ratio/aspect_ratio.yy",},
     {"name":"obj_komod_zad","order":1,"path":"objects/obj_komod_zad/obj_komod_zad.yy",},
     {"name":"obj_smitnuk_with_paciyk","order":5,"path":"objects/obj_smitnuk_with_paciyk/obj_smitnuk_with_paciyk.yy",},
     {"name":"obj_pr_NPC_move","order":1,"path":"objects/obj_pr_NPC_move/obj_pr_NPC_move.yy",},

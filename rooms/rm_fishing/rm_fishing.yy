@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_fishing",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_fishing/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

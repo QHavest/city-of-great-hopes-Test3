@@ -1,8 +1,8 @@
 //if(!global.pause) exit;
 //global.pause = false;
 
-view_widths = /*camera_get_view_width(view_camera[0])*/ room_width/2;
-view_heights = /*camera_get_view_height(view_camera[0])*/room_height/2;
+view_widths = camera_get_view_width(view_camera[0])/2.1// room_width/2;
+view_heights = camera_get_view_height(view_camera[0])/2//room_height/2;
 //global.key_revert =  keyboard_check_pressed(ord("X"));
 global.key_enter = vk_enter;
 global.key_left = vk_left;
@@ -45,7 +45,7 @@ ds_settings = create_menu_page(
  ["Master", main_menu_element_type.slider, change_volume, 0.5, [0,1]],
  ["Graphics"/*, menu_element_type.page_transfer, menu_page.graphics*/],
  ["Resolution", main_menu_element_type.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1680 x 1050", "1920 x 1080"]],
- ["Window mode", main_menu_element_type.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
+ ["Window mode", main_menu_element_type.toggle, change_window_mode, 1, ["Windowed", "Fullscreen"]],
  ["Back", main_menu_element_type.page_transfer, main_menu_page.main],
 );
 
@@ -58,7 +58,7 @@ ds_menu_audio = create_menu_page(
 
 ds_graphics = create_menu_page(
  ["Resolution", main_menu_element_type.shift, change_resolution, 0, ["384 x 216", "768 x 432", "1152 x 648", "1536 x 874", "1920 x 1080"]],
- ["Window mode", main_menu_element_type.toggle, change_window_mode, 1, ["Fullscreen", "Windowed"]],
+ ["Window mode", main_menu_element_type.toggle, change_window_mode, 1, ["Windowed", "Fullscreen"]],
  ["Back", main_menu_element_type.page_transfer, main_menu_page.settings],
 );
 

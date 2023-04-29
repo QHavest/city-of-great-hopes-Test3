@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 97.333336,
+  "duration": 80.126144,
   "parent": {
     "name": "Enemy_sound",
     "path": "folders/Battle_system/Sound/Enemy_sound.yy",

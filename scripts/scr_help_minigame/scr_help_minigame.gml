@@ -79,7 +79,7 @@ function scr_help_minigame_wait(){
 			draw_text_ext(gui_W/1.257, gui_H/1.66, "Press 'Arrows UP or Down' to start the fight. Press 'Enter' to confirm", stringHeight_torchky, 250);
 		break;
 		case "ua":
-			draw_text_ext(gui_W/1.257, gui_H/1.66, "Натискай 'Стрілки вгору чи вниз' для початку бою. Натискай 'Enter' щоб підтвердити", stringHeight_torchky, 250);
+			draw_text_ext(gui_W/1.255, gui_H/1.69, "Натискай 'Стрілки вгору чи вниз' для початку бою. Натискай 'Enter' щоб підтвердити", stringHeight_torchky, 250);
 		break;
 	}
 }
