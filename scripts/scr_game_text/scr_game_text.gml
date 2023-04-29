@@ -1651,7 +1651,7 @@ case "doorman1": // якщо ми заходимо
 break
 
 case "doorman2": // якщо не заходимо
-	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_2"),1,spr_ic_Krus, spr_ic_Doorman);
+	scr_text(scr_json_lang(global.LANGUAGE,"Restoraunt_2"),2,spr_ic_Krus, spr_ic_Doorman);
 break
 
 case "waiter": // офіціант
