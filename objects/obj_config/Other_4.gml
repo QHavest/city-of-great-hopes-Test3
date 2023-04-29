@@ -37,19 +37,20 @@ switch(room)
 		surface_resize(application_surface, global.res_width, global.res_height);
 	break;
 	case rm_cinema_inside:
-		/*view_enabled = true;
+	show_debug_message("hello pidiuk")
+		view_enabled = true;
 		view_visible[0] = true;
 
 		var _w = global.res_width;
 		var _h = global.res_height;
-		var _cam = camera_create_view(0, 0, _w/2, _h/2);
+		var _cam = camera_create_view(0, 0, _w/9, _h/9);
 
 		camera_set_view_target(_cam, obj_dim_player1);
 		camera_set_view_border(_cam, _w / 2, _h / 2);
 
 		view_camera[0] = _cam;
 		window_set_size(global.res_width, global.res_height);
-		surface_resize(application_surface, global.res_width, global.res_height);*/
+		surface_resize(application_surface, global.res_width, global.res_height);
 	break;
 	default:
 		view_enabled = true;
