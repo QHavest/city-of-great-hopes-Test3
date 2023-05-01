@@ -15,16 +15,19 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "camera1",
-            ],},},"Disabled":false,"id":"2d986872-85fb-47a5-9c44-d31945681453","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"f35f3504-a085-4324-b916-a09a48f1e4da","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dial_start",
-            ],},},"Disabled":false,"id":"3d2acd35-fb37-4542-b06c-231c98ab1264","IsCreationKey":false,"Key":31.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"8b45730e-8a53-4501-bf63-bf8622c70359","IsCreationKey":false,"Key":31.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause",
-            ],},},"Disabled":false,"id":"cd6856d7-949e-4342-b28d-696228a58006","IsCreationKey":false,"Key":51.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"b8f86a0a-628d-48dd-af59-7a74e7b930ee","IsCreationKey":false,"Key":51.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "fog_end",
+            ],},},"Disabled":false,"id":"6d44cd39-fd28-4662-a7b8-922fa65b32b6","IsCreationKey":false,"Key":57.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "delete",
-            ],},},"Disabled":false,"id":"7a5042ce-af90-4dcf-8917-fb05295a5647","IsCreationKey":false,"Key":62.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"5e582660-f05f-4191-830c-35b2319214d7","IsCreationKey":false,"Key":62.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

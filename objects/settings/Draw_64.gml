@@ -199,7 +199,7 @@ switch(menu_pages[page])
 				
 				if(global.LANGUAGE == "ua")
 				{
-					xP = 1095; yP = 845;
+					xP = 1164; yP = 845;
 				}
 			
 			}
@@ -218,7 +218,7 @@ switch(menu_pages[page])
 
 				if(global.LANGUAGE == "ua")
 				{
-					xP = 1103; yP = 870;
+					xP = 1120; yP = 870;
 				}
 				
 			}
