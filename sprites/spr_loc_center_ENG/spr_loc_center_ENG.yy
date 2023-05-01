@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_center_ENG",
-  "bbox_bottom": 322,
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 1243,
+  "bbox_right": 152,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab0314b8-bfd3-4fbb-9fed-99abc6fe3882",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75832721-7907-4823-b089-b078a78768e1",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 323,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ca52676d-eee0-4341-95e5-b34b04305a90","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"89540bc2-6e0c-4fdc-8081-1870af130ed7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab0314b8-bfd3-4fbb-9fed-99abc6fe3882","path":"sprites/spr_loc_center_ENG/spr_loc_center_ENG.yy",},},},"Disabled":false,"id":"57a03aeb-3b2b-452a-a802-e90cfe6c2352","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"75832721-7907-4823-b089-b078a78768e1","path":"sprites/spr_loc_center_ENG/spr_loc_center_ENG.yy",},},},"Disabled":false,"id":"a073b161-6d01-4d04-9318-56ab3f3cfbf7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1244,
+  "width": 153,
 }

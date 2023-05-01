@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_tukhl_ENG",
-  "bbox_bottom": 322,
+  "bbox_bottom": 34,
   "bbox_left": 0,
-  "bbox_right": 1243,
+  "bbox_right": 245,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4706527-8ff6-4701-b3f2-d3bd1bb5d46d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5ae3c8b2-7372-4248-82c7-139aedebbd90",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 323,
+  "height": 35,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0ccca15f-d51c-405f-91ad-5e1d4078c02d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ea9ad0d8-f14c-4f56-b171-a85d8835cebc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f4706527-8ff6-4701-b3f2-d3bd1bb5d46d","path":"sprites/spr_loc_tukhl_ENG/spr_loc_tukhl_ENG.yy",},},},"Disabled":false,"id":"7354ded4-9f0c-423e-9ede-32dd22b2c0c5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ae3c8b2-7372-4248-82c7-139aedebbd90","path":"sprites/spr_loc_tukhl_ENG/spr_loc_tukhl_ENG.yy",},},},"Disabled":false,"id":"9bd2dfae-8c5e-48ab-af49-9665f4054fff","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1244,
+  "width": 246,
 }

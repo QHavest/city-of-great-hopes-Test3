@@ -46,7 +46,7 @@
     ],
     "top": 0,
   },
-  "origin": 3,
+  "origin": 9,
   "parent": {
     "name": "Pause",
     "path": "folders/Main Menu/Pause.yy",
@@ -82,7 +82,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
+    "xorigin": 17,
     "yorigin": 21,
   },
   "swatchColours": null,

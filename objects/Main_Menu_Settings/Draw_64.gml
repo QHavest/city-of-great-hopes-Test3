@@ -8,7 +8,7 @@ if (menu){
 var gwidth = view_widths, gheight = view_heights;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
-var y_buffer = 110, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
+var y_buffer = 110, x_buffer = 0; //Відступ (у)знизу зверху та (х) по бокам  = 16
 var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
 //draw_sprite_ext(spr_pause_menu1,0,gwidth, gheight,start_x+x_buffer,300,0,c_black,0.5);
@@ -31,7 +31,7 @@ var yy = 0; repeat (ds_height){
 		draw_sprite_ext(spr_pause_menu_upd2,0,ltx+125/*-90*/, lty+365,2.3,2.3,0,c_white,1);
 		xo = -(x_buffer/2);
 	}
-	draw_text_color(ltx+xo+410, lty+365, ds_grid[# 0, yy], c, c, c, c, 1);
+	draw_text_color(ltx+xo+370, lty+365, ds_grid[# 0, yy], c, c, c, c, 1);
 	yy++;
 }
 
