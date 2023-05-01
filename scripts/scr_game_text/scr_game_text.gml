@@ -1566,8 +1566,10 @@ case "scena_9_battle":
   {
 	  with(obj_rain)
 	  {
+		part_emitter_clear(rain9, em_rain);
+		part_system_depth(rain9, 1000);
+		//part_particles_clear(rain);
 		part_emitter_destroy(rain9, em_rain);
-		part_particles_clear(rain);
 		audio_stop_sound(snd_viter);
 		audio_stop_sound(snd_rain);
 		global.shop = false;

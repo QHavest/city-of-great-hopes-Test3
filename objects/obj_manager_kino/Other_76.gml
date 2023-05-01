@@ -10,6 +10,10 @@ if event_data [? "event_type"] == "sequence event"
 		view_set_camera(0, cams2);
 		view_set_camera(1, cams2);
     break;
+	
+	case "snd":
+		audio_play_sound(snd_kino, 1, 0);
+	break;
 
     case "delete":
 		global.shop = false;

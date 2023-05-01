@@ -15,58 +15,55 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "start",
-            ],},},"Disabled":false,"id":"e9569ce3-7dbc-4fe3-91f4-a204386fb032","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"44045eb4-b9ca-4215-b603-d9be08ffeaf6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog1",
-            ],},},"Disabled":false,"id":"bf6c030f-1a08-444e-92c4-aeaa6735d6fb","IsCreationKey":false,"Key":49.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"932037a3-be85-4a73-8ed5-e8fda0cf97d8","IsCreationKey":false,"Key":49.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause3",
-            ],},},"Disabled":false,"id":"3a284a3c-e4a9-4c46-bfec-fdacef7aba2b","IsCreationKey":false,"Key":65.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"87203af3-7569-43f6-a78c-b16aa5d29acb","IsCreationKey":false,"Key":65.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause2",
-            ],},},"Disabled":false,"id":"a83d8872-e9b1-4fda-9b10-bb9e9b5fcfe1","IsCreationKey":false,"Key":69.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"59bf33d5-1a31-4fe0-96b4-ea4e33a9ee55","IsCreationKey":false,"Key":69.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog2",
-            ],},},"Disabled":false,"id":"63b8dad7-26d2-48b7-88d9-e81d9ec605a5","IsCreationKey":false,"Key":87.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"30c273d4-7860-4ccf-ba35-acf114cef65f","IsCreationKey":false,"Key":87.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog3",
-            ],},},"Disabled":false,"id":"74b52a44-a267-4fbc-9299-3d5ebb9cfff1","IsCreationKey":false,"Key":101.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"6daa78a9-f790-41a2-923c-859ad698a3a2","IsCreationKey":false,"Key":101.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause1",
-            ],},},"Disabled":false,"id":"fb150b86-c0d7-48a2-bb86-0aa02e0d0e7a","IsCreationKey":false,"Key":108.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"a143b86f-9e2b-436e-b121-3f9dbd352e11","IsCreationKey":false,"Key":108.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "sigarete",
-            ],},},"Disabled":false,"id":"a191b7e7-d15c-4c5c-8b12-1a13a1d30099","IsCreationKey":false,"Key":137.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"6fdde829-7db1-48d6-882f-7688982031ef","IsCreationKey":false,"Key":137.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog5",
-            ],},},"Disabled":false,"id":"0ee16491-45c4-459e-ad6f-859debfa2853","IsCreationKey":false,"Key":208.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"b1af49aa-e060-468c-ac49-63e8c358e559","IsCreationKey":false,"Key":208.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause1",
-            ],},},"Disabled":false,"id":"aeddceac-7dfe-4228-b86d-c5f3101e3239","IsCreationKey":false,"Key":229.0,"Length":1.0,"Stretch":false,},
-      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "viter",
-            ],},},"Disabled":false,"id":"085bf3fd-823d-4b4f-8b7e-c7727d9692cd","IsCreationKey":false,"Key":239.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"62ba428f-207c-49ab-b2c6-69c80ccd7697","IsCreationKey":false,"Key":229.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "rain",
-            ],},},"Disabled":false,"id":"daa75f21-5acb-423d-9545-906c542467b7","IsCreationKey":false,"Key":267.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"3a17ff86-1acc-4c13-b65c-dfac1baf7cf9","IsCreationKey":false,"Key":267.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "viter_gain",
-            ],},},"Disabled":false,"id":"08eb11fc-5dda-4508-9a01-6f34da8d5625","IsCreationKey":false,"Key":276.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"1488ab01-9c42-4d17-8a86-ca3f16d4ea0b","IsCreationKey":false,"Key":276.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "dialog6",
-            ],},},"Disabled":false,"id":"4ea7f071-15e4-4bc1-a702-a78b493b01b6","IsCreationKey":false,"Key":281.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"58cef3cc-6053-44d8-915e-34e42a63f73f","IsCreationKey":false,"Key":281.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "settings",
-            ],},},"Disabled":false,"id":"ae7e1ed3-d26f-4cfd-8188-95665f76aa7e","IsCreationKey":false,"Key":300.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"5878c687-f58f-441e-ae67-611d97b61889","IsCreationKey":false,"Key":300.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "rain2",
-            ],},},"Disabled":false,"id":"0097bafb-af37-4039-943e-d366fde4252b","IsCreationKey":false,"Key":303.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"b0edf4b7-cd9c-4057-8260-bdbbf702a12b","IsCreationKey":false,"Key":303.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "battle",
-            ],},},"Disabled":false,"id":"72df2a29-ba82-45d8-9373-e44c98a97c33","IsCreationKey":false,"Key":351.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"9a8e1372-d7d7-4b41-84ed-9e510895a542","IsCreationKey":false,"Key":351.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "delete",
-            ],},},"Disabled":false,"id":"e31886db-227f-40ff-8e35-03e302f26464","IsCreationKey":false,"Key":415.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"a40c6f58-262c-4550-a996-4c79cf5ff6ae","IsCreationKey":false,"Key":415.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

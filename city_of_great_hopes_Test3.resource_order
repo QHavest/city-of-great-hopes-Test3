@@ -217,6 +217,7 @@
     {"name":"spr_dim_Krus_move_left_new","order":1,"path":"sprites/spr_dim_Krus_move_left_new/spr_dim_Krus_move_left_new.yy",},
     {"name":"spr_container_night","order":4,"path":"sprites/spr_container_night/spr_container_night.yy",},
     {"name":"spr_hero2_3","order":6,"path":"sprites/spr_hero2_3/spr_hero2_3.yy",},
+    {"name":"snd_kino2","order":1,"path":"sounds/snd_kino2/snd_kino2.yy",},
     {"name":"obj_male_005","order":7,"path":"objects/obj_male_005/obj_male_005.yy",},
     {"name":"spr_com_1","order":1,"path":"sprites/spr_com_1/spr_com_1.yy",},
     {"name":"obj_pr_NPC_back","order":2,"path":"objects/obj_pr_NPC_back/obj_pr_NPC_back.yy",},

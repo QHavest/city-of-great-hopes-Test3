@@ -2,10 +2,15 @@ if event_data [? "event_type"] == "sequence event"
 {
   switch (event_data[? "message"])
   {
-    
 	case "start":
+	//sg = audio_create_sync_group(0);
+	//audio_play_in_sync_group(sg, snd_svust);
+	
+	
+	scr_music_fon_change("snd_street");
 	//audio_channel_num(5);
 	//audio_play_sound(snd_street, 1, 1);
+	//instance_create_layer(283, 80, "CUT", obj_svust);
 	audio_sound_gain(snd_svust, 1, 0);
 	start = 1;
 

@@ -28,7 +28,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "rain":
-	scr_music_fon_change(noone);
+	//scr_music_fon_change(noone);
 	instance_create_depth(0, 0, 0, obj_rain);
 	break;
 	
@@ -67,11 +67,11 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "pause1":
 	pause = true;
-	global.Fon_sound_gain -= 0.3;
+	//global.Fon_sound_gain -= 0.3;
 	break;
 	
 	case "viter_gain":
-	global.Fon_sound_gain += 0.45;
+	//global.Fon_sound_gain += 0.45;
 	break;
 	
 	case "pause2":
@@ -87,13 +87,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
 	case "settings":
-	//with(daycycle)
-	//{
-	//	time_pause = !time_pause;
-	//	time_increment = 5;
-	//}
-	//alarm[1] = 10;
-	
+	scr_music_fon_change(noone);
 	audio_play_sound(snd_rain, 1, 1);
 	
 	var cam1 = camera_create_view(1890, 112, 368, 207, 0, obj_camera, -1, -1, 200, 120);
@@ -102,9 +96,9 @@ if event_data [? "event_type"] == "sequence event"
 	
 	break;
 
-	case "viter":
-		//audio_play_sound(snd_viter, 2, true);
-	break;
+	//case "viter":
+	//	//audio_play_sound(snd_viter, 2, true);
+	//break;
 	
 	case "battle":
 	pause = true;
@@ -130,7 +124,7 @@ if event_data [? "event_type"] == "sequence event"
 	var playerInst1 = instance_find(obj_dim_player2,0);
 
 	var sequence = seq_scena_9_1;
-	layer_create(-200, "Cutscenes2");
+	layer_create(-150, "Cutscenes2");
 	var layerName = "Cutscenes2";
 
 	global.shop = true;
