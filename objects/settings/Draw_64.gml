@@ -391,13 +391,13 @@ if (esc_pau) and !global.map and !global.shop
 														global.screen_width,global.screen_height,0,0,0,0);
 		instance_deactivate_all(true);
 		instance_activate_object(obj_loading);
-		instance_activate_object(obj_room_manager);
-		instance_activate_object(daycycle);
-		instance_activate_object(obj_inventory);
+		//instance_activate_object(obj_room_manager);
+		//instance_activate_object(daycycle);
+		//instance_activate_object(obj_inventory);
 		instance_activate_object(music_room);
-		instance_activate_object(obj_Battle_Interface);
-		instance_activate_object(obj_manager_bus);
-		instance_activate_object(obj_mozg_ai);
+		//instance_activate_object(obj_Battle_Interface);
+		//instance_activate_object(obj_manager_bus);
+		//instance_activate_object(obj_mozg_ai);
 	}
 }
 

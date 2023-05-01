@@ -60,8 +60,9 @@ if(battle_start = true){
 	
 } else 
 	{
-		
+		//if (instance_exists(obj_dim_player1) and instance_exists(obj_dim_player2)){
 		obj_dim_player1.visible = true;
 		obj_dim_player2.visible = true;
+		//}
 	}
 
