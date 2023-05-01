@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_market_house_ENG",
-  "bbox_bottom": 60,
+  "bbox_bottom": 121,
   "bbox_left": 0,
-  "bbox_right": 152,
+  "bbox_right": 303,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72f927c6-420d-4799-9196-9dea41acc2ac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3005cdf6-b61b-4a7b-8d4e-b20132c26182",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 61,
+  "height": 122,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a73f4288-5d14-4628-8ae5-16a706e3998b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"df2ffe6c-05fa-4070-ae69-6d27b6ebe184","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"72f927c6-420d-4799-9196-9dea41acc2ac","path":"sprites/spr_loc_market_house_ENG/spr_loc_market_house_ENG.yy",},},},"Disabled":false,"id":"13820792-7c91-4df4-800c-053501b3d9e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3005cdf6-b61b-4a7b-8d4e-b20132c26182","path":"sprites/spr_loc_market_house_ENG/spr_loc_market_house_ENG.yy",},},},"Disabled":false,"id":"5272fc15-9996-41fb-87d5-1e70c0b0d50b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 153,
+  "width": 304,
 }

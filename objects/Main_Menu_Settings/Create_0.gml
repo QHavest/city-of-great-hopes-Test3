@@ -10,6 +10,10 @@ global.key_right = vk_right;
 global.key_up = vk_up;
 global.key_down = vk_down;
 
+if (audio_is_playing(snd_car_ride))
+{
+	audio_stop_sound(snd_car_ride);
+}
 enum main_menu_page {
 	main,
 	settings,

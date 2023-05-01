@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_market_veggies_UA",
-  "bbox_bottom": 62,
+  "bbox_bottom": 125,
   "bbox_left": 0,
-  "bbox_right": 177,
+  "bbox_right": 354,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0a630b5b-ffb1-4e65-8083-b474f8fad265",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11948004-f4f7-40c7-a31f-466c2807e9a0",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 63,
+  "height": 126,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"40ef241b-4146-493d-9c08-231d072245bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"95b4bae0-f974-40d5-a282-de5be0539764","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0a630b5b-ffb1-4e65-8083-b474f8fad265","path":"sprites/spr_loc_market_veggies_UA/spr_loc_market_veggies_UA.yy",},},},"Disabled":false,"id":"5269279e-1a4b-447e-9b81-e32bf89fa640","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"11948004-f4f7-40c7-a31f-466c2807e9a0","path":"sprites/spr_loc_market_veggies_UA/spr_loc_market_veggies_UA.yy",},},},"Disabled":false,"id":"66ec56be-285e-43bf-b8e9-dd652a1c77ab","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 178,
+  "width": 355,
 }

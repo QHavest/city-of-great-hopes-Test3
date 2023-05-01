@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_center_UA",
-  "bbox_bottom": 34,
+  "bbox_bottom": 69,
   "bbox_left": 0,
-  "bbox_right": 128,
+  "bbox_right": 255,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be1cdbeb-c79f-41da-b470-3aee83fa14dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4c07bc4-db26-4099-9085-024621ec8692",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 35,
+  "height": 70,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"db07097b-8a9d-4c57-93f9-54153a574c0a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"50cf8bf3-36b8-4642-b3ba-9fc472f9a04d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"be1cdbeb-c79f-41da-b470-3aee83fa14dc","path":"sprites/spr_loc_center_UA/spr_loc_center_UA.yy",},},},"Disabled":false,"id":"2d135205-36b5-4bfc-95c6-a08c507345f5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c4c07bc4-db26-4099-9085-024621ec8692","path":"sprites/spr_loc_center_UA/spr_loc_center_UA.yy",},},},"Disabled":false,"id":"776c5028-f090-4af7-bb71-3cea640e7dc1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 129,
+  "width": 256,
 }

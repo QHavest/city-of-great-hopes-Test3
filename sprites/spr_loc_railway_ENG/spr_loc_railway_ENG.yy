@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_loc_railway_ENG",
-  "bbox_bottom": 34,
+  "bbox_bottom": 69,
   "bbox_left": 0,
-  "bbox_right": 368,
+  "bbox_right": 736,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba109854-5950-419c-a9e0-270cda369c6a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f98c845-4829-465a-9ae5-331c501bd4e3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 35,
+  "height": 70,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7fd3fa7a-dd25-4fab-b1a3-1fb133b09c29","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8ceacd53-9b48-40d0-89af-770e78acfcac","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba109854-5950-419c-a9e0-270cda369c6a","path":"sprites/spr_loc_railway_ENG/spr_loc_railway_ENG.yy",},},},"Disabled":false,"id":"07f3ce40-2965-4a47-b618-1706fd796040","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6f98c845-4829-465a-9ae5-331c501bd4e3","path":"sprites/spr_loc_railway_ENG/spr_loc_railway_ENG.yy",},},},"Disabled":false,"id":"072c8363-6fd8-47bc-836c-8d541086b724","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 369,
+  "width": 737,
 }
