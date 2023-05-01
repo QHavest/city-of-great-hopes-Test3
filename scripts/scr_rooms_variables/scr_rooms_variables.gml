@@ -313,15 +313,6 @@ switch(name)
 	case 4: break
 	}
 break
-case rm_cinema_l :				
-	switch(name)
-	{	
-	case 1: return noone  break
-	case 2: return 2 break
-	case 3: return 1 break
-	case 4: break
-	}
-break
 case rm_cinema_r :				
 	switch(name)
 	{	

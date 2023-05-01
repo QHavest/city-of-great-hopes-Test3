@@ -1,4 +1,4 @@
-global.money = 100;
+global.money = 20;
 global.diary = false;
 global.dialog_end = 1;
 global.shop = false;
