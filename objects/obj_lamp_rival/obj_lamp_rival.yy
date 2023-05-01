@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "First Side",
-    "path": "folders/Objects/Rival Station/First Side.yy",
+    "name": "Rival Station",
+    "path": "folders/Objects/Rival Station.yy",
   },
   "parentObjectId": {
     "name": "obj_invisiblewall",

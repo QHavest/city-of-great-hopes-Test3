@@ -54,7 +54,6 @@
     {"name":"inst_4BC46BC7","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_6A7D104","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_2FEDEF9E","path":"rooms/rm_street_container/rm_street_container.yy",},
-    {"name":"inst_5B8A8FE1","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_79B3DD96","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_17DA9C4E","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_70057FEB","path":"rooms/rm_street_container/rm_street_container.yy",},
@@ -77,6 +76,7 @@
     {"name":"inst_3011B2F9","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_4631BD1","path":"rooms/rm_street_container/rm_street_container.yy",},
     {"name":"inst_35018161","path":"rooms/rm_street_container/rm_street_container.yy",},
+    {"name":"inst_5B8A8FE1","path":"rooms/rm_street_container/rm_street_container.yy",},
   ],
   "isDnd": false,
   "layers": [

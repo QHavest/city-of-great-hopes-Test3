@@ -375,6 +375,7 @@
     {"name":"________1______________2_","order":7,"path":"sprites/________1______________2_/________1______________2_.yy",},
     {"name":"obj_woi_invisible_press","order":4,"path":"objects/obj_woi_invisible_press/obj_woi_invisible_press.yy",},
     {"name":"obj_lamp_rival_side2","order":22,"path":"objects/obj_lamp_rival_side2/obj_lamp_rival_side2.yy",},
+    {"name":"obj_lamp_rival","order":10,"path":"objects/obj_lamp_rival/obj_lamp_rival.yy",},
     {"name":"spr_first_side","order":6,"path":"sprites/spr_first_side/spr_first_side.yy",},
     {"name":"rm_home_gg_cut","order":3,"path":"rooms/rm_home_gg_cut/rm_home_gg_cut.yy",},
     {"name":"spr_down_obvodka","order":1,"path":"sprites/spr_down_obvodka/spr_down_obvodka.yy",},
