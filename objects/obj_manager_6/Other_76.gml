@@ -18,11 +18,18 @@ if event_data [? "event_type"] == "sequence event"
 	obj_dim_player2.x = obj_player_2.x;
 	obj_dim_player2.y = obj_player_2.y;
     break;
-  
+    
     case "pause":
 	pause = true;
     break;
-  
+    
+    case "fog_end":
+	with(daycycle)
+	{
+		part_system_depth(weather, 10000);
+	}
+    break;
+
     case "dial_start":
     scr_create_textbox("scena_6");
     break;
@@ -37,6 +44,10 @@ if event_data [? "event_type"] == "sequence event"
 	scr_music_fon_change(room);
 	obj_dim_player1.InRoomMode = false;
 	obj_dim_player2.InRoomMode = false;
+	with(daycycle)
+	{
+		part_system_depth(weather, -1000);
+	}
 	room_restart();
     break;
   }

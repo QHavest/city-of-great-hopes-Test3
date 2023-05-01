@@ -18,10 +18,11 @@ var objInst10 = instance_find(obj_shtory,0);
 var objInst11 = instance_find(obj_barmen,0);
 
 var sequence = seq_restoraunt;
-layer_create(-249, "Cutcenes");
+layer_create(-159, "Cutcenes");
 var layerName = "Cutcenes";
 
 global.shop = true;
+global.noRest = 5;
 
 seq_rest = layer_sequence_create(layerName, 0,0, sequence);
 var seqInst = layer_sequence_get_instance(seq_rest);

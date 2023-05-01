@@ -54,10 +54,7 @@ if event_data [? "event_type"] == "sequence event"
 	global.shop = false;
 	global.task = 3;
     layer_sequence_destroy(seq3);
-	//obj_seller_posyda.depth = obj_prilavok_posyda.depth - 40;
-	//obj_prilavok_posyda.depth = num2;
-	//obj_box_posyda.depth = num3;
-	audio_stop_all();
+	audio_stop_sound(snd_Bazar);
 	scr_music_fon_change(room);
 	obj_dim_player1.y += 20;
 	obj_dim_player2.y += 20;

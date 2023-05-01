@@ -78,9 +78,11 @@ if(fogNum > 230 and fog_or_not == true)
 	fogNum -= 50;
 	alarm[4] = 60;
 }
-
+if(!sequence_exists(seq_scena_6))
+{
 if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
 if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
+}
 
 #endregion
 
@@ -326,7 +328,7 @@ if (hours >= 24){
 
 #endregion
 
-if(room != rm_fish_and_bazaar and start_scena9 == true and global.task == 3)
+if(room != rm_fish_and_bazaar and night == true and global.task == 3)
 {
 	room_goto(rm_fish_and_bazaar);
 }

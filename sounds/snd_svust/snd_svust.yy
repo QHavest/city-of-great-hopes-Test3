@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "snd_svust.wav",
-  "type": 0,
+  "type": 2,
   "volume": 1.0,
 }

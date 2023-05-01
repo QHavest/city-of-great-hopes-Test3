@@ -19,7 +19,7 @@ if(a == 1 and global.task == 3)
 
 	if(global.LANGUAGE == "ua") var sequence = seq_scena_9_start_ukr;
 	else var sequence = seq_scena_9_start_eng;
-	layer_create(-399, "Cutscenes2");
+	layer_create(-300, "Cutscenes2");
 	var layerName = "Cutscenes2";
 
 	global.shop = true;

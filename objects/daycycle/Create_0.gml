@@ -73,6 +73,7 @@ timer_rain = true;
 
 start_scena9 = 0;
 
+night = false;
 
 #region fog
 

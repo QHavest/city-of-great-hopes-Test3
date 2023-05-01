@@ -17,5 +17,7 @@ function activate_obj_night(){
 		a = 1;
 	}
 	
-	start_scena9 = true;
+	//start_scena9 = true;
+	
+	night = true;
 }

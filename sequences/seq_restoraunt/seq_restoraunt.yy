@@ -14,14 +14,14 @@
     "resourceVersion": "1.0",
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "start",
-            ],},},"Disabled":false,"id":"a3fd65c1-9ddf-480a-8eae-b92a8af7c950","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+              "start_rest",
+            ],},},"Disabled":false,"id":"58f0a84c-2e8b-48b9-b4d8-05f64854084a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "dialog1",
-            ],},},"Disabled":false,"id":"5bbcde44-f3de-4989-90f4-8586a12cdeb8","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
+              "dialog1_rest",
+            ],},},"Disabled":false,"id":"3a4afde3-30c5-4e50-963f-ca920abc08c4","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "test",
-            ],},},"Disabled":false,"id":"d8ee1933-00d6-40be-93af-7f6ba3b42b39","IsCreationKey":false,"Key":26.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"74aaea63-89fd-4577-ab87-3ecb77967822","IsCreationKey":false,"Key":26.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

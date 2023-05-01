@@ -888,6 +888,7 @@
     {"id":{"name":"spr_restraunt","path":"sprites/spr_restraunt/spr_restraunt.yy",},},
     {"id":{"name":"obj_player_2_rest_2","path":"objects/obj_player_2_rest_2/obj_player_2_rest_2.yy",},},
     {"id":{"name":"spr_male_004_WR","path":"sprites/spr_male_004_WR/spr_male_004_WR.yy",},},
+    {"id":{"name":"snd_kino2","path":"sounds/snd_kino2/snd_kino2.yy",},},
     {"id":{"name":"spr_Krus_stand_lav_3","path":"sprites/spr_Krus_stand_lav_3/spr_Krus_stand_lav_3.yy",},},
     {"id":{"name":"obj_lizard_stone","path":"objects/obj_lizard_stone/obj_lizard_stone.yy",},},
     {"id":{"name":"snd_bazar_night","path":"sounds/snd_bazar_night/snd_bazar_night.yy",},},

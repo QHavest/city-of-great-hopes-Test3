@@ -2,7 +2,7 @@ if event_data [? "event_type"] == "sequence event"
 {
   switch (event_data[? "message"])
   {
-    case "start":
+    case "start_rest":
 		scr_music_fon_change(noone);
 		regCam1 = view_get_camera(0);
 		regCam2 = view_get_camera(1);
@@ -15,7 +15,7 @@ if event_data [? "event_type"] == "sequence event"
 		pause = true;
     break;
     
-    case "dialog1":
+    case "dialog1_rest":
 	    scr_create_textbox("waiter");
 		pause = true;
     break;
@@ -33,7 +33,7 @@ if event_data [? "event_type"] == "sequence event"
 	case "test":
 		if(booking == true)
 		{
-			layer_create(-99999, "Cutcenes2");
+			layer_create(-249, "Cutcenes2");
 			seq_rest_2 = layer_sequence_create("Cutcenes2", 0, 0, seq_restoraunt_booking);
 			layer_sequence_pause(seq_rest);
 			//var seqInst2 = layer_sequence_get_instance(seq_rest_2);
@@ -65,10 +65,8 @@ if event_data [? "event_type"] == "sequence event"
 		obj_dim_player2.y = 275;
 		obj_dim_player1.InRoomMode = false;
 		obj_dim_player2.InRoomMode = false;
-		room_goto(rm_center_left);
 		global.noRest = -1;
-		//room_restart();
-		
+		room_goto(rm_center_left);
     break;
   }
 }

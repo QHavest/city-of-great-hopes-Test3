@@ -1,4 +1,5 @@
-
+if(daycycle.night == false)
+{
 	var playerInst2 = instance_find(obj_dim_player2,0);
 	var playerInst1= instance_find(obj_dim_player1, 0);
 	
@@ -26,4 +27,4 @@
 	obj_dim_player2.x = 0;
 	
 	seq_num = 1;
-	
+}
