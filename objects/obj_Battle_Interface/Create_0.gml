@@ -15,8 +15,11 @@ butt_invis = 1; //видимість кнопок
 BDialogue = false; //діалог
 luck = irandom_range(0, 100);
 
-gui_H = display_get_gui_height();
-gui_W = display_get_gui_width();
+gui_H = 1080;
+gui_W = 1920;
+
+//gui_H = display_get_gui_height();
+//gui_W = display_get_gui_width();
 
 another_fone = false;
 //мигання тексту

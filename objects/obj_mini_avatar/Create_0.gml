@@ -22,8 +22,12 @@ index_avatar = 1;
 grv = 0.8;
 spd = 12;
 
-gui_H = display_get_gui_height();
-gui_W = display_get_gui_width();
+gui_H = 1080;
+gui_W = 1920;
+
+//gui_H = display_get_gui_height();
+//gui_W = display_get_gui_width();
+
 
 take_damage = false;
 amount_hp_enemy = 96;

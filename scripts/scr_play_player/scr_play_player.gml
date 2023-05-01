@@ -18,8 +18,15 @@ var cw = camera_get_view_width(cam);
 var ch = camera_get_view_height(cam);
 view_set_visible(0, true);
 view_set_visible(1, false);
-} else {view_set_visible(0, false);
-view_set_visible(1, true);}
+camera_set_view_target(cam, obj_dim_player1);
+} else 
+	{
+var cam = view_get_camera(1);
+var cw = camera_get_view_width(cam);
+var ch = camera_get_view_height(cam);
+view_set_visible(0, false);
+view_set_visible(1, true);
+camera_set_view_target(cam, obj_dim_player2);}
 /*else{
 cam = view_get_camera(1);
 cw = camera_get_view_width(cam);
