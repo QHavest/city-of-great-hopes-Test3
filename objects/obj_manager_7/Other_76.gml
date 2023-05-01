@@ -6,6 +6,7 @@ if event_data [? "event_type"] == "sequence event"
 	//sg = audio_create_sync_group(0);
 	//audio_play_in_sync_group(sg, snd_svust);
 	scr_music_fon_change("snd_street");
+	audio_play_sound_at(snd_fountain,obj_fountain.x,obj_fountain.y,0,300,900,1,1,5,global.Fon_sound_gain);
 	//audio_channel_num(5);
 	//audio_play_sound(snd_street, 1, 1);
 	//instance_create_layer(283, 80, "CUT", obj_svust);
