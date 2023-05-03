@@ -7,7 +7,7 @@ switch(room)
 		var _w = global.res_width;
 		var _h = global.res_height;
 		
-		var _cam = camera_create_view(0, 0, 1920, 1080);
+		var _cam = camera_create_view(0, 0, _w, _h);
 
 		camera_set_view_target(_cam, noone);
 		camera_set_view_border(_cam, _w, _h);

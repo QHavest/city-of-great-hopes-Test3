@@ -960,6 +960,7 @@
     {"id":{"name":"spr_cat_3_luz","path":"sprites/spr_cat_3_luz/spr_cat_3_luz.yy",},},
     {"id":{"name":"srp_right_center","path":"sprites/srp_right_center/srp_right_center.yy",},},
     {"id":{"name":"spr_loc_center_ENG","path":"sprites/spr_loc_center_ENG/spr_loc_center_ENG.yy",},},
+    {"id":{"name":"spr_great_hopes_city","path":"sprites/spr_great_hopes_city/spr_great_hopes_city.yy",},},
     {"id":{"name":"spr_krus_hopnik_battle_hit","path":"sprites/spr_krus_hopnik_battle_hit/spr_krus_hopnik_battle_hit.yy",},},
     {"id":{"name":"obj_waiter_cut","path":"objects/obj_waiter_cut/obj_waiter_cut.yy",},},
     {"id":{"name":"spr_table_blank","path":"sprites/spr_table_blank/spr_table_blank.yy",},},

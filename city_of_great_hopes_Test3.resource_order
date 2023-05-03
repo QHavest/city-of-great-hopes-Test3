@@ -237,6 +237,7 @@
     {"name":"spr_balkon_2","order":2,"path":"sprites/spr_balkon_2/spr_balkon_2.yy",},
     {"name":"spr_male_009_R","order":1,"path":"sprites/spr_male_009_R/spr_male_009_R.yy",},
     {"name":"spr_loose2_eng","order":4,"path":"sprites/spr_loose2_eng/spr_loose2_eng.yy",},
+    {"name":"spr_great_hopes_city","order":1,"path":"sprites/spr_great_hopes_city/spr_great_hopes_city.yy",},
     {"name":"spr_gamestartUA","order":1,"path":"sprites/spr_gamestartUA/spr_gamestartUA.yy",},
     {"name":"obj_woman_9","order":16,"path":"objects/obj_woman_9/obj_woman_9.yy",},
     {"name":"spr_deviatka_white_R","order":1,"path":"sprites/spr_deviatka_white_R/spr_deviatka_white_R.yy",},
