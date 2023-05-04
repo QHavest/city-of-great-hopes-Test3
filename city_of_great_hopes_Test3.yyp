@@ -397,7 +397,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"obj_dumb_big_h","path":"objects/obj_dumb_big_h/obj_dumb_big_h.yy",},},
@@ -2315,6 +2315,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_light_2","path":"objects/obj_light_2/obj_light_2.yy",},},
     {"id":{"name":"Font_for_draw_mazur3","path":"fonts/Font_for_draw_mazur3/Font_for_draw_mazur3.yy",},},
+    {"id":{"name":"tl_player_steps","path":"timelines/tl_player_steps/tl_player_steps.yy",},},
     {"id":{"name":"spr_narkoman3_defeat_2","path":"sprites/spr_narkoman3_defeat_2/spr_narkoman3_defeat_2.yy",},},
     {"id":{"name":"obj_woi_invisible_motorcycle","path":"objects/obj_woi_invisible_motorcycle/obj_woi_invisible_motorcycle.yy",},},
     {"id":{"name":"spr_tor_1","path":"sprites/spr_tor_1/spr_tor_1.yy",},},

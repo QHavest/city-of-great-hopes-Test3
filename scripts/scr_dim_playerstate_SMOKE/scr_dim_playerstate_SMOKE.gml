@@ -5,7 +5,8 @@ function scr_dim_playerstate_smoke(){
 	{
 		sprite_index=asset_get_index("spr_dim_"+sprit+"_smoke")
 	}
-	else if (scr_dim_animation_end(sprite_index) )
+	// quit animation
+	else if (scr_dim_animation_end(sprite_index) or keyr or keyl)
 	{
 		state=PLAYERSTATE.FREE;
 	}

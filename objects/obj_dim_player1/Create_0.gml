@@ -9,6 +9,7 @@ s_walk = snd_walk;
 InRoomMode = false;
 krok=0;
 
+ind=0;
 
 xsd = 0;
 ysd = 0;
