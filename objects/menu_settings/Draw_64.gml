@@ -15,24 +15,15 @@ var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2
 //Малювання меню паузи
 draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
 
-//draw_sprite(spr_pause_h, 0, 0, 0);
 var c = c_black;
-//draw_set_font(menu_main_font2);
-//draw_text_color(gwidth-1160, gheight-800,"Settings", c, c, c, c, 1);
-//draw_sprite_ext(spr_button_menu, 0, gwidth - 1130, gheight - 650, 1.25, 1.25, 0, 0, 1);
-//draw_sprite(spr_button_menu, 0, gwidth - 960, gheight - 790)
 draw_sprite_ext(spr_button_menu, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
 if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
 else draw_sprite_ext(spr_settings_ukr, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
-//draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
 draw_set_valign(fa_left);
 draw_set_halign(fa_left);
 
-
-
 var ltx = start_x - x_buffer+10, lty, xo; //Розташування на екрані
-
 
 draw_set_font(Font_for_draw_mazur);
 var yy = 0; repeat (ds_height){
@@ -44,18 +35,12 @@ var yy = 0; repeat (ds_height){
 	if( yy = menu_option[page]){
 		c = c_orange;
 		xo = -(x_buffer/2);
-		//draw_sprite_ext(spr_pause_menu,0,ltx+200/*-90*/, lty+450,1.3,1.1,0,c_white,1);
 	}
 	if(ds_grid[# 0, yy] == "<<< Назад" or ds_grid[# 0, yy] == "<<< Back") draw_text_color(ltx+xo-505, lty+25, ds_grid[# 0, yy], c, c, c, c, 1);
 	else draw_text_color(ltx+xo-497, lty, ds_grid[# 0, yy], c, c, c, c, 1);
 	
-	//draw_sprite_ext(spr_pause_menu,0,ltx-200, lty,1.3,1.1,0,c_white,1); //кнопки
-	//draw_sprite_ext(ds_grid[# 0, yy], 0, ltx+xo-530, lty, 1.65, 1.65, 0, c, 1);
 	yy++;
 }
-
-//малювання вертикальної лінії
-//draw_line(start_x+650, start_y-y_buffer+450, start_x+650, lty+y_buffer+450); //Розташування на екрані
 
 //малювання елементів справа екрану
 draw_set_halign(fa_left);
@@ -81,14 +66,9 @@ yy = 0; repeat(ds_height){
 		
 		if(inputting and yy == menu_option[page]){ c = c_orange; }
 		
-	
-		//if(current_array[current_val] != "Fullscreen" or current_array[current_val] != "Window")
-		//{
 			var cout = current_array[current_val];
-		//}
 		
-		draw_text_color(rtx+195, rty, cout, c,c,c,c, 1)
-		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
+		draw_text_color(rtx+195, rty, cout, c,c,c,c, 1)		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
 		break;
 		
 	case menu_element_type.slider:
@@ -113,42 +93,11 @@ yy = 0; repeat(ds_height){
 	if(inputting and yy == menu_option[page]){ c = c_yellow; }
 	if(current_val == 0) { c1 = c; c2 = c_dkgray; }
 	else				 { c1 = c_dkgray; c2 = c; }
-		//draw_text_color(rtx,rty, "On  ", c1,c1,c1,c1, 1);
-		//draw_text_color(rtx + 32,rty, "  Off", c2,c2,c2,c2, 1);
-		
-		//draw_sprite_ext(spr_fullscreen_ukr, 0, rtx, rty, 1, 1, 0, c_yellow, 1);
-		//draw_sprite_ext(spr_window_ukr, 0, rtx + 32, rty, 1, 1, 0, 0, 1);
 	break;
 	
-	/*case menu_element_type.input:
-		var current_val = ds_grid[# 3, yy];
-		var string_val;
-		
-		switch(current_val){
-			case vk_up: string_val = "UP KEY"; break;
-		}
-	break;*/
 	}
 	yy++;
 }
-/*
-draw_set_valign(fa_top);
-if (esc_paus)
-	{
-		//global.pauses =  true;
-		inputting = false;
-		//page = 0;
-		// Снова включаем все объекты
-		//instance_activate_all();
-	}
-} else{
-if (esc_paus)
-	{
-		//global.pauses = !global.pauses;
-		inputting = true;
-		//if(!global.pause) exit;
-		// Снова включаем все объекты
-		//instance_deactivate_all(true);
-	}*/
-}// else if (room_goto(rm_main_menu)) {go=false;}
+
+}
 
