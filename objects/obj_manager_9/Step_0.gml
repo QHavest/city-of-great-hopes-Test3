@@ -14,6 +14,9 @@ if(pause == true)
 
 if(a == 1 and global.task == 3)
 {
+	instance_deactivate_object(inst_BC79744);
+	instance_deactivate_object(inst_76BF6B0C);
+	instance_deactivate_object(inst_230D9CF0);
 	global.task = 0;
 	//var playerInst1 = instance_find(obj_dim_player2,0);
 

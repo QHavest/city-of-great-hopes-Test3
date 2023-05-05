@@ -17,9 +17,6 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "start_2":
-	show_debug_message("ЗАСТАВКА!!!")
-	show_debug_message("ЗАСТАВКА!!!")
-	show_debug_message("ЗАСТАВКА!!!")
 	regCam1 = view_get_camera(0);
 	regCam2 = view_get_camera(1);
 	var cam1 = camera_create_view(1890, 112, 432, 243, 0, obj_camera, -1, -1, 250, 150);
@@ -122,6 +119,7 @@ if event_data [? "event_type"] == "sequence event"
 	
 	case "new_seq":
 	var playerInst1 = instance_find(obj_dim_player2,0);
+	//var inst1 = instance_find(inst_BC79744,0);
 
 	var sequence = seq_scena_9_1;
 	layer_create(-150, "Cutscenes2");
@@ -134,6 +132,7 @@ if event_data [? "event_type"] == "sequence event"
 	var seqInst = layer_sequence_get_instance(seq4);
 
 	sequence_instance_override_object(seqInst, obj_dim_player2,  playerInst1);
+	//sequence_instance_override_object(seqInst, obj_player_2_9,  inst1);
 	
 	break;
 	

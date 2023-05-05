@@ -28,7 +28,20 @@ if event_data [? "event_type"] == "sequence event"
     //view_set_camera(4, cams2);
     break;
   
-    
+	case "snd_batareya":
+	audio_play_sound(snd_batareya, 1, 1);
+	audio_play_sound(snd_pillow, 1, 0);
+	break;
+	
+	case "snd_door":
+	audio_play_sound(snd_door_scena5, 1, 0);
+	break;
+	
+	case "snd_batareya_end":
+	audio_stop_sound(snd_batareya);
+	audio_stop_sound(snd_pillow);
+	break;
+  
     case "wakeup":
     //pause = true;
     scr_create_textbox("scena_5_1");
