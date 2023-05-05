@@ -3,7 +3,7 @@ if(take)
 	take = 0;
 	seq5_2 = layer_sequence_create("Cutscenes2", x, y, seq_sektants_take);
 	layer_sequence_pause(seq5_2);
-	alarm[0] = 10;
+	alarm[0] = 1;
 	seq_num = 2;
 }
 
