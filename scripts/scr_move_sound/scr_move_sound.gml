@@ -1,7 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_move_sound(){
-if ((s_ind) and (image_index=2 or image_index=6)){
+if  (image_index=2 or image_index=6) // на цих кадрах выдбувається крок
+{//show_debug_message(s_ind)
+if (s_ind){
+	//ind++;
 	if (run == false){ 
 		if (InRoomMode)
 		{
@@ -12,6 +15,8 @@ if ((s_ind) and (image_index=2 or image_index=6)){
 		{
 			audio_stop_sound(snd_step);
 			audio_play_sound(snd_step,0,false,global.player_gain);
+			//show_debug_message("zvyk")
+			//show_debug_message(s_ind)
 		}
 	} 
 	else// if run = true
@@ -43,4 +48,4 @@ if ((s_ind) and (image_index=2 or image_index=6)){
 			audio_play_sound(snd_step_inside,0,false,global.player_gain);
 		}
 	}
-}}
+}}}

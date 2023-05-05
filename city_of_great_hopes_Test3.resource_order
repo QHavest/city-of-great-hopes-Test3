@@ -510,6 +510,7 @@
     {"name":"obj_woman_8","order":3,"path":"objects/obj_woman_8/obj_woman_8.yy",},
     {"name":"spr_bus_yellow_stop_rides","order":8,"path":"sprites/spr_bus_yellow_stop_rides/spr_bus_yellow_stop_rides.yy",},
     {"name":"Font_for_draw_mazur3","order":1,"path":"fonts/Font_for_draw_mazur3/Font_for_draw_mazur3.yy",},
+    {"name":"tl_player_steps","order":6,"path":"timelines/tl_player_steps/tl_player_steps.yy",},
     {"name":"spr_loc_market_house_ENG","order":3,"path":"sprites/spr_loc_market_house_ENG/spr_loc_market_house_ENG.yy",},
     {"name":"obj_Krus_scenaTK","order":1,"path":"objects/obj_Krus_scenaTK/obj_Krus_scenaTK.yy",},
     {"name":"part_rain","order":1,"path":"particles/part_rain/part_rain.yy",},
