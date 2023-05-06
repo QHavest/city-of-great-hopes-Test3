@@ -1,5 +1,5 @@
-target_x = 1975;
-target_y = 236;
+target_x = 2040;
+target_y = 240;
 target_rm=rm_home_gg;
 InRoomMode = false;
 invis_door = false;

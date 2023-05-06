@@ -4,6 +4,8 @@ global.pause = false;
 global.view_width = camera_get_view_width(view_camera[0]);
 global.view_height = camera_get_view_height(view_camera[0]);
 
+//global.view_width = global.res_width;
+//global.view_height = global.res_height;
 //global.key_revert =  keyboard_check_pressed(ord("X"));
 global.key_enter = vk_enter;
 global.key_left = vk_left;

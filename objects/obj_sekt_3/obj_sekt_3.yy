@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_sekt_3",
     "path": "sprites/spr_sekt_3/spr_sekt_3.yy",
