@@ -11,8 +11,8 @@ if (global.shop or global.map or !global.dialog_end or global.diary) {
 
 //система зміни статусу гравця
 if global.dialog_end and !global.map and !global.shop and !global.dialogue_move{
-if(keyboard_check(ord("1"))) status = STATUS.PASSIVE;
-if(keyboard_check(ord("2"))) status = STATUS.ACTIVE;
+if(keyboard_check(ord("1"))) {status = STATUS.PASSIVE; last_active=false}
+if(keyboard_check(ord("2"))) {status = STATUS.ACTIVE; last_active=true;}
 }
 
 
@@ -27,37 +27,34 @@ if (global.dialogue_move = true){
 	// зпам'ятовування статуса + звуки
 	if status = STATUS.ACTIVE
 	{
-	status = STATUS.PASSIVE;
-	last_active=true;	
+		status = STATUS.PASSIVE;
+		last_active=true;	
 	}
 	// переміщення у задані координати із заданою швидкістю
 //	mp_linear_step(xsd, ysd, 2, false);
-mp_potential_step(xsd,ysd, 2, false);
+	mp_potential_step(xsd,ysd, 2, false);
 	// при досягненні визначеної координати
 	if ( x = xsd and y = ysd  ) 
 	{
 		if in_place = 0
 		{
-		//	if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
+			// задаєм в масиві координати іншуму гг щоб не рипався після закінчення
+			if (!last_active)
+			{
+				for(var i = array_size-1; i > 0; i--)
+				{
+					obj_dim_player1.posX[i] = x;
+					obj_dim_player1.posY[i] = y;
+				}	
+			}
 		}
-		
 		// задання напрямку стояння
 		if napriam = "r" lastmove=0;
 		else lastmove=1;
 	}
-	// звуки ходьби
-	else if !in_place
-	{
-//		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-//		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
-	}
-	
 }	
-// відновлення ативного статусу після закінчення діалогу
-
-
 
 //////////////////////////////////////////////////////////////////////////////
 
@@ -72,14 +69,6 @@ switch(state){
 	case	PLAYERSTATE.SMOKE	: scr_dim_playerstate_smoke();			break;
 	case	PLAYERSTATE.ACLAVKA	: scr_dim_playerstate_AcLavka(l)			break;
  } 
-//анімація покупки
-
-/*if (global.item_bought = true and status = STATUS.ACTIVE and global.shop = false){
-	image_index = 0;
-	state = PLAYERSTATE.BUY;
-	status = STATUS.PASSIVE;
-}
-*/
 
 //система записування координат проходження
 	if (x!= xprevious or y!= yprevious){

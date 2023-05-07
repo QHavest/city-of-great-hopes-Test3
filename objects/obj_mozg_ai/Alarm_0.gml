@@ -2,13 +2,13 @@
 // You can write your code in this editor
 switch(room){
 case rm_home_gg:
-	if (!bachuv_kavovy_baby and object_exists(obj_kavova_babka) )	 
+	if (bachuv_kavovy_baby=false and object_exists(obj_kavova_babka) )	 
 	{
 		with (obj_kavova_babka){
 			cam_y = camera_get_view_y(view_camera[view_current]);
 			cam_x = camera_get_view_x(view_camera[view_current]);
 			if (x > cam_x and x < cam_x+cam_w)
-			{	bachuv_kavovy_baby = true;}
+			{	obj_mozg_ai.bachuv_kavovy_baby = true;}
 		}
 	}
 	if (!bachuvkyriagy and object_exists(obj_smoking))		 
@@ -17,8 +17,7 @@ case rm_home_gg:
 			cam_y = camera_get_view_y(view_camera[view_current]);
 			cam_x = camera_get_view_x(view_camera[view_current]);
 			if (x > cam_x and x < cam_x+cam_w and y > cam_y and y < cam_y+cam_h)
-			{	bachuvkyriagy=true;
-				show_debug_message("I see you")}
+			{	obj_mozg_ai.bachuvkyriagy=true;}
 		}
 	}
 	alarm[0]=10;
@@ -31,7 +30,7 @@ case rm_south:
 			cam_y = camera_get_view_y(view_camera[view_current]);
 			cam_x = camera_get_view_x(view_camera[view_current]);
 			if (x > cam_x and x < cam_x+cam_w and y > cam_y and y < cam_y+cam_h)
-			{	bach_mamy=true;}
+			{	obj_mozg_ai.bach_mamy=true;}
 		}
 	}
 	alarm[0]=10;
@@ -44,7 +43,7 @@ case rm_street_container:
 			cam_y = camera_get_view_y(view_camera[view_current]);
 			cam_x = camera_get_view_x(view_camera[view_current]);
 			if (x > cam_x and x < cam_x+cam_w and y > cam_y and y < cam_y+cam_h)
-			{	bach_ssuklo_ssut=true;}
+			{	obj_mozg_ai.bach_ssuklo_ssut=true;}
 		}
 	}
 	alarm[0]=10;

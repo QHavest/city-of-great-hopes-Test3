@@ -8,17 +8,20 @@ if (string_length(text[page]) == 0 and please_shop_open!=1)
 	global.dialog_end = 1;
 	global.zaniatui = false;
 	with (obj_dim_player1)
-{
-	if (last_active = true)
-{
-status = STATUS.ACTIVE;
-}}
+	{
+		if (last_active = true)
+		{
+			status = STATUS.ACTIVE;
+		//	last_active = false;
+		}
+	}
 
-with (obj_dim_player2)
-{
-	if (last_active = true)
-{
-status = STATUS.ACTIVE;
+	with (obj_dim_player2)
+	{
+		if (last_active = true)
+		{
+			status = STATUS.ACTIVE;
+			//last_active=false;
 }}
 	
 	instance_destroy();

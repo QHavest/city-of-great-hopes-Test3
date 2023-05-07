@@ -1082,16 +1082,16 @@ break
 case"Babyli":
 switch(irandom_range(1,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,argument[1],argument[2]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[1],argument[2]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[2],argument[1]);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[1],argument[2]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli2"),2,argument[2],argument[1]);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,argument[1],argument[2]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Babyli3"),2,argument[2],argument[1]);
 			break
 }	
 break
@@ -1181,16 +1181,16 @@ break
 case"Didu":
 switch(choose(1,2,3,4)){
 			case 1:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,spr_ic_Spurodon,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu1"),2,argument[1],spr_ic_Spurodon);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,spr_ic_Petrovuch,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu2"),2,argument[1],spr_ic_Petrovuch);
 			break
 			case 3:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,spr_ic_Spurodon,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu3"),2,argument[1],spr_ic_Spurodon);
 			break
 			case 4:
-		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,spr_ic_Petrovuch,argument[1]);
+		scr_text(scr_json_lang(global.LANGUAGE,"Didu4"),2,argument[1],spr_ic_Petrovuch);
 			break
 }	
 break
