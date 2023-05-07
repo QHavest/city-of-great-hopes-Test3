@@ -7,9 +7,16 @@
 show_debug_message("Settings create")
 
 //instance_deactivate_object(Main_Menu_Settings);
-global.view_width = camera_get_view_width(view_camera[0]);
-global.view_height = camera_get_view_height(view_camera[0]);
+//global.view_width = camera_get_view_width(view_camera[0]);
+//global.view_height = camera_get_view_height(view_camera[0]);
 
+
+//room_width = global.res_width;
+//room_height = global.res_height;
+//view_widths = room_width/2;
+//view_heights = room_height/2;
+view_widths = display_get_gui_width()/2;
+view_heights = display_get_gui_height()/2;
 //global.key_revert =  keyboard_check_pressed(ord("X"));
 global.key_enter = vk_enter;
 global.key_left = vk_left;

@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ca1fc9c7-934c-4d33-a9fa-d877d4da7c79","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 1,
   "parent": {
     "name": "new settings",
     "path": "folders/Main Menu/sprites/new settings.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 128,
-    "yorigin": 21,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

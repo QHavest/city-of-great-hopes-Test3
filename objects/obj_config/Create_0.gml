@@ -2,6 +2,7 @@
 global.res_width = display_get_width();
 global.res_height = display_get_height();
 display_set_gui_size(global.res_width, global.res_height);
+display_set_gui_maximise(0.8, 0.8);
 global.screen_width = 1920
 global.screen_height = 1080
 global.shop = false

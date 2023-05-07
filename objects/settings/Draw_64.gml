@@ -5,7 +5,7 @@ esc_pau = keyboard_check_pressed(vk_escape);
 if (global.pause){
 	
 draw_sprite(screenshot, 0, 0, 0);
-var gwidth = global.view_width, gheight = global.view_height;
+var gwidth = display_get_gui_width()/2, gheight = display_get_gui_height()/2;
 var gwidth2 = camera_get_view_width(camera_get_active());
 var gheight2 = camera_get_view_height(camera_get_active());
 
@@ -17,8 +17,8 @@ var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху �
 
 var y_buffer_menu = 56;
 
-var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)) + 15, start_x = gwidth/2;
-var start_y2 = (gheight/2) - ((((ds_height2-1)/2) * y_buffer))
+var start_y = (gheight/3.9) - ((((ds_height-1)/2) * y_buffer)) + 15, start_x = gwidth/3.5;
+var start_y2 = (gheight/3.9) - ((((ds_height2-1)/2) * y_buffer))
 
 //Малювання меню паузи
 var pause_spr = 0;

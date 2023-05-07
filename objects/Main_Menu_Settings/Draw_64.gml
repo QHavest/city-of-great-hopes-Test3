@@ -8,13 +8,14 @@ switch (global.settings_open)
 		var sz=draw_set_font(menu_main_font)
 		 go = true;
 		if (go){
-		var gwidth = global.view_width, gheight = global.view_height;
+		//var gwidth = global.view_width, gheight = global.view_height;
+		var gwidth = view_widths, gheight = view_heights;
 
 		var ds_grid = menu_pagess[pages], ds_height = ds_grid_height(ds_grid);
-		var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
+		var y_buffer = 65, x_buffer = 0; //Відступ (у)знизу зверху та (х) по бокам
 		var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 		//Малювання меню паузи
-		draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
+		draw_sprite_ext(spr_fon_settings,0,gwidth/5, gheight-530,/*start_x+x_buffer*/1.7,1.7,0,c_white,1);
 
 		var c = c_black;
 		draw_sprite_ext(spr_button_menu, 0, gwidth/2.3, gheight - 830, 1.45, 1.45, 0, c_white, 1);
@@ -136,7 +137,7 @@ switch (global.settings_open)
 			ltyp2 = 0;//на скільки піднімаємо текст вгору, в залежності від збільшення інтерфейсу
 		}
 
-		var ltx = start_x - x_buffer/*-50*/, lty, xo; //Розташування на екрані || +80 це наскільки відступ вправо має бути
+		var ltx = start_x - x_buffer, lty, xo; //Розташування на екрані || +80 це наскільки відступ вправо має бути
 		var ltxx = display_get_gui_width() 
 		var yy = 0; repeat (ds_height){
 			lty = start_y + (yy*(y_buffer+y_buffer2));
