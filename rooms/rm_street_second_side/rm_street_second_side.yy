@@ -100,6 +100,7 @@
     {"name":"inst_6681DA75","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_7AAB213","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
     {"name":"inst_238FA983","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
+    {"name":"inst_34A7C20B","path":"rooms/rm_street_second_side/rm_street_second_side.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -234,6 +235,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start_battle","path":"objects/obj_dialog_start_battle/obj_dialog_start_battle.yy",},"propertyId":{"name":"y2","path":"objects/obj_dialog_start_battle/obj_dialog_start_battle.yy",},"value":"20",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_dialog_start_battle","path":"objects/obj_dialog_start_battle/obj_dialog_start_battle.yy",},"propertyId":{"name":"x1","path":"objects/obj_dialog_start_battle/obj_dialog_start_battle.yy",},"value":"30",},
           ],"rotation":0.0,"scaleX":2.1051483,"scaleY":1.8125,"x":259.3412,"y":275.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34A7C20B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_male_pasagirs","path":"objects/obj_male_pasagirs/obj_male_pasagirs.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2541.0,"y":219.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Text","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28953189","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_start","path":"objects/obj_dialog_start/obj_dialog_start.yy",},"properties":[
