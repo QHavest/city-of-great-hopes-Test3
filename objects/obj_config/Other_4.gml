@@ -21,6 +21,8 @@ switch(room)
 	case rm_mapa_new:
 		window_set_size(1920, 1080);
 		surface_resize(application_surface,1920,1080);
+		//window_set_size(global.res_width, global.res_height);
+		//surface_resize(application_surface, global.res_width, global.res_height);
 	break;
 	
 	case rm_street_second_side:

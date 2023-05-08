@@ -12,6 +12,7 @@ if(battle_start = true){
 			draw_sprite(spr_battle_fones, 2, gui_W/(-400), gui_H/107);
 		break;
 		case ENEMY.Narkomany:
+		//draw_sprite_ext(spr_battle_fones, 1, gui_W/(-400), gui_H/107,0.88,0.97,0,c_white,1);
 			draw_sprite(spr_battle_fones, 1, gui_W/(-400), gui_H/107);
 		break;
 		case ENEMY.Sectants:

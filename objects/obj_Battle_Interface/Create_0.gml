@@ -20,6 +20,10 @@ gui_W = 1920;
 
 //gui_H = display_get_gui_height();
 //gui_W = display_get_gui_width();
+//room_width = global.res_width;
+//room_height = global.res_height;
+//gui_W = room_width/2;
+//gui_H = room_height/2;
 
 another_fone = false;
 //мигання тексту

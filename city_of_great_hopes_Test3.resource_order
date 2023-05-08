@@ -631,6 +631,7 @@
     {"name":"Sequence1_eng","order":5,"path":"sequences/Sequence1_eng/Sequence1_eng.yy",},
     {"name":"spr_ic_Sheva","order":1,"path":"sprites/spr_ic_Sheva/spr_ic_Sheva.yy",},
     {"name":"obj_water","order":6,"path":"objects/obj_water/obj_water.yy",},
+    {"name":"spr_fones_pause","order":25,"path":"sprites/spr_fones_pause/spr_fones_pause.yy",},
     {"name":"rm_settings","order":1,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"obj_trans_railway","order":2,"path":"objects/obj_trans_railway/obj_trans_railway.yy",},
     {"name":"spr_screen","order":1,"path":"sprites/spr_screen/spr_screen.yy",},

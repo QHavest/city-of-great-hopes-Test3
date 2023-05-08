@@ -1,3 +1,5 @@
+
+
 //if(global.pause)
 //{
 //	draw_set_alpha(0.25);

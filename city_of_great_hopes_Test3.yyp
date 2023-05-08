@@ -3032,6 +3032,7 @@
     {"id":{"name":"obj_curb_right_hotel","path":"objects/obj_curb_right_hotel/obj_curb_right_hotel.yy",},},
     {"id":{"name":"obj_gop_1","path":"objects/obj_gop_1/obj_gop_1.yy",},},
     {"id":{"name":"spr_right_bench","path":"sprites/spr_right_bench/spr_right_bench.yy",},},
+    {"id":{"name":"spr_fones_pause","path":"sprites/spr_fones_pause/spr_fones_pause.yy",},},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},},
     {"id":{"name":"obj_conroller","path":"objects/obj_conroller/obj_conroller.yy",},},
     {"id":{"name":"spr_mp_had_Ytopur","path":"sprites/spr_mp_had_Ytopur/spr_mp_had_Ytopur.yy",},},

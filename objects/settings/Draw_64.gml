@@ -3,11 +3,12 @@
 esc_pau = keyboard_check_pressed(vk_escape);
 
 if (global.pause){
-	
-draw_sprite(screenshot, 0, 0, 0);
+//draw_sprite_ext(spr_fones_pause,0,0,0,1,1,0,c_white,1);
+draw_sprite_ext(screenshot,0,0,0,1.3,1.3,0,c_white,1);
+//draw_sprite(screenshot, 0, 0, 0);
 var gwidth = display_get_gui_width()/2, gheight = display_get_gui_height()/2;
-var gwidth2 = camera_get_view_width(camera_get_active());
-var gheight2 = camera_get_view_height(camera_get_active());
+//var gwidth2 = camera_get_view_width(camera_get_active());
+//var gheight2 = camera_get_view_height(camera_get_active());
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 
@@ -387,8 +388,9 @@ if (esc_pau) and !global.map and !global.shop
 		global.pause = !global.pause;
 		inputting = false;
 		//if(!global.pause) exit;
-		screenshot = sprite_create_from_surface(application_surface,0,0,
-														global.screen_width,global.screen_height,0,0,0,0);
+		
+		screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
+		//draw_clear_alpha(c_black, 0);
 		instance_deactivate_all(true);
 		instance_activate_object(obj_loading);
 		//instance_activate_object(obj_room_manager);
@@ -398,7 +400,7 @@ if (esc_pau) and !global.map and !global.shop
 		//instance_activate_object(obj_Battle_Interface);
 		//instance_activate_object(obj_manager_bus);
 		//instance_activate_object(obj_mozg_ai);
-	}
+	} 
 }
 
 //ds_grid[# 3, 2] = global.Fon_sound_gain;

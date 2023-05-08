@@ -1,8 +1,24 @@
 /// @desc весь config
 global.res_width = display_get_width();
 global.res_height = display_get_height();
-display_set_gui_size(global.res_width, global.res_height);
-display_set_gui_maximise(1, 1);
+display_set_gui_size(global.res_width, global.res_height);//відповідає чи будуть чорні полоски чи ні
+switch(global.res_width){//змінюємо масштаб інтерфейсу залежно від розширення
+	case 1366:
+	display_set_gui_maximise(0.8, 0.8);//1366 x 768
+	break;
+	case 1440:
+	display_set_gui_maximise(0.9, 0.9);//1440 x 900
+	break;
+	case 1600:
+	display_set_gui_maximise(0.95, 0.95);//1600 x 1024
+	break;
+	case 1680:
+	display_set_gui_maximise(1, 1);//1680 x 1050
+	break;
+	default:
+	display_set_gui_maximise(1, 1);//1680 x 1050
+	break
+}
 global.screen_width = 1920
 global.screen_height = 1080
 global.shop = false
