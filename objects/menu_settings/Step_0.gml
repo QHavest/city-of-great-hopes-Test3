@@ -4,10 +4,10 @@ if(global.settings_open == 0) {exit;}
 var cur_button = 0;
 var fnt = draw_get_font()
 var sz=draw_set_font(Font_for_language2)
-input_up_p = keyboard_check_pressed(global.key_up);
-input_down_p = keyboard_check_pressed(global.key_down);
-input_enter_p = keyboard_check_pressed(global.key_enter);
-esc_paus = keyboard_check_pressed(vk_escape);
+input_up_p = keyboard_check_pressed(global.key_up) or keyboard_check_pressed(ord("W"));
+input_down_p = keyboard_check_pressed(global.key_down) or keyboard_check_pressed(ord("S"));
+input_enter_p = keyboard_check_pressed(global.key_enter)
+esc_paus = keyboard_check_pressed(vk_escape)
 
 if(inputting){
 

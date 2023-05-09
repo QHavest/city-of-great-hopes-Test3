@@ -6,8 +6,8 @@
 
 if(!global.pause) exit;
 
-input_up_p = keyboard_check_pressed(global.key_up);
-input_down_p = keyboard_check_pressed(global.key_down);
+input_up_p = keyboard_check_pressed(global.key_up) or keyboard_check_pressed(ord("W"));
+input_down_p = keyboard_check_pressed(global.key_down) or keyboard_check_pressed(ord("S"));
 input_enter_p = keyboard_check_pressed(global.key_enter);
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);

@@ -6,8 +6,8 @@ switch (global.settings_open)
 		var cur_button = 0;
 		var fnt = draw_get_font()
 		var sz=draw_set_font(Font_for_language2)
-		input_up_ps = keyboard_check_pressed(global.key_up);
-		input_down_ps = keyboard_check_pressed(global.key_down);
+		input_up_ps = keyboard_check_pressed(global.key_up) or keyboard_check_pressed(ord("W"));
+		input_down_ps = keyboard_check_pressed(global.key_down) or keyboard_check_pressed(ord("S"));
 		input_enter_ps = keyboard_check_pressed(global.key_enter);
 		esc_paus = keyboard_check_pressed(vk_escape);
 
@@ -79,8 +79,8 @@ switch (global.settings_open)
 	break;
 /////////////////////////////////////////////////////	
 	case 0:
-		input_up_p = keyboard_check_pressed(global.key_up);
-		input_down_p = keyboard_check_pressed(global.key_down);
+		input_up_p = keyboard_check_pressed(global.key_up) or keyboard_check_pressed(ord("W"));
+		input_down_p = keyboard_check_pressed(global.key_down) or keyboard_check_pressed(ord("S"));
 		input_enter_p = keyboard_check_pressed(global.key_enter);
 
 		var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
