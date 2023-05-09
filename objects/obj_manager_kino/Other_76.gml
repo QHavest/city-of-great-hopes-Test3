@@ -17,6 +17,7 @@ if event_data [? "event_type"] == "sequence event"
 
     case "delete":
 		global.shop = false;
+		obj_inventory.visible = 1;
 	    layer_sequence_destroy(seq1);
 	    view_set_camera(0, regCam1);
 	    view_set_camera(1, regCam2);

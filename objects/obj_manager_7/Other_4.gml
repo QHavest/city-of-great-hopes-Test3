@@ -6,7 +6,7 @@ instance_deactivate_object(obj_doorman);
 instance_deactivate_object(obj_pr_NPC_move);
 instance_deactivate_object(obj_pr_spr_change_outside_viewport);
 instance_deactivate_object(obj_left_lamp_night);
-
+obj_inventory.visible = 0;
 x1 = obj_center_fontan.x;
 y1 = obj_center_fontan.y;
 

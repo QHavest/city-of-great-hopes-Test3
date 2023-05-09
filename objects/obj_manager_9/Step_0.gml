@@ -14,6 +14,7 @@ if(pause == true)
 
 if(a == 1 and global.task == 3)
 {
+	obj_inventory.visible = 0;
 	instance_deactivate_object(inst_BC79744);
 	instance_deactivate_object(inst_76BF6B0C);
 	instance_deactivate_object(inst_230D9CF0);

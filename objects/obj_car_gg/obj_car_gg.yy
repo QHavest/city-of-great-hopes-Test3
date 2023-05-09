@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_car_gg",
-    "path": "sprites/spr_car_gg/spr_car_gg.yy",
+    "name": "spr_zygulik_yellow_001_L",
+    "path": "sprites/spr_zygulik_yellow_001_L/spr_zygulik_yellow_001_L.yy",
   },
   "spriteMaskId": null,
   "visible": true,

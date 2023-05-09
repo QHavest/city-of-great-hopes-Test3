@@ -36,6 +36,7 @@ if event_data [? "event_type"] == "sequence event"
   
     case "delete":
 	instance_activate_object(obj_sound_emmiter_3d);
+	obj_inventory.visible = 1;
 	global.task = 1;
 	global.shop = false;
     layer_sequence_destroy(seq1);

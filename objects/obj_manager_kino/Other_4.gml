@@ -1,6 +1,6 @@
 layer_create(-9999, "Cutcenes");
 var layerName = "Cutcenes";
-
+obj_inventory.visible = 0;
 var playerInst1 = instance_find(obj_dim_player1,0);
 var playerInst2 = instance_find(obj_dim_player2,0);
 

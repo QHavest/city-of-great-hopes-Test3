@@ -18,7 +18,7 @@ if(start)
 	var playerInst2 = instance_find(obj_dim_player2,0);
 
 	var objInst1 = instance_find(obj_bar,0);
-
+	obj_inventory.visible = 0;
 	//var objInst2 = instance_find(obj_this_is_a_table,0);
 	//var objInst3 = instance_find(obj_this_is_a_table,0);
 	//var objInst4 = instance_find(obj_this_is_a_table,0);

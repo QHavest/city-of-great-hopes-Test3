@@ -75,6 +75,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
     case "delete":
+	obj_inventory.visible = 1;
 	layer_destroy("CUT");
 	audio_stop_sound(snd_street);
 	audio_stop_sound(snd_mandarun);

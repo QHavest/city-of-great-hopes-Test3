@@ -18,7 +18,7 @@ global.task = 0;
 //num1 = obj_seller_posyda.depth;
 //num2 = obj_prilavok_posyda.depth;
 //num3 = obj_box_posyda.depth;
-
+obj_inventory.visible = 0;
 instance_deactivate_object(obj_pr_NPC_back);
 instance_deactivate_object(obj_pr_NPC_move);
 instance_deactivate_object(obj_pr_spr_change_outside_viewport);

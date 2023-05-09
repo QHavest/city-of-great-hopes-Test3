@@ -48,6 +48,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
     case "delete":
+	obj_inventory.visible = 1;
 	layer_destroy("Cutscenes2")
 	view_set_camera(0, regCam1);
 	view_set_camera(1, regCam2);

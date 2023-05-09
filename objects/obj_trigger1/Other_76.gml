@@ -3,6 +3,7 @@ if event_data [? "event_type"] == "sequence event"
 	switch (event_data[? "message"])
 	{
 		case "start":
+		obj_inventory.visible = 0;
 		audio_play_sound(snd_text_words, 1, 1);
 		scr_music_fon_change(noone);
 		global.shop = 1;

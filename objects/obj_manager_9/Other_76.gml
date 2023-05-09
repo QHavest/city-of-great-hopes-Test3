@@ -103,6 +103,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
     case "delete":
+	obj_inventory.visible = 1;
 	audio_stop_sound(snd_viter);
 	audio_stop_sound(snd_rain);
 	//obj_dim_player2.x = obj_player_2_9_2.x;
@@ -120,7 +121,7 @@ if event_data [? "event_type"] == "sequence event"
 	case "new_seq":
 	var playerInst1 = instance_find(obj_dim_player2,0);
 	//var inst1 = instance_find(inst_BC79744,0);
-
+	obj_inventory.visible = 0;
 	var sequence = seq_scena_9_1;
 	layer_create(-150, "Cutscenes2");
 	var layerName = "Cutscenes2";
@@ -137,6 +138,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "end":
+	obj_inventory.visible = 1;
 	layer_sequence_destroy(seq_start);
 	break;
 	
