@@ -16,6 +16,7 @@ case 3:
 	num="3";
 break
 }
-path_start(pth_pasagir,2,path_action_stop,1);
+//path_start(pth_pasagir,2,path_action_stop,1
 visible=true;
+
 //asset_get_index("")
