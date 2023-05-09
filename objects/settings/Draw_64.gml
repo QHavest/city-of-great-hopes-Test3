@@ -399,8 +399,8 @@ if (esc_pau) and !global.map and !global.shop
 		instance_activate_object(music_room);
 		//instance_activate_object(obj_Battle_Interface);
 		//instance_activate_object(obj_manager_bus);
-		//instance_activate_object(obj_mozg_ai);
-	} 
+		instance_activate_object(obj_mozg_ai);
+	}
 }
 
 //ds_grid[# 3, 2] = global.Fon_sound_gain;

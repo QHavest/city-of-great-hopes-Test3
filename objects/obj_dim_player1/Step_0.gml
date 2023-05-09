@@ -13,8 +13,8 @@ if (global.shop or global.map or !global.dialog_end or global.diary) {
 //система зміни статусу гравця
 if global.dialog_end and !global.map and !global.shop and !global.dialogue_move
 {
-if(keyboard_check(ord("1"))) status = STATUS.ACTIVE;
-if(keyboard_check(ord("2"))) status = STATUS.PASSIVE;
+if(keyboard_check(ord("1"))) {status = STATUS.ACTIVE; last_active=true;}
+if(keyboard_check(ord("2"))) {status = STATUS.PASSIVE;last_active=false;}
 }
 
 switch(status){
@@ -43,18 +43,20 @@ if (global.dialogue_move = true){
 			//if audio_is_playing(s_walk) audio_stop_sound(s_walk);
 			in_place = 1;
 			xprevious = x; // для коректної анімації стояння
+			// задаєм в масиві координати іншуму гг щоб не рипався після закінчення
+			if (!last_active)
+			{
+				for(var i = array_size-1; i > 0; i--)
+					{
+					obj_dim_player2.posX[i] = x;
+					obj_dim_player2.posY[i] = y;
+					}	
+			}
 		}
 		// задання напрямку стояння
-		if napriam = "r" lastmove=0;
-		else lastmove=1;
-	}
-	// звуки ходьби
-	else if !in_place
-	{
-//		if !audio_is_playing(s_walk) audio_play_sound(s_walk,0,0,global.player_gain);
-//		if audio_is_playing(snd_run) audio_stop_sound(snd_run);
-	}
-	
+		if (napriam = "r") {lastmove=0;}
+		else {lastmove=1;}
+	}	
 }	
 // відновлення ативного статусу після закінчення діалогу
 
@@ -85,9 +87,6 @@ if (x!= xprevious or y!= yprevious){
 	activity = activity_pause;
 	if status = STATUS.ACTIVE 
 	{
-		//if krok krok = 0;
-		//else krok = 1;
-		//obj_dim_player2.krok = !krok;
 		audio_listener_set_position(0,x,y,0);
 	}
 }
