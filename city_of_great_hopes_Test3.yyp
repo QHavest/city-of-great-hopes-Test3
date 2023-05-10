@@ -392,7 +392,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"locale_en.json","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"savedata_eng.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"невдала покупка.flac","CopyToMask":3035426170322551022,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"покупка (витрата грошей).wav","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"покупка (витрата грошей).wav","CopyToMask":3035426170322551022,"filePath":"datafiles",},
   ],
   "isEcma": false,
   "LibraryEmitters": [],
