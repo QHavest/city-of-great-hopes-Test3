@@ -6,7 +6,7 @@ if (global.pause){
 //draw_sprite_ext(spr_fones_pause,0,0,0,1,1,0,c_white,1);
 draw_sprite_ext(spr_fones_pause,0,0,0,1.3,1.3,0,c_white,1);
 //draw_sprite(screenshot, 0, 0, 0);
-var gwidth = display_get_gui_width()/2, gheight = display_get_gui_height()/2;
+var gwidth = global.res_width/2, gheight = global.res_height/2;
 //var gwidth2 = camera_get_view_width(camera_get_active());
 //var gheight2 = camera_get_view_height(camera_get_active());
 
@@ -27,7 +27,7 @@ switch(global.task)
 {
 	case 0:
 	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
-	if(global.LANGUAGE = "ua") pause_spr = spr_task1_ukr
+	if(global.LANGUAGE = "ua") pause_spr = spr_s
 	break;
 	case 1: 
 	if(global.LANGUAGE = "eng") pause_spr = spr_task1_eng;
@@ -42,8 +42,8 @@ switch(global.task)
 	if(global.LANGUAGE = "ua") pause_spr = spr_task3_ukr;
 	break;
 }
-draw_sprite(pause_spr, 0, global.screen_width/2, global.screen_height/2);
-//draw_sprite_ext(spr_ukraine, 0, gwidth+850, gheight+310,1.2,1.2,0,c_white,1);
+//draw_sprite(pause_spr, 0, global.screen_width/2, global.screen_height/2);
+draw_sprite_ext(pause_spr, 0, gwidth, gheight,global.scale_x,global.scale_y,0,c_white,1);
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 

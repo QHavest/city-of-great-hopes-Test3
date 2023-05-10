@@ -1,1 +1,1 @@
-draw_text(0,50,global.res_width)
+//draw_text(0,50,global.res_width)

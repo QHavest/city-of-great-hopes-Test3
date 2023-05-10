@@ -15,7 +15,7 @@ switch(room)
 		view_camera[0] = _cam;
 		window_set_size(global.res_width, global.res_height);
 		surface_resize(application_surface, global.res_width, global.res_height);
-		display_set_gui_size(global.res_width, global.res_height);
+		//display_set_gui_size(-1, -1);
 	break;
 	
 	case Room61:
@@ -48,7 +48,7 @@ switch(room)
 		view_camera[1] = _cam;
 		window_set_size(global.res_width, global.res_height);
 		surface_resize(application_surface, global.res_width, global.res_height);
-		display_set_gui_size(global.res_width, global.res_height);
+		
 	break;
 	case rm_indoor_rival_station:
 		view_enabled = true;

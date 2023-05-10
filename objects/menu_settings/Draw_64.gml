@@ -11,9 +11,9 @@ if (go){
 var gwidth = view_widths, gheight = view_heights;
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
-var start_y = (display_get_gui_height()/2.2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
+var start_y = (gheight/2.2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
-draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight/2,1.7,1.7,0,c_white,1);
+draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight/2,global.scale_x*2,global.scale_y*2,0,c_white,1);
 
 var c = c_black;
 draw_sprite_ext(spr_button_menu, 0, gwidth, gheight/3.5, 1.45, 1.45, 0, c_white, 1);
