@@ -59,7 +59,7 @@ else lang = 0;
 	 ["Музика", menu_element_types.slider, scr_change_music_vol, global.Fon_sound_gain, [0,1]],
 	 ["Звуки", menu_element_types.slider, scr_change_sound_vol, global.System_gain, [0,1]],
 	 ["Розширення", menu_element_types.shift, change_resolution, rezolution, ["1280х1024", "1680x1050", "1920x1080"]],
-	 ["Режим екрану", menu_element_types.shift, change_window_mode, screenmode, ["Вікно >>", "<< Повний екран"]],
+	 ["Режим екрану", menu_element_types.shift, change_window_mode, screenmode, ["Вікно >>", "<< Повноекранний"]],
 	 ["Мова", menu_element_types.shift, change_language, lang, ["Англійська >>", "<< Українська "]],
 	 ["<<< Назад", menu_element_types.script_runner, back_menu_from_settings]
 	);

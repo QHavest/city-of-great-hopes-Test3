@@ -11,7 +11,7 @@ if (go){
 var gwidth = view_widths, gheight = view_heights;
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 65, x_buffer = 16; //Відступ (у)знизу зверху та (х) по бокам
-var start_y = (gheight/2.2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
+var start_y = (gheight) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 //Малювання меню паузи
 draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight/2,global.scale_x*2,global.scale_y*2,0,c_white,1);
 
@@ -36,7 +36,7 @@ var yy = 0; repeat (ds_height){
 		c = c_orange;
 		xo = -(x_buffer/2);
 	}
-	if(ds_grid[# 0, yy] == "<<< Назад" or ds_grid[# 0, yy] == "<<< Back") draw_text_color(ltxx/4, lty+30, ds_grid[# 0, yy], c, c, c, c, 1);
+	if(ds_grid[# 0, yy] == "<<< Назад" or ds_grid[# 0, yy] == "<<< Back") draw_text_color(ltxx/4, lty+20, ds_grid[# 0, yy], c, c, c, c, 1);
 	else draw_text_color(ltxx/4, lty, ds_grid[# 0, yy], c, c, c, c, 1);
 	
 	yy++;
@@ -50,7 +50,7 @@ draw_set_font(Font_for_draw_mazur2)
 var rtx = start_x + x_buffer, rty; //Розташування на екрані
 var rtxx = display_get_gui_width() 
 yy = 0; repeat(ds_height){
-	rty = start_y + (yy*y_buffer);
+	rty =start_y + (yy*y_buffer);
 	
 	switch(ds_grid[# 1, yy]){
 	case menu_element_type.shift:
@@ -68,7 +68,7 @@ yy = 0; repeat(ds_height){
 		
 			var cout = current_array[current_val];
 		
-		draw_text_color(rtxx/1.7, rty, cout, c,c,c,c, 1)		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
+		draw_text_color(rtxx/1.8, rty, cout, c,c,c,c, 1)		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
 		break;
 		
 	case menu_element_type.slider:
@@ -80,9 +80,9 @@ yy = 0; repeat(ds_height){
 		
 		if(inputting and yy == menu_option[page]){ c = c_orange; }
 		//draw_line_width(rtx, rty, rtx +len, rty, 2);
-		draw_sprite_ext(spr_slider_menu, 0, rtx*2.3, rty+12, 0.65, 1, 0, c, 1);
+		draw_sprite_ext(spr_slider_menu, 0, rtx*2.2, rty+12, 0.65, 1, 0, c, 1);
 		//draw_circle_color(rtx + (circle_pos*len), rty, 4, c,c, false);
-		draw_sprite_ext(spr_slider_mini_menu, 0, (rtx*2.3) + (circle_pos*len), rty+12, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_slider_mini_menu, 0, (rtx*2.2) + (circle_pos*len), rty+12, 1, 1, 0, c_white, 1);
 		//draw_text_color(rtx + (len * 1.2), rty,string(floor(circle_pos*100)), c,c,c,c, 1);
 	break;
 	
