@@ -4,7 +4,7 @@ esc_pau = keyboard_check_pressed(vk_escape);
 
 if (global.pause){
 //draw_sprite_ext(spr_fones_pause,0,0,0,1,1,0,c_white,1);
-draw_sprite_ext(screenshot,0,0,0,1.3,1.3,0,c_white,1);
+draw_sprite_ext(spr_fones_pause,0,0,0,1.3,1.3,0,c_white,1);
 //draw_sprite(screenshot, 0, 0, 0);
 var gwidth = display_get_gui_width()/2, gheight = display_get_gui_height()/2;
 //var gwidth2 = camera_get_view_width(camera_get_active());
@@ -389,7 +389,7 @@ if (esc_pau) and !global.map and !global.shop
 		inputting = false;
 		//if(!global.pause) exit;
 		
-		screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
+		//screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
 		//draw_clear_alpha(c_black, 0);
 		instance_deactivate_all(true);
 		instance_activate_object(obj_loading);

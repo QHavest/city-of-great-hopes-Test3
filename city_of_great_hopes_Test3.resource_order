@@ -667,6 +667,7 @@
     {"name":"obj_male_008","order":4,"path":"objects/obj_male_008/obj_male_008.yy",},
     {"name":"spr_male_013_WR","order":24,"path":"sprites/spr_male_013_WR/spr_male_013_WR.yy",},
     {"name":"spr_Erebogrrad_ua","order":6,"path":"sprites/spr_Erebogrrad_ua/spr_Erebogrrad_ua.yy",},
+    {"name":"Sequence26","order":26,"path":"sequences/Sequence26/Sequence26.yy",},
     {"name":"seq_tru_kalunku","order":3,"path":"sequences/seq_tru_kalunku/seq_tru_kalunku.yy",},
     {"name":"Obj_Steam_UGC_Subscribed","order":6,"path":"objects/Obj_Steam_UGC_Subscribed/Obj_Steam_UGC_Subscribed.yy",},
     {"name":"Room_Steam_Init","order":9,"path":"rooms/Room_Steam_Init/Room_Steam_Init.yy",},

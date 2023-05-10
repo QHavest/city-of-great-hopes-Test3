@@ -2933,6 +2933,7 @@
     {"id":{"name":"spr_Schveicar_move_R","path":"sprites/spr_Schveicar_move_R/spr_Schveicar_move_R.yy",},},
     {"id":{"name":"spr_Erebogrrad_ua","path":"sprites/spr_Erebogrrad_ua/spr_Erebogrrad_ua.yy",},},
     {"id":{"name":"obj_truck_closeds","path":"objects/obj_truck_closeds/obj_truck_closeds.yy",},},
+    {"id":{"name":"Sequence26","path":"sequences/Sequence26/Sequence26.yy",},},
     {"id":{"name":"obj_this_is_a_table","path":"objects/obj_this_is_a_table/obj_this_is_a_table.yy",},},
     {"id":{"name":"obj_trigger_barmen_2","path":"objects/obj_trigger_barmen_2/obj_trigger_barmen_2.yy",},},
     {"id":{"name":"obj_chair_box2","path":"objects/obj_chair_box2/obj_chair_box2.yy",},},

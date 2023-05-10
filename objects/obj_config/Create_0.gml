@@ -15,6 +15,9 @@ switch(global.res_width){//змінюємо масштаб інтерфейсу 
 	case 1680:
 	display_set_gui_maximise(1, 1);//1680 x 1050
 	break;
+	case 1920:
+	display_set_gui_maximise(1.1, 1.1);//1920 x 1080
+	break;
 	default:
 	display_set_gui_maximise(1, 1);//1680 x 1050
 	break
@@ -44,6 +47,6 @@ global.boss = 0;
 
 //aspect_ratio();
 
-texturegroup_load("Default");
+//texturegroup_load("Default");
 //display_reset(0, true);
 
