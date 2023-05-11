@@ -21,6 +21,7 @@ var y_buffer_menu = 56;
 var start_y = (gheight/3.9) - ((((ds_height-1)/2) * y_buffer)) + 15, start_x = gwidth/3.5;
 var start_y2 = (gheight/3.9) - ((((ds_height2-1)/2) * y_buffer))
 
+
 //Малювання меню паузи
 var pause_spr = 0;
 switch(global.task)
@@ -42,8 +43,9 @@ switch(global.task)
 	if(global.LANGUAGE = "ua") pause_spr = spr_task3_ukr;
 	break;
 }
+
 //draw_sprite(pause_spr, 0, global.screen_width/2, global.screen_height/2);
-draw_sprite_ext(pause_spr, 0, gwidth, gheight,global.scale_x,global.scale_y,0,c_white,1);
+//draw_sprite_ext(pause_spr, 0, gwidth, gheight,global.scale_x,global.scale_y,0,c_white,1);
 var c = c_black;
 //draw_rectangle_color(0,0,gwidth,gheight, c,c,c,c, false);
 
@@ -77,22 +79,24 @@ switch(menu_pages[page])
 			//a = ds_grid[# 0, yy];
 			//c = c_black;
 		}
-		draw_sprite_ext(a,0,ltx+242/*-90*/, lty+279,1,1,0,c_white,1); //кнопки
+		draw_sprite_ext(a,0,455/*-90*/, lty+279,global.scale_x,global.scale_y,0,c_white,1); //кнопки
 		//draw_text_color(ltx+242, lty+319, a, c,c,c,c,1);
+		
 		yy++;
 		
 	}
 	
 	break;
 	case ds_settings:
+	gg = sprite_get_xoffset(pause_spr)
 	//show_debug_message(start_y);
 	if(global.LANGUAGE == "ua")
 	{
-		draw_sprite_ext(spr_bg_settings, 0, ltx+715, 55+345, 1, 1, 0, c_white, 1); // bg settings
-		draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390-18, 1, 1, 0, c_white, 1); // напис "Аудіо"
-		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650-18, 1, 1, 0, c_white, 1); // напис "Графіка"
-		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680-18, 1, 1, 0, c_white, 1); // напис "Розширення екрану"
-		draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775-18, 1, 1, 0, c_white, 1); // напис "Режим екрану"
+		draw_sprite_ext(spr_bg_settings, 0, gg+150, 55+345,global.scale_x,global.scale_y, 0, c_white, 1); // bg settings
+		draw_sprite_ext(spr_audio_ukr, 0, ltx+910, 55+390-18, global.scale_x,global.scale_y, 0, c_white, 1); // напис "Аудіо"
+		draw_sprite_ext(spr_graphics_ukr, 0, ltx+910, 55+650-18, global.scale_x,global.scale_y, 0, c_white, 1); // напис "Графіка"
+		draw_sprite_ext(spr_rezolution_ukr, 0, ltx+910, 55+680-18,global.scale_x,global.scale_y, 0, c_white, 1); // напис "Розширення екрану"
+		draw_sprite_ext(spr_screen_ukr, 0, ltx+910, 55+775-18, global.scale_x,global.scale_y, 0, c_white, 1); // напис "Режим екрану"
 	}
 	if(global.LANGUAGE == "eng")
 	{
@@ -392,6 +396,12 @@ if (esc_pau) and !global.map and !global.shop
 		//screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
 		//draw_clear_alpha(c_black, 0);
 		instance_deactivate_all(true);
+		layer_create(-9995, "Transition_locs");
+			var layerName = "Transition_locs";
+			var seqnames = noone;
+				seqnames = Sequence26;
+			sequence_id = layer_sequence_create(layerName,display_get_gui_width()/2, display_get_gui_height()/2, seqnames);
+			layer_sequence_pause(sequence_id);
 		instance_activate_object(obj_loading);
 		//instance_activate_object(obj_room_manager);
 		//instance_activate_object(daycycle);

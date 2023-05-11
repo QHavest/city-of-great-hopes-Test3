@@ -11,7 +11,7 @@ input_down_p = keyboard_check_pressed(global.key_down) or keyboard_check_pressed
 input_enter_p = keyboard_check_pressed(global.key_enter);
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
-
+obj_pause_settings.visible = 0;
 if(inputting){
 
 switch(ds_grid[# 1, menu_option[page]]){
@@ -56,6 +56,12 @@ switch(ds_grid[# 1, menu_option[page]]){
 	var ochange = input_down_p - input_up_p;
 	if(ochange !=0){
 		menu_option[page] += ochange;
+		if (menu_option[page] == 0){
+			obj_continues.sprite_index = spr_continue_ukr_l;
+		} else {obj_continues.sprite_index = spr_continue_ukr_d; }
+		if (menu_option[page] == 1){
+			obj_savings.sprite_index = spr_savings_ukr_l;
+		}else {obj_savings.sprite_index = spr_savings_ukr_d;}
 		if(menu_option[page] > ds_height-1) { menu_option[page] = 0; }
 		if(menu_option[page] < 0) { menu_option[page] = ds_height -1; }
 		audio_play_sound(snd_search,5,0,global.System_gain);
