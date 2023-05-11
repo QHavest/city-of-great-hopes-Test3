@@ -1,11 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description sprite_choice
 switch (irandom_range(1,3))
 {
 case 1: 
 	sprite_index= spr_vokzal_man_1_WR;
 	num="1";
-
 break
 case 2:
 	sprite_index=spr_vokzal_man_2_WR;

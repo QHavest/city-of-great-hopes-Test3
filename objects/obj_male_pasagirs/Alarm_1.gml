@@ -5,6 +5,17 @@
 //path_start(pth_pasagir,2,alarm[0]=0,1);
 
 //
-if (n=0) {n=1;}
-else {n=0;}
+switch (n){
+	case 0 : point = false
+	break
+	case 1 :
+	break
+	case 2 :
+	break
+	case 3 : point = true
+	break
+}
+if (point) {var k=-1}
+else var k=1;
+n=n+k;
 
