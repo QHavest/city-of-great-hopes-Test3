@@ -1,7 +1,7 @@
 /// @param numb_lavki_(string)
 function scr_dim_playerstate_AcLavka(lav_num){
 // для виходу обох після завершення активної анімації	
-if (keyboard_check(ord("Q"))) { quit=true;}
+if (keyboard_check(ord("E"))) { quit=true;}
 
 sprite_index = asset_get_index("spr_"+sprit+"_lavka_"+ lav_num +"_a");
 if (sprite_index=asset_get_index("spr_"+sprit+"_lavka_"+lav_num +"_a") and scr_dim_animation_end(sprite_index) )

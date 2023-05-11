@@ -1,7 +1,7 @@
 /// @param numb_lavki_(string)
 function scr_dim_playerstate_Lavka(lav_num){
 // exit 
-if (keyboard_check(ord("Q"))) { quit=true;}
+if (keyboard_check(ord("E"))) { quit=true;}
 	
 //шоби не рипались
 status = STATUS.NONE;
