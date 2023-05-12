@@ -119,6 +119,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obj Menu","folderPath":"folders/Main Menu/Obj Menu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pause","folderPath":"folders/Main Menu/Pause.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obj_pause","folderPath":"folders/Main Menu/Pause/Obj_pause.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Main Menu/Pause/Obj_pause/Settings.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_pause","folderPath":"folders/Main Menu/Pause/spr_pause.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprites","folderPath":"folders/Main Menu/Pause/sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"audio","folderPath":"folders/Main Menu/Pause/sprites/audio.yy",},
@@ -404,7 +405,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/YoYo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/YoYo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Main Menu/Pause/Obj_pause/Settings.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -3581,7 +3581,6 @@
     {"id":{"name":"spr_Ytopurok_lavka_2_a","path":"sprites/spr_Ytopurok_lavka_2_a/spr_Ytopurok_lavka_2_a.yy",},},
     {"id":{"name":"scr_rezolution_3","path":"scripts/scr_rezolution_3/scr_rezolution_3.yy",},},
     {"id":{"name":"Room_Steam_Social","path":"rooms/Room_Steam_Social/Room_Steam_Social.yy",},},
-    {"id":{"name":"obj_orange2","path":"objects/obj_orange2/obj_orange2.yy",},},
     {"id":{"name":"spr_dumb_school","path":"sprites/spr_dumb_school/spr_dumb_school.yy",},},
     {"id":{"name":"spr_dim_Ytopurok_move_right","path":"sprites/spr_dim_Ytopurok_move_right/spr_dim_Ytopurok_move_right.yy",},},
     {"id":{"name":"Spr_YoYo_background","path":"sprites/Spr_YoYo_background/Spr_YoYo_background.yy",},},

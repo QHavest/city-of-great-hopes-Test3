@@ -56,6 +56,6 @@ global.boss = 0;
 
 //aspect_ratio();
 
-//texturegroup_load("Default");
+texturegroup_load("Default");
 //display_reset(0, true);
 
