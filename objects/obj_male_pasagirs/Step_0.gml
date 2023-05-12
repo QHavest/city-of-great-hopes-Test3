@@ -56,12 +56,12 @@ if (path_position=1)
 // якщо прийшов в кінець
 if (x=targetX[n] and y=targetY[n]) 
 {
-	alarm[1]=room_speed*irandom_range(2,6);
-	if (x > xprevious)
+	alarm[1]=1//room_speed*irandom_range(2,6);
+	if (x > xprevious and stop[n]=true)
 		{sprite_index=asset_get_index("spr_vokzal_man_"+num+"_R")}
 	else {sprite_index=asset_get_index("spr_vokzal_man_"+num+"_L")}	
 }
 else if (visible)
 {
-	mp_potential_step(targetX[n], targetY[n], spd, true);
+	mp_potential_step(targetX[n], targetY[n], spd, false);
 }
