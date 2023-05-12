@@ -65,7 +65,24 @@ else settings_savings = true;
 switch(menu_pages[page])
 {
 	case ds_menu_main: 
-	
+	obj_pause_settings.visible = 0;
+	obj_saving_settings.visible = 0;
+		if (menu_option[page] == 0){
+			obj_continues.sprite_index = spr_continue_ukr_l;
+		} else {obj_continues.sprite_index = spr_continue_ukr_d; }
+		if (menu_option[page] == 1){
+			obj_savings.sprite_index = spr_savings_ukr_l;
+		}else {obj_savings.sprite_index = spr_savings_ukr_d;}
+		if (menu_option[page] == 2){
+			obj_settings.sprite_index = spr_settings_ukr_l;
+		}else {obj_settings.sprite_index = spr_settings_ukr_d;}
+		if (menu_option[page] == 3){
+			obj_main_menus.sprite_index = spr_main_menu_ukr_l;
+		}else {obj_main_menus.sprite_index = spr_main_menu_ukr_d;}
+		if (menu_option[page] == 4){
+			obj_exits.sprite_index = spr_exit_ukr_l;
+		}else {obj_exits.sprite_index = spr_exit_ukr_d;}
+
 	var yy = 0; repeat (ds_height){
 	
 		var a = ds_grid[# 0, yy];
@@ -89,6 +106,7 @@ switch(menu_pages[page])
 	break;
 	case ds_settings:
 	gg = sprite_get_xoffset(pause_spr)
+	obj_pause_settings.visible = 1;
 	//show_debug_message(start_y);
 	if(global.LANGUAGE == "ua")
 	{
@@ -257,7 +275,7 @@ switch(menu_pages[page])
 	break;
 	
 	case ds_savings:
-	
+	obj_saving_settings.visible = 1;
 	draw_sprite_ext(spr_bg_savings, 0, ltx+715, 55+355, 1, 1, 0, c_white, 1); // bg savings
 	
 	draw_set_font(Font_for_draw_mazur2);
