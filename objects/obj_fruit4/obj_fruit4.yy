@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_fruit4",
-    "path": "sprites/spr_fruit4/spr_fruit4.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fruit2",
+  "name": "obj_box_container1",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "Boxes",
     "path": "folders/Objects/Bazar/Boxes.yy",
   },
-  "parentObjectId": {
-    "name": "obj_days",
-    "path": "objects/obj_days/obj_days.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_box_container",
+    "path": "sprites/spr_box_container/spr_box_container.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
