@@ -122,7 +122,7 @@ if !is_string(_roomStruct) {exit;};
 
 //////////////////////////////////////////////////////////////////
 function save_game(_fileNum = 0){
-	if(global.pause or global.map) 
+	if(global.pause or global.map)
 	{
 		exit;
 	}
@@ -147,7 +147,7 @@ function save_game(_fileNum = 0){
 	if(saveMonth < 10) saveMonth = "0" + string(saveMonth);
 	
 	var _saveArray = array_create(0);
-	_saveInv = array_create(9);
+	//_saveInv = array_create(9);
 	
 	for(var i = 0; i < 10; i++)
 	{
@@ -181,6 +181,8 @@ function save_game(_fileNum = 0){
 	buffer_write(_buffer, buffer_string, _json);
 	buffer_save(_buffer, _filename);
 	buffer_delete(_buffer);
+	
+	show_debug_message("SAVING");
 	
 }
 
@@ -221,8 +223,6 @@ function load_game(_fileNum = 0){
 	
 	for(var i = 0; i < 10; i++)
 	{
-		//array_push(_saveInv, global.ds_inventory[# 0, i]);
-		
 		global.ds_inventory[# 0, i] = saveInv[i];
 	}
 	global.money = global.statData.money;
@@ -232,7 +232,7 @@ function load_game(_fileNum = 0){
 	var _loadRoom = asset_get_index(global.statData.save_rm);
 	room_goto(_loadRoom);
 	scr_music_fon_change(_loadRoom);
-		obj_loading.SkipRoomSave = true;
+	obj_loading.SkipRoomSave = true;
 	
 	//create the player object
 	if instance_exists(obj_dim_player1) {instance_destroy(obj_dim_player1);};

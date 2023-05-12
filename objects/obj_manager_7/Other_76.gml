@@ -97,6 +97,7 @@ if event_data [? "event_type"] == "sequence event"
 	obj_dim_player1.InRoomMode = false;
 	obj_dim_player2.InRoomMode = false;
 	room_restart();
+	//scr_saving_1();
     break;
   }
 }

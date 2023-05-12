@@ -17,7 +17,13 @@ if useSound != noone
 		audio_sound_gain(useSound,global.Fon_sound_gain,4000);
 	}
 	
-}	
+}
+
+//if(room == rm_main_menu)
+//{
+//	audio_emitter_gain(myEmitter, 0);
+//	audio_emitter_free(myEmitter);
+//}
 	
 
 

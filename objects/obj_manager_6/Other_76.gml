@@ -49,6 +49,7 @@ if event_data [? "event_type"] == "sequence event"
 	{
 		part_system_depth(weather, -1000);
 	}
+	scr_saving_1();
 	room_restart();
     break;
   }

@@ -86,6 +86,8 @@ global.levelData =
 
 alarm[0] = 10;
 
-_saveInv = 1;
+_saveInv = array_create(12);
+
+//_saveInv[0] = 1;
 
 
