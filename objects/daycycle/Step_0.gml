@@ -69,8 +69,8 @@ if(raining == false and scr_rooms_variables(room, 3) == false and timer_rain == 
 
 #region fog
 
-if(keyboard_check_pressed(ord("L"))){alarm[3] = 1; start_new = true};
-if(keyboard_check_pressed(ord("X"))){start_new = false};
+//if(keyboard_check_pressed(ord("L"))){alarm[3] = 1; start_new = true};
+//if(keyboard_check_pressed(ord("X"))){start_new = false};
 
 if(fogNum > 230 and fog_or_not == true)
 {
@@ -80,8 +80,8 @@ if(fogNum > 230 and fog_or_not == true)
 }
 if(!sequence_exists(seq_scena_6))
 {
-if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
-if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
+	if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
+	if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
 }
 
 #endregion

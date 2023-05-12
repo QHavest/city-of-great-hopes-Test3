@@ -21,6 +21,6 @@ if(fog_or_not == true and start_new = true)
 		var randomX = random_range(0, room_width);
 		part_particles_create(weather, randomX, cameraY + randomY, fog, 1);
 		fogNum++;
-		show_debug_message("FOG!!!!!");
+		//show_debug_message("FOG!!!!!");
 	}
 }
