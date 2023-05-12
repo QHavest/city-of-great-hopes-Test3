@@ -1,7 +1,7 @@
 /// @param numb_lavki_(string)
 function scr_dim_playerstate_Lavka(lav_num){
 // exit 
-if (keyboard_check(ord("Q"))) { quit=true;}
+if (keyboard_check(ord("E")) and posudiv) { quit=true;}
 	
 //шоби не рипались
 status = STATUS.NONE;
@@ -9,6 +9,7 @@ status = STATUS.NONE;
 if (sprite_index=asset_get_index("spr_"+sprit+"_sit_lav_"+lav_num))
 {	
 	if (scr_dim_animation_end(sprite_index) ){
+		posudiv = true;
 		sprite_index=asset_get_index("spr_"+sprit+"_lavka_"+lav_num);
 		alarm[0]=room_speed*10;
 		l=lav_num;
@@ -29,7 +30,8 @@ if (sprite_index=asset_get_index("spr_"+sprit+"_stand_lav_"+lav_num) and scr_dim
 	global.dialogue_move = false;
 	start=0;
 	in_place=0;
-	 quit=false;
+	quit=false;
+	posudiv = false;
 	if (last_active = true)
 	{
 		status = STATUS.ACTIVE;

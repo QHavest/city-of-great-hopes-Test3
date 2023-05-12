@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_box_inside_tech",
+  "name": "obj_box_container1",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "Boxes",
     "path": "folders/Objects/Bazar/Boxes.yy",
   },
-  "parentObjectId": {
-    "name": "obj_invisiblewall",
-    "path": "objects/obj_invisiblewall/obj_invisiblewall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_box_inside_tech",
-    "path": "sprites/spr_box_inside_tech/spr_box_inside_tech.yy",
+    "name": "spr_box_container",
+    "path": "sprites/spr_box_container/spr_box_container.yy",
   },
   "spriteMaskId": null,
   "visible": true,
