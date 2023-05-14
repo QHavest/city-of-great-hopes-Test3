@@ -65,17 +65,21 @@ else settings_savings = true;
 switch(menu_pages[page])
 {
 	case ds_menu_main: 
-	obj_pause_settings.visible = 0;
+	//obj_pause_settings.visible = 0;
+	obj_manager_settings_pause.visible = 0;
+	
 	obj_saving_settings.visible = 0;
 		if (menu_option[page] == 0){
 			obj_continues.sprite_index = spr_continue_ukr_l;
 		} else {obj_continues.sprite_index = spr_continue_ukr_d; }
 		if (menu_option[page] == 1){
-			obj_savings.sprite_index = spr_savings_ukr_l;
-		}else {obj_savings.sprite_index = spr_savings_ukr_d;}
+			obj_savings.sprite_index = spr_savings_ukr_d;
+			menu_option[page]++
+		}/*else {obj_savings.sprite_index = spr_savings_ukr_d;}*/
 		if (menu_option[page] == 2){
-			obj_settings.sprite_index = spr_settings_ukr_l;
-		}else {obj_settings.sprite_index = spr_settings_ukr_d;}
+			obj_settings.sprite_index = spr_settings_ukr_d;
+			menu_option[page]++
+		}/*else {obj_settings.sprite_index = spr_settings_ukr_d;}*/
 		if (menu_option[page] == 3){
 			obj_main_menus.sprite_index = spr_main_menu_ukr_l;
 		}else {obj_main_menus.sprite_index = spr_main_menu_ukr_d;}
@@ -105,8 +109,28 @@ switch(menu_pages[page])
 	
 	break;
 	case ds_settings:
+		if (menu_option[page] == 0){//загальне аудіо
+			obj_audio2_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_audio2_head_settings.sprite_index = spr_audio2_ukr_d; }
+		if (menu_option[page] == 1){
+			obj_sounds_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_sounds_head_settings.sprite_index = spr_sounds_ukr_d; }
+		if (menu_option[page] == 2){
+			obj_music_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_music_head_settings.sprite_index = spr_music_ukr_d; }
+		
+		if (menu_option[page] == 3){//розширення екрану
+			obj_music_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_music_head_settings.sprite_index = spr_music_ukr_d; }
+		if (menu_option[page] == 4){
+			obj_music_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_music_head_settings.sprite_index = spr_music_ukr_d; }
+		if (menu_option[page] == 5){
+			obj_music_head_settings.sprite_index = spr_audio2_l_new;
+		} else {obj_music_head_settings.sprite_index = spr_music_ukr_d; }
 	gg = sprite_get_xoffset(pause_spr)
-	obj_pause_settings.visible = 1;
+	obj_manager_settings_pause.visible = 1;
+	//obj_pause_settings.visible = 1;
 	//show_debug_message(start_y);
 	if(global.LANGUAGE == "ua")
 	{
@@ -130,7 +154,6 @@ switch(menu_pages[page])
 	
 		lty = start_y + (yy*y_buffer)
 		var xP = 0, yP = 0;
-		
 		//if(ds_grid[# 0, yy] == spr_rez1_l or ds_grid[# 0, yy] == spr_rez1_d) 
 		//if(ds_grid[# 0, yy] == "1280х1024") 
 		if(yy = 3)
@@ -142,8 +165,10 @@ switch(menu_pages[page])
 				//ds_grid[# 0, yy] = spr_rez1_d;
 				//ds_grid[# 0, yy+1] = spr_rez2_l;
 				//ds_grid[# 0, yy+2] = spr_rez3_l;
+					obj_res1_settings_l.sprite_index = spr_rez1_d;
+
 				c = make_color_rgb(36, 34, 17);
-			}
+			}else {obj_res1_settings_l.sprite_index = spr_rez1_l2; }
 		}
 		
 		//if(ds_grid[# 0, yy] == "1680х1050")
@@ -398,6 +423,7 @@ if (esc_pau)
 			menu_option[0] = 0;
 			menu_option[1] = 0;
 			// Снова включаем все объекты
+			layer_sequence_destroy(sequence_id);
 			instance_activate_all();
 		}
 		else page = menu_page.main;
@@ -415,7 +441,7 @@ if (esc_pau) and !global.map and !global.shop
 		//draw_clear_alpha(c_black, 0);
 		instance_deactivate_all(true);
 		layer_create(-9995, "Transition_locs");
-			var layerName = "Transition_locs";
+			layerName = "Transition_locs";
 			var seqnames = noone;
 				seqnames = Sequence26;
 			sequence_id = layer_sequence_create(layerName,display_get_gui_width()/2, display_get_gui_height()/2, seqnames);

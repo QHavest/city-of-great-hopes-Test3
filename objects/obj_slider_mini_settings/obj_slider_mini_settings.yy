@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_screen_head_settings",
+  "name": "obj_slider_mini_settings",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Settings",
-    "path": "folders/Main Menu/Pause/Obj_pause/Settings.yy",
+    "name": "Audio",
+    "path": "folders/Main Menu/Pause/Obj_pause/Audio.yy",
   },
   "parentObjectId": {
     "name": "obj_manager_settings_pause",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_screen_ukr",
-    "path": "sprites/spr_screen_ukr/spr_screen_ukr.yy",
+    "name": "spr_slider_mini",
+    "path": "sprites/spr_slider_mini/spr_slider_mini.yy",
   },
   "spriteMaskId": null,
   "visible": true,

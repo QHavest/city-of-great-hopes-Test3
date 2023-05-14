@@ -87,8 +87,8 @@ if(global.LANGUAGE == "ua")
 {
 	ds_menu_main = create_menu_page(
 	 [spr_continue_ukr_d, menu_element_type.script_runner, resume_game],
-	 [spr_savings_ukr_d, menu_element_type.page_transfer, menu_page.savings],
-	 [spr_settings_ukr_d, menu_element_type.page_transfer, menu_page.settings],
+	 [spr_savings_ukr_d/*, menu_element_type.page_transfer, menu_page.savings*/],
+	 [spr_settings_ukr_d/*, menu_element_type.page_transfer, menu_page.settings*/],
 	 [spr_main_menu_ukr_d, menu_element_type.script_runner, back_menu],
 	 [spr_exit_ukr_d, menu_element_type.script_runner, exit_game]
 	);
@@ -109,8 +109,8 @@ if(global.LANGUAGE == "eng")
 {
 	ds_menu_main = create_menu_page(
 	 [spr_continue_eng_d, menu_element_type.script_runner, resume_game],
-	 [spr_savings_eng_d, menu_element_type.page_transfer, menu_page.savings],
-	 [spr_settings_eng_d, menu_element_type.page_transfer, menu_page.settings],
+	 [spr_savings_eng_d/*, menu_element_type.page_transfer, menu_page.savings*/],
+	 [spr_settings_eng_d/*, menu_element_type.page_transfer, menu_page.settings*/],
 	 [spr_main_menu_eng_d, menu_element_type.script_runner, back_menu],
 	 [spr_exit_eng_d, menu_element_type.script_runner, exit_game]
 	);
@@ -152,7 +152,7 @@ ds_graphics = create_menu_page(
 
 page = 0;
 
-menu_pages = [ds_menu_main, ds_settings, ds_savings/*, ds_menu_audio, ds_graphics*/]
+menu_pages = [ds_menu_main, /*ds_settings, ds_savings/*, ds_menu_audio, ds_graphics*/]
 
 var i = 0, array_len = array_length_1d(menu_pages);
  repeat(array_len){

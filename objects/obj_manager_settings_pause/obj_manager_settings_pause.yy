@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_screen_head_settings",
+  "name": "obj_manager_settings_pause",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Settings",
-    "path": "folders/Main Menu/Pause/Obj_pause/Settings.yy",
+    "name": "Obj_pause",
+    "path": "folders/Main Menu/Pause/Obj_pause.yy",
   },
   "parentObjectId": {
-    "name": "obj_manager_settings_pause",
-    "path": "objects/obj_manager_settings_pause/obj_manager_settings_pause.yy",
+    "name": "obj_manager_pause",
+    "path": "objects/obj_manager_pause/obj_manager_pause.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_screen_ukr",
-    "path": "sprites/spr_screen_ukr/spr_screen_ukr.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

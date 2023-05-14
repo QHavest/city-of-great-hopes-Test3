@@ -10,8 +10,8 @@
     "path": "folders/Main Menu/Pause/Obj_pause.yy",
   },
   "parentObjectId": {
-    "name": "obj_manager_pause",
-    "path": "objects/obj_manager_pause/obj_manager_pause.yy",
+    "name": "obj_manager_settings_pause",
+    "path": "objects/obj_manager_settings_pause/obj_manager_settings_pause.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

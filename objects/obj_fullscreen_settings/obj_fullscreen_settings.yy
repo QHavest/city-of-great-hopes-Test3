@@ -10,8 +10,8 @@
     "path": "folders/Main Menu/Pause/Obj_pause/Settings.yy",
   },
   "parentObjectId": {
-    "name": "obj_manager_pause",
-    "path": "objects/obj_manager_pause/obj_manager_pause.yy",
+    "name": "obj_manager_settings_pause",
+    "path": "objects/obj_manager_settings_pause/obj_manager_settings_pause.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sounds_ukr_d",
-    "path": "sprites/spr_sounds_ukr_d/spr_sounds_ukr_d.yy",
+    "name": "spr_fullscreen_ukr_l",
+    "path": "sprites/spr_fullscreen_ukr_l/spr_fullscreen_ukr_l.yy",
   },
   "spriteMaskId": null,
   "visible": true,
