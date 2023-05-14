@@ -119,9 +119,10 @@ if event_data [? "event_type"] == "sequence event"
     break;
 	
 	case "new_seq":
+	instance_deactivate_object(inst_1315A471);
 	var playerInst1 = instance_find(obj_dim_player2,0);
 	//var inst1 = instance_find(inst_BC79744,0);
-	obj_inventory.visible = 0;
+	//obj_inventory.visible = 0;
 	var sequence = seq_scena_9_1;
 	layer_create(-150, "Cutscenes2");
 	var layerName = "Cutscenes2";
@@ -138,7 +139,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "end":
-	obj_inventory.visible = 1;
+	//obj_inventory.visible = 1;
 	layer_sequence_destroy(seq_start);
 	break;
 	

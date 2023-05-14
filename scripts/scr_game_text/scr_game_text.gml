@@ -1741,7 +1741,18 @@ break;
 
 case "throw2":
 	scr_text(scr_json_lang(global.LANGUAGE,"Sektants5"),1,spr_ic_sekta_1, spr_ic_Krus_l);
-	layer_sequence_play(obj_manager_sekt.seq5);
+	scr_option(scr_json_lang(global.LANGUAGE,"Scena610"),"throw3");
+break;
+
+case "throw3":
+	view_set_camera(0, obj_manager_sekt.regCam1);
+	view_set_camera(1, obj_manager_sekt.regCam2);
+	global.shop = false;
+	layer_sequence_destroy(obj_manager_sekt.seq5);
+	obj_Battle_Interface.battle_start = true;
+	obj_Battle_Interface.enemies = ENEMY.Sectants
+	scr_music_fon_change(Room61);
+	room_goto(Room61);
 break;
 
 #endregion
