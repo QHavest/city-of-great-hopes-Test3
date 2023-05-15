@@ -16,37 +16,25 @@ if event_data [? "event_type"] == "sequence event"
 	case "dialog1":
 	scr_create_textbox("scena_8_1");
 	break;
-	
-	//case "dialog2":
-	//scr_create_textbox("scena_8_2");
-	//break;
+
+	case "dialog2":
+	scr_create_textbox("scena_8_2");
+	pause = true;
+	break;
 	
 	case "dialog3":
 	scr_create_textbox("scena_8_3");
 	break;
-	
+
 	case "dialog4":
 	scr_create_textbox("scena_8_4");
 	pause = true;
 	break;
+	
+	case "pause":
+	pause = true;
+	break;
 
-	case "dialog5":
-	scr_create_textbox("scena_8_5");
-	pause = true;
-	break;
-	
-	case "pause1":
-	pause = true;
-	break;
-	
-	case "pause2":
-	pause = true;
-	break;
-	
-	case "pause3":
-	pause = true;
-	break;
-	
     case "delete":
 	obj_inventory.visible = 1;
 	layer_destroy("Cutscenes2")
