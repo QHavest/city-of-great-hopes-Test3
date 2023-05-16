@@ -31,6 +31,7 @@
     {"name":"Inventory","order":17,"path":"folders/Inventory.yy",},
     {"name":"Main Menu","order":18,"path":"folders/Main Menu.yy",},
     {"name":"Obj_pause","order":20,"path":"folders/Main Menu/Pause/Obj_pause.yy",},
+    {"name":"Audio","order":10,"path":"folders/Main Menu/Pause/Obj_pause/Audio.yy",},
     {"name":"Settings","order":9,"path":"folders/Main Menu/Pause/Obj_pause/Settings.yy",},
     {"name":"spr_pause","order":21,"path":"folders/Main Menu/Pause/spr_pause.yy",},
     {"name":"sprites","order":17,"path":"folders/Main Menu/Pause/sprites.yy",},
@@ -140,7 +141,6 @@
     {"name":"Font","order":1,"path":"folders/YoYo Extensions Assets/Font.yy",},
     {"name":"Objects","order":2,"path":"folders/YoYo Extensions Assets/Objects.yy",},
     {"name":"Sprites","order":3,"path":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"name":"Audio","order":10,"path":"folders/Main Menu/Pause/Obj_pause/Audio.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_vokzal_man_2_R","order":9,"path":"sprites/spr_vokzal_man_2_R/spr_vokzal_man_2_R.yy",},

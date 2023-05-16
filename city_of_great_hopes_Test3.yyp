@@ -119,6 +119,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obj Menu","folderPath":"folders/Main Menu/Obj Menu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pause","folderPath":"folders/Main Menu/Pause.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obj_pause","folderPath":"folders/Main Menu/Pause/Obj_pause.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Audio","folderPath":"folders/Main Menu/Pause/Obj_pause/Audio.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Main Menu/Pause/Obj_pause/Settings.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_pause","folderPath":"folders/Main Menu/Pause/spr_pause.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprites","folderPath":"folders/Main Menu/Pause/sprites.yy",},
@@ -405,7 +406,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/YoYo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/YoYo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Audio","folderPath":"folders/Main Menu/Pause/Obj_pause/Audio.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

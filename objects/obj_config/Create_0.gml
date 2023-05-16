@@ -9,8 +9,10 @@ target_height = 1080 // Висота GUI, при якій вона розроб�
 //global.scale_y =  target_height/global.res_height;
 global.scale_x =  global.res_width/target_width;
 global.scale_y = global.res_height/target_height;
-display_set_gui_size(target_width, target_height);//відповідає чи будуть чорні полоски чи ні
-switch(global.res_width){//змінюємо масштаб інтерфейсу залежно від розширення
+//display_set_gui_size(target_width, target_height);//відповідає чи будуть чорні полоски чи ні
+display_set_gui_size(global.res_width, global.res_height);
+display_set_gui_maximise(1,1);
+/*switch(global.res_width){//змінюємо масштаб інтерфейсу залежно від розширення
 	case 1366:
 	display_set_gui_maximise(1,1);//1366 x 768
 	break;
@@ -29,7 +31,7 @@ switch(global.res_width){//змінюємо масштаб інтерфейсу 
 	default:
 	display_set_gui_maximise(1, 1);//1680 x 1050
 	break
-}
+}*/
 
 global.screen_width = 1920
 global.screen_height = 1080

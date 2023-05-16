@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_indoor_rival_station",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rm_indoor_rival_station/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
