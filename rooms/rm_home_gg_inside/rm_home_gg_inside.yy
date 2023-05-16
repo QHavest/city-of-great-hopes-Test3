@@ -17,6 +17,7 @@
     {"name":"inst_4306CDFF","path":"rooms/rm_home_gg_inside/rm_home_gg_inside.yy",},
     {"name":"inst_27F7891E","path":"rooms/rm_home_gg_inside/rm_home_gg_inside.yy",},
     {"name":"inst_4121E433","path":"rooms/rm_home_gg_inside/rm_home_gg_inside.yy",},
+    {"name":"inst_15CC30EB","path":"rooms/rm_home_gg_inside/rm_home_gg_inside.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -37,6 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B787C28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"properties":[],"rotation":0.0,"scaleX":21.3125,"scaleY":0.25,"x":202.5,"y":124.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_273A70D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_woi_invisible_wall","path":"objects/obj_woi_invisible_wall/obj_woi_invisible_wall.yy",},"properties":[],"rotation":32.64017,"scaleX":0.25,"scaleY":2.9375,"x":358.71863,"y":102.63199,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4306CDFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mebli_gg_b","path":"objects/obj_mebli_gg_b/obj_mebli_gg_b.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":295.0,"y":45.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15CC30EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_afterFight","path":"objects/obj_afterFight/obj_afterFight.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_home_gg_inside_bad","path":"sprites/spr_home_gg_inside_bad/spr_home_gg_inside_bad.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
