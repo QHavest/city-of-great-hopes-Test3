@@ -3,6 +3,8 @@ global.res_width = display_get_width();
 global.res_height = display_get_height();
 global.aspect = global.res_width/global.res_height;
 
+window_set_cursor(cr_none); // turn-off the cursor
+
 target_width = 1920 // Ширина GUI, при якій вона розроблена
 target_height = 1080 // Висота GUI, при якій вона розроблена
 //global.scale_x =  target_width/global.res_width;

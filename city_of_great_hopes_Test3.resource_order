@@ -52,6 +52,7 @@
     {"name":"Police","order":12,"path":"folders/Objects/Center/Police.yy",},
     {"name":"Right","order":13,"path":"folders/Objects/Center/Right.yy",},
     {"name":"door_rival_station","order":21,"path":"folders/Objects/door_rival_station.yy",},
+    {"name":"Game End","order":32,"path":"folders/Objects/Game End.yy",},
     {"name":"General_objects","order":22,"path":"folders/Objects/General_objects.yy",},
     {"name":"Language","order":23,"path":"folders/Objects/Language.yy",},
     {"name":"Manager","order":24,"path":"folders/Objects/Manager.yy",},
@@ -141,7 +142,6 @@
     {"name":"Font","order":1,"path":"folders/YoYo Extensions Assets/Font.yy",},
     {"name":"Objects","order":2,"path":"folders/YoYo Extensions Assets/Objects.yy",},
     {"name":"Sprites","order":3,"path":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"name":"Game End","order":32,"path":"folders/Objects/Game End.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_vokzal_man_2_R","order":9,"path":"sprites/spr_vokzal_man_2_R/spr_vokzal_man_2_R.yy",},

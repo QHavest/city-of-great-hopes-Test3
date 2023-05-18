@@ -5,4 +5,8 @@ var cam = camera_create_view(0,0, 1920, 1080);
 view_set_camera(0, cam);
 view_set_camera(1, cam);
 obj_dim_player1.visible = 0;
-obj_dim_player2.visible = 0;
+obj_dim_player1.visible = 0;
+obj_dim_player1.x = -1000;
+obj_dim_player2.visible = -1000;
+
+audio_stop_all();

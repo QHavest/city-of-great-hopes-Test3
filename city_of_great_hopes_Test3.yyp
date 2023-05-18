@@ -169,6 +169,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FastFood","folderPath":"folders/Objects/Center/Right/FastFood.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Night","folderPath":"folders/Objects/Center/Right/Night.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"door_rival_station","folderPath":"folders/Objects/door_rival_station.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game End","folderPath":"folders/Objects/Game End.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"General_objects","folderPath":"folders/Objects/General_objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Night","folderPath":"folders/Objects/General_objects/Night.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ignor_this_is_special copies","folderPath":"folders/Objects/General_objects/Night/ignor_this_is_special copies.yy",},
@@ -406,7 +407,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/YoYo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/YoYo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game End","folderPath":"folders/Objects/Game End.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},
