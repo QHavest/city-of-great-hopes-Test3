@@ -17,6 +17,8 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		hpYtopyrok = 50;
 		amount_hp_enemy = 96;
 		}
+		var moneys = irandom_range(5,10)
+		global.money -= moneys;
 		instance_activate_object(obj_dim_player1);
 		instance_activate_object(obj_dim_player2);
 		

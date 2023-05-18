@@ -1,4 +1,5 @@
-layer_create(-999, "Sequence_bus");
+
+layer_create(depths, "Sequence_bus");
 var layerName = "Sequence_bus";
 //var seqname = 1//irandom(5);
 var seqnames = noone;

@@ -12,6 +12,7 @@ if (global.map)
 	// перехід у кімнату мапи
 	if (room != rm_mapa_new)	
 	{
+
 		room_goto(rm_mapa_new);	
 	}
 	if (but_map) 
@@ -23,8 +24,8 @@ if (global.map)
 		obj_dim_player1.y = target_y;
 		obj_dim_player2.x = target_x;
 		obj_dim_player2.y = target_y;
-		obj_dim_player1.visible = 1;
-		obj_dim_player2.visible = 1;
+		//obj_dim_player1.visible = 1;
+		//obj_dim_player2.visible = 1;
 		if (ac_pl =1)
 		{
 			obj_dim_player1.status = STATUS.ACTIVE;	

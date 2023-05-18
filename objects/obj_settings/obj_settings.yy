@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_settings_ukr_d",
-    "path": "sprites/spr_settings_ukr_d/spr_settings_ukr_d.yy",
+    "name": "spr_settings_ukr_d1",
+    "path": "sprites/spr_settings_ukr_d1/spr_settings_ukr_d1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -34,8 +34,8 @@
 			target_x = obj_dim_player2.x;
 			target_y = obj_dim_player2.y;
 		}
-		obj_dim_player1.visible = 0;
-		obj_dim_player2.visible = 0;
+		obj_dim_player1.visible = false;
+		obj_dim_player2.visible = false;
 		obj_inventory.visible = 0;
 
 

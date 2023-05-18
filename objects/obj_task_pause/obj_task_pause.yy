@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_task1_ukr2063",
-    "path": "sprites/spr_task1_ukr2063/spr_task1_ukr2063.yy",
+    "name": "spr_tasks1_ukr",
+    "path": "sprites/spr_tasks1_ukr/spr_tasks1_ukr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

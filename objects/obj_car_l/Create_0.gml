@@ -1,3 +1,4 @@
+depth = -230;
 audio_falloff_set_model(audio_falloff_linear_distance);
 myEmitter = audio_emitter_create();
 	  alarm[0] = 1;

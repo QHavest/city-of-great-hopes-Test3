@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_savings_ukr_d",
-    "path": "sprites/spr_savings_ukr_d/spr_savings_ukr_d.yy",
+    "name": "spr_savings_ukr_d1",
+    "path": "sprites/spr_savings_ukr_d1/spr_savings_ukr_d1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

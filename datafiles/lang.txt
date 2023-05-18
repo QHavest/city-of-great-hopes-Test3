@@ -8,10 +8,10 @@
 		"settings2": "Window mode",
 		"settings3": "Language",
 		"settings4": "Back",
-		"settings5": "Story Mode",
+		"settings5": "New game",
 		"settings6": "Load Game",
 		"settings7": "Settings",
-		"settings8": "Our Team",
+		"settings8": "Survey",
 		"settings9": "Exit the Game",
 
 
@@ -636,10 +636,10 @@
 		"settings2": "Режим вікна",
 		"settings3": "Мова",
 		"settings4": "Назад",
-		"settings5": "Сюжетний режим",
+		"settings5": "Нова гра",
 		"settings6": "Завантаження",
 		"settings7": "Налаштування",
-		"settings8": "Наша команда",
+		"settings8": "Опитування",
 		"settings9": "Вихід",
 
 
