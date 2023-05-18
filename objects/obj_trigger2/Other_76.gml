@@ -29,7 +29,7 @@ if event_data [? "event_type"] == "sequence event"
     break;
   
 	case "snd_batareya":
-	audio_play_sound(snd_batareya, 1, 1);
+	audio_play_sound(snd_batareya, 1, 0);
 	audio_play_sound(snd_pillow, 1, 0);
 	break;
 	
@@ -38,7 +38,7 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 	
 	case "snd_batareya_end":
-	audio_stop_sound(snd_batareya);
+	//audio_stop_sound(snd_batareya);
 	audio_stop_sound(snd_pillow);
 	break;
   

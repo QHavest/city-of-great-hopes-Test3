@@ -13,8 +13,8 @@ if(obj_dim_player2.status = STATUS.ACTIVE and place_meeting(x, y, obj_dim_player
 	}
 }
 
-if(sequence_exists(seq_scena_9_start_eng) or sequence_exists(seq_scena_9_start_ukr) or sequence_exists(seq_scena_9_1))
-{
-	help_sprite = spr_clear;
-}
-else help_sprite = spr_butt_E;
+//if(sequence_exists(seq_scena_9_start_eng) or sequence_exists(seq_scena_9_start_ukr) or sequence_exists(seq_scena_9_1))
+//{
+//	help_sprite = spr_clear;
+//}
+//else help_sprite = spr_butt_E;

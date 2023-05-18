@@ -19,9 +19,9 @@ if event_data [? "event_type"] == "sequence event"
 		layer_sequence_destroy(_seqElmi);
 		break;
 		
-		case "snd_throw":
-		audio_play_sound(snd_throwdown, 2, 0);
-		break;
+		//case "snd_throw":
+		//audio_play_sound(snd_throwdown, 2, 0);
+		//break;
 		
 		case "stop_snd_words":
 		audio_stop_sound(snd_text_words);

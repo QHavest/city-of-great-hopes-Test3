@@ -1,0 +1,1 @@
+url_open("https://store.steampowered.com/app/2323120/Great_Hopes_City/");
