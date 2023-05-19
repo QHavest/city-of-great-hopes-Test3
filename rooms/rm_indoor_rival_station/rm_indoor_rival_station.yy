@@ -51,6 +51,7 @@
     {"name":"inst_5A04DC63","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_DAB9599","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
     {"name":"inst_37639CD0","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
+    {"name":"inst_290AB9A2","path":"rooms/rm_indoor_rival_station/rm_indoor_rival_station.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -121,6 +122,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A04DC63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bench_indoor1","path":"objects/obj_bench_indoor1/obj_bench_indoor1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":65.0,"y":147.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4504D2DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bomz_1","path":"objects/obj_bomz_1/obj_bomz_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":745.0,"y":102.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69E06CE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sheva","path":"objects/obj_sheva/obj_sheva.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":56.0,"y":143.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_290AB9A2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_instace_start","path":"objects/obj_dialog_instace_start/obj_dialog_instace_start.yy",},"properties":[],"rotation":0.0,"scaleX":2.25,"scaleY":1.0,"x":743.0,"y":108.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_obj2","depth":-50,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23422B2B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rival_seller1","path":"objects/obj_rival_seller1/obj_rival_seller1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":820.0,"y":67.0,},

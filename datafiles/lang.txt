@@ -65,6 +65,14 @@
 		"Kasa7": "Sorry, we changed our minds.",
 		"Kasa8": "Again you? Better ask <<Where is the exit here?>>",
 
+		"Bomz1": "Hi guys. Don't you have an extra shirt or something to cover with?",
+		"Bomz2": "Give a few karbovanets to a decent person.",
+		"Bomz3": "Chlo... khe... KHE! Guys, haven't you seen my shoe?",
+		"Bomz4": "Romance… living without a home… I can go wherever I want. Hah... yes, and the problems with the utilities disappeared...",
+		"Bomz5": "Where can I find even a kopeck... my stomach is empty all day..",
+		"Bomz6": "Hello... I'm Oleg. Chaps... Don't buy lottery tickets... I thought at least one out of 100... Well, at least one out of 300 will win... Don't buy...",
+		"Bomz7": "Ah freedom! Here you are! Can you wake up in the morning and not go to work? And I can! My name is Stepan - I am a student.",
+
 		"Loto0": "You have no idea how easy to make money on lottery tickets!",
 		"Loto1": "Yeah, let’s try. (Give 50 kopecks)",
 		"Loto2": "Hmmm… really easy to make money…for you!",
@@ -712,6 +720,14 @@
 		"Kasa6": "Дати 5 карбованців.",
 		"Kasa7": "Ми просто цікавились.",
 		"Kasa8": "Знову ви? Поцікавтесь ліпше «де тут вихід».",
+
+		"Bomz1": "Привіт, хлопці. Ви не маєте якоїсь зайвої рубашки, чи щось щоб прикритися?",
+		"Bomz2": "Подайте кілька карбованців порядній людині.",
+		"Bomz3": "Хло… кхе… КХЕ! Хлопці, не бачили мого черевика?",
+		"Bomz4": "Романтика… жити без дому… можу йти куда хочу. Хах… да і проблеми з комуналкою відпали…",
+		"Bomz5": "Де б найти хоч капєйку… в животі дургий день пусто…",
+		"Bomz6": "Привіт… я Олег. Хлопці… Не купляйте лотерейки… Я думав з 100 хоч одна… Ну хоч одна з 300… Не купляйте…",
+		"Bomz7": "Ех свобода! Вот ви! Ви можете проснутись зранку і не йти на роботу? А я вот можу! Мене звати Степан – я студент.",
 
 		"Loto0": "Ви навіть не уявляєте, як легко заробити на лотерейних білетах!",
 		"Loto1": "Да, давайте. (Дать 50 копійок)",
