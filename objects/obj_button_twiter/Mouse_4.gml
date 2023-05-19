@@ -1,0 +1,1 @@
+url_open("https://twitter.com/GreatHopesCity?t=b0b1PRgetBcbj1mC7GANiQ&s=09");

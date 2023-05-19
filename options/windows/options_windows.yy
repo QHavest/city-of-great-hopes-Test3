@@ -9,7 +9,7 @@
   "option_windows_copyright_info": "Stellarium.Gaming",
   "option_windows_description_info": "Stellarium.Gaming",
   "option_windows_disable_sandbox": false,
-  "option_windows_display_cursor": false,
+  "option_windows_display_cursor": true,
   "option_windows_display_name": "Great Hopes City",
   "option_windows_enable_steam": false,
   "option_windows_executable_name": "${project_name}.exe",

@@ -27,6 +27,12 @@ switch(room)
 		//surface_resize(application_surface, global.res_width, global.res_height);
 	break;
 	
+	case rm_end:
+		window_set_size(1920, 1080);
+		surface_resize(application_surface,1920,1080);
+		display_set_gui_size(1920, 1080);
+	break;
+	
 	case rm_street_second_side:
 		case rm_south:
 		case rm_home_gg:

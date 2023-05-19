@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_batareya.wav",
   "type": 1,
-  "volume": 0.5,
+  "volume": 0.07,
 }
