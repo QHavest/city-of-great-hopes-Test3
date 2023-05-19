@@ -1,1 +1,1 @@
-text_id="Barugi_fur";
+text_id="Clother_sell";
