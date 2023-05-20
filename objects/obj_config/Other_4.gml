@@ -1,5 +1,10 @@
 switch(room)
 {
+	case testing_room:
+		window_set_size(1920, 1080);
+		surface_resize(application_surface,1920,1080);
+		display_set_gui_size(1920, 1080);
+	break;
 	case rm_main_menu:
 		view_enabled = true;
 		//view_visible[0] = true;
