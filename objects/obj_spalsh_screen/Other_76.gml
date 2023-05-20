@@ -4,7 +4,8 @@ if event_data [? "event_type"] == "sequence event"
   {
 	case "pause_splash":
 	layer_sequence_pause(seqs);
-	//texturegroup_load("Default");
+	texturegroup_load("Default");
+	layer_sequence_play(seqs);
     break;
 	
 	case "splash_destroy":

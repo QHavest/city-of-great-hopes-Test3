@@ -264,6 +264,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player_snd","folderPath":"folders/Sounds/Player_snd.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"rooms_sounds","folderPath":"folders/Sounds/rooms_sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Warp","folderPath":"folders/Sounds/Warp.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SplashScreen","folderPath":"folders/SplashScreen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animals","folderPath":"folders/Sprites/Animals.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bazar_new","folderPath":"folders/Sprites/Bazar_new.yy",},
@@ -407,7 +408,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/YoYo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/YoYo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SplashScreen","folderPath":"folders/SplashScreen.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"lang.txt","CopyToMask":-1,"filePath":"datafiles",},

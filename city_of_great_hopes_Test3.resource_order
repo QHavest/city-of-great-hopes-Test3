@@ -83,6 +83,7 @@
     {"name":"Shopping","order":26,"path":"folders/Shopping.yy",},
     {"name":"Sounds","order":27,"path":"folders/Sounds.yy",},
     {"name":"Warp","order":2,"path":"folders/Sounds/Warp.yy",},
+    {"name":"SplashScreen","order":44,"path":"folders/SplashScreen.yy",},
     {"name":"Sprites","order":28,"path":"folders/Sprites.yy",},
     {"name":"Animals","order":4,"path":"folders/Sprites/Animals.yy",},
     {"name":"Bazar_new","order":5,"path":"folders/Sprites/Bazar_new.yy",},
@@ -142,7 +143,6 @@
     {"name":"Font","order":1,"path":"folders/YoYo Extensions Assets/Font.yy",},
     {"name":"Objects","order":2,"path":"folders/YoYo Extensions Assets/Objects.yy",},
     {"name":"Sprites","order":3,"path":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"name":"SplashScreen","order":44,"path":"folders/SplashScreen.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_vokzal_man_2_R","order":9,"path":"sprites/spr_vokzal_man_2_R/spr_vokzal_man_2_R.yy",},
