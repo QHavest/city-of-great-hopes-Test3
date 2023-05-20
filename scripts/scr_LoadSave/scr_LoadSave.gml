@@ -228,6 +228,7 @@ function load_game(_fileNum = 0){
 	instance_create_depth(0, 0, 0, obj_diary);
 	instance_create_depth(0, 0, 0, obj_sound_emmiter_3d);
 	instance_create_depth(0, 0, 0, obj_Battle_Interface);
+	instance_create_depth(0, 0, 0, obj_mp_manager);
 	
 	//create the player object
 	if instance_exists(obj_dim_player1) {instance_destroy(obj_dim_player1);};

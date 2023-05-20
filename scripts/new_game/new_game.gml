@@ -23,4 +23,31 @@ function new_game(){
 		alarm[0] = 1;
 	}
 	
+global.res_width = display_get_width();
+global.res_height = display_get_height();
+global.aspect = global.res_width/global.res_height;
+global.screen_width = 1920
+global.screen_height = 1080
+global.shop = false
+global.dialog_end = 1;
+global.fullscreen = 1;
+global.rezolution = 1;
+global.master = 0.5;
+global.sequence = 0;
+global.task = 0;
+global.noRest = 0;
+global.boss = 0;
+global.money = 20;
+global.diary = false;
+global.dialog_end = 1;
+global.shop = false;
+global.battle = false;
+global.certificate =0;
+global.item_bought = false;
+global.dialogue_move = false;
+global.zaniatui = false;
+global.day = 1;
+
+
+	
 }
