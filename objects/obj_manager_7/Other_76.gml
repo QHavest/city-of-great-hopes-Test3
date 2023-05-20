@@ -96,6 +96,7 @@ if event_data [? "event_type"] == "sequence event"
 	instance_activate_object(obj_left_lamp_night);
 	obj_dim_player1.InRoomMode = false;
 	obj_dim_player2.InRoomMode = false;
+	scr_saving_1();
 	room_restart();
 	//scr_saving_1();
     break;

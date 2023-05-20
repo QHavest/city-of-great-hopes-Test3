@@ -126,26 +126,15 @@ function save_game(_fileNum = 0){
 	{
 		exit;
 	}
-	mainTask = global.task;
-	saveHour = current_hour;
-	saveMin = current_minute;
-	
-	saveDay = current_day;
-	saveMonth = current_month;
-	
+	obj_loading.mainTask = global.task;
+
 	with(daycycle)
 	{
 		hours2 = hours;
 		minutes2 = minutes;
 		seconds2 = seconds;
 	}
-	
-	if(saveHour < 10) saveHour = "0" + string(saveHour);
-	if(saveMin < 10) saveMin = "0" + string(saveMin);
-	
-	if(saveDay < 10) saveDay = "0" + string(saveDay);
-	if(saveMonth < 10) saveMonth = "0" + string(saveMonth);
-	
+
 	var _saveArray = array_create(0);
 	//_saveInv = array_create(9);
 	
@@ -167,7 +156,6 @@ function save_game(_fileNum = 0){
 	
 	global.statData.money = global.money;
 	global.statData.save_inv = _saveInv;
-	
 	
 	array_push(_saveArray, global.statData);
 	
@@ -233,6 +221,13 @@ function load_game(_fileNum = 0){
 	room_goto(_loadRoom);
 	scr_music_fon_change(_loadRoom);
 	obj_loading.SkipRoomSave = true;
+	
+	instance_create_depth(0, 0, 0, obj_inventory);
+	instance_create_depth(0, 0, 0, daycycle);
+	instance_create_depth(0, 0, 0, Settings);
+	instance_create_depth(0, 0, 0, obj_diary);
+	instance_create_depth(0, 0, 0, obj_sound_emmiter_3d);
+	instance_create_depth(0, 0, 0, obj_Battle_Interface);
 	
 	//create the player object
 	if instance_exists(obj_dim_player1) {instance_destroy(obj_dim_player1);};
