@@ -16,7 +16,7 @@ if (playernum == 2) {
 	//walk
 	if (run == 0 and (distance_to_object(obj_dim_player1.posX[15]) > 45) and (distance_to_object(obj_dim_player1.posY[1]) > 1) ) 
 	{ 
-		mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[10]+5, 2.5, false);
+		mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[10], 2.5, false);
 	}
 	//run
 	if (run == 1 and distance_to_object(obj_dim_player1.posX[15]) > 20)
@@ -28,7 +28,7 @@ else if(playernum == 1){
 	//walk
 	if (run == 0 and (distance_to_object(obj_dim_player2.posX[15]) > 45) and (distance_to_object(obj_dim_player2.posY[1]) > 1) ) 
 	{
-		mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[10]+5, 2.5, false);
+		mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[10], 2.5, false);
 	}
 	//run
 	if (run == 1 and distance_to_object(obj_dim_player2.posX[15]) > 20){
