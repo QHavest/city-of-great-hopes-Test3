@@ -26,6 +26,15 @@ speaker[page_number] = active_speaker;
 // присвоєння спрайтів співрозмовників
 speaker1[page_number] =argument[2];
 speaker2[page_number] =argument[3];	
+// автоматично розвертаю іконки
+switch(speaker2[page_number]){
+	case spr_ic_Ytopurok:
+	speaker2[page_number] = spr_ic_Ytopurok_l;
+	break
+	case spr_ic_Krus:
+	speaker2[page_number] = spr_ic_Krus_l;
+	break
+}
 page_number++;
 if (argument_count=5)
 {

@@ -339,6 +339,7 @@
     {"name":"obj_seq_sekt3","order":4,"path":"objects/obj_seq_sekt3/obj_seq_sekt3.yy",},
     {"name":"seq_car_ride_l","order":22,"path":"sequences/seq_car_ride_l/seq_car_ride_l.yy",},
     {"name":"spr_ic_kavkaz2_r","order":3,"path":"sprites/spr_ic_kavkaz2_r/spr_ic_kavkaz2_r.yy",},
+    {"name":"spr_ic_bomz_1","order":16,"path":"sprites/spr_ic_bomz_1/spr_ic_bomz_1.yy",},
     {"name":"spr_darkarr","order":3,"path":"sprites/spr_darkarr/spr_darkarr.yy",},
     {"name":"obj_door_to_indoor_kalinky_boss","order":3,"path":"objects/obj_door_to_indoor_kalinky_boss/obj_door_to_indoor_kalinky_boss.yy",},
     {"name":"scr_transition_loc","order":3,"path":"scripts/scr_transition_loc/scr_transition_loc.yy",},
