@@ -1,1 +1,1 @@
-part_particles_clear(weather);
+part_system_clear(weather);
