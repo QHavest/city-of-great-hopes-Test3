@@ -331,6 +331,13 @@
 		"Clother_sell1":"Lads, I see you are fashionable! Look at my selection of clothes!",
 		"Clother_sell2":"Adidos! In a stripe, in two stripes, and even in three stripes! I will sew you another one if you buy the whole set!",
 
+		"Baz_buyers1": "What to buy? I need to think…",
+		"Baz_buyers2": "Where do they sell souvenirs here...",
+		"Baz_buyers3": "The main thing is not to spend more than I planned...",
+		"Baz_buyers4": "Oh no, my wallet was stolen?! Guys, haven't you seen him?",
+		"Baz_buyers5": "God, children are so picky, they don't eat carrots!",
+		"Baz_buyers6": "I want to buy something for dinner, what do I need for soup?",
+
 		"Muter with boi1": "Let me  pas! Can't you see - I'm with a child!",
 
 		"Zinki1": "Haven't you see my baby? Ah... Children! Children!!!",
@@ -978,6 +985,13 @@
 
 		"Pulup_kalum1": "Хлопці! Хлопці! Підходьте, купуйте чайний сервіз. Беріть самовар! З таким Самоваром будь яка дівчина погодиться прийти в гості на чай!",
 		"Pulup_kalum2": "Дорого купляю, дешево продаю! Стеклотара! Посуд. Продаю та купляю!",
+
+		"Baz_buyers1": "Так… щоб такого придбати. Треба подумати…",
+		"Baz_buyers2": "Де ж тут продають сувеніри…",
+		"Baz_buyers3": "Головне не витратити більше, ніж планувалось…",
+		"Baz_buyers4": "О ні, невже мій гаманець вкрали?! Хлопці ви його не бачили?",
+		"Baz_buyers5": "Боже, діти такі перебірливі, моркву не їдять!",
+		"Baz_buyers6": "Хочу купити щось на вечерю, що там треба на супчик?",
 
 		"Muter with boi1": "Дай пройти! Не бачиш – я з дитиною!",
 		"Muter with boi2": "Розійдіться! Я спішу, магазин скоро закриється, а в мене цілий список покупок!",

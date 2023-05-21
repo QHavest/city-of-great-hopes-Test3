@@ -879,11 +879,35 @@ case "Muter with boi":
 	break
 	}
 break
+#region (Baz_buyers)
+case"Baz_buyers":
+	switch(irandom_range(1,6)){
+		case 1:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers1"),2,argument[2],argument[1]);
+		break
+		case 2:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers2"),2,argument[2],argument[1]);
+		break
+		case 3:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers3"),2,argument[2],argument[1]);
+		break
+		case 4:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers4"),2,argument[2],argument[1]);
+		break
+		case 5:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers5"),2,argument[2],argument[1]);
+		break
+		case 6:
+			scr_text(scr_json_lang(global.LANGUAGE,"Baz_buyers6"),2,argument[2],argument[1]);
+		break
+}	
+break
 
+#endregion
 // жителі
 #region (Zinki) ins
 case"Zinki":
-switch(irandom_range(1,6)){
+switch(irandom_range(1,5)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Zinki1"),2,argument[2],argument[1]);
 			break
@@ -1202,6 +1226,7 @@ switch(irandom_range(1,4)){
 }	
 break
 #endregion
+// Тухлянка
 #region (Tamara)
 case"Tamara":
 	scr_text(scr_json_lang(global.LANGUAGE,"Tamara1"),2,spr_ic_Krus,spr_ic_Tamara_fulupivna);
@@ -1297,6 +1322,7 @@ switch(irandom_range(1,4)){
 }	
 break
 #endregion
+// угрупування
 #region(Skinhead)
 case"Skinhead":
 switch(irandom_range(1,4)){
