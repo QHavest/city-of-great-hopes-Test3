@@ -10,14 +10,13 @@ if (!in_sequence){
 	keydown  =  keyboard_check(ord("S")) && place_free(x,y + collisionSpeed);
 	key_room_go = keyboard_check(ord("E"))
 }
-
 if(global.dialogue_move or global.zaniatui or global.shop or global.diary) exit;
 
 if (playernum == 2) {
 	//walk
-	if (run == 0 and distance_to_object(obj_dim_player1) > 45 ) 
+	if (run == 0 and (distance_to_object(obj_dim_player1.posX[15]) > 45) and (distance_to_object(obj_dim_player1.posY[1]) > 1) ) 
 	{ 
-		mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[8], walkspd, false);
+		mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[3], 2.5, false);
 	}
 	//run
 	if (run == 1 and distance_to_object(obj_dim_player1.posX[15]) > 20)
@@ -27,9 +26,9 @@ if (playernum == 2) {
 	}}
 else if(playernum == 1){
 	//walk
-	if (run == 0 and distance_to_object(obj_dim_player2) > 45 ) 
+	if (run == 0 and (distance_to_object(obj_dim_player2.posX[15]) > 45) and (distance_to_object(obj_dim_player2.posY[1]) > 1) ) 
 	{
-		mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[8], walkspd, false);
+		mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[3], 2.5, false);
 	}
 	//run
 	if (run == 1 and distance_to_object(obj_dim_player2.posX[15]) > 20){
