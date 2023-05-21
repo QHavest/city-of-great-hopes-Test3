@@ -1,5 +1,6 @@
-if(daycycle.night == false)
+if(daycycle.night == false and global.sekta == true)
 {
+	global.sekta = false;
 	var playerInst2 = instance_find(obj_dim_player2,0);
 	var playerInst1= instance_find(obj_dim_player1, 0);
 	

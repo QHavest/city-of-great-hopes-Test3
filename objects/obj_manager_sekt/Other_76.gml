@@ -27,11 +27,7 @@ if event_data [? "event_type"] == "sequence event"
 		view_set_camera(1, regCam2);
 		global.shop = false;
 		layer_sequence_destroy(seq5);
-	
-		//obj_Battle_Interface.battle_start = true;
-		//obj_Battle_Interface.enemies = ENEMY.Sectants
-		//scr_music_fon_change(Room61);
-		//room_goto(Room61);
+		
     break;
 	
     case "delete2":
@@ -43,9 +39,8 @@ if event_data [? "event_type"] == "sequence event"
 		view_set_camera(1, regCam2);
 		global.shop = false;
 		layer_sequence_destroy(seq5_2);
+		room_restart();
     break;
-	
-
 
   }
 }

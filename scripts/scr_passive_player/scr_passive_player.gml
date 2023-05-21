@@ -16,7 +16,7 @@ if(global.dialogue_move or global.zaniatui or global.shop or global.diary) exit;
 if (playernum == 2) {
 	//walk
 	if (run == 0 and distance_to_object(obj_dim_player1) > 45 ) 
-	{ 
+	{
 		mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[8], walkspd, false);
 	}
 	//run
