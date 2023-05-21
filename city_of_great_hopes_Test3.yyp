@@ -720,6 +720,7 @@
     {"id":{"name":"sp_smak_dutunstva","path":"sprites/sp_smak_dutunstva/sp_smak_dutunstva.yy",},},
     {"id":{"name":"obj_dim_textbox","path":"objects/obj_dim_textbox/obj_dim_textbox.yy",},},
     {"id":{"name":"spr_tires_south3","path":"sprites/spr_tires_south3/spr_tires_south3.yy",},},
+    {"id":{"name":"snd_theme_splash","path":"sounds/snd_theme_splash/snd_theme_splash.yy",},},
     {"id":{"name":"spr_windowmode_eng_d_act","path":"sprites/spr_windowmode_eng_d_act/spr_windowmode_eng_d_act.yy",},},
     {"id":{"name":"obj_left_lamp","path":"objects/obj_left_lamp/obj_left_lamp.yy",},},
     {"id":{"name":"spr_south_home","path":"sprites/spr_south_home/spr_south_home.yy",},},

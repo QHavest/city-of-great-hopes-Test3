@@ -207,6 +207,7 @@
     {"name":"snd_run_3","order":3,"path":"sounds/snd_run_3/snd_run_3.yy",},
     {"name":"spr_male_010_WL","order":7,"path":"sprites/spr_male_010_WL/spr_male_010_WL.yy",},
     {"name":"obj_manager_pause","order":6,"path":"objects/obj_manager_pause/obj_manager_pause.yy",},
+    {"name":"snd_theme_splash","order":7,"path":"sounds/snd_theme_splash/snd_theme_splash.yy",},
     {"name":"spr_krus_wakeup","order":19,"path":"sprites/spr_krus_wakeup/spr_krus_wakeup.yy",},
     {"name":"spr_butt_Q","order":11,"path":"sprites/spr_butt_Q/spr_butt_Q.yy",},
     {"name":"obj_player_2_7_dial","order":3,"path":"objects/obj_player_2_7_dial/obj_player_2_7_dial.yy",},

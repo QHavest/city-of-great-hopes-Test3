@@ -14,11 +14,14 @@
     "resourceVersion": "1.0",
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+              "music_stop",
+            ],},},"Disabled":false,"id":"b9024bbf-9b2c-4e3d-a7dc-465d613dcb42","IsCreationKey":false,"Key":24.0,"Length":1.0,"Stretch":false,},
+      {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause_splash",
-            ],},},"Disabled":false,"id":"7776eebc-bb46-4a9e-8584-bfe451b47725","IsCreationKey":false,"Key":31.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"ccd4ce07-c9e1-49e0-a43c-dc1e6d8fdcd9","IsCreationKey":false,"Key":32.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "splash_destroy",
-            ],},},"Disabled":false,"id":"02798495-8e68-44d4-90bd-7cd84749c013","IsCreationKey":false,"Key":36.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"6fbec363-25a7-40c5-a641-f7b57835b154","IsCreationKey":false,"Key":37.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,
@@ -42,6 +45,16 @@
   "spriteId": null,
   "timeUnits": 1,
   "tracks": [
+    {"resourceType":"GMAudioTrack","resourceVersion":"1.1","name":"snd_theme_splash","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AudioKeyframe>","resourceVersion":"1.0","Keyframes":[
+          {"resourceType":"Keyframe<AudioKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AudioKeyframe","resourceVersion":"1.0","Id":{"name":"snd_theme_splash","path":"sounds/snd_theme_splash/snd_theme_splash.yy",},"Mode":0,},},"Disabled":false,"id":"7e016e2c-fd03-4042-806a-369e920a025f","IsCreationKey":false,"Key":0.0,"Length":34.615417,"Stretch":false,},
+        ],},"modifiers":[],"trackColour":4294069832,"tracks":[
+        {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"position","builtinName":14,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
+              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"7edda39e-49c4-4608-9778-3b69e9189c26","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},
+            ],},"modifiers":[],"trackColour":4294069832,"tracks":[],"traits":0,},
+        {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"rotation","builtinName":8,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
+              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"4c60fb27-9fbb-4cbe-b05d-57b1dfc04974","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},
+            ],},"modifiers":[],"trackColour":4294069832,"tracks":[],"traits":0,},
+      ],"traits":0,},
     {"resourceType":"GMInstanceTrack","resourceVersion":"1.0","name":"obj_splash","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"1.0","Keyframes":[
           {"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetInstanceKeyframe","resourceVersion":"1.0","Id":{"name":"obj_splash","path":"objects/obj_splash/obj_splash.yy",},},},"Disabled":false,"id":"71a72c41-694c-48db-8149-a53c57f9f78b","IsCreationKey":false,"Key":0.0,"Length":26.0,"Stretch":false,},
         ],},"modifiers":[],"trackColour":4291424840,"tracks":[
