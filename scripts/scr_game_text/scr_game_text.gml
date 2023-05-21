@@ -1740,6 +1740,7 @@ case "throw3":
 	layer_sequence_destroy(obj_manager_sekt.seq5);
 	obj_Battle_Interface.battle_start = true;
 	obj_Battle_Interface.enemies = ENEMY.Sectants
+	//obj_Battle_Interface.activation_seq_sect++;
 	scr_music_fon_change(Room61);
 	room_goto(Room61);
 break;

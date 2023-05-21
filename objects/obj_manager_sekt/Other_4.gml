@@ -1,4 +1,4 @@
-if(daycycle.night == false)
+if(daycycle.night == false and obj_Battle_Interface.activation_seq_sect == 0)
 {
 	var playerInst2 = instance_find(obj_dim_player2,0);
 	var playerInst1= instance_find(obj_dim_player1, 0);
@@ -25,6 +25,5 @@ if(daycycle.night == false)
 
 	obj_dim_player1.x = 0;
 	obj_dim_player2.x = 0;
-	
 	seq_num = 1;
 }

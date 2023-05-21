@@ -2,6 +2,7 @@ battle_start = false;
 hpKrys = 50;
 hpYtopyrok = 50; 
 //global.MaxHp = hpKrys+hpYtopyrok
+//activation_seq_sect = 0;
 light_bi = 0; // мерехтілка вимкнена
 battle_turn_down = false;
 phase_battle = 0;

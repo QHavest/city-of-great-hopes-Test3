@@ -8,5 +8,5 @@ obj_dim_player1.visible = 0;
 obj_dim_player1.visible = 0;
 obj_dim_player1.x = -1000;
 obj_dim_player2.visible = -1000;
-
+obj_inventory.visible = 0;
 audio_stop_all();

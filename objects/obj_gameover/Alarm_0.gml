@@ -45,7 +45,23 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 		}}
 		instance_activate_object(obj_inventory);
 		instance_activate_object(Settings);
-		room_goto(rm_home_gg_inside);
+		
+		switch(obj_Battle_Interface.enemies){
+			case ENEMY.Kavkazci :
+				room_goto(rm_home_gg_inside);
+			break;
+			case ENEMY.Sectants :
+				room_goto(rm_home_gg_inside);
+			break;
+			case ENEMY.Hopniki :
+				room_goto(rm_end);
+			break;
+			case ENEMY.Narkomany :
+				room_goto(rm_home_gg_inside);
+			break;
+			}
+		
+
 	}
 instance_destroy();
 	

@@ -3,7 +3,7 @@ case ENEMY.Hopniki:
 break;
 case ENEMY.Kavkazci:
 instance_deactivate_object(obj_mini_avatar);
-obj_Battle_Interface.phase_battle = PHASES.Defence;
+obj_Battle_Interface.phase_battle = PHASES.Atack;
 instance_destroy(obj_sssr);
 instance_destroy(obj_sssrs);
 break;
