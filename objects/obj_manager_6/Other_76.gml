@@ -49,8 +49,10 @@ if event_data [? "event_type"] == "sequence event"
 	{
 		part_system_depth(weather, -1000);
 	}
+	layer_destroy("Cutcenes");
 	scr_saving_1();
-	room_restart();
+	hint = true;
+	//room_restart();
     break;
   }
 }

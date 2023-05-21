@@ -53,11 +53,11 @@ sprit="Ytopurok";
 // анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
 
 
-if (y!=yprevious && lastmove==0 ) {sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right_new1");}
-if (y!=yprevious && lastmove==1 ) {sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left_new1");}
+if (y!=yprevious && lastmove==0) {sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right_new1");}
+if (y!=yprevious && lastmove==1) {sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left_new1");}
 
 if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right_new1");
-lastmove = 0; }
+lastmove = 0;}
 if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left_new1");
 lastmove = 1;}	
 

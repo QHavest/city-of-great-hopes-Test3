@@ -52,6 +52,7 @@ if event_data [? "event_type"] == "sequence event"
 	instance_activate_object(obj_pr_spr_change_outside_viewport);
 	obj_dim_player1.InRoomMode = false;
 	obj_dim_player2.InRoomMode = false;
+	scr_saving_1();
     break;
   }
 }

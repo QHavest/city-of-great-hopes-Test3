@@ -493,6 +493,7 @@ if (esc_pau)
 			layer_sequence_destroy(sequence_id);
 			layer_destroy(layerName);
 			instance_activate_all();
+			part_system_depth(daycycle.weather, -1000);
 		}
 		else page = menu_page.main;
 		
@@ -501,6 +502,7 @@ if (esc_pau)
 else{
 if (esc_pau) and !global.map and !global.shop
 	{
+		part_system_depth(daycycle.weather, 1000);
 		global.pause = !global.pause;
 		inputting = false;
 		//if(!global.pause) exit;

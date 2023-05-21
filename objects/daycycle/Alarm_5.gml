@@ -7,3 +7,4 @@
 
 fog_exit = true;
 start_new = false;
+alarm[6] = 25 * 30;

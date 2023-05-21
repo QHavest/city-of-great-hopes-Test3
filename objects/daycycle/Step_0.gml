@@ -78,7 +78,7 @@ if(fogNum > 230 and fog_or_not == true)
 	fogNum -= 50;
 	alarm[4] = 60;
 }
-if(!sequence_exists(seq_scena_6))
+if(global.task != 0.5)
 {
 	if(scr_rooms_variables(room, 3) == false)	part_system_depth(weather, -1000);
 	if(scr_rooms_variables(room, 3) == true)	part_system_depth(weather, 1000);
