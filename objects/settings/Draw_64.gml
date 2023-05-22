@@ -480,7 +480,7 @@ yy = 0; repeat(ds_height){
 }
 
 draw_set_valign(fa_top);
-if (esc_pau)
+/*if (esc_pau)
 	{
 		if(settings_savings == true)
 		{
@@ -497,7 +497,7 @@ if (esc_pau)
 		}
 		else page = menu_page.main;
 		
-	}
+	}*/
 } 
 else{
 if (esc_pau) and !global.map and !global.shop
