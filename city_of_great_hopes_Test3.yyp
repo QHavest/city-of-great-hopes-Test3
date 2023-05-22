@@ -2115,6 +2115,7 @@
     {"id":{"name":"Sequence1_Events82","path":"scripts/Sequence1_Events82/Sequence1_Events82.yy",},},
     {"id":{"name":"spr_krus_narkoman_defeat_2","path":"sprites/spr_krus_narkoman_defeat_2/spr_krus_narkoman_defeat_2.yy",},},
     {"id":{"name":"sp_oseledec_eng","path":"sprites/sp_oseledec_eng/sp_oseledec_eng.yy",},},
+    {"id":{"name":"spr_box_container1","path":"sprites/spr_box_container1/spr_box_container1.yy",},},
     {"id":{"name":"spr_seller_watermelon","path":"sprites/spr_seller_watermelon/spr_seller_watermelon.yy",},},
     {"id":{"name":"spr_money_battle","path":"sprites/spr_money_battle/spr_money_battle.yy",},},
     {"id":{"name":"spr_clumbe_school","path":"sprites/spr_clumbe_school/spr_clumbe_school.yy",},},

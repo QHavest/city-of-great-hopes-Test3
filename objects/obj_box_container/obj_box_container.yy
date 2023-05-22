@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_box_container",
-    "path": "sprites/spr_box_container/spr_box_container.yy",
+    "name": "spr_box_container1",
+    "path": "sprites/spr_box_container1/spr_box_container1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

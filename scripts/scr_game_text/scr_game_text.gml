@@ -1062,6 +1062,18 @@ scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_ty
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),1,spr_ic_Krus,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	// ПОДАРУНОК КОНСЕРВ!!!
+		for (var i = 0; i < 11; i++){
+		if(global.ds_inventory[# 0, i] = 0){
+			global.ds_inventory[# 0, i] = 12;
+			break;
+			}
+		}
+	for (var i = 0; i < 11; i++){
+		if(global.ds_inventory[# 0, i] = 0){
+			global.ds_inventory[# 0, i] = 12;
+			break;
+			}
+	}
 		scr_option(scr_json_lang(global.LANGUAGE,"Stiopa12"),"By_Stiopa");
 		scr_option(scr_json_lang(global.LANGUAGE,"Stiopa14"),"Kinec_Stiopa");
 }
