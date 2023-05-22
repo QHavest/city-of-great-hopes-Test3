@@ -227,9 +227,12 @@ if global.zn_Yvasia_na=0{
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia7"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia8"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Vasia9"),2,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
-	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);}
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia10"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+	}
 else
-scr_text(scr_json_lang(global.LANGUAGE,"Vasia11"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+{
+	scr_text(scr_json_lang(global.LANGUAGE,"Vasia11"),1,spr_ic_afroYvasia_na,spr_ic_Ytopurok_l);
+}
 break
 #endregion
 #region (Gogi)
@@ -747,26 +750,29 @@ case"Anton":
 		break		
 #endregion
 #region (Barugi) ins
-case "Barugi":
-switch(irandom_range(1,6)){
+case "Barugi1":
+switch(irandom_range(1,3)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,argument[2],argument[1]);
 			break
 			case 2:
-		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,argument[2],argument[1]);
-			break
-			case 3:
 		scr_text(scr_json_lang(global.LANGUAGE,"Barugi3"),2,argument[2],argument[1]);
 			break
-			case 4:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,argument[2],argument[1]);
-			break
-			case 5:
-			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,argument[2],argument[1]);
-			break
-			case 6:
+			case 3:
 			scr_text(scr_json_lang(global.LANGUAGE,"Barugi6"),2,argument[2],argument[1]);
 			break
+}	
+break
+case "Barugi3":
+switch(irandom_range(1,3)){
+			case 1:
+		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,argument[2],argument[1]);
+			break
+			case 2:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi4"),2,argument[2],argument[1]);
+			break
+			case 3:
+			scr_text(scr_json_lang(global.LANGUAGE,"Barugi5"),2,argument[2],argument[1]);
 }	
 break
 #endregion
@@ -861,7 +867,7 @@ scr_text(scr_json_lang(global.LANGUAGE,"Velo_seller5"),1,spr_ic_Krus,spr_ic_sell
 break
 #endregion
 case"Sadovod":
-scr_text(scr_json_lang(global.LANGUAGE,"Sadovod1"),1,argument[2],argument[1]);
+scr_text(scr_json_lang(global.LANGUAGE,"Sadovod1"),2,argument[2],argument[1]);
 break
 
 #region(Pulup_kalum) ins
