@@ -11,12 +11,12 @@ with(daycycle)
 
 var playerInst1 = instance_find(obj_dim_player1,0);
 var playerInst2 = instance_find(obj_dim_player2,0);
-var objInst1 = instance_find(obj_home,0);
-var objInst2 = instance_find(obj_stairs_gg,0);
-var objInst3 = instance_find(obj_dumb_small_h,0);
-var objInst4 = instance_find(obj_garage_gg,0);
-var objInst5 = instance_find(obj_garage_4,0);
-var objInst6 = instance_find(inst_F377C1A,0);
+//var objInst1 = instance_find(obj_home,0);
+//var objInst2 = instance_find(obj_stairs_gg,0);
+//var objInst3 = instance_find(obj_dumb_small_h,0);
+//var objInst4 = instance_find(obj_garage_gg,0);
+//var objInst5 = instance_find(obj_garage_4,0);
+//var objInst6 = instance_find(inst_F377C1A,0);
 var objInst7 = instance_find(inst_5ACB0010,0);
 var objInst8 = instance_find(inst_1AEB9D86,0);
 
@@ -33,12 +33,12 @@ var seqInst = layer_sequence_get_instance(seq1);
 
 sequence_instance_override_object(seqInst, obj_dim_player1,  playerInst1);
 sequence_instance_override_object(seqInst, obj_dim_player2,  playerInst2);
-sequence_instance_override_object(seqInst, obj_stairs_gg,  objInst2);
-sequence_instance_override_object(seqInst, obj_dumb_small_h,  objInst3);
-sequence_instance_override_object(seqInst, obj_garage_gg,  objInst4);
-sequence_instance_override_object(seqInst, obj_garage_4,  objInst5);
-sequence_instance_override_object(seqInst, obj_home,  objInst1);
-sequence_instance_override_object(seqInst, obj_bench2,  objInst6);
+//sequence_instance_override_object(seqInst, obj_stairs_gg,  objInst2);
+//sequence_instance_override_object(seqInst, obj_dumb_small_h,  objInst3);
+//sequence_instance_override_object(seqInst, obj_garage_gg,  objInst4);
+//sequence_instance_override_object(seqInst, obj_garage_4,  objInst5);
+//sequence_instance_override_object(seqInst, obj_home,  objInst1);
+//sequence_instance_override_object(seqInst, obj_bench2,  objInst6);
 sequence_instance_override_object(seqInst, Obj_light_wide_short,  objInst7);
 sequence_instance_override_object(seqInst, obj_light_wide_m,  objInst8);
 }

@@ -1,12 +1,12 @@
 {
   "resourceType": "GMSequence",
   "resourceVersion": "1.4",
-  "name": "seq_afterFight",
+  "name": "seq_toMenu",
   "autoRecord": true,
-  "backdropHeight": 768,
+  "backdropHeight": 1080,
   "backdropImageOpacity": 0.5,
   "backdropImagePath": "",
-  "backdropWidth": 1366,
+  "backdropWidth": 1920,
   "backdropXOffset": 0.0,
   "backdropYOffset": 0.0,
   "events": {
@@ -14,8 +14,8 @@
     "resourceVersion": "1.0",
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-              "destroy",
-            ],},},"Disabled":false,"id":"4aac7227-1fe7-4558-81af-6972f9fcbada","IsCreationKey":false,"Key":56.0,"Length":1.0,"Stretch":false,},
+              "end",
+            ],},},"Disabled":false,"id":"adaf7502-bbc5-43a2-84d0-35799ee5366c","IsCreationKey":false,"Key":58.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,
@@ -43,9 +43,8 @@
           {"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetSpriteKeyframe","resourceVersion":"1.0","Id":{"name":"spr_dark","path":"sprites/spr_dark/spr_dark.yy",},},},"Disabled":false,"id":"5f64ee5c-ca16-4229-8ace-32d48f142ed7","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
         ],},"modifiers":[],"trackColour":4294107976,"tracks":[
         {"resourceType":"GMColourTrack","resourceVersion":"1.0","name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<ColourKeyframe>","resourceVersion":"1.0","Keyframes":[
-              {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":4294967295,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"67fb9999-e09f-4473-a29a-e4a3689ec46a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-              {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":4294967295,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"5bddf854-5f4b-48fd-97b0-ff22500733c1","IsCreationKey":false,"Key":9.0,"Length":1.0,"Stretch":false,},
-              {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":16777215,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"052b52d7-5706-4618-b966-af6a8b83e1a9","IsCreationKey":false,"Key":45.0,"Length":1.0,"Stretch":false,},
+              {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":16777215,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"052b52d7-5706-4618-b966-af6a8b83e1a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+              {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":4294967295,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"5bddf854-5f4b-48fd-97b0-ff22500733c1","IsCreationKey":false,"Key":43.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294107976,"tracks":[],"traits":0,},
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"7bd67550-9ba4-4da2-99f6-5aebc9ea7596","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},
@@ -63,6 +62,6 @@
   ],
   "visibleRange": null,
   "volume": 1.0,
-  "xorigin": 0,
-  "yorigin": 0,
+  "xorigin": -939,
+  "yorigin": -518,
 }
