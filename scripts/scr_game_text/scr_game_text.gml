@@ -1494,6 +1494,13 @@ break
 		break
 #endregion		
 
+case "Svutsun":
+ scr_text(scr_json_lang(global.LANGUAGE,"Svutsun1"),2,spr_ic_Ytopurok,spr_ic_Krus_l);
+ scr_text(scr_json_lang(global.LANGUAGE,"Svutsun2"),1,spr_ic_Ytopurok,spr_ic_Krus_l);
+
+break
+
+
 #region (scena 6)
 case "scena_6":
   scr_text(scr_json_lang(global.LANGUAGE,"Scena61"),1,spr_ic_Ytopurok,spr_ic_Krus_l);

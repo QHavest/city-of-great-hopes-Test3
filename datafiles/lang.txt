@@ -551,6 +551,9 @@
 
 		"Myzukantu30":"Thank you very much. May the flag of red hopes fly above you!", 
 
+		"Svutsun1": "He? Your friend?",
+		"Svutsun2": "Too old. Let's go further.",
+
 		"Scena51": "Sleepdog, get up!!!",
   		"Scena52": "Oh... the neighbors woke up. Sorry!",
 		"Scena53": "Get out of your den bear!",
@@ -1203,6 +1206,10 @@
 		"Myzukantu35": "За таке гріх не кинути гроші. Граєте доволі жваво. Ціни нема композитору вашому.",
 		"Myzukantu41": "Дякую велике. Да хай майорить над вами флаг красних надєжд.",
 		
+
+		"Svutsun1": "Він? Твій друг?",
+		"Svutsun2": "Занадто старий. Шукаємо далі.",
+
 		"Scena51": "Соня, вставай!!!",
   		"Scena52": "О… сусіди проснулись. Вибачте!",
 		"Scena53": "Вилазь з своєї берлоги ведмідь!",
