@@ -62,7 +62,7 @@ switch(enemies){
 case ENEMY.Kavkazci:
 target_rm = rm_center_left;
 break;
-case ENEMY.Torchky:
+case ENEMY.Narkomany:
 target_rm = rm_street_second_side;
 break;
 
