@@ -7,13 +7,13 @@ notselected = 0;
 //items to but
 if(global.LANGUAGE = "ua"){
 items_fishery = ds_list_create();
-ds_list_add(items_fishery, ["kalmar", 0.25, 8]);
-ds_list_add(items_fishery, ["korop", 0.50, 9]);
-ds_list_add(items_fishery, ["krab", 0.30, 10]);
-ds_list_add(items_fishery, ["oseledec", 0.10, 11]);
-ds_list_add(items_fishery, ["rybni_konservy", 0.20, 12]);
-ds_list_add(items_fishery, ["shchuka", 0.40, 13]);
-ds_list_add(items_fishery, ["vuhor", 0.35, 14]);
+ds_list_add(items_fishery, ["kalmar", 5, 8]);
+ds_list_add(items_fishery, ["korop", 2, 9]);
+ds_list_add(items_fishery, ["krab", 8, 10]);
+ds_list_add(items_fishery, ["oseledec", 0.75, 11]);
+ds_list_add(items_fishery, ["rybni_konservy", 0.50, 12]);
+ds_list_add(items_fishery, ["shchuka", 3, 13]);
+ds_list_add(items_fishery, ["vuhor", 4, 14]);
 
 //items to the right and left
 items_fishery01 = ds_list_create();
@@ -27,13 +27,13 @@ ds_list_add(items_fishery01, ["shchuka01", "kalmar01"]);
 }
 if(global.LANGUAGE = "eng"){
 items_fishery = ds_list_create();
-ds_list_add(items_fishery, ["kalmar_eng", 0.25, 8]);
-ds_list_add(items_fishery, ["korop_eng", 0.50, 9]);
-ds_list_add(items_fishery, ["krab_eng", 0.30, 10]);
-ds_list_add(items_fishery, ["oseledec_eng", 0.10, 11]);
-ds_list_add(items_fishery, ["rybni_konservy_eng", 0.20, 12]);
-ds_list_add(items_fishery, ["shchuka_eng", 0.40, 13]);
-ds_list_add(items_fishery, ["vuhor_eng", 0.35, 14]);
+ds_list_add(items_fishery, ["kalmar_eng", 5, 8]);
+ds_list_add(items_fishery, ["korop_eng", 2, 9]);
+ds_list_add(items_fishery, ["krab_eng", 8, 10]);
+ds_list_add(items_fishery, ["oseledec_eng", 0.75, 11]);
+ds_list_add(items_fishery, ["rybni_konservy_eng", 0.50, 12]);
+ds_list_add(items_fishery, ["shchuka_eng", 3, 13]);
+ds_list_add(items_fishery, ["vuhor_eng", 4, 14]);
 
 //items to the right and left
 items_fishery01 = ds_list_create();
