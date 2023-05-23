@@ -1678,8 +1678,8 @@ case "scena_5_2":
 break
 
 case "scena_5_3":
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena53"),2,spr_ic_Krus,spr_ic_Ytopurok_5scena_sit);
-	scr_text(scr_json_lang(global.LANGUAGE,"Scena54"),1,spr_ic_Krus,spr_ic_Ytopurok_5scena_sit);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena53"),1,spr_ic_Krus,spr_ic_Ytopurok_5scena_sit);
+	scr_text(scr_json_lang(global.LANGUAGE,"Scena54"),2,spr_ic_Krus,spr_ic_Ytopurok_5scena_sit);
 	scr_text(scr_json_lang(global.LANGUAGE,"Scena55"),1,spr_ic_Krus, spr_ic_Ytopurok_5scena_sit);
 break
 

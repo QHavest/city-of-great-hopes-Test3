@@ -3206,6 +3206,7 @@
     {"id":{"name":"spr_ic_Zapchasti","path":"sprites/spr_ic_Zapchasti/spr_ic_Zapchasti.yy",},},
     {"id":{"name":"Obj_Steam_Global_Stats","path":"objects/Obj_Steam_Global_Stats/Obj_Steam_Global_Stats.yy",},},
     {"id":{"name":"seq_afterFight","path":"sequences/seq_afterFight/seq_afterFight.yy",},},
+    {"id":{"name":"seq_toMenu","path":"sequences/seq_toMenu/seq_toMenu.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"obj_curb_1","path":"objects/obj_curb_1/obj_curb_1.yy",},},
     {"id":{"name":"spr_bg_foodshop","path":"sprites/spr_bg_foodshop/spr_bg_foodshop.yy",},},
