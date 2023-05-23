@@ -13,4 +13,4 @@ global.dialogue_move = false;
 global.zaniatui = false;
 
 global.day = 1;
-
+scr_Znaiomstvo();

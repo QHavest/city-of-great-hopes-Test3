@@ -1,4 +1,4 @@
-scr_Znaiomstvo();
+
 mask_index = sprite_index;
 walkspd = 3;
 runspd  = 5;

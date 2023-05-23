@@ -21,6 +21,7 @@
     {"name":"inst_290009AE","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_68AFCB6C","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
     {"name":"inst_2ECBEE87","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
+    {"name":"inst_5B5AEA8E","path":"rooms/rm_tri_kalynky/rm_tri_kalynky.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -48,6 +49,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E5B20FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretar","path":"objects/obj_secretar/obj_secretar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":230.0,"y":90.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68AFCB6C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_security","path":"objects/obj_security/obj_security.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":298.0,"y":109.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2ECBEE87","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_manager_TK","path":"objects/obj_manager_TK/obj_manager_TK.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":284.0,"y":150.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B5AEA8E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialog_instace_start","path":"objects/obj_dialog_instace_start/obj_dialog_instace_start.yy",},"properties":[],"rotation":0.0,"scaleX":2.0625,"scaleY":1.0,"x":292.0,"y":114.5,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_indoor_tri_kalynky","path":"sprites/spr_indoor_tri_kalynky/spr_indoor_tri_kalynky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
