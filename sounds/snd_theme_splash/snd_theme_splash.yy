@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 22050,
   "soundFile": "snd_theme_splash.wav",
-  "type": 0,
+  "type": 1,
   "volume": 1.0,
 }

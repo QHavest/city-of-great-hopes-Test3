@@ -117,11 +117,17 @@ switch(menu_pages[page])
 				} else {obj_continues.sprite_index = spr_continue_eng_d; }
 				if (menu_option[page] == 1){
 					obj_savings.sprite_index = spr_savings_eng_d1;
+					if (input_down_p){
 					menu_option[page]++
+					menu_option[page]++
+					}
 				}/*else {obj_savings.sprite_index = spr_savings_ukr_d;}*/
 				if (menu_option[page] == 2){
 					obj_settings.sprite_index = spr_settings_eng_d1;
-					menu_option[page]++
+					if (input_up_p){
+						menu_option[page]--
+						menu_option[page]--
+						}
 				}/*else {obj_settings.sprite_index = spr_settings_ukr_d;}*/
 				if (menu_option[page] == 3){
 					obj_main_menus.sprite_index = spr_main_menu_eng_l;
@@ -138,11 +144,19 @@ switch(menu_pages[page])
 				} else {obj_continues.sprite_index = spr_continue_ukr_d; }
 				if (menu_option[page] == 1){
 					obj_savings.sprite_index = spr_savings_ukr_d1;
+					if (input_down_p){
 					menu_option[page]++
+					menu_option[page]++
+					}
+					//menu_option[page]++
 				}/*else {obj_savings.sprite_index = spr_savings_ukr_d;}*/
 				if (menu_option[page] == 2){
 					obj_settings.sprite_index = spr_settings_ukr_d1;
-					menu_option[page]++
+					if (input_up_p){
+						menu_option[page]--
+						menu_option[page]--
+						}
+					//menu_option[page]++
 				}/*else {obj_settings.sprite_index = spr_settings_ukr_d;}*/
 				if (menu_option[page] == 3){
 					obj_main_menus.sprite_index = spr_main_menu_ukr_l;
