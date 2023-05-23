@@ -500,7 +500,7 @@ if (esc_pau)
 	}
 } 
 else{
-if (esc_pau) and !global.map and !global.shop
+if (esc_pau) and !global.map and !global.shop and room != rm_end
 	{
 		part_system_depth(daycycle.weather, 1000);
 		global.pause = !global.pause;
