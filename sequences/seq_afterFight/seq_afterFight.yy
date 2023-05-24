@@ -3,10 +3,10 @@
   "resourceVersion": "1.4",
   "name": "seq_afterFight",
   "autoRecord": true,
-  "backdropHeight": 768,
+  "backdropHeight": 1080,
   "backdropImageOpacity": 0.5,
   "backdropImagePath": "",
-  "backdropWidth": 1366,
+  "backdropWidth": 1920,
   "backdropXOffset": 0.0,
   "backdropYOffset": 0.0,
   "events": {
@@ -51,13 +51,13 @@
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"7bd67550-9ba4-4da2-99f6-5aebc9ea7596","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294107976,"tracks":[],"traits":0,},
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"position","builtinName":14,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
-              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-1923.3229,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-688.5,},},"Disabled":false,"id":"dc869f6c-df39-4a88-b41f-7a7b8a24ec65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-2165.3228,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-1748.4999,},},"Disabled":false,"id":"dc869f6c-df39-4a88-b41f-7a7b8a24ec65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294107976,"tracks":[],"traits":0,},
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"rotation","builtinName":8,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"9b74f4bd-c773-4b86-a4d3-fdee79538918","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294107976,"tracks":[],"traits":0,},
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"scale","builtinName":15,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
-              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":57.17187,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":21.515625,},},"Disabled":false,"id":"ccd356d9-8e58-48e5-852f-d1379658a55d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+              {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":65.453125,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":54.64062,},},"Disabled":false,"id":"ccd356d9-8e58-48e5-852f-d1379658a55d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             ],},"modifiers":[],"trackColour":4294107976,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],

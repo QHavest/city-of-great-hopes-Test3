@@ -1,6 +1,7 @@
 if(daycycle.night == false and global.sekta == true)
 
 {
+	show_debug_message("ROOM SEKTA");
 	global.sekta = false;
 	var playerInst2 = instance_find(obj_dim_player2,0);
 	var playerInst1= instance_find(obj_dim_player1, 0);
@@ -13,7 +14,7 @@ if(daycycle.night == false and global.sekta == true)
 	layer_create(-250, "Cutscenes2");
 	var layerName = "Cutscenes2";
 
-	global.shop = true;
+	//global.shop = true;
 
 	seq5= layer_sequence_create(layerName, x,y, sequence);
 	var seqInst = layer_sequence_get_instance(seq5);

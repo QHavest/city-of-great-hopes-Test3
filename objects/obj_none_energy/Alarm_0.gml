@@ -43,6 +43,10 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
     {
     status = STATUS.ACTIVE;
     }}
-      room_goto(rm_end);
+      //room_goto(rm_end);
+	  screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
+	  draw_sprite(screenshot, 0, 0, 0);
+	  layer_create(-999, "cut");
+	  seq_AF = layer_sequence_create("cut", 0, 0, seq_toMenu);
   }
-instance_destroy();
+if(global.task != 3) instance_destroy();
