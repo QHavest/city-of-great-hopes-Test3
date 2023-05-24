@@ -15,7 +15,12 @@ if(pause == true)
 if(room == rm_tri_kalynky and global.boss == true)
 {
 	instance_activate_object(inst_68AFCB6C);
+	instance_activate_object(inst_5B5AEA8E);
 	instance_deactivate_object(inst_2CA37EEF);
 }
 
-if(!global.boss) instance_deactivate_object(inst_68AFCB6C);
+if(!global.boss) 
+{
+	instance_deactivate_object(inst_68AFCB6C);
+	instance_deactivate_object(inst_5B5AEA8E);
+}
