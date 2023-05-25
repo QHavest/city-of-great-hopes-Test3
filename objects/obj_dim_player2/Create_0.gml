@@ -11,7 +11,7 @@ s_ind = false;
 s_walk = snd_walk;
 InRoomMode = false;
 krok=0;
-
+in_step = noone;
 sprit = "Krus";
 in_place = 0;
 last_active = 0;

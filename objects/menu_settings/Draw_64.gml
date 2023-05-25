@@ -16,9 +16,9 @@ var start_y = (gheight) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
 draw_sprite_ext(spr_fon_settings,0,gwidth/2.3, gheight/2,global.scale_x*2,global.scale_y*2,0,c_white,1);
 
 var c = c_black;
-draw_sprite_ext(spr_button_menu, 0, gwidth, gheight/3.5, 1.45, 1.45, 0, c_white, 1);
+/*draw_sprite_ext(spr_button_menu, 0, gwidth, gheight/3.5, 1.45, 1.45, 0, c_white, 1);
 if(global.LANGUAGE == "eng") draw_sprite_ext(spr_settings_eng, 0, gwidth, gheight/3, 1.45, 1.45, 0, c_white, 1);
-else draw_sprite_ext(spr_settings_ukr, 0, gwidth, gheight/2.9, 1.45, 1.45, 0, c_white, 1);
+else draw_sprite_ext(spr_settings_ukr, 0, gwidth, gheight/2.9, 1.45, 1.45, 0, c_white, 1);*/
 
 draw_set_valign(fa_left);
 draw_set_halign(fa_left);

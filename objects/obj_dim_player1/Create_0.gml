@@ -10,7 +10,7 @@ InRoomMode = false;
 krok=0;
 
 ind=0;
-
+in_step = noone;
 xsd = 0;
 ysd = 0;
 // спрайти для покупок
