@@ -7,5 +7,6 @@ if(audio_is_playing(snd_svust))
 	audio_stop_sound(snd_svust);
 }
 global.dialogue_move=false;
+persistent = false;
 room_goto(rm_main_menu)
 }
