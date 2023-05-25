@@ -23,5 +23,5 @@ if(daycycle.night == false and global.sekta == true)
 	obj_dim_player1.x = 0;
 	obj_dim_player2.x = 0;
 	seq_num = 1;
-	global.sekta = false;
+	alarm[1] = 100;
 }
