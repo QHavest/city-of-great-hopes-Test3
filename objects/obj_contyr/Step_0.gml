@@ -1,3 +1,4 @@
+/// @description rayon choice
 // вибір району у межах масиву
 if (!acepted_key){
 	pos += keyboard_check_pressed(vk_up)-keyboard_check_pressed(vk_down);

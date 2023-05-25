@@ -307,13 +307,13 @@ global.shop = true;
 	#endregion
 #region (Security) ins
 	case "Security1":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,argument[2],spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security1"),2,argument[1],spr_ic_Security);
 	break
 	case "Security2":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,argument[2],spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security2"),2,argument[1],spr_ic_Security);
 	break
 	case "Security3":
-		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,argument[2],spr_ic_Security);
+		scr_text(scr_json_lang(global.LANGUAGE,"Security3"),2,argument[1],spr_ic_Security);
 	break
 #endregion
 #region (Boss)
@@ -750,7 +750,7 @@ case"Anton":
 		break		
 #endregion
 #region (Barugi) ins
-case "Barugi1":
+case "Barugi_ovo":
 switch(irandom_range(1,3)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Barugi1"),2,argument[2],argument[1]);
@@ -763,7 +763,7 @@ switch(irandom_range(1,3)){
 			break
 }	
 break
-case "Barugi3":
+case "Barugi_fru":
 switch(irandom_range(1,3)){
 			case 1:
 		scr_text(scr_json_lang(global.LANGUAGE,"Barugi2"),2,argument[2],argument[1]);

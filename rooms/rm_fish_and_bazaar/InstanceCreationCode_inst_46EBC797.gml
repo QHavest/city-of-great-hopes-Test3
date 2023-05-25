@@ -1,2 +1,2 @@
 
-text_id = "Barugi3";
+text_id = "Barugi_ovo";
