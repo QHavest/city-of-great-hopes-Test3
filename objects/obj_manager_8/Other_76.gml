@@ -36,25 +36,25 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
     case "delete":
-	daycycle.time_pause = true;
-	alarm[0] = 25 * 60 * 7;
-	obj_inventory.visible = 1;
-	layer_destroy("Cutscenes2")
-	view_set_camera(0, regCam1);
-	view_set_camera(1, regCam2);
-	global.shop = false;
-	global.task = 3;
-    layer_sequence_destroy(seq3);
-	audio_stop_sound(snd_Bazar);
-	scr_music_fon_change(room);
-	obj_dim_player1.y += 20;
-	obj_dim_player2.y += 20;
-	instance_activate_object(obj_pr_NPC_back);
-	instance_activate_object(obj_pr_NPC_move);
-	instance_activate_object(obj_pr_spr_change_outside_viewport);
-	obj_dim_player1.InRoomMode = false;
-	obj_dim_player2.InRoomMode = false;
-	scr_saving_1();
+	  daycycle.time_pause = true;
+	  daycycle.alarm[8] = 25 * 60 * 7;
+	  obj_inventory.visible = 1;
+	  layer_destroy("Cutscenes2")
+	  view_set_camera(0, regCam1);
+	  view_set_camera(1, regCam2);
+	  global.shop = false;
+	  global.task = 3;
+	    layer_sequence_destroy(seq3);
+	  audio_stop_sound(snd_Bazar);
+	  scr_music_fon_change(room);
+	  obj_dim_player1.y += 20;
+	  obj_dim_player2.y += 20;
+	  instance_activate_object(obj_pr_NPC_back);
+	  instance_activate_object(obj_pr_NPC_move);
+	  instance_activate_object(obj_pr_spr_change_outside_viewport);
+	  obj_dim_player1.InRoomMode = false;
+	  obj_dim_player2.InRoomMode = false;
+	  scr_saving_1();
     break;
   }
 }

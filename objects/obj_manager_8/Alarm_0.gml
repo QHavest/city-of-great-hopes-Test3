@@ -1,1 +1,0 @@
-daycycle.time_pause = false;
