@@ -4,7 +4,7 @@
   "name": "spr_male_005_R",
   "bbox_bottom": 52,
   "bbox_left": 0,
-  "bbox_right": 21,
+  "bbox_right": 20,
   "bbox_top": 49,
   "bboxMode": 2,
   "collisionKind": 1,

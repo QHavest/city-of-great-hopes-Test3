@@ -25,10 +25,10 @@ if (playernum == 2) {
 		mp_potential_step(obj_dim_player1.posX[10], obj_dim_player1.posY[10], 2.5, false);
 	}
 	//run
-	if (run == 1 and distance_to_object(obj_dim_player1.posX[15]) > 20)
+	if (run == 1 and distance_to_object(obj_dim_player1.posX[15]) > 40)
 	{ 
-		if (InRoomMode = false) mp_potential_step(obj_dim_player1.posX[15], obj_dim_player1.posY[7], runspd, false);
-		else mp_potential_step(obj_dim_player1.posX[15], obj_dim_player2.posY[8], walkspd, false);
+		if (InRoomMode = false) mp_potential_step(obj_dim_player1.posX[10], obj_dim_player1.posY[10], runspd, false);
+		else mp_potential_step(obj_dim_player1.posX[10], obj_dim_player2.posY[10], walkspd, false);
 	}}
 else if(playernum == 1){
 	//walk
@@ -43,9 +43,9 @@ else if(playernum == 1){
 		mp_potential_step(obj_dim_player2.posX[10], obj_dim_player2.posY[10], 2.5, false);
 	}
 	//run
-	if (run == 1 and distance_to_object(obj_dim_player2.posX[15]) > 20){
-	if (InRoomMode = false) {mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[7], runspd, false);}
-	else {mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[8], walkspd, false);}
+	if (run == 1 and distance_to_object(obj_dim_player2.posX[15]) > 40){
+	if (InRoomMode = false) {mp_potential_step(obj_dim_player2.posX[10], obj_dim_player2.posY[10], runspd, false);}
+	else {mp_potential_step(obj_dim_player2.posX[10], obj_dim_player2.posY[10], walkspd, false);}
 }}
 
 }
