@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description viev norm image
 if (img=1){ 
 	img=0;
 	}
