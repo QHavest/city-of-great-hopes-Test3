@@ -567,7 +567,7 @@ if(global.money >= 5) {
 	for (var i = 0; i < 11; i++){
 		if(global.ds_inventory[# 0, i] = 0){
 			global.ds_inventory[# 0, i] = 53;
-			global.money -= 0.5;
+			global.money -= 0.45;
 			audio_play_sound(snd_op_accept,5,0,global.System_gain);
 			audio_play_sound(snd_sound_buy,5,0,global.System_gain);
 			//скрипт який запустить анімацію та перемикне стан гравця дляконтролю

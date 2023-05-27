@@ -48,19 +48,4 @@ else if(playernum == 1){
 	else {mp_potential_step(obj_dim_player2.posX[15], obj_dim_player2.posY[8], walkspd, false);}
 }}
 
-
-//if (playernum == 2) {
-//	//walk
-//	if (run == 0 and distance_to_object(obj_dim_player1) > 30 ) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 5, false);
-//	//run
-//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player1.posX[14], obj_dim_player1.posY[14], 10, false);
-//	}
-//else if(playernum == 1){
-//	//walk
-//	if (run == 0 and distance_to_object(obj_dim_player2) > 30) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 5, false);
-//	//run
-//	if (run == 1 and distance_to_object(obj_dim_player1) > 20) mp_potential_step(obj_dim_player2.posX[14], obj_dim_player2.posY[14], 10, false);
-
-//}
-
 }
