@@ -7,9 +7,12 @@
 
 
 //---=============================
-seconds = 32400;
-minutes = 540;
-hours = 9;
+//seconds = 32400;
+seconds = 72000;
+//minutes = 540;
+minutes = 1200;
+//hours = 9;
+hours = 20;
 
 
 day = 1;
@@ -46,8 +49,6 @@ enum phase {
 	nighttime = 24,
 	nighttime1 = 5.9,
 	nighttime2 = 5,
-	nighttime3 = 1,
-	nighttime4 = 0.5,
 }
 
 

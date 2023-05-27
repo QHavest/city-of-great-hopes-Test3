@@ -14,21 +14,23 @@ if(pause == true)
 
 if(global.task != 1)
 { 
-	audio_sound_gain(snd_svust, 0, 1);
+	audio_sound_gain(snd_svust, 0, 0);
 	instance_deactivate_object(obj_task1_npc1);
 	instance_deactivate_object(obj_sheva_alkash);
 	instance_deactivate_object(inst_772A1C64);
+	instance_deactivate_object(inst_129628B1);
 }
 if(global.task == 1)
 {
-	audio_sound_gain(snd_svust, 1, 1);
+	audio_sound_gain(snd_svust, 1, 0);
 	instance_activate_object(obj_task1_npc1);
 	instance_activate_object(obj_sheva_alkash);
 	instance_activate_object(inst_772A1C64);
+	instance_activate_object(inst_129628B1);
 }
 
 if(global.pause)
 { 
-	audio_sound_gain(snd_svust, 0, 1);
+	audio_sound_gain(snd_svust, 0, 0);
 }
 if(!global.pause) audio_sound_gain(snd_svust, 1, 1);

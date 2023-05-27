@@ -125,6 +125,7 @@ seconds += time_increment;
 minutes = seconds/60;
 hours = minutes/60;
 //darkness = hours/24;
+show_debug_message(hours);
 
 if (draw_daylight){
 
