@@ -15,13 +15,13 @@
     "Keyframes": [
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "music_stop",
-            ],},},"Disabled":false,"id":"b9024bbf-9b2c-4e3d-a7dc-465d613dcb42","IsCreationKey":false,"Key":24.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"c3e21474-aac2-44a9-9add-e8de8a4ed801","IsCreationKey":false,"Key":23.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "pause_splash",
-            ],},},"Disabled":false,"id":"ccd4ce07-c9e1-49e0-a43c-dc1e6d8fdcd9","IsCreationKey":false,"Key":32.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"0933cad7-11ed-4fc1-98e9-388feacf9e0c","IsCreationKey":false,"Key":28.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
               "splash_destroy",
-            ],},},"Disabled":false,"id":"6fbec363-25a7-40c5-a641-f7b57835b154","IsCreationKey":false,"Key":37.0,"Length":1.0,"Stretch":false,},
+            ],},},"Disabled":false,"id":"1a1255f8-53e5-4bb4-9c4f-4c2ac302a287","IsCreationKey":false,"Key":37.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "eventStubScript": null,

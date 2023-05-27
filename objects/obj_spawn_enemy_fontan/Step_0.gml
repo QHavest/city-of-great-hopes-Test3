@@ -1,3 +1,4 @@
+if (instance_exists(obj_spawn_enemy_fontan)){
 switch (randomizes){
 case 0://зліва скйлеки 
 instance_activate_object(inst_7E666161);//livo
@@ -16,4 +17,5 @@ instance_deactivate_object(inst_15ADF1C4);//centre
 instance_deactivate_object(inst_7E666161);//livo
 
 break;
+}
 }

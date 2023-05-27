@@ -48,11 +48,13 @@ if event_data [? "event_type"] == "sequence event"
 			global.shop = false;
 			view_set_camera(0, regCam1);
 			view_set_camera(1, regCam2);
+			obj_warp_block.visible = 1;
 		}
     break;
     
     case "delete_booking":
 		obj_inventory.visible = 1;
+		obj_warp_block.visible = 1;
 		global.shop = false;
 		view_set_camera(0, regCam1);
 		view_set_camera(1, regCam2);
