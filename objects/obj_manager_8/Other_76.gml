@@ -36,8 +36,8 @@ if event_data [? "event_type"] == "sequence event"
 	break;
 
     case "delete":
-	  daycycle.time_pause = true;
-	  daycycle.alarm[8] = 25 * 60 * 7;
+	  //daycycle.time_pause = true;
+	  //daycycle.alarm[8] = 25 * 60 * 7;
 	  obj_inventory.visible = 1;
 	  layer_destroy("Cutscenes2")
 	  view_set_camera(0, regCam1);
