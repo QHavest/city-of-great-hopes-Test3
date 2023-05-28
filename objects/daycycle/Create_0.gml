@@ -22,6 +22,8 @@ year = 1;
 //time_increment = 50; //секунди за крок
 
 time_increment = 1;
+if(global.task != 3) time_increment = 0;
+
 time_pause = false;
 time_pauses = false;
 
@@ -44,7 +46,8 @@ guiHeight = display_get_gui_height();
 enum phase {
 	sunrise = 6,
 	daytime = 12,
-	sunset = 21,
+	sunset = 23,
+	//sunset = 21,
 	sunset1 = 23.9,
 	nighttime = 24,
 	nighttime1 = 5.9,

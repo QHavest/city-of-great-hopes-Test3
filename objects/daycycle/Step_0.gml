@@ -104,6 +104,8 @@ if(obj_Battle_Interface.battle_start = true or global.dialog_end = 0 or global.s
 } else if (obj_Battle_Interface.battle_start = false or global.dialog_end = 1 or global.shop == false or time_pauses == false){
 	time_pause = false;
 }
+
+//if(global.task == 1 or global.task == 2) time_pause = true;
 /*
 if(time_pause == true)
 {
@@ -118,8 +120,8 @@ if(time_pause == true)
 
 if(time_pause) exit;
 //if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;time_pauses = true}
-if(keyboard_check_pressed(ord("N"))){time_increment = 300;}
-if(keyboard_check_pressed(ord("J"))){time_increment = 5;}
+if(keyboard_check_pressed(ord("N"))){time_increment = 200;}
+if(keyboard_check_pressed(ord("J"))){time_increment = 1;}
 //збільошуємо час за секунду
 seconds += time_increment;
 minutes = seconds/60;

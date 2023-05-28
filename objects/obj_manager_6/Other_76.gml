@@ -35,6 +35,7 @@ if event_data [? "event_type"] == "sequence event"
     break;
   
     case "delete":
+	daycycle.time_increment = 0;
 	instance_activate_object(obj_sound_emmiter_3d);
 	obj_inventory.visible = 1;
 	global.task = 1;
