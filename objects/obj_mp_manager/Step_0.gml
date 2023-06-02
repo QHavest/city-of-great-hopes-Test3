@@ -1,4 +1,4 @@
-if ( !in_sequence and !global.dialogue_move and !global.shop and global.dialog_end and !global.diary )
+if ( !in_sequence and !global.dialogue_move and !global.shop and global.dialog_end and !global.diary and global.mapsi == 0)
 {but_map = keyboard_check_pressed(ord("M"));}
 //if object_exists(obj_mp_open) and global.contact !=0 {global.contact =0; show_debug_message("zero");}
 //with(obj_mp_open){

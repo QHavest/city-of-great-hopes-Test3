@@ -60,7 +60,7 @@ global.boss = 0;
 global.sekta = true;
 
 //aspect_ratio();
-
+global.mapsi = 0;
 
 //display_reset(0, true);
 
