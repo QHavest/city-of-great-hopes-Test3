@@ -120,14 +120,14 @@ if(time_pause == true)
 
 if(time_pause) exit;
 //if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;time_pauses = true}
-//if(keyboard_check_pressed(ord("N"))){time_increment = 200;}
-//if(keyboard_check_pressed(ord("J"))){time_increment = 1;}
+if(keyboard_check_pressed(ord("N"))){time_increment = 200;}
+if(keyboard_check_pressed(ord("J"))){time_increment = 1;}
 //збільошуємо час за секунду
 seconds += time_increment;
 minutes = seconds/60;
 hours = minutes/60;
 //darkness = hours/24;
-show_debug_message(hours);
+//show_debug_message(hours);
 
 if (draw_daylight){
 

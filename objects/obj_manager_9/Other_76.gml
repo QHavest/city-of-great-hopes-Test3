@@ -4,7 +4,7 @@ if event_data [? "event_type"] == "sequence event"
   {
     
 	case "start":
-	audio_channel_num(5);
+	//audio_channel_num(5);
 	//a = 1;
 	scr_music_fon_change("snd_viter");
 	//audio_play_sound(snd_bazar_2, 1, true);

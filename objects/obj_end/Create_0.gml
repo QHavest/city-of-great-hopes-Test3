@@ -12,3 +12,4 @@ obj_inventory.visible = 0;
 audio_stop_all();
 layer_create(-999, "dark1");
 seq_dark = layer_sequence_create("dark1", 0, 0, seq_afterFight);
+global.gameStart = false;

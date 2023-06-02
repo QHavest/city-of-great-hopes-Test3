@@ -1,6 +1,6 @@
 //if(!global.pause) exit;
 //global.pause = false;
-
+window_set_cursor(cr_none);
 //view_widths = camera_get_view_width(view_camera[0])/2// room_width/2;
 //view_heights = camera_get_view_height(view_camera[0])/2//room_height/2;
 room_width = global.res_width;
