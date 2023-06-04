@@ -1,6 +1,8 @@
 pause = false;
 start = false;
 variant = 1;
-//a = 0;
-//sound_fountain = false;
-//volume;
+with(daycycle)
+{
+	part_particles_clear(weather);
+	fog_or_not = false;
+}

@@ -13,7 +13,7 @@ instance_deactivate_object(obj_mini_avatar);
 obj_Battle_Interface.phase_battle = PHASES.Atack;
 instance_destroy(obj_sssr);
 instance_destroy(obj_sssrs);
-obj_Battle_Interface.lives_enemy_kavkaz = false;
+//obj_Battle_Interface.lives_enemy_kavkaz = false; Mazur
 break;
 case ENEMY.Narkomany:
 instance_destroy(obj_mini_ytopur);
