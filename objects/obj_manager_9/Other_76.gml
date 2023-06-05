@@ -22,6 +22,7 @@ if event_data [? "event_type"] == "sequence event"
 	var cam1 = camera_create_view(1890, 112, 432, 243, 0, obj_camera, -1, -1, 250, 150);
 	view_set_camera(0, cam1);
 	view_set_camera(1, cam1);
+	audio_play_sound(snd_text_words, 1, 1);
 	break;
 	
 	case "rain":
@@ -141,6 +142,10 @@ if event_data [? "event_type"] == "sequence event"
 	case "end":
 	//obj_inventory.visible = 1;
 	layer_sequence_destroy(seq_start);
+	break;
+	
+	case "stop_snd":
+	audio_stop_sound(snd_text_words);
 	break;
 	
   }

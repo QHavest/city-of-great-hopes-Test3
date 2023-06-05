@@ -1,3 +1,4 @@
+if(global.task == 3) {instance_destroy();}
 start = false;
 Tax = 0;
 
