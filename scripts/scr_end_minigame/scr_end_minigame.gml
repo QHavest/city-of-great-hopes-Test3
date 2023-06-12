@@ -43,6 +43,7 @@ function scr_end_minigame(){
 		instance_activate_object(obj_inventory);
 		instance_activate_object(Settings);
 		room_goto(obj_Battle_Interface.target_rm);
+		scr_music_fon_change(obj_Battle_Interface.target_rm);
 }
 
 function scr_end_minigame_sects(){
@@ -88,4 +89,5 @@ function scr_end_minigame_sects(){
 		instance_activate_object(obj_inventory);
 		instance_activate_object(Settings);
 		room_goto(rm_south);
+		scr_music_fon_change(obj_Battle_Interface.target_rm);
 }

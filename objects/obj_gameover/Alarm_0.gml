@@ -60,7 +60,7 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 				room_goto(rm_home_gg_inside);
 			break;
 			}
-		
+		scr_music_fon_change(obj_Battle_Interface.target_rm);
 
 	}
 instance_destroy();
