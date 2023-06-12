@@ -4,7 +4,6 @@ if(place_meeting(x, y+5, obj_dim_player1) || place_meeting(x, y+5, obj_dim_playe
 	global.shop = true;
 	}
 }
-
 if(shopOpen and global.shop){
 
 	//To right

@@ -4,7 +4,7 @@ if (global.map or global.pause or !global.dialog_end or global.shop or global.di
 	show_inventory = false;
 	slots_x = inv_UI_x_closed_static + (87 * scale);
 	frame_x = inv_UI_x_closed_static + (87 * scale);
-	exit;
+	exit; 
 }
 
 if(keyboard_check_pressed(ord("I")) and alarm[0] < 40){
@@ -69,7 +69,6 @@ if(keyboard_check_pressed(vk_enter))
 	if(global.ds_inventory[# 0, count_slot_pos] < 38){
 	global.ds_inventory[# 0, count_slot_pos] = 0;
 	audio_play_sound(snd_op_accept,5,0,global.System_gain)
-	show_debug_message("sound_scam");
 	}
 }
 
