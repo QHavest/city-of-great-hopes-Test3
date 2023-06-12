@@ -44,7 +44,7 @@ if event_data [? "event_type"] == "sequence event"
 	  view_set_camera(1, regCam2);
 	  global.shop = false;
 	  global.task = 3;
-	    layer_sequence_destroy(seq3);
+	  layer_sequence_destroy(seq3);
 	  audio_stop_sound(snd_Bazar);
 	  scr_music_fon_change(room);
 	  obj_dim_player1.y += 20;

@@ -49,6 +49,5 @@ global.zaniatui = false;
 global.day = 1;
 global.sekta = true;
 
-
 	
 }

@@ -10,7 +10,7 @@ if event_data [? "event_type"] == "sequence event"
 	view_set_camera(0, cams2);
 	view_set_camera(1, cams2);
 	
-	instance_deactivate_object(obj_sound_emmiter_3d);
+	//instance_deactivate_object(obj_sound_emmiter_3d);
 	scr_music_fon_change("snd_nature");
 	obj_dim_player1.x = obj_player_1.x;
 	obj_dim_player1.y = obj_player_1.y;
@@ -37,7 +37,7 @@ if event_data [? "event_type"] == "sequence event"
     case "delete":
 	audio_stop_sound(snd_nature);
 	daycycle.time_increment = 0;
-	instance_activate_object(obj_sound_emmiter_3d);
+	//instance_activate_object(obj_sound_emmiter_3d);
 	obj_inventory.visible = 1;
 	global.task = 1;
 	global.shop = false;
@@ -54,7 +54,6 @@ if event_data [? "event_type"] == "sequence event"
 	layer_destroy("Cutcenes");
 	scr_saving_1();
 	hint = true;
-	//room_restart();
     break;
   }
 }
