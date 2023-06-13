@@ -1,12 +1,29 @@
-depth = -1;
-scale = 1;
-cell_size = 72;
 show_inventory = false;
+//////////////////////////////////Спрайти
+
 spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_shopping_list;
 spr_frame = spr_frame_for_inventory;
 
-count_slot_pos = 0;
+///////////////////////////////////Клітинки інвентаря підв'язані кодом до інвентаря
+
+frame[0, 0] = 0;
+frame[0, 1] = 1;
+frame[0, 2] = 2;
+frame[0, 3] = 3;
+frame[0, 4] = 4;
+
+frame[1, 0] = 5;
+frame[1, 1] = 6;
+frame[1, 2] = 7;
+frame[1, 3] = 8;
+frame[1, 4] = 9;
+
+
+/////////////////////////////////////налаштування мірок інвентаря
+depth = -1;
+scale = 1;
+cell_size = 72;
 
 gui_W = display_get_gui_width();
 gui_H = display_get_gui_height();
@@ -29,6 +46,9 @@ slots_y = inv_UI_y + (147 * scale);
 frame_x = inv_UI_x_closed_static + 88;
 frame_y = inv_UI_y + (147 * scale);
 frame_ii = 0;
+
+frame_yy = 0; 
+frame_xx = 0;
 
 
 #region
