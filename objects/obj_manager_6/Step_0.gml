@@ -19,6 +19,7 @@ if(global.task != 1)
 	instance_deactivate_object(obj_sheva_alkash);
 	instance_deactivate_object(inst_772A1C64);
 	instance_deactivate_object(inst_129628B1);
+	instance_activate_object(inst_71918161);
 }
 if(global.task == 1)
 {
@@ -27,6 +28,8 @@ if(global.task == 1)
 	instance_activate_object(obj_sheva_alkash);
 	instance_activate_object(inst_772A1C64);
 	instance_activate_object(inst_129628B1);
+	instance_deactivate_object(inst_71918161);
+	if(!instance_exists(obj_task1_npc1)) instance_create_layer(1623, 238, "npc", obj_task1_npc1);
 }
 
 if(global.pause)
