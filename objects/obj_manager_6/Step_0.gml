@@ -23,6 +23,7 @@ if(global.task != 1)
 }
 if(global.task == 1)
 {
+	
 	audio_sound_gain(snd_svust, 1, 0);
 	instance_activate_object(obj_task1_npc1);
 	instance_activate_object(obj_sheva_alkash);

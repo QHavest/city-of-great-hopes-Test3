@@ -77,3 +77,37 @@ sequence_instance_override_object(seqInst, obj_dim_player2,  playerInst2);
 //sequence_instance_override_object(seqInst, obj_seller_potato,  objInst19);
 //sequence_instance_override_object(seqInst, obj_mishky,  objInst20);	
 }
+
+if(instance_exists(obj_container_night))
+{
+	instance_deactivate_object(obj_seller_kulumu);
+	instance_deactivate_object(inst_6A7D104);
+	instance_deactivate_object(inst_31989311);
+	instance_deactivate_object(inst_77D02E2D);
+	instance_deactivate_object(inst_2FEDEF9E);
+	instance_deactivate_object(inst_2EECFF30);
+	instance_deactivate_object(inst_2F4B2243);
+	instance_deactivate_object(inst_4E3A5D1);
+	instance_deactivate_object(inst_5502C5F4);
+	instance_deactivate_object(inst_5B8A8FE1);
+	instance_deactivate_object(inst_32A646E8);
+	instance_deactivate_object(inst_3AB0F797);
+	instance_deactivate_object(inst_7160882);
+}
+
+else
+{
+	instance_activate_object(obj_seller_kulumu);
+	instance_activate_object(inst_6A7D104);
+	instance_activate_object(inst_31989311);
+	instance_activate_object(inst_77D02E2D);
+	instance_activate_object(inst_2FEDEF9E);
+	instance_activate_object(inst_2EECFF30);
+	instance_activate_object(inst_2F4B2243);
+	instance_activate_object(inst_4E3A5D1);
+	instance_activate_object(inst_5502C5F4);
+	instance_activate_object(inst_5B8A8FE1);
+	instance_activate_object(inst_32A646E8);
+	instance_activate_object(inst_3AB0F797);
+	instance_activate_object(inst_7160882);
+}

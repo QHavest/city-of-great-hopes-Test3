@@ -1065,7 +1065,7 @@ scr_text(scr_json_lang(global.LANGUAGE,"Stiopa1"),2,spr_ic_Krus,spr_ic_stiopa_ty
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa7"),2,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa8"),1,spr_ic_stiopa_tyshonka,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa9"),1,spr_ic_Krus,spr_ic_stiopa_tyshonka);
-	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),1,spr_ic_Krus,spr_ic_Ytopurok_l);
+	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa10"),2,spr_ic_Krus,spr_ic_Ytopurok_l);
 	scr_text(scr_json_lang(global.LANGUAGE,"Stiopa11"),2,spr_ic_Krus,spr_ic_stiopa_tyshonka);
 	// ПОДАРУНОК КОНСЕРВ!!!
 		for (var i = 0; i < 11; i++){

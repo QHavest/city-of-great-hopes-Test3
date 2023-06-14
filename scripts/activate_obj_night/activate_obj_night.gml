@@ -1,6 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function activate_obj_night(){
+	show_debug_message("NIGHT");
+	show_debug_message("NIGHT");
+	show_debug_message("NIGHT");
+	show_debug_message("NIGHT");
+	show_debug_message("NIGHT");
 	//instance_activate_object(obj_container_night);
 	instance_activate_object(obj_nights);
 	deactivate_warp_night(); //деактивація порталів вночі
