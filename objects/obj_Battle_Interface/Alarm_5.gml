@@ -32,6 +32,7 @@
 			switch(enemies){
 				case ENEMY.Narkomany :
 				aliens = ALIES.Noone;
+				show_debug_message("alarm5")
 				switch(global.LANGUAGE)
 					{
 						case "eng":

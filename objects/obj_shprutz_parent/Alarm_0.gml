@@ -1,4 +1,4 @@
-randomize();
+//randomize();
 var shprutz = irandom_range(0,2);
 var shprutz_height = irandom_range(0,135);
 //var x_start = 1480;

@@ -148,10 +148,10 @@ if(system == 0 and mini_game == false and BDialogue == false and game_over_mini 
 		switch(phase_battle)
 		{
 			case PHASES.Atack:
-				alarm[5] = 1;//start_fight
+				alarm[5] = 3;//start_fight
 			break;
 			case PHASES.Defence:
-				alarm[3] = 1;//system = 1;
+				alarm[3] = 3;//system = 1;
 			break;
 		}
 	} 
@@ -357,7 +357,15 @@ switch(system)
 			}
 		if(button[1] = "L" and keyboard_check_released(vk_enter)){
 			button[1] = "L";
-			alarm[3] = 1;
+			switch(phase_battle)
+			{
+			case PHASES.Atack:
+				alarm[5] = 3;//start_fight
+			break;
+			case PHASES.Defence:
+				alarm[3] = 3;//system = 1;
+			break;
+			}
 		} 
 		if(button[2] = "L" and keyboard_check_released(vk_enter)){
 			//!!!!!!!!!!! Віддаєш, скільки запрошує карбованців

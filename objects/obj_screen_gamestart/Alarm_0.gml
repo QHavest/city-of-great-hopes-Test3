@@ -31,7 +31,10 @@ switch(obj_Battle_Interface.phase_battle){
 			break;
 			case ENEMY.Narkomany :
 				obj_background_mini.index_minigame_back = 0;
+				if (first_game == 0){
 				instance_create_depth(480,416,-300,obj_shprutz_parent);
+				first_game++;
+				}
 				instance_activate_object(obj_mini_avatar);
 				obj_mini_avatar.x = 527.5;
 				obj_mini_avatar.y = 755;
