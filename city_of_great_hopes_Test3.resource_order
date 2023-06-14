@@ -168,6 +168,7 @@
     {"name":"spr_shopExit","order":1,"path":"sprites/spr_shopExit/spr_shopExit.yy",},
     {"name":"obj_warp","order":17,"path":"objects/obj_warp/obj_warp.yy",},
     {"name":"spr_exit_ukr_l","order":18,"path":"sprites/spr_exit_ukr_l/spr_exit_ukr_l.yy",},
+    {"name":"spr_version","order":1,"path":"sprites/spr_version/spr_version.yy",},
     {"name":"obj_hastronom","order":32,"path":"objects/obj_hastronom/obj_hastronom.yy",},
     {"name":"spr_gamestartENG","order":4,"path":"sprites/spr_gamestartENG/spr_gamestartENG.yy",},
     {"name":"spr_ic_boss","order":10,"path":"sprites/spr_ic_boss/spr_ic_boss.yy",},

@@ -480,6 +480,7 @@
     {"id":{"name":"sp_towarysh_eng01","path":"sprites/sp_towarysh_eng01/sp_towarysh_eng01.yy",},},
     {"id":{"name":"spr_dim_Ytopurok_voda","path":"sprites/spr_dim_Ytopurok_voda/spr_dim_Ytopurok_voda.yy",},},
     {"id":{"name":"spr_exit_ukr_l","path":"sprites/spr_exit_ukr_l/spr_exit_ukr_l.yy",},},
+    {"id":{"name":"spr_version","path":"sprites/spr_version/spr_version.yy",},},
     {"id":{"name":"spr_shprutz_up2","path":"sprites/spr_shprutz_up2/spr_shprutz_up2.yy",},},
     {"id":{"name":"spr_barmen_Naluv_2","path":"sprites/spr_barmen_Naluv_2/spr_barmen_Naluv_2.yy",},},
     {"id":{"name":"obj_hastronom","path":"objects/obj_hastronom/obj_hastronom.yy",},},
