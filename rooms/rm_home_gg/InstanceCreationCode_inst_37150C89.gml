@@ -1,0 +1,1 @@
+//if(global.task != 1) instance_destroy();

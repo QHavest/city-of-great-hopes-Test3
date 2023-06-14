@@ -120,8 +120,8 @@ if(time_pause == true)
 
 if(time_pause) exit;
 //if(keyboard_check_pressed(ord("Z"))){time_pause = !time_pause;time_pauses = true}
-//if(keyboard_check_pressed(ord("N"))){time_increment = 200;}
-//if(keyboard_check_pressed(ord("J"))){time_increment = 1;}
+if(keyboard_check_pressed(ord("N"))){time_increment = 130;}
+if(keyboard_check_pressed(ord("J"))){time_increment = 1;}
 //збільошуємо час за секунду
 seconds += time_increment;
 minutes = seconds/60;
@@ -237,6 +237,7 @@ if (draw_daylight){
 	//	pstart = phase.nighttime;
 	//	pend = phase.nighttime3;
 		
+	//} else if (hours > phase.nighttime and hours <= phase.nighttime1/*and visability = true*/){
 	} else {
 		//visability = true
 		//obj1 = true
