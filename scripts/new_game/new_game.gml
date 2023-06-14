@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function new_game(){
-	room_goto(rm_street_second_side);
-	//room_goto(rm_home_gg_cut);
+	//room_goto(rm_street_second_side);
+	room_goto(rm_home_gg_cut);
 	//scr_music_fon_change(rm_street_second_side);
 	with (music_room){
 /*		new_sound = snd_rivalstation;
