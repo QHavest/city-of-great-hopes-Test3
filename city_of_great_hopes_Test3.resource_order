@@ -165,6 +165,7 @@
     {"name":"spr_ic_Yana","order":11,"path":"sprites/spr_ic_Yana/spr_ic_Yana.yy",},
     {"name":"obj_res2_settings_l","order":8,"path":"objects/obj_res2_settings_l/obj_res2_settings_l.yy",},
     {"name":"scr_ui_health","order":8,"path":"scripts/scr_ui_health/scr_ui_health.yy",},
+    {"name":"spr_shopExit","order":1,"path":"sprites/spr_shopExit/spr_shopExit.yy",},
     {"name":"obj_warp","order":17,"path":"objects/obj_warp/obj_warp.yy",},
     {"name":"spr_exit_ukr_l","order":18,"path":"sprites/spr_exit_ukr_l/spr_exit_ukr_l.yy",},
     {"name":"obj_hastronom","order":32,"path":"objects/obj_hastronom/obj_hastronom.yy",},

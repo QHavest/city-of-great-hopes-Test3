@@ -472,6 +472,7 @@
     {"id":{"name":"obj_grandpa1","path":"objects/obj_grandpa1/obj_grandpa1.yy",},},
     {"id":{"name":"spr_seller_watermelon_kylak","path":"sprites/spr_seller_watermelon_kylak/spr_seller_watermelon_kylak.yy",},},
     {"id":{"name":"obj_player_2","path":"objects/obj_player_2/obj_player_2.yy",},},
+    {"id":{"name":"spr_shopExit","path":"sprites/spr_shopExit/spr_shopExit.yy",},},
     {"id":{"name":"spr_kozel","path":"sprites/spr_kozel/spr_kozel.yy",},},
     {"id":{"name":"spr_rival_seller2","path":"sprites/spr_rival_seller2/spr_rival_seller2.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},

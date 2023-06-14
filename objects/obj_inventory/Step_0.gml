@@ -26,6 +26,8 @@ if (!show_inventory){
 	slots_x = inv_UI_x_closed + (87 * scale);
 	frame_x = inv_UI_x_closed + (87 * scale);
 	frame_y = inv_UI_y + (147 * scale);
+	frame_yy = 0;
+	frame_xx = 0;
 	alarm[0] -= 1;
 	}
 }

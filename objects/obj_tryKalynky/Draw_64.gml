@@ -18,7 +18,7 @@ var sprL = asset_get_index("sp_" + itemL)
 
 draw_sprite_ext(sprR, 0, guiW/30.5*23, guiH/3, 0.5, 0.5, 0, c_grey, 1);
 draw_sprite_ext(sprL, 0, guiW/11, guiH/3, 0.5, 0.5, 0, c_grey, 1);
-
+draw_sprite(spr_shopExit, 0, guiW/2 + 220, guiH/2 + 250)
 
 //draw menu items
 
