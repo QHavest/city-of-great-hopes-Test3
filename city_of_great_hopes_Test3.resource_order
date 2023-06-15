@@ -725,7 +725,6 @@
     {"name":"spr_savings_ukr_l","order":22,"path":"sprites/spr_savings_ukr_l/spr_savings_ukr_l.yy",},
     {"name":"spr_savings_eng_l","order":1,"path":"sprites/spr_savings_eng_l/spr_savings_eng_l.yy",},
     {"name":"Obj_Steam_Stat_FeetsTraveled","order":3,"path":"objects/Obj_Steam_Stat_FeetsTraveled/Obj_Steam_Stat_FeetsTraveled.yy",},
-    {"name":"upload","order":19,"path":"sprites/upload/upload.yy",},
     {"name":"obj_plant_kalynky2","order":10,"path":"objects/obj_plant_kalynky2/obj_plant_kalynky2.yy",},
     {"name":"scr_help_button","order":13,"path":"scripts/scr_help_button/scr_help_button.yy",},
     {"name":"spr_svust","order":1,"path":"sprites/spr_svust/spr_svust.yy",},
