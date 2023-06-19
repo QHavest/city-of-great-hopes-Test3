@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Hopniki",
-    "path": "folders/Battle_system/MiniGames/Hopniki.yy",
+    "name": "Screen",
+    "path": "folders/Battle_system/Screen.yy",
   },
   "parentObjectId": null,
   "persistent": false,

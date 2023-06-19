@@ -48,5 +48,6 @@ if (obj_Battle_Interface.battle_start == false and obj_Battle_Interface.game_ove
 	  draw_sprite(screenshot, 0, 0, 0);
 	  layer_create(-999, "cut");
 	  seq_AF = layer_sequence_create("cut", 0, 0, seq_toMenu);
+	  
   }
 if(global.task != 3) instance_destroy();

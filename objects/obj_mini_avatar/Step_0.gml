@@ -160,6 +160,7 @@ switch(obj_Battle_Interface.enemies){
 	break;
 	case ENEMY.Hopniki :
 	damage = 20;
+	//damage = 1;
 	if (place_meeting(x, y, obj_nozh) or place_meeting(x, y, obj_nozh_vert))
 	{
 		scr_damage_mini_avatar();

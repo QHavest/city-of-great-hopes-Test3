@@ -1,1 +1,1 @@
-url_open("https://discord.gg/HKTfVRP7");
+url_open("https://discord.gg/bH43dV7eS8");
