@@ -514,12 +514,11 @@ draw_set_valign(fa_top);
 	}*/
 } 
 else{
-if (esc_pau) and !global.map and !global.shop and room != rm_end
+if (esc_pau) and !global.map and !global.shop and room != rm_end and global.dialog_end
 	{
 		part_system_depth(daycycle.weather, 1000);
 		global.pause = !global.pause;
 		inputting = false;
-		//if(!global.pause) exit;
 		
 		//screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
 		//draw_clear_alpha(c_black, 0);
