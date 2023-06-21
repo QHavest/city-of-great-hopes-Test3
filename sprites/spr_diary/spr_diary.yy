@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_diary",
-  "bbox_bottom": 1067,
+  "bbox_bottom": 1068,
   "bbox_left": 148,
   "bbox_right": 1687,
   "bbox_top": 44,
