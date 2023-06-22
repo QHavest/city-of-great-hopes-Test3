@@ -1,4 +1,4 @@
-if(show_diary = true){
+if(show_diary = true and global.pause = false){
 if(global.LANGUAGE = "ua"){
 	if(page = 0){
 		draw_sprite_ext(spr_diary, 1, gui_W/2, gui_H/2, 1, 1, 0, c_white, 1);

@@ -1,4 +1,4 @@
-if (global.map or global.pause or !global.dialog_end or global.shop){
+if (global.map or !global.dialog_end or global.shop){
 	show_diary = false;
 	global.diary = false;
 	exit;
@@ -23,8 +23,9 @@ page = 1;
 
 
 if(keyboard_check_pressed(vk_escape) and show_diary){
+
 global.diary = false;
-show_diary = false;
+alarm[0]=1;
 audio_play_sound(snd_diary_close, 1, 0, global.System_gain);
 }
 

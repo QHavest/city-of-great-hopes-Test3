@@ -2,7 +2,7 @@
 //if(!global.pause) exit;
 esc_pau = keyboard_check_pressed(vk_escape);
 
-if (global.pause){
+if (global.pause == true){
 //draw_sprite_ext(spr_fones_pause,0,0,0,1,1,0,c_white,1);
 draw_sprite_ext(spr_fones_pause,0,0,0,1.3,1.3,0,c_white,1);
 //draw_sprite(screenshot, 0, 0, 0);
@@ -513,32 +513,36 @@ draw_set_valign(fa_top);
 		
 	}*/
 } 
-else{
-if (esc_pau) and !global.map and !global.shop and room != rm_end and global.dialog_end
-	{
-		part_system_depth(daycycle.weather, 1000);
-		global.pause = !global.pause;
-		inputting = false;
-		
-		//screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
-		//draw_clear_alpha(c_black, 0);
-		instance_deactivate_all(true);
-		layer_create(-9995, "Transition_locs");
-			layerName = "Transition_locs";
-			var seqnames = noone;
-				seqnames = Sequence26;
-			sequence_id = layer_sequence_create(layerName,display_get_gui_width()/2, display_get_gui_height()/2, seqnames);
-			layer_sequence_pause(sequence_id);
-		instance_activate_object(obj_loading);
-		//instance_activate_object(obj_room_manager);
-		//instance_activate_object(daycycle);
-		//instance_activate_object(obj_inventory);
-		instance_activate_object(music_room);
-		//instance_activate_object(obj_Battle_Interface);
-		//instance_activate_object(obj_manager_bus);
-		instance_activate_object(obj_mozg_ai);
-	}
-}
+		if (keyboard_check_pressed(vk_escape) and !global.map  and !global.shop and room != rm_end and obj_diary.show_diary = false and global.inventory == false and global.dialog_end and open_pause = false and global.pause == false)
+			{
+				part_system_depth(daycycle.weather, 1000);
+				global.pause = true;
+				inputting = false;
+				alarm[0]=1;
+				//screenshot = sprite_create_from_surface(application_surface,0,0,global.res_width,global.res_height,0,0,0,0);
+				//draw_clear_alpha(c_black, 0);
+				instance_deactivate_all(true);
+				layer_create(-9995, "Transition_locs");
+					layerName = "Transition_locs";
+					var seqnames = noone;
+						seqnames = Sequence26;
+					sequence_id = layer_sequence_create(layerName,display_get_gui_width()/2, display_get_gui_height()/2, seqnames);
+					layer_sequence_pause(sequence_id);
+				instance_activate_object(obj_loading);
+				instance_activate_object(obj_diary);
+				//instance_activate_object(obj_room_manager);
+				//instance_activate_object(daycycle);
+				//instance_activate_object(obj_inventory);
+				instance_activate_object(music_room);
+				//instance_activate_object(obj_Battle_Interface);
+				//instance_activate_object(obj_manager_bus);
+				instance_activate_object(obj_mozg_ai);
+				
+				
+			} else if (keyboard_check_pressed(vk_escape) and open_pause = true) 
+				{
+				resume_game();
+				}
 
 //ds_grid[# 3, 2] = global.Fon_sound_gain;
 //ds_grid[# 3, 1] = global.System_gain;

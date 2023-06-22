@@ -59,6 +59,7 @@ global.noRest = 0;
 global.boss = 0;
 global.sekta = true;
 
+global.inventory = false;
 //aspect_ratio();
 global.mapsi = 0;
 

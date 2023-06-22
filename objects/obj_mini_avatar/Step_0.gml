@@ -57,11 +57,11 @@ switch(obj_Battle_Interface.mini_game)
 						if place_snapped(G,G1)
 						{
 						speed=0//остановка игрока
-							if (keyboard_check_pressed(vk_down) && Move[1,0]=true)
+							if (keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S")) && Move[1,0]=true)
 								{
 								y += 105;
 								}
-							if (keyboard_check_pressed(vk_up) && Move[1,1]=true)
+							if (keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")) && Move[1,1]=true)
 								{  
 								y -= 105;
 								}
@@ -71,23 +71,23 @@ switch(obj_Battle_Interface.mini_game)
 						if place_snapped(G,G1){
 						speed=0//остановка игрока
 
-						if (keyboard_check_pressed(vk_right) && Move[1,0]=true){  
+						if (keyboard_check_pressed(vk_right) or keyboard_check_pressed(ord("D")) && Move[1,0]=true){  
 						x += 105;
 						}
-						if (keyboard_check_pressed(vk_left) && Move[1,1]=true){  
+						if (keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("A")) && Move[1,1]=true){  
 						x -= 105;
 						}
-						if (keyboard_check_pressed(vk_down) && Move[1,2]=true){
+						if (keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S")) && Move[1,2]=true){
 						y += 105;
 						}
-						if (keyboard_check_pressed(vk_up) && Move[1,3]=true){  
+						if (keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")) && Move[1,3]=true){  
 						y -= 105;
 						}
 						}
 					break;
 					case ENEMY.Hopniki ://ходьба по клітинкам Гопніки
-						hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-						vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+						hInput = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")));
+						vInput = (keyboard_check(vk_down) or keyboard_check(ord("S"))) - (keyboard_check(vk_up) or keyboard_check(ord("W")));
 
 						x += hInput * 20;
 						y += vInput * 20;
@@ -95,7 +95,7 @@ switch(obj_Battle_Interface.mini_game)
 					case ENEMY.Narkomany :
 						spd += grv
 						y += spd;
-						if (keyboard_check_pressed(vk_space))
+						if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W")))
 							{
 								spd = -10;
 							}
@@ -106,7 +106,7 @@ switch(obj_Battle_Interface.mini_game)
 			case PHASES.Defence:
 				switch(obj_Battle_Interface.aliens){
 					case ALIES.Krus_mini:
-						hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+						hInput = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")));
 						x += hInput * 19;
 						x = clamp(x,486.5,1369.5)
 					break;

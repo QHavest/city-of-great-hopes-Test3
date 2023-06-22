@@ -161,7 +161,7 @@ var i = 0, array_len = array_length_1d(menu_pages);
  }
  
  inputting = false;
- 
+ open_pause = false;
 rez_act = global.rezolution;
 fullscreen = global.fullscreen;
 settings_savings = true;

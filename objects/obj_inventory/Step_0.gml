@@ -2,6 +2,7 @@
 if (global.map or global.pause or !global.dialog_end or global.shop or global.diary){
 	inv_UI_x_closed = inv_UI_x_closed_static;
 	show_inventory = false;
+
 	slots_x = inv_UI_x_closed_static + (87 * scale);
 	frame_x = inv_UI_x_closed_static + (87 * scale);
 	exit; 
@@ -9,6 +10,7 @@ if (global.map or global.pause or !global.dialog_end or global.shop or global.di
 
 if(keyboard_check_pressed(ord("I")) and alarm[0] < 40){
 	show_inventory = !show_inventory;
+	global.inventory = !global.inventory;
 	alarm[0] = 60;
 	audio_play_sound(snd_inventory, 9,0, global.System_gain);
 }
@@ -69,6 +71,11 @@ if(keyboard_check_pressed(vk_enter))
 	global.ds_inventory[# 0, frame[frame_yy, frame_xx]] = 0;
 	audio_play_sound(snd_op_accept,5,0,global.System_gain)
 	}
+}
+
+if (keyboard_check_pressed(vk_escape) and global.pause = false){
+	show_inventory = false
+	alarm[3]=1;
 }
 
 
