@@ -3,7 +3,7 @@
 function scr_passive_player(){
 event_inherited();
 if (!in_sequence){
-	run     =  keyboard_check(vk_space);
+	run     =  keyboard_check(vk_space) or keyboard_check(vk_shift);
 	keyr     =  keyboard_check(ord("D")) && place_free(x + collisionSpeed,y);
 	keyl     =  keyboard_check(ord("A")) && place_free(x - collisionSpeed,y);
 	keyup    =  keyboard_check(ord("W")) && place_free(x,y - collisionSpeed);
