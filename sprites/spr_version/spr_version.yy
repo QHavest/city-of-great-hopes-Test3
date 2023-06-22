@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_version",
   "bbox_bottom": 28,
-  "bbox_left": 5,
-  "bbox_right": 28,
+  "bbox_left": 2,
+  "bbox_right": 35,
   "bbox_top": 20,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -20,6 +20,7 @@
   "height": 49,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"65b6b0c3-0c43-4421-813f-3edf6c020a6a","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"68d4ada8-e36e-4d47-87e9-63d24ddfafb9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
@@ -70,5 +71,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 38,
+  "width": 45,
 }
