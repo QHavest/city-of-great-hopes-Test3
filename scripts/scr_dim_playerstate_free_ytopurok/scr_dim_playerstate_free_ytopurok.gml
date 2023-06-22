@@ -64,10 +64,10 @@ lastmove = 1;}
 // БІГ вправо і вліво
 
 if(InRoomMode = false){
-if (keyboard_check(vk_space) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");
+if ((keyboard_check(vk_space)  or keyboard_check(vk_shift)) and x>xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_right");
 lastmove = 0;}
 
-if (keyboard_check(vk_space) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");
+if ((keyboard_check(vk_space) or keyboard_check(vk_shift)) and x<xprevious) {sprite_index =asset_get_index ("spr_dim_" + sprit +"_run_left");
 lastmove = 1;}
 }
 
