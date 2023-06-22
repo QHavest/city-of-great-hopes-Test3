@@ -1,6 +1,6 @@
 old_font = draw_get_font();
 draw_set_font(Font_for_draw);
-accept_key=keyboard_check_pressed(vk_enter);
+accept_key=keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("E")) or keyboard_check_pressed(vk_space);
 
 // Якщо текстово поле пусте, то текст бокс не виводиться і діалог закінчується
 if (string_length(text[page]) == 0 and please_shop_open!=1)
@@ -218,9 +218,12 @@ if (snd_count < snd_delay) {snd_count++;}
 	{
 		// вибір варіанту
 		option_pos += keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
+		option_pos += keyboard_check_pressed(ord("D")) - keyboard_check_pressed(ord("A"));
 		option_pos = clamp(option_pos, 0, option_number-1);
-		if keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_left) audio_play_sound(snd_search,2,false,global.System_gain);
-
+		if (keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("A")) or keyboard_check_pressed(ord("D"))) 
+		{
+			audio_play_sound(snd_search,2,false,global.System_gain);
+		}
 	//var _op_border =5; //змінений відступ для варіантів
 	
 	var sec = gui_W/option_number; // розділяє екран на рівні частини відповідно до кількості варіантів
