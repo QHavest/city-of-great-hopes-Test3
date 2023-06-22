@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_diary",
-  "bbox_bottom": 1033,
+  "bbox_bottom": 1068,
   "bbox_left": 148,
   "bbox_right": 1687,
   "bbox_top": 44,
@@ -21,6 +21,7 @@
   "height": 1080,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5b16f204-8c11-470d-8555-1a3e82c0df7e","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"61c5372c-afc7-427c-9003-10720a675255","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,

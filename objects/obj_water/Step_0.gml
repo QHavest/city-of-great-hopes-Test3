@@ -8,7 +8,7 @@ if (place_meeting(x+20, y+zone_y, obj_dim_player1) or place_meeting(x-29, y+zone
 	if (!global.dialogue_move and obj_dim_player1.status= STATUS.ACTIVE)
 	{
 		// задання кооринат для переміщення
-		if keyboard_check_pressed(ord("E")) 
+		if keyboard_check_pressed(ord("E")) and global.money > 0
 		{
 			pl=1;
 			global.dialogue_move = true;
@@ -28,7 +28,7 @@ if (place_meeting(x+20, y+zone_y, obj_dim_player2) or place_meeting(x-29, y+zone
 	if !global.dialogue_move and obj_dim_player2.status= STATUS.ACTIVE
 	{
 	// задання кооринат для переміщення
-		if (keyboard_check_pressed(ord("E")))
+		if (keyboard_check_pressed(ord("E"))) and global.money > 0
 		{
 			pl=2;
 			global.dialogue_move = true;
