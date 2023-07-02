@@ -4,7 +4,9 @@
   "name": "city_of_great_hopes_Test3",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"sound_effects","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"Battle","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"Dialogs_Diary_Shop","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"Cutscenes","targets":-1,},
   ],
   "configs": {
     "children": [],
@@ -1351,6 +1353,7 @@
     {"id":{"name":"snd_klik_2","path":"sounds/snd_klik_2/snd_klik_2.yy",},},
     {"id":{"name":"spr_ic_Muhalovuch","path":"sprites/spr_ic_Muhalovuch/spr_ic_Muhalovuch.yy",},},
     {"id":{"name":"spr_ic_gopnik_4","path":"sprites/spr_ic_gopnik_4/spr_ic_gopnik_4.yy",},},
+    {"id":{"name":"obj_manager_pause_new","path":"objects/obj_manager_pause_new/obj_manager_pause_new.yy",},},
     {"id":{"name":"spr_male_009_L","path":"sprites/spr_male_009_L/spr_male_009_L.yy",},},
     {"id":{"name":"spr_rival_seller1","path":"sprites/spr_rival_seller1/spr_rival_seller1.yy",},},
     {"id":{"name":"spr_light_general","path":"sprites/spr_light_general/spr_light_general.yy",},},

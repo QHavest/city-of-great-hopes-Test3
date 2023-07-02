@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_victory_sound",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Battle",
+    "path": "audiogroups/Battle",
   },
   "bitDepth": 1,
   "bitRate": 128,

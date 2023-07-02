@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_diary_open",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Dialogs_Diary_Shop",
+    "path": "audiogroups/Dialogs_Diary_Shop",
   },
   "bitDepth": 1,
   "bitRate": 128,

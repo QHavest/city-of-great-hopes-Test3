@@ -48,6 +48,7 @@ global.dialogue_move = false;
 global.zaniatui = false;
 global.day = 1;
 global.sekta = true;
+global.pause = false;
 
 	
 }

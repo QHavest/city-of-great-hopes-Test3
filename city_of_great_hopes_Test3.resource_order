@@ -381,6 +381,7 @@
     {"name":"obj_woi_invisible_bush","order":6,"path":"objects/obj_woi_invisible_bush/obj_woi_invisible_bush.yy",},
     {"name":"zone_interest","order":13,"path":"objects/zone_interest/zone_interest.yy",},
     {"name":"spr_ic_mama_kolyaska","order":5,"path":"sprites/spr_ic_mama_kolyaska/spr_ic_mama_kolyaska.yy",},
+    {"name":"obj_manager_pause_new","order":1,"path":"objects/obj_manager_pause_new/obj_manager_pause_new.yy",},
     {"name":"spr_male_009_L","order":3,"path":"sprites/spr_male_009_L/spr_male_009_L.yy",},
     {"name":"spr_light_general","order":1,"path":"sprites/spr_light_general/spr_light_general.yy",},
     {"name":"scr_rezolution_2","order":13,"path":"scripts/scr_rezolution_2/scr_rezolution_2.yy",},

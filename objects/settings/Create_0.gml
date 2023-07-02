@@ -8,7 +8,6 @@ global.pause = false;
 //global.view_width = global.res_width;
 //global.view_height = global.res_height;
 //global.key_revert =  keyboard_check_pressed(ord("X"));
-
 global.key_enter = vk_enter;
 global.key_left = vk_left;
 global.key_right = vk_right;

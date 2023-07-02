@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_search",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Dialogs",
+    "path": "audiogroups/Dialogs",
   },
   "bitDepth": 1,
   "bitRate": 128,

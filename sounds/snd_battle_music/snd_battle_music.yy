@@ -3,12 +3,12 @@
   "resourceVersion": "1.0",
   "name": "snd_battle_music",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Battle",
+    "path": "audiogroups/Battle",
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 0,
+  "compression": 1,
   "conversionMode": 0,
   "duration": 81.0,
   "parent": {

@@ -3,12 +3,12 @@
   "resourceVersion": "1.0",
   "name": "snd_kavkaz",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Battle",
+    "path": "audiogroups/Battle",
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 3,
+  "compression": 1,
   "conversionMode": 0,
   "duration": 80.126144,
   "parent": {

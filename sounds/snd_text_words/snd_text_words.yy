@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_text_words",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Cutscenes",
+    "path": "audiogroups/Cutscenes",
   },
   "bitDepth": 1,
   "bitRate": 128,

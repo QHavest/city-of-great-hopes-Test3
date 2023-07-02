@@ -55,7 +55,7 @@ switch (global.settings_open)
 			rty = start_y + (yy*y_buffer);
 	
 			switch(ds_grid[# 1, yy]){
-			case menu_element_typess.shift:
+			case main_menu_element_typess.shift:
 				var current_val = ds_grid[# 3, yy];
 				//show_debug_message(current_val);
 				var current_array = ds_grid[# 4, yy];
@@ -73,7 +73,7 @@ switch (global.settings_open)
 				draw_text_color(rtx+195, rty, cout, c,c,c,c, 1)		//draw_sprite_ext(current_array[current_val], 0, rtx + 250, rty, 1.25, 1.25, 0, 0, 1);
 				break;
 		
-			case menu_element_typess.slider:
+			case main_menu_element_typess.slider:
 				var len = 207;
 				var current_val = ds_grid[# 3, yy];
 				var current_array = ds_grid[# 4, yy];
@@ -88,7 +88,7 @@ switch (global.settings_open)
 				//draw_text_color(rtx + (len * 1.2), rty,string(floor(circle_pos*100)), c,c,c,c, 1);
 			break;
 	
-			case menu_element_typess.toggle:
+			case main_menu_element_typess.toggle:
 			var current_val = ds_grid[# 3, yy];
 			var c1, c2;
 			c = c_white;
@@ -166,7 +166,7 @@ switch (global.settings_open)
 			rty = start_y + (yy*y_buffer+450);
 	
 			switch(ds_grid[# 1, yy]){
-			case menu_element_type.shift:
+			case main_menu_element_type.shift:
 				var current_val = ds_grid[# 3, yy];
 				var current_array = ds_grid[# 4, yy];
 				var left_shift = "<< ";
@@ -180,7 +180,7 @@ switch (global.settings_open)
 				draw_text_color(rtx, rty, left_shift+current_array[current_val]+right_shift, c,c,c,c, 1)
 				break;
 		
-			case menu_element_type.slider:
+			case main_menu_element_type.slider:
 				var len = 64;
 				var current_val = ds_grid[# 3, yy];
 				var current_array = ds_grid[# 4, yy];
@@ -193,7 +193,7 @@ switch (global.settings_open)
 				draw_text_color(rtx + (len * 1.2), rty,string(floor(circle_pos*100))+"%", c,c,c,c, 1);
 			break;
 	
-			case menu_element_type.toggle:
+			case main_menu_element_type.toggle:
 			var current_val = ds_grid[# 3, yy];
 			var c1, c2;
 			c = c_white;
